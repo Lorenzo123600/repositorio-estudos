@@ -27,3 +27,15 @@ test('as duas integrações usam app_id distinto',()=>{
  assert.match(read('index.html'),/appId:'prumo'/);
  assert.match(read('enem/src/main.js'),/appId:'enem'/);
 });
+
+test('restauração remota só ocorre após salvar o backup e estado local',()=>{
+ for(const path of ['cloud-sync.js','enem/src/cloud-sync.js']){
+  const source=read(path);
+  const begin=source.indexOf('if(original===null && !dirty');
+  const end=source.indexOf('if(localSnapshot===',begin);
+  const segment=source.slice(begin,end);
+  assert.ok(segment.indexOf('makeBackup(appId,local)')>=0);
+  assert.ok(segment.indexOf('localStorage.setItem(localKey,JSON.stringify(remote.state))') < segment.indexOf('applyState(remote.state)'));
+  assert.match(source,/fresh\.revision!==remote\.revision/);
+ }
+});
