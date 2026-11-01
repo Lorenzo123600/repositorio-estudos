@@ -1,0 +1,42 @@
+name: Build isolated test preview
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'cloud-sync.js'
+      - 'enem/**'
+      - '.github/workflows/build-test-preview.yml'
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: enem/package-lock.json
+      - run: npm ci && npm test && npm run build:pages
+        working-directory: enem
+      - name: Assemble preview without deploying to public pages
+        run: |
+          mkdir -p preview/enem
+          cp index.html cloud-sync.js preview/
+          cp enem/dist/index.html preview/enem/index.html
+          # Standalone ENEM bundle contains the compiled cloud-sync client.
+          cat > preview/LEIA-ME.txt <<'TXT'
+          VERSAO DE TESTES - NAO E O SITE PUBLICO
+          Use um servidor HTTP local para abrir a pasta preview.
+          Exemplo: python -m http.server 8000 --directory preview
+          Prumo: http://localhost:8000/
+          ENEM: http://localhost:8000/enem/
+          Nunca remova o progresso original do estudante.
+          TXT
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lorenzo-study-preview
+          path: preview/
+          retention-days: 7
