@@ -123,8 +123,8 @@ export function startStudyCloud({ appId, localKey, getState, applyState, mount }
   }
   function changed() {
     // Existing app code remains the source of truth for local persistence.
-    if(!auth)return;
     dirty=true;
+    if(!auth)return;
     if(blocked){msg('Conflito pendente · salvo localmente');return;}
     if(!navigator.onLine){msg('Offline · salvo localmente');return;}
     if(revision===null) return; // First load/reconciliation still in progress.
@@ -145,7 +145,7 @@ export function startStudyCloud({ appId, localKey, getState, applyState, mount }
         dirty=JSON.stringify(getState())!==localSnapshot;
         msg('Sincronizado');if(dirty)changed();return;
       }
-      if(original===null && !dirty) {
+      if(original===null && !dirty && localStorage.getItem(localKey)===null) {
         if(!makeBackup(appId,local)) {msg('Falha no backup local');return;}
         applyState(remote.state);
         localStorage.setItem(localKey,JSON.stringify(remote.state));
