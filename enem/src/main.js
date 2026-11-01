@@ -1,5 +1,6 @@
 import {essayTopics,initializeEssays,selectEssayTopic} from './essays.js';
 import './style.css';
+import {startStudyCloud} from './cloud-sync.js';
 import {subjects,plan} from './data.js';
 import {bank as questions} from './activities.js';
 import {companionPanel,bindFeatureLinks,renderExams,renderChallenges,recordActivity,finishExam,examTime,timeLabel} from './features.js';
@@ -22,7 +23,8 @@ const read=()=>{
 };
 let state=read();
 let tab='Painel',area=subjects[0],current=0,remaining=25*60,timer=null;
-const save=()=>{try{localStorage.setItem('enem-reta-final',JSON.stringify(state))}catch{document.querySelector('#storage-note').textContent='Não foi possível salvar neste navegador.'}};
+let cloud;
+const save=()=>{try{localStorage.setItem('enem-reta-final',JSON.stringify(state));cloud?.changed();}catch{document.querySelector('#storage-note').textContent='Não foi possível salvar neste navegador.'}};
 const icons=['◫','▦','◎','✎','◷','✦'];
 const navigate=t=>{tab=t;render()};
 const featureContext=()=>({state,save,render,navigate,practice:id=>{area=subjects[0];current=id;delete state.answers[id];save();navigate('Questões');}});
@@ -46,3 +48,4 @@ function clockText(){return `${String(Math.floor(remaining/60)).padStart(2,'0')}
 function bindTimer(){document.querySelector('#timer-toggle').onclick=()=>{if(timer){clearInterval(timer);timer=null}else{if(!remaining)remaining=1500;timer=setInterval(()=>{remaining=Math.max(0,remaining-1);const c=document.querySelector('#clock');if(c)c.textContent=clockText();if(!remaining){clearInterval(timer);timer=null;if(tab==='Painel'){document.querySelector('#timer-toggle').textContent='Novo ciclo ▷';document.querySelector('#timer-caption').textContent='Ciclo concluído. Faça uma pausa de 5 minutos.'}}},1000)}render()};document.querySelector('#timer-reset').onclick=()=>{clearInterval(timer);timer=null;remaining=1500;render()};}
 setInterval(()=>{const exam=state.activeExam;if(!exam||exam.finished)return;if(examTime(exam)===0){finishExam(state,save,'timeout');if(tab==='Simulados'||tab==='Painel')render();}else{const clock=document.querySelector('#exam-clock');if(clock)clock.textContent=timeLabel(examTime(exam));}},1000);
 render();
+cloud=startStudyCloud({appId:'enem',localKey:'enem-reta-final',getState:()=>state,applyState:value=>{state=value;render();}});
