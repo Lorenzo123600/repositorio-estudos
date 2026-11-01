@@ -48,3 +48,7 @@ A compilação de Pages contém CSS e JavaScript no próprio HTML para evitar fa
 ### Guapa
 
 A shih-tzu Guapa acompanha a Capitu no painel e nos desafios. Ela tem medo de capivara e participa mantendo seu espaço. O diálogo é opcional e cada desafio oferece uma pista própria pelo botão “Pedir uma pista para a Guapa”, sem marcar a resposta. Suas falas mudam após um e três desafios concluídos, respeitando o ritmo da personagem.
+
+### Temas de redação
+
+O seletor na área Redação oferece 12 propostas autorais de treino, com orientações específicas. Não são previsões do tema do ENEM. Cada proposta mantém rascunho e checklist independentes no navegador; a seleção é restaurada ao retornar. O rascunho anterior é preservado no tema de inclusão digital. O download inclui o título e usa o nome do tema no arquivo.
