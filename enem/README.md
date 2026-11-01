@@ -44,3 +44,7 @@ Endereço esperado após o GitHub concluir a publicação: https://lorenzo123600
 Para atualizar os arquivos compilados, execute `npm ci` e `npm run build:pages` nesta pasta. Publique o conteúdo de `dist/` na pasta `enem/` da branch `gh-pages`, preservando os demais arquivos da branch.
 
 A compilação de Pages contém CSS e JavaScript no próprio HTML para evitar falhas por caminhos de arquivos ou cache de assets.
+
+### Guapa
+
+A shih-tzu Guapa acompanha a Capitu no painel e nos desafios. Ela tem medo de capivara e participa mantendo seu espaço. O diálogo é opcional e cada desafio oferece uma pista própria pelo botão “Pedir uma pista para a Guapa”, sem marcar a resposta. Suas falas mudam após um e três desafios concluídos, respeitando o ritmo da personagem.
