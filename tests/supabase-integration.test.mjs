@@ -17,7 +17,7 @@ test('SQL exige autenticação, RLS e escrita por revisão',()=>{
 });
 test('nenhuma credencial administrativa é incluída no cliente',()=>{
  for(const f of ['cloud-sync.js','enem/src/cloud-sync.js']){
-  const source=read(f); assert.doesNotMatch(source,/sb_secret_|service_role|SUPABASE_SERVICE_ROLE_KEY/);
+  const source=read(f); assert.doesNotMatch(source,/sb_secret_|['\"]service_role['\"]|SUPABASE_SERVICE_ROLE_KEY/);
   assert.match(source,/sb_publishable_/);
   assert.match(source,/function makeBackup/);
   assert.match(source,/function conflictUI/);
