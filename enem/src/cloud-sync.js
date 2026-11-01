@@ -15,6 +15,7 @@ function makeBackup(appId, state) {
 function parse(value) { try { return JSON.parse(value); } catch { return null; } }
 export function startStudyCloud({ appId, localKey, getState, applyState, mount }) {
   const original = localStorage.getItem(localKey);
+  const storedUserKey = 'study-cloud-user:' + appId;
   let auth = parse(localStorage.getItem(AUTH_KEY));
   let revision = null, lastSynced = null, blocked = false, dirty = false, busy = false;
   let timer = null, generation = 0;
@@ -98,12 +99,16 @@ export function startStudyCloud({ appId, localKey, getState, applyState, mount }
       if(!makeBackup(appId,getState()) || !makeBackup(appId,remote.state)) {msg('Erro ao criar backup; operação cancelada');return;}
       blocked=false; revision=remote.revision;dirty=true;await push();
     }));
-    controls.append(button('Usar dados da nuvem',()=>{
+    controls.append(button('Usar dados da nuvem',async()=>{
+      try {
+        const fresh=await cloudRead();
+        if(!fresh || fresh.revision!==remote.revision) {if(fresh)conflictUI(fresh);else msg('Dados remotos alterados; tente novamente');return;}
+      } catch {msg('Sem conexão; progresso local preservado');return;}
       if(!makeBackup(appId,getState())) {msg('Erro ao criar backup; operação cancelada');return;}
       generation++; clearTimeout(timer); blocked=false;dirty=false;revision=remote.revision;
-      applyState(remote.state); // Each app must re-render after replacing its state.
       try{localStorage.setItem(localKey,JSON.stringify(remote.state));}
       catch{msg('Falha ao armazenar dados recuperados');return;}
+      applyState(remote.state); // Each app must re-render after replacing its state.
       lastSynced=JSON.stringify(remote.state);msg('Sincronizado');accountUI();
     }));
   }
@@ -145,10 +150,11 @@ export function startStudyCloud({ appId, localKey, getState, applyState, mount }
         dirty=JSON.stringify(getState())!==localSnapshot;
         msg('Sincronizado');if(dirty)changed();return;
       }
+      // A clean device may load remote state; existing local progress always requires explicit reconciliation.
       if(original===null && !dirty && localStorage.getItem(localKey)===null) {
         if(!makeBackup(appId,local)) {msg('Falha no backup local');return;}
-        applyState(remote.state);
         localStorage.setItem(localKey,JSON.stringify(remote.state));
+        applyState(remote.state);
         revision=remote.revision;lastSynced=JSON.stringify(remote.state);msg('Sincronizado');return;
       }
       if(localSnapshot===JSON.stringify(remote.state)) {
