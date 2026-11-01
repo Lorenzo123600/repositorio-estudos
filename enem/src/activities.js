@@ -1,3 +1,4 @@
+import officialQuestions from './official-questions.json' with {type:'json'};
 import { questions } from './data.js';
 export const extraQuestions = [
 ['Matemática','Média','As notas de quatro atividades são 6, 7, 8 e 9. Qual é a média aritmética?', ['6','7','7,5','8','8,5'],2,'A soma é 30. Dividindo pelas quatro atividades, a média é 7,5.'],
@@ -13,7 +14,7 @@ export const extraQuestions = [
 ['Natureza','Genética','No cruzamento Aa × Aa, sob dominância completa, qual é a probabilidade de um descendente ter genótipo aa?', ['0%','25%','50%','75%','100%'],1,'As combinações igualmente prováveis são AA, Aa, Aa e aa. Uma em quatro é aa: 25%.'],
 ['Natureza','Física','Um ciclista percorre 12 km em 30 minutos. Qual é sua velocidade média?', ['6 km/h','12 km/h','18 km/h','24 km/h','36 km/h'],3,'30 minutos correspondem a 0,5 hora. Velocidade média = 12 / 0,5 = 24 km/h.']
 ].map(([area,topic,text,options,answer,explanation])=>({area,topic,text,options,answer,explanation}));
-export const bank = [...questions, ...extraQuestions];
+export const bank = [...questions, ...extraQuestions].map((q,i)=>({...q,id:`autoral-${i}`,origin:'autoral',difficulty:'facil'})).concat(officialQuestions);
 export const challenges = [
 {id:'erro',title:'Detetive de porcentagem',kind:'Encontre o erro',prompt:'Lucas diz: “Um desconto de 20% seguido de aumento de 20% devolve o preço original de R$ 100.” Onde está o erro?',options:['Não há erro: os percentuais se anulam.','O aumento incide sobre R$ 80; o valor final é R$ 96.','O valor final é R$ 120.'],answer:1,explanation:'As bases são diferentes: 100 × 0,8 × 1,2 = 96. Sempre identifique sobre qual valor o percentual incide.',area:'Matemática'},
 {id:'intervencao',title:'Complete a intervenção',kind:'Redação na prática',prompt:'“O Ministério da Educação deve oferecer oficinas de inclusão digital em escolas públicas, por meio de parcerias com universidades.” Qual trecho acrescenta a finalidade?',options:['“com o objetivo de ampliar a autonomia digital da população idosa.”','“O Ministério da Educação.”','“por meio de parcerias.”'],answer:0,explanation:'A finalidade explicita o resultado pretendido. Aqui, “com o objetivo de” apresenta a ampliação da autonomia digital.',area:'Redação'},
@@ -21,10 +22,12 @@ export const challenges = [
 {id:'conectivo',title:'Ligue as ideias',kind:'Complete a frase',prompt:'“A internet amplia o acesso à informação; ___, a falta de acesso ainda exclui parte da população.” Qual conectivo indica oposição?',options:['portanto','porque','entretanto'],answer:2,explanation:'“Entretanto” apresenta um contraste. “Portanto” indica conclusão e “porque” introduz uma explicação ou causa.',area:'Linguagens'},
 {id:'cidadania',title:'Cidadania em ação',kind:'Escolha uma atitude',prompt:'Uma comunidade quer participar de decisões sobre o orçamento municipal. Qual ação favorece a participação democrática?',options:['Impedir o debate público','Participar de audiências públicas e acompanhar os gastos','Restringir o acesso aos dados públicos'],answer:1,explanation:'Audiências e transparência permitem acompanhar decisões e exercer o controle social sobre os recursos públicos.',area:'Humanas'}
 ];
-export function makeExam(count, random=Math.random){
- const groups=['Matemática','Linguagens','Humanas','Natureza'].map(area=>bank.map((q,i)=>q.area===area?i:-1).filter(i=>i>=0));
+export function makeExam(count, random=Math.random, {difficulty='all',origin='enem'}={}){
+ const groups=['Matemática','Linguagens','Humanas','Natureza'].map(area=>bank.flatMap((q,i)=>q.area===area&&(origin==='all'||q.origin===origin)&&(difficulty==='all'||q.difficulty===difficulty)?[i]:[]));
+ const available=groups.reduce((n,g)=>n+g.length,0);
+ if(!Number.isInteger(count)||count<1||count>available)throw new RangeError('Não há questões suficientes para esta sessão.');
  for(const group of groups)for(let i=group.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[group[i],group[j]]=[group[j],group[i]];}
- const ids=[];for(let round=0;ids.length<count&&round<5;round++)for(const group of groups)if(ids.length<count)ids.push(group[round]);return ids;
+ const ids=[];for(let round=0;ids.length<count;round++)for(const group of groups)if(ids.length<count&&group[round]!==undefined)ids.push(group[round]);return ids;
 }
 export function examResult(exam){const areas={};let correct=0;for(const id of exam.ids){const q=bank[id];areas[q.area]??={correct:0,total:0};areas[q.area].total++;if(exam.answers[id]===q.answer){correct++;areas[q.area].correct++;}}return {correct,total:exam.ids.length,areas};}
 export function todayKey(now=new Date()){return now.toLocaleDateString('en-CA',{timeZone:'America/Sao_Paulo'});}

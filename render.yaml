@@ -1,0 +1,24 @@
+# O plano com disco persistente é pago. Revise valores no Render antes de criar.
+services:
+  - type: web
+    name: reta-final-enem
+    runtime: node
+    plan: starter
+    rootDir: enem
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 24.19.0
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_PATH
+        value: /var/data/enem.sqlite
+      # Preencha com a origem HTTPS exata atribuída pelo Render, sem barra final.
+      - key: APP_ORIGIN
+        sync: false
+    disk:
+      name: enem-data
+      mountPath: /var/data
+      sizeGB: 1
