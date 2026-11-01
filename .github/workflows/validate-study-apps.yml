@@ -1,0 +1,37 @@
+name: Validate study apps (PR only)
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'cloud-sync.js'
+      - 'enem/**'
+      - 'supabase/**'
+      - 'tests/**'
+      - '.github/workflows/validate-study-apps.yml'
+  workflow_dispatch:
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: enem/package-lock.json
+      - name: Static integration and security checks
+        run: node --test tests/supabase-integration.test.mjs
+      - name: Install ENEM dependencies
+        run: npm ci
+        working-directory: enem
+      - name: Run ENEM regression tests
+        run: npm test
+        working-directory: enem
+      - name: Build ENEM for GitHub Pages
+        run: npm run build:pages
+        working-directory: enem
+      - name: Check client JavaScript syntax
+        run: |
+          node --check cloud-sync.js
+          node --check enem/src/cloud-sync.js
+          node --check enem/src/main.js
