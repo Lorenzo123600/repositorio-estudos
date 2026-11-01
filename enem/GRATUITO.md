@@ -35,7 +35,7 @@ No Supabase, em **Authentication → URL Configuration**, configure:
 - **Site URL:** `https://lorenzo123600.github.io/repositorio-estudos/enem/`
 - **Redirect URLs:** adicione exatamente `https://lorenzo123600.github.io/repositorio-estudos/enem/`.
 
-Mantenha o login por e-mail habilitado. Com confirmação de e-mail ativa, o aplicativo pede confirmação antes de entrar. A recuperação de senha também usa e-mail. O serviço padrão de e-mail do Supabase tem limites e restrições de destinatários: comece com o endereço da sua própria conta Supabase. Para outros usuários, pode ser necessário configurar SMTP conforme as regras do provedor. Não foi contratado serviço de e-mail.
+**Obrigatório:** em **Authentication → Sign In / Providers → Email**, mantenha o login por e-mail e **Confirm email** ativados. Sem Confirm email, o Supabase considera o endereço confirmado automaticamente, sem provar que a pessoa recebeu o e-mail. Essa configuração precisa ser ativada pelo proprietário no painel. O aplicativo encerra sessões recebidas no cadastro e bloqueia contas cujo e-mail consta como não confirmado. Com confirmação de e-mail ativa, o aplicativo pede confirmação antes de entrar. A recuperação de senha também usa e-mail. O serviço padrão de e-mail do Supabase tem limites e restrições de destinatários: comece com o endereço da sua própria conta Supabase. Para outros usuários, pode ser necessário configurar SMTP conforme as regras do provedor. Não foi contratado serviço de e-mail.
 
 ## 4. Publicar
 

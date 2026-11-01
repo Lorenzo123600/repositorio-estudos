@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createSupabaseTransport} from '../src/supabase-account.js';
-const user={id:'user-one',email:'teste@example.com',user_metadata:{name:'Estudante'}};
+const user={email_confirmed_at:'2026-11-01T12:00:00Z',id:'user-one',email:'teste@example.com',user_metadata:{name:'Estudante'}};
 function mock(){const calls=[];return {calls,auth:{getUser:async()=>({data:{user}}),signUp:async body=>{calls.push(['signup',body]);return {data:{user,session:null}};},signInWithPassword:async body=>{calls.push(['login',body]);return {data:{user}};},resetPasswordForEmail:async(...args)=>{calls.push(['reset',...args]);return {data:{}};},updateUser:async body=>{calls.push(['password',body]);return {data:{user}};},signOut:async body=>{calls.push(['logout',body]);return {data:{}};}},rpc:async(name,args)=>{calls.push([name,args]);return {data:name==='load_enem_study_progress'?{state:{done:[0]},revision:3}:{revision:4}};}};}
 test('Supabase: confirmação, login, recuperação e logout usam o serviço de autenticação',async()=>{
  const client=mock(),api=createSupabaseTransport(client,{redirectTo:'https://example.com/enem/'});
@@ -38,4 +38,18 @@ test('empacotamento Pages preserva strings literais do SDK e fecha scripts com s
  const {inlinePages}=await import('../scripts/inline-pages.mjs');const html='<script type="module" src="./assets/app.js"></script><link href="./assets/app.css" rel="stylesheet">';
  const js='const replacement = "$& $1"; const closing = "</script>";';
  const output=inlinePages(html,js,'.test::after{content:"$&"}');assert.ok(output.includes('"$& $1"'));assert.ok(output.includes('content:"$&"'));assert.ok(output.includes('<\\/script>'));assert.equal((output.match(/<script /g)||[]).length,1);
+});
+
+test('cadastro com sessão automática não abre conta e encerra a sessão recebida',async()=>{
+ const client=mock();client.auth.signUp=async()=>({data:{user,session:{access_token:'test'}}});
+ const api=createSupabaseTransport(client);assert.deepEqual(await api.request('/register',{body:JSON.stringify({name:'Nome',email:user.email,password:'Senha segura123'})}),{confirmationUnavailable:true});
+ assert.deepEqual(client.calls,[['logout',{scope:'local'}]]);
+});
+test('contas sem confirmação não entram, não restauram sessão e não consultam progresso',async()=>{
+ for(const path of ['/login','/me','/progress']){
+  const client=mock(),unconfirmed={...user,email_confirmed_at:null};
+  client.auth.getUser=async()=>({data:{user:unconfirmed}});client.auth.signInWithPassword=async()=>({data:{user:unconfirmed}});
+  const api=createSupabaseTransport(client);await assert.rejects(api.request(path,{body:JSON.stringify({email:user.email,password:'Senha segura123'})}),e=>e.status===401&&/Confirme/.test(e.message));
+  assert.deepEqual(client.calls,[['logout',{scope:'local'}]]);
+ }
 });

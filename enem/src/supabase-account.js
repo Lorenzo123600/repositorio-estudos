@@ -10,9 +10,17 @@ function check(result){
 }
 // Injection keeps the provider boundary testable without a live project or keys.
 export function createSupabaseTransport(client,{redirectTo,isRecovery=()=>false}={}){
+ async function requireVerified(user){
+  if(!user?.email_confirmed_at){
+   check(await client.auth.signOut({scope:'local'}));
+   throw error('Confirme seu e-mail antes de entrar.',401);
+  }
+  return user;
+ }
  async function current(expected){
   const {user}=check(await client.auth.getUser());
   if(!user)throw error('Entre na sua conta para sincronizar.',401);
+  await requireVerified(user);
   if(expected&&user.id!==expected)throw error('A conta mudou em outra aba. Entre novamente; a cópia local foi preservada.',401);
   return user;
  }
@@ -20,9 +28,11 @@ export function createSupabaseTransport(client,{redirectTo,isRecovery=()=>false}
   const body=options.body?JSON.parse(options.body):{},expected=options.headers?.['X-Study-User'];
   if(path==='/register'){
    const data=check(await client.auth.signUp({email:body.email.trim(),password:body.password,options:{data:{name:body.name.trim()},emailRedirectTo:redirectTo}}));
-   return data.session?{user:profile(data.user)}:{requiresConfirmation:true};
+   // Registration never opens the account, even if the provider is set to auto-confirm.
+   if(data.session){check(await client.auth.signOut({scope:'local'}));return {confirmationUnavailable:true};}
+   return {requiresConfirmation:true};
   }
-  if(path==='/login'){const data=check(await client.auth.signInWithPassword({email:body.email.trim(),password:body.password}));return {user:profile(data.user)};}
+  if(path==='/login'){const data=check(await client.auth.signInWithPassword({email:body.email.trim(),password:body.password}));await requireVerified(data.user);return {user:profile(data.user)};}
   if(path==='/recover'){check(await client.auth.resetPasswordForEmail(body.email.trim(),{redirectTo}));return {message:'Se o endereço estiver cadastrado, você receberá um link para definir uma nova senha. Confira também o spam.'};}
   const user=await current(expected);
   if(path==='/me')return {user:profile(user)};
