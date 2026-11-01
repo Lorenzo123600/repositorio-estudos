@@ -5,4 +5,8 @@ export function richText(value){
 }
 export const questionBody=q=>`${q.context?`<div class="question-context">${richText(q.context)}</div>`:''}<h2>${escapeHTML(q.text)}</h2>`;
 export const optionBody=value=>`<span class="answer-content">${richText(value)}</span>`;
-export const questionSource=q=>q.origin==='enem'?`<div class="question-source">ENEM ${q.year} · Questão ${q.number} · ${difficultyLabels[q.difficulty]}<p class="difficulty-note">Dificuldade editorial: ${escapeHTML(q.difficultyReason)} Não é classificação oficial do INEP.</p></div>`:'<p class="question-source">Questão autoral de revisão</p>';
+export function questionSource(q){
+ if(q.origin!=='enem')return '<p class="question-source">Questão autoral de revisão</p>';
+ const reference=[`ENEM ${q.year}`,q.application,q.day?`${q.day}º dia`:null,q.booklet?`Caderno ${q.booklet}`:null,`Questão ${q.number}`].filter(Boolean).map(escapeHTML).join(' · ');
+ return `<div class="question-source">${reference} · ${difficultyLabels[q.difficulty]}<p class="difficulty-note">Dificuldade editorial: ${escapeHTML(q.difficultyReason)} Não é classificação oficial do INEP.</p></div>`;
+}

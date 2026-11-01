@@ -19,7 +19,11 @@
     "answer": 2,
     "explanation": "A ideia de que apenas a variedade lusitana seria correta estabelece um padrão ideal de língua. O preconceito descrito desvaloriza a variedade brasileira, sem fundamento em uma inferioridade linguística.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/8/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-texto-de-agualusa-tematiza-o-preconceito-em-relacao-ao-portugues-brasileiro-com-base-no-trecho-ci/"
   },
   {
     "id": "enem-2023-10",
@@ -41,7 +45,11 @@
     "answer": 4,
     "explanation": "A repetição vocabular e os horários de publicação são pistas para identificar perfis falsos. A análise da linguagem ajuda a reconhecer padrões de disseminação de informações inverídicas.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/10/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/de-acordo-com-o-texto-analise-de-caracteristicas-da-linguagem-empregada-por-perfis-automatizados/"
   },
   {
     "id": "enem-2023-35",
@@ -63,7 +71,11 @@
     "answer": 0,
     "explanation": "Os percentuais de crescimento, a grande audiência e o reconhecimento por entidades esportivas convergem para um cenário favorável à expansão da modalidade.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/35/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-contexto-em-que-o-esporte-eletronico-e-apresentado-no-texto-demonstra-oa/"
   },
   {
     "id": "enem-2023-9",
@@ -85,7 +97,11 @@
     "answer": 4,
     "explanation": "O texto enumera ordens mendicantes, viajantes, jograis e correios urbanos. A diversidade desses canais explica a propagação eficaz; a velocidade dos cavalos, isoladamente, não explica o fenômeno.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/9/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/propagacao-sistematica-de-informacoes-e-um-fenomeno-recorrente-na-historia-e-no-desenvolvimento-da/"
   },
   {
     "id": "enem-2023-15",
@@ -107,7 +123,11 @@
     "answer": 1,
     "explanation": "Gravações de línguas sem falantes vivos não podem ser refeitas. Sua perda representa dano irreparável à memória e à identidade, sem significar que toda pesquisa futura seja impossível.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/15/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/perda-dos-registros-linguisticos-no-incendio-museu-nacional-tem-impacto-potencializado-uma-vez/"
   },
   {
     "id": "enem-2023-39",
@@ -129,7 +149,11 @@
     "answer": 2,
     "explanation": "A iniciativa cidadã por meio de uma petição pública provocou a atualização do verbete. O texto destaca a mobilização dos cidadãos, e não apenas a velocidade de circulação de uma definição.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/39/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/noticia-trata-da-mudanca-ocorrida-em-um-dicionario-da-lingua-portuguesa/"
   },
   {
     "id": "enem-2023-7",
@@ -151,7 +175,11 @@
     "answer": 0,
     "explanation": "As imagens do corpo e a referência histórica à escravidão articulam raça, gênero e violência na construção da identidade da narradora. Não se trata apenas de um padrão estético.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/7/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/nesse-texto-os-recursos-expressivos-usados-pela-narradora/"
   },
   {
     "id": "enem-2023-13",
@@ -173,7 +201,11 @@
     "answer": 2,
     "explanation": "O desfecho “me repousei dos meus cuidados” indica serenidade na relação presente. As lembranças dos amores anteriores culminam nessa entrega, em vez de indecisão ou desejo de voltar ao passado.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/13/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/perante-o-outro-o-eu-lirico-revela-na-forca-das-memorias-evocadas/"
   },
   {
     "id": "enem-2023-18",
@@ -195,7 +227,11 @@
     "answer": 1,
     "explanation": "As bancas de revista no primeiro texto e as telas e algoritmos no segundo representam a profusão de informações em épocas distintas. Esse é o ponto comum, mesmo com tons diferentes.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/18/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/embora-oriundas-de-momentos-historicos-diferentes-essas-letras-de-cancao-tem-em-comum/"
   },
   {
     "id": "enem-2023-53",
@@ -217,7 +253,11 @@
     "answer": 1,
     "explanation": "A convergência entre a placa Indiana e a Eurasiana produz compressão e soerguimento. O crescimento do Himalaia se associa ao encontro de placas, e não à deposição de lava.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/53/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/qual-dinamica-natural-e-responsavel-pelo-fenomeno-apresentado/"
   },
   {
     "id": "enem-2023-60",
@@ -239,7 +279,11 @@
     "answer": 3,
     "explanation": "Controlar dinheiro, destruir bens e reter documentos restringe a autonomia material da mulher. Essas condutas caracterizam violência patrimonial.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/60/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-texto-apresenta-tipos-de-conduta-sujeitos-punicao-conforme-previsto-na-lei-maria-da-penha-porq/"
   },
   {
     "id": "enem-2023-64",
@@ -261,7 +305,11 @@
     "answer": 3,
     "explanation": "A perda de biodiversidade, o aquecimento e os danos aos rios apontam efeitos da exploração predatória. O discurso defende uma mudança dessa relação com o ambiente.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/64/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-discurso-da-lider-indigena-explicita-um-problema-global-relacionado-aoa/"
   },
   {
     "id": "enem-2023-58",
@@ -283,7 +331,11 @@
     "answer": 0,
     "explanation": "A retomada da cavalgada mantém a devoção religiosa e incorpora participantes e condições do presente. Tradição e modernidade convivem, em vez de uma prática permanecer imutável.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/58/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/mudancas-culturais-mencionadas-no-texto-caracterizam-se-pela-presenca-de/"
   },
   {
     "id": "enem-2023-61",
@@ -305,7 +357,11 @@
     "answer": 4,
     "explanation": "O discurso de uma tecnologia aparentemente mágica apaga o trabalho humano precário que a sustenta. A crítica recai sobre a invisibilidade desses profissionais.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/61/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-texto-critica-mudanca-tecnologica-em-razao-da-seguinte-consequencia/"
   },
   {
     "id": "enem-2023-78",
@@ -327,7 +383,11 @@
     "answer": 0,
     "explanation": "O cultivo pode aproveitar espaços urbanos ociosos e aproximar produção e consumo. As outras alternativas não decorrem dessa prática: ela não exige mecanização nem prioridade para insumos químicos.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/78/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/pratica-agricola-destacada-no-texto-apresenta-como-vantagem-no-espaco-urbano/"
   },
   {
     "id": "enem-2023-59",
@@ -349,7 +409,11 @@
     "answer": 0,
     "explanation": "O uso de utensílios caros pelas elites estabelece modos de comer como marcas de pertencimento. A etiqueta funciona como distinção entre classes sociais.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/59/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-processo-social-relatado-indica-formacao-de-uma-etiqueta-que-tem-como-principio/"
   },
   {
     "id": "enem-2023-73",
@@ -371,7 +435,11 @@
     "answer": 0,
     "explanation": "A construção naval para a expansão marítima ampliou a demanda por madeira. Essa demanda contribuiu diretamente para a pressão sobre as florestas nos séculos XV e XVI.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/73/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/qual-acontecimento-periodo-contribuiu-diretamente-para-o-agravamento-da-situacao-descrita/"
   },
   {
     "id": "enem-2023-79",
@@ -393,7 +461,11 @@
     "answer": 1,
     "explanation": "O determinismo de Gerineldo reduz a vida a possibilidades previamente inventariadas. Em Sartre, a liberdade permite transcender a situação dada, possibilidade negada por essa postura.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/79/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/postura-determinista-adotada-pelo-personagem-gerineldo-contrasta-com-ideia-existencialista-conti/"
   },
   {
     "id": "enem-2023-100",
@@ -415,7 +487,11 @@
     "answer": 2,
     "explanation": "Na altura máxima a velocidade instantânea é zero. A aceleração gravitacional continua atuando para baixo: parar por um instante não significa deixar de sofrer aceleração.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/100/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/escolha-que-corresponde-combinacao-correta-e/"
   },
   {
     "id": "enem-2023-105",
@@ -437,7 +513,11 @@
     "answer": 4,
     "explanation": "O anel remove o floema e interrompe o transporte de seiva elaborada das folhas para as raízes. Sem esse fornecimento de nutrientes, as raízes morrem.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/105/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/barbatimao-e-o-nome-popular-de-uma-arvore-cuja-casca-e-utilizada-para-fins-medicinais-essa-casca-e/"
   },
   {
     "id": "enem-2023-106",
@@ -459,7 +539,11 @@
     "answer": 2,
     "explanation": "Ribossomos traduzem o RNAm vacinal em proteína viral. A apresentação desse antígeno desencadeia resposta imune; o RNAm não precisa ser incorporado ao DNA.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/106/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/imunizacao-produzida-por-esse-tipo-de-vacina-e-alcancada-por-meio-da/"
   },
   {
     "id": "enem-2023-104",
@@ -481,7 +565,11 @@
     "answer": 1,
     "explanation": "O gluconato se liga ao alumínio em solução. Quanto maior sua concentração, maior a remoção de íons livres e o deslocamento do equilíbrio para dissolver alumínio do vidro.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/104/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/o-vidro-contendo-aluminio-em-sua-composicao-e-um-excelente-material-para-acondicionar-medicamentos-e/"
   },
   {
     "id": "enem-2023-107",
@@ -503,7 +591,11 @@
     "answer": 3,
     "explanation": "As enzimas acrossômicas ajudam o espermatozoide a atravessar os envoltórios do ovócito. Sua inibição impede a passagem pela corona radiata e pela zona pelúcida, antes das etapas posteriores.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/107/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/o-coquetel-de-inibidores-impediu-oa/"
   },
   {
     "id": "enem-2023-127",
@@ -525,7 +617,11 @@
     "answer": 2,
     "explanation": "Com a cadeia respiratória bloqueada, o NADH deixa de ser oxidado normalmente a NAD+. Assim, acumula-se NADH, enquanto a produção de ATP pela fosforilação oxidativa diminui.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/127/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/producao-de-atp-depende-gradiente-de-protons-gerado-pela-cadeia-respiratoria-nessas-reacoes/"
   },
   {
     "id": "enem-2023-118",
@@ -547,7 +643,11 @@
     "answer": 2,
     "explanation": "É preciso combinar os critérios de cadeia saturada, número de carbonos e ramificação. No quadro, o composto III atende ao perfil de hidrocarboneto ramificado adequado à gasolina de maior desempenho.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/118/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/entre-esses-compostos-aquele-que-conferira-maior-desempenho-como-combustivel-e-o/"
   },
   {
     "id": "enem-2023-119",
@@ -569,7 +669,11 @@
     "answer": 2,
     "explanation": "Use PV = nRT com volume em litros e temperatura em kelvin: V = 0,100 L e T = 923 K. Com R aproximadamente 0,082, P = 0,1 × 0,082 × 923 / 0,100, aproximadamente 76 atm.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/119/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/pressao-em-atm-dentro-frasco-no-momento-da-explosao-e-mais-proxima-de/"
   },
   {
     "id": "enem-2023-135",
@@ -591,7 +695,11 @@
     "answer": 3,
     "explanation": "O intervalo entre os ecos é 1,1 − 0,5 = 0,6 s. Nesse intervalo, o pulso percorre duas vezes a camada líquida: 2 × 450 = 900 m. Logo, v = 900 / 0,6 = 1 500 m/s.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/135/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/o-petroleo-e-uma-materia-prima-muito-valiosa-e-metodos-geofisicos-sao-uteis-na-sua-prospeccao/"
   },
   {
     "id": "enem-2023-137",
@@ -613,7 +721,11 @@
     "answer": 2,
     "explanation": "A média deve ponderar cada salário pela quantidade de funcionários do respectivo setor. Some as duas folhas salariais indicadas no quadro e divida pelos 100 funcionários: R$ 3.250,00.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/137/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/media-dos-salarios-dos-100-funcionarios-dessa-empresa-em-real-e/"
   },
   {
     "id": "enem-2023-139",
@@ -635,7 +747,11 @@
     "answer": 3,
     "explanation": "Prolongue mês a mês as variações indicadas na tabela. O produto I supera o II em agosto; como a regra determina interromper a produção no mês seguinte, a resposta é setembro.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/139/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/o-gerente-de-uma-fabrica-pretende-comparar-evolucao-das-vendas-de-dois-produtos-similares-e-ii/"
   },
   {
     "id": "enem-2023-151",
@@ -657,7 +773,11 @@
     "answer": 1,
     "explanation": "Compare as alturas das duas curvas somente nos nove instantes inteiros marcados. Em quatro deles, o valor de A está acima do de B; não conte cruzamentos ou intervalos entre as marcas.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/151/details.json",
-    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental."
+    "difficultyReason": "Identificação direta de informação ou aplicação de conceito fundamental.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/em-quantos-desses-instantes-criptomoeda-estava-mais-valorizada-que-criptomoeda-b/"
   },
   {
     "id": "enem-2023-138",
@@ -679,7 +799,11 @@
     "answer": 2,
     "explanation": "Na urna B há inicialmente 16 bolinhas, pois 4/16 = 25%. Para 0,20 × 4/(16+x) ≤ 0,01, é preciso 16+x ≥ 80. Logo, devem ser adicionadas no mínimo 64 bolinhas brancas.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/138/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/qual-e-o-numero-minimo-de-bolinhas-brancas-que-o-gerente-deve-adicionar-urna-b/"
   },
   {
     "id": "enem-2023-143",
@@ -701,7 +825,11 @@
     "answer": 1,
     "explanation": "A lista atual tem 400 × 1,10 = 440 nomes. Reduzir essa lista em 25% exige 110 vagas adicionais. Com 10 crianças por sala, são necessárias 11 novas salas.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/143/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/o-numero-minimo-de-salas-que-deverao-ser-construidas-e/"
   },
   {
     "id": "enem-2023-155",
@@ -723,7 +851,11 @@
     "answer": 3,
     "explanation": "O lado da piscina mede √400 = 20 m. A calçada acrescenta 5 m de cada lado, formando um quadrado externo de lado 30 m. A diferença de áreas é 30² − 20² = 500 m².",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/155/details.json",
-    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação."
+    "difficultyReason": "Relaciona informações e exige uma inferência ou mais de uma operação.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/qual-e-medida-da-area-em-metro-quadrado-ocupada-pela-calcada/"
   },
   {
     "id": "enem-2023-136",
@@ -745,7 +877,11 @@
     "answer": 1,
     "explanation": "Por semelhança, o cone retirado tem altura 12 cm; o tronco tem 24 cm. Com π = 3, os volumes do cone original, do cone retirado e do cilindro são 2 916, 108 e 648 cm³. Resta 2 160 cm³; multiplicando por 0,6 g/cm³, a massa é 1 296 g.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/136/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/qual-e-massa-em-grama-dessa-escultura/"
   },
   {
     "id": "enem-2023-160",
@@ -767,7 +903,11 @@
     "answer": 0,
     "explanation": "As quantidades de senhas são N1 = 68×67×66×65, N2 = 52×51×50×10×6 e N3 = 52×51×10×9×6×5. Como N1 > N2 > N3, as probabilidades inversas satisfazem p1 < p2 < p3.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/160/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/nessas-condicoes-o-tipo-de-senha-que-apresenta-menor-probabilidade-de-ser-descoberta-ao-acaso-na/"
   },
   {
     "id": "enem-2023-158",
@@ -789,6 +929,946 @@
     "answer": 3,
     "explanation": "Com n ajudantes, a pesca é 100n+200 kg para n entre 1 e 5. A receita é 500n+1 000. Descontando custo fixo, diárias e 4% da receita, o lucro é 0,96(500n+1 000) − 900 − 250n = 230n+60. Para atingir R$ 800, n ≥ 740/230; o menor inteiro é 4.",
     "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/158/details.json",
-    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata."
+    "difficultyReason": "Combina conceitos, etapas de cálculo ou leitura abstrata.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/quantidade-minima-de-ajudantes-que-esse-pescador-precisa-contratar-para-conseguir-o-lucro-diario-p/"
+  },
+  {
+    "id": "enem-2023-11",
+    "year": 2023,
+    "number": 11,
+    "area": "Linguagens",
+    "topic": "Argumentação",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "Maio foi colorido de amarelo, e o foi porque mundialmente amarelo é a cor convencionada para as advertências. No trânsito, essas advertências têm sido fatais. A estimativa, caso nada seja feito, é a de que se atinjam assustadoras 2,4 milhões de mortes no trânsito em 2030 em todo o mundo.  \nA pressa constante, o sentimento de invencibilidade, a certeza de invulnerabilidade, a necessidade de poder, a falta de civilidade, a certeza de impunidade, a ausência de solidariedade, a inexistência de compaixão e o desrespeito por si próprio são circunstâncias reais que, não raro, concorrem para o comportamento violento no trânsito.  \nO Maio Amarelo, que preconiza a atenção pela vida, é uma das iniciativas nesse sentido. E é precisamente a atenção pela vida que está esquecida. Essa atenção, por certo, requer menos pressa, mais civilidade, limites assegurados, consciência de vulnerabilidade, solidariedade, compaixão e respeito por si e pelo outro. Reafirmar e praticar esses princípios e valores talvez seja um caminho mais seguro e menos violento, que garanta a vida e não celebre a morte.\n\nDisponível em: http://portaldotransito.com.br. Acesso em: 11 dez. 2018 (adaptado).",
+    "text": "Considerando os procedimentos argumentativos utilizados, infere-se que o objetivo desse texto é",
+    "options": [
+      "Enumerar as causas determinantes da violência no trânsito.",
+      "Contextualizar a campanha de advertência no cenário mundial.",
+      "Divulgar dados numéricos alarmantes sobre acidentes de trânsito.",
+      "Sensibilizar o público para a importância de uma direção responsável.",
+      "Restringir os problemas da violência no trânsito a aspectos emocionais."
+    ],
+    "answer": 3,
+    "explanation": "Os dados sobre mortes e a enumeração de atitudes no trânsito sustentam um apelo à mudança de comportamento. O objetivo principal é sensibilizar para uma direção responsável, e não apenas apresentar estatísticas.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/11/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/considerando-os-procedimentos-argumentativos-utilizados-infere-se-que-o-objetivo-desse-texto-e/"
+  },
+  {
+    "id": "enem-2023-36",
+    "year": 2023,
+    "number": 36,
+    "area": "Linguagens",
+    "topic": "Patrimônio cultural",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "Marabaixo é uma expressão artistico-cultural formada nas tradições e na identificação cultural entre as comunidades negras do Amapá. O nome remonta às mortes de escravizados em navios negreiros que eram jogados na água. Em sua homenagem, hinos de lamento eram cantados mar abaixo, mar acima. Posteriormente, o Marabaixo se integrou à vivência das comunidades negras em um ciclo de danças, cantorias com tambores e festas religiosas, recebendo, em 2018, o título de Patrimônio Cultural do Brasil.\n\nDisponível em: http://portal.iphan.gov.br. Acesso em: 15 nov. 2021 (adaptado).",
+    "text": "A manifestação do Marabaixo se constituiu em expressão de arte e cultura, exercendo função de",
+    "options": [
+      "Ressignificar episódios dramáticos em novas práticas culturais.",
+      "Adaptar coreografias como imitação dos movimentos do mar.",
+      "Lembrar dos mortos no passado escravista como forma de lamento.",
+      "Perpetuar uma narrativa de apagamento dos fatos históricos traumáticos.",
+      "Ritualizar a passagem de atos fúnebres nas produções coletivas com espírito festivo."
+    ],
+    "answer": 0,
+    "explanation": "O Marabaixo transforma a memória dolorosa da escravização em danças, cantos e celebrações que afirmam a identidade das comunidades. Essa transformação ressignifica os episódios históricos em novas práticas culturais.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/36/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/manifestacao-marabaixo-se-constituiu-em-expressao-de-arte-e-cultura-exercendo-funcao-de/"
+  },
+  {
+    "id": "enem-2023-42",
+    "year": 2023,
+    "number": 42,
+    "area": "Linguagens",
+    "topic": "Esporte e desigualdade",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "O acesso às Práticas Corporais/Atividades Físicas (PC/AF) é desigual no Brasil, à semelhança de outros indicadores sociais e de saúde. Em geral, PC/AF prazerosas, diversificadas, mais afeitas ao período de lazer estão concentradas nas populações mais abastadas. As atividades físicas de deslocamento, trajetos a pé ou de bicicleta para estudar ou trabalhar, por exemplo, são mais frequentes na classe social menos favorecida. Aqui, há uma relação inversa e perversa entre variáveis socioeconômicas de acesso às PC/AF. As maiores prevalências de inatividade física foram em mulheres, pessoas com 60 anos ou mais, negros, pessoas com autoavaliação de saúde ruim ou muito ruim, com renda familiar de até quatro salários mínimos por pessoa, pessoas que desconhecem programas públicos de PC/A e residentes em áreas sem locais públicos para a prática.\n\nKNUTH, A. G.; ANTUNES, P. C. **Saúde e Sociedade**, n. 2, 2021 (adaptado).",
+    "text": "O fator central que impacta a realização de práticas corporais/atividades fisicas no tempo de lazer no Brasil é a",
+    "options": [
+      "Diferença entre homens e mulheres.",
+      "Inexistência de políticas públicas.",
+      "Diversidade de faixa etária.",
+      "Variação de condição étnica.",
+      "Desigualdade entre classes sociais."
+    ],
+    "answer": 4,
+    "explanation": "O texto contrasta o lazer ativo das populações mais abastadas com os deslocamentos por necessidade das menos favorecidas. A desigualdade entre classes é o eixo que organiza essa comparação.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/42/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-fator-central-que-impacta-realizacao-de-praticas-corporais-atividades-fisicas-no-tempo-de-lazer/"
+  },
+  {
+    "id": "enem-2023-17",
+    "year": 2023,
+    "number": 17,
+    "area": "Linguagens",
+    "topic": "Linguagem e identidade editorial",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "Como é bom reencontrar os leitores da _Revista da Cultura_ por meio de uma publicação com outro visual, conteúdo de qualidade e interesses ampliados! _\\]cultura\\[_, este nome simples, e eu diria mesmo familiar, nasce entre dois colchetes voltados para fora. E não é por acaso: são sinais abertos, receptivos, propícios à circulação de ideias. O DNA da publicação se mantém o mesmo, afinal, por longos anos montamos nossas edições com assuntos saídos das estantes de uma grande livraria — e assim continuará sendo. Literatura, sociologia, filosofia, artes… nunca será difícil montar a pauta da revista porque os livros nos ensinam que monotonia é só para quem não lê.\n\nHERZ, P. J _**\\]cultura\\[**_, n. 1, jun. 2018 (adaptado).",
+    "text": "O uso não padrão dos colchetes para nomear a revista atribui-lhes uma nova função e está correlacionado ao(à)",
+    "options": [
+      "Perfil de público-alvo, constituído por leitores exigentes e especializados em leitura acadêmica.",
+      "Propósito do editor, chamando a atenção para o rigor normativo nos textos da revista.",
+      "Exclusividade na seleção temática, direcionada para a área das ciências humanas.",
+      "Identidade da revista, voltada para a recepção e a promoção de ideias circulantes em livros.",
+      "Padrão editorial dos artigos, organizados em torno de uma proposta de design inovador."
+    ],
+    "answer": 3,
+    "explanation": "Os colchetes voltados para fora simbolizam abertura e receptividade. A escolha gráfica reforça a identidade de uma revista que recebe e promove ideias vindas dos livros.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/17/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-uso-nao-padrao-dos-colchetes-para-nomear-revista-atribui-lhes-uma-nova-funcao-e-esta/"
+  },
+  {
+    "id": "enem-2023-22",
+    "year": 2023,
+    "number": 22,
+    "area": "Linguagens",
+    "topic": "Tradição oral",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "Alguém muito recentemente cortara o mato, que na época das chuvas crescia e rodeava a casa da mãe de Ponciá Vicêncio e de Luandi. Havia também vestígios de que a terra fora revolvida, como se ali fosse plantar uma pequena roça. Luandi sorriu. A mãe devia estar bastante forte, pois ainda labutava a terra. Cantou alto uma cantiga que aprendera com o pai, quando eles trabalhavam na terra dos brancos. Era uma canção que os negros mais velhos ensinavam aos mais novos. Eles diziam ser uma cantiga de voltar, que os homens, lá na África, entoavam sempre, quando estavam regressando da pesca, da caça ou de algum lugar. O pai de Luandi, no dia em que queria agradar à mulher, costumava entoar aquela cantiga ao se aproximar de casa. Luandi não entendia as palavras do canto; sabia, porém, que era uma língua que alguns negros falavam ainda, principalmente os velhos. Era uma cantiga alegre. Luandi, além de cantar, acompanhava o ritmo batendo com as palmas das mãos em um atabaque imaginário. Estava de regresso à terra. Voltava em casa. Chegava cantando, dançando a doce e vitoriosa cantiga de regressar.\n\nEVARISTO, C. **Ponciá Vicêncio**. Rio de Janeiro: Pallas, 2018.",
+    "text": "A leitura do texto permite reconhecer a “cantiga de voltar” como patrimônio linguístico que",
+    "options": [
+      "Representa a memória de uma língua africana extinta.",
+      "Exalta a rotina executada por jovens afrodescendentes.",
+      "Preserva a ancestralidade africana por meio da tradição oral.",
+      "Resgata a musicalidade africana por meio de palavras inteligíveis",
+      "Remonta à tristeza dos negros mais velhos com saudade da África."
+    ],
+    "answer": 2,
+    "explanation": "A cantiga é transmitida dos mais velhos aos mais novos e remete às práticas africanas de retorno para casa. A ancestralidade se preserva pela tradição oral, mesmo quando Luandi não compreende as palavras.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/22/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/leitura-texto-permite-reconhecer-cantiga-de-voltar-como-patrimonio-linguistico-que/"
+  },
+  {
+    "id": "enem-2023-40",
+    "year": 2023,
+    "number": 40,
+    "area": "Linguagens",
+    "topic": "Esporte e inclusão",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "A neozelandesa Laurel Hubbard fez história nos Jogos Olimpicos. Apesar de ter ficado de fora da disputa por medalhas, a levantadora de peso deixou sua marca na edição de Tóquio por ser a primeira mulher abertamente transgênero a participar de uma competição olímpica. No início da carreira, na década de 1990, a neozelandesa participava de disputas na categoria masculina. Em 2001, aos 23 anos, ela se afastou da atividade. “A pressão de tentar me encaixar em um mundo que talvez não tenha sido feito para pessoas como eu se tornou um fardo muito grande para suportar.” Em 2012, Laurel começou sua transição de gênero por meio de terapias hormonais e, em 2013, declarou abertamente ser uma mulher trans. Para o Comitê Olímpico Internacional, a participação de mulheres trans nos Jogos é permitida caso o nível de testosterona, hormônio que aumenta a massa muscular, esteja abaixo de 10 nanomols por litro por pelo menos 12 meses.\n\nDisponivel em: https://revistagalileu.globo.com Acesso em: 18 nov. 2021 (adaptado).",
+    "text": "No texto, os limites do potencial inclusivo do esporte são dados pela",
+    "options": [
+      "Dificuldade de conseguir bons resultados esportivos.",
+      "Dependência de características biológicas padronizadas.",
+      "Inexistência de uma categoria para pessoas transgênero",
+      "Necessidade de afastamento temporário das competições",
+      "Impossibilidade de uso controlado de substâncias"
+    ],
+    "answer": 1,
+    "explanation": "O critério apresentado pelo texto condiciona a participação a um padrão biológico de testosterona. É essa dependência de características biológicas padronizadas que delimita o potencial inclusivo descrito.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/40/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/no-texto-os-limites-potencial-inclusivo-esporte-sao-dados-pela/"
+  },
+  {
+    "id": "enem-2023-29",
+    "year": 2023,
+    "number": 29,
+    "area": "Linguagens",
+    "topic": "Ironia e contraste",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "Era um gato preto, como convinha a um cultor das boas letras, que já lera Poe traduzido por Baudelaire. Preto e gordo. E lerdo. Tão gordo e lerdo que a certa altura observei que ia perdendo inteiramente as qualidades características da raça, que são em suma o ódio de morte aos ratos. Já nem os afugentava! Os ratos de Ouro Preto são também dignos e solenes — não ria — tradicionalistas… descendentes de outros ratos que naqueles mesmos casarões presenciaram acontecimentos importantes da nossa história… No sobrado do desembargador Tomás Antônio Gonzaga, imagine o senhor uma reunião dos sonhadores inconfidentes, com os antepassados daqueles ratos a passearem pelo sótão ou mesmo pelo assoalho por entre as pernas dos homens absortos na esperança da independência nacional! E depois, os ancestres daqueles roedores que eu via agora deslizar sutilmente no meu quarto podiam ter subido pelo poste da ignomínia colonial, onde estava exposta a cabeça do Tiradentes! E quando as órbitas se descarnaram ignominiosamente, podiam até ter penetrado no recesso daquele crânio onde verdadeiramente ardera a literatura, com a simplicidade do heroísmo, a febre nacionalista…\n\nALPHONSUS, J. **Contos e novelas**. Rio de Janeiro: Imago; Brasília: INL, 1976.",
+    "text": "Descrevendo seu gato, o narrador remete ao contexto e a protagonistas da Inconfidência para criar um efeito desconcertante centrado no",
+    "options": [
+      "Desenho imaginativo do casario colonial de Ouro Preto.",
+      "Efeito de apagamento de limites entre ficção e realidade.",
+      "Vínculo estabelecido entre animais urbanos e literatura.",
+      "Questionamento sutil quanto à sanidade dos inconfidentes.",
+      "Contraste entre austeridade pomposa e imagem repugnante."
+    ],
+    "answer": 4,
+    "explanation": "A solenidade atribuída aos personagens históricos contrasta com a imagem dos ratos circulando pelos ambientes e pelo crânio de Tiradentes. O efeito desconcertante nasce do contraste entre a austeridade pomposa e a imagem repugnante.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/29/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/descrevendo-seu-gato-o-narrador-remete-ao-contexto-e-protagonistas-da-inconfidencia-para-criar-um/"
+  },
+  {
+    "id": "enem-2023-25",
+    "year": 2023,
+    "number": 25,
+    "area": "Linguagens",
+    "topic": "Metáfora literária",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "Passado muito tempo, resolvi tentar falar, porque estava sozinha me embrenhando na mesma vereda que Donana costumava entrar. Ainda recordo da palavra que escolhi: arado. Me deleitava vendo meu pai conduzindo o arado velho da fazenda carregado pelo boi, rasgando a terra para depois lançar grãos de arroz em torrões marrons e vermelhos revolvidos. Gostava do som redondo fácil e ruidoso que tinha ao ser enunciado. “Vou trabalhar no arado.” “Vou arar a terra.” “Seria bom ter um arado novo, esse arado tá troncho e velho.” O som que deixou minha boca era uma aberração, uma desordem, como se no lugar do pedaço perdido da língua tivesse um ovo quente. Era um arado torto, deformado, que penetrava a terra de tal forma a deixá-la infértil, destruída, dilacerada.\n\nVIEIRA JR.. I. **Torto arado**. São Paulo: Todavia, 2019.",
+    "text": "Com a perda de parte da língua na infância, a narradora tenta voltar a falar. Essa tentativa revela uma experiência que",
+    "options": [
+      "Reflete o olhar do pai sobre as etapas do plantio.",
+      "Metaforiza a linguagem como ferramenta de lavoura.",
+      "Explicita, na busca pela palavra, o medo da solidão.",
+      "Confirma a frustração da narradora com relação à terra.",
+      "Sugere, na ausência da linguagem, a estagnação do tempo."
+    ],
+    "answer": 1,
+    "explanation": "O arado revolve a terra; a língua produz a fala. A narradora aproxima o instrumento de lavoura de sua tentativa de falar, descrevendo a palavra deformada como um arado torto: uma metáfora entre linguagem e trabalho na terra.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/25/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/com-perda-de-parte-da-lingua-na-infancia-narradora-tenta-voltar-falar-essa-tentativa-revela/"
+  },
+  {
+    "id": "enem-2023-31",
+    "year": 2023,
+    "number": 31,
+    "area": "Linguagens",
+    "topic": "Poesia contemporânea",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "**Migalhas**\n\nEntre a toalha branca e um bule de café\n\nseria inapropriado dizer\n\neu não te amo mais.\n\nEra necessário algo mais solene,\n\num jardim japonês para as perdas pensadas,\n\num noturno de tempestade para arrebentar de dor,\n\numa praia de pedras para chorar em silêncio,\n\numa cama alta para o incenso da despedida,\n\numa janela dando para o abismo.\n\nNo entanto você abaixa os olhos\n\ne recolhe lentamente as migalhas de pão\n\nsobre a mesa posta para dois.\n\nMARQUES, A. M. **A vida submarina**. São Paulo: Cia. das Letras, 2021.",
+    "text": "Nesse poema, a representação do sentimento amoroso recupera a tradição lírica, mas se ajusta à visão contemporânea ao",
+    "options": [
+      "Invocar o interlocutor para uma tomada de posição.",
+      "Questionar a validade do envolvimento romântico.",
+      "Diluir em banalidade a comoção de um amor frustrado.",
+      "Transformar em paz as emoções conflituosas do casal.",
+      "Condicionar a existência da paixão a espaços idealizados."
+    ],
+    "answer": 2,
+    "explanation": "O poema imagina cenários solenes para uma separação, mas termina com o gesto cotidiano de recolher migalhas. A frustração amorosa permanece, porém sua expressão se dilui na banalidade da cena doméstica.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/31/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/nesse-poema-representacao-sentimento-amoroso-recupera-tradicao-lirica/"
+  },
+  {
+    "id": "enem-2023-62",
+    "year": 2023,
+    "number": 62,
+    "area": "Humanas",
+    "topic": "Guerra Fria e Coreias",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "Enormes alto-falantes sul-coreanos instalados na fronteira com o Norte costumavam transmitir desde canções em estilo K-pop (como é chamado o pop sul-coreano) até boletins climáticos e noticiário crítico ao vizinho comunista. O Norte costuma praticar atividade semelhante, transmitindo por seus alto-falantes discursos críticos a Seul e aliados. Durante os anos 1980, o governo sul-coreano construiu um mastro de 97 metros de altura para hastear sua bandeira no povoado de Daesong-dong, na fronteira com o Norte. O Norte respondeu com a construção de um mastro ainda mais alto (160 m) na cidade fronteiriça de Gijung-dong. “Essas demonstrações são uma válvula de escape competitiva e importante entre os dois lados, fora de um possível conflito militar”, diz o analista Ankit Panda.\n\nTAN, Y. **Disputa de mastros e alto-falantes com K-pop:** as pequenas picuinhas do conflito entre as Coreias. Disponível em: www.bbc.com. Acesso em: 7 nov. 2021 (adaptado).",
+    "text": "Os atos de competição citados têm suas origens históricas vinculadas a um contexto de",
+    "options": [
+      "Domínio cultural-identitário de atores sociais.",
+      "Disputas étnico-raciais de povos tradicionais.",
+      "Divergências político-ideológicas de agentes estatais.",
+      "Imposição econômico-financeira de empresas privadas",
+      "Protestos ecológico-sustentáveis de entidades ambientais"
+    ],
+    "answer": 2,
+    "explanation": "A competição simbólica entre as Coreias remete à divisão político-ideológica consolidada durante a Guerra Fria. Os Estados usam bandeiras e mensagens como formas de disputa sem entrar necessariamente em combate militar.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/62/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/os-atos-de-competicao-citados-tem-suas-origens-historicas-vinculadas-um-contexto-de/"
+  },
+  {
+    "id": "enem-2023-69",
+    "year": 2023,
+    "number": 69,
+    "area": "Humanas",
+    "topic": "Direitos humanos",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "Elas foram as pioneiras dos direitos das mulheres no Afeganistão. Defensoras ferrenhas da lei, buscaram justiça para os mais marginalizados. Mas, agora, mais de 220 juízas afegãs estão escondidas por medo de retaliação sob o regime do Talibã. Uma delas condenou centenas de homens por violência contra as mulheres, incluindo estupro, assassinato e tortura. Mas poucos dias depois que o Talibã assumiu o controle de sua cidade e milhares de criminosos condenados foram libertados da prisão, as ameaças de morte começaram. O país sempre foi considerado um dos lugares mais difíceis e perigosos do mundo para as mulheres. De acordo com estudos de organizações não governamentais, cerca de 87% das mulheres e meninas serão vítimas de abuso durante a vida.\n\nDisponível em: https://g1.globo.com. Acesso em: 12 out. 2021 (adaptado).",
+    "text": "O texto evidencia situação representativa de",
+    "options": [
+      "Afronta às estruturas sociais.",
+      "Desprezo aos valores religiosos.",
+      "Transgressão às normas morais.",
+      "Desrespeito à dignidade humana.",
+      "Oposição aos princípios hierárquicos."
+    ],
+    "answer": 3,
+    "explanation": "As ameaças às juízas e os abusos contra mulheres violam sua segurança, liberdade e integridade. O problema descrito é o desrespeito à dignidade humana.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/69/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-texto-evidencia-situacao-representativa-de/"
+  },
+  {
+    "id": "enem-2023-75",
+    "year": 2023,
+    "number": 75,
+    "area": "Humanas",
+    "topic": "Racismo e sociedade",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "A torcida do Fluminense inicia um movimento para mudar a letra de uma das músicas mais populares das arquibancadas tricolores. Grupos pedem a remoção do termo “mulambo imundo”, em uma provocação direta ao Flamengo. Mulambo é um termo que surgiu em Angola, na época da escravatura, e eles eram chamados de mulambos pelos senhores de engenho, os patrões das fazendas.\n\nDisponível em: https://oglobo.globo.com. Acesso em: 23 nov. 2021.",
+    "text": "Qual mudança no comportamento social a proposta reportada no texto reflete?",
+    "options": [
+      "A Rejeição de costumes elitistas.",
+      "Repulsão de condutas misóginas.",
+      "Condenação do preconceito racial.",
+      "Criminalização de práticas homofóbicas",
+      "Contestação do comportamento machista."
+    ],
+    "answer": 2,
+    "explanation": "A contestação de um termo ligado à escravização mostra uma crítica ao preconceito racial. O texto não trata especificamente de misoginia, homofobia ou hierarquias de renda.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/75/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/qual-mudanca-no-comportamento-social-proposta-reportada-no-texto-reflete/"
+  },
+  {
+    "id": "enem-2023-63",
+    "year": 2023,
+    "number": 63,
+    "area": "Humanas",
+    "topic": "Intercâmbio cultural",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "Seda, madeiras aromáticas e têxteis, obras de arte, lã, cristais e muitas, muitas peças de porcelana chegaram ao Brasil ao longo dos séculos XVII e XVIII. A opulência proporcionada pelo ouro fez com que esses itens fossem ainda mais presentes em cidades mineiras como Ouro Preto, Mariana e Sabará. Esses objetos inspiraram a criação das chinesices, termo que designa um tipo de arte que evoca motivos chineses, presentes em várias igrejas barrocas de Minas Gerais. No Brasil, é bem provável que a inspiração para as pinturas nas igrejas barrocas com pássaros, elefantes, tigres, mandarins e pagodes tenha sido tirada de gravuras, tecidos, móveis e, principalmente, das porcelanas chinesas que circulavam livremente em uma sociedade enriquecida pelo comércio do ouro e pedras preciosas.\n\nMARIUZZO, P. **Estudos interdisciplinares ampliam conhecimento sobre chinesice no barroco mineiro**. Disponível em: http://cienciaecultura.bvs.br. Acesso em: 23 nov. 2021 (adaptado).",
+    "text": "O desenvolvimento do processo artístico descrito no texto foi possível pelo(a)",
+    "options": [
+      "Representação arquitetônica.",
+      "Intercâmbio transcontinental.",
+      "Dependência econômica.",
+      "Intervenção estatal.",
+      "Padrão estético."
+    ],
+    "answer": 1,
+    "explanation": "A circulação de mercadorias entre continentes colocou motivos e objetos chineses em contato com os artistas do Brasil colonial. O intercâmbio transcontinental possibilitou a incorporação desses elementos ao barroco mineiro.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/63/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-desenvolvimento-processo-artistico-descrito-no-texto-foi-possivel-peloa/"
+  },
+  {
+    "id": "enem-2023-66",
+    "year": 2023,
+    "number": 66,
+    "area": "Humanas",
+    "topic": "Desigualdade social",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "**ТЕХТО I**\n\nComo é horrível ver um filho comer e perguntar: “Tem mais?” Esta palavra “tem mais” fica oscilando dentro do cérebro de uma mãe que olha as panela e não tem mais.\n\nJESUS, C. M. Quarto de despejo: diário de uma favelada. São Paulo: Ática. 2014.\n\n**ТЕХТО ІІ**\n\nA experiência de ver os filhos com fome na década de 1950, descrita por Carolina, é vivida no Brasil de 2021 por uma moradora de Petrolândia, em Pernambuco. “Eu trabalhava de ajudante de cabeleireira, mas a moça que tinha o salão fechou. Eu vinha me sustentando com o auxílio que tinha, mas agora eu não fui contemplada. Às vezes as pessoas me ajudam com alimentos para os meus filhos. De vez em quando, eu acho algum bico para fazer, mas é muito raro. Tem dias que não tenho nem o leite da minha bebê.”\n\nCARRANÇA, T. “Até o feijão nos esqueceu”: o livro de 1960 que poderia ter sido escritonas favelas de 2021.\n\nDisponível em: www.bbc.com. Acesso em: 6 out. 2021 (adaptado).",
+    "text": "Considerando a realidade brasileira, os textos se aproximam ao apresentarem uma reflexão sobre o(a)",
+    "options": [
+      "Recorrência da miséria.",
+      "Planejamento da saúde.",
+      "Superação da escassez.",
+      "Constância da economia.",
+      "Romantização da carência."
+    ],
+    "answer": 0,
+    "explanation": "O sofrimento narrado na década de 1950 reaparece no depoimento de 2021. A aproximação entre os textos evidencia a recorrência da miséria e da insegurança alimentar em épocas distintas.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/66/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/considerando-realidade-brasileira-os-textos-se-aproximam-ao-apresentarem-uma-reflexao-sobre-oa/"
+  },
+  {
+    "id": "enem-2023-82",
+    "year": 2023,
+    "number": 82,
+    "area": "Humanas",
+    "topic": "Migrações e cultura",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "Os vapores cruzavam os mares transportando pessoas, mercadorias e ideias, e ainda carregavam a mala postal, repleta de mensagens. Múltiplas histórias escritas atravessavam o oceano buscando por notícias de filhos e pais, irmãos, maridos e esposas, noivos e noivas. As missivas traziam boas e más novas, comunicavam alegremente nascimentos e casamentos, também doenças e mortes; enviavam declarações de amor e fidelidade, fotos de família; encaminhavam conselhos de velhos, pedidos de ajuda e de dinheiro; expediam cartas bancárias e de chamada. Essa literatura epistolar possibilitava a transmissão e reconstrução das tradições. Os deslocamentos tornaram-se um dos mais potentes produtores de escritura ao longo da história.\n\nTRUZZI, O.; MATOS, I. Saudades: sensibilidades no epistolário de e/imigrantes  \nportuqueses (Portugal-Brasil 1890-1930). Rev. Bras. Hist., n. 70, jul.-dez. 2015.",
+    "text": "Conforme o texto, as correspondências trocadas entre imigrantes no Brasil com os seus países de procedência constituíam um dispositivo tecnológico que possibilitava o(a)",
+    "options": [
+      "Disputa ideológica entre a comunidade de estrangeiros e a de nativos.",
+      "Circularidade cultural entre a sociedade de partida e a de acolhimento.",
+      "Controle doutrinário das narrativas do cotidiano de origem e de destino..",
+      "Fiscalização política dos fluxos de populações do Novo e do Velho Mundo.",
+      "Monitoramento social dos grupos de trabalhadores da cidade e do campo."
+    ],
+    "answer": 1,
+    "explanation": "As cartas transportavam notícias, valores, lembranças e tradições entre o país de origem e a sociedade de acolhimento. Assim, a tecnologia postal favorecia a circulação cultural entre os dois espaços.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/82/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/conforme-o-texto-correspondencias-trocadas-entre-imigrantes-no-brasil-com-os-seus-paises-de-proc/"
+  },
+  {
+    "id": "enem-2023-70",
+    "year": 2023,
+    "number": 70,
+    "area": "Humanas",
+    "topic": "Ditadura e repressão",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "No cemitério, a sociedade religiosa encarregada do funeral, aterrorizada, apressou a cerimônia de tal forma que a mãe de Herzog perdeu o momento em que o caixão do filho começou a ser coberto pela terra. Quatro jornalistas que estavam presos no DOI chegaram para assistir ao sepultamento. Um se afastara, chorando. Dizia: Eles matam, eles matam! Não pergunte nada. Não podemos dizer nada. Eles matam mesmo. Falava-se baixo. Ouviram-se dois curtos discursos. O primeiro, da atriz Ruth Escobar: Até quando vamos suportar tanta violência? Até quando vamos continuar enterrando nossos mortos em silêncio? No segundo, Audálio Dantas recitou o Navio negreiro, de Castro Alves: _Senhor Deus dos desgraçados / Dizei-me Vós, Senhor Deus / Se é mentira, se é verdade, / Tanto horror perante os céus._\n\nGASPARI, E. A ditadura encurralada. São Paulo: Cia. das Letras, 2004.",
+    "text": "O acontecimento descrito no texto, ocorrido em meados dos anos 1970, atesta a seguinte característica do regime político-institucional vigente:",
+    "options": [
+      "Incorporação da estética popular para justificar o ideal de integração nacional.",
+      "Afirmação da estratégia psicossocial para favorecer o objetivo de propaganda cívica.",
+      "Institucionalização de mecanismos repressivos para eliminar os focos de resistência.",
+      "Adoção de cerimoniais públicos para controlar as manifestações de grupos opositores.",
+      "Estatização de meios de comunicação para selecionar a divulgação de atos governamentais."
+    ],
+    "answer": 2,
+    "explanation": "O assassinato de Herzog, o medo de falar e o ambiente de intimidação evidenciam mecanismos repressivos institucionalizados. A violência de Estado atuava para eliminar ou silenciar focos de resistência.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/70/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/o-acontecimento-descrito-no-texto-ocorrido-em-meados-dos-anos-1970-atesta-seguinte-caracteristic/"
+  },
+  {
+    "id": "enem-2023-74",
+    "year": 2023,
+    "number": 74,
+    "area": "Humanas",
+    "topic": "Império Inca",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "Tahuantinsuyu — nome do Império Inca em quéchua — era dividido em quatro partes ou suyus: Chinchaysuyu (noroeste do Peru e Equador), Antisuyu (parte amazônica do império), Collasuyu (atual Bolívia) e Condesuyu (costa do Oceano Pacífico) e tinha Cuzco, no atual Peru, como sua capital imperial. Oficialmente, todas as etnias dominadas pelos incas deveriam adotar a língua quéchua, adorar o Sapa Inca e o Sol e pagar taxas em forma de horas de trabalhos periódicos. No entanto, pode-se dizer que o Império Inca era como um mosaico cultural em que vários e diferentes grupos étnicos adoravam o Sapa Inca e o Sol mas, simultaneamente, continuavam a adorar seus deuses locais e também a falar em suas línguas nativas.\n\nMARTINS, C. **Os incas e os tahuantinsuyu**: apresentação. Disponível em: http://antigo.anphlac.org. Acesso em: 6 out. 2021 (adaptado).",
+    "text": "Ao comparar, no texto, a vertente da dominação territorial com os aspectos culturais, os incas tinham uma postura",
+    "options": [
+      "Aceitável no que alude aos direitos humanos.",
+      "Admissível no que remete às crenças coloniais.",
+      "Tolerável no que se refere aos regimes tributários.",
+      "Flexível no que diz respeito aos costumes religiosos.",
+      "Compreensível no que concerne às normas laborais."
+    ],
+    "answer": 3,
+    "explanation": "O texto combina a imposição de culto ao soberano e ao Sol com a continuidade de deuses e práticas locais. Isso revela flexibilidade relativa nos costumes religiosos, sem eliminar as relações de dominação.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/74/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/ao-comparar-no-texto-vertente-da-dominacao-territorial-com-os-aspectos-culturais-os-incas-tinha/"
+  },
+  {
+    "id": "enem-2023-80",
+    "year": 2023,
+    "number": 80,
+    "area": "Humanas",
+    "topic": "Ditadura e organização sindical",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "O Golpe Militar de 1964 foi implacável no combate ao que restava das Ligas Camponesas, generalizadas na década anterior. No entanto, em relação aos sindicatos, sua atitude foi ambígua. Por meio de acordos com os Estados Unidos, foram concebidos centros sindicais e cursos de liderança com base em princípios conservadores e ministrados por membros da Igreja Católica.\n\nDEL PRIORE, M.; VENÂNCIO, R. Uma história da vida rural no Brasil. Rio de Janeiro: Ediouro, 2006 (adaptado).",
+    "text": "Os sindicatos rurais foram tratados da forma descrita no texto porque o governo pretendia utiliza-los para",
+    "options": [
+      "Controlar as tensões políticas.",
+      "Limitar a legislação trabalhista.",
+      "Divulgar o programa populista.",
+      "Regularizar a propriedade da terra.",
+      "Estimular a oferta de mão de obra."
+    ],
+    "answer": 0,
+    "explanation": "O governo reprimia organizações que considerava ameaçadoras, mas apoiava lideranças sindicais conservadoras. A aproximação seletiva permitia controlar tensões políticas no campo e restringir a mobilização independente.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/80/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/primeiro-dia/os-sindicatos-rurais-foram-tratados-da-forma-descrita-no-texto-porque-o-governo-pretendia-utiliza-lo/"
+  },
+  {
+    "id": "enem-2023-115",
+    "year": 2023,
+    "number": 115,
+    "area": "Natureza",
+    "topic": "Biorremediação",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "A biorremediação designa tratamentos que usam organismos para reduzir a quantidade de substâncias tóxicas no ambiente ou degradá-las em substâncias não tóxicas ou de menor toxicidade. Uma planta aquática, o aguapé, tem sido utilizada para a biorremediação de ambientes contaminados por metais tóxicos. Sabe-se que esses poluentes serão captados para dentro do corpo do vegetal.",
+    "text": "Dentro do corpo do vegetal, esses contaminantes serão",
+    "options": [
+      "Digeridos por enzimas.",
+      "Acumulados nos tecidos.",
+      "Eliminados pelos estômatos.",
+      "Metabolizados por glândulas.",
+      "Utilizados como fonte energética."
+    ],
+    "answer": 1,
+    "explanation": "Metais não são destruídos por digestão nem transformados em fonte de energia pelo vegetal. Na biorremediação descrita, são captados e acumulados nos tecidos da planta, que precisa receber destinação adequada.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/115/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/dentro-corpo-vegetal-esses-contaminantes-serao/"
+  },
+  {
+    "id": "enem-2023-128",
+    "year": 2023,
+    "number": 128,
+    "area": "Natureza",
+    "topic": "Ondas eletromagnéticas",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "É comum em viagens de avião sermos solicitados a desligar aparelhos cujo funcionamento envolva a emissão ou a recepção de ondas eletromagnéticas, como celulares. A justificativa dada para esse procedimento é, entre outras coisas, a necessidade de eliminar fontes de sinais eletromagnéticos que possam interferir nas comunicações, via rádio, dos pilotos com a torre de controle.",
+    "text": "Essa interferência poderá ocorrer somente se as ondas emitidas pelo celular e as recebidas pelo rádio do avião",
+    "options": [
+      "Forem ambas audíveis.",
+      "Tiverem a mesma potência.",
+      "Tiverem a mesma frequência.",
+      "Tiverem a mesma intensidade.",
+      "Propagarem-se com velocidades diferentes."
+    ],
+    "answer": 2,
+    "explanation": "A interferência no canal de rádio depende de sinais na mesma frequência de recepção. Igualdade de potência ou intensidade não basta para que o receptor sintonizado seja afetado pelo sinal descrito.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/128/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/essa-interferencia-podera-ocorrer-somente-se-ondas-emitidas-pelo-celular-e-recebidas-pelo-radi/"
+  },
+  {
+    "id": "enem-2023-130",
+    "year": 2023,
+    "number": 130,
+    "area": "Natureza",
+    "topic": "Materiais e sustentabilidade",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "Uma cafeteria adotou copos fabricados a partir de uma composição de 50% de plástico reciclado não biodegradável e 50% de casca de café. O copo é reutilizável e retornável, pois o material, semelhante a uma cerâmica, suporta a lavagem. Embora ele seja comercializado por um preço considerado alto quando comparado ao de um copo de plástico descartável, essa cafeteria possibilita aos clientes retornarem o copo sujo e levarem o café quente servido em outro copo já limpo e higienizado. O material desse copo oferece também o conforto de não esquentar na parte externa.\n\n**Cafeteria adota copo reutilizável feito com casca de café.** Disponível em: www.gazetadopovo.com.br. Acesso em: 5 dez. 2019 (adaptado).",
+    "text": "Quais duas vantagens esse copo apresenta em comparação ao copo descartável?",
+    "options": [
+      "Ter a durabilidade de uma cerâmica e ser totalmente biodegradável.",
+      "Ser tão durável quanto uma cerâmica e ter alta condutividade térmica.",
+      "Ser um mau condutor térmico e aumentar o resíduo biodegradável na natureza.",
+      "Ter baixa condutividade térmica e reduzir o resíduo não biodegradável na natureza.",
+      "Ter alta condutividade térmica e possibilitar a degradação do material no meio ambiente."
+    ],
+    "answer": 3,
+    "explanation": "O conforto térmico indica baixa condutividade térmica. O uso repetido do mesmo copo reduz o descarte de plástico não biodegradável; a presença de casca de café não torna toda a mistura biodegradável.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/130/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/quais-duas-vantagens-esse-copo-apresenta-em-comparacao-ao-copo-descartavel/"
+  },
+  {
+    "id": "enem-2023-131",
+    "year": 2023,
+    "number": 131,
+    "area": "Natureza",
+    "topic": "Densidade de soluções",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuam a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas.\n\nCAVAGIS, A. D. M.; PEREIRA, E. A.; OLIVEIRA, L. C. Um método simples para avaliar o teor de sacarose e CO2 em refrigerantes. **Química Nova na Escola**, n. 3, ago. 2014 (adaptado).",
+    "text": "Entre as duas versões apresentadas, o refrigerante comum possui",
+    "options": [
+      "Maior densidade.",
+      "Menor viscosidade.",
+      "Maior volume de gás dissolvido.",
+      "Menor massa de solutos dissolvidos.",
+      "Maior temperatura de congelamento."
+    ],
+    "answer": 0,
+    "explanation": "Para volumes equivalentes, a grande quantidade de açúcar aumenta a massa da bebida comum. Como densidade é massa dividida pelo volume, o refrigerante comum apresenta maior densidade nas condições descritas.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/131/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/entre-duas-versoes-apresentadas-o-refrigerante-comum-possui/"
+  },
+  {
+    "id": "enem-2023-117",
+    "year": 2023,
+    "number": 117,
+    "area": "Natureza",
+    "topic": "Radiações e unidades",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "Os raios cósmicos são fontes de radiação ionizante potencialmente perigosas para o organismo humano. Para quantificar a dose de radiação recebida, utiliza-se o sievert (Sv), definido como a unidade de energia recebida por unidade de massa. A exposição à radiação proveniente de raios cósmicos aumenta com a altitude, o que pode representar um problema para as tripulações de aeronaves. Recentemente, foram realizadas medições acuradas das doses de radiação ionizante para voos entre Rio de Janeiro e Roma.\nOs resultados têm indicado que a dose média de radiação recebida na fase de cruzeiro (que geralmente representa 80% do tempo total de voo) desse trecho intercontinental é 2 μSv/h. As normas internacionais da aviação civil limitam em 1 000 horas por ano o tempo de trabalho para as tripulações que atuem em voos intercontinentais. Considere que a dose de radiação ionizante para uma radiografia torácica é estimada em 0,2 mSv.\nRUAS, A. C. O tripulante de aeronaves e a radiação ionizante. São Paulo: Edição do Autor, 2019 (adaptado).\n ",
+    "text": "A quantas radiografias torácicas corresponde a dose de radiação ionizante à qual um tripulante que atue no trecho Rio de Janeiro−Roma é exposto ao longo de um ano?",
+    "options": [
+      "8",
+      "10",
+      "80",
+      "100",
+      "1000"
+    ],
+    "answer": 0,
+    "explanation": "A fase de cruzeiro ocupa 80% de 1 000 h, ou seja, 800 h. A dose é 800 × 2 = 1 600 μSv = 1,6 mSv. Dividindo por 0,2 mSv por radiografia, obtêm-se 8 radiografias.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/117/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/quantas-radiografias-toracicas-corresponde-dose-de-radiacao-ionizante-qual-um-tripulante-que/"
+  },
+  {
+    "id": "enem-2023-121",
+    "year": 2023,
+    "number": 121,
+    "area": "Natureza",
+    "topic": "Ligações químicas",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "Os solos amazônicos, ricos em silicato, não são apropriados para o cultivo por serem incapazes de reter nutrientes. Contudo, descobertas arqueológicas têm demonstrado que os antigos habitantes da Amazônia dominavam a técnica de preparo de um insumo agrícola natural, denominado terra preta. Esse insumo era constituído principalmente de uma espécie de biocarvão (biochar) obtido da queima de matéria orgânica, como troncos de árvores, pedaços de ossos e esterco, capaz de manter um solo fértil por anos.\n\nAdmite-se que o efeito do biocarvão na fertilização do solo estava, em parte, relacionado à presença de grupos orgânicos do tipo carboxilato em sua superfície, carregados negativamente (—COO–). Esses grupos atraem íons positivos necessários como nutrientes, tais quais os provenientes do potássio (K), do cálcio (Ca) e do magnésio (Mg), além de micronutrientes, como zinco (Zn) e ferro (Fe). Essa ligação no solo fertilizado é predominantemente iônica, conforme ilustra a figura, em que M\\* representa os cátions metálicos. De acordo com a escala de Pauling, a eletronegatividade do elemento oxigênio é igual a 3,44\n\n![](enem-assets/2023/questions/121/7814f78a-9417-4651-bec1-eb30fe7fd046.png)\n\nO quadro apresenta os valores de eletronegatividade desses cinco elementos metálicos.\n\n![](enem-assets/2023/questions/121/1913a73f-35d7-4367-a68e-949fa743bf7c.png)\n\nMICHALOVIC, M. Ancient Soil Chemists of the Amazon. **ChemMatters**, fev. 2009 (adaptado).",
+    "text": "O cátion que resultará em uma interação de maior caráter iônico com o ânion carboxilato será aquele proveniente do elemento",
+    "options": [
+      "Potássio.",
+      "Cálcio.",
+      "Magnésio.",
+      "Zinco.",
+      "Ferro."
+    ],
+    "answer": 0,
+    "explanation": "O caráter iônico aumenta com a diferença de eletronegatividade. Entre os metais apresentados, o potássio tem a menor eletronegatividade e, portanto, a maior diferença em relação ao oxigênio do carboxilato.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/121/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/o-cation-que-resultara-em-uma-interacao-de-maior-carater-ionico-com-o-anion-carboxilato-sera-aquele/"
+  },
+  {
+    "id": "enem-2023-120",
+    "year": 2023,
+    "number": 120,
+    "area": "Natureza",
+    "topic": "Circuitos elétricos",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "O circuito com três lâmpadas incandescentes idênticas, representado na figura, consiste em uma associação mista de resistores. Cada lâmpada (L1, L2, e L3) é associada, em paralelo, a um resistor de resistência R, formando um conjunto. Esses conjuntos são associados em série, tendo todas as lâmpadas o mesmo brilho quando ligadas à fonte de energia. Após vários dias em uso, apenas a lâmpada L2 queima, enquanto as demais permanecem acesas.\n\n![](enem-assets/2023/questions/120/80ceec42-52be-4ea5-8cf1-c75004d0f166.png)",
+    "text": "Em relação à situação em que todas as lâmpadas funcionam, após a queima de L2, os brilhos das lâmpadas serão",
+    "options": [
+      "Os mesmos.",
+      "Mais intensos.",
+      "Menos intensos.",
+      "Menos intenso para L1 e o mesmo para L3.",
+      "Mais intenso para L1 e menos intenso para L3."
+    ],
+    "answer": 2,
+    "explanation": "Ao queimar, a lâmpada L2 deixa de conduzir no seu ramo paralelo. A resistência equivalente daquele conjunto aumenta, elevando a resistência total em série e reduzindo a corrente. A tensão sobre os conjuntos intactos cai, e L1 e L3 brilham menos.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/120/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/em-relacao-situacao-em-que-todas-lampadas-funcionam-apos-queima-de-l2-os-brilhos-das/"
+  },
+  {
+    "id": "enem-2023-122",
+    "year": 2023,
+    "number": 122,
+    "area": "Natureza",
+    "topic": "Calor e mudanças de estado",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "Em uma indústria alimentícia, para produção de doce de leite, utiliza-se um tacho de parede oca com uma entrada para vapor de água a 120 °C e uma saída para água líquida em equilíbrio com o vapor a 100 °C. Ao passar pela parte oca do tacho, o vapor de água transforma-se em líquido, liberando energia. A parede transfere essa energia para o interior do tacho, resultando na evaporação de água e consequente concentração do produto.",
+    "text": "No processo de concentração do produto, é utilizada energia proveniente",
+    "options": [
+      "Somente do calor latente de vaporização.",
+      "Somente do calor latente de condensação.",
+      "Do calor sensível e do calor latente de vaporização.",
+      "Do calor sensível e do calor latente de condensação.",
+      "Do calor latente de condensação e do calor latente de vaporização."
+    ],
+    "answer": 3,
+    "explanation": "O vapor primeiro esfria de 120 °C até a temperatura de condensação, liberando calor sensível. Ao passar de vapor para líquido, também libera calor latente de condensação. São essas duas parcelas que aquecem o produto.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/122/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/no-processo-de-concentracao-produto-e-utilizada-energia-proveniente/"
+  },
+  {
+    "id": "enem-2023-113",
+    "year": 2023,
+    "number": 113,
+    "area": "Natureza",
+    "topic": "Intensidade de ondas",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "O bluetooth é uma tecnologia de comunicação sem fio, de curto alcance, presente em diferentes dispositivos eletrônicos de consumo. Ela permite que aparelhos eletrônicos diferentes se conectem e troquem dados entre si. No padrão bluetooth, denominado de Classe 2, as antenas transmitem sinais de potência igual a 2,4 mW e possibilitam conectar dois dispositivos distanciados até 10 m. Considere que essas antenas se comportam como fontes puntiformes que emitem ondas eletromagnéticas esféricas e que a intensidade do sinal é calculada pela potência por unidade de área. Considere 3 como valor aproximado para π. ",
+    "text": "Para que o sinal de bluetooth seja detectado pelas antenas, o valor mínimo de sua intensidade, em W/m²?, e mais próximo de",
+    "options": [
+      "![Expressão da alternativa A](enem-assets/2023/questions/113/8d968451-63ce-4bb6-9fc1-2a9997a962bf.png)",
+      "![Expressão da alternativa B](enem-assets/2023/questions/113/7c34bc21-998f-433e-8687-e08b95f9b871.png)",
+      "![Expressão da alternativa C](enem-assets/2023/questions/113/7286e182-5f71-4bbd-a08e-95b6b020028b.png)",
+      "![Expressão da alternativa D](enem-assets/2023/questions/113/335c851b-35c6-4c99-8bd1-50cada05ce2e.png)",
+      "![Expressão da alternativa E](enem-assets/2023/questions/113/efe618e1-ecf9-47c4-81eb-00060a2954e0.png)"
+    ],
+    "answer": 0,
+    "explanation": "A intensidade a 10 m é I = P/(4πr²). Convertendo 2,4 mW para 2,4 × 10⁻³ W e usando π = 3, obtém-se I = (2,4 × 10⁻³)/(4 × 3 × 100) = 2 × 10⁻⁶ W/m².",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/113/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/para-que-sinal-bluetooh-seja-detectado-pelas-antenas/"
+  },
+  {
+    "id": "enem-2023-150",
+    "year": 2023,
+    "number": 150,
+    "area": "Matemática",
+    "topic": "Porcentagem e álgebra",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "Dirigir após ingerir bebidas alcoólicas é uma atitude extremamente perigosa, uma vez que, a partir da primeira dose, a pessoa já começa a ter perda de sensibilidade de movimentos e de reflexos. Apesar de a eliminação e absorção do álcool depender de cada pessoa e de como o organismo consegue metabolizar a substância, ao final da primeira hora após a ingestão, a concentração de álcool (C) no sangue corresponde a aproximadamente 90% da quantidade (q) de álcool ingerida, e a eliminação total dessa concentração pode demorar até 12 horas.\n\nDisponível em: http://g1.globo.com. Acesso em: 1 dez. 2018 (adaptado).",
+    "text": "Nessas condições, ao final da primeira hora após a ingestão da quantidade q de álcool, a concentração C dessa substância no sangue é expressa algebricamente por",
+    "options": [
+      "C = 0,9q",
+      "C = 0,1q",
+      "C = 1 − 0,1q",
+      "C = 1 − 0,9q",
+      "C = q − 10"
+    ],
+    "answer": 0,
+    "explanation": "Noventa por cento de uma quantidade q é 90q/100, ou 0,9q. Portanto, a relação solicitada ao final da primeira hora é C = 0,9q, conforme o modelo fornecido no enunciado.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/150/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/nessas-condicoes-ao-final-da-primeira-hora-apos-ingestao-da-quantidade-q-de-alcool-concentraca/"
+  },
+  {
+    "id": "enem-2023-162",
+    "year": 2023,
+    "number": 162,
+    "area": "Matemática",
+    "topic": "Função afim",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "Para concretar a laje de sua residência, uma pessoa contratou uma construtora. Tal empresa informa que o preço _y_ do concreto bombeado é composto de duas partes: uma fixa, chamada de taxa de bombeamento, e uma variável, que depende do volume _x_ de concreto utilizado. Sabe-se que a taxa de bombeamento custa R$ 500,00 e que o metro cúbico do concreto bombeado é de R$ 250,00.",
+    "text": "A expressão que representa o preço y em função do volume x, em metro cúbico, é",
+    "options": [
+      "Y = 250x",
+      "Y = 500x",
+      "Y = 750x",
+      "Y = 250x + 500",
+      "Y = 500x + 250"
+    ],
+    "answer": 3,
+    "explanation": "O preço reúne uma parcela fixa de R$ 500 e uma variável de R$ 250 por metro cúbico. Para volume x, a parte variável é 250x e o total é y = 250x + 500.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/162/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/expressao-que-representa-o-preco-y-em-funcao-volume-x-em-metro-cubico-e/"
+  },
+  {
+    "id": "enem-2023-157",
+    "year": 2023,
+    "number": 157,
+    "area": "Matemática",
+    "topic": "Leitura de gráficos",
+    "difficulty": "facil",
+    "origin": "enem",
+    "context": "Um professor, para promover a aprendizagem dos estudantes em estatística, propôs uma atividade. O objetivo era verificar o percentual de estudantes com massa corporal abaixo da média e altura acima da média de um grupo de estudantes. Para isso, usando uma balança e uma fita métrica, avaliou uma amostra de dez estudantes, anotando as medidas observadas. O gráfico apresenta a massa corporal, em quilograma, e a altura, em metro, obtidas na atividade\n\n![](enem-assets/2023/questions/157/13cfbc97-0034-4904-9100-ff5ca3f6504e.png)\n\nApós a coleta dos dados, os estudantes calcularam a média dos valores obtidos, referentes à massa corporal e à altura, obtendo, respectivamente, 80 kg e 1,65 m.",
+    "text": "Qual é o percentual de estudantes dessa amostra com massa corporal abaixo da média e altura acima da média?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "50",
+      "70"
+    ],
+    "answer": 1,
+    "explanation": "No gráfico, conte somente os pontos à esquerda de 80 kg e acima de 1,65 m. São 2 estudantes entre os 10 da amostra. Logo, o percentual é 2/10 × 100 = 20%.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/157/details.json",
+    "difficultyReason": "Identifica informação central do texto ou aplica diretamente um conceito básico.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/qual-e-o-percentual-de-estudantes-dessa-amostra-com-massa-corporal-abaixo-da-media-e-altura-acima-da/"
+  },
+  {
+    "id": "enem-2023-140",
+    "year": 2023,
+    "number": 140,
+    "area": "Matemática",
+    "topic": "Média, mediana e moda",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "Uma empresa de transporte faz regularmente um levantamento do número de viagens realizadas durante o dia por todos os 160 motoristas cadastrados em seu aplicativo. Em um certo dia, foi gerado um relatório, por meio de um gráfico de barras, no qual se relacionaram a quantidade de motoristas com a quantidade de viagens realizadas até aquele instante do dia.\n\n![](enem-assets/2023/questions/140/846c1155-c9f0-48ad-a862-f9bf883c3935.png)",
+    "text": "Comparando os valores da média, da mediana e da moda da distribuição das quantidades de viagens realizadas pelos motoristas cadastrados nessa empresa, obtém-se",
+    "options": [
+      "Mediana = média < moda.",
+      "Mediana = moda < média.",
+      "Mediana < média < moda.",
+      "Moda < média < mediana.",
+      "Moda < mediana < média."
+    ],
+    "answer": 4,
+    "explanation": "A moda é 3 viagens, valor com maior frequência (55 motoristas). As posições 80 e 81 ficam no grupo de 4 viagens, portanto a mediana é 4. A média ponderada é 665/160 = 4,15625 viagens. Assim, moda < mediana < média.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/140/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/uma-empresa-de-transporte-faz-regularmente-um-levantamento-numero-de-viagens-realizadas-durante-o/"
+  },
+  {
+    "id": "enem-2023-144",
+    "year": 2023,
+    "number": 144,
+    "area": "Matemática",
+    "topic": "Volume e vazão",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "A foto mostra a construção de uma cisterna destinada ao armazenamento de água. Uma cisterna como essa, na forma de cilindro circular reto com 3 m² de área da base, foi abastecida por um curso-d’água com vazão constante. O seu proprietário registrou a altura do nível da água no interior da cisterna durante o abastecimento em diferentes momentos de um mesmo dia, conforme o quadro.\n\n![](enem-assets/2023/questions/144/c606403f-fd10-4c02-8e46-736fece94b85.png)\n\n![](enem-assets/2023/questions/144/2107cabc-64d0-4a1f-9eab-fa7dce0e9ac2.png)\n\nDisponível em: www.paraibamix.com. Acesso em: 3 dez. 2012.",
+    "text": "Qual foi a vazão, em metro cúbico por hora, do curso-d’água que abasteceu a cisterna?",
+    "options": [
+      "0,3",
+      "0,5",
+      "0,9",
+      "1,8",
+      "2,7"
+    ],
+    "answer": 2,
+    "explanation": "A vazão é a variação do volume dividida pelo tempo. Como a base mede 3 m², ΔV = 3Δh. Os registros indicam aumento de 0,3 m por hora, de modo que a vazão é 3 × 0,3 = 0,9 m³/h.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/144/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/foto-mostra-construcao-de-uma-cisterna-destinada-ao-armazenamento-de-agua/"
+  },
+  {
+    "id": "enem-2023-164",
+    "year": 2023,
+    "number": 164,
+    "area": "Matemática",
+    "topic": "Proporções em gráficos",
+    "difficulty": "medio",
+    "origin": "enem",
+    "context": "O gráfico expõe alguns números da gripe A-H1N1. Entre as categorias que estão em processo de imunização, uma já está completamente imunizada, a dos trabalhadores da saúde.\n\n![](enem-assets/2023/questions/164/194cf28a-b40d-493d-b106-8f71aee57f51.png)\n\nÉpoca, 26 abr. 2010 (adaptado).",
+    "text": "De acordo com o gráfico, entre as demais categorias, a que está mais exposta ao vírus da gripe A-H1N1 é a categoria de",
+    "options": [
+      "Indígenas.",
+      "Gestantes.",
+      "Doentes crônicos.",
+      "Adultos entre 20 e 29 anos.",
+      "Crianças de 6 meses a 2 anos."
+    ],
+    "answer": 3,
+    "explanation": "Compare a cobertura de imunização das categorias ainda incompletas, e não apenas a quantidade absoluta de vacinados. A categoria de adultos entre 20 e 29 anos apresenta a menor cobertura no gráfico e, portanto, a maior exposição relativa.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/164/details.json",
+    "difficultyReason": "Relaciona informações ou conceitos e organiza mais de uma etapa de leitura ou cálculo.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/de-acordo-com-o-grafico-entre-demais-categorias-que-esta-mais-exposta-ao-virus-da-gripe-h1n/"
+  },
+  {
+    "id": "enem-2023-165",
+    "year": 2023,
+    "number": 165,
+    "area": "Matemática",
+    "topic": "Área de superfícies",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "A figura representa uma escada com três degraus, construída em concreto maciço, com suas medidas especificadas.\n\n![](enem-assets/2023/questions/165/bf369224-eb93-4bba-98c4-ff7d1e17df36.png)\n\nNessa escada, pisos e espelhos têm formato retangular, e as paredes laterais têm formato de um polígono cujos lados adjacentes são perpendiculares. Pisos, espelhos e paredes laterais serão revestidos em cerâmica.",
+    "text": "A área a ser revestida em cerâmica, em metro quadrado, mede",
+    "options": [
+      "1,20.",
+      "1,35.",
+      "1,65.",
+      "1,80.",
+      "1,95."
+    ],
+    "answer": 4,
+    "explanation": "Os três pisos somam 3 × 0,25 × 1 = 0,75 m²; os três espelhos somam 3 × 0,20 × 1 = 0,60 m². Cada lateral tem área 0,25 × (0,20 + 0,40 + 0,60) = 0,30 m². O total é 0,75 + 0,60 + 2 × 0,30 = 1,95 m².",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/165/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/area-ser-revestida-em-ceramica-em-metro-quadrado-mede/"
+  },
+  {
+    "id": "enem-2023-167",
+    "year": 2023,
+    "number": 167,
+    "area": "Matemática",
+    "topic": "Proporcionalidade e desconto",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "A cada bimestre, a diretora de uma escola compra uma quantidade de folhas de papel ofício proporcional ao número de alunos matriculados. No bimestre passado, ela comprou 6 000 folhas para serem utilizadas pelos 1 200 alunos matriculados. Neste bimestre, alguns alunos cancelaram suas matrículas e a escola tem, agora, 1 150 alunos. A diretora só pode gastar R$ 220,00 nessa compra, e sabe que o fornecedor da escola vende as folhas de papel ofício em embalagens de 100 unidades a R$ 4,00 a embalagem. Assim, será preciso convencer o fornecedor a dar um desconto à escola, de modo que seja possível comprar a quantidade total de papel ofício necessária para o bimestre.",
+    "text": "O desconto necessário no preço final da compra, em porcentagem, pertence ao intervalo",
+    "options": [
+      "(5,0 ; 5,5).",
+      "(8,0 ; 8,5).",
+      "(11,5 ; 12,5).",
+      "(19,5 ; 20,5).",
+      "(3,5 ; 4,0)."
+    ],
+    "answer": 0,
+    "explanation": "A proporção é 6 000/1 200 = 5 folhas por aluno. Para 1 150 alunos, são 5 750 folhas; é preciso comprar 58 pacotes de 100, por R$ 232. Para pagar R$ 220, o desconto é 12/232 × 100, aproximadamente 5,17%, no intervalo (5,0; 5,5).",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/167/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/cada-bimestre-diretora-de-uma-escola-compra-uma-quantidade-de-folhas-de-papel-oficio/"
+  },
+  {
+    "id": "enem-2023-171",
+    "year": 2023,
+    "number": 171,
+    "area": "Matemática",
+    "topic": "Conversão de calendários",
+    "difficulty": "dificil",
+    "origin": "enem",
+    "context": "O calendário maia apresenta duas contagens simultâneas de anos, o chamado ano Tzolkim, composto por 260 dias e que determinava o calendário religioso, e o ano Haab, composto por 365 dias e que determinava o calendário agrícola. Um historiador encontrou evidências de que gerações de uma mesma família governaram certa comunidade maia pelo período de 20 ciclos, sendo cada ciclo formado por 52 anos Haab.\n\nDisponível em: www.suapesquisa.com. Acesso em: 20 ago. 2014.",
+    "text": "De acordo com as informações fornecidas, durante quantos anos Tzolkim aquela comunidade maia foi governada por tal família?",
+    "options": [
+      "741",
+      "1 040",
+      "1 460",
+      "2 100",
+      "5 200"
+    ],
+    "answer": 2,
+    "explanation": "O período tem 20 × 52 = 1 040 anos Haab. Convertendo para dias e depois para anos Tzolkim: 1 040 × 365/260 = 1 460. A conversão considera a duração de cada calendário, não apenas o número de ciclos.",
+    "source": "https://github.com/yunger7/enem-api/blob/main/public/2023/questions/171/details.json",
+    "difficultyReason": "Exige interpretação abstrata ou combinação de conceitos e etapas de resolução.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "referenceSource": "https://descomplica.com.br/gabarito-enem/questoes/2023/segundo-dia/o-calendario-maia-apresenta-duas-contagens-simultaneas-de-anos-o-chamado-ano-tzolkim-composto-por/"
   }
 ]

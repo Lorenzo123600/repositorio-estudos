@@ -25,7 +25,7 @@ function quiz(el){
  const ids=questions.flatMap((q,i)=>(area===subjects[0]||q.area===area)&&(difficulty==='all'||q.difficulty===difficulty)&&(questionOrigin==='all'||q.origin===questionOrigin)?[i]:[]);
  if(!ids.includes(current))current=ids[0];
  const filters=`<div class="filters">${subjects.map(s=>`<button data-area="${s}" class="${area===s?'selected':''}">${s}</button>`).join('')}</div><div class="question-filters"><label>Dificuldade<select id="difficulty"><option value="all">Todos os níveis</option>${Object.entries(difficultyLabels).map(([v,l])=>`<option value="${v}" ${difficulty===v?'selected':''}>${l}</option>`).join('')}</select></label><label>Banco de questões<select id="question-origin">${[['enem','Questões reais do ENEM'],['autoral','Revisão autoral'],['all','Todas as questões']].map(([v,l])=>`<option value="${v}" ${questionOrigin===v?'selected':''}>${l}</option>`).join('')}</select></label></div>`;
- el.innerHTML=heading('PRÁTICA COM DIREÇÃO','Uma questão, um aprendizado.','36 questões reais do ENEM 2023, com fonte e resolução. Níveis editoriais para organizar o estudo; sem estimativa de nota TRI.')+filters;
+ el.innerHTML=heading('PRÁTICA COM DIREÇÃO','Uma questão, um aprendizado.',`${questions.filter(q=>q.origin==='enem').length} questões reais do ENEM 2023, com referência e resolução. Níveis editoriais para organizar o estudo; sem estimativa de nota TRI.`)+filters;
  el.querySelectorAll('[data-area]').forEach(b=>b.onclick=()=>{area=b.dataset.area;render()});
  el.querySelector('#difficulty').onchange=e=>{difficulty=e.target.value;render()};
  el.querySelector('#question-origin').onchange=e=>{questionOrigin=e.target.value;render()};

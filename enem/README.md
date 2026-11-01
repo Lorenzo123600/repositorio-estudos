@@ -45,10 +45,10 @@ Senhas usam scrypt com salt aleatório. Sessões usam cookies HttpOnly/SameSite;
 
 ## Questões reais e níveis
 
-- **36 questões reais do ENEM 2023**, nove por área, com enunciado, alternativas, imagens locais, gabarito, explicação e link da transcrição.
-- Três níveis **editoriais**: fácil, médio e difícil, com três questões por área em cada nível. Não são níveis oficiais do INEP nem parâmetros da TRI.
+- **72 questões reais do ENEM 2023**, dezoito por área, com enunciado, alternativas, imagens locais, gabarito, explicação e referência em texto (ano, aplicação, dia, caderno e número).
+- Três níveis **editoriais**: fácil, médio e difícil, com seis questões por área em cada nível. Não são níveis oficiais do INEP nem parâmetros da TRI.
 - Os **20 itens autorais** anteriores continuam disponíveis no filtro de revisão, preservando os índices do progresso existente.
-- Simulados novos usam somente questões reais: 10 questões por nível ou 10/20 com níveis misturados, sem repetição dentro de uma sessão. Há 12 questões em cada nível; por isso, 20 exige níveis misturados.
+- Simulados novos usam somente questões reais: 10 ou 20 questões por nível ou com níveis misturados, sem repetição dentro de uma sessão. Há 24 questões em cada nível, suficientes para uma sessão de 20 sem repetição.
 - Resultado em acertos, sem previsão de nota TRI. O tempo segue correndo ao fechar a página; uma sessão expirada é finalizada ao voltar.
 
 Fonte comunitária: [API ENEM de yunger7](https://github.com/yunger7/enem-api). Proveniência, critérios e limitações em [QUESTION-SOURCES.md](QUESTION-SOURCES.md). Os dados importados são distribuídos com sua licença GPL-2.0, preservada em `public/licenses/`. Não há chamada externa à API durante o estudo. A seleção foi revisada para evitar imagens ausentes e alternativas duplicadas detectadas; não substitui conferência dos PDFs oficiais em caso de divergência.

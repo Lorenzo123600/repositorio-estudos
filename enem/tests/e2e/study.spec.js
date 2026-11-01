@@ -1,3 +1,4 @@
+import {bank} from '../../src/activities.js';
 import {test,expect} from '@playwright/test';
 const password='Senha de teste 123!';
 async function enter(page,email,register=false){
@@ -30,7 +31,7 @@ test('questões reais, imagens, filtros, simulado e tela móvel funcionam',async
  await expect(page.locator('.question-source')).toContainText('ENEM 2023');await page.locator('[data-area="Matemática"]').click();await page.locator('#difficulty').selectOption('dificil');await expect(page.locator('.question-source')).toContainText('Difícil');await expect(page.locator('.question-context img')).toBeVisible();
  expect(await page.locator('.question-context img').evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
  await page.locator('#question-origin').selectOption('autoral');await expect(page.locator('.empty-state')).toBeVisible();
- await page.locator('[data-tab="Simulados"]').click();await page.locator('#exam-difficulty').selectOption('facil');await expect(page.locator('[data-start-exam="20"]')).toBeDisabled();await page.locator('[data-start-exam="10"]').click();await expect(page.locator('.question-map button')).toHaveCount(10);await expect(page.locator('.question-source')).toContainText('Fácil');
+ await page.locator('[data-tab="Simulados"]').click();await page.locator('#exam-difficulty').selectOption('facil');await expect(page.locator('[data-start-exam="20"]')).toBeEnabled();await page.locator('[data-start-exam="10"]').click();await expect(page.locator('.question-map button')).toHaveCount(10);await expect(page.locator('.question-source')).toContainText('Fácil');
  await page.locator('[data-exam-answer="0"]').click();await page.locator('#finish-exam').click();await page.locator('#confirm-exam').click();await expect(page.locator('.result-hero')).toContainText('10');await expect(page.locator('.review-list .card')).toHaveCount(10);
  await page.setViewportSize({width:390,height:844});await page.locator('[data-tab="Questões"]').click();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
 });
@@ -40,4 +41,12 @@ test('código de recuperação permite voltar à conta sem e-mail e rotaciona ap
  await page.goto('/');await page.locator('#account-open').click();await page.locator('#account-form [name=name]').fill('Recuperação');await page.locator('#account-form [name=email]').fill(email);await page.locator('#account-form [name=password]').fill(password);await page.getByRole('button',{name:'Criar conta',exact:true}).click();
  const code=await page.locator('.recovery-code code').innerText();expect(code).toMatch(/^[a-f0-9]{48}$/);await page.locator('#account-logout').click();await page.locator('#account-open').click();await page.getByText('Esqueci minha senha',{exact:true}).click();
  await page.locator('#recover-form [name=email]').fill(email);await page.locator('#recover-form [name=code]').fill(code);await page.locator('#recover-form [name=password]').fill('Nova senha segura123!');await page.getByRole('button',{name:'Recuperar acesso',exact:true}).click();await expect(page.locator('dialog h2')).toHaveText('Sua conta');expect(await page.locator('.recovery-code code').innerText()).not.toBe(code);
+});
+
+test('simulado com alternativas em imagem mantém figuras na resolução',async({page})=>{
+ const id=bank.findIndex(q=>q.id==='enem-2023-113');expect(id).toBeGreaterThan(55);
+ await page.addInitScript(({id})=>localStorage.setItem('enem-reta-final',JSON.stringify({activeExam:{ids:[id],answers:{},index:0,startedAt:Date.now(),deadline:Date.now()+600000,finished:false}})),{id});
+ await page.goto('/');await page.locator('[data-tab="Simulados"]').click();await expect(page.locator('.question-source')).toContainText('Caderno Azul');await expect(page.locator('.options img')).toHaveCount(5);
+ await expect.poll(()=>page.locator('.options img').evaluateAll(images=>images.every(i=>i.complete&&i.naturalWidth>0))).toBe(true);
+ await page.locator('[data-exam-answer="0"]').click();await page.locator('#finish-exam').click();await page.locator('#confirm-exam').click();await expect(page.locator('.review-list img')).toHaveCount(2);await expect(page.locator('.result-hero')).toContainText('1 de 1 acertos');
 });
