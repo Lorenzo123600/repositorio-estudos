@@ -1,1 +1,16 @@
-{"name":"reta-final-enem","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0","test":"node tests/data.test.js"},"devDependencies":{"vite":"^7.2.2"}}
+{
+  "name": "reta-final-enem",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node tests/data.test.js",
+    "build:pages": "vite build --base=./ && node scripts/build-pages.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.2.2"
+  }
+}

@@ -3,8 +3,22 @@ import {subjects,plan} from './data.js';
 import {bank as questions} from './activities.js';
 import {companionPanel,bindFeatureLinks,renderExams,renderChallenges,recordActivity,finishExam,examTime,timeLabel} from './features.js';
 const score=answers=>Object.entries(answers).filter(([i,a])=>questions[i]?.answer===a).length;
-const read=()=>{try{return JSON.parse(localStorage.getItem('enem-reta-final'))||{}}catch{return {}}};
-let state=read(); state.done??=[];state.answers??={};state.essay??='';state.start??=new Date().toLocaleDateString('en-CA',{timeZone:'America/Sao_Paulo'});
+const read=()=>{
+ let loaded={};try{const value=JSON.parse(localStorage.getItem('enem-reta-final'));if(value&&typeof value==='object'&&!Array.isArray(value))loaded=value;}catch{}
+ const object=value=>value&&typeof value==='object'&&!Array.isArray(value)?value:{};
+ loaded.done=Array.isArray(loaded.done)?[...new Set(loaded.done.filter(i=>Number.isInteger(i)&&i>=0&&i<14))]:[];
+ loaded.answers=Object.fromEntries(Object.entries(object(loaded.answers)).filter(([id,a])=>questions[id]&&Number.isInteger(a)&&a>=0&&a<5));
+ loaded.essay=typeof loaded.essay==='string'?loaded.essay:'';
+ loaded.checks=Array.isArray(loaded.checks)?loaded.checks:[];
+ loaded.activities=object(loaded.activities);
+ for(const day of Object.values(loaded.activities)){if(day&&typeof day==='object'){for(const type of ['questions','challenges','exams'])if(!Array.isArray(day[type]))day[type]=[];}}
+ loaded.challengeAnswers=object(loaded.challengeAnswers);loaded.challengeDone=object(loaded.challengeDone);
+ loaded.examHistory=Array.isArray(loaded.examHistory)?loaded.examHistory:[];
+ if(loaded.activeExam&&(!Array.isArray(loaded.activeExam.ids)||!loaded.activeExam.ids.length||!loaded.activeExam.ids.every(id=>questions[id])||!loaded.activeExam.answers||!Number.isFinite(loaded.activeExam.deadline)))loaded.activeExam=null;
+ if(typeof loaded.start!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(loaded.start))loaded.start=new Date().toLocaleDateString('en-CA',{timeZone:'America/Sao_Paulo'});
+ return loaded;
+};
+let state=read();
 let tab='Painel',area=subjects[0],current=0,remaining=25*60,timer=null;
 const save=()=>{try{localStorage.setItem('enem-reta-final',JSON.stringify(state))}catch{document.querySelector('#storage-note').textContent='Não foi possível salvar neste navegador.'}};
 const icons=['◫','▦','◎','✎','◷','✦'];
