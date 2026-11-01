@@ -32,8 +32,8 @@ export function createSupabaseTransport(client,{redirectTo,isRecovery=()=>false}
    check(await client.auth.updateUser({password:body.password}));return {ok:true};
   }
   if(path==='/progress'){
-   if(options.method==='PUT')return check(await client.rpc('save_study_progress',{p_state:body.state,p_revision:body.revision}));
-   return check(await client.rpc('load_study_progress'));
+   if(options.method==='PUT')return check(await client.rpc('save_enem_study_progress',{p_state:body.state,p_revision:body.revision}));
+   return check(await client.rpc('load_enem_study_progress'));
   }
   throw error('Operação indisponível.',404);
  }};

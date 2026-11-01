@@ -12,7 +12,7 @@ O aplicativo agora suporta **GitHub Pages + Supabase Free**: a página continua 
 
 ## 2. Preparar o banco
 
-Abra **SQL Editor → New query**. Cole o conteúdo completo de [`supabase/schema.sql`](supabase/schema.sql) e clique em **Run**. Esse arquivo cria a tabela, as funções de sincronização e as políticas que restringem cada pessoa aos próprios dados. Pode ser executado novamente sem apagar os dados. Não desative **Row Level Security (RLS)**.
+Abra **SQL Editor → New query**. Cole o conteúdo completo de [`supabase/schema.sql`](supabase/schema.sql) e clique em **Run**. Esse arquivo cria a tabela exclusiva `enem_study_progress`, as funções de sincronização e as políticas que restringem cada pessoa aos próprios dados. Pode ser executado novamente sem apagar os dados. Uma tabela preexistente chamada `study_progress`, inclusive com colunas `app_id` e `state`, permanece intacta. Não desative **Row Level Security (RLS)**.
 
 ## 3. Conectar o site
 

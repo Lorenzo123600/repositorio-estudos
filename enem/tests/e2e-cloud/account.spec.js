@@ -12,8 +12,8 @@ test('SDK Supabase: confirmação, login, progresso em duas sessões e recupera�
   else if(path.endsWith('/token'))data={access_token:jwt,refresh_token:'refresh-example',expires_in:3600,token_type:'bearer',user};
   else if(path.endsWith('/user'))data=user;
   else if(path.endsWith('/recover')){resetRequested=true;data={};}
-  else if(path.endsWith('/load_study_progress'))data={state,revision};
-  else if(path.endsWith('/save_study_progress')){const body=request.postDataJSON();if(body.p_revision!==revision){status=409;data={code:'PT409',message:'Conflict'};}else{state=body.p_state;data={revision:++revision};}}
+  else if(path.endsWith('/load_enem_study_progress'))data={state,revision};
+  else if(path.endsWith('/save_enem_study_progress')){const body=request.postDataJSON();if(body.p_revision!==revision){status=409;data={code:'PT409',message:'Conflict'};}else{state=body.p_state;data={revision:++revision};}}
   else if(path.endsWith('/logout'))data={};
   else throw Error('Unexpected cloud request: '+path);
   await route.fulfill({status,json:data,headers:{'Access-Control-Allow-Origin':'*','Access-Control-Allow-Headers':'*'}});

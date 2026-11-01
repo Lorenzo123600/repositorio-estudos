@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createSupabaseTransport} from '../src/supabase-account.js';
 const user={id:'user-one',email:'teste@example.com',user_metadata:{name:'Estudante'}};
-function mock(){const calls=[];return {calls,auth:{getUser:async()=>({data:{user}}),signUp:async body=>{calls.push(['signup',body]);return {data:{user,session:null}};},signInWithPassword:async body=>{calls.push(['login',body]);return {data:{user}};},resetPasswordForEmail:async(...args)=>{calls.push(['reset',...args]);return {data:{}};},updateUser:async body=>{calls.push(['password',body]);return {data:{user}};},signOut:async body=>{calls.push(['logout',body]);return {data:{}};}},rpc:async(name,args)=>{calls.push([name,args]);return {data:name==='load_study_progress'?{state:{done:[0]},revision:3}:{revision:4}};}};}
+function mock(){const calls=[];return {calls,auth:{getUser:async()=>({data:{user}}),signUp:async body=>{calls.push(['signup',body]);return {data:{user,session:null}};},signInWithPassword:async body=>{calls.push(['login',body]);return {data:{user}};},resetPasswordForEmail:async(...args)=>{calls.push(['reset',...args]);return {data:{}};},updateUser:async body=>{calls.push(['password',body]);return {data:{user}};},signOut:async body=>{calls.push(['logout',body]);return {data:{}};}},rpc:async(name,args)=>{calls.push([name,args]);return {data:name==='load_enem_study_progress'?{state:{done:[0]},revision:3}:{revision:4}};}};}
 test('Supabase: confirmação, login, recuperação e logout usam o serviço de autenticação',async()=>{
  const client=mock(),api=createSupabaseTransport(client,{redirectTo:'https://example.com/enem/'});
  assert.deepEqual(await api.request('/register',{body:JSON.stringify({email:' e@example.com ',name:' Nome ',password:'Senha segura123'})}),{requiresConfirmation:true});
@@ -15,7 +15,7 @@ test('Supabase: RPC preserva revisões e recusa mudança de conta em outra aba',
  const client=mock(),api=createSupabaseTransport(client);
  assert.equal((await api.request('/progress')).revision,3);
  assert.equal((await api.request('/progress',{method:'PUT',body:'{"state":{"done":[0]},"revision":3}'})).revision,4);
- assert.deepEqual(client.calls.at(-1),['save_study_progress',{p_state:{done:[0]},p_revision:3}]);
+ assert.deepEqual(client.calls.at(-1),['save_enem_study_progress',{p_state:{done:[0]},p_revision:3}]);
  await assert.rejects(api.request('/progress',{headers:{'X-Study-User':'other-user'}}),e=>e.status===401);
  client.rpc=async()=>({error:{code:'PT409',message:'conflict'}});await assert.rejects(api.request('/progress'),e=>e.status===409);
 });
