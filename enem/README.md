@@ -142,6 +142,6 @@ Capitu e Guapa oferecem orientação sobre o fluxo e o ritmo, sem dicas do conte
 
 ## Banco local ampliado de questões
 
-O banco contém 356 questões reais do ENEM 2022/2023 (355 elegíveis; uma anulada preservada no histórico) e 20 autorais. As 284 novas questões são carregadas por demanda, por ano e área, sem API durante o estudo. Consulte [fontes e manutenção](QUESTION-SOURCES.md) e [validação da entrega](QUESTION-BANK-VALIDATION.md).
+O banco disponibiliza **1.070 questões reais validadas do ENEM 2017–2024**, além das 20 autorais preservadas. São 839 novos registros e 231 anteriores revalidados. Os originais, com fórmulas e figuras, são locais e carregados por demanda usando `public/questions/manifest.json`. Registros antigos pendentes ficam apenas no histórico. Consulte o [relatório completo e manutenção](QUESTION-BANK-1000.md), as [fontes](QUESTION-SOURCES.md) e a [validação](QUESTION-BANK-VALIDATION.md).
 
 Antes de publicar: `npm run validate:questions && npm test && npm run build:pages`. Publique todo `dist/`, incluindo `questions/` e `enem-assets/`.

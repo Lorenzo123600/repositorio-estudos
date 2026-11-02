@@ -144,3 +144,7 @@
 @media(max-width:750px){.exam-options{grid-template-columns:1fr;gap:13px}.exam-options .exam-option{padding:18px}.exam-option-heading h2{font-size:20px}}
 
 .question h2 img{max-width:100%;max-height:480px;object-fit:contain;display:block;margin:14px auto}
+
+.official-original img{max-height:none;max-width:100%;width:min(100%,650px);height:auto}.official-original{background:#fff;padding:12px}.option img{height:auto}
+
+.official-transcript{overflow-wrap:anywhere;margin:12px 0}.official-transcript summary{cursor:pointer;color:var(--bora-green,#166c54)}

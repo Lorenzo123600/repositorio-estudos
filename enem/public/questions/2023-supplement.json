@@ -1,0 +1,640 @@
+[
+  {
+    "id": "enem-2023-5-ingles",
+    "year": 2023,
+    "number": 5,
+    "area": "Linguagens",
+    "discipline": "Inglês",
+    "language": "ingles",
+    "topic": "Inglês",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 5 — ENEM 2023",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2023:regular:blue:5:ingles",
+    "context": "![Enunciado original do ENEM 2023, questão 5](enem-assets/official/2023/5-ingles/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2023/5-ingles/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/5-ingles/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/5-ingles/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/5-ingles/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/5-ingles/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2023/5-ingles/statement.webp",
+      "enem-assets/official/2023/5-ingles/A.webp",
+      "enem-assets/official/2023/5-ingles/B.webp",
+      "enem-assets/official/2023/5-ingles/C.webp",
+      "enem-assets/official/2023/5-ingles/D.webp",
+      "enem-assets/official/2023/5-ingles/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/5-ingles/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 3,
+      "transcript": "QUESTÃO 05\t\n“Oh, you’ll love working here. Nobody treats you any \ndifferently just because of your age, race, or gender.”\nDisponível em: www.cartoonstock.com. Acesso em: 25 out. 2021.\nAo retratar o ambiente de trabalho em um escritório, esse \ncartum tem por objetivo"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/5-ingles/A.webp",
+        "text": "A\t\nA\t criticar um padrão de vestimenta."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/5-ingles/B.webp",
+        "text": "B\t\nB\t destacar a falta de diversidade."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/5-ingles/C.webp",
+        "text": "C\t\nC\t indicar um modo de interação."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/5-ingles/D.webp",
+        "text": "D\t\nD\t elogiar um modelo de organização."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/5-ingles/E.webp",
+        "text": "3\nDERNO 1 • AZUL–\nE\t\nE\t salientar o espírito de cooperação."
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 5,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 3
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 397.21734619140625
+        },
+        {
+          "letter": "B",
+          "y": 411.75201416015625
+        },
+        {
+          "letter": "C",
+          "y": 426.2867431640625
+        },
+        {
+          "letter": "D",
+          "y": 440.8212890625
+        },
+        {
+          "letter": "E",
+          "y": 455.35589599609375
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/5-ingles/statement.webp",
+          "sha256": "99d71150b6084ce28d06590aa2369a4d7afbbeebdeb2e32d3b8caba0eda1d67b",
+          "page": 3,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            398.21734619140625
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 670
+        },
+        {
+          "file": "enem-assets/official/2023/5-ingles/A.webp",
+          "sha256": "2a8bec1466a7f6361fc88234db5106281aba8ca5e0f19e30f1b037de7f53d662",
+          "page": 3,
+          "rect": [
+            285.4645080566406,
+            398.21734619140625,
+            546.1339111328125,
+            412.75201416015625
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/5-ingles/B.webp",
+          "sha256": "fbba5d2beb4a04700862d0f84346e2e9c96a46bf2eb3a69716c639d13aae9d8a",
+          "page": 3,
+          "rect": [
+            285.4645080566406,
+            412.75201416015625,
+            546.1339111328125,
+            427.2867431640625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/5-ingles/C.webp",
+          "sha256": "60bfa69216cbf224b73e98e212bd1b383a352d89e2a8235d04a1835bd4d4da53",
+          "page": 3,
+          "rect": [
+            285.4645080566406,
+            427.2867431640625,
+            546.1339111328125,
+            441.8212890625
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/5-ingles/D.webp",
+          "sha256": "3cbbe58029756d06ba8ffa01cbc8e9d1ab2ee38990087523d74590d1e373a9d7",
+          "page": 3,
+          "rect": [
+            285.4645080566406,
+            441.8212890625,
+            546.1339111328125,
+            456.35589599609375
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/5-ingles/E.webp",
+          "sha256": "664aca43b163c4f5c3d46aba8c31a8dd0cc16490e8cbb95f307aa1a7f46ffcac",
+          "page": 3,
+          "rect": [
+            285.4645080566406,
+            456.35589599609375,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 594
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/5-ingles/details.json",
+    "contentFingerprint": "0ff26472bddfe68f516391c6893d5cd907ed07887e5791b497561307bbb15584",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "4ec50f8b1aa1a8394e20fd8aa0c16138e212a8e9c07174efe3cbdd7d11b3bddc"
+  },
+  {
+    "id": "enem-2023-34",
+    "year": 2023,
+    "number": 34,
+    "area": "Linguagens",
+    "discipline": "Linguagens e Códigos",
+    "language": null,
+    "topic": "Linguagens e Códigos",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 34 — ENEM 2023",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2023:regular:blue:34:pt",
+    "context": "![Enunciado original do ENEM 2023, questão 34](enem-assets/official/2023/34/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2023/34/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/34/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/34/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/34/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/34/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2023/34/statement.webp",
+      "enem-assets/official/2023/34/A.webp",
+      "enem-assets/official/2023/34/B.webp",
+      "enem-assets/official/2023/34/C.webp",
+      "enem-assets/official/2023/34/D.webp",
+      "enem-assets/official/2023/34/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/34/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 15,
+      "transcript": "QUESTÃO 34\t\nTEXTO I\nLogo no início de Gira, um grupo de sete bailarinas \nocupa o centro da cena. Mãos cruzadas sobre a lateral \nesquerda do quadril, olhos fechados, troncos que pendulam \nsobre si mesmos em vaguíssimas órbitas, tudo nelas \nsugere o transe. Está estabelecido o caráter volátil do que \nse passará no palco dali para frente. Mas engana-se quem \npensa que vai assistir a uma representação mimética dos \ncultos afro-brasileiros.\nTEXTO II\nDisponível em: www.grupocorpo.com.br. Acesso em: 2 jul. 2019.\nNo diálogo que estabelece com religiões afro-brasileiras, \nsintetizado na descrição e na imagem do espetáculo, \na dança exprime uma"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/34/A.webp",
+        "text": "A\t\nA\t crítica aos movimentos padronizados do balé clássico."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/34/B.webp",
+        "text": "B\t\nB\t representação contemporânea de rituais ancestrais \nextintos."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/34/C.webp",
+        "text": "C\t\nC\t reelaboração estética erudita de práticas religiosas \npopulares."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/34/D.webp",
+        "text": "D\t\nD\t releitura irônica da atmosfera mística presente no culto \na entidades."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/34/E.webp",
+        "text": "15\nDERNO 1 • AZUL–\nE\t\nE\t oposição entre o resgate de tradições e a efemeridade \nda vida humana."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 34,
+        "rect": [
+          289.1339111328125,
+          242.56483459472656,
+          353.6106872558594,
+          256.5268249511719
+        ],
+        "page": 15
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 621.90087890625
+        },
+        {
+          "letter": "B",
+          "y": 635.5532836914062
+        },
+        {
+          "letter": "C",
+          "y": 660.0234985351562
+        },
+        {
+          "letter": "D",
+          "y": 684.4937133789062
+        },
+        {
+          "letter": "E",
+          "y": 708.9639282226562
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/34/statement.webp",
+          "sha256": "0e818e3a0fda429c8e6c4cd9be5f8c5d91b6d7fe133e5d2499946ab41c82bb58",
+          "page": 15,
+          "rect": [
+            285.4645080566406,
+            241.56483459472656,
+            546.1339111328125,
+            622.90087890625
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 763
+        },
+        {
+          "file": "enem-assets/official/2023/34/A.webp",
+          "sha256": "499103ea5ba1bd4c78d2ff52d8e701badd8fafc542f3552d409ee7a7d047cc15",
+          "page": 15,
+          "rect": [
+            285.4645080566406,
+            622.90087890625,
+            546.1339111328125,
+            636.5532836914062
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2023/34/B.webp",
+          "sha256": "fa8b7c342818d80dc5fabebce928b2f636d3e8f2e6a235d6b992036656b826a8",
+          "page": 15,
+          "rect": [
+            285.4645080566406,
+            636.5532836914062,
+            546.1339111328125,
+            661.0234985351562
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 50
+        },
+        {
+          "file": "enem-assets/official/2023/34/C.webp",
+          "sha256": "47480a1918e7a90ea82ed6b7c0640d28b4a1c7f1414e89c2272a08fc412428ce",
+          "page": 15,
+          "rect": [
+            285.4645080566406,
+            661.0234985351562,
+            546.1339111328125,
+            685.4937133789062
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 49
+        },
+        {
+          "file": "enem-assets/official/2023/34/D.webp",
+          "sha256": "e3d3759ca2a2d098f5deb3dbaa21bb39a59beda9c2253231d93a4a2068168f54",
+          "page": 15,
+          "rect": [
+            285.4645080566406,
+            685.4937133789062,
+            546.1339111328125,
+            709.9639282226562
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 50
+        },
+        {
+          "file": "enem-assets/official/2023/34/E.webp",
+          "sha256": "19a1083c66e2d91d0025a41489f292f03336bbbfab6a8e46c93963c0e616a7aa",
+          "page": 15,
+          "rect": [
+            285.4645080566406,
+            709.9639282226562,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 87
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno original do INEP; sem declaração de domínio público",
+    "structuredSource": null,
+    "contentFingerprint": "54f9f7708777f933ae97367c19fe3d1e6465ea5d14d77044bea57bb13c70673c",
+    "explanationStatus": "preserved-editorial"
+  },
+  {
+    "id": "enem-2023-65",
+    "year": 2023,
+    "number": 65,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 65 — ENEM 2023",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2023:regular:blue:65:pt",
+    "context": "![Enunciado original do ENEM 2023, questão 65](enem-assets/official/2023/65/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2023/65/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/65/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/65/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/65/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/65/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2023/65/statement.webp",
+      "enem-assets/official/2023/65/A.webp",
+      "enem-assets/official/2023/65/B.webp",
+      "enem-assets/official/2023/65/C.webp",
+      "enem-assets/official/2023/65/D.webp",
+      "enem-assets/official/2023/65/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/65/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 24,
+      "transcript": "QUESTÃO 65\t\nNas reportagens publicadas sobre a inauguração do \nMuseu de Arte de São Paulo, em 1947, quando ele ainda \nocupava um edifício na rua Sete de Abril, Lina Bo Bardi não foi \nmencionada nenhuma vez. A arquiteta era responsável pelo \nprojeto do museu que mudaria para sempre a posição de São \nPaulo no circuito mundial das artes. Mas não houve nenhum \nregistro disso. O louvor se concentrou em seu marido e \nparceiro profissional, o respeitado crítico de arte Pietro Maria \nBardi. Passados 75 anos, a mulher então ignorada recebeu \num Leão de Ouro póstumo, a maior homenagem da Bienal \nde Arquitetura de Veneza, e tem agora sua história contada \nem duas biografias de peso, que procuram destrinchar uma \ncarreira marcada pela ousadia e pela contradição.\nPORTO, W. Lina Bo Bardi tem sua arquitetura contraditória destrinchada em biografias. \nDisponível em: www1.folha.uol.com.br. Acesso em: 10 nov. 2021 (adaptado).\nAs transformações pelas quais passaram as sociedades \nocidentais e que possibilitaram o reconhecimento recente \ndo trabalho da arquiteta mencionada no texto foram \nresultado das mobilizações sociais pela"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/65/A.webp",
+        "text": "A\t\nA\t equidade de gênero."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/65/B.webp",
+        "text": "B\t\nB\t liberdade de expressão."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/65/C.webp",
+        "text": "C\t\nC\t admissibilidade de voto."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/65/D.webp",
+        "text": "D\t\nD\t igualdade de oportunidade."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/65/E.webp",
+        "text": "DERNO 1 • AZUL–\nE\t\nE\t reciprocidade de tratamento."
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 65,
+        "rect": [
+          289.1339111328125,
+          269.7841491699219,
+          353.6106872558594,
+          283.7461242675781
+        ],
+        "page": 24
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 661.9215087890625
+        },
+        {
+          "letter": "B",
+          "y": 676.4614868164062
+        },
+        {
+          "letter": "C",
+          "y": 691.0015869140625
+        },
+        {
+          "letter": "D",
+          "y": 705.5416259765625
+        },
+        {
+          "letter": "E",
+          "y": 719.7816772460938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/65/statement.webp",
+          "sha256": "703f1c11d3c2f1d5c764914a05b3613c190a0b5836ffa7bd69b2ce283c765888",
+          "page": 24,
+          "rect": [
+            285.4645080566406,
+            268.7841491699219,
+            546.1339111328125,
+            662.9215087890625
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 789
+        },
+        {
+          "file": "enem-assets/official/2023/65/A.webp",
+          "sha256": "200c52f28b4161ad1ee72e60ac201474b6a5e4137c13ad6ec4332a609147fe1f",
+          "page": 24,
+          "rect": [
+            285.4645080566406,
+            662.9215087890625,
+            546.1339111328125,
+            677.4614868164062
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/65/B.webp",
+          "sha256": "9c11f406c268d5a27848bce3165ca1edc919bcb620d25fb45d011aaeea9210fb",
+          "page": 24,
+          "rect": [
+            285.4645080566406,
+            677.4614868164062,
+            546.1339111328125,
+            692.0015869140625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/65/C.webp",
+          "sha256": "f696e86411cfac9810d6332cab8b3e156979c229bff143d8b4bc9ed35d78f24d",
+          "page": 24,
+          "rect": [
+            285.4645080566406,
+            692.0015869140625,
+            546.1339111328125,
+            706.5416259765625
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/65/D.webp",
+          "sha256": "daa024a41e558d8cdcbf1518fa54eceaa8dad303492610f2e7148ee63f763a76",
+          "page": 24,
+          "rect": [
+            285.4645080566406,
+            706.5416259765625,
+            546.1339111328125,
+            720.7816772460938
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2023/65/E.webp",
+          "sha256": "b8ed22d9480a8bf2cac490c5a68552fca2fbad86102681093086d27a9a44169d",
+          "page": 24,
+          "rect": [
+            285.4645080566406,
+            720.7816772460938,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 65
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/65/details.json",
+    "contentFingerprint": "d29b3b6f95f8ed168a016631c0a2b62609b2a15b7985467ed2e9955c13a28b20",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "116aebb696826bea59007c07a51b2057dc7aebc0c5f14a4eda68b6d25e15a839"
+  }
+]

@@ -1,0 +1,2771 @@
+[
+  {
+    "id": "enem-2017-71",
+    "year": 2017,
+    "number": 71,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 71 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:71:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 71](enem-assets/official/2017/71/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/71/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/71/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/71/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/71/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/71/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2017/71/statement.webp",
+      "enem-assets/official/2017/71/A.webp",
+      "enem-assets/official/2017/71/B.webp",
+      "enem-assets/official/2017/71/C.webp",
+      "enem-assets/official/2017/71/D.webp",
+      "enem-assets/official/2017/71/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/71/statement.webp",
+      "source": "references/enem-1000/originals/2017-1-prova.pdf",
+      "page": 26,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/71/A.webp",
+        "text": "A reduzido espaço relativo inundado."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/71/B.webp",
+        "text": "B acentuado desnível do relevo local."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/71/C.webp",
+        "text": "C elevado índice de urbanização regional."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/71/D.webp",
+        "text": "D presença dos grandes parques industriais."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/71/E.webp",
+        "text": "E proximidade de fronteiras internacionais estratégicas."
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-1-prova.pdf",
+      "statementSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+      "layout": "single-column",
+      "answerSha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+      "header": {
+        "number": 71,
+        "rect": [
+          60.35879898071289,
+          101.09959411621094,
+          123.7107925415039,
+          112.25959777832031
+        ],
+        "page": 26
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 402.3988037109375
+        },
+        {
+          "letter": "B",
+          "y": 416.2340393066406
+        },
+        {
+          "letter": "C",
+          "y": 430.06927490234375
+        },
+        {
+          "letter": "D",
+          "y": 443.9054870605469
+        },
+        {
+          "letter": "E",
+          "y": 457.74072265625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/71/statement.webp",
+          "sha256": "384de02c0dc4ce2744632c28157dd2d11d4626ed58583edf1713d5fa586fea74",
+          "page": 26,
+          "rect": [
+            52.35879898071289,
+            100.09959411621094,
+            627.1099853515625,
+            402.8988037109375
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 606
+        },
+        {
+          "file": "enem-assets/official/2017/71/A.webp",
+          "sha256": "384b05302b60827770a33e8bb283d35b0a8d2a5e090c0855428b3b70343df1df",
+          "page": 26,
+          "rect": [
+            52.35879898071289,
+            402.8988037109375,
+            627.1099853515625,
+            416.7340393066406
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/71/B.webp",
+          "sha256": "b26cbc2990767740ef6d80654bd1c63c044b98081c8f419070a819a47c250f8b",
+          "page": 26,
+          "rect": [
+            52.35879898071289,
+            416.7340393066406,
+            627.1099853515625,
+            430.56927490234375
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/71/C.webp",
+          "sha256": "539ef8bc906f127332b4d2fd39de2d62aab7cf29a4c7b7abc5b99af594935eee",
+          "page": 26,
+          "rect": [
+            52.35879898071289,
+            430.56927490234375,
+            627.1099853515625,
+            444.4054870605469
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2017/71/D.webp",
+          "sha256": "43085c88c6459abd0dd7959e606edfa8622a18f3fad41f04f1c854d80df6d344",
+          "page": 26,
+          "rect": [
+            52.35879898071289,
+            444.4054870605469,
+            627.1099853515625,
+            458.24072265625
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/71/E.webp",
+          "sha256": "e2cbba79a09e0d9c6db411f8177bfbf927ac077e2fc158e3a8ce1cf060923b3c",
+          "page": 26,
+          "rect": [
+            52.35879898071289,
+            458.24072265625,
+            627.1099853515625,
+            476.61859130859375
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 38
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/71/details.json",
+    "contentFingerprint": "0d1023bff770b450c32b527ac1a7f3ab3e03c7f577f7e959048f2c8b11b3e36d",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "021c6e42a1dda7d3697a34027707e9085e3f2b15afd74cb06ca8bba2e23cf95f"
+  },
+  {
+    "id": "enem-2017-72",
+    "year": 2017,
+    "number": 72,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 72 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:72:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 72](enem-assets/official/2017/72/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/72/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/72/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/72/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/72/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/72/E.webp)"
+    ],
+    "answer": 4,
+    "images": [
+      "enem-assets/official/2017/72/statement.webp",
+      "enem-assets/official/2017/72/A.webp",
+      "enem-assets/official/2017/72/B.webp",
+      "enem-assets/official/2017/72/C.webp",
+      "enem-assets/official/2017/72/D.webp",
+      "enem-assets/official/2017/72/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_1_gabarito_azul_5112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/72/statement.webp",
+      "source": "references/enem-1000/originals/2017-1-prova.pdf",
+      "page": 26,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/72/A.webp",
+        "text": "A inversão térmica."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/72/B.webp",
+        "text": "B poluição atmosférica."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/72/C.webp",
+        "text": null
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/72/D.webp",
+        "text": "D contaminação dos solos."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/72/E.webp",
+        "text": null
+      }
+    ],
+    "officialAnswer": "E",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-1-prova.pdf",
+      "statementSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+      "layout": "single-column",
+      "answerSha256": "51524449c890ec2f1f37196b1ff3e2cbe8d5a5b13df8c75e40439d091e1ae863",
+      "header": {
+        "number": 72,
+        "rect": [
+          60.358699798583984,
+          477.61859130859375,
+          123.710693359375,
+          488.778564453125
+        ],
+        "page": 26
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 614.6903076171875
+        },
+        {
+          "letter": "B",
+          "y": 628.8287963867188
+        },
+        {
+          "letter": "C",
+          "y": 643.9900512695312
+        },
+        {
+          "letter": "D",
+          "y": 657.1047973632812
+        },
+        {
+          "letter": "E",
+          "y": 672.2650756835938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/72/statement.webp",
+          "sha256": "3a9fc046658383ee442fa645bc42f13f74b12cbf2553cc4b91e535ea2f4cf934",
+          "page": 26,
+          "rect": [
+            52.358699798583984,
+            476.61859130859375,
+            627.1099853515625,
+            615.1903076171875
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 278
+        },
+        {
+          "file": "enem-assets/official/2017/72/A.webp",
+          "sha256": "95058973eaeb5fff33a40d22ed74fad7c404e88633f39b4a6fe4b224bac5b722",
+          "page": 26,
+          "rect": [
+            52.358699798583984,
+            615.1903076171875,
+            627.1099853515625,
+            629.3287963867188
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/72/B.webp",
+          "sha256": "20bee6c345b62aaef2dd1dcb1003a97aa0d835f04096e9ee8a32c6485d2f6b30",
+          "page": 26,
+          "rect": [
+            52.358699798583984,
+            629.3287963867188,
+            627.1099853515625,
+            643.9900512695312
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2017/72/C.webp",
+          "sha256": "7bb06f838edc87e1394425d26c56e1358b440eb0e999005c12589cd4dd77b075",
+          "page": 26,
+          "rect": [
+            52.358699798583984,
+            643.9900512695312,
+            627.1099853515625,
+            657.6047973632812
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/72/D.webp",
+          "sha256": "43682bab3797eda2dca0e5e0c1047b81147642c5ed584bebc58ea6c1ba23d4a3",
+          "page": 26,
+          "rect": [
+            52.358699798583984,
+            657.6047973632812,
+            627.1099853515625,
+            671.7650756835938
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/72/E.webp",
+          "sha256": "acb7e2214d78496c7b68ac139218cec6f0a9f0c4cae48ca322d340792fcc9a73",
+          "page": 26,
+          "rect": [
+            52.358699798583984,
+            671.7650756835938,
+            627.1099853515625,
+            771.09716796875
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 200
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/72/details.json",
+    "contentFingerprint": "b4890ebcc96750c34cd3eb40f911b6810666d5ef7c7dd512bd7a5a3a3bc47b39",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "85c0da61b09269bcfa54e8b0adfaf77477e82d60a33b60a517450f06afc9b238"
+  },
+  {
+    "id": "enem-2017-95",
+    "year": 2017,
+    "number": 95,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 95 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:95:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 95](enem-assets/official/2017/95/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/95/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/95/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/95/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/95/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/95/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2017/95/statement.webp",
+      "enem-assets/official/2017/95/A.webp",
+      "enem-assets/official/2017/95/B.webp",
+      "enem-assets/official/2017/95/C.webp",
+      "enem-assets/official/2017/95/D.webp",
+      "enem-assets/official/2017/95/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/95/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 3,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/95/A.webp",
+        "text": "A vapor de água."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/95/B.webp",
+        "text": "B oxigênio molecular."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/95/C.webp",
+        "text": "C hipoclorito de sódio."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/95/D.webp",
+        "text": "D hidrogênio molecular."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/95/E.webp",
+        "text": "E cloreto de hidrogênio."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 95,
+        "rect": [
+          60.35879898071289,
+          101.09959411621094,
+          123.7107925415039,
+          112.25959777832031
+        ],
+        "page": 3
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 490.73480224609375
+        },
+        {
+          "letter": "B",
+          "y": 504.3643493652344
+        },
+        {
+          "letter": "C",
+          "y": 518.599365234375
+        },
+        {
+          "letter": "D",
+          "y": 532.8343505859375
+        },
+        {
+          "letter": "E",
+          "y": 547.0693359375
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/95/statement.webp",
+          "sha256": "3e7f7293fc0f8e0972028f2b835e7467cbb6e73fbdc9004680ad1440142a6a73",
+          "page": 3,
+          "rect": [
+            52.35879898071289,
+            100.09959411621094,
+            627.1099853515625,
+            491.23480224609375
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 783
+        },
+        {
+          "file": "enem-assets/official/2017/95/A.webp",
+          "sha256": "9a28fb8d7b029da07e078c0afbaa04c59a27fd868a6539137bf4a8059563ff65",
+          "page": 3,
+          "rect": [
+            52.35879898071289,
+            491.23480224609375,
+            627.1099853515625,
+            504.8643493652344
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2017/95/B.webp",
+          "sha256": "6261c4e2a285e8b740c998adbdcfaf89977784337d3acace54dc774e100b5fdb",
+          "page": 3,
+          "rect": [
+            52.35879898071289,
+            504.8643493652344,
+            627.1099853515625,
+            519.099365234375
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2017/95/C.webp",
+          "sha256": "c888d2c83bac6da26dcedecde14b1285c5dc01763a41126350a5f9dc23661871",
+          "page": 3,
+          "rect": [
+            52.35879898071289,
+            519.099365234375,
+            627.1099853515625,
+            533.3343505859375
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/95/D.webp",
+          "sha256": "ede7f0a9cf370625ba18bef7a4f3448629894094a93bb8eeb6486211b38d9afc",
+          "page": 3,
+          "rect": [
+            52.35879898071289,
+            533.3343505859375,
+            627.1099853515625,
+            547.5693359375
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2017/95/E.webp",
+          "sha256": "94541f0a7cd59de60c1f0c1e031774cdf185f747dc0a1cbebea6aab9a6a03791",
+          "page": 3,
+          "rect": [
+            52.35879898071289,
+            547.5693359375,
+            627.1099853515625,
+            566.7495727539062
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 39
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/95/details.json",
+    "contentFingerprint": "5e14874bcfc509178f372e17a9d9ade918818d4b52b055124d140fbfe686112e",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "c07c05f4ee02166ded532bf1a3865773f0a813e7de70895ea462d882168141c0"
+  },
+  {
+    "id": "enem-2017-96",
+    "year": 2017,
+    "number": 96,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 96 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:96:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 96](enem-assets/official/2017/96/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/96/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/96/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/96/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/96/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/96/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2017/96/statement.webp",
+      "enem-assets/official/2017/96/A.webp",
+      "enem-assets/official/2017/96/B.webp",
+      "enem-assets/official/2017/96/C.webp",
+      "enem-assets/official/2017/96/D.webp",
+      "enem-assets/official/2017/96/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/96/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 3,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/96/A.webp",
+        "text": null
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/96/B.webp",
+        "text": null
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/96/C.webp",
+        "text": null
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/96/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/96/E.webp",
+        "text": null
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 96,
+        "rect": [
+          60.358699798583984,
+          567.7495727539062,
+          123.710693359375,
+          578.9095458984375
+        ],
+        "page": 3
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 693.939208984375
+        },
+        {
+          "letter": "B",
+          "y": 708.1741943359375
+        },
+        {
+          "letter": "C",
+          "y": 722.4092407226562
+        },
+        {
+          "letter": "D",
+          "y": 736.6442260742188
+        },
+        {
+          "letter": "E",
+          "y": 749.8609619140625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/96/statement.webp",
+          "sha256": "657a1a273772cbf9ac0e9b4e3c10e89a7c5a1fd62f95969b04e59220fbb6c123",
+          "page": 3,
+          "rect": [
+            52.358699798583984,
+            566.7495727539062,
+            627.1099853515625,
+            693.439208984375
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 254
+        },
+        {
+          "file": "enem-assets/official/2017/96/A.webp",
+          "sha256": "36e2461899e3839087a1a453c81d025e541ec2304a20e6618e7b91bc2288fa45",
+          "page": 3,
+          "rect": [
+            52.358699798583984,
+            693.439208984375,
+            627.1099853515625,
+            707.6741943359375
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2017/96/B.webp",
+          "sha256": "eb51ffd082da8e35b49f1c34415562d9b521ef0855742a998f88004b7caf18e0",
+          "page": 3,
+          "rect": [
+            52.358699798583984,
+            707.6741943359375,
+            627.1099853515625,
+            721.9092407226562
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/96/C.webp",
+          "sha256": "e3643fbea183dc04281b5d9bf0086085455f400a44bc8936e9eff57e59fdba35",
+          "page": 3,
+          "rect": [
+            52.358699798583984,
+            721.9092407226562,
+            627.1099853515625,
+            736.1442260742188
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2017/96/D.webp",
+          "sha256": "b36842dad43cc4cf22913193728d3e8a566e98b93eeaf4b926e96088daa72e72",
+          "page": 3,
+          "rect": [
+            52.358699798583984,
+            736.1442260742188,
+            627.1099853515625,
+            750.3609619140625
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/96/E.webp",
+          "sha256": "e56861cd1fd204cf5ff56e0315d948d60a0b611920406e0c375640dd6b52f63f",
+          "page": 3,
+          "rect": [
+            52.358699798583984,
+            750.3609619140625,
+            627.1099853515625,
+            771.09716796875
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 43
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/96/details.json",
+    "contentFingerprint": "5587a86e928003880858dc58812c1812d50f00da1ae0ffd3b7d84655ead57695",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "ecc61b1b1e2d73a6a4659531566a0b221505036a935bbd1dd827f4595cf2e1e8"
+  },
+  {
+    "id": "enem-2017-104",
+    "year": 2017,
+    "number": 104,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 104 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:104:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 104](enem-assets/official/2017/104/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/104/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/104/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/104/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/104/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/104/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2017/104/statement.webp",
+      "enem-assets/official/2017/104/A.webp",
+      "enem-assets/official/2017/104/B.webp",
+      "enem-assets/official/2017/104/C.webp",
+      "enem-assets/official/2017/104/D.webp",
+      "enem-assets/official/2017/104/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/104/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 6,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/104/A.webp",
+        "text": "A 450."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/104/B.webp",
+        "text": "B 1 433."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/104/C.webp",
+        "text": "C 11 460."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/104/D.webp",
+        "text": "D 17 190."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/104/E.webp",
+        "text": "E 27 000."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 104,
+        "rect": [
+          60.35879898071289,
+          101.09959411621094,
+          129.2707977294922,
+          112.25959777832031
+        ],
+        "page": 6
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 192.3320770263672
+        },
+        {
+          "letter": "B",
+          "y": 203.33006286621094
+        },
+        {
+          "letter": "C",
+          "y": 214.3280487060547
+        },
+        {
+          "letter": "D",
+          "y": 225.32603454589844
+        },
+        {
+          "letter": "E",
+          "y": 236.3240203857422
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/104/statement.webp",
+          "sha256": "f5cccf4ebbbbd55234a8d332768308ad936f761c30e651b129a5f150a36809da",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            100.09959411621094,
+            627.1099853515625,
+            192.8320770263672
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 186
+        },
+        {
+          "file": "enem-assets/official/2017/104/A.webp",
+          "sha256": "f483555575218aa9537baa7b2a5d8d2f39aea1d9713e04ea7f9a9ab8760d65cf",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            192.8320770263672,
+            627.1099853515625,
+            203.83006286621094
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 23
+        },
+        {
+          "file": "enem-assets/official/2017/104/B.webp",
+          "sha256": "7f53666c2729038f2857d0b1118f132451d0f16a1d9a56c9c5df726b2570ed68",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            203.83006286621094,
+            627.1099853515625,
+            214.8280487060547
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 23
+        },
+        {
+          "file": "enem-assets/official/2017/104/C.webp",
+          "sha256": "457ab9fb5cd40f42f30353d7d699e3d22358eba2f316f30bd6095eb4f095c2d8",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            214.8280487060547,
+            627.1099853515625,
+            225.82603454589844
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 23
+        },
+        {
+          "file": "enem-assets/official/2017/104/D.webp",
+          "sha256": "5c653bbb27810c628aba1fe54fc7bf61000162fbfc56b7671638e08d492416d6",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            225.82603454589844,
+            627.1099853515625,
+            236.8240203857422
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 23
+        },
+        {
+          "file": "enem-assets/official/2017/104/E.webp",
+          "sha256": "34e27039d1571852f55096a18ebf4f78fdbf58ad8b23f7b6cec69be808f6eb8f",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            236.8240203857422,
+            627.1099853515625,
+            255.611572265625
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 39
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/104/details.json",
+    "contentFingerprint": "bec95d937f4c09c2ddf66356cfc6b269602edddfe642d7cb1055ea04dc9a2e9e",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "0d70cd22646c5819f48064372e512b9cccc3b3bd204543fde415ca6ae2394f5a"
+  },
+  {
+    "id": "enem-2017-105",
+    "year": 2017,
+    "number": 105,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 105 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:105:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 105](enem-assets/official/2017/105/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/105/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/105/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/105/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/105/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/105/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2017/105/statement.webp",
+      "enem-assets/official/2017/105/A.webp",
+      "enem-assets/official/2017/105/B.webp",
+      "enem-assets/official/2017/105/C.webp",
+      "enem-assets/official/2017/105/D.webp",
+      "enem-assets/official/2017/105/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/105/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 6,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/105/A.webp",
+        "text": null
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/105/B.webp",
+        "text": null
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/105/C.webp",
+        "text": null
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/105/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/105/E.webp",
+        "text": null
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 105,
+        "rect": [
+          60.35879898071289,
+          256.611572265625,
+          129.2707977294922,
+          267.77154541015625
+        ],
+        "page": 6
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 695.68408203125
+        },
+        {
+          "letter": "B",
+          "y": 709.5193481445312
+        },
+        {
+          "letter": "C",
+          "y": 723.3545532226562
+        },
+        {
+          "letter": "D",
+          "y": 737.1898193359375
+        },
+        {
+          "letter": "E",
+          "y": 751.0250854492188
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/105/statement.webp",
+          "sha256": "af97b251327a280c84a2a64e793277a8aa10094bd073feb483ecf04a6b4dfc72",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            255.611572265625,
+            627.1099853515625,
+            695.18408203125
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 880
+        },
+        {
+          "file": "enem-assets/official/2017/105/A.webp",
+          "sha256": "3afd4b56a80991bfe30b94eea7a8ef199146bdd5edf7d0df0f11ca204f69a5d8",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            695.18408203125,
+            627.1099853515625,
+            709.0193481445312
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/105/B.webp",
+          "sha256": "2f1a96c482511ec3ee92c3aaeae5d99f7d131e838434428f0b61ea1aa3ea74da",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            709.0193481445312,
+            627.1099853515625,
+            722.8545532226562
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2017/105/C.webp",
+          "sha256": "0b7f4eb68180b2835d0cfa8027e04b6e70e8aa1f05979e4b5fa04ba25c909367",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            722.8545532226562,
+            627.1099853515625,
+            736.6898193359375
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/105/D.webp",
+          "sha256": "7893d019aa68b2351580c3529839677a5ede0dce3dc9426154dbed3589fa96fe",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            736.6898193359375,
+            627.1099853515625,
+            750.5250854492188
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/105/E.webp",
+          "sha256": "14ad95070ed27b095b7a9abd921b10c94851d30cd20122b57aa24633f0ff04af",
+          "page": 6,
+          "rect": [
+            52.35879898071289,
+            750.5250854492188,
+            627.1099853515625,
+            771.09716796875
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 42
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/105/details.json",
+    "contentFingerprint": "ef572398979dba9486c7400d7edbc777bb185e92a6e488aaf007b0f2b56f7327",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "73b756ea0974d0f22dfaa27e1e44f86065f03825fa7a16fab19ddfdfd75e4b9b"
+  },
+  {
+    "id": "enem-2017-122",
+    "year": 2017,
+    "number": 122,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 122 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:122:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 122](enem-assets/official/2017/122/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/122/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/122/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/122/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/122/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/122/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2017/122/statement.webp",
+      "enem-assets/official/2017/122/A.webp",
+      "enem-assets/official/2017/122/B.webp",
+      "enem-assets/official/2017/122/C.webp",
+      "enem-assets/official/2017/122/D.webp",
+      "enem-assets/official/2017/122/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/122/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 12,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/122/A.webp",
+        "text": "A 293"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/122/B.webp",
+        "text": "B 345"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/122/C.webp",
+        "text": "C 414"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/122/D.webp",
+        "text": "D 690"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/122/E.webp",
+        "text": "E 828"
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 122,
+        "rect": [
+          60.35879898071289,
+          101.09959411621094,
+          129.2707977294922,
+          112.25959777832031
+        ],
+        "page": 12
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 314.53363037109375
+        },
+        {
+          "letter": "B",
+          "y": 327.9700927734375
+        },
+        {
+          "letter": "C",
+          "y": 341.40557861328125
+        },
+        {
+          "letter": "D",
+          "y": 354.842041015625
+        },
+        {
+          "letter": "E",
+          "y": 368.2765808105469
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/122/statement.webp",
+          "sha256": "1b99d88d71e34b5738388030e549cfa71de223deb93439e30a0e99970186cd34",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            100.09959411621094,
+            627.1099853515625,
+            315.03363037109375
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 431
+        },
+        {
+          "file": "enem-assets/official/2017/122/A.webp",
+          "sha256": "9f76eb5053f12ffdc4a9d90ccb578b8031e5945a787fcb2bd925c4316d067097",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            315.03363037109375,
+            627.1099853515625,
+            328.9700927734375
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2017/122/B.webp",
+          "sha256": "ed1c6a7eedd02d29a21de6409cfb8f2fa5f5e9ca311ad72f7c065c872981d79c",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            328.9700927734375,
+            627.1099853515625,
+            341.90557861328125
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2017/122/C.webp",
+          "sha256": "94adf2b5d04d26d0fcfcff4b1abc094288c8f8e7aaeffd1b3acec069788571bb",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            341.90557861328125,
+            627.1099853515625,
+            355.342041015625
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2017/122/D.webp",
+          "sha256": "8a0c3c57ed4d4757a59d0d12c9d83c5202ada57e9773e61cc193a6212609312d",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            355.342041015625,
+            627.1099853515625,
+            368.7765808105469
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2017/122/E.webp",
+          "sha256": "9703a2a0fa9e45ad530f5e8045d4349285565566d6f1d855c34d7c02523f991d",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            368.7765808105469,
+            627.1099853515625,
+            385.95458984375
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 35
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/122/details.json",
+    "contentFingerprint": "4d02b47b06943f7162db08c533ee4deb0a9856d226beb5168812dd8c1e54677e",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "bbc9373f7933213a59b551b96da5089434cc879cfc34485de1cacd408f005da3"
+  },
+  {
+    "id": "enem-2017-123",
+    "year": 2017,
+    "number": 123,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 123 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:123:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 123](enem-assets/official/2017/123/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/123/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/123/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/123/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/123/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/123/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2017/123/statement.webp",
+      "enem-assets/official/2017/123/A.webp",
+      "enem-assets/official/2017/123/B.webp",
+      "enem-assets/official/2017/123/C.webp",
+      "enem-assets/official/2017/123/D.webp",
+      "enem-assets/official/2017/123/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/123/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 12,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/123/A.webp",
+        "text": "A organismo das plantas vizinhas."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/123/B.webp",
+        "text": "B solo através de suas longas raízes."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/123/C.webp",
+        "text": "C chuva acumulada entre suas folhas."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/123/D.webp",
+        "text": "D seiva bruta das plantas hospedeiras."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/123/E.webp",
+        "text": "E comunidade que vive em seu interior."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 123,
+        "rect": [
+          60.35879898071289,
+          386.95458984375,
+          129.2707977294922,
+          398.11456298828125
+        ],
+        "page": 12
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 452.6272888183594
+        },
+        {
+          "letter": "B",
+          "y": 465.0478210449219
+        },
+        {
+          "letter": "C",
+          "y": 477.4693298339844
+        },
+        {
+          "letter": "D",
+          "y": 489.8918151855469
+        },
+        {
+          "letter": "E",
+          "y": 502.5073547363281
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/123/statement.webp",
+          "sha256": "9b2174e4cc124a6d61c7fbfd6c1274441c5c0c4b169e3cffad812df6bd7cfcf3",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            385.95458984375,
+            627.1099853515625,
+            453.1272888183594
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 136
+        },
+        {
+          "file": "enem-assets/official/2017/123/A.webp",
+          "sha256": "1adfc153d7ac3460f4cad82b738312b4cff1e2de2a69215fb2d1f44ca962940c",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            453.1272888183594,
+            627.1099853515625,
+            465.5478210449219
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2017/123/B.webp",
+          "sha256": "e5ded4502160adb4e8e4aa284348f706444a7ec5e4a82fb629c8a61eef526305",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            465.5478210449219,
+            627.1099853515625,
+            478.4693298339844
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2017/123/C.webp",
+          "sha256": "4a8bd0005827caca784a8f05922464bc406ca8139f438ef41c2957055a985093",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            478.4693298339844,
+            627.1099853515625,
+            490.3918151855469
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2017/123/D.webp",
+          "sha256": "cd5045aee65061263ffae06999064c7d4825238ff47feb217716f1da2ebaca00",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            490.3918151855469,
+            627.1099853515625,
+            503.0073547363281
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2017/123/E.webp",
+          "sha256": "77c7a4ffdda5e57145250b5d99712591f45fe4332ae09f28b59ac8f61fe741d6",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            503.0073547363281,
+            627.1099853515625,
+            519.5535888671875
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 34
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/123/details.json",
+    "contentFingerprint": "6d37dc8264f3f30a3ecd6c78513f4202c5d58c02e33583633ee91e3c24ea9bbf",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "71eadf687c47575b08f3f0d89c03dfc06b5fa221b3ba853bc4a28b8f43983352"
+  },
+  {
+    "id": "enem-2017-124",
+    "year": 2017,
+    "number": 124,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 124 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:124:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 124](enem-assets/official/2017/124/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/124/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/124/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/124/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/124/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/124/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2017/124/statement.webp",
+      "enem-assets/official/2017/124/A.webp",
+      "enem-assets/official/2017/124/B.webp",
+      "enem-assets/official/2017/124/C.webp",
+      "enem-assets/official/2017/124/D.webp",
+      "enem-assets/official/2017/124/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/124/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 12,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/124/A.webp",
+        "text": null
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/124/B.webp",
+        "text": null
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/124/C.webp",
+        "text": null
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/124/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/124/E.webp",
+        "text": null
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 124,
+        "rect": [
+          60.358699798583984,
+          520.5535888671875,
+          129.27069091796875,
+          531.7135620117188
+        ],
+        "page": 12
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 698.1988525390625
+        },
+        {
+          "letter": "B",
+          "y": 711.234619140625
+        },
+        {
+          "letter": "C",
+          "y": 724.2703247070312
+        },
+        {
+          "letter": "D",
+          "y": 737.3060913085938
+        },
+        {
+          "letter": "E",
+          "y": 751.141357421875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/124/statement.webp",
+          "sha256": "69cfe97b3875d65fc44013dc9204289800e39681ebc1c70afd36a539289f24fc",
+          "page": 12,
+          "rect": [
+            52.358699798583984,
+            519.5535888671875,
+            627.1099853515625,
+            698.6988525390625
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 359
+        },
+        {
+          "file": "enem-assets/official/2017/124/A.webp",
+          "sha256": "d56b4689eea50088d07cb72da9a50227d55204ca0b9f3327772a3432b6805d67",
+          "page": 12,
+          "rect": [
+            52.358699798583984,
+            698.6988525390625,
+            627.1099853515625,
+            711.734619140625
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2017/124/B.webp",
+          "sha256": "0e76d61568f503a5d423cd5d79c34321bc0dfdf6021c2054e50ca89fa6c6abce",
+          "page": 12,
+          "rect": [
+            52.358699798583984,
+            711.734619140625,
+            627.1099853515625,
+            724.7703247070312
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2017/124/C.webp",
+          "sha256": "451b3cb94e8695c504a5887918ff5c0646e7f650c6fa7eaf2aceef98c4180eeb",
+          "page": 12,
+          "rect": [
+            52.358699798583984,
+            724.7703247070312,
+            627.1099853515625,
+            737.8060913085938
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2017/124/D.webp",
+          "sha256": "96865730af7a231531d1673459f48adf9766c00e6b7d9084509f2fd43c1ab418",
+          "page": 12,
+          "rect": [
+            52.358699798583984,
+            737.8060913085938,
+            627.1099853515625,
+            751.641357421875
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/124/E.webp",
+          "sha256": "a0ce6c3926c745e7591d0494bbe434c444563c884525a61f1fc51345d6c8d3af",
+          "page": 12,
+          "rect": [
+            52.358699798583984,
+            751.641357421875,
+            627.1099853515625,
+            771.09716796875
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 40
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/124/details.json",
+    "contentFingerprint": "d2902a5bf8523dc1498ae5330c3e0e5d7733218550ce921a05823322ac17af71",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "98ea9fc085460af787b35af0f9a796cbb8910067c9d15224283d2ba799f3a2dd"
+  },
+  {
+    "id": "enem-2017-129",
+    "year": 2017,
+    "number": 129,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 129 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:129:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 129](enem-assets/official/2017/129/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/129/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/129/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/129/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/129/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/129/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2017/129/statement.webp",
+      "enem-assets/official/2017/129/A.webp",
+      "enem-assets/official/2017/129/B.webp",
+      "enem-assets/official/2017/129/C.webp",
+      "enem-assets/official/2017/129/D.webp",
+      "enem-assets/official/2017/129/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/129/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 14,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/129/A.webp",
+        "text": "A praticamente nula."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/129/B.webp",
+        "text": "B aproximadamente igual."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/129/C.webp",
+        "text": "C milhares de vezes maior."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/129/D.webp",
+        "text": "D da ordem de 10 vezes maior."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/129/E.webp",
+        "text": "E da ordem de 10 vezes menor."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 129,
+        "rect": [
+          60.35879898071289,
+          101.47154235839844,
+          129.2707977294922,
+          112.63154602050781
+        ],
+        "page": 14
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 222.57908630371094
+        },
+        {
+          "letter": "B",
+          "y": 239.3101043701172
+        },
+        {
+          "letter": "C",
+          "y": 256.0411071777344
+        },
+        {
+          "letter": "D",
+          "y": 272.7721252441406
+        },
+        {
+          "letter": "E",
+          "y": 289.5031433105469
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/129/statement.webp",
+          "sha256": "49672e6b4ba914255376526f0be479be81b2a58f0f49e0b06c4868f6cd567e2a",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            100.47154235839844,
+            627.1099853515625,
+            223.07908630371094
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 247
+        },
+        {
+          "file": "enem-assets/official/2017/129/A.webp",
+          "sha256": "2bec35de868623e2887da920af53fe16911cf0cb06e24532311d66ae117fb7be",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            223.07908630371094,
+            627.1099853515625,
+            239.8101043701172
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2017/129/B.webp",
+          "sha256": "73f3e68cb8e138503f6a2c26b6e6ff5f2ccc4b4edff2e630368423f69cc5a378",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            239.8101043701172,
+            627.1099853515625,
+            256.5411071777344
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 35
+        },
+        {
+          "file": "enem-assets/official/2017/129/C.webp",
+          "sha256": "47f8fd8d32cf6134d5fef12a634cdfa68367b2ad9d442f87915aedac6ee98ea4",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            256.5411071777344,
+            627.1099853515625,
+            273.2721252441406
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2017/129/D.webp",
+          "sha256": "0934492d3240f68301f496bd0435fe10aec524a90c22a4aa8f963c999ed9f8f8",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            273.2721252441406,
+            627.1099853515625,
+            290.0031433105469
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 35
+        },
+        {
+          "file": "enem-assets/official/2017/129/E.webp",
+          "sha256": "58f5b00244898d61a5bc3531da5eafb182c5190885c6bb3c4d4b729fb039c215",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            290.0031433105469,
+            627.1099853515625,
+            310.9906005859375
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 42
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/129/details.json",
+    "contentFingerprint": "90dd3e9a136c866030c2db42e1f2efb7288e8c88ecf5a37fea28646b338d559b",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "6091f921ed95539550413c51a82b0c59ef5e515a32aed706906de28aaae5e2a1"
+  },
+  {
+    "id": "enem-2017-130",
+    "year": 2017,
+    "number": 130,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 130 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:130:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 130](enem-assets/official/2017/130/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/130/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/130/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/130/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/130/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/130/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2017/130/statement.webp",
+      "enem-assets/official/2017/130/A.webp",
+      "enem-assets/official/2017/130/B.webp",
+      "enem-assets/official/2017/130/C.webp",
+      "enem-assets/official/2017/130/D.webp",
+      "enem-assets/official/2017/130/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/130/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 14,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/130/A.webp",
+        "text": "A licopeno."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/130/B.webp",
+        "text": "B D-caroteno."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/130/C.webp",
+        "text": "C J-caroteno."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/130/D.webp",
+        "text": "D capsorubina."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/130/E.webp",
+        "text": "E D-criptoxantina."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 130,
+        "rect": [
+          60.35879898071289,
+          311.9906005859375,
+          129.2707977294922,
+          323.15057373046875
+        ],
+        "page": 14
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 680.4364013671875
+        },
+        {
+          "letter": "B",
+          "y": 697.1683349609375
+        },
+        {
+          "letter": "C",
+          "y": 713.8993530273438
+        },
+        {
+          "letter": "D",
+          "y": 730.63037109375
+        },
+        {
+          "letter": "E",
+          "y": 747.361328125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/130/statement.webp",
+          "sha256": "620a3a6265e5018940f8e0da0905981e5e29937f7def3cbb67bfb8df6b2d7746",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            310.9906005859375,
+            627.1099853515625,
+            681.4364013671875
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 742
+        },
+        {
+          "file": "enem-assets/official/2017/130/A.webp",
+          "sha256": "618965dc0774193490dbc0bdbc1dcd247f24be22374b9f73c65abdfc71add219",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            681.4364013671875,
+            627.1099853515625,
+            697.6683349609375
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2017/130/B.webp",
+          "sha256": "6cd2d599ca8c05a0e2dd0b110bc3778d93b8a63ca3f39dfe4f5d17497bca3a35",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            697.6683349609375,
+            627.1099853515625,
+            714.3993530273438
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2017/130/C.webp",
+          "sha256": "6bfbc4debf6e5ff4a074eccb206317d81a24dd4c082b61c33f5bb73c7ad38571",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            714.3993530273438,
+            627.1099853515625,
+            731.13037109375
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 35
+        },
+        {
+          "file": "enem-assets/official/2017/130/D.webp",
+          "sha256": "67deb9e8ebab596dd199058d0b9e31651407133197f5b10f181deb0df60bc611",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            731.13037109375,
+            627.1099853515625,
+            747.861328125
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2017/130/E.webp",
+          "sha256": "943cf2da6174cd083d3c416cfbd3c81c9c45e47fde4757236235cb617ad29b39",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            747.861328125,
+            627.1099853515625,
+            771.09716796875
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 48
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/130/details.json",
+    "contentFingerprint": "df3d0e958be0774a671ace3e7a30adc57e120ae799b1b89136b70578751c7ce4",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "84f2a39a333ac467761d96f6c37c9aae667e32b72f73114f302c0c1d2adcc1b6"
+  },
+  {
+    "id": "enem-2017-169",
+    "year": 2017,
+    "number": 169,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 169 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:169:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 169](enem-assets/official/2017/169/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/169/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/169/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/169/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/169/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/169/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2017/169/statement.webp",
+      "enem-assets/official/2017/169/A.webp",
+      "enem-assets/official/2017/169/B.webp",
+      "enem-assets/official/2017/169/C.webp",
+      "enem-assets/official/2017/169/D.webp",
+      "enem-assets/official/2017/169/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/169/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 27,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/169/A.webp",
+        "text": "A X."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/169/B.webp",
+        "text": "B Y."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/169/C.webp",
+        "text": "C Z."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/169/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/169/E.webp",
+        "text": "E U."
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 169,
+        "rect": [
+          60.35879898071289,
+          457.24859619140625,
+          129.2707977294922,
+          468.4085693359375
+        ],
+        "page": 27
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 696.4351806640625
+        },
+        {
+          "letter": "B",
+          "y": 708.856689453125
+        },
+        {
+          "letter": "C",
+          "y": 721.2781982421875
+        },
+        {
+          "letter": "D",
+          "y": 734.7234497070312
+        },
+        {
+          "letter": "E",
+          "y": 746.1212158203125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/169/statement.webp",
+          "sha256": "312f007d74a6a4988cb458bab581843242a7cd06c4218c380ff7c13d38fcc377",
+          "page": 27,
+          "rect": [
+            52.35879898071289,
+            456.24859619140625,
+            627.1099853515625,
+            697.4351806640625
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 483
+        },
+        {
+          "file": "enem-assets/official/2017/169/A.webp",
+          "sha256": "2f197a6ea6d33033e52e657c7a9424cd1504bd18de41fd7d71ba0894e60749f9",
+          "page": 27,
+          "rect": [
+            52.35879898071289,
+            697.4351806640625,
+            627.1099853515625,
+            709.356689453125
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2017/169/B.webp",
+          "sha256": "e4d939356c5d67510f1f9443c37950fb03d1bef1067a41d64ddac9bf5306715f",
+          "page": 27,
+          "rect": [
+            52.35879898071289,
+            709.356689453125,
+            627.1099853515625,
+            721.7781982421875
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2017/169/C.webp",
+          "sha256": "1275cb7d0675d5cd9eea8981b16e763173435a1c827d080225fdd1427c5154fd",
+          "page": 27,
+          "rect": [
+            52.35879898071289,
+            721.7781982421875,
+            627.1099853515625,
+            734.2234497070312
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2017/169/D.webp",
+          "sha256": "59b8a431816f77ed1c145192bfa2393975a35180ee44fc6ed5745809d66ce8f0",
+          "page": 27,
+          "rect": [
+            52.35879898071289,
+            734.2234497070312,
+            627.1099853515625,
+            746.6212158203125
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2017/169/E.webp",
+          "sha256": "44590c554aae978815a71ff6b1755532f3f7298957b414bf49ccf412c4ab028d",
+          "page": 27,
+          "rect": [
+            52.35879898071289,
+            746.6212158203125,
+            627.1099853515625,
+            771.09716796875
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 50
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/169/details.json",
+    "contentFingerprint": "f0cbb7dddee18958f0bd673ac17f4ddc1d72bdbfd013480bcefdcdcc1a373da9",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "e977bbfe1a5daae51af9c10757d535c01eb84de8e818a6e517886f608c6a2ed1"
+  },
+  {
+    "id": "enem-2017-172",
+    "year": 2017,
+    "number": 172,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 172 — ENEM 2017",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2017:regular:blue:172:pt",
+    "context": "![Enunciado original do ENEM 2017, questão 172](enem-assets/official/2017/172/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2017/172/A.webp)",
+      "![Alternativa B original](enem-assets/official/2017/172/B.webp)",
+      "![Alternativa C original](enem-assets/official/2017/172/C.webp)",
+      "![Alternativa D original](enem-assets/official/2017/172/D.webp)",
+      "![Alternativa E original](enem-assets/official/2017/172/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2017/172/statement.webp",
+      "enem-assets/official/2017/172/A.webp",
+      "enem-assets/official/2017/172/B.webp",
+      "enem-assets/official/2017/172/C.webp",
+      "enem-assets/official/2017/172/D.webp",
+      "enem-assets/official/2017/172/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2017/2017_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2017/cad_7_gabarito_azul_12112017.pdf",
+    "answerVerification": "references/enem-1000/originals/2017-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2017/172/statement.webp",
+      "source": "references/enem-1000/originals/2017-2-prova.pdf",
+      "page": 29,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2017/172/A.webp",
+        "text": "A 1."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2017/172/B.webp",
+        "text": "B 2."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2017/172/C.webp",
+        "text": "C 4."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2017/172/D.webp",
+        "text": "D 5."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2017/172/E.webp",
+        "text": "E 6."
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2017-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2017-2-prova.pdf",
+      "statementSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+      "layout": "single-column",
+      "answerSha256": "e163b571c66b8b0ced90e758f1c02a2077e4cb60ec614bb9996e12e6450e1db2",
+      "header": {
+        "number": 172,
+        "rect": [
+          60.35879898071289,
+          101.09959411621094,
+          129.2707977294922,
+          112.25959777832031
+        ],
+        "page": 29
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 550.0018310546875
+        },
+        {
+          "letter": "B",
+          "y": 563.8380737304688
+        },
+        {
+          "letter": "C",
+          "y": 577.67333984375
+        },
+        {
+          "letter": "D",
+          "y": 591.508544921875
+        },
+        {
+          "letter": "E",
+          "y": 605.3438110351562
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2017/172/statement.webp",
+          "sha256": "6d9bf1e976242c0b10435cbb4a25effc137f2d174765c4d902e3eb9eb586ff48",
+          "page": 29,
+          "rect": [
+            52.35879898071289,
+            100.09959411621094,
+            627.1099853515625,
+            550.5018310546875
+          ],
+          "role": "statement",
+          "width": 1151,
+          "height": 902
+        },
+        {
+          "file": "enem-assets/official/2017/172/A.webp",
+          "sha256": "769a4c580057838e2324fa7cf1af5f644f1dd545909f730fbf82d73ac620ba6e",
+          "page": 29,
+          "rect": [
+            52.35879898071289,
+            550.5018310546875,
+            627.1099853515625,
+            564.3380737304688
+          ],
+          "role": "A",
+          "width": 1151,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2017/172/B.webp",
+          "sha256": "5e639dd750f2a25a1e43406ac7d02c727415c09b67b2b832f7d9867365e76c81",
+          "page": 29,
+          "rect": [
+            52.35879898071289,
+            564.3380737304688,
+            627.1099853515625,
+            578.17333984375
+          ],
+          "role": "B",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/172/C.webp",
+          "sha256": "4b396b540072e2441bd6c33d2c908c77e1f0f0ed61d1f24f4ee183ed5268683c",
+          "page": 29,
+          "rect": [
+            52.35879898071289,
+            578.17333984375,
+            627.1099853515625,
+            592.008544921875
+          ],
+          "role": "C",
+          "width": 1151,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2017/172/D.webp",
+          "sha256": "6d3f522af2e757c474d65d43ae99abd25f4969f796e4fd93ab0bbd97db898508",
+          "page": 29,
+          "rect": [
+            52.35879898071289,
+            592.008544921875,
+            627.1099853515625,
+            605.8438110351562
+          ],
+          "role": "D",
+          "width": 1151,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2017/172/E.webp",
+          "sha256": "509a5d6da749185528135d82475a8660793348e355342e801bff1263bc4f33dc",
+          "page": 29,
+          "rect": [
+            52.35879898071289,
+            605.8438110351562,
+            627.1099853515625,
+            771.09716796875
+          ],
+          "role": "E",
+          "width": 1151,
+          "height": 332
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2017/questions/172/details.json",
+    "contentFingerprint": "316fe293daeb219179dcab11064221cc61b66c50457762bebe6a30831c8e3bc0",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "f4b688f0e954f9308afe689d2121103bb254a015eedd8419aa560423fc640fae"
+  }
+]

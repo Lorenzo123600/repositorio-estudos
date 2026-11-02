@@ -11,3 +11,7 @@ playwright-report/
 
 .env.local
 .env.*.local
+
+# Local import working files
+scripts/__pycache__/
+work/

@@ -41,9 +41,18 @@ jobs:
       - run: npm ci
         working-directory: enem
       - name: Validar banco local e gabaritos
-        run: npm run validate:questions
+        run: npm run validate:release
         working-directory: enem
       - run: npm test
+        working-directory: enem
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Preparar verificação dos documentos originais
+        run: python -m pip install -r scripts/requirements-enem.txt
+        working-directory: enem
+      - name: Comparar questões com os PDFs oficiais
+        run: npm run verify:originals
         working-directory: enem
       - name: Compilar site com Supabase
         run: npm run build:pages

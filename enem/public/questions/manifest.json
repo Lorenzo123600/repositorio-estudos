@@ -1,0 +1,201 @@
+{
+  "version": 2,
+  "validatedCount": 1070,
+  "totalEligible": 1070,
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "files": [
+    {
+      "file": "questions/2022-ciencias-humanas.json",
+      "sha256": "0c3a82426b03e9dbb632c0760b29afaf4520e8d1b3b1c64fdd7523e60de2c108",
+      "count": 45,
+      "years": [
+        2022
+      ]
+    },
+    {
+      "file": "questions/2022-ciencias-natureza.json",
+      "sha256": "0354965590678604e4f911099fd845fd0538977965ef1282d4d629f8fc7a4c48",
+      "count": 45,
+      "years": [
+        2022
+      ]
+    },
+    {
+      "file": "questions/2022-linguagens.json",
+      "sha256": "455c3a533b521c8e2f958bb4a9fa0c604132b616906d4bbd62ab49957d6480f4",
+      "count": 50,
+      "years": [
+        2022
+      ]
+    },
+    {
+      "file": "questions/2022-matematica.json",
+      "sha256": "e3310fcd5a23ffbaf7bb4e60999410ff72297eca6a2506b505b4694d20290ca5",
+      "count": 41,
+      "years": [
+        2022
+      ]
+    },
+    {
+      "file": "questions/2023-ciencias-humanas.json",
+      "sha256": "3262a0a60baf602d85bedc4adfd0b3799d3a2ec9bbb1eafd15d5ba7b0946835a",
+      "count": 25,
+      "years": [
+        2023
+      ]
+    },
+    {
+      "file": "questions/2023-ciencias-natureza.json",
+      "sha256": "5f68ebced4927699ead360e3fd37c7a21de1d915ac00e0d2bdc18c65a8b70eac",
+      "count": 24,
+      "years": [
+        2023
+      ]
+    },
+    {
+      "file": "questions/2023-linguagens.json",
+      "sha256": "211edd680e68b9513d838ce4f4d9dde957f4f33bd9608edd152b2fe7b344c27f",
+      "count": 28,
+      "years": [
+        2023
+      ]
+    },
+    {
+      "file": "questions/2023-matematica.json",
+      "sha256": "9f023c6d78df32675b59e32fe0ce31eb030a60b67cc074d6f38f56455c261389",
+      "count": 26,
+      "years": [
+        2023
+      ]
+    },
+    {
+      "file": "questions/2017.json",
+      "sha256": "5a85f24025095e34d4c7b7818e137ab47b1507e5d4938cff7449d7eb8f66b7b8",
+      "count": 138,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "file": "questions/2018.json",
+      "sha256": "4da52db814a3bb9ce32687b2421f436e9980e4127d20a39fd93ffb16866a5256",
+      "count": 141,
+      "years": [
+        2018
+      ]
+    },
+    {
+      "file": "questions/2019.json",
+      "sha256": "97f9f42cf91a4324f6dfc26940b9e5d1bdea0c3246c094bdccad587fd66f6bee",
+      "count": 134,
+      "years": [
+        2019
+      ]
+    },
+    {
+      "file": "questions/2020.json",
+      "sha256": "a7b183dc8210b02714ba2fbc91afed6cf0556cb0eb6e4bf4d89a508e8b82d772",
+      "count": 139,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "file": "questions/2021.json",
+      "sha256": "6020c75c4d2e747cfcde96081953d719374bf99a6322f51e42db1fa172047b42",
+      "count": 135,
+      "years": [
+        2021
+      ]
+    },
+    {
+      "file": "questions/2022-supplement.json",
+      "sha256": "f974a415af8e5bc891af823411ee087bb2b4e68a52e11490ac9afd888570263f",
+      "count": 2,
+      "years": [
+        2022
+      ]
+    },
+    {
+      "file": "questions/2023-supplement.json",
+      "sha256": "5478e750e930ad6e84cdc02e959deb097b3d949878f109b5ec6a92abdcd433dc",
+      "count": 3,
+      "years": [
+        2023
+      ]
+    },
+    {
+      "file": "questions/2024.json",
+      "sha256": "18068fad9a3abad32e3f15642fec9860178c236bc89a49c4257d84c4c8fae51f",
+      "count": 65,
+      "years": [
+        2024
+      ]
+    },
+    {
+      "file": "questions/2017-part-2.json",
+      "sha256": "aace82bc1efac6572906d40abcd768a2b939da5eaa29a8d0895103b7eb805f0c",
+      "count": 13,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "file": "questions/2018-part-2.json",
+      "sha256": "72541ca3d34ce5737d34f260e5ddb53aee0b6a19527866482e53970e1e0803e2",
+      "count": 16,
+      "years": [
+        2018
+      ]
+    },
+    {
+      "file": "questions/2019-part-2.json",
+      "sha256": "ebf2f00617e27d1a2cb5d7ff59313e2368701eb2e23e188794832db33998e3f0",
+      "count": 21,
+      "years": [
+        2019
+      ]
+    },
+    {
+      "file": "questions/2020-part-2.json",
+      "sha256": "7f3eb275072c56f37c839c252317072d1cbc7a2c10124223e8fd1b98020d6c5c",
+      "count": 13,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "file": "questions/2021-part-2.json",
+      "sha256": "91ffe08d53182cc7524173ef52bd9fd5a7c3bb056ccb83c6ee90784824589be1",
+      "count": 15,
+      "years": [
+        2021
+      ]
+    },
+    {
+      "file": "questions/2023-part-2.json",
+      "sha256": "46c3854c8d55cf713b00e3d94f650af19b6d7facff232945169abec81404e28a",
+      "count": 2,
+      "years": [
+        2023
+      ]
+    },
+    {
+      "file": "questions/2024-part-2.json",
+      "sha256": "9ce99ee4d9e64c1af65fcbaccccb153277f96538d55d67115aa0d4dffa3b8935",
+      "count": 2,
+      "years": [
+        2024
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2771 @@
+[
+  {
+    "id": "enem-2020-50",
+    "year": 2020,
+    "number": 50,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 50 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:50:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 50](enem-assets/official/2020/50/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/50/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/50/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/50/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/50/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/50/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2020/50/statement.webp",
+      "enem-assets/official/2020/50/A.webp",
+      "enem-assets/official/2020/50/B.webp",
+      "enem-assets/official/2020/50/C.webp",
+      "enem-assets/official/2020/50/D.webp",
+      "enem-assets/official/2020/50/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s1.static.brasilescola.uol.com.br/enem/2021/01/gabarito-azul-1-dia-atualizado.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/50/statement.webp",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 21,
+      "transcript": "Questão 50                \nA expansão das cidades e a formação das aglomerações urbanas no Brasil foram marcadas pela produção \nindustrial e pela consolidação das metrópoles como locais de seu desenvolvimento. Na segunda metade do século XX, \nas metrópoles brasileiras estenderam-se por áreas de ocupação contínua, configurando densas regiões urbanizadas.\nMOURA, R. Arranjos urbano-regionais no Brasil: especificidades e reprodução de padrões. Disponível em: www.ub.edu. Acesso em: 11 fev. 2015.\nO resultado do processo geográfico descrito foi o(a)"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/50/A.webp",
+        "text": "A \t valorização da escala local."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/50/B.webp",
+        "text": "B \t crescimento das áreas periféricas.i"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/50/C.webp",
+        "text": "C \t densificação do transporte ferroviário."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/50/D.webp",
+        "text": "i\nD \t predomínio do planejamento estadual."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/50/E.webp",
+        "text": "E \t inibição de consórcios intermunicipais."
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-1-prova.pdf",
+      "statementSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "layout": "single-column",
+      "answerSha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "header": {
+        "number": 50,
+        "rect": [
+          31.181100845336914,
+          73.256103515625,
+          129.57107543945312,
+          87.57610321044922
+        ],
+        "page": 21
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 151.0146026611328
+        },
+        {
+          "letter": "B",
+          "y": 163.0146026611328
+        },
+        {
+          "letter": "C",
+          "y": 175.0146026611328
+        },
+        {
+          "letter": "D",
+          "y": 187.0146026611328
+        },
+        {
+          "letter": "E",
+          "y": 199.0146026611328
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/50/statement.webp",
+          "sha256": "d0a5b239b26f3ee3f84528eb64b4873ac006ee6a1718ae7fb7b5e014fc8e9903",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            72.256103515625,
+            565.9290161132812,
+            152.0146026611328
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 161
+        },
+        {
+          "file": "enem-assets/official/2020/50/A.webp",
+          "sha256": "ff403c022933e164728aa58c3883fb6b721fff4dccefde949347a931457a87c9",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            152.0146026611328,
+            565.9290161132812,
+            164.0146026611328
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2020/50/B.webp",
+          "sha256": "8b66a2a309ad6040f4426d6be187e993ce15401a14b3de524f70827e0ace879d",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            164.0146026611328,
+            565.9290161132812,
+            176.0146026611328
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2020/50/C.webp",
+          "sha256": "34427447c5c18aae6b6c419339bb6f6a29a9f1edc2d7b4948da6806ffb6cdc8e",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            176.0146026611328,
+            565.9290161132812,
+            188.0146026611328
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2020/50/D.webp",
+          "sha256": "ecfec9bd5ddd864b20615855c5fbe1274b2fbb9fc7c547147229e0c00842947f",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            188.0146026611328,
+            565.9290161132812,
+            200.0146026611328
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2020/50/E.webp",
+          "sha256": "0f85d0ab945db62f6e0370d489cfa3415f65d4639e1e765176a12fbeffe8be3e",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            200.0146026611328,
+            565.9290161132812,
+            215.2640380859375
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 31
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/50/details.json",
+    "contentFingerprint": "3103ee06c6204098315bcafcee0edc0f449b5485abba3a18ef94268570636d65",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "0c2b5c0ce320bb6ab70658786b4424175d0c2f5c13bc5c1b573c2311ad8845b6"
+  },
+  {
+    "id": "enem-2020-51",
+    "year": 2020,
+    "number": 51,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 51 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:51:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 51](enem-assets/official/2020/51/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/51/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/51/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/51/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/51/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/51/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2020/51/statement.webp",
+      "enem-assets/official/2020/51/A.webp",
+      "enem-assets/official/2020/51/B.webp",
+      "enem-assets/official/2020/51/C.webp",
+      "enem-assets/official/2020/51/D.webp",
+      "enem-assets/official/2020/51/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s1.static.brasilescola.uol.com.br/enem/2021/01/gabarito-azul-1-dia-atualizado.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/51/statement.webp",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 21,
+      "transcript": "Questão 51                \nZona de pastoreio e cultura do algodão e cereais do agreste (1963)\nCONVENÇÕES\nPASTOREIO - - - - - - - - - - - - - - -\nPLANTIO E LIMPA - - - - - - - - - -\nCRESCIMENTO- - - - - - - - - - -\nCOLHEITA DE FEIJÃO - - - - - - - -\nCOLHEITA DE MILHO VERDE - - -\nCOLHEITA DE MILHO SECO - - -\nCOLHEITA DE ALGODÃO - - - - - -\nANDRADE, M. C. A terra e o homem no Nordeste. São Paulo: Brasiliense, 1963.\nA dinâmica produtiva apresentada na imagem tem como estratégia central a"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/51/A.webp",
+        "text": "A \t separação pelo tipo de solo."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/51/B.webp",
+        "text": "B \t exportação da colheita sazonal."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/51/C.webp",
+        "text": "C \t priorização da tecnologia moderna."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/51/D.webp",
+        "text": "D \t adequação pelo tempo da natureza.i"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/51/E.webp",
+        "text": "E \t intensificação da atividade pecuária.\nCH\n1° di\n| C d\n1\nAZUL\nPá i\n21"
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-1-prova.pdf",
+      "statementSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "layout": "single-column",
+      "answerSha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "header": {
+        "number": 51,
+        "rect": [
+          31.181100845336914,
+          216.2640380859375,
+          129.57107543945312,
+          230.5840301513672
+        ],
+        "page": 21
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 667.9702758789062
+        },
+        {
+          "letter": "B",
+          "y": 682.4702758789062
+        },
+        {
+          "letter": "C",
+          "y": 696.9702758789062
+        },
+        {
+          "letter": "D",
+          "y": 711.4702758789062
+        },
+        {
+          "letter": "E",
+          "y": 725.9702758789062
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/51/statement.webp",
+          "sha256": "19d4d97d9701ba5c7acedd4a0ff89f47a82e50fa1493aa7068a573a3b68fbd19",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            215.2640380859375,
+            565.9290161132812,
+            668.9702758789062
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 908
+        },
+        {
+          "file": "enem-assets/official/2020/51/A.webp",
+          "sha256": "c44a20c3cbe9eae8c0a0958c874a221be84e39f68f40ab627f2f1b5ec533bdf2",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            668.9702758789062,
+            565.9290161132812,
+            683.4702758789062
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2020/51/B.webp",
+          "sha256": "0ed2a91480885054c3b5951d8a81e57fbc70b7e8ee94e8db7b0d85f532c500f0",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            683.4702758789062,
+            565.9290161132812,
+            697.9702758789062
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2020/51/C.webp",
+          "sha256": "60463c686e8e6309ed25fb779d3a28078d4008c6d80eccac14c06d22d78fd524",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            697.9702758789062,
+            565.9290161132812,
+            712.4702758789062
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2020/51/D.webp",
+          "sha256": "f59cbaca2f4ad9bb4e83d754bf0035923badc5993f0fdc54c3399df7336914e4",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            712.4702758789062,
+            565.9290161132812,
+            726.9702758789062
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2020/51/E.webp",
+          "sha256": "d4af47c3efeadd3607719e574a07d9a1d7a55b237f4b1f272686f38d30ac2713",
+          "page": 21,
+          "rect": [
+            23.181100845336914,
+            726.9702758789062,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 53
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/51/details.json",
+    "contentFingerprint": "afc0671f59f1444df7585131b690ff5d150779b98999af910e751d59a81b4031",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "0e2fb07738eb01766965daca29b867eed62bc6d9d1048dc620d1d4678102c224"
+  },
+  {
+    "id": "enem-2020-65",
+    "year": 2020,
+    "number": 65,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 65 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:65:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 65](enem-assets/official/2020/65/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/65/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/65/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/65/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/65/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/65/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2020/65/statement.webp",
+      "enem-assets/official/2020/65/A.webp",
+      "enem-assets/official/2020/65/B.webp",
+      "enem-assets/official/2020/65/C.webp",
+      "enem-assets/official/2020/65/D.webp",
+      "enem-assets/official/2020/65/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s1.static.brasilescola.uol.com.br/enem/2021/01/gabarito-azul-1-dia-atualizado.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/65/statement.webp",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 25,
+      "transcript": "Questão 65                \nO conjunto representado pelo agronegócio demanda condições específicas que passam a ser exigidas dos \nterritórios. Como há uma elevação da formação de fluxos, materiais e imateriais, a crescente articulação com as \nescalas que vão do local ao global terminam por pressionar o Estado a agir visando uma instalação no território \nde fixos diversos, bem como de uma regulação específica.\nLIMA, R. C.; PENNA, N. A. A logística de transportes do agronegócio em Mato Grosso (Brasil). Confins, n. 26, fev. 2016.\nO mapa e o texto se complementam indicando que a expansão das rodovias se deu como resposta ao(à)"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/65/A.webp",
+        "text": "A \t alteração da matriz econômica."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/65/B.webp",
+        "text": "B \t substituição do modal hidroviário.i"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/65/C.webp",
+        "text": "C \t retração do contingente demográfico."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/65/D.webp",
+        "text": "D \t projeção do escoamento produtivo."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/65/E.webp",
+        "text": "E \t estagnação de lavouras policultoras."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-1-prova.pdf",
+      "statementSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "layout": "single-column",
+      "answerSha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "header": {
+        "number": 65,
+        "rect": [
+          31.181100845336914,
+          73.256103515625,
+          129.57107543945312,
+          87.57610321044922
+        ],
+        "page": 25
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 491.785400390625
+        },
+        {
+          "letter": "B",
+          "y": 507.48541259765625
+        },
+        {
+          "letter": "C",
+          "y": 523.1854248046875
+        },
+        {
+          "letter": "D",
+          "y": 538.8853759765625
+        },
+        {
+          "letter": "E",
+          "y": 554.5853881835938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/65/statement.webp",
+          "sha256": "127992de3080079c3eb884a69aca2535046753bdacefe1040760a607a4f8a1be",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            72.256103515625,
+            565.9290161132812,
+            492.785400390625
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 842
+        },
+        {
+          "file": "enem-assets/official/2020/65/A.webp",
+          "sha256": "0295965ad5fc3645b536c7be109951254a0accbe661cdc973e9e9c5913fa7129",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            492.785400390625,
+            565.9290161132812,
+            508.48541259765625
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2020/65/B.webp",
+          "sha256": "c739cfe32308796021dba15bb7d2cc8602f2658fbaedeca19e5e016b35d1bf8a",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            508.48541259765625,
+            565.9290161132812,
+            524.1854248046875
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/65/C.webp",
+          "sha256": "f74222b6b8fb57e40ea2d49b7c3acf515198139f1022ffa230ed4afaf97b6a15",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            524.1854248046875,
+            565.9290161132812,
+            539.8853759765625
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2020/65/D.webp",
+          "sha256": "f1db5d120703199422d1b482550ca2eb5e4ebde6bf19bccf3b01b6605df51663",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            539.8853759765625,
+            565.9290161132812,
+            555.5853881835938
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/65/E.webp",
+          "sha256": "a16452cff2bb11ff9262977c951971382db4038d3a7a203b1277bd93ded8ef23",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            555.5853881835938,
+            565.9290161132812,
+            568.0001220703125
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 25
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/65/details.json",
+    "contentFingerprint": "418425982f9e6e03ec070416ace461150f8c7a255f819ebfc8e1bc9e425648c4",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "7fff17aee811f7705c529de68790910a0e0788e32951bdfdd93a0f2723b49988"
+  },
+  {
+    "id": "enem-2020-66",
+    "year": 2020,
+    "number": 66,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 66 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:66:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 66](enem-assets/official/2020/66/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/66/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/66/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/66/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/66/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/66/E.webp)"
+    ],
+    "answer": 4,
+    "images": [
+      "enem-assets/official/2020/66/statement.webp",
+      "enem-assets/official/2020/66/A.webp",
+      "enem-assets/official/2020/66/B.webp",
+      "enem-assets/official/2020/66/C.webp",
+      "enem-assets/official/2020/66/D.webp",
+      "enem-assets/official/2020/66/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s1.static.brasilescola.uol.com.br/enem/2021/01/gabarito-azul-1-dia-atualizado.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/66/statement.webp",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 25,
+      "transcript": "Questão 66                \nUm dos resquícios franceses na dança são os comandos proferidos pelo marcador da quadrilha. Seu papel é \nanunciar os próximos passos da coreografia. O abrasileiramento de termos franceses deu origem, por exemplo, ao \nsaruê (soirée — reunião social noturna, ordem para todos se juntarem no centro do salão), anarriê (en arrière — para \ntrás) e anavã (en avant — para frente).\nDisponível em: www.ebc.com.br. Acesso em: 6 jul. 2015.\nA característica apresentada dessa manifestação popular resulta do seguinte processo socio-histórico:i"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/66/A.webp",
+        "text": "A \t Massificação da arte erudita."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/66/B.webp",
+        "text": "B \t Rejeição de hábitos elitistas."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/66/C.webp",
+        "text": "C \t Laicização dos rituais religiosos."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/66/D.webp",
+        "text": "D \t Restauração dos costumes antigos."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/66/E.webp",
+        "text": "E \t Apropriação de práticas estrangeiras.\nCH\n1° di\n| C d\n1\nAZUL\nPá i\n25"
+      }
+    ],
+    "officialAnswer": "E",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-1-prova.pdf",
+      "statementSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "layout": "single-column",
+      "answerSha256": "18a2a04c1eecbec4f4dd77973f9ee32efe10829ebe30ca0dd9b286eb7f8672bb",
+      "header": {
+        "number": 66,
+        "rect": [
+          31.181100845336914,
+          569.0001220703125,
+          129.57107543945312,
+          583.3201293945312
+        ],
+        "page": 25
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 672.1585693359375
+        },
+        {
+          "letter": "B",
+          "y": 685.8585815429688
+        },
+        {
+          "letter": "C",
+          "y": 699.5587158203125
+        },
+        {
+          "letter": "D",
+          "y": 713.2587280273438
+        },
+        {
+          "letter": "E",
+          "y": 726.9586181640625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/66/statement.webp",
+          "sha256": "3f8932d82bbe223872cf2387580df92afde017236ed35e5e8cb7a6c8457ac63f",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            568.0001220703125,
+            565.9290161132812,
+            673.1585693359375
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 211
+        },
+        {
+          "file": "enem-assets/official/2020/66/A.webp",
+          "sha256": "0ccb462ebd8693580902d3f3368c5e76ec8289041a56dcd28ab0869518f6eeee",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            673.1585693359375,
+            565.9290161132812,
+            686.8585815429688
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2020/66/B.webp",
+          "sha256": "a1a7038a3d136015224b6b2c5103cd9fa536c0014443c253465bae7620ea1bd4",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            686.8585815429688,
+            565.9290161132812,
+            700.5587158203125
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2020/66/C.webp",
+          "sha256": "ab943457a3a3bd65df1c67ef39e82ccfc03b5956b3ee5cd51dcb6b65f7d9b998",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            700.5587158203125,
+            565.9290161132812,
+            714.2587280273438
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2020/66/D.webp",
+          "sha256": "1628c45821f7d13149fae06e9edfba49a68d9c89662e88d60c0caff158cf8ffc",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            714.2587280273438,
+            565.9290161132812,
+            727.9586181640625
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2020/66/E.webp",
+          "sha256": "9007ca2f91be2bd9980ae4c34239249a0931fec855c3e00a3d27fa5972dc61fa",
+          "page": 25,
+          "rect": [
+            23.181100845336914,
+            727.9586181640625,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 51
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/66/details.json",
+    "contentFingerprint": "f1179a98a9f0824d7004c15d22f726fd133d5fb494048110bb9609419a98ee0f",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "b305697a19f16736e10144f8666b2744d176b3dd9b7bcd6fadbb045e9d7307de"
+  },
+  {
+    "id": "enem-2020-91",
+    "year": 2020,
+    "number": 91,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 91 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:91:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 91](enem-assets/official/2020/91/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/91/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/91/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/91/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/91/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/91/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2020/91/statement.webp",
+      "enem-assets/official/2020/91/A.webp",
+      "enem-assets/official/2020/91/B.webp",
+      "enem-assets/official/2020/91/C.webp",
+      "enem-assets/official/2020/91/D.webp",
+      "enem-assets/official/2020/91/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/01/2-dia-caderno7-azul-gabarito.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/91/statement.webp",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 2,
+      "transcript": "Questão 91                \nDAVIS, J. Disponível em: http://garfield.com. Acesso em: 10 fev. 2015.\nPor qual motivo ocorre a eletrização ilustrada na tirinha?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/91/A.webp",
+        "text": "A \t Troca de átomos entre a calça e os pelos do gato."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/91/B.webp",
+        "text": "B \t Diminuição do número de prótons nos pelos do gato."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/91/C.webp",
+        "text": "C \t Criação de novas partículas eletrizadas nos pelos do gato."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/91/D.webp",
+        "text": "D \t Movimentação de elétrons entre a calça e os pelos do gato."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/91/E.webp",
+        "text": "E \t Repulsão entre partículas elétricas da calça e dos pelos do gato."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-2-prova.pdf",
+      "statementSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "layout": "single-column",
+      "answerSha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "header": {
+        "number": 91,
+        "rect": [
+          31.181100845336914,
+          102.9161376953125,
+          129.57107543945312,
+          117.23613739013672
+        ],
+        "page": 2
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 315.24664306640625
+        },
+        {
+          "letter": "B",
+          "y": 330.94659423828125
+        },
+        {
+          "letter": "C",
+          "y": 346.6466064453125
+        },
+        {
+          "letter": "D",
+          "y": 362.34661865234375
+        },
+        {
+          "letter": "E",
+          "y": 378.046630859375
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/91/statement.webp",
+          "sha256": "c89d2119b635f520d91e94c58153ceda2fff10d2cb7e180841b0b4dfe5b526c0",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            101.9161376953125,
+            565.9290161132812,
+            316.24664306640625
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 430
+        },
+        {
+          "file": "enem-assets/official/2020/91/A.webp",
+          "sha256": "f254853b519548f6f4da531f3c2d78c2070de0654e307d572770423d8ac1ce45",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            316.24664306640625,
+            565.9290161132812,
+            331.94659423828125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2020/91/B.webp",
+          "sha256": "e7b39e9db1fec3eaabfdbc99638fa5a37d960fbd4d873e401aa0812ff2cd3790",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            331.94659423828125,
+            565.9290161132812,
+            347.6466064453125
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/91/C.webp",
+          "sha256": "817a21af2751660737d3fd8c475e162439f8865151746ce9d6dc8454b47e02a9",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            347.6466064453125,
+            565.9290161132812,
+            363.34661865234375
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2020/91/D.webp",
+          "sha256": "952295fdfa57ff7fdfb7255fa6aa7a31895ad37044e620d4de64d67610fca1ee",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            363.34661865234375,
+            565.9290161132812,
+            379.046630859375
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/91/E.webp",
+          "sha256": "213ba01fc3d75d1c286455163ace1043f99a16443d796ba3939aa56dceccfce8",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            379.046630859375,
+            565.9290161132812,
+            394.2959289550781
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 31
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/91/details.json",
+    "contentFingerprint": "a9dad405be8bcfdb971a24917d35c82bee05e588f6db1cd859a30b14b660e116",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "682ed2e1d02f410c4c2d49eb5abea7c72ebaa827640f5db7449c30a50444d2b3"
+  },
+  {
+    "id": "enem-2020-92",
+    "year": 2020,
+    "number": 92,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 92 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:92:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 92](enem-assets/official/2020/92/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/92/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/92/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/92/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/92/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/92/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2020/92/statement.webp",
+      "enem-assets/official/2020/92/A.webp",
+      "enem-assets/official/2020/92/B.webp",
+      "enem-assets/official/2020/92/C.webp",
+      "enem-assets/official/2020/92/D.webp",
+      "enem-assets/official/2020/92/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/01/2-dia-caderno7-azul-gabarito.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/92/statement.webp",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 2,
+      "transcript": "Questão 92                \nA enorme quantidade de resíduos gerados pelo consumo crescente da sociedade traz para a humanidade \numa preocupação socioambiental, em especial pela quantidade de lixo produzido. Além da reciclagem e do \nreúso, pode-se melhorar ainda mais a qualidade de vida, substituindo polímeros convencionais por polímeros \nbiodegradáveis.\nEsses polímeros têm grandes vantagens socioambientais em relação aos convencionais porque"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/92/A.webp",
+        "text": "A \t não são tóxicos."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/92/B.webp",
+        "text": "B \t não precisam ser reciclados."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/92/C.webp",
+        "text": "C \t não causam poluição ambiental quando descartados."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/92/D.webp",
+        "text": "D \t são degradados em um tempo bastante menor que os convencionais."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/92/E.webp",
+        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n2\nE \t apresentam propriedades mecânicas semelhantes aos convencionais."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-2-prova.pdf",
+      "statementSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "layout": "single-column",
+      "answerSha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "header": {
+        "number": 92,
+        "rect": [
+          31.181100845336914,
+          395.2959289550781,
+          129.57107543945312,
+          409.6159362792969
+        ],
+        "page": 2
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 506.923828125
+        },
+        {
+          "letter": "B",
+          "y": 522.623779296875
+        },
+        {
+          "letter": "C",
+          "y": 538.3237915039062
+        },
+        {
+          "letter": "D",
+          "y": 554.0238037109375
+        },
+        {
+          "letter": "E",
+          "y": 569.7238159179688
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/92/statement.webp",
+          "sha256": "8f2927c181ff3fd90bc38d3258ffc6f8842c2458a2048cbde66a2578fe66f4fa",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            394.2959289550781,
+            565.9290161132812,
+            507.923828125
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 228
+        },
+        {
+          "file": "enem-assets/official/2020/92/A.webp",
+          "sha256": "b6ef0b61b778afb0330a43ca944cc34e821c1bcd27a0f36ec782d4181b47b844",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            507.923828125,
+            565.9290161132812,
+            523.623779296875
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/92/B.webp",
+          "sha256": "1763b1fa7ffd86e8d254789ee0f0c4bfcd5d1278eb9074bb41f7fd837e179a6d",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            523.623779296875,
+            565.9290161132812,
+            539.3237915039062
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2020/92/C.webp",
+          "sha256": "df6008fbb75266e77c07a36a00f1c85db4883eb718707e04679f2325c032f7a0",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            539.3237915039062,
+            565.9290161132812,
+            555.0238037109375
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/92/D.webp",
+          "sha256": "c68e22c52145adf735c0e2aa4af9768135269fee81798a71bfa92b82f34f129a",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            555.0238037109375,
+            565.9290161132812,
+            570.7238159179688
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2020/92/E.webp",
+          "sha256": "0bfb1bcb59c7c74cda9306888c04ec3d3c27ecd49ca35efc7142c26a52a4a534",
+          "page": 2,
+          "rect": [
+            23.181100845336914,
+            570.7238159179688,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 365
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/92/details.json",
+    "contentFingerprint": "cf22c64da5aa233d88aba2dad8445683e8ddb5e899aaccbdc0c7782e631a42f3",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "487bcc8f2f143ecc1fb0ad927bef79ed34cee5e2c12de1b65411bb9bf7d6682b"
+  },
+  {
+    "id": "enem-2020-94",
+    "year": 2020,
+    "number": 94,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 94 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:94:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 94](enem-assets/official/2020/94/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/94/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/94/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/94/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/94/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/94/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2020/94/statement.webp",
+      "enem-assets/official/2020/94/A.webp",
+      "enem-assets/official/2020/94/B.webp",
+      "enem-assets/official/2020/94/C.webp",
+      "enem-assets/official/2020/94/D.webp",
+      "enem-assets/official/2020/94/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/01/2-dia-caderno7-azul-gabarito.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/94/statement.webp",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 3,
+      "transcript": "Questão 94                \nUm microempresário do ramo de cosméticos utiliza óleos essenciais e quer produzir um creme com fragrância \nde rosas. O principal componente do óleo de rosas tem cadeia poli-insaturada e hidroxila em carbono terminal. O \ncatálogo dos óleos essenciais apresenta, para escolha da essência, estas estruturas químicas:\nOH\nCHO\nCHO\nOH\nOH\n(1)\n(2)\n(3)\n(4)\n(5)\nQual substância o empresário deverá utilizar?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/94/A.webp",
+        "text": "A \t 1"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/94/B.webp",
+        "text": "B \t 2"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/94/C.webp",
+        "text": "C \t 3"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/94/D.webp",
+        "text": "D \t 4"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/94/E.webp",
+        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n3\nE \t 5"
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-2-prova.pdf",
+      "statementSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "layout": "single-column",
+      "answerSha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "header": {
+        "number": 94,
+        "rect": [
+          31.181100845336914,
+          524.3333129882812,
+          129.57107543945312,
+          538.6533203125
+        ],
+        "page": 3
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 680.102783203125
+        },
+        {
+          "letter": "B",
+          "y": 692.102783203125
+        },
+        {
+          "letter": "C",
+          "y": 704.102783203125
+        },
+        {
+          "letter": "D",
+          "y": 716.102783203125
+        },
+        {
+          "letter": "E",
+          "y": 728.102783203125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/94/statement.webp",
+          "sha256": "0aed4f2f899d6b02bde04a14f071edda87e785a408e289d77ad7e77099ab7a3f",
+          "page": 3,
+          "rect": [
+            23.181100845336914,
+            523.3333129882812,
+            565.9290161132812,
+            681.102783203125
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 317
+        },
+        {
+          "file": "enem-assets/official/2020/94/A.webp",
+          "sha256": "56e6bb021af70ffc38e76c01132b4ad33f138de70841de871f48ee81a3627028",
+          "page": 3,
+          "rect": [
+            23.181100845336914,
+            681.102783203125,
+            565.9290161132812,
+            693.102783203125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2020/94/B.webp",
+          "sha256": "94ba5ea08401cfe48034bc8cf0f3651690db8cf522c8331fbe977804c30bc45d",
+          "page": 3,
+          "rect": [
+            23.181100845336914,
+            693.102783203125,
+            565.9290161132812,
+            705.102783203125
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2020/94/C.webp",
+          "sha256": "6c8a8f8b56fd40573cba9bfd2e8d721777d24949d88dc471baf3cbe045aad617",
+          "page": 3,
+          "rect": [
+            23.181100845336914,
+            705.102783203125,
+            565.9290161132812,
+            717.102783203125
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2020/94/D.webp",
+          "sha256": "aa2ceb63f7dc4f5fbd1b5d0447c989e4468c46c251faed8ecc689ad1a81a5587",
+          "page": 3,
+          "rect": [
+            23.181100845336914,
+            717.102783203125,
+            565.9290161132812,
+            729.102783203125
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2020/94/E.webp",
+          "sha256": "17ed942921042a938982c5a40e42c2ffdcb8cb516af83397622d510e7c89f9be",
+          "page": 3,
+          "rect": [
+            23.181100845336914,
+            729.102783203125,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 48
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/94/details.json",
+    "contentFingerprint": "25f35fb05229741ae536ef823a61ffa92205febcaf383c5e81a76163339bc628",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "6aba6ea8ebff6ee767cf3dbf90c45391c36b5eff490053454e9293fb707942c0"
+  },
+  {
+    "id": "enem-2020-102",
+    "year": 2020,
+    "number": 102,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 102 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:102:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 102](enem-assets/official/2020/102/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/102/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/102/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/102/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/102/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/102/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2020/102/statement.webp",
+      "enem-assets/official/2020/102/A.webp",
+      "enem-assets/official/2020/102/B.webp",
+      "enem-assets/official/2020/102/C.webp",
+      "enem-assets/official/2020/102/D.webp",
+      "enem-assets/official/2020/102/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/01/2-dia-caderno7-azul-gabarito.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/102/statement.webp",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 6,
+      "transcript": "Questão 102                \nA obtenção de óleos vegetais, de maneira geral, passa pelas etapas descritas no quadro.\nEtapa\nSubetapa\nO que ocorre\nPreparação da \nmatéria-prima\nSeleção dos grãos\nSeparação das sujidades mais grossas\nDescascamento\nSeparação de polpa e casca\nTrituração\nRompimento dos tecidos e das paredes das células\nCozimento\nAumento da permeabilidade das membranas celulares\nExtração do \nóleo bruto\nPrensagem\nRemoção parcial do óleo\nExtração\nObtenção do óleo bruto com hexano\nDestilação\nSeparação do óleo e do solvente\n \nQual das subetapas do processo é realizada em função apenas da polaridade das substâncias?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/102/A.webp",
+        "text": "A \t Trituração."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/102/B.webp",
+        "text": "B \t Cozimento."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/102/C.webp",
+        "text": "C \t Prensagem."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/102/D.webp",
+        "text": "D \t Extração."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/102/E.webp",
+        "text": "E \t Destilação."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-2-prova.pdf",
+      "statementSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "layout": "single-column",
+      "answerSha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "header": {
+        "number": 102,
+        "rect": [
+          31.181100845336914,
+          73.256103515625,
+          135.13107299804688,
+          87.57610321044922
+        ],
+        "page": 6
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 267.1611328125
+        },
+        {
+          "letter": "B",
+          "y": 285.1611328125
+        },
+        {
+          "letter": "C",
+          "y": 303.1611328125
+        },
+        {
+          "letter": "D",
+          "y": 321.1611328125
+        },
+        {
+          "letter": "E",
+          "y": 339.1611328125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/102/statement.webp",
+          "sha256": "281e5a19e226bf201896fcc5c5e262bf31767d9583c7b88a2b43127a47e5963a",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            72.256103515625,
+            565.9290161132812,
+            268.1611328125
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 393
+        },
+        {
+          "file": "enem-assets/official/2020/102/A.webp",
+          "sha256": "2944915a01d43de8b25a65604d5cbd58bf956065fd32a64462b6e10625900131",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            268.1611328125,
+            565.9290161132812,
+            286.1611328125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 37
+        },
+        {
+          "file": "enem-assets/official/2020/102/B.webp",
+          "sha256": "336ae9928f6f971555f918fbe1c789f5d97d38513058aded217ed59b48cc5ba4",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            286.1611328125,
+            565.9290161132812,
+            304.1611328125
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 37
+        },
+        {
+          "file": "enem-assets/official/2020/102/C.webp",
+          "sha256": "59a89621d936b5da9cfea3d9223b0a01b6135b0b6ca3995a45a92820b647fbb5",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            304.1611328125,
+            565.9290161132812,
+            322.1611328125
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 37
+        },
+        {
+          "file": "enem-assets/official/2020/102/D.webp",
+          "sha256": "6276478e425a5d56fefc64fc6855473ab8dc3214e05cc0892372f40b76ce36ca",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            322.1611328125,
+            565.9290161132812,
+            340.1611328125
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 37
+        },
+        {
+          "file": "enem-assets/official/2020/102/E.webp",
+          "sha256": "2de79622abd570089f663a3e2fd8b23d3168dc918e1747f5b3e2570898ab6c22",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            340.1611328125,
+            565.9290161132812,
+            355.4104309082031
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 31
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/102/details.json",
+    "contentFingerprint": "6cdf8ade9b5f6e51b125ecec02b60b74f9ac2f565323a67513753f9b4b1b92e4",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "ddf13ec28f3816de35826bc87dbc3962057768d0e1746a7a4d429e5cea9218e1"
+  },
+  {
+    "id": "enem-2020-103",
+    "year": 2020,
+    "number": 103,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 103 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:103:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 103](enem-assets/official/2020/103/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/103/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/103/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/103/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/103/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/103/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2020/103/statement.webp",
+      "enem-assets/official/2020/103/A.webp",
+      "enem-assets/official/2020/103/B.webp",
+      "enem-assets/official/2020/103/C.webp",
+      "enem-assets/official/2020/103/D.webp",
+      "enem-assets/official/2020/103/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/01/2-dia-caderno7-azul-gabarito.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/103/statement.webp",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 6,
+      "transcript": "Questão 103                \nO dióxido de carbono passa para o estado sólido (gelo seco) a −78 °C e retorna ao estado gasoso à temperatura \nambiente. O gás é facilmente solubilizado em água, capaz de absorver radiação infravermelha da superfície da terra \ne não conduz eletricidade. Ele é utilizado como matéria-prima para a fotossíntese até o limite de saturação. Após a fixação \npelos organismos autotróficos, o gás retorna ao meio ambiente pela respiração aeróbica, fermentação, decomposição \nou por resíduos industriais, queima de combustíveis fósseis e queimadas. Apesar da sua importância ecológica, seu \nexcesso causa perturbações no equilíbrio ambiental.\nConsiderando as propriedades descritas, o aumento atmosférico da substância afetará os organismos aquáticos em \nrazão da"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/103/A.webp",
+        "text": "A \t redução do potencial hidrogeniônico da água."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/103/B.webp",
+        "text": "B \t restrição da aerobiose pelo excesso de poluentes."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/103/C.webp",
+        "text": "C \t diminuição da emissão de oxigênio pelos autótrofos."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/103/D.webp",
+        "text": "D \t limitação de transferência de energia entre os seres vivos."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/103/E.webp",
+        "text": "E \t retração dos oceanos pelo congelamento do gás nos polos."
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-2-prova.pdf",
+      "statementSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "layout": "single-column",
+      "answerSha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "header": {
+        "number": 103,
+        "rect": [
+          31.181100845336914,
+          356.4104309082031,
+          135.13107299804688,
+          370.7304382324219
+        ],
+        "page": 6
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 488.0997314453125
+        },
+        {
+          "letter": "B",
+          "y": 504.0997314453125
+        },
+        {
+          "letter": "C",
+          "y": 520.0997314453125
+        },
+        {
+          "letter": "D",
+          "y": 536.0997314453125
+        },
+        {
+          "letter": "E",
+          "y": 552.0997314453125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/103/statement.webp",
+          "sha256": "60f4089457349b4cc732684daf3dec6689f63e9092593034a2841f32c7f65aa5",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            355.4104309082031,
+            565.9290161132812,
+            489.0997314453125
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 269
+        },
+        {
+          "file": "enem-assets/official/2020/103/A.webp",
+          "sha256": "8f67f2acc15aa0e9c02d5f4f99caa509299db0a555a24a4c50e96c97b7bbd6d5",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            489.0997314453125,
+            565.9290161132812,
+            505.0997314453125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/103/B.webp",
+          "sha256": "589add1b7a2a3ff94c354ca2cf6377ab219b558964e8093af3b1e099d930bfa7",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            505.0997314453125,
+            565.9290161132812,
+            521.0997314453125
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/103/C.webp",
+          "sha256": "616e56dcd3d88d6bf266a0caec5b009301711375918db680cfcc804cb98bc701",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            521.0997314453125,
+            565.9290161132812,
+            537.0997314453125
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/103/D.webp",
+          "sha256": "47777481f25bf9271101fcf43492a25c5ee9a7f37d0d40ffe108a6bb7dc130ef",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            537.0997314453125,
+            565.9290161132812,
+            553.0997314453125
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/103/E.webp",
+          "sha256": "4810f8e8c63d87f1aba16652b28862f2121ec6553118bf602b8cb84b6dd812f7",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            553.0997314453125,
+            565.9290161132812,
+            568.3489990234375
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 31
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/103/details.json",
+    "contentFingerprint": "9e10fe2bec866d1d37b0c05f88cc1eb7daa940d4b908316eaffcf75c9dba2ead",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "a14ef0d134c8cb65510ae2581753389c0f69c02a7672c02aceb4843f85d79241"
+  },
+  {
+    "id": "enem-2020-104",
+    "year": 2020,
+    "number": 104,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 104 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:104:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 104](enem-assets/official/2020/104/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/104/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/104/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/104/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/104/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/104/E.webp)"
+    ],
+    "answer": 4,
+    "images": [
+      "enem-assets/official/2020/104/statement.webp",
+      "enem-assets/official/2020/104/A.webp",
+      "enem-assets/official/2020/104/B.webp",
+      "enem-assets/official/2020/104/C.webp",
+      "enem-assets/official/2020/104/D.webp",
+      "enem-assets/official/2020/104/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/01/2-dia-caderno7-azul-gabarito.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/104/statement.webp",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 6,
+      "transcript": "Questão 104                \nGrupos de proteção ao meio ambiente conseguem resgatar muitas aves aquáticas vítimas de vazamentos de \npetróleo. Essas aves são lavadas com água e detergente neutro para a retirada completa do óleo de seu corpo e, \nposteriormente, são aquecidas, medicadas, desintoxicadas e alimentadas. Mesmo após esses cuidados, o retorno ao \nambiente não pode ser imediato, pois elas precisam recuperar a capacidade de flutuação.\nPara flutuar, essas aves precisam"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/104/A.webp",
+        "text": "A \t recuperar o tônus muscular."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/104/B.webp",
+        "text": "B \t restaurar a massa corporal.i"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/104/C.webp",
+        "text": "C \t substituir as penas danificadas."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/104/D.webp",
+        "text": "D \t restabelecer a capacidade de homeotermia."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/104/E.webp",
+        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n6\nE \t refazer a camada de cera impermeabilizante das penas."
+      }
+    ],
+    "officialAnswer": "E",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-2-prova.pdf",
+      "statementSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "layout": "single-column",
+      "answerSha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "header": {
+        "number": 104,
+        "rect": [
+          31.181100845336914,
+          569.3489990234375,
+          135.13107299804688,
+          583.6690063476562
+        ],
+        "page": 6
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 664.4730224609375
+        },
+        {
+          "letter": "B",
+          "y": 680.1729125976562
+        },
+        {
+          "letter": "C",
+          "y": 695.8729248046875
+        },
+        {
+          "letter": "D",
+          "y": 711.5728759765625
+        },
+        {
+          "letter": "E",
+          "y": 727.2728881835938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/104/statement.webp",
+          "sha256": "0a754e54800badf6d33f4dcfd0c5c354337734ade19744d33ceeeb3effc921d5",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            568.3489990234375,
+            565.9290161132812,
+            665.4730224609375
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 195
+        },
+        {
+          "file": "enem-assets/official/2020/104/A.webp",
+          "sha256": "225d61fba0c96df39397b7a0be920bc26378cbfb2299bf831358b16e873cf4f3",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            665.4730224609375,
+            565.9290161132812,
+            681.1729125976562
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/104/B.webp",
+          "sha256": "c561de7ea1dbe2256787d8e274fe11b030fb364027b8569d893a250492376105",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            681.1729125976562,
+            565.9290161132812,
+            696.8729248046875
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2020/104/C.webp",
+          "sha256": "facee728f6621fa783f333e11170e35103a792ba46a85284526b5ea5a438e62e",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            696.8729248046875,
+            565.9290161132812,
+            712.5728759765625
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2020/104/D.webp",
+          "sha256": "b5600e798058cba6008d51ba8ce272616a4a040db4f85de5f76720f6306fa427",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            712.5728759765625,
+            565.9290161132812,
+            728.2728881835938
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2020/104/E.webp",
+          "sha256": "01d1d7f9318c0d17fb08b6b25004422507827e07acf5039e52e5f932b3e69325",
+          "page": 6,
+          "rect": [
+            23.181100845336914,
+            728.2728881835938,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 50
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/104/details.json",
+    "contentFingerprint": "36a44c5a085574a974a0adb7ebf650c9146e1466f765872a1ed64e44b6df9b03",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "36e10d05093caff61f221d71eba99003c6e6affd482b268c012d71d882b1f11f"
+  },
+  {
+    "id": "enem-2020-130",
+    "year": 2020,
+    "number": 130,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 130 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:130:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 130](enem-assets/official/2020/130/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/130/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/130/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/130/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/130/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/130/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2020/130/statement.webp",
+      "enem-assets/official/2020/130/A.webp",
+      "enem-assets/official/2020/130/B.webp",
+      "enem-assets/official/2020/130/C.webp",
+      "enem-assets/official/2020/130/D.webp",
+      "enem-assets/official/2020/130/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/01/2-dia-caderno7-azul-gabarito.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/130/statement.webp",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 14,
+      "transcript": "Questão 130                \nHerschel, em 1880, começou a escrever sobre a condensação da luz solar no foco de uma lente e queria verificar \nde que maneira os raios coloridos contribuem para o aquecimento. Para isso, ele projetou sobre um anteparo o espectro \nsolar obtido com um prisma, colocou termômetros nas diversas faixas de cores e verificou nos dados obtidos que um \ndos termômetros iluminados indicou um aumento de temperatura maior para uma determinada faixa de frequências.\nSAYURI, M.; GASPAR, M. B. Infravermelho na sala de aula. Disponível em: www.cienciamao.usp.br. Acesso em: 15 ago. 2016 (adaptado).\nPara verificar a hipótese de Herschel, um estudante montou o dispositivo apresentado na figura. Nesse aparato, \ncinco recipientes contendo água, à mesma temperatura inicial, e separados por um material isolante térmico e refletor são \nposicionados lado a lado (A, B, C, D e E) no interior de uma caixa de material isolante térmico e opaco. A luz solar, ao entrar \nna caixa, atravessa o prisma e incide sobre os recipientes. O estudante aguarda até que ocorra o aumento da temperatura \ne a afere em cada recipiente.\nCaixa isolada e\n    opaca\nIncidência de luz\n       solar\nLuz\n  solar\n    decomposta\nVermelho\nA\nB\nC\nD\nE\nVioleta\nEspectro\nvisível\nRecipientes\nPRISMA\nEm qual dos recipientes a água terá maior temperatura ao final do experimento?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/130/A.webp",
+        "text": "A \t A"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/130/B.webp",
+        "text": "B \t B"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/130/C.webp",
+        "text": "C \t C"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/130/D.webp",
+        "text": "D \t D"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/130/E.webp",
+        "text": "E \t E"
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-2-prova.pdf",
+      "statementSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "layout": "single-column",
+      "answerSha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "header": {
+        "number": 130,
+        "rect": [
+          31.181100845336914,
+          73.256103515625,
+          135.13107299804688,
+          87.57610321044922
+        ],
+        "page": 14
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 499.388916015625
+        },
+        {
+          "letter": "B",
+          "y": 512.888916015625
+        },
+        {
+          "letter": "C",
+          "y": 526.64892578125
+        },
+        {
+          "letter": "D",
+          "y": 540.14892578125
+        },
+        {
+          "letter": "E",
+          "y": 553.64892578125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/130/statement.webp",
+          "sha256": "bacd94780503eb9f81ce9d21d7ea70b9e8f9b9ac94f2423ee43836d267e7c541",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            72.256103515625,
+            565.9290161132812,
+            500.388916015625
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 857
+        },
+        {
+          "file": "enem-assets/official/2020/130/A.webp",
+          "sha256": "b58daf3713d9f41c98fa3555cd76cbe74a0e4c6d7b62fb2fa85339e74d4d8624",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            500.388916015625,
+            565.9290161132812,
+            513.888916015625
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2020/130/B.webp",
+          "sha256": "0fe1a046e425ea8876e951406bed45bce694094e874e40a279fa6c6fa4ecc03d",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            513.888916015625,
+            565.9290161132812,
+            527.64892578125
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2020/130/C.webp",
+          "sha256": "33658db18403068b334d6484656579176c52856db5d5bbfcee69b537e1b45afe",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            527.64892578125,
+            565.9290161132812,
+            541.14892578125
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2020/130/D.webp",
+          "sha256": "def6b7fa8fce66fb98f4a389eac719548275bca0cd0b4ca99562a86637738223",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            541.14892578125,
+            565.9290161132812,
+            554.64892578125
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2020/130/E.webp",
+          "sha256": "d4edccc55801a2970968c2afbb53ddd1af95a9ff85b7919955e8ef327f32177e",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            554.64892578125,
+            565.9290161132812,
+            564.2289428710938
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 20
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/130/details.json",
+    "contentFingerprint": "08a9061af43a6f4a13db179359e2d20586295d68dc7bd5898b27dc808b1f63ed",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "74482e60320fd1a4bafcfb9124dabbab10038f7dc73910b5baca25ad1889d51e"
+  },
+  {
+    "id": "enem-2020-131",
+    "year": 2020,
+    "number": 131,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 131 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:131:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 131](enem-assets/official/2020/131/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/131/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/131/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/131/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/131/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/131/E.webp)"
+    ],
+    "answer": 4,
+    "images": [
+      "enem-assets/official/2020/131/statement.webp",
+      "enem-assets/official/2020/131/A.webp",
+      "enem-assets/official/2020/131/B.webp",
+      "enem-assets/official/2020/131/C.webp",
+      "enem-assets/official/2020/131/D.webp",
+      "enem-assets/official/2020/131/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/01/2-dia-caderno7-azul-gabarito.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/131/statement.webp",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 14,
+      "transcript": "E\nQuestão 131                \nA  Química Verde é um ramo da química que prega o desenvolvimento de processos eficientes, que transformem a maior \nparte do reagente em produto, de forma mais rápida e seletiva, que utilizem poucos reagentes, que produzam somente o \nproduto desejado, evitando a formação de coprodutos, e que utilizem solventes não agressivos ao meio ambiente. Assim, \nas indústrias contornariam problemas relacionados à poluição ambiental e ao desperdício de água e energia.\nO perfil de um processo que segue todos os princípios desse ramo da química pode ser representado por:"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/131/A.webp",
+        "text": "A \t A + B + C → D    (a reação ocorre a altas pressões)."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/131/B.webp",
+        "text": "B \t A + B → C + D    (a reação é fortemente endotérmica)."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/131/C.webp",
+        "text": "C \t A + 3B → C    (a reação ocorre com uso de solvente orgânico)."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/131/D.webp",
+        "text": "D \t 3A + 2B → 2C → 3D + 2E    (a reação ocorrre sob pressão atmosférica)."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/131/E.webp",
+        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n14\nE \t A + 1−2B → C    (a reação ocorre com o uso de um catalisador contendo um metal não tóxico)."
+      }
+    ],
+    "officialAnswer": "E",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-2-prova.pdf",
+      "statementSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "layout": "single-column",
+      "answerSha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "header": {
+        "number": 131,
+        "rect": [
+          31.181100845336914,
+          565.2289428710938,
+          135.13107299804688,
+          579.5489501953125
+        ],
+        "page": 14
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 656.65283203125
+        },
+        {
+          "letter": "B",
+          "y": 670.65283203125
+        },
+        {
+          "letter": "C",
+          "y": 684.65283203125
+        },
+        {
+          "letter": "D",
+          "y": 698.65283203125
+        },
+        {
+          "letter": "E",
+          "y": 712.6270141601562
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/131/statement.webp",
+          "sha256": "dbc64e6ff4cf8f7bc384d5da9ddb6d8ffc93f5d0dac040bbc1dc6db995178e5f",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            564.2289428710938,
+            565.9290161132812,
+            657.65283203125
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 188
+        },
+        {
+          "file": "enem-assets/official/2020/131/A.webp",
+          "sha256": "ffe0f0870bae6713532bcf5bed1ebfe6a88ddad222aaf643fad260211f92bad6",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            657.65283203125,
+            565.9290161132812,
+            671.65283203125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2020/131/B.webp",
+          "sha256": "0a39f37d5b16ead8e1755250148e2d75acd7507c75bcdeb12ec508780129faf3",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            671.65283203125,
+            565.9290161132812,
+            685.65283203125
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2020/131/C.webp",
+          "sha256": "7e26acf27eb016aa864822f104a21291e5ffb11bf0b5d0e916b9154853772588",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            685.65283203125,
+            565.9290161132812,
+            699.65283203125
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2020/131/D.webp",
+          "sha256": "ff17bd5256bc5ccc1fbf5a29f91be8fa84789a8a1cf234d155f2796f276e9993",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            699.65283203125,
+            565.9290161132812,
+            713.6270141601562
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2020/131/E.webp",
+          "sha256": "252c4e6097a0d26b89f7240710fcdd1d1d5738432779c25eba16ae320cc05109",
+          "page": 14,
+          "rect": [
+            23.181100845336914,
+            713.6270141601562,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 79
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/131/details.json",
+    "contentFingerprint": "e39366a229276ac1b214ba2a2ed20a96d2926aa64996e51b8c07befca195c0bd",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "911c957085619747e83e4af03f9066bded645b2172dd04542606adba7730342c"
+  },
+  {
+    "id": "enem-2020-174",
+    "year": 2020,
+    "number": 174,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 174 — ENEM 2020",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2020:regular:blue:174:pt",
+    "context": "![Enunciado original do ENEM 2020, questão 174](enem-assets/official/2020/174/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2020/174/A.webp)",
+      "![Alternativa B original](enem-assets/official/2020/174/B.webp)",
+      "![Alternativa C original](enem-assets/official/2020/174/C.webp)",
+      "![Alternativa D original](enem-assets/official/2020/174/D.webp)",
+      "![Alternativa E original](enem-assets/official/2020/174/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2020/174/statement.webp",
+      "enem-assets/official/2020/174/A.webp",
+      "enem-assets/official/2020/174/B.webp",
+      "enem-assets/official/2020/174/C.webp",
+      "enem-assets/official/2020/174/D.webp",
+      "enem-assets/official/2020/174/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2020",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/01/2-dia-caderno7-azul-gabarito.pdf",
+    "answerVerification": "references/enem-1000/originals/2020-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2020/174/statement.webp",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 28,
+      "transcript": "Questão 174                \nO fenômeno das manifestações populares de massa traz à discussão como estimar o número de pessoas \npresentes nesse tipo de evento. Uma metodologia usada é: no momento do ápice do evento, é feita uma foto aérea \nda via pública principal na área ocupada, bem como das vias afl uentes que apresentem aglomerações de pessoas \nque acessam a via principal. A foto é sobreposta por um mapa virtual das vias, ambos na mesma escala, fazendo-se \num esboço geométrico da situação. Em seguida, subdivide-se o espaço total em trechos, quantifi cando a densidade, \nda seguinte forma:\n• 4 pessoas por metro quadrado, se elas estiverem andando em uma mesma direção;\n• 5 pessoas por metro quadrado, se elas estiverem se movimentando sem deixar o local;\n• 6 pessoas por metro quadrado, se elas estiverem paradas.\nÉ feito, então, o cálculo do total de pessoas, considerando os diversos trechos, e desconta-se daí 1 000 pessoas \npara cada carro de som fotografado.\nCom essa metodologia, procederam-se aos cálculos para estimar o número de participantes na manifestação cujo \nesboço geométrico é dado na fi gura. Há três trechos na via principal: MN, NO e OP, e um trecho numa via afl uente \nda principal: QR .\nLegenda:\n30 m\n100 m\n100 m\n300 m\n200 m\nVia\nprincipal\nM\nN\nR\nO\nP\nQ\n30 m\nAndando em uma\nmesma direção\nou\nMovimentando sem\ndeixar o local\nParado\nCarro de som\nObs.: a figura não está em escala (considere as medidas dadas).\nSegundo a metodologia descrita, o número estimado de pessoas presentes a essa manifestação foi igual a"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2020/174/A.webp",
+        "text": "A  110 000."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2020/174/B.webp",
+        "text": "B  104 000."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2020/174/C.webp",
+        "text": "C  93 000."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2020/174/D.webp",
+        "text": "D  92 000."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2020/174/E.webp",
+        "text": "E  87 000.\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n28"
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2020-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2020-2-prova.pdf",
+      "statementSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "layout": "single-column",
+      "answerSha256": "9535cba49109a51196de35428d4d4951888b698186117ac2e7c4691b6da6d0f0",
+      "header": {
+        "number": 174,
+        "rect": [
+          31.181100845336914,
+          73.256103515625,
+          135.13107299804688,
+          87.57610321044922
+        ],
+        "page": 28
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 488.81103515625
+        },
+        {
+          "letter": "B",
+          "y": 502.510986328125
+        },
+        {
+          "letter": "C",
+          "y": 516.2111206054688
+        },
+        {
+          "letter": "D",
+          "y": 529.9110107421875
+        },
+        {
+          "letter": "E",
+          "y": 543.611083984375
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2020/174/statement.webp",
+          "sha256": "7558a2d8dd02d200021c23ec917434a9d851c1ee37d61f21f242e1c3e124b820",
+          "page": 28,
+          "rect": [
+            23.181100845336914,
+            72.256103515625,
+            565.9290161132812,
+            489.81103515625
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 836
+        },
+        {
+          "file": "enem-assets/official/2020/174/A.webp",
+          "sha256": "029db656f9a0c7d4acbe717a94dadd09d651b84a80c8958529c9460245ce3dcf",
+          "page": 28,
+          "rect": [
+            23.181100845336914,
+            489.81103515625,
+            565.9290161132812,
+            503.510986328125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2020/174/B.webp",
+          "sha256": "8f43dab98405870746bb736e66d15aa2ec679c416560f575573a0b9b572a5c0a",
+          "page": 28,
+          "rect": [
+            23.181100845336914,
+            503.510986328125,
+            565.9290161132812,
+            517.2111206054688
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2020/174/C.webp",
+          "sha256": "07352952cace914a015d339381d474b950352e4ee6aedf8a4e33ba34635c22de",
+          "page": 28,
+          "rect": [
+            23.181100845336914,
+            517.2111206054688,
+            565.9290161132812,
+            530.9110107421875
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2020/174/D.webp",
+          "sha256": "ed8122ca627f1a919f424aec1dc1c0fb9a84783ba54ae701211e83553c06cd74",
+          "page": 28,
+          "rect": [
+            23.181100845336914,
+            530.9110107421875,
+            565.9290161132812,
+            544.611083984375
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2020/174/E.webp",
+          "sha256": "f9a80a7d412e941020170956248def48c9f2861785c6985574511c54ec6b2a30",
+          "page": 28,
+          "rect": [
+            23.181100845336914,
+            544.611083984375,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 417
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2020/questions/174/details.json",
+    "contentFingerprint": "99ccd14dd3cf2d73d496db5551eb2873ce93882d896ebfe6d95a66205489d6b2",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "b1146c0c1b0585c2701d6b5c98bed53f103363c1b4858f0931810826ff6e9b49"
+  }
+]

@@ -1,3 +1,13 @@
+# Banco atual: 1.070 questões reais validadas
+
+A missão de 1.000 questões foi concluída com **1.070 originais únicos aprovados**, de 2017 a 2024, sendo 839 novos registros e 231 registros anteriores revalidados. Os 403 candidatos pendentes e as sete anulações oficiais não entram na meta nem em novos sorteios. IDs, respostas e histórico anteriores foram preservados.
+
+Consulte o [relatório completo, fontes, licenças, contagens e manutenção](QUESTION-BANK-1000.md). Os enunciados e alternativas aprovados são recortes locais sem perdas dos PDFs oficiais; as resoluções indisponíveis não foram inventadas. O banco funciona sem API de questões em produção.
+
+Os documentos abaixo registram a ampliação anterior e são mantidos como histórico; suas contagens não descrevem o banco atual.
+
+---
+
 # Questões reais do ENEM
 
 72 questões de 2023, dezoito por área, com seis itens por nível editorial em cada área. Transcrições e imagens obtidas do projeto comunitário [API ENEM](https://github.com/yunger7/enem-api), com commit de origem registrado em `references/enem-2023-review.json`. O projeto não é afiliado ao INEP/MEC.

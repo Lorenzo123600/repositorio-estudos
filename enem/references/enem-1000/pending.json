@@ -1,0 +1,2469 @@
+[
+  {
+    "id": "enem-2017-2-ingles",
+    "canonicalId": "enem:2017:regular:blue:2:ingles",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-3-espanhol",
+    "canonicalId": "enem:2017:regular:blue:3:espanhol",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-5-ingles",
+    "canonicalId": "enem:2017:regular:blue:5:ingles",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-12",
+    "canonicalId": "enem:2017:regular:blue:12:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-18",
+    "canonicalId": "enem:2017:regular:blue:18:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-21",
+    "canonicalId": "enem:2017:regular:blue:21:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-23",
+    "canonicalId": "enem:2017:regular:blue:23:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-26",
+    "canonicalId": "enem:2017:regular:blue:26:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-29",
+    "canonicalId": "enem:2017:regular:blue:29:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-32",
+    "canonicalId": "enem:2017:regular:blue:32:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-35",
+    "canonicalId": "enem:2017:regular:blue:35:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-42",
+    "canonicalId": "enem:2017:regular:blue:42:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-45",
+    "canonicalId": "enem:2017:regular:blue:45:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-59",
+    "canonicalId": "enem:2017:regular:blue:59:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-64",
+    "canonicalId": "enem:2017:regular:blue:64:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-90",
+    "canonicalId": "enem:2017:regular:blue:90:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-121",
+    "canonicalId": "enem:2017:regular:blue:121:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-152",
+    "canonicalId": "enem:2017:regular:blue:152:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-163",
+    "canonicalId": "enem:2017:regular:blue:163:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-1-espanhol",
+    "canonicalId": "enem:2018:regular:blue:1:espanhol",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-4-espanhol",
+    "canonicalId": "enem:2018:regular:blue:4:espanhol",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-7",
+    "canonicalId": "enem:2018:regular:blue:7:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-11",
+    "canonicalId": "enem:2018:regular:blue:11:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-17",
+    "canonicalId": "enem:2018:regular:blue:17:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-27",
+    "canonicalId": "enem:2018:regular:blue:27:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-41",
+    "canonicalId": "enem:2018:regular:blue:41:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-44",
+    "canonicalId": "enem:2018:regular:blue:44:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-45",
+    "canonicalId": "enem:2018:regular:blue:45:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-51",
+    "canonicalId": "enem:2018:regular:blue:51:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-56",
+    "canonicalId": "enem:2018:regular:blue:56:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-74",
+    "canonicalId": "enem:2018:regular:blue:74:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-90",
+    "canonicalId": "enem:2018:regular:blue:90:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-113",
+    "canonicalId": "enem:2018:regular:blue:113:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-126",
+    "canonicalId": "enem:2018:regular:blue:126:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-143",
+    "canonicalId": "enem:2018:regular:blue:143:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-147",
+    "canonicalId": "enem:2018:regular:blue:147:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-151",
+    "canonicalId": "enem:2018:regular:blue:151:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-159",
+    "canonicalId": "enem:2018:regular:blue:159:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2018-173",
+    "canonicalId": "enem:2018:regular:blue:173:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-4-espanhol",
+    "canonicalId": "enem:2019:regular:blue:4:espanhol",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-12",
+    "canonicalId": "enem:2019:regular:blue:12:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-15",
+    "canonicalId": "enem:2019:regular:blue:15:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-20",
+    "canonicalId": "enem:2019:regular:blue:20:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-32",
+    "canonicalId": "enem:2019:regular:blue:32:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-38",
+    "canonicalId": "enem:2019:regular:blue:38:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-41",
+    "canonicalId": "enem:2019:regular:blue:41:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-44",
+    "canonicalId": "enem:2019:regular:blue:44:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-45",
+    "canonicalId": "enem:2019:regular:blue:45:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-47",
+    "canonicalId": "enem:2019:regular:blue:47:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-56",
+    "canonicalId": "enem:2019:regular:blue:56:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-90",
+    "canonicalId": "enem:2019:regular:blue:90:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-113",
+    "canonicalId": "enem:2019:regular:blue:113:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-117",
+    "canonicalId": "enem:2019:regular:blue:117:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-130",
+    "canonicalId": "enem:2019:regular:blue:130:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-139",
+    "canonicalId": "enem:2019:regular:blue:139:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-145",
+    "canonicalId": "enem:2019:regular:blue:145:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-161",
+    "canonicalId": "enem:2019:regular:blue:161:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-165",
+    "canonicalId": "enem:2019:regular:blue:165:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-166",
+    "canonicalId": "enem:2019:regular:blue:166:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2019-176",
+    "canonicalId": "enem:2019:regular:blue:176:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-4-ingles",
+    "canonicalId": "enem:2020:regular:blue:4:ingles",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-4-espanhol",
+    "canonicalId": "enem:2020:regular:blue:4:espanhol",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-13",
+    "canonicalId": "enem:2020:regular:blue:13:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-18",
+    "canonicalId": "enem:2020:regular:blue:18:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-21",
+    "canonicalId": "enem:2020:regular:blue:21:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-28",
+    "canonicalId": "enem:2020:regular:blue:28:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-31",
+    "canonicalId": "enem:2020:regular:blue:31:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-45",
+    "canonicalId": "enem:2020:regular:blue:45:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-68",
+    "canonicalId": "enem:2020:regular:blue:68:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-77",
+    "canonicalId": "enem:2020:regular:blue:77:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-82",
+    "canonicalId": "enem:2020:regular:blue:82:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-86",
+    "canonicalId": "enem:2020:regular:blue:86:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-89",
+    "canonicalId": "enem:2020:regular:blue:89:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-90",
+    "canonicalId": "enem:2020:regular:blue:90:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-93",
+    "canonicalId": "enem:2020:regular:blue:93:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-100",
+    "canonicalId": "enem:2020:regular:blue:100:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-106",
+    "canonicalId": "enem:2020:regular:blue:106:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-113",
+    "canonicalId": "enem:2020:regular:blue:113:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-120",
+    "canonicalId": "enem:2020:regular:blue:120:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-128",
+    "canonicalId": "enem:2020:regular:blue:128:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-134",
+    "canonicalId": "enem:2020:regular:blue:134:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-146",
+    "canonicalId": "enem:2020:regular:blue:146:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-153",
+    "canonicalId": "enem:2020:regular:blue:153:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-166",
+    "canonicalId": "enem:2020:regular:blue:166:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-175",
+    "canonicalId": "enem:2020:regular:blue:175:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-176",
+    "canonicalId": "enem:2020:regular:blue:176:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-177",
+    "canonicalId": "enem:2020:regular:blue:177:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2020-178",
+    "canonicalId": "enem:2020:regular:blue:178:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-4-ingles",
+    "canonicalId": "enem:2021:regular:blue:4:ingles",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-13",
+    "canonicalId": "enem:2021:regular:blue:13:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-27",
+    "canonicalId": "enem:2021:regular:blue:27:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-32",
+    "canonicalId": "enem:2021:regular:blue:32:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-37",
+    "canonicalId": "enem:2021:regular:blue:37:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-44",
+    "canonicalId": "enem:2021:regular:blue:44:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-45",
+    "canonicalId": "enem:2021:regular:blue:45:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-48",
+    "canonicalId": "enem:2021:regular:blue:48:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-52",
+    "canonicalId": "enem:2021:regular:blue:52:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-63",
+    "canonicalId": "enem:2021:regular:blue:63:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-72",
+    "canonicalId": "enem:2021:regular:blue:72:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-77",
+    "canonicalId": "enem:2021:regular:blue:77:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-90",
+    "canonicalId": "enem:2021:regular:blue:90:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-92",
+    "canonicalId": "enem:2021:regular:blue:92:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-100",
+    "canonicalId": "enem:2021:regular:blue:100:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-102",
+    "canonicalId": "enem:2021:regular:blue:102:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-113",
+    "canonicalId": "enem:2021:regular:blue:113:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-126",
+    "canonicalId": "enem:2021:regular:blue:126:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-135",
+    "canonicalId": "enem:2021:regular:blue:135:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-137",
+    "canonicalId": "enem:2021:regular:blue:137:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-140",
+    "canonicalId": "enem:2021:regular:blue:140:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-148",
+    "canonicalId": "enem:2021:regular:blue:148:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-150",
+    "canonicalId": "enem:2021:regular:blue:150:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-153",
+    "canonicalId": "enem:2021:regular:blue:153:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-161",
+    "canonicalId": "enem:2021:regular:blue:161:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-162",
+    "canonicalId": "enem:2021:regular:blue:162:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2021-174",
+    "canonicalId": "enem:2021:regular:blue:174:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-8",
+    "canonicalId": "enem:2022:regular:blue:8:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-11",
+    "canonicalId": "enem:2022:regular:blue:11:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-14",
+    "canonicalId": "enem:2022:regular:blue:14:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-17",
+    "canonicalId": "enem:2022:regular:blue:17:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-22",
+    "canonicalId": "enem:2022:regular:blue:22:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-27",
+    "canonicalId": "enem:2022:regular:blue:27:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-30",
+    "canonicalId": "enem:2022:regular:blue:30:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-35",
+    "canonicalId": "enem:2022:regular:blue:35:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-38",
+    "canonicalId": "enem:2022:regular:blue:38:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-41",
+    "canonicalId": "enem:2022:regular:blue:41:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-44",
+    "canonicalId": "enem:2022:regular:blue:44:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-45",
+    "canonicalId": "enem:2022:regular:blue:45:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-63",
+    "canonicalId": "enem:2022:regular:blue:63:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-90",
+    "canonicalId": "enem:2022:regular:blue:90:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-95",
+    "canonicalId": "enem:2022:regular:blue:95:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-103",
+    "canonicalId": "enem:2022:regular:blue:103:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-110",
+    "canonicalId": "enem:2022:regular:blue:110:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-128",
+    "canonicalId": "enem:2022:regular:blue:128:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-134",
+    "canonicalId": "enem:2022:regular:blue:134:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-137",
+    "canonicalId": "enem:2022:regular:blue:137:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-143",
+    "canonicalId": "enem:2022:regular:blue:143:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-155",
+    "canonicalId": "enem:2022:regular:blue:155:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-156",
+    "canonicalId": "enem:2022:regular:blue:156:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2022-169",
+    "canonicalId": "enem:2022:regular:blue:169:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-4-espanhol",
+    "canonicalId": "enem:2023:regular:blue:4:espanhol",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-10",
+    "canonicalId": "enem:2023:regular:blue:10:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-17",
+    "canonicalId": "enem:2023:regular:blue:17:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-20",
+    "canonicalId": "enem:2023:regular:blue:20:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-23",
+    "canonicalId": "enem:2023:regular:blue:23:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-30",
+    "canonicalId": "enem:2023:regular:blue:30:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-33",
+    "canonicalId": "enem:2023:regular:blue:33:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-44",
+    "canonicalId": "enem:2023:regular:blue:44:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-45",
+    "canonicalId": "enem:2023:regular:blue:45:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-52",
+    "canonicalId": "enem:2023:regular:blue:52:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-59",
+    "canonicalId": "enem:2023:regular:blue:59:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-90",
+    "canonicalId": "enem:2023:regular:blue:90:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-109",
+    "canonicalId": "enem:2023:regular:blue:109:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-110",
+    "canonicalId": "enem:2023:regular:blue:110:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-132",
+    "canonicalId": "enem:2023:regular:blue:132:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-141",
+    "canonicalId": "enem:2023:regular:blue:141:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-145",
+    "canonicalId": "enem:2023:regular:blue:145:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-148",
+    "canonicalId": "enem:2023:regular:blue:148:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-163",
+    "canonicalId": "enem:2023:regular:blue:163:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-168",
+    "canonicalId": "enem:2023:regular:blue:168:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-169",
+    "canonicalId": "enem:2023:regular:blue:169:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-172",
+    "canonicalId": "enem:2023:regular:blue:172:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-173",
+    "canonicalId": "enem:2023:regular:blue:173:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2023-177",
+    "canonicalId": "enem:2023:regular:blue:177:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-1-espanhol",
+    "canonicalId": "enem:2024:regular:blue:1:espanhol",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-3-ingles",
+    "canonicalId": "enem:2024:regular:blue:3:ingles",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-5-espanhol",
+    "canonicalId": "enem:2024:regular:blue:5:espanhol",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-7",
+    "canonicalId": "enem:2024:regular:blue:7:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-8",
+    "canonicalId": "enem:2024:regular:blue:8:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-11",
+    "canonicalId": "enem:2024:regular:blue:11:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-13",
+    "canonicalId": "enem:2024:regular:blue:13:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-14",
+    "canonicalId": "enem:2024:regular:blue:14:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-17",
+    "canonicalId": "enem:2024:regular:blue:17:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-19",
+    "canonicalId": "enem:2024:regular:blue:19:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-20",
+    "canonicalId": "enem:2024:regular:blue:20:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-22",
+    "canonicalId": "enem:2024:regular:blue:22:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-25",
+    "canonicalId": "enem:2024:regular:blue:25:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-28",
+    "canonicalId": "enem:2024:regular:blue:28:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-30",
+    "canonicalId": "enem:2024:regular:blue:30:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-31",
+    "canonicalId": "enem:2024:regular:blue:31:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-34",
+    "canonicalId": "enem:2024:regular:blue:34:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-36",
+    "canonicalId": "enem:2024:regular:blue:36:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-39",
+    "canonicalId": "enem:2024:regular:blue:39:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-42",
+    "canonicalId": "enem:2024:regular:blue:42:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-44",
+    "canonicalId": "enem:2024:regular:blue:44:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-45",
+    "canonicalId": "enem:2024:regular:blue:45:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-49",
+    "canonicalId": "enem:2024:regular:blue:49:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-53",
+    "canonicalId": "enem:2024:regular:blue:53:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-57",
+    "canonicalId": "enem:2024:regular:blue:57:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-61",
+    "canonicalId": "enem:2024:regular:blue:61:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-65",
+    "canonicalId": "enem:2024:regular:blue:65:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-68",
+    "canonicalId": "enem:2024:regular:blue:68:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-72",
+    "canonicalId": "enem:2024:regular:blue:72:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-76",
+    "canonicalId": "enem:2024:regular:blue:76:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-79",
+    "canonicalId": "enem:2024:regular:blue:79:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-83",
+    "canonicalId": "enem:2024:regular:blue:83:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-86",
+    "canonicalId": "enem:2024:regular:blue:86:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-90",
+    "canonicalId": "enem:2024:regular:blue:90:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-93",
+    "canonicalId": "enem:2024:regular:blue:93:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-97",
+    "canonicalId": "enem:2024:regular:blue:97:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-100",
+    "canonicalId": "enem:2024:regular:blue:100:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-104",
+    "canonicalId": "enem:2024:regular:blue:104:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-109",
+    "canonicalId": "enem:2024:regular:blue:109:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-112",
+    "canonicalId": "enem:2024:regular:blue:112:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-113",
+    "canonicalId": "enem:2024:regular:blue:113:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-114",
+    "canonicalId": "enem:2024:regular:blue:114:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-118",
+    "canonicalId": "enem:2024:regular:blue:118:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-121",
+    "canonicalId": "enem:2024:regular:blue:121:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-124",
+    "canonicalId": "enem:2024:regular:blue:124:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-127",
+    "canonicalId": "enem:2024:regular:blue:127:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-130",
+    "canonicalId": "enem:2024:regular:blue:130:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-133",
+    "canonicalId": "enem:2024:regular:blue:133:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-135",
+    "canonicalId": "enem:2024:regular:blue:135:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-138",
+    "canonicalId": "enem:2024:regular:blue:138:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-141",
+    "canonicalId": "enem:2024:regular:blue:141:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-145",
+    "canonicalId": "enem:2024:regular:blue:145:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-149",
+    "canonicalId": "enem:2024:regular:blue:149:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-153",
+    "canonicalId": "enem:2024:regular:blue:153:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-155",
+    "canonicalId": "enem:2024:regular:blue:155:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-156",
+    "canonicalId": "enem:2024:regular:blue:156:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-160",
+    "canonicalId": "enem:2024:regular:blue:160:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-161",
+    "canonicalId": "enem:2024:regular:blue:161:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-164",
+    "canonicalId": "enem:2024:regular:blue:164:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-167",
+    "canonicalId": "enem:2024:regular:blue:167:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-168",
+    "canonicalId": "enem:2024:regular:blue:168:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-170",
+    "canonicalId": "enem:2024:regular:blue:170:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-172",
+    "canonicalId": "enem:2024:regular:blue:172:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-174",
+    "canonicalId": "enem:2024:regular:blue:174:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2024-176",
+    "canonicalId": "enem:2024:regular:blue:176:pt",
+    "status": "pending",
+    "reason": "Não foi possível separar enunciado e A–E integralmente na mesma coluna."
+  },
+  {
+    "id": "enem-2017-38",
+    "canonicalId": "enem:2017:regular:blue:38:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-39",
+    "canonicalId": "enem:2017:regular:blue:39:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-44",
+    "canonicalId": "enem:2017:regular:blue:44:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-108",
+    "canonicalId": "enem:2017:regular:blue:108:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-125",
+    "canonicalId": "enem:2017:regular:blue:125:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-127",
+    "canonicalId": "enem:2017:regular:blue:127:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-132",
+    "canonicalId": "enem:2017:regular:blue:132:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-133",
+    "canonicalId": "enem:2017:regular:blue:133:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-136",
+    "canonicalId": "enem:2017:regular:blue:136:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-164",
+    "canonicalId": "enem:2017:regular:blue:164:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-165",
+    "canonicalId": "enem:2017:regular:blue:165:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-167",
+    "canonicalId": "enem:2017:regular:blue:167:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-168",
+    "canonicalId": "enem:2017:regular:blue:168:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-173",
+    "canonicalId": "enem:2017:regular:blue:173:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2017-175",
+    "canonicalId": "enem:2017:regular:blue:175:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2018-4-ingles",
+    "canonicalId": "enem:2018:regular:blue:4:ingles",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2018-95",
+    "canonicalId": "enem:2018:regular:blue:95:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2018-99",
+    "canonicalId": "enem:2018:regular:blue:99:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2018-108",
+    "canonicalId": "enem:2018:regular:blue:108:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2018-133",
+    "canonicalId": "enem:2018:regular:blue:133:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2018-148",
+    "canonicalId": "enem:2018:regular:blue:148:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2018-156",
+    "canonicalId": "enem:2018:regular:blue:156:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2019-1-espanhol",
+    "canonicalId": "enem:2019:regular:blue:1:espanhol",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2019-2-ingles",
+    "canonicalId": "enem:2019:regular:blue:2:ingles",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2019-3-espanhol",
+    "canonicalId": "enem:2019:regular:blue:3:espanhol",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2019-3-ingles",
+    "canonicalId": "enem:2019:regular:blue:3:ingles",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2019-5-espanhol",
+    "canonicalId": "enem:2019:regular:blue:5:espanhol",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2019-17",
+    "canonicalId": "enem:2019:regular:blue:17:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2019-18",
+    "canonicalId": "enem:2019:regular:blue:18:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2019-136",
+    "canonicalId": "enem:2019:regular:blue:136:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2019-171",
+    "canonicalId": "enem:2019:regular:blue:171:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2020-142",
+    "canonicalId": "enem:2020:regular:blue:142:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2020-149",
+    "canonicalId": "enem:2020:regular:blue:149:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2020-170",
+    "canonicalId": "enem:2020:regular:blue:170:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2021-22",
+    "canonicalId": "enem:2021:regular:blue:22:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2021-23",
+    "canonicalId": "enem:2021:regular:blue:23:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2021-36",
+    "canonicalId": "enem:2021:regular:blue:36:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2021-105",
+    "canonicalId": "enem:2021:regular:blue:105:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2021-123",
+    "canonicalId": "enem:2021:regular:blue:123:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2021-152",
+    "canonicalId": "enem:2021:regular:blue:152:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2021-179",
+    "canonicalId": "enem:2021:regular:blue:179:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2022-21",
+    "canonicalId": "enem:2022:regular:blue:21:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2022-46",
+    "canonicalId": "enem:2022:regular:blue:46:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2022-65",
+    "canonicalId": "enem:2022:regular:blue:65:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2022-96",
+    "canonicalId": "enem:2022:regular:blue:96:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2022-141",
+    "canonicalId": "enem:2022:regular:blue:141:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2022-148",
+    "canonicalId": "enem:2022:regular:blue:148:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2022-160",
+    "canonicalId": "enem:2022:regular:blue:160:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2022-162",
+    "canonicalId": "enem:2022:regular:blue:162:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2022-180",
+    "canonicalId": "enem:2022:regular:blue:180:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-1-espanhol",
+    "canonicalId": "enem:2023:regular:blue:1:espanhol",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-1-ingles",
+    "canonicalId": "enem:2023:regular:blue:1:ingles",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-2-ingles",
+    "canonicalId": "enem:2023:regular:blue:2:ingles",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-3-espanhol",
+    "canonicalId": "enem:2023:regular:blue:3:espanhol",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-4-ingles",
+    "canonicalId": "enem:2023:regular:blue:4:ingles",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-6",
+    "canonicalId": "enem:2023:regular:blue:6:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-7",
+    "canonicalId": "enem:2023:regular:blue:7:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-9",
+    "canonicalId": "enem:2023:regular:blue:9:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-12",
+    "canonicalId": "enem:2023:regular:blue:12:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-14",
+    "canonicalId": "enem:2023:regular:blue:14:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-16",
+    "canonicalId": "enem:2023:regular:blue:16:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-19",
+    "canonicalId": "enem:2023:regular:blue:19:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-22",
+    "canonicalId": "enem:2023:regular:blue:22:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-25",
+    "canonicalId": "enem:2023:regular:blue:25:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-26",
+    "canonicalId": "enem:2023:regular:blue:26:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-29",
+    "canonicalId": "enem:2023:regular:blue:29:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-32",
+    "canonicalId": "enem:2023:regular:blue:32:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-35",
+    "canonicalId": "enem:2023:regular:blue:35:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-36",
+    "canonicalId": "enem:2023:regular:blue:36:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-39",
+    "canonicalId": "enem:2023:regular:blue:39:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-40",
+    "canonicalId": "enem:2023:regular:blue:40:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-43",
+    "canonicalId": "enem:2023:regular:blue:43:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-46",
+    "canonicalId": "enem:2023:regular:blue:46:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-47",
+    "canonicalId": "enem:2023:regular:blue:47:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-50",
+    "canonicalId": "enem:2023:regular:blue:50:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-51",
+    "canonicalId": "enem:2023:regular:blue:51:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-58",
+    "canonicalId": "enem:2023:regular:blue:58:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-62",
+    "canonicalId": "enem:2023:regular:blue:62:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-63",
+    "canonicalId": "enem:2023:regular:blue:63:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-66",
+    "canonicalId": "enem:2023:regular:blue:66:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-67",
+    "canonicalId": "enem:2023:regular:blue:67:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-70",
+    "canonicalId": "enem:2023:regular:blue:70:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-71",
+    "canonicalId": "enem:2023:regular:blue:71:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-73",
+    "canonicalId": "enem:2023:regular:blue:73:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-74",
+    "canonicalId": "enem:2023:regular:blue:74:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-77",
+    "canonicalId": "enem:2023:regular:blue:77:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-78",
+    "canonicalId": "enem:2023:regular:blue:78:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-81",
+    "canonicalId": "enem:2023:regular:blue:81:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-82",
+    "canonicalId": "enem:2023:regular:blue:82:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-85",
+    "canonicalId": "enem:2023:regular:blue:85:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-86",
+    "canonicalId": "enem:2023:regular:blue:86:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-91",
+    "canonicalId": "enem:2023:regular:blue:91:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-92",
+    "canonicalId": "enem:2023:regular:blue:92:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-93",
+    "canonicalId": "enem:2023:regular:blue:93:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-97",
+    "canonicalId": "enem:2023:regular:blue:97:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-98",
+    "canonicalId": "enem:2023:regular:blue:98:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-101",
+    "canonicalId": "enem:2023:regular:blue:101:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-102",
+    "canonicalId": "enem:2023:regular:blue:102:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-103",
+    "canonicalId": "enem:2023:regular:blue:103:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-106",
+    "canonicalId": "enem:2023:regular:blue:106:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-107",
+    "canonicalId": "enem:2023:regular:blue:107:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-114",
+    "canonicalId": "enem:2023:regular:blue:114:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-115",
+    "canonicalId": "enem:2023:regular:blue:115:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-118",
+    "canonicalId": "enem:2023:regular:blue:118:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-119",
+    "canonicalId": "enem:2023:regular:blue:119:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-128",
+    "canonicalId": "enem:2023:regular:blue:128:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-129",
+    "canonicalId": "enem:2023:regular:blue:129:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-133",
+    "canonicalId": "enem:2023:regular:blue:133:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-134",
+    "canonicalId": "enem:2023:regular:blue:134:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-136",
+    "canonicalId": "enem:2023:regular:blue:136:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-144",
+    "canonicalId": "enem:2023:regular:blue:144:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-147",
+    "canonicalId": "enem:2023:regular:blue:147:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-150",
+    "canonicalId": "enem:2023:regular:blue:150:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-151",
+    "canonicalId": "enem:2023:regular:blue:151:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-153",
+    "canonicalId": "enem:2023:regular:blue:153:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-154",
+    "canonicalId": "enem:2023:regular:blue:154:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-157",
+    "canonicalId": "enem:2023:regular:blue:157:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-158",
+    "canonicalId": "enem:2023:regular:blue:158:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-161",
+    "canonicalId": "enem:2023:regular:blue:161:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-162",
+    "canonicalId": "enem:2023:regular:blue:162:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-171",
+    "canonicalId": "enem:2023:regular:blue:171:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-176",
+    "canonicalId": "enem:2023:regular:blue:176:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2023-178",
+    "canonicalId": "enem:2023:regular:blue:178:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-1-ingles",
+    "canonicalId": "enem:2024:regular:blue:1:ingles",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-3-espanhol",
+    "canonicalId": "enem:2024:regular:blue:3:espanhol",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-5-ingles",
+    "canonicalId": "enem:2024:regular:blue:5:ingles",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-10",
+    "canonicalId": "enem:2024:regular:blue:10:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-15",
+    "canonicalId": "enem:2024:regular:blue:15:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-21",
+    "canonicalId": "enem:2024:regular:blue:21:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-24",
+    "canonicalId": "enem:2024:regular:blue:24:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-27",
+    "canonicalId": "enem:2024:regular:blue:27:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-33",
+    "canonicalId": "enem:2024:regular:blue:33:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-38",
+    "canonicalId": "enem:2024:regular:blue:38:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-41",
+    "canonicalId": "enem:2024:regular:blue:41:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-46",
+    "canonicalId": "enem:2024:regular:blue:46:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-47",
+    "canonicalId": "enem:2024:regular:blue:47:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-51",
+    "canonicalId": "enem:2024:regular:blue:51:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-55",
+    "canonicalId": "enem:2024:regular:blue:55:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-59",
+    "canonicalId": "enem:2024:regular:blue:59:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-63",
+    "canonicalId": "enem:2024:regular:blue:63:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-67",
+    "canonicalId": "enem:2024:regular:blue:67:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-70",
+    "canonicalId": "enem:2024:regular:blue:70:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-74",
+    "canonicalId": "enem:2024:regular:blue:74:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-77",
+    "canonicalId": "enem:2024:regular:blue:77:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-78",
+    "canonicalId": "enem:2024:regular:blue:78:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-81",
+    "canonicalId": "enem:2024:regular:blue:81:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-85",
+    "canonicalId": "enem:2024:regular:blue:85:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-88",
+    "canonicalId": "enem:2024:regular:blue:88:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-91",
+    "canonicalId": "enem:2024:regular:blue:91:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-95",
+    "canonicalId": "enem:2024:regular:blue:95:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-99",
+    "canonicalId": "enem:2024:regular:blue:99:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-102",
+    "canonicalId": "enem:2024:regular:blue:102:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-106",
+    "canonicalId": "enem:2024:regular:blue:106:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-111",
+    "canonicalId": "enem:2024:regular:blue:111:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-116",
+    "canonicalId": "enem:2024:regular:blue:116:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-120",
+    "canonicalId": "enem:2024:regular:blue:120:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-122",
+    "canonicalId": "enem:2024:regular:blue:122:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-126",
+    "canonicalId": "enem:2024:regular:blue:126:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-131",
+    "canonicalId": "enem:2024:regular:blue:131:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-136",
+    "canonicalId": "enem:2024:regular:blue:136:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-140",
+    "canonicalId": "enem:2024:regular:blue:140:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-143",
+    "canonicalId": "enem:2024:regular:blue:143:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-147",
+    "canonicalId": "enem:2024:regular:blue:147:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-148",
+    "canonicalId": "enem:2024:regular:blue:148:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-151",
+    "canonicalId": "enem:2024:regular:blue:151:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-158",
+    "canonicalId": "enem:2024:regular:blue:158:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-159",
+    "canonicalId": "enem:2024:regular:blue:159:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-163",
+    "canonicalId": "enem:2024:regular:blue:163:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-166",
+    "canonicalId": "enem:2024:regular:blue:166:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-169",
+    "canonicalId": "enem:2024:regular:blue:169:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-171",
+    "canonicalId": "enem:2024:regular:blue:171:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-173",
+    "canonicalId": "enem:2024:regular:blue:173:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-175",
+    "canonicalId": "enem:2024:regular:blue:175:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2024-178",
+    "canonicalId": "enem:2024:regular:blue:178:pt",
+    "status": "pending",
+    "reason": "texto ultrapassa o limite da coluna"
+  },
+  {
+    "id": "enem-2024-180",
+    "canonicalId": "enem:2024:regular:blue:180:pt",
+    "status": "pending",
+    "reason": "limite entre alternativas sem faixa de espaço livre"
+  },
+  {
+    "id": "enem-2018-163",
+    "canonicalId": "enem:2018:regular:blue:163:pt",
+    "status": "cancelled",
+    "reason": "gabarito anulado ou não resolvido",
+    "officialAnswer": "Anulado"
+  },
+  {
+    "id": "enem-2020-135",
+    "canonicalId": "enem:2020:regular:blue:135:pt",
+    "status": "cancelled",
+    "reason": "gabarito anulado ou não resolvido",
+    "officialAnswer": "Anulada"
+  },
+  {
+    "id": "enem-2020-157",
+    "canonicalId": "enem:2020:regular:blue:157:pt",
+    "status": "cancelled",
+    "reason": "gabarito anulado ou não resolvido",
+    "officialAnswer": "Anulada"
+  },
+  {
+    "id": "enem-2021-138",
+    "canonicalId": "enem:2021:regular:blue:138:pt",
+    "status": "cancelled",
+    "reason": "gabarito anulado ou não resolvido",
+    "officialAnswer": "anulada"
+  },
+  {
+    "id": "enem-2022-157",
+    "canonicalId": "enem:2022:regular:blue:157:pt",
+    "status": "cancelled",
+    "reason": "gabarito anulado ou não resolvido",
+    "officialAnswer": "Anulado"
+  },
+  {
+    "id": "enem-2023-164",
+    "canonicalId": "enem:2023:regular:blue:164:pt",
+    "status": "cancelled",
+    "reason": "gabarito anulado ou não resolvido",
+    "officialAnswer": "Anulado"
+  },
+  {
+    "id": "enem-2024-129",
+    "canonicalId": "enem:2024:regular:blue:129:pt",
+    "status": "cancelled",
+    "reason": "gabarito anulado ou não resolvido",
+    "officialAnswer": "Anulado"
+  }
+]

@@ -32,7 +32,12 @@
       "enem-assets/2023/questions/46/4eac436b-15be-438c-8219-f2043ab21946.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "f036bcaebc7232c8447c58141bd190a7daafce58353d0b8897723d9fb78a44d9"
+    "sourceSha256": "f036bcaebc7232c8447c58141bd190a7daafce58353d0b8897723d9fb78a44d9",
+    "canonicalId": "enem:2023:regular:blue:46:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-47",
@@ -65,7 +70,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "93452244f4d2dad65f2d2ffb07f1e0d9fb199fb269757036752642c9e45f9734"
+    "sourceSha256": "93452244f4d2dad65f2d2ffb07f1e0d9fb199fb269757036752642c9e45f9734",
+    "canonicalId": "enem:2023:regular:blue:47:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-48",
@@ -78,27 +88,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "No Cerrado, o conhecimento local está sendo cada vez mais subordinado à lógica do agronegócio. De um lado, o capital impõe os conhecimentos biotecnológicos, como mecanismo de universalização de práticas agrícolas e de novas tecnologias, e de outro, o modelo capitalista subordina homens e mulheres à lógica do mercado. Assim, as águas, as sementes, os minerais, as terras (bens comuns) tornam-se propriedade privada. Além do mais, há outros fatores negativos, como a mecanização pesada, a “pragatização” dos seres humanos e não humanos, a violência simbólica, a superexploração, as chuvas de veneno e a violência contra a pessoa.\nCALAÇA, M.; SILVA, E. B.; JESUS, J. N. Territorialização do agronegócio e subordinação\ndo campesinato no Cerrado, Élisée, Rev. Geo. ÚEG, n. 1, jan.-jun. 2021 (adaptado).",
+    "context": "![Enunciado original do ENEM 2023, questão 48](enem-assets/official/2023/48/statement.webp)",
     "text": "Os elementos descritos no texto, a respeito da territorialização da produção, demonstram que há um:",
     "options": [
-      "Cerco aos camponeses, inviabilizando a manutenção das condições para a vida.",
-      "Descaso aos latifundiários, impactando a plantação de alimentos para a exportação.",
-      "Desprezo ao assalariado, afetando o engajamento dos sindicatos para o trabalhador.",
-      "Desrespeito aos governantes, comprometendo a criação de empregos para o lavrador.",
-      "Assédio ao empresariado, dificultando o investimento de maquinários para a produção."
+      "![Alternativa A original](enem-assets/official/2023/48/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/48/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/48/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/48/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/48/E.webp)"
     ],
     "answer": 0,
     "explanation": "Gabarito oficial: A. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/48/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "6f6900531a8dc39b3ff913537c88ebdc0433f38c5570654a7fdaa967965de1cb"
+    "images": [
+      "enem-assets/official/2023/48/statement.webp",
+      "enem-assets/official/2023/48/A.webp",
+      "enem-assets/official/2023/48/B.webp",
+      "enem-assets/official/2023/48/C.webp",
+      "enem-assets/official/2023/48/D.webp",
+      "enem-assets/official/2023/48/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "6f6900531a8dc39b3ff913537c88ebdc0433f38c5570654a7fdaa967965de1cb",
+    "canonicalId": "enem:2023:regular:blue:48:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 48,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 20
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 272.3511962890625
+        },
+        {
+          "letter": "B",
+          "y": 297.50531005859375
+        },
+        {
+          "letter": "C",
+          "y": 322.659423828125
+        },
+        {
+          "letter": "D",
+          "y": 347.81353759765625
+        },
+        {
+          "letter": "E",
+          "y": 372.96759033203125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/48/statement.webp",
+          "sha256": "e82d0625f52ebfe0858cbe69a925aca4724af9f25dd008f428666482f21cbe2d",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            273.3511962890625
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 420
+        },
+        {
+          "file": "enem-assets/official/2023/48/A.webp",
+          "sha256": "fd3bb4b8edbee963c4ddde3d7d46c1b64c586243545757be5d4bc9ea54cadfd1",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            273.3511962890625,
+            546.1339111328125,
+            298.50531005859375
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 52
+        },
+        {
+          "file": "enem-assets/official/2023/48/B.webp",
+          "sha256": "bed843d472952b44280c740ea3aac927e734776442b34cab2472b62521d55137",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            298.50531005859375,
+            546.1339111328125,
+            323.659423828125
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 51
+        },
+        {
+          "file": "enem-assets/official/2023/48/C.webp",
+          "sha256": "5b2253509d09c4b6591b022c6a6761733dcf0861a07dc7af9f94e88ee24faf36",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            323.659423828125,
+            546.1339111328125,
+            348.81353759765625
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 51
+        },
+        {
+          "file": "enem-assets/official/2023/48/D.webp",
+          "sha256": "528241278e845a89da43d7398e5f9e1849672e693233fe43533dd80eb6fbd8f6",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            348.81353759765625,
+            546.1339111328125,
+            373.96759033203125
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 51
+        },
+        {
+          "file": "enem-assets/official/2023/48/E.webp",
+          "sha256": "59e1caad83c50799a7bc1b68ce6b8dd561fb0731d30d766d354c2f0842f65280",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            373.96759033203125,
+            546.1339111328125,
+            403.7721252441406
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 61
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/48/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 20,
+      "transcript": "QUESTÃO 48\t\nNo Cerrado, o conhecimento local está sendo cada \nvez mais subordinado à lógica do agronegócio. De um \nlado, o capital impõe os conhecimentos biotecnológicos, \ncomo mecanismo de universalização de práticas agrícolas \ne de novas tecnologias, e de outro, o modelo capitalista \nsubordina homens e mulheres à lógica do mercado. Assim, \nas águas, as sementes, os minerais, as terras (bens \ncomuns) tornam-se propriedade privada. Além do mais, \nhá outros fatores negativos, como a mecanização pesada, \na “pragatização” dos seres humanos e não humanos, a \nviolência simbólica, a superexploração, as chuvas de \nveneno e a violência contra a pessoa.\nCALAÇA, M.; SILVA, E. B.; JESUS, J. N. Territorialização do agronegócio e subordinação \ndo campesinato no Cerrado. Élisée, Rev. Geo. UEG, n. 1, jan.-jun. 2021 (adaptado).\nOs elementos descritos no texto, a respeito da \nterritorialização da produção, demonstram que há um"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/48/A.webp",
+        "text": "A\t\nA\t cerco aos camponeses, inviabilizando a manutenção \ndas condições para a vida."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/48/B.webp",
+        "text": "B\t\nB\t descaso aos latifundiários, impactando a plantação \nde alimentos para a exportação."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/48/C.webp",
+        "text": "C\t\nC\t desprezo ao assalariado, afetando o engajamento dos \nsindicatos para o trabalhador."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/48/D.webp",
+        "text": "D\t\nD\t desrespeito aos governantes, comprometendo a \ncriação de empregos para o lavrador.i"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/48/E.webp",
+        "text": "E\t\nE\t assédio ao empresariado, dificultando o investimento \nde maquinários para a produção."
+      }
+    ],
+    "officialAnswer": "A",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/48/details.json",
+    "contentFingerprint": "108ab533e4a63781ef7a21156f4354b484805bc4aa3763925daa1c07a2a26461",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "6f6900531a8dc39b3ff913537c88ebdc0433f38c5570654a7fdaa967965de1cb"
   },
   {
     "id": "enem-2023-49",
@@ -111,27 +302,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "TEXTO I\nCom uma população de 25 milhões de habitantes (cerca de 60% de minorias muçulmanas, principalmente da etnia Uigur), Xinjiang é uma região estratégica para a China. Faz fronteira com oito países, é uma artéria crucial do megaprojeto de infraestrutura chinês Cinturão e Rota e tem as maiores reservas nacionais de carvão e gás natural.\n(NINIO, M. Disponível em: https: oglobo.globo.com. Acesso em: 5 out. 2021 adaptado)\nTEXTO II\nDentre as províncias da Região Oeste, Xinjiang se destaca ao receber mais de 1,7 milhão de migrantes entre 2000 e 2010. O principal motivo desse fluxo migratório é que o governo fornece subsídios à população visando aumentar a proporção de chineses da etnia Han em relação à população local de etnias turca e muçulmana.\nALVES. F.: TOYOSHIMA. S. Disparidade socioeconômica e fluxo migratório chinês: interpretação de eventos contemporâneos segundo os clássicos do desenvolvimento. Revista de Economia Contemporânea. n 1. jan. abr. 2017 (adaptado)",
+    "context": "![Enunciado original do ENEM 2023, questão 49](enem-assets/official/2023/49/statement.webp)",
     "text": "A política demográfica para a província mencionada nos textos é parte da seguinte ação estratégica do governo chinês:",
     "options": [
-      "Promover a ocupação rural.",
-      "Favorecer a liberdade religiosa.",
-      "Descentralizar a gestão pública.",
-      "Incentivar a pluralidade cultural.",
-      "Assegurar a integridade territorial."
+      "![Alternativa A original](enem-assets/official/2023/49/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/49/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/49/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/49/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/49/E.webp)"
     ],
     "answer": 4,
     "explanation": "Gabarito oficial: E. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/49/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "aca010b03da7c7e181a4363ffe6e961f43d915406ed9d4f058626e72bcb68c2e"
+    "images": [
+      "enem-assets/official/2023/49/statement.webp",
+      "enem-assets/official/2023/49/A.webp",
+      "enem-assets/official/2023/49/B.webp",
+      "enem-assets/official/2023/49/C.webp",
+      "enem-assets/official/2023/49/D.webp",
+      "enem-assets/official/2023/49/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "aca010b03da7c7e181a4363ffe6e961f43d915406ed9d4f058626e72bcb68c2e",
+    "canonicalId": "enem:2023:regular:blue:49:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 49,
+        "rect": [
+          289.1339416503906,
+          404.7721252441406,
+          353.6107177734375,
+          418.7341003417969
+        ],
+        "page": 20
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 666.0718994140625
+        },
+        {
+          "letter": "B",
+          "y": 679.499267578125
+        },
+        {
+          "letter": "C",
+          "y": 692.9268188476562
+        },
+        {
+          "letter": "D",
+          "y": 706.3541870117188
+        },
+        {
+          "letter": "E",
+          "y": 719.7816772460938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/49/statement.webp",
+          "sha256": "203e2eb4b1d484c87a519fc9e87591488d956dd8bb09502d03a51fca24eb0ff7",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            403.7721252441406,
+            546.1339416503906,
+            667.0718994140625
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 528
+        },
+        {
+          "file": "enem-assets/official/2023/49/A.webp",
+          "sha256": "5f722c23eb1f5376cbee520725ac5603040be8a63834af4d4f41b38330b8ba34",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            667.0718994140625,
+            546.1339416503906,
+            680.499267578125
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/49/B.webp",
+          "sha256": "4ad3e0107b2dfa07f09681693ac644e78e55a491e0f726f656558d835709fe52",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            680.499267578125,
+            546.1339416503906,
+            693.9268188476562
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/49/C.webp",
+          "sha256": "7a227a79e119173a012c456aa7422255e29d362e6605cbda256f4d4e6106947c",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            693.9268188476562,
+            546.1339416503906,
+            707.3541870117188
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/49/D.webp",
+          "sha256": "9cccf2eb0f834858cd7641c7a32e861cf8f3c1e10c6c6b27bc19ac931432601c",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            707.3541870117188,
+            546.1339416503906,
+            720.7816772460938
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/49/E.webp",
+          "sha256": "570e8c3b6dd2c9c86e96b2607f20b68a3cdd8634f59f25ecc71ca3e409b54179",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            720.7816772460938,
+            546.1339416503906,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 65
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/49/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 20,
+      "transcript": "QUESTÃO 49\t\nTEXTO I\nCom uma população de 25 milhões de habitantes \n(cerca de 60% de minorias muçulmanas, principalmente \nda etnia Uigur), Xinjiang é uma região estratégica para a \nChina. Faz fronteira com oito países, é uma artéria crucial \ndo megaprojeto de infraestrutura chinês Cinturão e Rota e \ntem as maiores reservas nacionais de carvão e gás natural.\nNINIO, M. Disponível em: https://oglobo.globo.com. Acesso em: 5 out. 2021 (adaptado).\nTEXTO II\nDentre as províncias da Região Oeste, Xinjiang se \ndestaca ao receber mais de 1,7 milhão de migrantes entre \n2000 e 2010. O principal motivo desse fluxo migratório \né que o governo fornece subsídios à população visando \naumentar a proporção de chineses da etnia Han em \nrelação à população local de etnias turca e muçulmana. \nALVES, F.; TOYOSHIMA, S. Disparidade socioeconômica e fluxo migratório chinês: \ninterpretação de eventos contemporâneos segundo os clássicos do desenvolvimento. \nRevista de Economia Contemporânea, n. 1, jan.-abr. 2017 (adaptado).\nA política demográfica para a província mencionada \nnos textos é parte da seguinte ação estratégica do \ngoverno chinês:"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/49/A.webp",
+        "text": "A\t\nA\t Promover a ocupação rural."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/49/B.webp",
+        "text": "B\t\nB\t Favorecer a liberdade religiosa."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/49/C.webp",
+        "text": "C\t\nC\t Descentralizar a gestão pública."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/49/D.webp",
+        "text": "D\t\nD\t Incentivar a pluralidade cultural."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/49/E.webp",
+        "text": "DERNO 1 • AZUL–\nE\t\nE\t Assegurar a integridade territorial."
+      }
+    ],
+    "officialAnswer": "E",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/49/details.json",
+    "contentFingerprint": "97b4f9c00c9e5cbfb6d40d21b708dabcb6befc6cdda99011efe1873b76843502",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "aca010b03da7c7e181a4363ffe6e961f43d915406ed9d4f058626e72bcb68c2e"
   },
   {
     "id": "enem-2023-50",
@@ -164,7 +536,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "615f0ae498fd7a8517019cca0001ffa27401d1889a27cffb45f139a0c874b11c"
+    "sourceSha256": "615f0ae498fd7a8517019cca0001ffa27401d1889a27cffb45f139a0c874b11c",
+    "canonicalId": "enem:2023:regular:blue:50:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-51",
@@ -197,7 +574,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "ff743a16003f630f540a9c481b79fbde843af730b27345c7accc95550e2b9614"
+    "sourceSha256": "ff743a16003f630f540a9c481b79fbde843af730b27345c7accc95550e2b9614",
+    "canonicalId": "enem:2023:regular:blue:51:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-52",
@@ -230,7 +612,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "4944de1d5d9b0af4c8de5e6667db497e0d704a6834154d4e2b2af990f277b6ff"
+    "sourceSha256": "4944de1d5d9b0af4c8de5e6667db497e0d704a6834154d4e2b2af990f277b6ff",
+    "canonicalId": "enem:2023:regular:blue:52:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-54",
@@ -243,28 +630,209 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Eu poderia concluir que a raiva é um pensamento, que estar com raiva é pensar que alguém é detestável, e que esse pensamento, como todos os outros — assim como Descartes o mostrou —, não poderia residir em nenhum fragmento de matéria. A raiva seria, portanto, espírito. Porém, quando me volto para minha própria experiência da raiva, devo confessar que ela não estava fora do meu corpo, mas inexplicavelmente nele.\nMERLEAU-PONTY, M. Quinta conversa: o homem visto de fora. São Paulo: Martins Fontes, 1948 (adaptado).",
+    "context": "![Enunciado original do ENEM 2023, questão 54](enem-assets/official/2023/54/statement.webp)",
     "text": "No que se refere ao problema do corpo, a filosofia cartesiana apresenta-se como contraponto ao entendimento expresso no texto por",
     "options": [
-      "Apresentar uma visão dualista.",
-      "Confirmar uma tese naturalista.",
-      "demonstrar uma premissa realista.",
-      "Sustentar um argumento idealista.",
-      "Defender uma posição intencionalista."
+      "![Alternativa A original](enem-assets/official/2023/54/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/54/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/54/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/54/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/54/E.webp)"
     ],
     "answer": 0,
     "explanation": "Gabarito oficial: A. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/54/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
+    "images": [
+      "enem-assets/official/2023/54/statement.webp",
+      "enem-assets/official/2023/54/A.webp",
+      "enem-assets/official/2023/54/B.webp",
+      "enem-assets/official/2023/54/C.webp",
+      "enem-assets/official/2023/54/D.webp",
+      "enem-assets/official/2023/54/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
     "sourceSha256": "81180a21f0d8df31dbd7b5b658dbdd4549c0ab2ccd3b3539ab017572ad4396bb",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:54:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 54,
+        "rect": [
+          289.1339111328125,
+          495.53094482421875,
+          353.6106872558594,
+          509.492919921875
+        ],
+        "page": 21
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 663.921630859375
+        },
+        {
+          "letter": "B",
+          "y": 677.836669921875
+        },
+        {
+          "letter": "C",
+          "y": 691.7515869140625
+        },
+        {
+          "letter": "D",
+          "y": 705.6666870117188
+        },
+        {
+          "letter": "E",
+          "y": 719.7816772460938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/54/statement.webp",
+          "sha256": "b3f6bfa405f696f375dce8b67d441fb809b4e4db6e8255cffeec946964d43b7d",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            494.53094482421875,
+            546.1339111328125,
+            664.921630859375
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 341
+        },
+        {
+          "file": "enem-assets/official/2023/54/A.webp",
+          "sha256": "579f3ebae3370c9a59f17ff6a97cb8ad9011696071d9c36c0c9dec2403a4a3f9",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            664.921630859375,
+            546.1339111328125,
+            678.836669921875
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2023/54/B.webp",
+          "sha256": "23c71c840ca4ce19c2a454b2f3ccd93c2afe36ab9444093f0878043d57f325e2",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            678.836669921875,
+            546.1339111328125,
+            692.7515869140625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2023/54/C.webp",
+          "sha256": "29c78308f8dea509c13c5efe39f3f41dd60ad5a2f84a3ba2ad8fc269df78f845",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            692.7515869140625,
+            546.1339111328125,
+            706.6666870117188
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2023/54/D.webp",
+          "sha256": "356eeddb139b5824b2066635c51b413a908ee7de68a108d5c2eaf22a7da5173d",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            706.6666870117188,
+            546.1339111328125,
+            720.7816772460938
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2023/54/E.webp",
+          "sha256": "3fc1c09a31fa15e785503fb031b9244d14a625f76e0ca44295aa67494f232add",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            720.7816772460938,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 65
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/54/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 21,
+      "transcript": "QUESTÃO 54\t\nEu poderia concluir que a raiva é um pensamento, que \nestar com raiva é pensar que alguém é detestável, e que \nesse pensamento, como todos os outros — assim como \nDescartes o mostrou —, não poderia residir em nenhum \nfragmento de matéria. A raiva seria, portanto, espírito. \nPorém, quando me volto para minha própria experiência \nda raiva, devo confessar que ela não estava fora do meu \ncorpo, mas inexplicavelmente nele.\nMERLEAU-PONTY, M. Quinta conversa: o homem visto de fora. \nSão Paulo: Martins Fontes, 1948 (adaptado).\nNo que se refere ao problema do corpo, a filosofia cartesiana \napresenta-se como contraponto ao entendimento expresso \nno texto por"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/54/A.webp",
+        "text": "A\t\nA\t apresentar uma visão dualista.i"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/54/B.webp",
+        "text": "B\t\nB\t confirmar uma tese naturalista."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/54/C.webp",
+        "text": "C\t\nC\t demonstrar uma premissa realista."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/54/D.webp",
+        "text": "D\t\nD\t sustentar um argumento idealista."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/54/E.webp",
+        "text": "21\nDERNO 1 • AZUL–\nE\t\nE\t defender uma posição intencionalista."
+      }
+    ],
+    "officialAnswer": "A",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/54/details.json",
+    "contentFingerprint": "cce9c53065590787039ada8b34ad34d98ff7e09ed02cf7c6a855f11f83673d97",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "81180a21f0d8df31dbd7b5b658dbdd4549c0ab2ccd3b3539ab017572ad4396bb"
   },
   {
     "id": "enem-2023-55",
@@ -277,28 +845,209 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "A diversão é o prolongamento do trabalho sob o capitalismo tardio. Ela é procurada por quem quer escapar ao processo de trabalho mecanizado para se pôr de novo em condições de enfrentá-lo. Mas, ao mesmo tempo, a mecanização atingiu um tal poderio sobre a pessoa em seu lazer e sobre a sua felicidade, ela determina tão profundamente a fabricação das mercadorias destinadas à diversão que essa pessoa não pode mais perceber outra coisa senão as cópias que reproduzem o próprio processo de trabalho…\nADORNO, T; HORKHEIMER, M. Dialética do esclarecimento. Rio de Janeiro: Zahar 1997.",
+    "context": "![Enunciado original do ENEM 2023, questão 55](enem-assets/official/2023/55/statement.webp)",
     "text": "No texto, o tempo livre é concebido como",
     "options": [
-      "consumo de produtos culturais elaborados no mesmo sistema produtivo do capitalismo.",
-      "Forma de realizar as diversas potencialidades da natureza humana.",
-      "Alternativa para equilibrar tensões psicológicas do dia a dia.",
-      "Promoção da satisfação de necessidades artificiais.",
-      "Mecanismo de organização do ócio e do prazer."
+      "![Alternativa A original](enem-assets/official/2023/55/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/55/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/55/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/55/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/55/E.webp)"
     ],
     "answer": 0,
     "explanation": "Gabarito oficial: A. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/55/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
+    "images": [
+      "enem-assets/official/2023/55/statement.webp",
+      "enem-assets/official/2023/55/A.webp",
+      "enem-assets/official/2023/55/B.webp",
+      "enem-assets/official/2023/55/C.webp",
+      "enem-assets/official/2023/55/D.webp",
+      "enem-assets/official/2023/55/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
     "sourceSha256": "c0d1fec075a451de091bbef62382b453d079502e75b66add6baf6c06877d8a3d",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:55:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "single-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 55,
+        "rect": [
+          31.181100845336914,
+          64.83419036865234,
+          95.65785217285156,
+          78.79618835449219
+        ],
+        "page": 22
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 171.09803771972656
+        },
+        {
+          "letter": "B",
+          "y": 185.63270568847656
+        },
+        {
+          "letter": "C",
+          "y": 200.1674346923828
+        },
+        {
+          "letter": "D",
+          "y": 214.70204162597656
+        },
+        {
+          "letter": "E",
+          "y": 229.23658752441406
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/55/statement.webp",
+          "sha256": "37094228e0cb6cc10814e5d9a474f3840e38e45f04b3735ccd157aa6942d1291",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            63.834190368652344,
+            565.9290161132812,
+            172.09803771972656
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 218
+        },
+        {
+          "file": "enem-assets/official/2023/55/A.webp",
+          "sha256": "bc1d432094f9b4765c698ad14d4a12665c4e9c4e6f3aa31f9cea3a208210afb5",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            172.09803771972656,
+            565.9290161132812,
+            186.63270568847656
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/55/B.webp",
+          "sha256": "7d7552ebe785de1bad8ed8bf5bececc58fb1f474983ed3e2b5f6ccdd3c6542ed",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            186.63270568847656,
+            565.9290161132812,
+            201.1674346923828
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/55/C.webp",
+          "sha256": "2eb31f0b89f0f19dc0a929b04af2658cfb307470861058a50ed41d1b6c25a78d",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            201.1674346923828,
+            565.9290161132812,
+            215.70204162597656
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/55/D.webp",
+          "sha256": "ce6cb798fd9104411cf520c504ce5917b903f484729bd568c51d05989918a47e",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            215.70204162597656,
+            565.9290161132812,
+            230.23658752441406
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/55/E.webp",
+          "sha256": "da4d200135a72ffa41c2082ecdcb7966290314d5067ee3d1146256194225ef9d",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            230.23658752441406,
+            565.9290161132812,
+            248.28260803222656
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 37
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/55/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 22,
+      "transcript": "QUESTÃO 55\t\nA diversão é o prolongamento do trabalho sob o capitalismo tardio. Ela é procurada por quem quer escapar \nao processo de trabalho mecanizado para se pôr de novo em condições de enfrentá-lo. Mas, ao mesmo tempo, \na mecanização atingiu um tal poderio sobre a pessoa em seu lazer e sobre a sua felicidade, ela determina tão \nprofundamente a fabricação das mercadorias destinadas à diversão que essa pessoa não pode mais perceber outra \ncoisa senão as cópias que reproduzem o próprio processo de trabalho. \nADORNO, T.; HORKHEIMER, M. Dialética do esclarecimento. Rio de Janeiro: Zahar, 1997.\nNo texto, o tempo livre é concebido como"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/55/A.webp",
+        "text": "A\t\nA\t consumo de produtos culturais elaborados no mesmo sistema produtivo do capitalismo."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/55/B.webp",
+        "text": "B\t\nB\t forma de realizar as diversas potencialidades da natureza humana."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/55/C.webp",
+        "text": "C\t\nC\t alternativa para equilibrar tensões psicológicas do dia a dia.i"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/55/D.webp",
+        "text": "D\t\nD\t promoção da satisfação de necessidades artificiais."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/55/E.webp",
+        "text": "E\t\nE\t mecanismo de organização do ócio e do prazer."
+      }
+    ],
+    "officialAnswer": "A",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/55/details.json",
+    "contentFingerprint": "41d0390aa939133835add540d2ef42505573ecebe0cbbafebae8271e2ed165bd",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "c0d1fec075a451de091bbef62382b453d079502e75b66add6baf6c06877d8a3d"
   },
   {
     "id": "enem-2023-57",
@@ -311,28 +1060,209 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Quem se mete pelo caminho do pedido de perdão deve estar pronto a escutar uma palavra de recusa. Entrar na atmosfera do perdão é aceitar medir-se com a possibilidade sempre aberta do imperdoável. Perdão pedido não é perdão a que se tem direito [devido]. É com o preço destas reservas que a grandeza do perdão se manifesta.\nRICOEUR, P. O perdão pode curar. Disponível em: www.lusosofia.net. Acesso em: 14 out 2019.",
+    "context": "![Enunciado original do ENEM 2023, questão 57](enem-assets/official/2023/57/statement.webp)",
     "text": "A reflexão sobre o perdão apresentada no texto encontra fundamento na(s)",
     "options": [
-      "Rejeição particular amparada pelo desejo de poder.",
-      "Decisão subjetiva determinada pela vontade divina.",
-      "Liberdade mitigada pela predestinação do espírito.",
-      "Escolhas humanas definidas pelo conhecimento empírico.",
-      "relações interpessoais mediadas pela autonomia dos indivíduos."
+      "![Alternativa A original](enem-assets/official/2023/57/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/57/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/57/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/57/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/57/E.webp)"
     ],
     "answer": 4,
     "explanation": "Gabarito oficial: E. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/57/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
+    "images": [
+      "enem-assets/official/2023/57/statement.webp",
+      "enem-assets/official/2023/57/A.webp",
+      "enem-assets/official/2023/57/B.webp",
+      "enem-assets/official/2023/57/C.webp",
+      "enem-assets/official/2023/57/D.webp",
+      "enem-assets/official/2023/57/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
     "sourceSha256": "b71035e0462e2af1f1a9dd880e3fa204a8c3c4d622814bde61e9f981173b2a65",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:57:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "single-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 57,
+        "rect": [
+          31.181100845336914,
+          532.135986328125,
+          95.65785217285156,
+          546.0980224609375
+        ],
+        "page": 22
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 615.0018310546875
+        },
+        {
+          "letter": "B",
+          "y": 629.536376953125
+        },
+        {
+          "letter": "C",
+          "y": 644.0711059570312
+        },
+        {
+          "letter": "D",
+          "y": 658.605712890625
+        },
+        {
+          "letter": "E",
+          "y": 673.140380859375
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/57/statement.webp",
+          "sha256": "b46402a083e4edf3d9d9fafe07f175fc8e2aa77af942cd20debc7c3a1609b45d",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            531.135986328125,
+            565.9290161132812,
+            616.0018310546875
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 171
+        },
+        {
+          "file": "enem-assets/official/2023/57/A.webp",
+          "sha256": "e0c53163833fd5a0aa270278caef1c3312e16866fcbbd9a1c72531033456b12e",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            616.0018310546875,
+            565.9290161132812,
+            630.536376953125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/57/B.webp",
+          "sha256": "c3e33aefa55621997caed86b579d8fcc66cdb0d8dd5dbfdc0905f233a85b8c7a",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            630.536376953125,
+            565.9290161132812,
+            645.0711059570312
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/57/C.webp",
+          "sha256": "4994505ff11c1381d2592a58d8bebe345471155fe39a2fc431a72ac556400c7b",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            645.0711059570312,
+            565.9290161132812,
+            659.605712890625
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/57/D.webp",
+          "sha256": "8b1fbb637edf9973930dc14299e568af4de0f0bed938127f661f065c014412c9",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            659.605712890625,
+            565.9290161132812,
+            674.140380859375
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/57/E.webp",
+          "sha256": "0b1c8347e53e5092bf3246fcce2d42cf66e88e8335bcd0b9f4197618576170ea",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            674.140380859375,
+            565.9290161132812,
+            740.0474853515625
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 133
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/57/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 22,
+      "transcript": "QUESTÃO 57\t\nQuem se mete pelo caminho do pedido de perdão deve estar pronto a escutar uma palavra de recusa. Entrar na \natmosfera do perdão é aceitar medir-se com a possibilidade sempre aberta do imperdoável. Perdão pedido não é \nperdão a que se tem direito [devido]. É com o preço destas reservas que a grandeza do perdão se manifesta.\nRICOEUR, P. O perdão pode curar. Disponível em: www.lusosofia.net. Acesso em: 14 out. 2019.\nA reflexão sobre o perdão apresentada no texto encontra fundamento na(s)"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/57/A.webp",
+        "text": "A\t\nA\t rejeição particular amparada pelo desejo de poder."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/57/B.webp",
+        "text": "B\t\nB\t decisão subjetiva determinada pela vontade divina."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/57/C.webp",
+        "text": "C\t\nC\t liberdade mitigada pela predestinação do espírito.i"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/57/D.webp",
+        "text": "D\t\nD\t escolhas humanas definidas pelo conhecimento empírico."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/57/E.webp",
+        "text": "E\t\nE\t relações interpessoais mediadas pela autonomia dos indivíduos."
+      }
+    ],
+    "officialAnswer": "E",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/57/details.json",
+    "contentFingerprint": "471e9b310de137e433c725eb185258f4a37238b732e963fce3ba4c5d9e460fbe",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "b71035e0462e2af1f1a9dd880e3fa204a8c3c4d622814bde61e9f981173b2a65"
   },
   {
     "id": "enem-2023-67",
@@ -365,7 +1295,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "c9387e2968ae1b54eda20830d6eb4b4a4b95e61fdd220fa5217f6829f5e99ed7"
+    "sourceSha256": "c9387e2968ae1b54eda20830d6eb4b4a4b95e61fdd220fa5217f6829f5e99ed7",
+    "canonicalId": "enem:2023:regular:blue:67:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-68",
@@ -378,27 +1313,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "O masseiro, a mulher, e quatro filhos, dormindo numa tapera de quatro paredes de caixão, coberta de zinco. A água do mangue, na maré cheia, ia dentro de casa. Os maruins de noite encalombavam o corpo dos meninos. O mangue tinha ocasião que fedia, e os urubus faziam ponto por ali atrás dos petiscos. Perto da rua lavavam couro de boi, pele de bode para o curtume de um espanhol. Morria peixe envenenado e quando a maré secava os urubus enchiam o papo, ciscavam a lama, passeando banzeiros pelas biqueiras dos mocambos no Recife.\nRÊGO. J. L. O moleque Ricardo. Rio de Janeiro. J. Olympio, 1966 (adaptado).",
+    "context": "![Enunciado original do ENEM 2023, questão 68](enem-assets/official/2023/68/statement.webp)",
     "text": "A aglomeração urbana representada no texto resulta em",
     "options": [
-      "Conservação do meio rural.",
-      "Crescimento da vegetação ciliar.",
-      "Interferência do espaço geográfico.",
-      "Equilíbrio do ambiente das cidades.",
-      "Controle da proliferação dos animais."
+      "![Alternativa A original](enem-assets/official/2023/68/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/68/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/68/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/68/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/68/E.webp)"
     ],
     "answer": 2,
     "explanation": "Gabarito oficial: C. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/68/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "6c48eb0e542b651327113b057918d01d65e39b0ebd0e682308f360e6f09c76aa"
+    "images": [
+      "enem-assets/official/2023/68/statement.webp",
+      "enem-assets/official/2023/68/A.webp",
+      "enem-assets/official/2023/68/B.webp",
+      "enem-assets/official/2023/68/C.webp",
+      "enem-assets/official/2023/68/D.webp",
+      "enem-assets/official/2023/68/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "6c48eb0e542b651327113b057918d01d65e39b0ebd0e682308f360e6f09c76aa",
+    "canonicalId": "enem:2023:regular:blue:68:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 68,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 25
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 228.8980255126953
+        },
+        {
+          "letter": "B",
+          "y": 242.7327423095703
+        },
+        {
+          "letter": "C",
+          "y": 256.56732177734375
+        },
+        {
+          "letter": "D",
+          "y": 270.40203857421875
+        },
+        {
+          "letter": "E",
+          "y": 284.23663330078125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/68/statement.webp",
+          "sha256": "e40322aa12cd73e01e76f09ed0edb42cbbffd4a042bf524a4444cfca377cda29",
+          "page": 25,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            229.8980255126953
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 333
+        },
+        {
+          "file": "enem-assets/official/2023/68/A.webp",
+          "sha256": "67800d27c5e913c0975542c9d4a58b20a2c2da21a7326fc1b78f470a02fdc193",
+          "page": 25,
+          "rect": [
+            285.4645080566406,
+            229.8980255126953,
+            546.1339111328125,
+            243.7327423095703
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2023/68/B.webp",
+          "sha256": "c0b716dacbc677f81a8bd7da194d0c759cb9c70650a631866479b90ed0dbbe33",
+          "page": 25,
+          "rect": [
+            285.4645080566406,
+            243.7327423095703,
+            546.1339111328125,
+            257.56732177734375
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2023/68/C.webp",
+          "sha256": "8b928d63a5721611e293293570681e286b2846acdd3231153f03f433aa99a664",
+          "page": 25,
+          "rect": [
+            285.4645080566406,
+            257.56732177734375,
+            546.1339111328125,
+            271.40203857421875
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/68/D.webp",
+          "sha256": "cca8756e1adc72e145a01480993ce5870fac50d436e246e804d4a78c9d22b5f2",
+          "page": 25,
+          "rect": [
+            285.4645080566406,
+            271.40203857421875,
+            546.1339111328125,
+            285.23663330078125
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2023/68/E.webp",
+          "sha256": "7df5be0a2bbfaa076601d63cfb1e5729bbb5122da715d449695df18c0a13b9bb",
+          "page": 25,
+          "rect": [
+            285.4645080566406,
+            285.23663330078125,
+            546.1339111328125,
+            303.2826232910156
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 37
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/68/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 25,
+      "transcript": "QUESTÃO 68\t\nO masseiro, a mulher, e quatro filhos, dormindo numa \ntapera de quatro paredes de caixão, coberta de zinco. \nA água do mangue, na maré cheia, ia dentro de casa. \nOs maruins de noite encalombavam o corpo dos meninos. \nO mangue tinha ocasião que fedia, e os urubus faziam \nponto por ali atrás dos petiscos. Perto da rua lavavam \ncouro de boi, pele de bode para o curtume de um espanhol. \nMorria peixe envenenado, e quando a maré secava, os \nurubus enchiam o papo, ciscavam a lama, passeando \nbanzeiros pelas biqueiras dos mocambos no Recife.\nRÊGO, J. L. O moleque Ricardo. Rio de Janeiro: J. Olympio, 1966 (adaptado).\nA aglomeração urbana representada no texto resulta em"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/68/A.webp",
+        "text": "A\t\nA\t conservação do meio rural."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/68/B.webp",
+        "text": "B\t\nB\t crescimento da vegetação ciliar.i"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/68/C.webp",
+        "text": "C\t\nC\t interferência do espaço geográfico."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/68/D.webp",
+        "text": "D\t\nD\t equilíbrio do ambiente das cidades."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/68/E.webp",
+        "text": "E\t\nE\t controle da proliferação dos animais."
+      }
+    ],
+    "officialAnswer": "C",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/68/details.json",
+    "contentFingerprint": "a0879a4e1d71f680c79b4c5729a13208b8e616670ace190e366791aaf5c3e5d0",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "6c48eb0e542b651327113b057918d01d65e39b0ebd0e682308f360e6f09c76aa"
   },
   {
     "id": "enem-2023-71",
@@ -431,7 +1547,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "19e60f1bdf2fdade033d6b85388926877bbf6f110f2e0e0068facfc8df15da8e"
+    "sourceSha256": "19e60f1bdf2fdade033d6b85388926877bbf6f110f2e0e0068facfc8df15da8e",
+    "canonicalId": "enem:2023:regular:blue:71:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-72",
@@ -444,29 +1565,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "**TEXTO I**\n\nPor hora, apenas os mais abastados poderão sonhar em viajar ao espaço, seja por um foguete ou por um avião híbrido, mas toda a população global poderá sentir os efeitos dessas viagens e avanços tecnológicos. Para uma aventura dessas, as empresas tiveram que criar novas tecnologias, materiais e softwares, o que podem, em algum momento, voltar para a sociedade. A câmera fotográfica, hoje comum no mundo, antes foi uma invenção para ser usada em telescópios e o titânio, usado até na medicina, foi desenvolvido para a construção de foguetes.\n\nORLANDO, G. **Corrida espacial dos bilionários pode trazer vantagens para todos**. Disponível em: https://noticias.r7.com/. Acesso em: 5 nov. 2021 (adaptado).\n\n**TEXTO II**\n\n![](enem-assets/2023/questions/72/19b09a90-8898-4d03-b11a-eedae69b1e1d.png)\n\nCAZO. Disponível em: www.humorpolitico.com.br. Acesso em: 5 nov. 2021.",
+    "context": "![Enunciado original do ENEM 2023, questão 72](enem-assets/official/2023/72/statement.webp)",
     "text": "Os textos apresentam perspectivas da nova corrida espacial que revelam, respectivamente:",
     "options": [
-      "Dependência e progresso.",
-      "Expectativa e desconfiança.",
-      "Angústia e adaptação.",
-      "Pioneirismo e retrocesso.",
-      "Receio e civilidade."
+      "![Alternativa A original](enem-assets/official/2023/72/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/72/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/72/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/72/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/72/E.webp)"
     ],
     "answer": 1,
     "explanation": "Gabarito oficial: B. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/72/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/72/19b09a90-8898-4d03-b11a-eedae69b1e1d.png"
+      "enem-assets/official/2023/72/statement.webp",
+      "enem-assets/official/2023/72/A.webp",
+      "enem-assets/official/2023/72/B.webp",
+      "enem-assets/official/2023/72/C.webp",
+      "enem-assets/official/2023/72/D.webp",
+      "enem-assets/official/2023/72/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "3406126bcdbb55adf343a08ac45a5bebd7e08985655dc3592b8a31a8230d4d55"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "3406126bcdbb55adf343a08ac45a5bebd7e08985655dc3592b8a31a8230d4d55",
+    "canonicalId": "enem:2023:regular:blue:72:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 72,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 26
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 475.83660888671875
+        },
+        {
+          "letter": "B",
+          "y": 490.371337890625
+        },
+        {
+          "letter": "C",
+          "y": 504.9058837890625
+        },
+        {
+          "letter": "D",
+          "y": 519.4406127929688
+        },
+        {
+          "letter": "E",
+          "y": 533.9752197265625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/72/statement.webp",
+          "sha256": "9e54a4fa685261f05cecfd233398a2d56c548082a722cf7e3bb5d9c5ebbed9a4",
+          "page": 26,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            476.83660888671875
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 827
+        },
+        {
+          "file": "enem-assets/official/2023/72/A.webp",
+          "sha256": "7f433acd79357db1f5e06001c7a4a02402082b916f99f825b91da94ae0a6db64",
+          "page": 26,
+          "rect": [
+            285.4645080566406,
+            476.83660888671875,
+            546.1339111328125,
+            491.371337890625
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/72/B.webp",
+          "sha256": "92122763dbec7b30212fa4ede29b10394a345d82eee628d6cd339c07088b8cab",
+          "page": 26,
+          "rect": [
+            285.4645080566406,
+            491.371337890625,
+            546.1339111328125,
+            505.9058837890625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/72/C.webp",
+          "sha256": "76401b9891d7247245ffd60b2fc149615902e119935afeb3c3311d05d308b254",
+          "page": 26,
+          "rect": [
+            285.4645080566406,
+            505.9058837890625,
+            546.1339111328125,
+            520.4406127929688
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/72/D.webp",
+          "sha256": "8f2aa48ab94247bd318fda7951e6ab6a405864288ffe87e889e292e8fca54973",
+          "page": 26,
+          "rect": [
+            285.4645080566406,
+            520.4406127929688,
+            546.1339111328125,
+            534.9752197265625
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/72/E.webp",
+          "sha256": "9a2a34d6ac6dd2096367c762233dad1fcc3153540c0ba32113ebee7584819388",
+          "page": 26,
+          "rect": [
+            285.4645080566406,
+            534.9752197265625,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 437
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/72/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 26,
+      "transcript": "QUESTÃO 72\t\nTEXTO I\nPor hora, apenas os mais abastados poderão sonhar \nem viajar ao espaço, seja por um foguete ou por um avião \nhíbrido, mas toda a população global poderá sentir os \nefeitos dessas viagens e avanços tecnológicos. Para uma \naventura dessas, as empresas tiveram que criar novas \ntecnologias que podem, em algum momento, voltar para a \nsociedade. A câmera fotográfica, hoje comum no mundo, \nantes foi uma invenção para ser usada em telescópios, e \no titânio, usado até na medicina, foi desenvolvido para a \nconstrução de foguetes.\nORLANDO, G. Corrida espacial dos bilionários pode trazer vantagens para todos. \nDisponível em: https://noticias.r7.com. Acesso em: 5 nov. 2021 (adaptado).\nTEXTO II\nACREDITE\nEM MIM. NÃO\nCONFIE NESSE\nPESSOAL!\nBILIONÁRIOS LANÇAM NOVA ERA DE VIAGENS AO ESPAÇO...\nVIEMOS\nEM PAZ!\nCAZO. Disponível em: www.humorpolitico.com.br. Acesso em: 5 nov. 2021.\nOs textos apresentam perspectivas da nova corrida \nespacial que revelam, respectivamente:"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/72/A.webp",
+        "text": "A\t\nA\t Dependência e progresso.i"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/72/B.webp",
+        "text": "B\t\nB\t Expectativa e desconfiança."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/72/C.webp",
+        "text": "C\t\nC\t Angústia e adaptação."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/72/D.webp",
+        "text": "D\t\nD\t Pioneirismo e retrocesso."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/72/E.webp",
+        "text": "DERNO 1 • AZUL–\nE\t\nE\t Receio e civilidade."
+      }
+    ],
+    "officialAnswer": "B",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/72/details.json",
+    "contentFingerprint": "e135eff14515c2bea4952c080e01200b595b54e373f3ca08fc0eb54a9ea7a284",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "3406126bcdbb55adf343a08ac45a5bebd7e08985655dc3592b8a31a8230d4d55"
   },
   {
     "id": "enem-2023-76",
@@ -479,29 +1779,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "![](enem-assets/2023/questions/76/4b3eb253-249e-4bc3-bb08-5d48b44c53c1.jpg)\n\nDisponível em: www.insper.edu.br. Acesso em: 27 set. 2021 (adaptado).",
+    "context": "![Enunciado original do ENEM 2023, questão 76](enem-assets/official/2023/76/statement.webp)",
     "text": "Qual fator foi determinante para a mudança do indicador apresentado no gráfico?",
     "options": [
-      "Flexibilização legal da prática de aborto.",
-      "Envelhecimento da população brasileira.",
-      "Crescimento dos casos de gravidez precoce.",
-      "Participação feminina no mercado de trabalho.",
-      "Diminuição dos benefícios na licença-maternidade."
+      "![Alternativa A original](enem-assets/official/2023/76/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/76/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/76/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/76/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/76/E.webp)"
     ],
     "answer": 3,
     "explanation": "Gabarito oficial: D. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/76/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/76/4b3eb253-249e-4bc3-bb08-5d48b44c53c1.jpg"
+      "enem-assets/official/2023/76/statement.webp",
+      "enem-assets/official/2023/76/A.webp",
+      "enem-assets/official/2023/76/B.webp",
+      "enem-assets/official/2023/76/C.webp",
+      "enem-assets/official/2023/76/D.webp",
+      "enem-assets/official/2023/76/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "48429581657d604da726f0f054f3e5bd2918a07f10bfa60aa629dfdfa49605c8"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "48429581657d604da726f0f054f3e5bd2918a07f10bfa60aa629dfdfa49605c8",
+    "canonicalId": "enem:2023:regular:blue:76:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 76,
+        "rect": [
+          289.1339111328125,
+          299.8761291503906,
+          353.6106872558594,
+          313.8381042480469
+        ],
+        "page": 27
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 660.3043823242188
+        },
+        {
+          "letter": "B",
+          "y": 675.173828125
+        },
+        {
+          "letter": "C",
+          "y": 690.0430908203125
+        },
+        {
+          "letter": "D",
+          "y": 704.9124145507812
+        },
+        {
+          "letter": "E",
+          "y": 719.7816772460938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/76/statement.webp",
+          "sha256": "3fe31b6f8459d3890e973f1f8c65f6cb6739e71fd418518e2ac99809d29abfe8",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            298.8761291503906,
+            546.1339111328125,
+            661.3043823242188
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 726
+        },
+        {
+          "file": "enem-assets/official/2023/76/A.webp",
+          "sha256": "f3f7ddfe8f658ed1df8e98c41e3943d1f586669742aaa36fa2b760bf0eb94368",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            661.3043823242188,
+            546.1339111328125,
+            676.173828125
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/76/B.webp",
+          "sha256": "1403fc1ccf55b82b6a8c89b119c653810ae6bc999f3a2668f5efc3071802c9c2",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            676.173828125,
+            546.1339111328125,
+            691.0430908203125
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/76/C.webp",
+          "sha256": "61b7d5a30dcc0c559d3a0896a914fc8d66f0c81289569705009ce00fc9670f9d",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            691.0430908203125,
+            546.1339111328125,
+            705.9124145507812
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/76/D.webp",
+          "sha256": "3a0552a96d3ee9469b798006333e4b70e5da473f891e948bd8e9b9e5dc6b7abc",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            705.9124145507812,
+            546.1339111328125,
+            720.7816772460938
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/76/E.webp",
+          "sha256": "47b202adee0c52ea3d20f4e4c0413aa4b2a97264dfd6572050171c8643b771d5",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            720.7816772460938,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 65
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/76/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 27,
+      "transcript": "QUESTÃO 76\t\nFonte: IBGE\nFilhos por mulher\nDécadas\nTaxa de fecundidade no Brasil\nDe 1960 a 2020,\nnúmero de filhos baixa de\n6,3 para 1,5\n0\n1\n2\n3\n4\n5\n6\n7\n1960 1970 1980 1990 2000 2010 2020 2030 2040 2050\n6,3\n5,8\n4,1\n2,8\n2,4\n1,8\n1,5\n1,5\n1,5\n1,5\nDisponível em: www.insper.edu.br. Acesso em: 27 set. 2021 (adaptado).\nQual fator foi determinante para a mudança do indicador \napresentado no gráfico?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/76/A.webp",
+        "text": "A\t\nA\t Flexibilização legal da prática de aborto."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/76/B.webp",
+        "text": "B\t\nB\t Envelhecimento da população brasileira."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/76/C.webp",
+        "text": "C\t\nC\t Crescimento dos casos de gravidez precoce."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/76/D.webp",
+        "text": "D\t\nD\t Participação feminina no mercado de trabalho."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/76/E.webp",
+        "text": "27\nDERNO 1 • AZUL–\nE\t\nE\t Diminuição dos benefícios na licença-maternidade."
+      }
+    ],
+    "officialAnswer": "D",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/76/details.json",
+    "contentFingerprint": "324c65d798c6eba562db24e53d3bcfe891a3696f519159a98c3830298a48c87e",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "48429581657d604da726f0f054f3e5bd2918a07f10bfa60aa629dfdfa49605c8"
   },
   {
     "id": "enem-2023-77",
@@ -534,7 +2013,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "daf6dd5e23362fbfb4aec8b244ac8b73ffc67967c29d174d5a0630f1aada2b47"
+    "sourceSha256": "daf6dd5e23362fbfb4aec8b244ac8b73ffc67967c29d174d5a0630f1aada2b47",
+    "canonicalId": "enem:2023:regular:blue:77:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-81",
@@ -568,7 +2052,12 @@
     "images": [],
     "license": "GPL-2.0",
     "sourceSha256": "98d9f62d64d72979ad45a062fd6e800259f0bbc2804ff513423ab27723de72cb",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:81:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-83",
@@ -581,28 +2070,209 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Diversos são os fatores causadores da degradação do solo, atuando de forma direta ou indireta, mas quase sempre a grande maioria das terras degradadas inicia esse processo com o desmatamento, que pode ser seguido por diversas formas de ocupação desordenada, como: corte de taludes para a construção de casas, rodovias e ferrovias, agricultura, com uso da queimada, vários tipos de mineração, irrigação excessiva, crescimento desordenado das cidades, superpastoreio, uso do solo para diversos tipos de despejos industriais e domésticos, sem tratamento da área que recebe esses despejos; enfim, de uma forma ou de outra, os solos tornam-se degradados, sendo muitas vezes difícil, ou quase impossível, a sua recuperação.\n\nGUERRA, A. T. Degradação dos solos: conceitos e temas. In: GUERRA, A. T.; JORGE, M. C. O. (Org.). **Degradação dos solos no Brasil**. Rio de Janeiro: Difel, 2018.",
+    "context": "![Enunciado original do ENEM 2023, questão 83](enem-assets/official/2023/83/statement.webp)",
     "text": "A partir da ocupação desordenada exposta no texto, o que impede a recuperação do recurso natural destacado é a",
     "options": [
-      "Elevação da biomassa.",
-      "Redução da salinização.",
-      "Diminuição da fertilidade.",
-      "Ampliação da microfauna.",
-      "Decomposição do substrato."
+      "![Alternativa A original](enem-assets/official/2023/83/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/83/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/83/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/83/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/83/E.webp)"
     ],
     "answer": 2,
     "explanation": "Gabarito oficial: C. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/83/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
+    "images": [
+      "enem-assets/official/2023/83/statement.webp",
+      "enem-assets/official/2023/83/A.webp",
+      "enem-assets/official/2023/83/B.webp",
+      "enem-assets/official/2023/83/C.webp",
+      "enem-assets/official/2023/83/D.webp",
+      "enem-assets/official/2023/83/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
     "sourceSha256": "8ac5fe3aa8152626e3b319a056daa62a6d2850753dc8a554209ef9fb2fbbbc91",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:83:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 83,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 29
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 290.79803466796875
+        },
+        {
+          "letter": "B",
+          "y": 305.33270263671875
+        },
+        {
+          "letter": "C",
+          "y": 319.8673095703125
+        },
+        {
+          "letter": "D",
+          "y": 334.40203857421875
+        },
+        {
+          "letter": "E",
+          "y": 348.9366455078125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/83/statement.webp",
+          "sha256": "57fa3b6fbe03d4a8f6f4ce154550507d4e2f717eac13ef3f718864853b91b127",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            291.79803466796875
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 457
+        },
+        {
+          "file": "enem-assets/official/2023/83/A.webp",
+          "sha256": "81f1a928734ee942a652c874f05d9dcefe5d6ad4ec99e0b3975118d187e32685",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            291.79803466796875,
+            546.1339111328125,
+            306.33270263671875
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/83/B.webp",
+          "sha256": "63613cceb770f018193de85627f3d4c1c3c4e1ea8b09abf31b8768e7d126611a",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            306.33270263671875,
+            546.1339111328125,
+            320.8673095703125
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/83/C.webp",
+          "sha256": "cb4f5aa8c0807f680e43479929b7d9c5938a7d67e82ed285f898a4e1338642bb",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            320.8673095703125,
+            546.1339111328125,
+            335.40203857421875
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/83/D.webp",
+          "sha256": "e53d96fb62640b42a8e3a1c5f949d889b36b05f1986fc32df0c5d756bc1054fe",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            335.40203857421875,
+            546.1339111328125,
+            349.9366455078125
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/83/E.webp",
+          "sha256": "a45d295e4a2911b5e7570a1ccccfd6d419a77c5d2cbc0770b05744dd2bd15d63",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            349.9366455078125,
+            546.1339111328125,
+            367.9826354980469
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 37
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/83/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 29,
+      "transcript": "QUESTÃO 83\t\nDiversos são os fatores causadores da degradação \ndo solo, atuando de forma direta ou indireta, mas quase \nsempre a grande maioria das terras degradadas inicia esse \nprocesso com o desmatamento, que pode ser seguido \npor diversas formas de ocupação desordenada, como: \ncorte de taludes para a construção de casas, rodovias e \nferrovias, agricultura, com uso da queimada, vários tipos de \nmineração, irrigação excessiva, crescimento desordenado \ndas cidades, superpastoreio, uso do solo para diversos \ntipos de despejos industriais e domésticos, sem tratamento \nda área que recebe esses despejos; enfim, de uma forma \nou de outra, os solos tornam-se degradados, sendo muitas \nvezes difícil, ou quase impossível, a sua recuperação.\nGUERRA, A. T. Degradação dos solos: conceitos e temas. In: GUERRA, A. T.; \nJORGE, M. C. O. (Org.). Degradação dos solos no Brasil. \nRio de Janeiro: Difel, 2018.\nA partir da ocupação desordenada exposta no texto, o que \nimpede a recuperação do recurso natural destacado é a"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/83/A.webp",
+        "text": "A\t\nA\t elevação da biomassa."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/83/B.webp",
+        "text": "B\t\nB\t redução da salinização."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/83/C.webp",
+        "text": "C\t\nC\t diminuição da fertilidade."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/83/D.webp",
+        "text": "D\t\nD\t ampliação da microfauna."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/83/E.webp",
+        "text": "E\t\nE\t decomposição do substrato."
+      }
+    ],
+    "officialAnswer": "C",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/83/details.json",
+    "contentFingerprint": "7ca1f6a6559840929a163b30f46178d32b3fffe4b05e8e73f73bbe43e126cd78",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "8ac5fe3aa8152626e3b319a056daa62a6d2850753dc8a554209ef9fb2fbbbc91"
   },
   {
     "id": "enem-2023-84",
@@ -615,27 +2285,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "A partir da década de 1930, começam a ser discutidos no Brasil os princípios de racionalização do trabalho. As preocupações com a cozinha e o trabalho doméstico foram introduzidas com a medicina sanitária e a oferta de gás e eletricidade para uso doméstico no início do século XX. A organização da cozinha visava atingir uma simplificação das tarefas, com a economia de movimentos, e o barateamento dos equipamentos, a partir da produção em grande escala. A padronização e racionalização da habitação e seus componentes visava uma radical transformação da casa, em especial da cozinha, e apoiava-se tanto no desenvolvimento de novos equipamentos quanto nos estudos de racionalização do trabalho doméstico. A principal preocupação era o desenvolvimento de um novo tipo de habitação, que deveria induzir um novo comportamento social.\n\nSILVA, J. L. M. Transformações no espaço doméstico: o fogão a gás e a cozinha paulistana, 1870-1930. Anais do Museu Paulista, n. 2. jul-dez 2007 (adaptado).",
+    "context": "![Enunciado original do ENEM 2023, questão 84](enem-assets/official/2023/84/statement.webp)",
     "text": "No contexto descrito, as mudanças mencionadas proporcionavam às mulheres o(a)",
     "options": [
-      "Controle do orçamento familiar.",
-      "Libertação das tradições religiosas.",
-      "Exercício da representatividade política.",
-      "Ampliação dos momentos de socialização.",
-      "Afastamento das atividades especializadas."
+      "![Alternativa A original](enem-assets/official/2023/84/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/84/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/84/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/84/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/84/E.webp)"
     ],
     "answer": 3,
     "explanation": "Gabarito oficial: D. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/84/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "734c811bd5db0c041ea6e3dc6af4ace6ec3750ff30c7b9c7dfaba7379c7a1299"
+    "images": [
+      "enem-assets/official/2023/84/statement.webp",
+      "enem-assets/official/2023/84/A.webp",
+      "enem-assets/official/2023/84/B.webp",
+      "enem-assets/official/2023/84/C.webp",
+      "enem-assets/official/2023/84/D.webp",
+      "enem-assets/official/2023/84/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "734c811bd5db0c041ea6e3dc6af4ace6ec3750ff30c7b9c7dfaba7379c7a1299",
+    "canonicalId": "enem:2023:regular:blue:84:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 84,
+        "rect": [
+          289.1339111328125,
+          368.9826354980469,
+          353.6106872558594,
+          382.9446105957031
+        ],
+        "page": 29
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 622.848388671875
+        },
+        {
+          "letter": "B",
+          "y": 637.3831176757812
+        },
+        {
+          "letter": "C",
+          "y": 651.917724609375
+        },
+        {
+          "letter": "D",
+          "y": 666.452392578125
+        },
+        {
+          "letter": "E",
+          "y": 680.9869995117188
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/84/statement.webp",
+          "sha256": "d0af87684febca594277e9df1b87dc89dd49db8dd1728d8b7bc30198fa8f33bf",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            367.9826354980469,
+            546.1339111328125,
+            623.848388671875
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 513
+        },
+        {
+          "file": "enem-assets/official/2023/84/A.webp",
+          "sha256": "3b2bd229101ca5d999c3ac5743fa299d957915bbe1dab916669b9e44c51ef79e",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            623.848388671875,
+            546.1339111328125,
+            638.3831176757812
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/84/B.webp",
+          "sha256": "f6114d8159388d9d6c4f4ba292085532e445c0417e1e5dd647170014c1c08274",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            638.3831176757812,
+            546.1339111328125,
+            652.917724609375
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/84/C.webp",
+          "sha256": "f15ca8a52d35494bfa799aefcf1f010dc6709c64e6534441077e2e529acfc3f9",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            652.917724609375,
+            546.1339111328125,
+            667.452392578125
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/84/D.webp",
+          "sha256": "d87b6e03b99372ba8d52de586502a3e3b9a76606278f3838fc038763a3013856",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            667.452392578125,
+            546.1339111328125,
+            681.9869995117188
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/84/E.webp",
+          "sha256": "b4ad70e42ea7ab931afa841d805646aeb8d961b822811f665c471aa04d4c3686",
+          "page": 29,
+          "rect": [
+            285.4645080566406,
+            681.9869995117188,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 143
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/84/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 29,
+      "transcript": "QUESTÃO 84\t\nA partir da década de 1930, começam a ser discutidos \nno Brasil os princípios de racionalização do trabalho. \nAs preocupações com a cozinha e o trabalho doméstico \nforam introduzidas com a medicina sanitária e a oferta \nde gás e eletricidade para uso doméstico no início do \nséculo XX. A organização da cozinha visava atingir \numa simplificação das tarefas, com a economia de \nmovimentos, e o barateamento dos equipamentos, a \npartir da produção em grande escala. A padronização e \nracionalização da habitação e seus componentes visava \numa radical transformação da casa, em especial da \ncozinha, e apoiava-se tanto no desenvolvimento de novos \nequipamentos quanto nos estudos de racionalização \ndo trabalho doméstico. A principal preocupação era \no desenvolvimento de um novo tipo de habitação, que \ndeveria induzir um novo comportamento social.\nSILVA, J. L. M. Transformações no espaço doméstico: o fogão a gás e a cozinha \npaulistana, 1870-1930. Anais do Museu Paulista, n. 2, jul.-dez. 2007 (adaptado).\nNo contexto descrito, as mudanças mencionadas \nproporcionavam às mulheres o(a)"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/84/A.webp",
+        "text": "A\t\nA\t controle do orçamento familiar."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/84/B.webp",
+        "text": "B\t\nB\t libertação das tradições religiosas."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/84/C.webp",
+        "text": "C\t\nC\t exercício da representatividade política."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/84/D.webp",
+        "text": "D\t\nD\t ampliação dos momentos de socialização."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/84/E.webp",
+        "text": "29\nDERNO 1 • AZUL–\nE\t\nE\t afastamento das atividades especializadas."
+      }
+    ],
+    "officialAnswer": "D",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/84/details.json",
+    "contentFingerprint": "78de66263debe3a5bef1f78151cf7396c0764118145d6ac758942c7de4ee6c91",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "734c811bd5db0c041ea6e3dc6af4ace6ec3750ff30c7b9c7dfaba7379c7a1299"
   },
   {
     "id": "enem-2023-85",
@@ -668,7 +2519,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "3aabb3425a5be087c1780975fdc1fcc6fd1e691055a45b055855261fc896a558"
+    "sourceSha256": "3aabb3425a5be087c1780975fdc1fcc6fd1e691055a45b055855261fc896a558",
+    "canonicalId": "enem:2023:regular:blue:85:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-86",
@@ -701,7 +2557,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "4878c0177e8e392b0de70a3309ca2fbc1b1f340a6d6ca28854c5764b93b5ac35"
+    "sourceSha256": "4878c0177e8e392b0de70a3309ca2fbc1b1f340a6d6ca28854c5764b93b5ac35",
+    "canonicalId": "enem:2023:regular:blue:86:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-87",
@@ -714,27 +2575,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "**TEXTO I**\n\nOriunda da Romênia, Genny Gleizer aportou no Brasil em 1932. Assim como milhares de judeus do Leste Europeu, sua vinda para o Brasil ocorreu em um momento de ascensão do antissemitismo na Europa que tornava precárias suas vidas. O Brasil se colocava como uma possibilidade na busca por condições de sobrevivência e desenvolvimento.\n\nANTÃO, A. C. C. B. Gênero, imigração e política: o caso da judia comunista Genny Gleizer no Governo Vargas (1932-1935). Rio de Janeiro: Casa de Oswaldo Cruz, 2017 (adaptado).\n\n**ТЕХТО II**\n\nA presença judaica no Brasil foi criando aos poucos certas desconfianças que se refletiram em órgãos da imprensa e em círculos intelectuais e políticos. Em parte, essa imagem negativa adviria da onda nacionalista surgida no final dos anos 1910, que concebia imigrantes como concorrentes dos trabalhadores brasileiros, ou como seres improdutivos, exploradores da mão de obra e da riqueza autóctone. Além disso, as elites políticas da época acreditavam que os estrangeiros eram portadores das doutrinas anarquista e comunista, estranhas à “indole do povo brasileiro”. Esses “indesejáveis” seriam um mal externo que corromperia a nação.\n\nMAIO, M. C.: CALAÇA, C. E. Um balanço da bibliografia sobre o antissemitismo  \nno Brasil. In: GRINBERG, K. (Org.). Os judeus no Brasil. Rio de Janeiro: Civilização Brasileira, 2005 (adaptado).",
+    "context": "![Enunciado original do ENEM 2023, questão 87](enem-assets/official/2023/87/statement.webp)",
     "text": "Conforme descrito nos textos, o tratamento dispensado aos grupos mencionados se fundamentava em",
     "options": [
-      "Preceitos teológicos e religiosos.",
-      "Aspectos socioeconômicos e ideológicos.",
-      "Regulamentações territoriais e alfandegárias.",
-      "Orientações constitucionais e estatutárias.",
-      "Decretos legislativos e internacionais."
+      "![Alternativa A original](enem-assets/official/2023/87/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/87/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/87/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/87/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/87/E.webp)"
     ],
     "answer": 1,
     "explanation": "Gabarito oficial: B. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/87/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "d8967b2e2e1c3b886d119cfdcdd54d48190a3b096f5a93c47daaf793a69776cc"
+    "images": [
+      "enem-assets/official/2023/87/statement.webp",
+      "enem-assets/official/2023/87/A.webp",
+      "enem-assets/official/2023/87/B.webp",
+      "enem-assets/official/2023/87/C.webp",
+      "enem-assets/official/2023/87/D.webp",
+      "enem-assets/official/2023/87/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "d8967b2e2e1c3b886d119cfdcdd54d48190a3b096f5a93c47daaf793a69776cc",
+    "canonicalId": "enem:2023:regular:blue:87:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 87,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 30
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 398.89862060546875
+        },
+        {
+          "letter": "B",
+          "y": 413.52960205078125
+        },
+        {
+          "letter": "C",
+          "y": 428.1605224609375
+        },
+        {
+          "letter": "D",
+          "y": 442.79150390625
+        },
+        {
+          "letter": "E",
+          "y": 457.42242431640625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/87/statement.webp",
+          "sha256": "b81852321c82cd7425562c06fe2b428eb409548e8e306a1c8ddee09a523728dd",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            399.89862060546875
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 673
+        },
+        {
+          "file": "enem-assets/official/2023/87/A.webp",
+          "sha256": "c04ce4856d009ae371d7b2f36affff69f788bd38b460c6593b38a0411e4f4a0f",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            399.89862060546875,
+            546.1339111328125,
+            414.52960205078125
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/87/B.webp",
+          "sha256": "9abb18ef8a2632cd3dc7f13fffc37ec96e866eeaaa97fc290600760c2e1b2ba2",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            414.52960205078125,
+            546.1339111328125,
+            429.1605224609375
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/87/C.webp",
+          "sha256": "71b6092ff58a6d0fe7644b079a1d37461d20edd1a7b03434cf6b979d9e5744fe",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            429.1605224609375,
+            546.1339111328125,
+            443.79150390625
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/87/D.webp",
+          "sha256": "4b258c20b2c46099457ece4def27c27c6553984aef18d0d62d123c5fd58e4ce2",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            443.79150390625,
+            546.1339111328125,
+            458.42242431640625
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/87/E.webp",
+          "sha256": "5eab53ea6726b78ebfd4e7a654dd8a5a69dabcf003a90691166ba7a12f13b4ef",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            458.42242431640625,
+            546.1339111328125,
+            476.56591796875
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 38
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/87/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 30,
+      "transcript": "QUESTÃO 87\t\nTEXTO I\nOriunda da Romênia, Genny Gleizer aportou no Brasil \nem 1932. Assim como milhares de judeus do Leste Europeu, \nsua vinda para o Brasil ocorreu em um momento de ascensão \ndo antissemitismo na Europa que tornava precárias suas \nvidas. O Brasil se colocava como uma possibilidade na \nbusca por condições de sobrevivência e desenvolvimento.\nANTÃO, A. C. C. B. Gênero, imigração e política: o caso da judia comunista Genny Gleizer \nno Governo Vargas (1932-1935). Rio de Janeiro: Casa de Oswaldo Cruz, 2017 (adaptado).\nTEXTO II\nA presença judaica no Brasil foi criando aos poucos \ncertas desconfianças que se refletiram em órgãos da \nimprensa e em círculos intelectuais e políticos. Em parte, \nessa imagem negativa adviria da onda nacionalista surgida \nno final dos anos 1910, que concebia imigrantes como \nconcorrentes dos trabalhadores brasileiros, ou como \nseres improdutivos, exploradores da mão de obra e da \nriqueza autóctone. Além disso, as elites políticas da época \nacreditavam que os estrangeiros eram portadores das \ndoutrinas anarquista e comunista, estranhas à “índole \ndo povo brasileiro”. Esses “indesejáveis” seriam um mal \nexterno que corromperia a nação.\nMAIO, M. C.; CALAÇA, C. E. Um balanço da bibliografia sobre o antissemitismo \nno Brasil. In: GRINBERG, K. (Org.). Os judeus no Brasil. \nRio de Janeiro: Civilização Brasileira, 2005 (adaptado). \nConforme descrito nos textos, o tratamento dispensado \naos grupos mencionados se fundamentava em"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/87/A.webp",
+        "text": "A\t\nA\t preceitos teológicos e religiosos."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/87/B.webp",
+        "text": "B\t\nB\t aspectos socioeconômicos e ideológicos."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/87/C.webp",
+        "text": "C\t\nC\t regulamentações territoriais e alfandegárias."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/87/D.webp",
+        "text": "D\t\nD\t orientações constitucionais e estatutárias."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/87/E.webp",
+        "text": "E\t\nE\t decretos legislativos e internacionais."
+      }
+    ],
+    "officialAnswer": "B",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/87/details.json",
+    "contentFingerprint": "0b556db980f190788604596319dccab64f8ddaed5fb3774a0876068bc5d793b9",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "d8967b2e2e1c3b886d119cfdcdd54d48190a3b096f5a93c47daaf793a69776cc"
   },
   {
     "id": "enem-2023-88",
@@ -747,27 +2789,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Concorrer e competir não são a mesma coisa. A concorrência pode até ser saudável sempre que a batalha entre agentes, para melhor empreender uma tarefa e obter melhores resultados finais, exige o respeito a certas regras de convivência preestabelecidas ou não. Já a competitividade se funda na invenção de novas armas de luta, num exercício em que a única regra é a conquista da melhor posição. A competitividade é uma espécie de guerra em que tudo vale e, desse modo, sua prática provoca um afrouxamento dos valores morais e um convite ao exercício de violência.\n\nSANTOS, M. **Por uma outra globalização**: do pensamento único à consciência universal. Rio de Janeiro: Record, 2006.",
+    "context": "![Enunciado original do ENEM 2023, questão 88](enem-assets/official/2023/88/statement.webp)",
     "text": "De acordo com a diferenciação feita pelo autor, que prática econômica é considerada moralmente condenável?",
     "options": [
-      "Adoção do dumping comercial.",
-      "Fusão da função administrativa.",
-      "Criação de holding empresarial.",
-      "Limitação do mercado monopolista.",
-      "Modernização da produção industrial."
+      "![Alternativa A original](enem-assets/official/2023/88/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/88/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/88/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/88/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/88/E.webp)"
     ],
     "answer": 0,
     "explanation": "Gabarito oficial: A. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/88/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "1ce402b40525c2d54ecdd118ced70d8b2aa25c098bb28120eadf7132b4fc8e5b"
+    "images": [
+      "enem-assets/official/2023/88/statement.webp",
+      "enem-assets/official/2023/88/A.webp",
+      "enem-assets/official/2023/88/B.webp",
+      "enem-assets/official/2023/88/C.webp",
+      "enem-assets/official/2023/88/D.webp",
+      "enem-assets/official/2023/88/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "1ce402b40525c2d54ecdd118ced70d8b2aa25c098bb28120eadf7132b4fc8e5b",
+    "canonicalId": "enem:2023:regular:blue:88:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 88,
+        "rect": [
+          289.1339111328125,
+          477.56591796875,
+          353.6106872558594,
+          491.52789306640625
+        ],
+        "page": 30
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 661.2579345703125
+        },
+        {
+          "letter": "B",
+          "y": 675.8887939453125
+        },
+        {
+          "letter": "C",
+          "y": 690.519775390625
+        },
+        {
+          "letter": "D",
+          "y": 705.1506958007812
+        },
+        {
+          "letter": "E",
+          "y": 719.7816772460938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/88/statement.webp",
+          "sha256": "1846f63de094d219375c5d9fc01d76e06fd944b838f87b8809afbc13d60bf53f",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            476.56591796875,
+            546.1339111328125,
+            662.2579345703125
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 372
+        },
+        {
+          "file": "enem-assets/official/2023/88/A.webp",
+          "sha256": "8b28d91a3aa6348a506d678a125745ea494c6f6749a3e295103766d3c5ad1c71",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            662.2579345703125,
+            546.1339111328125,
+            676.8887939453125
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/88/B.webp",
+          "sha256": "e516a5f680ff93422b730ac89450e1046b553e82a4ccf1870d27d046aa34087b",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            676.8887939453125,
+            546.1339111328125,
+            691.519775390625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/88/C.webp",
+          "sha256": "8c4a1833c872aafb961d361b278665dd3cec78c6ef92c05075556260ab06948f",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            691.519775390625,
+            546.1339111328125,
+            706.1506958007812
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/88/D.webp",
+          "sha256": "b243b9e7c0aa7db89e74042b38f15be0010f9128d5fdd5450e19f096336f7781",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            706.1506958007812,
+            546.1339111328125,
+            720.7816772460938
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/88/E.webp",
+          "sha256": "ba70cdb1257aed746bc90c2367c5ca36cb3aba505c3fa5a5224687c7d13e4b59",
+          "page": 30,
+          "rect": [
+            285.4645080566406,
+            720.7816772460938,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 65
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/88/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 30,
+      "transcript": "QUESTÃO 88\t\nConcorrer e competir não são a mesma coisa. \nA concorrência pode até ser saudável sempre que a batalha \nentre agentes, para melhor empreender uma tarefa e obter \nmelhores resultados finais, exige o respeito a certas regras de \nconvivência preestabelecidas ou não. Já a competitividade \nse funda na invenção de novas armas de luta, num exercício \nem que a única regra é a conquista da melhor posição. \nA competitividade é uma espécie de guerra em que tudo \nvale e, desse modo, sua prática provoca um afrouxamento \ndos valores morais e um convite ao exercício da violência.\nSANTOS, M. Por uma outra globalização: do pensamento único \nà consciência universal. Rio de Janeiro: Record, 2006.\nDe acordo com a diferenciação feita pelo autor, que prática \neconômica é considerada moralmente condenável?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/88/A.webp",
+        "text": "A\t\nA\t Adoção do dumping comercial."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/88/B.webp",
+        "text": "B\t\nB\t Fusão da função administrativa."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/88/C.webp",
+        "text": "C\t\nC\t Criação de holding empresarial."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/88/D.webp",
+        "text": "D\t\nD\t Limitação do mercado monopolista."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/88/E.webp",
+        "text": "DERNO 1 • AZUL–\nE\t\nE\t Modernização da produção industrial."
+      }
+    ],
+    "officialAnswer": "A",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/88/details.json",
+    "contentFingerprint": "a70de7c99d4aea347a2b32b253e37068ffbaf9c91419d70c3de92f8ff3874c7d",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "1ce402b40525c2d54ecdd118ced70d8b2aa25c098bb28120eadf7132b4fc8e5b"
   },
   {
     "id": "enem-2023-89",
@@ -780,29 +3003,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "![](enem-assets/2023/questions/89/9bf9cf75-4df7-495a-8f99-bb6bac2abe2e.PNG)",
+    "context": "![Enunciado original do ENEM 2023, questão 89](enem-assets/official/2023/89/statement.webp)",
     "text": "Qual medida é capaz de minimizar as mudanças apresentadas nas simulações?",
     "options": [
-      "Expandir o transporte marítimo.",
-      "Incentivar os fluxos migratórios.",
-      "Monitorar as atividades vulcânicas.",
-      "Controlar as emissões de carbono.",
-      "Priorizar a utilização de termoelétricas."
+      "![Alternativa A original](enem-assets/official/2023/89/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/89/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/89/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/89/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/89/E.webp)"
     ],
     "answer": 3,
     "explanation": "Gabarito oficial: D. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/89/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/89/9bf9cf75-4df7-495a-8f99-bb6bac2abe2e.PNG"
+      "enem-assets/official/2023/89/statement.webp",
+      "enem-assets/official/2023/89/A.webp",
+      "enem-assets/official/2023/89/B.webp",
+      "enem-assets/official/2023/89/C.webp",
+      "enem-assets/official/2023/89/D.webp",
+      "enem-assets/official/2023/89/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "dc55a3aadee9ea120870162675604532d809401029c6b2e6cde8cbf852b53d67"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "dc55a3aadee9ea120870162675604532d809401029c6b2e6cde8cbf852b53d67",
+    "canonicalId": "enem:2023:regular:blue:89:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "single-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 89,
+        "rect": [
+          31.181100845336914,
+          64.83419036865234,
+          95.65785217285156,
+          78.79618835449219
+        ],
+        "page": 31
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 463.51470947265625
+        },
+        {
+          "letter": "B",
+          "y": 478.46759033203125
+        },
+        {
+          "letter": "C",
+          "y": 493.4202880859375
+        },
+        {
+          "letter": "D",
+          "y": 508.3731689453125
+        },
+        {
+          "letter": "E",
+          "y": 523.3259887695312
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/89/statement.webp",
+          "sha256": "1a4bce8e3374f575268e780f5bdc2cc2ae0f1391b7ab0cf83555141ac72d551d",
+          "page": 31,
+          "rect": [
+            23.181100845336914,
+            63.834190368652344,
+            565.9290161132812,
+            464.51470947265625
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 803
+        },
+        {
+          "file": "enem-assets/official/2023/89/A.webp",
+          "sha256": "666ed51835c7a5bf4fdd117a81646995c4ff0d480c8532b4827eeebed05d8e27",
+          "page": 31,
+          "rect": [
+            23.181100845336914,
+            464.51470947265625,
+            565.9290161132812,
+            479.46759033203125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/89/B.webp",
+          "sha256": "2d8ad2cefdae776bff90b7ad0e707504f7d0cbf5d6507462b2a4e9fc06664dfb",
+          "page": 31,
+          "rect": [
+            23.181100845336914,
+            479.46759033203125,
+            565.9290161132812,
+            494.4202880859375
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/89/C.webp",
+          "sha256": "e60ace6a2ba468ee008789695f028cf77fddfae93eb699f1a393b41384864e8a",
+          "page": 31,
+          "rect": [
+            23.181100845336914,
+            494.4202880859375,
+            565.9290161132812,
+            509.3731689453125
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/89/D.webp",
+          "sha256": "fd6e2428db014f34837f29d18818cec6b329994fb6a5323cb517c8a19f9cbf60",
+          "page": 31,
+          "rect": [
+            23.181100845336914,
+            509.3731689453125,
+            565.9290161132812,
+            524.3259887695312
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/89/E.webp",
+          "sha256": "84956dcadf1630cb15c483e7a904b3cdda0955ae41cbd482f0cfbc586f1415f6",
+          "page": 31,
+          "rect": [
+            23.181100845336914,
+            524.3259887695312,
+            565.9290161132812,
+            542.489013671875
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 37
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/89/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 31,
+      "transcript": "QUESTÃO 89\t\nSimulação de mudança da temperatura média anual em relação ao período pré-industrial em três cenários de aquecimento global\nSimulação de mudança da pluviosidade média anual em relação ao período pré-industrial em três cenários de aquecimento global\n1,5 °C de aquecimento global\n2 °C de aquecimento global\n4 °C de aquecimento global\n1,5 °C de aquecimento global\n2 °C de aquecimento global\nVariação (°C)\nMais seco\nMais úmido\nMais quente\nVariação (%)\n4 °C de aquecimento global\n0\n-40\n-30\n-20\n-10\n0\n10\n20\n30\n40\nFonte: IPCC\n0,5\n1\n1,5\n2\n2,5\n3\n3,5\n4\n4,5\n5\n5,5\n6\n6,5\n7\nPIVETTA, M. O clima no Antropoceno. Revista Pesquisa Fapesp, n. 307, set. 2021.\nQual medida é capaz de minimizar as mudanças apresentadas nas simulações?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/89/A.webp",
+        "text": "A\t\nA\t Expandir o transporte marítimo.l"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/89/B.webp",
+        "text": "B\t\nB\t Incentivar os fluxos migratórios."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/89/C.webp",
+        "text": "C\t\nC\t Monitorar as atividades vulcânicas."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/89/D.webp",
+        "text": "D\t\nD\t Controlar as emissões de carbono."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/89/E.webp",
+        "text": "E\t\nE\t Priorizar a utilização de termoelétricas."
+      }
+    ],
+    "officialAnswer": "D",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/89/details.json",
+    "contentFingerprint": "171e65b2784a0ef6a3c8c3232ddc8ca294e5d0d46c93ff0c33fb45ff0321c67e",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "dc55a3aadee9ea120870162675604532d809401029c6b2e6cde8cbf852b53d67"
   },
   {
     "id": "enem-2023-90",
@@ -835,6 +3237,11 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "3a9c66ac796c3aba8562da01608c6dac735175b7652c8d979cef1e641963d2ac"
+    "sourceSha256": "3a9c66ac796c3aba8562da01608c6dac735175b7652c8d979cef1e641963d2ac",
+    "canonicalId": "enem:2023:regular:blue:90:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   }
 ]

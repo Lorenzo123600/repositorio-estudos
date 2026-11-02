@@ -9,8 +9,9 @@ const {bank,challenges,makeExam,examResult,todayKey}=await import('../src/activi
 const {loadQuestions}=await import('../src/question-loader.js');
 const {readFileSync}=await import('node:fs');
 await loadQuestions(bank.map((_,i)=>i),{fetcher:async path=>({ok:true,json:async()=>JSON.parse(readFileSync('public/'+path,'utf8'))})});
+const expectedSize=92+JSON.parse(readFileSync('src/question-catalog.json','utf8')).chunks.reduce((n,c)=>n+c.questions.length,0);
 const {recordActivity,missionStatus,achievementList,finishExam,examTime}=await import('../src/features.js');
-test('banco preserva 92 registros e acrescenta 284 questões reais com gabaritos válidos',()=>{assert.equal(bank.length,376);assert.equal(new Set(bank.map(q=>q.id)).size,376);for(const q of bank){assert.equal(q.options.length,5);assert.ok(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<5);assert.ok(q.explanation.length>35);}for(const area of subjects.slice(1))assert.ok(bank.filter(q=>q.area===area).length>70);});
+test('banco preserva índices publicados e mantém alternativas e gabaritos válidos',()=>{assert.equal(bank.length,expectedSize);assert.equal(new Set(bank.map(q=>q.id)).size,expectedSize);for(const q of bank){assert.equal(q.options.length,5);assert.ok(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<5);assert.ok(q.explanation.length>35);}for(const area of subjects.slice(1))assert.ok(bank.filter(q=>q.area===area).length>70);});
 test('minissimulados não repetem questões e abrangem quatro áreas',()=>{for(const count of [10,20]){const ids=makeExam(count,()=>0.4);assert.equal(ids.length,count);assert.equal(new Set(ids).size,count);assert.equal(new Set(ids.map(i=>bank[i].area)).size,4);}});
 test('resultado preserva denominador de questões não respondidas',()=>{const ids=makeExam(10,()=>0.2);const answers={[ids[0]]:bank[ids[0]].answer,[ids[1]]:(bank[ids[1]].answer+1)%5};const r=examResult({ids,answers});assert.equal(r.correct,1);assert.equal(r.total,10);assert.equal(Object.values(r.areas).reduce((n,a)=>n+a.total,0),10);});
 test('finalização é idempotente e incorpora apenas respostas existentes',()=>{const ids=makeExam(10,()=>0.3),state={done:[],answers:{},essay:'',activeExam:{ids,answers:{[ids[0]]:bank[ids[0]].answer},startedAt:123,deadline:Date.now()-1000}};let saves=0;assert.equal(examTime(state.activeExam),0);finishExam(state,()=>saves++,'timeout');finishExam(state,()=>saves++);assert.equal(saves,1);assert.equal(state.examHistory.length,1);assert.equal(state.examHistory[0].correct,1);assert.equal(state.activeExam.reason,'timeout');assert.equal(Object.keys(state.answers).length,1);assert.ok(achievementList(state).find(a=>a[0]==='Ritmo de prova')[2]);});
@@ -24,16 +25,16 @@ test('temas de redação preservam rascunho antigo, textos e checklists independ
 
 
 test('questões reais têm fonte, ano, níveis equilibrados e imagens locais existentes',async()=>{
- const {existsSync}=await import('node:fs');const real=bank.slice(20,92);assert.equal(real.length,72);assert.equal(new Set(bank.map(q=>q.id)).size,376);
+ const {existsSync}=await import('node:fs');const real=bank.slice(20,92);assert.equal(real.length,72);assert.equal(new Set(bank.map(q=>q.id)).size,expectedSize);
  for(const area of subjects.slice(1))for(const difficulty of ['facil','medio','dificil'])assert.equal(real.filter(q=>q.area===area&&q.difficulty===difficulty).length,6);
  for(const q of real){assert.equal(q.year,2023);assert.match(q.source,/github.com\/yunger7\/enem-api/);assert.ok(q.context.length>20);assert.ok(q.difficultyReason.length>20);for(const match of q.context.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g))assert.ok(existsSync('public/'+match[1]),match[1]);}
 });
 test('simulados filtram nível e rejeitam pedidos maiores que o banco',()=>{
- for(const difficulty of ['facil','medio','dificil']){const ids=makeExam(10,()=>0.3,{difficulty});assert.equal(ids.length,10);assert.equal(new Set(ids).size,10);assert.ok(ids.every(id=>bank[id].origin==='enem'&&bank[id].difficulty===difficulty));assert.equal(makeExam(20,Math.random,{difficulty}).length,20);assert.throws(()=>makeExam(25,Math.random,{difficulty}),RangeError);}
- assert.throws(()=>makeExam(0),RangeError);assert.throws(()=>makeExam(356),RangeError);
+ for(const difficulty of ['facil','medio','dificil']){const available=bank.filter(q=>q.origin==='enem'&&!q.cancelled&&q.validationStatus!=='pending'&&q.difficulty===difficulty).length;const ids=makeExam(10,()=>0.3,{difficulty});assert.equal(ids.length,10);assert.equal(new Set(ids).size,10);assert.ok(ids.every(id=>bank[id].origin==='enem'&&bank[id].difficulty===difficulty));assert.equal(makeExam(Math.min(20,available),Math.random,{difficulty}).length,Math.min(20,available));assert.throws(()=>makeExam(25,Math.random,{difficulty}),RangeError);}
+ assert.throws(()=>makeExam(0),RangeError);assert.throws(()=>makeExam(bank.filter(q=>q.origin==='enem'&&!q.cancelled).length+1),RangeError);
 });
 test('normalização preserva estudo e rejeita dados inválidos antes de renderizar',async()=>{
- const {normalizeState}=await import('../src/state.js');const state=normalizeState({done:[0,0,99],answers:{20:2,999:0,x:1},start:'<img src=x>',examHistory:[{finishedAt:2,total:'<script>',correct:0}],activeExam:{ids:[20,20],deadline:5,startedAt:1},activities:{'2026-11-01':null}});
+ const {normalizeState}=await import('../src/state.js');const state=normalizeState({done:[0,0,99],answers:{20:2,[bank.length+10]:0,x:1},start:'<img src=x>',examHistory:[{finishedAt:2,total:'<script>',correct:0}],activeExam:{ids:[20,20],deadline:5,startedAt:1},activities:{'2026-11-01':null}});
  assert.deepEqual(state.done,[0]);assert.deepEqual(state.answers,{'20':2});assert.equal(state.examHistory.length,0);assert.equal(state.activeExam,null);assert.match(state.start,/^\d{4}-\d{2}-\d{2}$/);assert.deepEqual(state.activities,{});
 });
 test('renderização de questões escapa HTML e não aceita imagens externas',async()=>{const {richText}=await import('../src/question-view.js');assert.match(richText('<script>alert(1)</script>'),/&lt;script&gt;/);assert.doesNotMatch(richText('![](https://evil.test/a.png)'),/<img/);assert.match(richText('![](enem-assets/2023/questions/1/test.png)'),/<img src="enem-assets/);});

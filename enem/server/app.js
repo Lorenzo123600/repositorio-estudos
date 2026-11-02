@@ -37,7 +37,7 @@ export function createApp({dbPath=process.env.DATABASE_PATH||resolve(root,'var/e
     if(!['GET','HEAD'].includes(req.method))return send(res,405,{error:'Método inválido.'});
     const dist=resolve(root,'dist'),file=resolve(dist,'.'+decodeURIComponent(path==='/'?'/index.html':path));
     if(!file.startsWith(dist+'/')||!existsSync(file)||!statSync(file).isFile())return send(res,404,{error:'Página não encontrada. Execute npm run build.'});
-    const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml'};
+    const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.svg':'image/svg+xml'};
     res.writeHead(200,{'Content-Type':mime[extname(file)]||'application/octet-stream','Cache-Control':'no-cache'});return res.end(req.method==='HEAD'?undefined:readFileSync(file));
    }
    if(!['GET','HEAD'].includes(req.method)){

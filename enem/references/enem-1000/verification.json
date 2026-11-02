@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-02",
+  "validatedQuestions": 1070,
+  "canonicalUnique": 1070,
+  "originalImageComparisons": 6420,
+  "unitTestsPassed": 48,
+  "staticBrowserTestsPassed": 5,
+  "existingRegressionTestsPassed": 7,
+  "knownPreexistingBrowserFailures": 5,
+  "notes": "A suíte completa legada não é declarada verde; cinco testes já falhavam antes desta missão. As verificações de publicação exigem os originais oficiais e o mínimo de 1.000 itens."
+}

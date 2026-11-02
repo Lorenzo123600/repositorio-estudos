@@ -1,0 +1,427 @@
+[
+  {
+    "id": "enem-2023-56",
+    "year": 2023,
+    "number": 56,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 56 — ENEM 2023",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2023:regular:blue:56:pt",
+    "context": "![Enunciado original do ENEM 2023, questão 56](enem-assets/official/2023/56/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2023/56/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/56/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/56/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/56/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/56/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2023/56/statement.webp",
+      "enem-assets/official/2023/56/A.webp",
+      "enem-assets/official/2023/56/B.webp",
+      "enem-assets/official/2023/56/C.webp",
+      "enem-assets/official/2023/56/D.webp",
+      "enem-assets/official/2023/56/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/56/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 22,
+      "transcript": "QUESTÃO 56\t\nEU QUERIA\nPODER.\nFORÇA? VISÃO DE\nRAIO X? TELECINESE?\nTELEPATIA?\nPODER\nPOLÍTICO.\nLAERTE. Disponível em: www.laerte.art.br. Acesso em: 23 nov. 2021 (adaptado).\nA charge ilustra um anseio presente na sociedade contemporânea, que se caracteriza pela"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/56/A.webp",
+        "text": "A\t\nA\t situação de revolta individual."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/56/B.webp",
+        "text": "B\t\nB\t satisfação de desejos pessoais."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/56/C.webp",
+        "text": "C\t\nC\t participação em ações decisórias."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/56/D.webp",
+        "text": "D\t\nD\t permanência em passividade social."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/56/E.webp",
+        "text": "E\t\nE\t conivência em interesses partidários."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "single-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 56,
+        "rect": [
+          31.181100845336914,
+          249.28260803222656,
+          95.65785217285156,
+          263.2445983886719
+        ],
+        "page": 22
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 453.951416015625
+        },
+        {
+          "letter": "B",
+          "y": 468.48614501953125
+        },
+        {
+          "letter": "C",
+          "y": 483.02069091796875
+        },
+        {
+          "letter": "D",
+          "y": 497.5552978515625
+        },
+        {
+          "letter": "E",
+          "y": 512.0899658203125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/56/statement.webp",
+          "sha256": "9cebec1607add87df926d8d5ad01702a91e64b2080f8e9b3bb43a35fc9e8ba6d",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            248.28260803222656,
+            565.9290161132812,
+            454.951416015625
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 414
+        },
+        {
+          "file": "enem-assets/official/2023/56/A.webp",
+          "sha256": "66fee511d547798fc7abf2ecbc03edad2abd22579c626a59bd70f7e6a0578475",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            454.951416015625,
+            565.9290161132812,
+            469.48614501953125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/56/B.webp",
+          "sha256": "6e30c690ea030ade7e9265bf7898451d13434ce029e2bd5fa302de0ca52e2197",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            469.48614501953125,
+            565.9290161132812,
+            484.02069091796875
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/56/C.webp",
+          "sha256": "5375ef72a7b68f02f86257735804fa821a55c83841b7f39fb322b2b63baf11da",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            484.02069091796875,
+            565.9290161132812,
+            498.5552978515625
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/56/D.webp",
+          "sha256": "57256fef2f3c3cbbfcf4150b5631e2b7f59a7b741a6c2c2a3e088bd561eafac0",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            498.5552978515625,
+            565.9290161132812,
+            513.0899658203125
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/56/E.webp",
+          "sha256": "bbf77ab665d68facae92d3e0e5b2b93b4878cf79d7d4fb61eb62328da1f46795",
+          "page": 22,
+          "rect": [
+            23.181100845336914,
+            513.0899658203125,
+            565.9290161132812,
+            531.135986328125
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 37
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/56/details.json",
+    "contentFingerprint": "003aa55e281a8082de76c0127a162d22916af4d4928e08d259902097461ee6bb",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "77b912b3c1721b1d8dff35aec61f2acffbe5d01c075cb6cd83566e28fd1fa434"
+  },
+  {
+    "id": "enem-2023-174",
+    "year": 2023,
+    "number": 174,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 174 — ENEM 2023",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2023:regular:blue:174:pt",
+    "context": "![Enunciado original do ENEM 2023, questão 174](enem-assets/official/2023/174/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2023/174/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/174/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/174/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/174/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/174/E.webp)"
+    ],
+    "answer": 4,
+    "images": [
+      "enem-assets/official/2023/174/statement.webp",
+      "enem-assets/official/2023/174/A.webp",
+      "enem-assets/official/2023/174/B.webp",
+      "enem-assets/official/2023/174/C.webp",
+      "enem-assets/official/2023/174/D.webp",
+      "enem-assets/official/2023/174/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/174/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 29,
+      "transcript": "QUESTÃO 174\t\nUma pessoa comprou um ingresso para o cinema em cuja entrada está afixado um mapa com a representação \nbidimensional do posicionamento das poltronas, conforme a figura. Essa pessoa, após consultar o mapa, começou \na subir uma das escadas e parou na posição indicada pela estrela, direcionada para o norte. Ela conferiu seu bilhete \ne observou que, para encontrar sua poltrona, deveria partir do ponto onde estava, continuar subindo a escada na \ndireção norte por mais quatro fileiras e olhar à sua direita, e sua poltrona será a terceira.\nFileiras\nEscada\nEscada\nPoltrona\nPosições\nTela\nEntrada\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\n2\n1\n3\n4\n5\n6\n7\n8\n9\n10 11 12\nS\nN\nL\nO\nNesse cinema, as poltronas são identificadas por uma letra, que indica a fileira, e um número, que fornece a \nposição da poltrona na fileira, respectivamente.\nA poltrona dessa pessoa é a identificada por"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/174/A.webp",
+        "text": "A\t\nA\t A6."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/174/B.webp",
+        "text": "B\t\nB\t H1."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/174/C.webp",
+        "text": "C\t\nC\t H6."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/174/D.webp",
+        "text": "D\t\nD\t I1."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/174/E.webp",
+        "text": "E\t\nE\t I6."
+      }
+    ],
+    "officialAnswer": "E",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "single-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 174,
+        "rect": [
+          31.181100845336914,
+          64.83419036865234,
+          101.07884979248047,
+          78.79618835449219
+        ],
+        "page": 29
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 416.9044189453125
+        },
+        {
+          "letter": "B",
+          "y": 431.43902587890625
+        },
+        {
+          "letter": "C",
+          "y": 445.9736328125
+        },
+        {
+          "letter": "D",
+          "y": 460.50830078125
+        },
+        {
+          "letter": "E",
+          "y": 475.04290771484375
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/174/statement.webp",
+          "sha256": "73f91acd52ea43283775f3e0cce616100bc1352ac5f8bb1603db6fefab091a77",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            63.834190368652344,
+            565.9290161132812,
+            417.9044189453125
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 709
+        },
+        {
+          "file": "enem-assets/official/2023/174/A.webp",
+          "sha256": "30294c595fd1efc76e1192406445f5d2636b880caadfe9a5c700774a3e7b2304",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            417.9044189453125,
+            565.9290161132812,
+            432.43902587890625
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/174/B.webp",
+          "sha256": "1a2ed4bd74b1e1770b45baf98bbc3bc3e251ee529042e18f1412ae7377f766d6",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            432.43902587890625,
+            565.9290161132812,
+            446.9736328125
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/174/C.webp",
+          "sha256": "bc92cbb48405852ae4ae463438c9b33f81bfe388556c2c6eb6fa6012ffdbe184",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            446.9736328125,
+            565.9290161132812,
+            461.50830078125
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/174/D.webp",
+          "sha256": "9fac8a23fa559704736fd280a1e179d06b502ab230e8cd80217ffc11e80c8bf0",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            461.50830078125,
+            565.9290161132812,
+            476.04290771484375
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/174/E.webp",
+          "sha256": "05bb650afc5d146fe493729c327f66a97efceda9cf4e31355575fa2870749163",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            476.04290771484375,
+            565.9290161132812,
+            494.08892822265625
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 37
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno original do INEP; sem declaração de domínio público",
+    "structuredSource": null,
+    "contentFingerprint": "08466f369b1d1ad86a79af7a6efbc545ff8b89b99bb9d53da0ddc4cc3c8d1f71",
+    "explanationStatus": "not-provided"
+  }
+]
