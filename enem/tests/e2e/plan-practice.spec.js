@@ -48,7 +48,7 @@ test('conclui automaticamente uma etapa somente após responder todas as questõ
  for(let i=0;i<10;i++){
   await page.locator('[data-answer="0"]').click();
   await page.locator('#confirm-answer').click();
-  await page.locator('#next').click();
+  if(i<9)await page.locator('#next').click();
  }
  await expect(page.getByRole('heading',{name:'Seu treino chegou ao fim.'})).toBeVisible();
  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone)).toContain(0);
@@ -82,7 +82,7 @@ test('retoma treino e não duplica conclusão ao repetir atividade',async({page}
  await expect(page.locator('#next')).toBeEnabled();
  for(let i=0;i<10;i++){
   if(i>0){await page.locator('[data-answer="0"]').click();await page.locator('#confirm-answer').click();}
-  await page.locator('#next').click();
+  if(i<9)await page.locator('#next').click();
  }
  const done=await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone);
  expect(done.filter(x=>x===0)).toHaveLength(1);
