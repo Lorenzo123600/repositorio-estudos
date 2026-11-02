@@ -24,4 +24,5 @@ for migration in supabase/migrations/*.sql; do
  "${psql_cmd[@]}" < "$migration"
 done
 "${psql_cmd[@]}" < tests/sql/payments.sql
+"${psql_cmd[@]}" < tests/sql/complimentary.sql
 "${psql_cmd[@]}" < tests/sql/isolation.sql

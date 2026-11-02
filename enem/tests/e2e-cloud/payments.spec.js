@@ -13,7 +13,7 @@ test('planos: login, retry idempotente, retorno não confiável, recarga e outro
    else if(path.endsWith('/load_enem_study_progress'))data={state:{},revision:0};
    else if(path.endsWith('/enem_payment_plans'))data=[{id:plan,name:'Plano de teste',price:14.90,currency:'BRL',duration_days:null,access_expires_at:'2027-01-01T03:00:00Z'}];
    else if(path.endsWith('/enem_payments'))data=attempts.length?[{id:'payment',user_id:uid,plan_id:plan,idempotency_key:attempts[0].idempotency_key,amount:10,currency:'BRL',environment:'production',status}]:[];
-   else if(path.endsWith('/enem_user_access'))data=hasAccess?[{payment_id:'payment',plan_id:plan,environment:'production',status:'active',activated_at:new Date(Date.now()-1000).toISOString(),expires_at:new Date(Date.now()+86400000).toISOString()}]:[];
+   else if(path.endsWith('/enem_access_status'))data=hasAccess?[{payment_id:'payment',plan_id:plan,environment:'production',status:'active',activated_at:new Date(Date.now()-1000).toISOString(),expires_at:new Date(Date.now()+86400000).toISOString()}]:[];
    else if(path.endsWith('/create-mercadopago-order')){
     expect(req.headers().authorization).toBe('Bearer '+jwt);const body=req.postDataJSON();expect(Object.keys(body).sort()).toEqual(['idempotency_key','plan_id']);attempts.push(body);
     if(attempts.length===1){code=503;data={error:'provider_unavailable'};}else data={payment_id:'payment',environment:'test',checkout_url:'https://www.mercadopago.com.br/checkout/v1/redirect?order_id=ORDTSTfixture'};

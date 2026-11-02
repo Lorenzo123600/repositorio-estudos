@@ -140,3 +140,9 @@ Passaram validate:release, 74 testes Node, três testes cloud, dois comerciais (
 ## Pacote de implantação compatível com o limite da Management API
 
 O pacote bruto ampliado excedeu o limite de upload (HTTP 413), impedindo o push de publicação. A entrega passou a projetar apenas os campos consumidos pelo aluno; evidências completas continuam nas fontes e nos originais. O teste compara HTML, referência, alternativas e gabarito de todas as questões entre original e projeção. O pacote de implantação usa gzip/base64 e SHA-256, validado antes de servir; payload de cerca de 544 KiB restaura exatamente o JSON privado de cerca de 2,2 MiB. Passaram 76 testes Node, deno check e os dois fluxos da edição comercial após essa mudança.
+
+## Acesso de cortesia solicitado pela responsável
+
+Foi implementada concessão administrativa separada de compras em enem_complimentary_access. A migration 202611020006 adiciona RLS por aluno e a RPC enem_access_status, usada pelo frontend e pelo verificador de autorização. Somente service_role/admin pode conceder, revogar ou alterar a validade. O aluno não pode autoconceder acesso. As duas contas existentes e confirmadas indicadas pela responsável receberam cortesia até o limite exclusivo 2027-01-01T03:00:00Z; o endereço informado sem cadastro não foi incluído. Identidades pessoais não são versionadas. Nenhum pagamento foi criado ou aprovado para essa concessão, e a autorização para cobranças reais permanece pendente.
+
+Passaram 77 testes Node, a suíte SQL incluindo isolamento/expiração/revogação/proibição de autoconcessão, três testes cloud e três testes comerciais, cobrindo tanto compra quanto cortesia. A função de autorização também foi verificada no projeto remoto para as duas contas concedidas.

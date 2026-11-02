@@ -53,3 +53,9 @@ test('contas sem confirmação não entram, não restauram sessão e não consul
   assert.deepEqual(client.calls,[['logout',{scope:'local'}]]);
  }
 });
+
+test('Supabase: effective access comes from the authenticated server RPC',async()=>{
+ const client=mock(),api=createSupabaseTransport(client);
+ await api.request('/payment-access');
+ assert.deepEqual(client.calls.at(-1),['enem_access_status',undefined]);
+});

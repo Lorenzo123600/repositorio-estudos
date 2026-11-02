@@ -14,7 +14,7 @@ test('demo preserves progress; only a current production purchase unlocks study'
   else if(path.endsWith('/user'))data=user;
   else if(path.endsWith('/load_enem_study_progress'))data={state:{essay:'Rascunho preservado'},revision:0};
   else if(path.endsWith('/save_enem_study_progress')){writes++;data={revision:writes};}
-  else if(path.endsWith('/enem_user_access'))data=access;
+  else if(path.endsWith('/enem_access_status'))data=access;
   else if(path.endsWith('/logout'))data={};
   else throw Error('Unexpected request: '+path);
   await route.fulfill({json:data,headers});
@@ -30,7 +30,7 @@ test('demo preserves progress; only a current production purchase unlocks study'
  await page.locator('[data-tab="Painel"]').click();await page.locator('#offer-login').click();
  await page.locator('#account-form [name=email]').fill(user.email);await page.locator('#account-form [name=password]').fill('Senha fixture123');await page.locator('#account-form button[name=action]').click();await expect(page.locator('#account-title')).toHaveText('Sua conta');await page.locator('#account-close').click();
  const grant={environment:'test',status:'active',activated_at:new Date(Date.now()-1000).toISOString(),expires_at:new Date(Date.now()+86400000).toISOString()};
- access=[grant];const testResponse=page.waitForResponse(r=>r.url().includes('/enem_user_access'));await page.locator('#offer-refresh').click();await (await testResponse).finished();await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));await expect(page.locator('.sale-offer')).toBeVisible();
+ access=[grant];const testResponse=page.waitForResponse(r=>r.url().includes('/enem_access_status'));await page.locator('#offer-refresh').click();await (await testResponse).finished();await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));await expect(page.locator('.sale-offer')).toBeVisible();
  access=[{...grant,environment:'production'}];await page.evaluate(()=>window.dispatchEvent(new Event('focus')));await expect(page.locator('.sale-offer')).toHaveCount(0);
  await page.locator('[data-tab="Redação"]').click();await expect(page.locator('#essay')).toHaveValue('Rascunho preservado');
  access=[];await page.evaluate(()=>window.dispatchEvent(new Event('focus')));await expect(page.locator('.sale-offer')).toBeVisible();await expect(page.locator('#essay')).toHaveCount(0);expect(writes).toBe(0);

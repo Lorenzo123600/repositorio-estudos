@@ -43,7 +43,7 @@ export function createSupabaseTransport(client,{redirectTo,isRecovery=()=>false}
   }
   if(path==='/payment-plans')return check(await client.from('enem_payment_plans').select('id,name,price,currency,duration_days,access_expires_at').eq('active',true).order('price'));
   if(path==='/payments')return check(await client.from('enem_payments').select('id,plan_id,idempotency_key,status,environment,amount,currency,created_at').eq('user_id',user.id).order('created_at',{ascending:false}).limit(50));
-  if(path==='/payment-access')return check(await client.from('enem_user_access').select('payment_id,plan_id,status,environment,activated_at,expires_at').eq('user_id',user.id));
+  if(path==='/payment-access')return check(await client.rpc('enem_access_status'));
   if(path==='/study-content'){
    const result=await client.functions.invoke('study-content',{body:{}});
    if(result.error)throw error('Não foi possível carregar o estudo. Verifique seu acesso e tente novamente.',result.error.context?.status||503);
