@@ -3,9 +3,10 @@ import {test,expect} from '@playwright/test';
 const password='Senha de teste 123!';
 async function enter(page,email,register=false){
  await page.goto('/');await page.getByRole('button',{name:'Entrar / Criar conta'}).click();
- if(register)await page.locator('[name=name]').fill('Estudante');
- await page.locator('#account-form [name=email]').fill(email);await page.locator('#account-form [name=password]').fill(password);
- await page.getByRole('button',{name:register?'Criar conta':'Entrar',exact:true}).click();
+ if(register){await page.locator('[data-account-mode=register]').click();await page.locator('#register-form [name=name]').fill('Estudante');}
+ const form=page.locator(register?'#register-form':'#account-form');
+ await form.locator('[name=email]').fill(email);await form.locator('[name=password]').fill(password);
+ await form.locator('button[type=submit], button[name=action]').click();
  await expect(page.locator('dialog h2')).toHaveText('Sua conta');await page.getByRole('button',{name:'Fechar',exact:true}).click();
 }
 async function synced(page){await expect(page.locator('#storage-note')).toHaveText('Sincronizado com sua conta');}
@@ -38,7 +39,7 @@ test('questões reais, imagens, filtros, simulado e tela móvel funcionam',async
 
 test('código de recuperação permite voltar à conta sem e-mail e rotaciona após uso',async({page})=>{
  const email=`recover-${Date.now()}@example.com`;
- await page.goto('/');await page.locator('#account-open').click();await page.locator('#account-form [name=name]').fill('Recuperação');await page.locator('#account-form [name=email]').fill(email);await page.locator('#account-form [name=password]').fill(password);await page.getByRole('button',{name:'Criar conta',exact:true}).click();
+ await page.goto('/');await page.locator('#account-open').click();await page.locator('[data-account-mode=register]').click();await page.locator('#register-form [name=name]').fill('Recuperação');await page.locator('#register-form [name=email]').fill(email);await page.locator('#register-form [name=password]').fill(password);await page.locator('#register-form button[name=action]').click();
  const code=await page.locator('.recovery-code code').innerText();expect(code).toMatch(/^[a-f0-9]{48}$/);await page.locator('#account-logout').click();await page.locator('#account-open').click();await page.getByText('Esqueci minha senha',{exact:true}).click();
  await page.locator('#recover-form [name=email]').fill(email);await page.locator('#recover-form [name=code]').fill(code);await page.locator('#recover-form [name=password]').fill('Nova senha segura123!');await page.getByRole('button',{name:'Recuperar acesso',exact:true}).click();await expect(page.locator('dialog h2')).toHaveText('Sua conta');expect(await page.locator('.recovery-code code').innerText()).not.toBe(code);
 });

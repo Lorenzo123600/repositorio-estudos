@@ -11,7 +11,6 @@
 .account-dialog{border:1px solid var(--line,#ddd);border-radius:18px;padding:28px;width:min(560px,92vw);max-height:90vh;color:#253e35;background:#fff}.account-dialog::backdrop{background:#172d2580}.account-dialog form{display:grid;gap:16px;margin:20px 0}.account-dialog label{display:grid;gap:6px}.account-dialog input{width:100%;padding:12px;border:1px solid #bdc9bf;border-radius:8px;font:inherit}.account-dialog details{margin:20px 0;padding:12px;background:#f4f6ef;border-radius:8px}.account-actions{display:flex;gap:12px}.question-context{font-size:16px;line-height:1.8;white-space:normal;margin:22px 0}.question-context img,.option img{max-width:100%;max-height:480px;object-fit:contain;display:block;margin:14px auto}.difficulty-note{font-size:13px;color:#596a60}.question-filters{display:flex;gap:16px;flex-wrap:wrap;margin:18px 0}.question-filters label{display:grid;gap:6px}.question-filters select{padding:10px;border:1px solid #bdc9bf;border-radius:8px;background:white}.question-source{font-size:13px;margin:14px 0}.empty-state{padding:24px}.option .answer-content{display:block;flex:1;white-space:normal}.question-context p{margin:10px 0}
 .recovery-code code{display:block;overflow-wrap:anywhere;user-select:all;font-size:15px;margin:12px 0}
 
-
 /* Account access: scoped to the dialog to preserve the study interface. */
 .account-dialog{width:min(540px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:32px;border:1px solid #dce5db;border-radius:24px;background:linear-gradient(145deg,#f0f5e9 0,#fff 190px);box-shadow:0 24px 80px #142f3433;overflow-y:auto;overscroll-behavior:contain}
 .account-dialog::backdrop{background:#112a256e;backdrop-filter:blur(5px)}
@@ -42,3 +41,8 @@
 .account-dialog #account-logout{min-height:44px}
 .account-dialog button:disabled{opacity:.6}
 @media(max-width:480px){.account-dialog{padding:24px 20px;border-radius:20px}.account-dialog h2{font-size:25px}.account-eyebrow{font-size:9px;letter-spacing:1.2px}.account-dialog .account-actions{grid-template-columns:1fr}.account-dialog .account-intro{font-size:13px}.account-dialog #account-close{margin-right:-4px}}
+.account-dialog [hidden]{display:none!important}
+.account-tabs{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:5px;border:1px solid #dce5d8;border-radius:12px;background:#edf2e7;margin:24px 0}
+.account-tabs button{min-height:44px;padding:10px;border:0;border-radius:8px;background:transparent;color:#52674f;font-size:14px;font-weight:600}
+.account-tabs button.selected{background:#fff;color:#215e43;box-shadow:0 2px 6px #203e3114}
+.account-dialog #account-form>.primary,.account-dialog #register-form>.primary{width:100%;margin-top:4px}
