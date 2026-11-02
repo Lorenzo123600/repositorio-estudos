@@ -123,3 +123,22 @@
 
 /* Acao principal contextual com CTA destacado */
 .home-next-action{min-height:46px;padding:13px 22px;border-radius:11px;font-weight:800;box-shadow:0 5px 15px #17493424}.home-hero .hero-tag{letter-spacing:1.1px}.home-hero .hero-copy p{line-height:1.65}
+
+/* Escolha de simulado: hierarquia e comparação acessível */
+.exam-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0 23px}
+.exam-options .exam-option{display:flex;flex-direction:column;gap:13px;border:1px solid #dfe8df;border-radius:18px;padding:24px;background:#fff;box-shadow:0 4px 15px #153d2d0b}
+.exam-options .exam-option-featured{background:linear-gradient(145deg,#f0f8ed,#fff);border:2px solid #4a9270;box-shadow:0 6px 20px #205a3920}
+.exam-option-tag{align-self:flex-start;border-radius:30px;padding:7px 11px;font-size:10px;letter-spacing:.6px;font-weight:800;background:#eef2ed;color:#416a53}
+.exam-option-featured .exam-option-tag{background:#d9ebdc;color:#246543}
+.exam-option-heading{display:flex;gap:12px;justify-content:space-between;align-items:flex-start}
+.exam-option-heading h2{font-size:clamp(19px,2vw,25px);line-height:1.2;color:#1b4533;margin:0 0 8px}
+.exam-option-summary{font-size:13px;color:#60776b;line-height:1.55;margin:0}
+.exam-option-count{display:flex;flex-direction:column;align-items:center;min-width:65px;font-size:33px;line-height:1;color:#256d4c;font-variant-numeric:tabular-nums}
+.exam-option-count small{font-size:10px;margin-top:6px;color:#6f8678;font-weight:500}
+.exam-option-meta{display:flex;gap:8px;flex-wrap:wrap}.exam-option-meta span{font-size:12px;font-weight:650;color:#37654d;padding:9px 11px;background:#edf5ed;border-radius:9px}
+.exam-option-foot{font-size:12px;line-height:1.5;color:#718378;margin:0}
+.exam-option-cta{width:100%;min-height:46px;margin-top:auto;border-radius:11px;font-size:13px;font-weight:750;padding:12px 14px}
+.exam-option-extended .exam-option-cta{background:#fff;color:#206349;border:1.5px solid #28724f}
+.exam-option-extended .exam-option-cta:hover{background:#eaf5ec}
+.exam-option-cta:disabled{opacity:.55;cursor:not-allowed}
+@media(max-width:750px){.exam-options{grid-template-columns:1fr;gap:13px}.exam-options .exam-option{padding:18px}.exam-option-heading h2{font-size:20px}}
