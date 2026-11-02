@@ -41,3 +41,28 @@ test('etapa de caderno de erros abre a questão errada e não inclui a correta',
  await expect(page.locator('.session-banner')).toContainText('Revisão dos seus erros');await expect(page.locator('.session-banner')).toContainText('1 de 1');
  expect(await page.evaluate(()=>JSON.parse(sessionStorage.getItem('bora-enem-plan-practice-v1')).questionIds)).toEqual([bank[wrong].id]);
 });
+
+test('conclui automaticamente uma etapa somente após responder todas as questões',async({page})=>{
+ await page.goto('/');await page.locator('[data-tab="Plano de 14 dias"]').click();
+ await page.locator('[data-plan-practice="0"]').click();
+ for(let i=0;i<10;i++){
+  await page.locator('[data-answer="0"]').click();
+  await page.locator('#confirm-answer').click();
+  await page.locator('#next').click();
+ }
+ await expect(page.locator('h2')).toContainText('Seu treino chegou ao fim.');
+ expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone)).toContain(0);
+ await page.locator('#finish-training').click();
+ await expect(page.locator('.plan-unit.unit-complete').first()).toContainText('Interpretação de texto');
+});
+
+test('não conclui uma etapa se o treino terminar com respostas faltando',async({page})=>{
+ await page.goto('/');await page.locator('[data-tab="Plano de 14 dias"]').click();
+ await page.locator('[data-plan-practice="0"]').click();
+ for(let i=0;i<9;i++)await page.locator('#next').click();
+ await page.locator('#next').click();
+ await expect(page.getByText('Treino incompleto:',{exact:false})).toBeVisible();
+ expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone||[])).not.toContain(0);
+ await page.locator('#review-training').click();
+ await expect(page.locator('.question-position')).toContainText('Questão 1 de 10');
+});
