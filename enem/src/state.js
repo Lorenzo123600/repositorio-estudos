@@ -1,3 +1,4 @@
+import {validPlanDays,refreshPlanProgress,MAX_PLAN_DAYS} from './study-plan.js';
 import {initializeEssays} from './essays.js';
 import {bank,challenges} from './activities.js';
 const object=v=>v&&typeof v==='object'&&!Array.isArray(v)?v:{};
@@ -8,7 +9,7 @@ const checks=v=>Array.isArray(v)?[...new Set(v.filter(i=>integer(i,0,4)))]:[];
 const validDate=v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v)&&!Number.isNaN(new Date(v+'T12:00:00').getTime());
 export function normalizeState(input){
  const source=object(input),state={};
- state.done=Array.isArray(source.done)?[...new Set(source.done.filter(i=>integer(i,0,13)))]:[];
+ state.planDays=validPlanDays(source.planDays)?source.planDays:14;state.planUnitsDone=Array.isArray(source.planUnitsDone)?[...new Set(source.planUnitsDone.filter(i=>integer(i,0,MAX_PLAN_DAYS-1)))]:Array.isArray(source.done)?[...new Set(source.done.filter(i=>integer(i,0,13)))]:[];refreshPlanProgress(state);
  state.answers=answers(source.answers);state.essay=typeof source.essay==='string'?source.essay:'';state.checks=checks(source.checks);
  state.start=validDate(source.start)?source.start:new Date().toLocaleDateString('en-CA',{timeZone:'America/Sao_Paulo'});
  state.activities=Object.fromEntries(Object.entries(object(source.activities)).filter(([day,v])=>validDate(day)&&v&&typeof v==='object').map(([day,v])=>[day,{questions:ids(v.questions),challenges:Array.isArray(v.challenges)?v.challenges.filter(id=>challenges.some(c=>c.id===id)):[],exams:Array.isArray(v.exams)?v.exams.filter(Number.isFinite):[],writing:v.writing===true}]));

@@ -111,3 +111,15 @@ Layout baseado no SVG fornecido pelo usuário, preservado em `design/bora-pro-en
 No treino de questões, selecionar uma alternativa apenas a destaca; **Confirmar resposta** registra a escolha e apresenta a resolução. A seleção do treino recomendado dura na aba, mas suas respostas confirmadas continuam salvas. Questões respondidas anteriormente podem reaparecer e entram no resumo sem apagar o registro. Os dias de prática contam datas com atividade registrada, sem simular uma sequência ou impor penalidade por pausa. Revisão rápida prepara o cronômetro para quinze minutos; iniciar e pausar continuam sendo decisões do estudante.
 
 Validação: compilação, 27 testes de dados/API/configuração, seis testes de navegador (incluindo contas, sincronização, conflitos, simulados, confirmação e navegação móvel) e teste de integração Supabase com respostas simuladas. O teste simulado não comprova disponibilidade nem configuração de um projeto Supabase hospedado.
+
+## Interações das mascotes e desafios
+
+Capitu e Guapa podem ser acionadas por botões identificados, com mensagens visíveis e anunciadas para leitores de tela. Nos desafios, a Guapa abre uma pista específica. O botão Ouvir usa a síntese de voz do navegador e permite interromper; a conversa escrita continua disponível quando não há suporte ou a reprodução falha. A voz depende do dispositivo e é encerrada ao trocar de tela.
+
+Selecionar uma alternativa de desafio não registra uma resposta até confirmar. Novas conquistas e a missão diária de vencer um desafio só são concedidas após acerto; errar oferece explicação e nova tentativa. Jogar novamente não apaga conquistas já salvas. Registros e conquistas das versões anteriores são preservados.
+
+## Duração personalizada do plano
+
+Em Meu plano, escolha a duração (1 a 180 dias) e a data inicial e clique em Aplicar meu plano. O padrão continua sendo 14 dias. Prazos curtos agrupam as 14 atividades-base; prazos longos acrescentam revisões espaçadas desses conteúdos, mantendo a preparação final no último dia. Não há geração automática de novos conteúdos exclusivos para cada dia adicional.
+
+A conclusão é armazenada por atividade estável (`planUnitsDone`); `done` reflete os dias totalmente concluídos no prazo atual. O progresso antigo de 14 dias é convertido sem apagar atividades concluídas. Reduzir o prazo não apaga revisões adicionais já feitas: elas reaparecem ao ampliar o plano novamente. O número de dias concluídos pode mudar com o reagrupamento. A duração e as atividades acompanham a sincronização da conta existente; não é necessário alterar o banco.
