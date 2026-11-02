@@ -50,7 +50,7 @@ test('conclui automaticamente uma etapa somente após responder todas as questõ
   await page.locator('#confirm-answer').click();
   await page.locator('#next').click();
  }
- await expect(page.locator('h2')).toContainText('Seu treino chegou ao fim.');
+ await expect(page.getByRole('heading',{name:'Seu treino chegou ao fim.'})).toBeVisible();
  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone)).toContain(0);
  await page.locator('#finish-training').click();
  await expect(page.locator('.plan-unit.unit-complete').first()).toContainText('Interpretação de texto');
