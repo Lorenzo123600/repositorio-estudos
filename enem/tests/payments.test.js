@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {createHmac} from 'node:crypto';
 import {createOrderHandler,checkoutURL,money} from '../supabase/functions/_shared/create-order.js';
 import {validateSignature,webhookHandler,verifiedOrder} from '../supabase/functions/_shared/webhook.js';
-import {attemptKey,accessIsCurrent,validCheckout} from '../src/payments.js';
+import {attemptKey,accessIsCurrent,accessExpiryLabel,validCheckout} from '../src/payments.js';
 const planId='33333333-3333-4333-8333-333333333333',key='44444444-4444-4444-8444-444444444444',reference='55555555-5555-4555-8555-555555555555',origin='https://bora-pro-enem.pages.dev';
 const id='ORDTST01KS5AJ6HTK2HRQ3XJ3C2JCKP9';
 const order=()=>({id,type:'online',processing_mode:'manual',status:'created',status_detail:'created',external_reference:reference,total_amount:'10.00',total_paid_amount:'0.00',currency:'BRL',country_code:'BRA',user_id:'seller',integration_data:{application_id:'app'},last_updated_date:'2026-11-02T12:00:00Z',checkout_url:`https://www.mercadopago.com.br/checkout/v1/redirect?order_id=${id}`});
@@ -123,4 +123,8 @@ test('Orders: checkout termina antes da validade fixa e planos vencidos não cri
  const expired=setup({now:()=>now});expired.payment.access_expires_at='2027-01-01T02:00:00Z';
  assert.equal((await expired.handler(request())).status,409);
  assert.equal(expired.calls.filter(c=>c[0]==='provider').length,0);
+});
+
+test('Frontend: validade do acesso usa o último minuto inclusive no horário de Brasília',()=>{
+ assert.equal(accessExpiryLabel('2027-01-01T03:00:00Z'),'31/12/2026 às 23:59 (Brasília)');
 });

@@ -58,7 +58,7 @@ async function refresh(){
   root.querySelector('#store-login').textContent=user?'Minha conta':'Entrar / Criar conta';
   if(!user){status('A demonstração é gratuita. Entre para comprar ou acessar seu estudo.');return;}
   const access=await cloud.request('/payment-access');
-  if(!access.some(a=>accessIsCurrent(a))){status('Nenhum acesso pago de produção vigente. Consulte suas compras em Ver plano e comprar acesso.');return;}
+  if(!access.some(a=>accessIsCurrent(a))){status('Seu acesso completo ainda não está ativo. Consulte suas compras em Ver plano e comprar acesso.');return;}
   status('Carregando seu conteúdo de estudo…');
   // The protected endpoint repeats the authorization server-side before returning data.
   const content=await cloud.request('/study-content');
