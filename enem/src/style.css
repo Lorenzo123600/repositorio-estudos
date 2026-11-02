@@ -104,3 +104,19 @@
 .focus-global-durations button{font-size:11px;border:1px solid #dce7dd;background:#f8faf7;color:#496b54;padding:7px 11px;border-radius:99px}
 .focus-global-durations button[aria-pressed=true]{background:#e0efdf;color:#1a623c;border-color:#9abc9d;font-weight:700}
 @media(max-width:760px){#focus-global-root{right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px))}.focus-global-panel{width:min(286px,calc(100vw - 24px))}}
+
+/* Home mais objetiva: a ação de estudo vem antes dos conteúdos de apoio */
+.home-welcome{margin-bottom:14px}.home-welcome h1{margin-bottom:5px}.home-welcome .subtitle{margin-bottom:0}
+.home-hero{padding:24px 28px;min-height:unset}.home-hero h2{margin:8px 0 7px}.home-hero .training-orb{transform:scale(.82);transform-origin:center}
+.home-stats{margin:14px 0 18px;gap:10px}.home-stats article{padding:12px 15px;min-height:unset}.home-stats strong{font-size:23px;line-height:1.3}.home-stats p{margin-top:2px}
+.home-rhythm-title{margin:18px 0 10px}.home-rhythm-title+.rhythm-grid{margin-bottom:14px;gap:10px}
+.home-rhythm-title+.rhythm-grid .rhythm-card{padding:15px 18px;gap:6px}.home-rhythm-title+.rhythm-grid .rhythm-card strong{font-size:15px}.home-rhythm-title+.rhythm-grid .rhythm-card small{margin-top:3px}
+.home-dashboard-grid{gap:12px;margin-bottom:16px}.home-dashboard-grid .card{padding:17px 19px}.home-dashboard-grid .task{margin:13px 0}.home-dashboard-grid .muted{margin:5px 0}
+.home-extra{border:1px solid #dfe7de;border-radius:14px;background:#fff;margin:11px 0;overflow:hidden}
+.home-extra>summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:17px 20px;color:#194735;font-weight:700;list-style:none}
+.home-extra>summary::-webkit-details-marker{display:none}
+.home-extra>summary::after{content:'⌄';font-size:20px;line-height:1;color:#45705c}
+.home-extra[open]>summary::after{content:'⌃'}
+.home-extra>summary small{font-size:11px;font-weight:400;color:#62786b;margin-left:auto}
+.home-extra-body{padding:0 15px 16px}.home-extra-body>.plan-finished{margin:0}.home-extra-body>.companion-panel{margin-top:0}
+@media(max-width:760px){.home-hero{padding:20px}.home-hero .training-orb{transform:scale(.75)}.home-stats{gap:7px}.home-stats article{padding:10px}.home-dashboard-grid .card{padding:15px}.home-extra>summary{padding:15px;flex-wrap:wrap}.home-extra>summary small{flex-basis:100%;margin-left:0;order:3}.home-extra>summary::after{margin-left:auto}}
