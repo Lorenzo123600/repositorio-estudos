@@ -16,7 +16,7 @@ test('duas sessões independentes compartilham plano, redações e respostas; co
  await enter(one,email,true);
  await one.getByRole('button',{name:'Plano de 14 dias',exact:false}).first().click();await one.locator('[data-day="0"]').click();await synced(one);
  await one.locator('[data-tab="Redação"]').click();await one.locator('#essay').fill('Minha redação sincronizada entre computador e celular.');await synced(one);
- await one.locator('[data-tab="Questões"]').click();await one.locator('[data-answer="2"]').click();await synced(one);
+ await one.locator('[data-tab="Questões"]').click();await one.locator('[data-answer="2"]').click();await one.locator('#confirm-answer').click();await synced(one);
  await enter(two,email);await two.locator('[data-tab="Plano de 14 dias"]').click();await expect(two.locator('[data-day="0"]')).toContainText('Concluído');
  await two.locator('[data-tab="Redação"]').click();await expect(two.locator('#essay')).toHaveValue('Minha redação sincronizada entre computador e celular.');
  await two.locator('[data-tab="Questões"]').click();await expect(two.locator('.feedback')).toBeVisible();
@@ -34,7 +34,7 @@ test('questões reais, imagens, filtros, simulado e tela móvel funcionam',async
  await page.locator('#question-origin').selectOption('autoral');await expect(page.locator('.empty-state')).toBeVisible();
  await page.locator('[data-tab="Simulados"]').click();await page.locator('#exam-difficulty').selectOption('facil');await expect(page.locator('[data-start-exam="20"]')).toBeEnabled();await page.locator('[data-start-exam="10"]').click();await expect(page.locator('.question-map button')).toHaveCount(10);await expect(page.locator('.question-source')).toContainText('Fácil');
  await page.locator('[data-exam-answer="0"]').click();await page.locator('#finish-exam').click();await page.locator('#confirm-exam').click();await expect(page.locator('.result-hero')).toContainText('10');await expect(page.locator('.review-list .card')).toHaveCount(10);
- await page.setViewportSize({width:390,height:844});await page.locator('[data-tab="Questões"]').click();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
+ await page.setViewportSize({width:390,height:844});await page.locator('[data-mobile-tab="Questões"]').click();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
 });
 
 test('código de recuperação permite voltar à conta sem e-mail e rotaciona após uso',async({page})=>{

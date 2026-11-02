@@ -103,3 +103,11 @@ O backup usa a API SQLite para obter uma cópia consistente, inclusive com o ser
 ### Compilação estática
 
 `npm run build:pages` continua gerando HTML com JavaScript e CSS embutidos; as imagens devem ser publicadas junto com as pastas de `dist/`. Com `VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY` configuradas, esse modo oferece contas e sincronização pelo Supabase no GitHub Pages. Sem essas variáveis, o GitHub Pages oferece apenas estudo visitante; o backend SQLite requer servidor. Não substitua o site atual esperando que o banco funcione sem o servidor.
+
+## Redesign Bora pro ENEM
+
+Layout baseado no SVG fornecido pelo usuário, preservado em `design/bora-pro-enem-redesign.svg`: navegação lateral verde no desktop, menu e atalhos inferiores no celular, progresso real, treino recomendado de dez questões de Linguagens e revisão de quinze minutos. Capitu, Guapa, missões, desafios, simulados, contas e as chaves de armazenamento existentes foram preservados.
+
+No treino de questões, selecionar uma alternativa apenas a destaca; **Confirmar resposta** registra a escolha e apresenta a resolução. A seleção do treino recomendado dura na aba, mas suas respostas confirmadas continuam salvas. Questões respondidas anteriormente podem reaparecer e entram no resumo sem apagar o registro. Os dias de prática contam datas com atividade registrada, sem simular uma sequência ou impor penalidade por pausa. Revisão rápida prepara o cronômetro para quinze minutos; iniciar e pausar continuam sendo decisões do estudante.
+
+Validação: compilação, 27 testes de dados/API/configuração, seis testes de navegador (incluindo contas, sincronização, conflitos, simulados, confirmação e navegação móvel) e teste de integração Supabase com respostas simuladas. O teste simulado não comprova disponibilidade nem configuração de um projeto Supabase hospedado.
