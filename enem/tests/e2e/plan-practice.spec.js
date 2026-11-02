@@ -92,3 +92,23 @@ test('retoma treino e não duplica conclusão ao repetir atividade',async({page}
  const repeated=await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone);
  expect(repeated.filter(x=>x===0)).toHaveLength(1);
 });
+
+test('resultado correto ou errado conclui na ultima confirmação',async({page})=>{
+ for(const correctCount of [0,4,7,10]){
+  await page.goto('/');
+  await page.evaluate(()=>{localStorage.removeItem('enem-reta-final');sessionStorage.removeItem('bora-enem-plan-practice-v1')});
+  await page.reload();
+  await page.locator('[data-tab="Plano de 14 dias"]').click();
+  await page.locator('[data-plan-practice="0"]').click();
+  const ids=planPractice(0).ids;
+  for(let i=0;i<ids.length;i++){
+   const answer=i<correctCount?bank[ids[i]].answer:(bank[ids[i]].answer+1)%5;
+   await page.locator('[data-answer="'+answer+'"]').click();
+   await page.locator('#confirm-answer').click();
+   if(i<ids.length-1)await page.locator('#next').click();
+  }
+  await expect(page.getByRole('heading',{name:'Seu treino chegou ao fim.'})).toBeVisible();
+  await expect(page.locator('#content')).toContainText(correctCount+' acertos registrados');
+  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone)).toContain(0);
+ }
+});
