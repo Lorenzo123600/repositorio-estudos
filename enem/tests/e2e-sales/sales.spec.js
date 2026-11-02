@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-import {readFileSync,readdirSync} from 'node:fs';
+import {readFileSync,readdirSync,existsSync} from 'node:fs';
 const content=JSON.parse(readFileSync(new URL('../../supabase/functions/_shared/study-content.json',import.meta.url),'utf8'));
 
 test('commercial artifacts contain the demo but no full question bank, plans or essay prompts',()=>{
@@ -9,6 +9,9 @@ test('commercial artifacts contain the demo but no full question bank, plans or 
   expect(output).not.toContain(privateText.slice(0,70));
  }
  expect(output).toContain('__ENEM_CONTENT__');
+ expect(existsSync(new URL('../../dist/questions/',import.meta.url))).toBe(false);
+ expect(content.activities.bank.filter(q=>q.origin==='enem')).toHaveLength(356);
+ expect(content.activities.bank.every(q=>q.loaded!==false&&q.text&&q.options.length===5)).toBe(true);
 });
 
 test('public demo, authenticated content loading, saved progress and revocation',async({page})=>{
@@ -24,7 +27,7 @@ test('public demo, authenticated content loading, saved progress and revocation'
   let data;
   if(path.endsWith('/token'))data={access_token:jwt,refresh_token:'fixture-refresh',expires_in:3600,token_type:'bearer',user};
   else if(path.endsWith('/user'))data=user;
-  else if(path.endsWith('/load_enem_study_progress'))data={state:{essay:'Meu rascunho anterior',answers:{91:1}},revision:0};
+  else if(path.endsWith('/load_enem_study_progress'))data={state:{essay:'Meu rascunho anterior',answers:{91:1,375:1}},revision:0};
   else if(path.endsWith('/save_enem_study_progress')){writes++;data={revision:writes};}
   else if(path.endsWith('/enem_user_access'))data=access;
   else if(path.endsWith('/study-content')){
@@ -44,5 +47,9 @@ test('public demo, authenticated content loading, saved progress and revocation'
  await expect(page.locator('#store-status')).toContainText('Seu acesso completo ainda não está ativo');expect(contentRequests).toBe(0);
  access=[{environment:'production',status:'active',activated_at:new Date(Date.now()-1000).toISOString(),expires_at:new Date(Date.now()+86400000).toISOString()}];
  await page.locator('#store-refresh').click();await expect(page.locator('#store-login')).toHaveCount(0);await expect(page.locator('.home-welcome')).toBeVisible();await page.locator('#mobile-menu').click();await page.locator('[data-tab="Redação"]').click();await expect(page.locator('#essay')).toHaveValue('Meu rascunho anterior');expect(contentRequests).toBe(1);
+ const publicQuestionRequests=[];page.on('request',request=>{if(request.url().includes('/questions/'))publicQuestionRequests.push(request.url())});
+ await page.locator('[data-mobile-tab="Questões"]').click();await page.locator('#practice-year').selectOption('2022');await page.locator('#practice-discipline').selectOption('Inglês');await expect(page.locator('.question-source')).toContainText('ENEM 2022');await expect(page.locator('[data-answer]')).toHaveCount(5);expect(publicQuestionRequests).toEqual([]);
+ expect(await page.evaluate(uid=>JSON.parse(localStorage.getItem('enem-cloud-user-'+uid)).state.answers['375'],uid)).toBe(1);
+ await page.locator('#mobile-menu').click();await page.locator('[data-tab="Redação"]').click();await expect(page.locator('#essay')).toHaveValue('Meu rascunho anterior');
  access=[];await page.evaluate(()=>window.dispatchEvent(new Event('focus')));await expect(page.locator('.sale-offer')).toBeVisible();await expect(page.locator('#essay')).toHaveCount(0);expect(writes).toBe(0);expect(errors).toEqual([]);
 });

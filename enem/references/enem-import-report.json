@@ -1,0 +1,64 @@
+{
+  "sourceCommit": "938c56fbd3b391e03d93316c920a90c3e54842e5",
+  "imported": 284,
+  "rejected": [
+    {
+      "id": "enem-2022-143",
+      "reason": "gabarito divergente/anulado"
+    },
+    {
+      "id": "enem-2022-144",
+      "reason": "alternativas ausentes/fora de ordem"
+    },
+    {
+      "id": "enem-2022-157",
+      "reason": "gabarito divergente/anulado"
+    },
+    {
+      "id": "enem-2022-166",
+      "reason": "alternativas ausentes/fora de ordem"
+    },
+    {
+      "id": "enem-2023-1-espanhol",
+      "reason": "formato de imagem não suportado"
+    },
+    {
+      "id": "enem-2023-114",
+      "reason": "alternativas vazias/duplicadas"
+    },
+    {
+      "id": "enem-2023-129",
+      "reason": "formato de imagem não suportado"
+    },
+    {
+      "id": "enem-2023-132",
+      "reason": "alternativas vazias/duplicadas"
+    },
+    {
+      "id": "enem-2023-44",
+      "reason": "formato de imagem não suportado"
+    },
+    {
+      "id": "enem-2023-5-ingles",
+      "reason": "formato de imagem não suportado"
+    },
+    {
+      "id": "enem-2023-56",
+      "reason": "formato de imagem não suportado"
+    },
+    {
+      "id": "enem-2023-65",
+      "reason": "formato de imagem não suportado"
+    }
+  ],
+  "counts": {
+    "2022-ciencias-humanas.json": 45,
+    "2022-ciencias-natureza.json": 45,
+    "2022-linguagens.json": 50,
+    "2022-matematica.json": 41,
+    "2023-ciencias-humanas.json": 25,
+    "2023-ciencias-natureza.json": 24,
+    "2023-linguagens.json": 28,
+    "2023-matematica.json": 26
+  }
+}

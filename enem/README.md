@@ -139,3 +139,9 @@ Durante a sessão, selecionar uma alternativa salva um rascunho em `activeExam.d
 O mapa distingue respostas confirmadas, seleções pendentes e questões sem resposta. Revisar e finalizar apresenta as pendências e permite voltar à primeira delas. A finalização exige confirmação explícita; somente as respostas confirmadas entram na pontuação. Quando o tempo termina, vale a mesma regra. Sessões antigas, cujas escolhas eram salvas diretamente em `answers`, mantêm suas respostas como confirmadas.
 
 Capitu e Guapa oferecem orientação sobre o fluxo e o ritmo, sem dicas do conteúdo ou sinalização de acerto durante a prova. A correção e o filtro Para revisar aparecem após finalizar. Cada sessão continua mostrando acertos, sem estimativa de nota TRI.
+
+## Banco local ampliado de questões
+
+O banco contém 356 questões reais do ENEM 2022/2023 (355 elegíveis; uma anulada preservada no histórico) e 20 autorais. As 284 novas questões são carregadas por demanda, por ano e área, sem API durante o estudo. Consulte [fontes e manutenção](QUESTION-SOURCES.md) e [validação da entrega](QUESTION-BANK-VALIDATION.md).
+
+Antes de publicar: `npm run validate:questions && npm test && npm run build:pages`. Publique todo `dist/`, incluindo `questions/` e `enem-assets/`.
