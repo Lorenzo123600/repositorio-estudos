@@ -10,3 +10,35 @@
 
 .account-dialog{border:1px solid var(--line,#ddd);border-radius:18px;padding:28px;width:min(560px,92vw);max-height:90vh;color:#253e35;background:#fff}.account-dialog::backdrop{background:#172d2580}.account-dialog form{display:grid;gap:16px;margin:20px 0}.account-dialog label{display:grid;gap:6px}.account-dialog input{width:100%;padding:12px;border:1px solid #bdc9bf;border-radius:8px;font:inherit}.account-dialog details{margin:20px 0;padding:12px;background:#f4f6ef;border-radius:8px}.account-actions{display:flex;gap:12px}.question-context{font-size:16px;line-height:1.8;white-space:normal;margin:22px 0}.question-context img,.option img{max-width:100%;max-height:480px;object-fit:contain;display:block;margin:14px auto}.difficulty-note{font-size:13px;color:#596a60}.question-filters{display:flex;gap:16px;flex-wrap:wrap;margin:18px 0}.question-filters label{display:grid;gap:6px}.question-filters select{padding:10px;border:1px solid #bdc9bf;border-radius:8px;background:white}.question-source{font-size:13px;margin:14px 0}.empty-state{padding:24px}.option .answer-content{display:block;flex:1;white-space:normal}.question-context p{margin:10px 0}
 .recovery-code code{display:block;overflow-wrap:anywhere;user-select:all;font-size:15px;margin:12px 0}
+
+
+/* Account access: scoped to the dialog to preserve the study interface. */
+.account-dialog{width:min(540px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:32px;border:1px solid #dce5db;border-radius:24px;background:linear-gradient(145deg,#f0f5e9 0,#fff 190px);box-shadow:0 24px 80px #142f3433;overflow-y:auto;overscroll-behavior:contain}
+.account-dialog::backdrop{background:#112a256e;backdrop-filter:blur(5px)}
+.account-dialog .account-heading{align-items:flex-start;gap:16px;margin:0}
+.account-heading>div{min-width:0}
+.account-eyebrow{display:block;margin-bottom:14px;color:#42644e;font-size:10px;font-weight:700;letter-spacing:1.6px;line-height:1.6}
+.account-dialog h2{margin:0;max-width:360px;font-size:28px;line-height:1.2;letter-spacing:-.8px;color:#203e31}
+.account-dialog #account-close{display:grid;place-items:center;flex-shrink:0;width:40px;height:40px;margin:-8px -8px 0 0;padding:0;border:1px solid #d9e3d5;border-radius:50%;background:#ffffffb3;color:#315741;font-size:17px}
+.account-dialog .muted{color:#56675d;font-size:13px;line-height:1.7}
+.account-dialog .account-intro{margin:16px 0 20px;overflow-wrap:anywhere}
+.account-dialog #account-status{margin:0 0 24px;padding:12px 14px;border:1px solid #d8e4d1;border-radius:10px;background:#f0f5e9;color:#38533f;font-size:12px;line-height:1.6;overflow-wrap:anywhere}
+.account-dialog form{gap:18px;margin:24px 0}
+.account-dialog label{position:relative;gap:8px;color:#2c4737;font-size:13px;font-weight:600;line-height:1.5}
+.account-field-hint{display:block;color:#637367;font-size:11px;font-weight:400;margin-top:-5px}
+.account-dialog input{min-width:0;min-height:48px;padding:12px 14px;border:1px solid #bdccbe;border-radius:10px;background:#fff;color:#243e30;font-size:16px;font-weight:400;box-shadow:0 2px 3px #213e3003}
+.account-dialog input:hover{border-color:#829b83}
+.account-dialog input:focus-visible{outline:3px solid #b7d3a2;outline-offset:2px;border-color:#426a47}
+.account-dialog .account-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:6px}
+.account-dialog .primary,.account-dialog .secondary{min-height:48px;padding:12px 18px;border-radius:10px;font-size:14px;font-weight:600;line-height:1.4}
+.account-dialog .primary{background:#215e43;color:#fff;border:1px solid #215e43}
+.account-dialog .secondary{background:#fff;color:#215e43;border:1px solid #94ab92}
+.account-dialog details{margin:20px 0;padding:0;border:1px solid #dfe6db;border-radius:12px;background:#fafbf8}
+.account-dialog summary{padding:16px;cursor:pointer;color:#36573f;font-size:13px;font-weight:600;line-height:1.6}
+.account-dialog details>form,.account-dialog details>p,.account-dialog details>button{margin:0 16px 16px}
+.account-dialog details>p{font-size:13px;line-height:1.7}
+.account-dialog details[open]>summary{margin-bottom:8px}
+.account-dialog #account-download{min-height:44px;text-align:left;font-size:12px;line-height:1.5;text-decoration:underline;text-underline-offset:4px}
+.account-dialog #account-logout{min-height:44px}
+.account-dialog button:disabled{opacity:.6}
+@media(max-width:480px){.account-dialog{padding:24px 20px;border-radius:20px}.account-dialog h2{font-size:25px}.account-eyebrow{font-size:9px;letter-spacing:1.2px}.account-dialog .account-actions{grid-template-columns:1fr}.account-dialog .account-intro{font-size:13px}.account-dialog #account-close{margin-right:-4px}}
