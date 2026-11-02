@@ -1,0 +1,58 @@
+[
+  {
+    "year": 2022,
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1\u00aa aplica\u00e7\u00e3o",
+    "officialUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D1_CD1.pdf",
+    "mirrorUrl": "https://s2.static.brasilescola.uol.com.br/enem/2022/11/1-dia-gabarito-caderno-1-azul-enem-2022.pdf",
+    "pdf": "references/official-keys/2022-d1.pdf",
+    "text": "references/official-keys/2022-d1.txt",
+    "pdfSha256": "023dda43b3b4e7b275d7155d9d856451dc14d607f891601c65f9a0fcc3c8ed7e",
+    "textSha256": "fa759665e43ce7673ace62e14bb28561c80260eaed889936e0bd074d146a5acd",
+    "retrieved": "2026-11-02",
+    "primaryDownloadStatus": 503
+  },
+  {
+    "year": 2022,
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1\u00aa aplica\u00e7\u00e3o",
+    "officialUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "mirrorUrl": "https://s3.static.brasilescola.uol.com.br/enem/2022/11/2-dia-enem-2022-gabarito-azul.pdf",
+    "pdf": "references/official-keys/2022-d2.pdf",
+    "text": "references/official-keys/2022-d2.txt",
+    "pdfSha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+    "textSha256": "7d8fccb939d60ef225f58e21ff70c0ea8b303b737fbdff66bba5b9b3af077ab6",
+    "retrieved": "2026-11-02",
+    "primaryDownloadStatus": 503
+  },
+  {
+    "year": 2023,
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1\u00aa aplica\u00e7\u00e3o",
+    "officialUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
+    "mirrorUrl": "https://s2.static.brasilescola.uol.com.br/enem/2023/11/gabarito-1-dia-azul-enem-2023.pdf",
+    "pdf": "references/official-keys/2023-d1.pdf",
+    "text": "references/official-keys/2023-d1.txt",
+    "pdfSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+    "textSha256": "837926f894de79ca3d14801c1889aed3c3123eb5f7279ca0e6dc6a3deb20b965",
+    "retrieved": "2026-11-02",
+    "primaryDownloadStatus": 503
+  },
+  {
+    "year": 2023,
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1\u00aa aplica\u00e7\u00e3o",
+    "officialUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
+    "mirrorUrl": "https://s5.static.brasilescola.uol.com.br/enem/2023/11/gabarito-2-dia-azul-enem-2023.pdf",
+    "pdf": "references/official-keys/2023-d2.pdf",
+    "text": "references/official-keys/2023-d2.txt",
+    "pdfSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+    "textSha256": "5cbd75825c3ce7215635348f68b53bb74193572000d6b27520f5d52906a3e420",
+    "retrieved": "2026-11-02",
+    "primaryDownloadStatus": 503
+  }
+]

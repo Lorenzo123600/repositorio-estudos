@@ -1,0 +1,54 @@
+[
+  {
+    "year": 2022,
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1\u00aa aplica\u00e7\u00e3o",
+    "mirrorUrl": "https://s1.static.brasilescola.uol.com.br/enem/2022/11/1-dia-caderno-1-azul-enem-2022.pdf",
+    "officialUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D1_CD1.pdf",
+    "text": "references/official-booklets/2022-p1.txt",
+    "pdfSha256": "4aafd3567873578507f2bd47970c71d701c3db776654188b7d597e7284303adc",
+    "textSha256": "766149b029636d93be0808037b794ae92dec582a177b5e6755fdd670ca7a0f44",
+    "retrieved": "2026-11-02",
+    "extraction": "PyMuPDF page.get_text(), ordem de leitura dos blocos"
+  },
+  {
+    "year": 2022,
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1\u00aa aplica\u00e7\u00e3o",
+    "mirrorUrl": "https://s5.static.brasilescola.uol.com.br/enem/2022/11/2-dia-enem-2022-prova-azul.pdf",
+    "officialUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "text": "references/official-booklets/2022-p2.txt",
+    "pdfSha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+    "textSha256": "96eaedc6117fb43d84855b629a8943cd7ce3043f6365db2c915d5ce66b744297",
+    "retrieved": "2026-11-02",
+    "extraction": "PyMuPDF page.get_text(), ordem de leitura dos blocos"
+  },
+  {
+    "year": 2023,
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1\u00aa aplica\u00e7\u00e3o",
+    "mirrorUrl": "https://s5.static.brasilescola.uol.com.br/enem/2023/11/caderno-1-dia-azul-enem-2023.pdf",
+    "officialUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
+    "text": "references/official-booklets/2023-p1.txt",
+    "pdfSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+    "textSha256": "680ea786dccdf8c5698d6008bcc1ffbe7c0d05933da61c2191c3bb33e417bb8b",
+    "retrieved": "2026-11-02",
+    "extraction": "PyMuPDF page.get_text(), ordem de leitura dos blocos"
+  },
+  {
+    "year": 2023,
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1\u00aa aplica\u00e7\u00e3o",
+    "mirrorUrl": "https://s5.static.brasilescola.uol.com.br/enem/2023/11/caderno-2-dia-azul-enem-2023.pdf",
+    "officialUrl": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
+    "text": "references/official-booklets/2023-p2.txt",
+    "pdfSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+    "textSha256": "ef6be0f095abbdbd6b9884f59f389e37870ac19598f00b0c4cb789f9ad5a9cab",
+    "retrieved": "2026-11-02",
+    "extraction": "PyMuPDF page.get_text(), ordem de leitura dos blocos"
+  }
+]

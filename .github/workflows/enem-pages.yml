@@ -40,6 +40,9 @@ jobs:
           test -n "$VITE_SUPABASE_PUBLISHABLE_KEY" || { echo 'Adicione VITE_SUPABASE_PUBLISHABLE_KEY em Settings > Secrets and variables > Actions > Variables.'; exit 1; }
       - run: npm ci
         working-directory: enem
+      - name: Validar banco local e gabaritos
+        run: npm run validate:questions
+        working-directory: enem
       - run: npm test
         working-directory: enem
       - name: Compilar site com Supabase
