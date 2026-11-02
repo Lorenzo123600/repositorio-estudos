@@ -134,6 +134,7 @@ Para reproduzir com as fontes já arquivadas:
 
 ```sh
 cd enem
+# Instale também Poppler (pdftotext); em Debian/Ubuntu: sudo apt-get install poppler-utils
 python -m pip install -r scripts/requirements-enem.txt
 # Obtenha o checkout da API ENEM no commit registrado, para referências de origem.
 python scripts/import-official-enem.py --sources references/enem-1000/sources.json --structured-root CAMINHO_DO_CHECKOUT --limit 2000

@@ -16,6 +16,7 @@ def sha(b):return hashlib.sha256(b).hexdigest()
 def normalize(text):return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFKD',text).encode('ascii','ignore').decode().lower())
 def canonical(year,n,language):return f'enem:{year}:regular:blue:{n}:{language or "pt"}'
 def keys_from_pdf(path,day):
+ if not shutil.which('pdftotext'):raise SystemExit('Instale Poppler (poppler-utils), que fornece o comando pdftotext.')
  text=subprocess.check_output(['pdftotext','-layout',str(path),'-'],text=True)
  keys={}
  for line in text.splitlines():
