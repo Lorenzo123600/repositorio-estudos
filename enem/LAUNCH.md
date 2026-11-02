@@ -102,3 +102,13 @@ Não executar simultaneamente suítes de navegador que compartilham `dist/` e re
 A versão 8 publicada de create-mercadopago-order continha o helper, sem o ponto de entrada Deno.serve. Foi preservada uma cópia local do bundle anterior e publicada a entrada completa com o helper como versão 9. A função responde OPTIONS 204 e POST anônimo 401 login_required na origem de preview. O catálogo remoto foi consultado em modo somente leitura: plano ativo BRL 14.90, validade exclusiva 2027-01-01T03:00:00Z.
 
 Cloudflare é detectada automaticamente por CF_PAGES=1: os comandos build e build:pages produzem a edição comercial protegida, sem depender de mudar o comando do painel. O comando build:sales também continua disponível. Na Cloudflare, os chunks precisam permanecer externos; o empacotador Pages agora preserva esses arquivos nesse ambiente.
+
+## Webhook e reconciliação do teste pago
+
+A aplicação do vendedor de teste é 8518590645341952, diferente da aplicação da conta principal 2146208983000223. O webhook deve usar a assinatura da aplicação que criou a order. O webhook recebeu uma notificação automática válida (HTTP 200), confirmando o cancelamento do pedido de teste antigo; as simulações do painel foram recusadas por assinatura. Não foi desabilitada a validação HMAC.
+
+A migration 202611020005_enem_webhook_receipts.sql e a função mercadopago-webhook v11 registram somente status, etapa e presença de campos; sem corpo, assinatura, tokens ou dados pessoais. Testes SQL, os 18 testes de pagamentos e deno check passaram após a instrumentação.
+
+O pedido pago foi reconciliado por tarefa administrativa temporária restrita ao ID exato e ao ambiente test. A tarefa consultou GET /v1/orders com as credenciais privadas do runtime, reutilizou verifiedOrder para conferir vendedor, aplicação, moeda, valor, referência e provenance e chamou a RPC privada existente. O provedor retornou processed/accredited; o banco persistiu approved, environment=test, e acesso test ativo até o limite exclusivo 2027-01-01T03:00:00Z. A tarefa e sua chave efêmera foram removidas após execução. Nenhuma aprovação foi simulada no banco.
+
+Ainda falta provar a aprovação automática de uma NOVA compra de teste criada após a configuração correta do webhook. O caso reconciliado não comprova essa etapa. A edição paga exige acesso production; acesso test não deve desbloqueá-la. Não ativar cobranças reais antes dessa validação.

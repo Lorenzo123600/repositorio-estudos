@@ -38,23 +38,32 @@ export function verifiedOrder(order,{id,environment,sellerId,applicationId,payme
 export function webhookHandler({secret,accessToken,environment='test',sellerId,applicationId,otherSellerId,productionEnabled=false,lookup,apply,fetcher=fetch,logger=(_entry)=>{}}){
  return async request=>{
   const reply=status=>new Response(JSON.stringify({ok:status===200}),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
+  let stage='method';
   try{
    if(request.method!=='POST')throw fail(405);
+   stage='configuration';
    if(!secret||!accessToken||!sellerId||!applicationId||!['test','production'].includes(environment)||sellerId===otherSellerId||(environment==='production'&&(!productionEnabled||!otherSellerId)))throw fail(503);
+   stage='resource';
    const url=new URL(request.url),ids=url.searchParams.getAll('data.id'),types=url.searchParams.getAll('type');
    if(ids.length!==1||types.length>1||types.length&&types[0]!=='order')throw fail(400);
    const id=ids[0];
+   stage='signature';
    if(!await validateSignature({signature:request.headers.get('x-signature'),requestId:request.headers.get('x-request-id'),dataId:id,secret}))throw fail(401);
    // Only the signed URL resource is used. Webhook body/status/live_mode cannot grant access.
    await request.body?.cancel();
+   stage='provider_request';
    let response;try{response=await fetcher(`https://api.mercadopago.com/v1/orders/${encodeURIComponent(id)}`,{headers:{Authorization:`Bearer ${accessToken}`,Accept:'application/json'},redirect:'error',signal:AbortSignal.timeout(12000)});}catch{throw fail(503);}
    if(!response.ok)throw fail(503);
+   stage='provider_response';
    const order=await response.json();
    if(!uuidPattern.test(order.external_reference))throw fail(422);
+   stage='purchase_lookup';
    const payment=await lookup(order.external_reference);
+   stage='order_verification';
    const normalized=verifiedOrder(order,{id,environment,sellerId,applicationId,payment});
+   stage='database_commit';
    await apply({...normalized,p_seller_id:sellerId,p_application_id:applicationId});
    return reply(200);
-  }catch(error){const status=error.status||503;logger({event:'webhook_failed',status});return reply(status);}
+  }catch(error){const status=error.status||503;logger({event:'webhook_failed',status,stage});return reply(status);}
  };
 }
