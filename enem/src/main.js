@@ -3,7 +3,7 @@ import {createPaidAccess} from './paid-access.js';
 import {renderDemo} from './demo.js';
 import {waitForQuestions,catalogFilters} from './question-loader.js';
 import {matchesQuestion} from './activities.js';
-import {createStudyPlan,setPlanDuration,setPlanDayComplete,canCompletePlanDay,planSummary,startNextStudyPlan} from './study-plan.js';
+import {createStudyPlan,setPlanDuration,setPlanDayComplete,refreshPlanProgress,canCompletePlanDay,planSummary,startNextStudyPlan} from './study-plan.js';
 import {planPractice} from './plan-practice.js';
 import {normalizeState} from './state.js';
 import {questionBody,optionBody,optionTranscript,questionSource,difficultyLabels} from './question-view.js';
@@ -96,12 +96,30 @@ function quiz(el){
  if(waitForQuestions(el,[current],render))return;
  if(planPracticeContext)savePlanPractice();
  const q=questions[current],a=state.answers[current];if(pendingAnswer?.id!==current)pendingAnswer=null;
- if(practiceSession){el.insertAdjacentHTML('beforeend',`<div class="session-banner"><span>${planPracticeContext?'Plano · '+planPracticeContext.label:'Treino de questões'} · ${ids.indexOf(current)+1} de ${ids.length}<small>${planPracticeContext?planPracticeContext.note+' Estudar não marca a etapa como concluída.':'Respostas anteriores são preservadas. A seleção do treino dura nesta aba.'}</small></span>${planPracticeContext?'<button id="back-to-plan" class="text-btn">Voltar ao plano</button>':''}<button id="exit-training" class="text-btn">Sair do treino</button></div>`);el.querySelector('#back-to-plan')?.addEventListener('click',()=>{const unit=planPracticeContext?.unitId;navigate('Plano de 14 dias');const button=document.querySelector('[data-plan-practice="'+unit+'"]');button?.scrollIntoView({block:'center'});button?.focus({preventScroll:true})});el.querySelector('#exit-training').onclick=()=>{clearPlanPractice();practiceSession=null;pendingAnswer=null;render()};}
+ if(practiceSession){el.insertAdjacentHTML('beforeend',`<div class="session-banner"><span>${planPracticeContext?'Plano · '+planPracticeContext.label:'Treino de questões'} · ${ids.indexOf(current)+1} de ${ids.length}<small>${planPracticeContext?planPracticeContext.note+' A etapa será concluída automaticamente após responder todas as questões.':'Respostas anteriores são preservadas. A seleção do treino dura nesta aba.'}</small></span>${planPracticeContext?'<button id="back-to-plan" class="text-btn">Voltar ao plano</button>':''}<button id="exit-training" class="text-btn">Sair do treino</button></div>`);el.querySelector('#back-to-plan')?.addEventListener('click',()=>{const unit=planPracticeContext?.unitId;navigate('Plano de 14 dias');const button=document.querySelector('[data-plan-practice="'+unit+'"]');button?.scrollIntoView({block:'center'});button?.focus({preventScroll:true})});el.querySelector('#exit-training').onclick=()=>{clearPlanPractice();practiceSession=null;pendingAnswer=null;render()};}
 
  el.insertAdjacentHTML('beforeend',`<section class="card question"><div class="question-position"><span>Questão ${ids.indexOf(current)+1} de ${ids.length}</span><progress value="${ids.indexOf(current)+1}" max="${ids.length}" aria-label="Posição no treino"></progress></div><div class="section-heading"><span class="badge">${q.area} · ${q.topic}</span><span>${ids.indexOf(current)+1} / ${ids.length}</span></div>${questionSource(q)}${questionBody(q)}<div class="options">${q.options.map((o,i)=>`<button data-answer="${i}" ${a!==undefined?'disabled':''} class="option ${a!==undefined&&i===q.answer?'correct':''} ${a===i&&i!==q.answer?'wrong':''} ${a===undefined&&pendingAnswer?.value===i?'chosen':''}" aria-pressed="${a===undefined?pendingAnswer?.value===i:a===i}"><span>${'ABCDE'[i]}</span>${optionBody(o,optionTranscript(q,i))}</button>`).join('')}</div>${a===undefined?`<div class="confirm-row"><button id="confirm-answer" class="primary" ${pendingAnswer===null?'disabled':''}>Confirmar resposta</button><small>Explicação após responder</small></div>`:''}${a!==undefined?`<div class="feedback" role="status"><b>${a===q.answer?'Muito bem!':'Vamos aprender com essa?'} Resposta: ${'ABCDE'[q.answer]}.</b><p>${q.explanation}</p></div>`:''}<div class="quiz-bottom"><span>${score(state.answers)} acertos em ${Object.keys(state.answers).length} respostas</span><div><button id="previous" class="text-btn">← Anterior</button><button id="retry" class="text-btn">Refazer questão</button><button id="next" class="primary">Próxima →</button></div></div></section>`);
  el.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>{pendingAnswer={id:current,value:+b.dataset.answer};render();document.querySelector(`[data-answer="${pendingAnswer.value}"]`).focus()});
  const confirm=el.querySelector('#confirm-answer');if(confirm)confirm.onclick=()=>{if(!pendingAnswer||pendingAnswer.id!==current)return;state.answers[current]=pendingAnswer.value;pendingAnswer=null;recordActivity(state,'questions',current);save();render();document.querySelector('.feedback').setAttribute('tabindex','-1');document.querySelector('.feedback').focus()};
- el.querySelector('#next').onclick=()=>{if(practiceSession&&ids.indexOf(current)===ids.length-1){const answered=ids.filter(id=>state.answers[id]!==undefined).length,correct=ids.filter(id=>state.answers[id]===questions[id].answer).length;el.innerHTML=heading('MAIS UM PASSO CONCLUÍDO','Seu treino chegou ao fim.',`${answered} de ${ids.length} questões respondidas · ${correct} acertos registrados. Respostas anteriores também entram neste resumo; não é estimativa de nota TRI.`)+'<section class="card"><button class="primary" id="finish-training">Voltar ao início →</button></section>';el.querySelector('#finish-training').onclick=()=>{practiceSession=null;navigate('Painel')};return}pendingAnswer=null;current=ids[(ids.indexOf(current)+1)%ids.length];render()};
+  el.querySelector('#next').onclick=()=>{
+   if(practiceSession&&ids.indexOf(current)===ids.length-1){
+    const answered=ids.filter(id=>state.answers[id]!==undefined).length,correct=ids.filter(id=>state.answers[id]===questions[id].answer).length;
+    const complete=answered===ids.length;
+    const planUnit=planPracticeContext?.unitId;
+    if(complete&&planUnit!==undefined&&!state.planUnitsDone.includes(planUnit)){
+     state.planUnitsDone=[...new Set([...(state.planUnitsDone||[]),planUnit])].sort((a,b)=>a-b);
+     refreshPlanProgress(state);
+     save();
+    }
+    const message=complete?(planUnit!==undefined?'Etapa do plano concluída automaticamente!':'Treino finalizado!'):'Treino incompleto: responda todas as questões para concluir a etapa.';
+    el.innerHTML=heading('MAIS UM PASSO CONCLUÍDO',complete?'Seu treino chegou ao fim.':'Ainda faltam respostas.',`${answered} de ${ids.length} questões respondidas · ${correct} acertos registrados. ${message} O resultado não é estimativa de nota TRI.`)+
+     '<section class="card"><button class="primary" id="finish-training">Voltar ao plano →</button> <button class="text-btn" id="review-training">Revisar questões</button></section>';
+    el.querySelector('#finish-training').onclick=()=>{clearPlanPractice();practiceSession=null;navigate(planUnit!==undefined?'Plano de 14 dias':'Painel')};
+    el.querySelector('#review-training').onclick=()=>{current=ids.find(id=>state.answers[id]===undefined)??ids[0];pendingAnswer=null;render()};
+    return;
+   }
+   pendingAnswer=null;current=ids[(ids.indexOf(current)+1)%ids.length];render();
+  };
  el.querySelector('#previous').onclick=()=>{pendingAnswer=null;current=ids[(ids.indexOf(current)+ids.length-1)%ids.length];render()};
  el.querySelector('#retry').onclick=()=>{delete state.answers[current];pendingAnswer=null;save();render()};
 }
