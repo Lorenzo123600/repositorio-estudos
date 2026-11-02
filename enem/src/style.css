@@ -87,3 +87,20 @@
 @media(max-width:1100px){.plan-celebration-header{flex-direction:column;align-items:stretch}.plan-celebration-mascots{align-self:center}}
 @media(max-width:760px){.plan-finished{border-radius:16px}.plan-celebration-copy h2{font-size:30px}.plan-celebration-stats{gap:8px}.plan-celebration-stat{padding:10px 12px;font-size:12px;flex:1 1 145px}.plan-celebration-action{width:100%}.plan-celebration-mascots{gap:24px;padding-top:25px}.plan-celebration-mascots .capitu{width:108px;height:104px}.plan-celebration-mascots .guapa{width:104px;height:98px}}
 @media(prefers-reduced-motion:reduce){.plan-celebration-action{transition:none}}
+
+/* Pomodoro global, sem interferir no relogio do simulado */
+.focus-hint{min-height:unset}.focus-hint .muted{line-height:1.6}
+#focus-global-root{position:fixed;right:22px;bottom:22px;z-index:150;max-width:calc(100vw - 24px);font-family:inherit}
+.focus-global-mini{background:#176b51;color:#fff;border:0;border-radius:99px;padding:13px 17px;display:flex;align-items:center;gap:13px;box-shadow:0 6px 23px #0e382a40;font-weight:800;font-size:16px;font-variant-numeric:tabular-nums;min-height:50px}
+.focus-global-panel{width:286px;max-width:calc(100vw - 24px);background:#fff;border:1px solid #d9e4db;border-radius:18px;padding:16px;box-shadow:0 10px 35px #0e382a30;color:#153e32}
+.focus-global-header{display:flex;align-items:center;justify-content:space-between;font-size:14px}
+.focus-global-header button{background:#f1f5ef;border:0;border-radius:8px;width:32px;height:32px;font-size:20px;color:#315e48}
+.focus-global-time{text-align:center;font-size:44px;letter-spacing:1px;font-variant-numeric:tabular-nums;margin:12px 0 4px}
+.focus-global-status{text-align:center;font-size:12px;color:#658071;min-height:32px;margin:0 0 12px}
+.focus-global-controls{display:flex;justify-content:center;gap:8px}
+.focus-global-controls button{min-height:40px;padding:10px 15px;border:1px solid #d9e4db;border-radius:10px;background:white;color:#285d44}
+.focus-global-controls .focus-global-primary{flex:1;color:white;background:#176b51;border-color:#176b51;font-weight:700}
+.focus-global-durations{display:flex;justify-content:center;gap:7px;margin-top:12px}
+.focus-global-durations button{font-size:11px;border:1px solid #dce7dd;background:#f8faf7;color:#496b54;padding:7px 11px;border-radius:99px}
+.focus-global-durations button[aria-pressed=true]{background:#e0efdf;color:#1a623c;border-color:#9abc9d;font-weight:700}
+@media(max-width:760px){#focus-global-root{right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px))}.focus-global-panel{width:min(286px,calc(100vw - 24px))}}
