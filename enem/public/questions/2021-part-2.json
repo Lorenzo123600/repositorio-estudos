@@ -42,38 +42,110 @@
       "file": "enem-assets/official/2021/89/statement.webp",
       "source": "references/enem-1000/originals/2021-1-prova.pdf",
       "page": 31,
-      "transcript": null
+      "transcript": "Questão 89\nMovimento de translação da Terra\nEQUINÓCIO\n21 de março\nSOLSTÍCIO\n21 de dezembro\nSOLSTÍCIO\n21 de junho\nEQUINÓCIO\n23 de setembro\nSOL\nDisponível em: www.cdcc.usp.br. Acesso em: 27 jul. 2010 (adaptado).\nConsiderando as informações apresentadas, o prédio do Congresso Nacional, em Brasília, no dia 21 de junho, às  \n12 horas, projetará sua sombra para a direção",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 223,
+        "sourceSha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+        "page": 31,
+        "rect": [
+          23.18670082092285,
+          75.546875,
+          566.0,
+          290.6445007324219
+        ]
+      }
     },
     "alternatives": [
       {
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2021/89/A.webp",
-        "text": null
+        "text": "A   norte.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 7,
+          "sourceSha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            290.6445007324219,
+            566.0,
+            304.9794921875
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2021/89/B.webp",
-        "text": null
+        "text": "B   sul.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 5,
+          "sourceSha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            304.9794921875,
+            566.0,
+            318.8135070800781
+          ]
+        }
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2021/89/C.webp",
-        "text": null
+        "text": "C   leste.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 7,
+          "sourceSha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            318.8135070800781,
+            566.0,
+            332.1485900878906
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2021/89/D.webp",
-        "text": null
+        "text": "D   oeste.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 7,
+          "sourceSha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            332.1485900878906,
+            566.0,
+            346.4836120605469
+          ]
+        }
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2021/89/E.webp",
-        "text": null
+        "text": "E   nordeste.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 10,
+          "sourceSha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            346.4836120605469,
+            566.0,
+            360.5794982910156
+          ]
+        }
       }
     ],
     "officialAnswer": "B",
@@ -280,7 +352,19 @@
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2021/106/D.webp",
-        "text": null
+        "text": "D de posição.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 11,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 7,
+          "rect": [
+            23.18670082092285,
+            435.5227966308594,
+            566.0,
+            449.9418029785156
+          ]
+        }
       },
       {
         "letter": "E",
@@ -475,25 +559,73 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2021/107/A.webp",
-        "text": null
+        "text": "A Como a versão a gasolina consegue a maior aceleração, esta é a que desenvolve a maior potência.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 95,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 7,
+          "rect": [
+            23.186800003051758,
+            629.9161376953125,
+            566.0,
+            644.4501953125
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2021/107/B.webp",
-        "text": null
+        "text": "B Como a versão a gasolina atinge o maior valor de energia cinética, esta é a que desenvolve a maior potência.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 108,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 7,
+          "rect": [
+            23.186800003051758,
+            644.4501953125,
+            566.0,
+            658.9852294921875
+          ]
+        }
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2021/107/C.webp",
-        "text": null
+        "text": "C Como a versão a álcool apresenta a maior taxa de variação de energia cinética, esta é a que desenvolve a maior \npotência.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 120,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 7,
+          "rect": [
+            23.186800003051758,
+            658.9852294921875,
+            566.0,
+            684.7202758789062
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2021/107/D.webp",
-        "text": null
+        "text": "D Como ambas as versões apresentam a mesma variação de velocidade no cálculo da aceleração, a potência \ndesenvolvida é a mesma.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 124,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 7,
+          "rect": [
+            23.186800003051758,
+            684.7202758789062,
+            566.0,
+            711.4542846679688
+          ]
+        }
       },
       {
         "letter": "E",
@@ -1120,7 +1252,19 @@
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2021/118/B.webp",
-        "text": null
+        "text": "B redução da eclosão dos ovos.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 28,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 10,
+          "rect": [
+            23.186800003051758,
+            690.9213256835938,
+            566.0,
+            703.3383178710938
+          ]
+        }
       },
       {
         "letter": "C",
@@ -1771,7 +1915,19 @@
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2021/121/D.webp",
-        "text": null
+        "text": "D Ebola,  cujos  surtos  epidêmicos  concentram-se  no  continente  africano,  reconhecido  como  berço  da  origem \nevolutiva dos seres humanos.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 130,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 12,
+          "rect": [
+            23.18670082092285,
+            214.3543701171875,
+            566.0,
+            236.3543701171875
+          ]
+        }
       },
       {
         "letter": "E",
@@ -1959,7 +2115,19 @@
       "file": "enem-assets/official/2021/122/statement.webp",
       "source": "references/enem-1000/originals/2021-2-prova.pdf",
       "page": 12,
-      "transcript": null
+      "transcript": "Questão 122\nA imagem apresenta as etapas do funcionamento de uma estação individual para tratamento do esgoto residencial.\nComo funciona a estação individual\n1\nCaixa de\ngordura\nRetém os detritos\nda pia e cozinha,\nliberando água\nquase isenta de\ngordura.\n2 Caixa de \npassagem\nRecebe o que vem dos banheiros\ne lavanderia, reunindo todo o esgoto\nresidencial.\n3 Tanque séptico\nAqui o esgoto deve ficar em\nrepouso por um período\nrelativamente maior que\nnas  outras etapas.\n4 Caixa de inspeção\nFacilita a distribuição\ndos efluentes.\n5 Filtro biológico\nAqui colônias de\nbactérias consomem\na matéria orgânica.\n6 Cisternas\nAqui, como etapa\nfinal, o sistema\nserá tratado\ncom cloro.\nTAVARES, K. Estações de tratamento de esgoto individuais permitem a reutilização da água. Disponível em: https://extra.globo.com. Acesso em: 18 nov. 2014 (adaptado).\nEm qual etapa decanta-se o lodo a ser separado do esgoto residencial?",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 179,
+        "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+        "page": 12,
+        "rect": [
+          23.186800003051758,
+          264.2853088378906,
+          566.0,
+          558.3930053710938
+        ]
+      }
     },
     "alternatives": [
       {
@@ -2385,14 +2553,38 @@
       "file": "enem-assets/official/2021/125/statement.webp",
       "source": "references/enem-1000/originals/2021-2-prova.pdf",
       "page": 13,
-      "transcript": null
+      "transcript": "Questão 125\nConsidere a tirinha, na situação em que a temperatura do ambiente é inferior à temperatura corporal dos personagens.\nTÁ QUENTE\nHOJE, NÉ?\nÉ MESMO.\nMAS O QUE ME INCOMODA\nMESMO É A UMIDADE.\nVOCÊ NÃO\nGOSTA DE\nUMIDADE?\nNÃO\nMESMO.\nENTÃO, SALTA\nCORRENDO.\nWATTERSON, B. Disponível em: https://novaescola.org.br. Acesso em: 11 ago. 2014.\nO incômodo mencionado pelo personagem da tirinha deve-se ao fato de que, em dias úmidos,",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 284,
+        "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+        "page": 13,
+        "rect": [
+          23.186800003051758,
+          472.5137939453125,
+          566.0,
+          681.6273193359375
+        ]
+      }
     },
     "alternatives": [
       {
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2021/125/A.webp",
-        "text": null
+        "text": "A a temperatura do vapor-d’água presente no ar é alta.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 52,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 13,
+          "rect": [
+            23.186800003051758,
+            681.6273193359375,
+            566.0,
+            693.6273193359375
+          ]
+        }
       },
       {
         "letter": "B",
@@ -2404,7 +2596,19 @@
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2021/125/C.webp",
-        "text": null
+        "text": "C a taxa de absorção de radiação pelo corpo torna-se maior.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 57,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 13,
+          "rect": [
+            23.186800003051758,
+            705.6273193359375,
+            566.0,
+            717.6273193359375
+          ]
+        }
       },
       {
         "letter": "D",
@@ -2416,7 +2620,19 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2021/125/E.webp",
-        "text": null
+        "text": "E o vapor-d’água presente no ar condensa-se ao entrar em contato com a pele.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 74,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 13,
+          "rect": [
+            23.186800003051758,
+            729.6273193359375,
+            566.0,
+            748.4409790039062
+          ]
+        }
       }
     ],
     "officialAnswer": "B",
@@ -2611,7 +2827,19 @@
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2021/147/B.webp",
-        "text": null
+        "text": "B  D, E, F e G.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 13,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 21,
+          "rect": [
+            23.18670082092285,
+            505.68994140625,
+            566.0,
+            519.6898803710938
+          ]
+        }
       },
       {
         "letter": "C",
@@ -2623,13 +2851,37 @@
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2021/147/D.webp",
-        "text": null
+        "text": "D  R, L, B e X.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 13,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 21,
+          "rect": [
+            23.18670082092285,
+            533.6898803710938,
+            566.0,
+            547.6900024414062
+          ]
+        }
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2021/147/E.webp",
-        "text": null
+        "text": "E   X, B, L e P.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 13,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 21,
+          "rect": [
+            23.18670082092285,
+            547.6900024414062,
+            566.0,
+            562.285888671875
+          ]
+        }
       }
     ],
     "officialAnswer": "C",
@@ -2842,7 +3094,19 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2021/155/E.webp",
-        "text": null
+        "text": "E   70,0",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 5,
+          "sourceSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            295.135498046875,
+            566.0,
+            312.56640625
+          ]
+        }
       }
     ],
     "officialAnswer": "C",

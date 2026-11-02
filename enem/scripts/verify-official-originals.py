@@ -35,6 +35,7 @@ for q in questions:
  assert q['canonicalId'] not in seen,'ID canônico duplicado';seen.add(q['canonicalId'])
  assert keys[f'{q["year"]}-{q["number"]}'+(f'-{q["language"]}' if q.get('language') else '')]=='ABCDE'[q['answer']],q['id']+' gabarito'
  v=q['validation'];g=geometries[v['statementEvidence']][q['number'],q.get('language')]
+ reviewed=imp.segment.reviewed_rectangles(v['statementSha256'],q['number'],q.get('language'),v['header']['page'])
  assert g['page']==v['header']['page'] and g['header']==v['header']['rect'],q['id']+' cabeçalho'
  assert g['labels']==v['labels'],q['id']+' alternativas'
  doc=documents[v['statementEvidence']]
@@ -54,7 +55,10 @@ for q in questions:
   limit=imp.segment.content_bottom(page,a['rect'][0],a['rect'][2],furniture=furniture[page_key])
   assert a['rect'][3]<=limit+.01,q['id']+' recorte contém rodapé/linha da página'
   if a['role']=='E':
-   assert a['rect'][3]<=g['options'][-1][1][3]+.01,q['id']+' alternativa E contém separador da próxima questão'
+   end=reviewed.get('E',g['options'][-1][1])[3]
+   assert a['rect'][3]<=end+.01,q['id']+' alternativa E contém separador da próxima questão'
+  if a['role'] in reviewed:
+   assert a['rect']==reviewed[a['role']],q['id']+' recorte diverge da revisão documentada'
   pix=doc[a['page']-1].get_pixmap(matrix=fitz.Matrix(2,2),clip=fitz.Rect(a['rect']),alpha=False)
   expected=Image.frombytes('RGB',(pix.width,pix.height),pix.samples)
   with Image.open(ROOT/'public'/a['file']) as original:

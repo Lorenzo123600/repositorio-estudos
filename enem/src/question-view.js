@@ -9,7 +9,12 @@ export function questionBody(q){
  const transcript=q.originalStatement.transcript;
  return context+(transcript?`<details class="official-transcript"><summary>Ler versão em texto</summary><p>Consulte o original acima para figuras e fórmulas.</p><div>${richText(transcript)}</div></details>`:'');
 }
-export const optionBody=value=>`<span class="answer-content">${richText(value)}</span>`;
+export const optionTranscript=(q,index)=>q.optionTranscripts?.[index]??q.alternatives?.[index]?.text;
+export function optionBody(value,transcript){
+ const content=richText(value);
+ transcript=typeof transcript==='string'?transcript:null;
+ return `<span class="answer-content">${transcript?content.replace(/ alt="[^"]*"/g,()=>` alt="${escapeHTML('Transcrição linear do PDF: '+transcript)}"`):content}</span>`;
+}
 export function questionSource(q){
  if(q.origin!=='enem')return '<p class="question-source">Questão autoral de revisão</p>';
  const reference=[`ENEM ${q.year}`,q.application,({ingles:'Inglês',espanhol:'Espanhol'})[q.language],q.day?`${q.day}º dia`:null,q.booklet?`Caderno ${q.booklet}`:null,`Questão ${q.number}`].filter(Boolean).map(escapeHTML).join(' · ');

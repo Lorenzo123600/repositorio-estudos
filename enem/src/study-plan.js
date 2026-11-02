@@ -4,7 +4,7 @@ export function validPlanDays(value){return Number.isInteger(value)&&value>=1&&v
 export function createStudyPlan(days=14){
  if(!validPlanDays(days))throw new RangeError('Escolha de 1 a 180 dias inteiros.');
  const units=plan.map((content,id)=>({id,content}));
- if(days>14){const final=units.pop();for(let id=14;id<days;id++){const original=plan[(id-14)%13];units.push({id,content:[`Revisão espaçada: ${original[0]}`,original[1],original[2],`Retome as anotações, tente novas questões e compare com sua tentativa anterior. ${original[3]}`]})}units.push(final)}
+ if(days>14){const final=units.pop();for(let id=14;id<days;id++){const original=plan[(id-14)%13];units.push({id,content:[`Revisão espaçada: ${original[0]}`,original[1],original[2],`Retome as anotações, pratique as questões deste assunto e compare com sua tentativa anterior. ${original[3]}`]})}units.push(final)}
  return Array.from({length:days},(_,i)=>({units:units.slice(Math.floor(i*units.length/days),Math.floor((i+1)*units.length/days))}));
 }
 export function refreshPlanProgress(state){const completed=new Set(state.planUnitsDone||[]);state.done=createStudyPlan(state.planDays).flatMap((d,i)=>d.units.every(u=>completed.has(u.id))?[i]:[])}

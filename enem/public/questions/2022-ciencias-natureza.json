@@ -2792,55 +2792,55 @@
       "assets": [
         {
           "file": "enem-assets/official/2022/106/statement.webp",
-          "sha256": "2336fe6eb01b2fb131c084badaabe1420963abcaef2b52803c5479c10dffef70",
+          "sha256": "fc60928c9f20a956268d482828736b0745c56931a1fef9755240e34414135420",
           "page": 7,
           "rect": [
             285.4645080566406,
             63.834190368652344,
             546.1339111328125,
-            371.274169921875
+            338.5
           ],
           "role": "statement",
           "width": 523,
-          "height": 616
+          "height": 550
         },
         {
           "file": "enem-assets/official/2022/106/A.webp",
-          "sha256": "f8cbe3855bc435f7896655788c179c5b36ed8d3a286a7abae08c6b26d5599ac9",
+          "sha256": "11b876a5d0aef1ecf584f9ed8aa7d95fae69f9eb4775000fca5a5a48405f6e86",
           "page": 7,
           "rect": [
             285.4645080566406,
-            371.274169921875,
+            338.5,
             546.1339111328125,
-            451.364501953125
+            416.0
           ],
           "role": "A",
           "width": 523,
-          "height": 161
+          "height": 155
         },
         {
           "file": "enem-assets/official/2022/106/B.webp",
-          "sha256": "28303ae7ca21efa98fd232d335a78e19f5b505a8f2897faf24fccc07610f8c80",
+          "sha256": "b68479a7162f01687467e55b31aa2e3e0d3bf007d24224972d1ccb3d7f28b396",
           "page": 7,
           "rect": [
             285.4645080566406,
-            451.364501953125,
+            416.0,
             546.1339111328125,
-            531.4521484375
+            496.0
           ],
           "role": "B",
           "width": 523,
-          "height": 161
+          "height": 160
         },
         {
           "file": "enem-assets/official/2022/106/C.webp",
-          "sha256": "ba07a9dcd9e58f9d2c70e91e8c0f875341bde4f865cdf26b5b54da2f0490ffc0",
+          "sha256": "6d1082c3f4e5d92a4d9781078e8ff3ba3111bd78930f1d50c31a8ad6d34766df",
           "page": 7,
           "rect": [
             285.4645080566406,
-            531.4521484375,
+            496.0,
             546.1339111328125,
-            611.2798461914062
+            576.5
           ],
           "role": "C",
           "width": 523,
@@ -2848,31 +2848,31 @@
         },
         {
           "file": "enem-assets/official/2022/106/D.webp",
-          "sha256": "aa66ffb17f697b511d4fd7242c8024021d69ae318225ab96797c327421a010a1",
+          "sha256": "4af87d3bc69b5f308391843b65e48e355cf0d3e18fdaded26f0f7e2fb7c18731",
           "page": 7,
           "rect": [
             285.4645080566406,
-            611.2798461914062,
+            576.5,
             546.1339111328125,
-            686.187255859375
+            654.5
           ],
           "role": "D",
           "width": 523,
-          "height": 151
+          "height": 156
         },
         {
           "file": "enem-assets/official/2022/106/E.webp",
-          "sha256": "dda2f0411a826a1e4eced00325a4c810c15a002ce9f85c542b8cd097c63e6755",
+          "sha256": "827ff3f0beddf71b291bd6ba566733a01da97b3cd19d87abf0f284530e7466da",
           "page": 7,
           "rect": [
             285.4645080566406,
-            686.187255859375,
+            654.5,
             546.1339111328125,
-            741.0103149414062
+            730.0
           ],
           "role": "E",
           "width": 523,
-          "height": 111
+          "height": 151
         }
       ]
     },
@@ -2881,38 +2881,38 @@
       "file": "enem-assets/official/2022/106/statement.webp",
       "source": "references/enem-1000/originals/2022-2-prova.pdf",
       "page": 7,
-      "transcript": "QUESTÃO 106\t\nA penicilamina é um medicamento de uso oral \nutilizado no tratamento de várias doenças. Esse \ncomposto é excretado na urina, cujo pH se situa entre \n5 e 7. A penicilamina, cuja fórmula estrutural plana está \napresentada, possui três grupos funcionais que podem \nser ionizados:\n•\t carboxila: —COOH, cujo pKa é igual a 1,8;\n•\t amino: —NH2, que pode ser convertido em \namínio (—NH3\n+, cujo pKa é igual a 7,9);\n•\t tiol: —SH, cujo pKa é igual a 10,5.\nSabe-se que pKa = −log Ka.\nS\nH\nC\nC\nCH3\nCH3\nNH2\nH\nCOOH\nPenicilamina\nQual \nestrutura \nderivada \nda \npenicilamina \né \npredominantemente encontrada na urina?\nCH3 H"
+      "transcript": "QUESTÃO 106\t\nA penicilamina é um medicamento de uso oral \nutilizado no tratamento de várias doenças. Esse \ncomposto é excretado na urina, cujo pH se situa entre \n5 e 7. A penicilamina, cuja fórmula estrutural plana está \napresentada, possui três grupos funcionais que podem \nser ionizados:\n•\t carboxila: —COOH, cujo pKa é igual a 1,8;\n•\t amino: —NH2, que pode ser convertido em \namínio (—NH3\n+, cujo pKa é igual a 7,9);\n•\t tiol: —SH, cujo pKa é igual a 10,5.\nSabe-se que pKa = −log Ka.\nS\nH\nC\nC\nCH3\nCH3\nNH2\nH\nCOOH\nPenicilamina\nQual \nestrutura \nderivada \nda \npenicilamina \né \npredominantemente encontrada na urina?"
     },
     "alternatives": [
       {
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2022/106/A.webp",
-        "text": "A\nC\nC\nCH3 NH2\n−S\nCOO\n−\nCH3 H"
+        "text": "A\nC\nC\nCH3\nCH3\nNH2\nH\n−S\nCOO\n−"
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2022/106/B.webp",
-        "text": "B\nC\nC\nCH3 NH2\n−S\nCOOH\nCH3 H"
+        "text": "B\nC\nC\nCH3\nCH3\nNH2\nH\n−S\nCOOH"
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2022/106/C.webp",
-        "text": "C\nS\nH\nC\nC\nCH3 NH3\n+\nCOO\n−\nCH3 H"
+        "text": "C\nS\nH\nC\nC\nCH3\nCH3 H\nNH3\n+\nCOO\n−"
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2022/106/D.webp",
-        "text": "D\nC\nC\nCH3\n−S\nCOOH\nNH3\n+\nCH3 H"
+        "text": "D\nC\nC\nCH3\nCH3 H\n−S\nCOOH\nNH3\n+"
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/106/E.webp",
-        "text": "E\nS\nH\nC\nC\nCH3 NH3\n+\nCOOH"
+        "text": "E\nS\nH\nC\nC\nCH3\nCH3 H\nNH3\n+\nCOOH"
       }
     ],
     "officialAnswer": "C",

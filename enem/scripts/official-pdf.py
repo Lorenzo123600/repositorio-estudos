@@ -1,6 +1,18 @@
 """Conservative segmentation: only a full statement and A–E in one column are eligible."""
 import fitz,re,json,collections
 from pathlib import Path
+from functools import lru_cache
+
+@lru_cache(maxsize=1)
+def reviewed_boundaries():
+ path=Path(__file__).resolve().parents[1]/'references/enem-1000/reviewed-crop-boundaries.json'
+ return json.loads(path.read_text())['corrections'] if path.exists() else []
+
+def reviewed_rectangles(source_sha256,number,language,page):
+ matches=[r for r in reviewed_boundaries() if r['sourceSha256']==source_sha256 and r['number']==number and r.get('language')==language]
+ if not matches:return {}
+ if len(matches)!=1 or matches[0]['page']!=page:raise ValueError('evidência de recorte revisado ambígua')
+ return matches[0]['rectangles']
 
 def horizontal_rules(page):
  """Read individual strokes: a path can also contain unrelated page borders."""

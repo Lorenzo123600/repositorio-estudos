@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {commercialQuestion} from '../scripts/commercial-question.mjs';
-import {questionBody,questionSource,optionBody} from '../src/question-view.js';
+import {questionBody,questionSource,optionBody,optionTranscript} from '../src/question-view.js';
 import {gunzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
 const read=path=>JSON.parse(readFileSync(new URL(path,import.meta.url),'utf8'));
@@ -14,6 +14,7 @@ test('compact commercial content preserves every original, transcript, option an
   assert.equal(questionBody(compact),questionBody(original),original.id);
   assert.equal(questionSource(compact),questionSource(original),original.id);
   assert.deepEqual(compact.options.map(optionBody),original.options.map(optionBody),original.id);
+  assert.deepEqual(compact.options.map((value,i)=>optionBody(value,optionTranscript(compact,i))),original.options.map((value,i)=>optionBody(value,optionTranscript(original,i))),original.id+' accessible alternatives');
   assert.equal(compact.answer,original.answer,original.id);
   assert.equal(compact.id,original.id);
  }

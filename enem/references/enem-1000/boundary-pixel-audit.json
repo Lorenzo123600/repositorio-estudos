@@ -1,0 +1,88 @@
+{
+  "scope": 1070,
+  "candidateCrops": 16,
+  "cropsWithVisibleGlyphCrossing": 0,
+  "results": [
+    {
+      "id": "enem-2023-135",
+      "role": "statement",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2022-64",
+      "role": "A",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2022-64",
+      "role": "B",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2022-64",
+      "role": "C",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-6",
+      "role": "statement",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-105",
+      "role": "E",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-124",
+      "role": "E",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-125",
+      "role": "statement",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-136",
+      "role": "statement",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-94",
+      "role": "statement",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-94",
+      "role": "A",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-94",
+      "role": "B",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-94",
+      "role": "C",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-94",
+      "role": "D",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-130",
+      "role": "E",
+      "visibleGlyphs": []
+    },
+    {
+      "id": "enem-2020-131",
+      "role": "statement",
+      "visibleGlyphs": []
+    }
+  ],
+  "limitation": "Ink crossing confirms pixels at the boundary; object ownership and significance require visual inspection. Outlined chemical structures can lack glyph ink warnings."
+}

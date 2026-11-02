@@ -23,7 +23,7 @@
     },
     {
       "file": "questions/2022-ciencias-natureza.json",
-      "sha256": "811043ffb632b864eec6ce626a47a1557a59438510bf9074a4d098deccc610b4",
+      "sha256": "154fccc569df46ce1a3254a9659c9831958c933644d047be664f796411e1b1f1",
       "count": 45,
       "years": [
         2022
@@ -79,7 +79,7 @@
     },
     {
       "file": "questions/2017.json",
-      "sha256": "2a23d9e49ebaa823095da15b3089e31100e053d1261523828160323e8731ec6c",
+      "sha256": "52e051e06649a6bac7826b89b8f73cf0ba89bcfce137e815e2a75056560be277",
       "count": 138,
       "years": [
         2017
@@ -103,7 +103,7 @@
     },
     {
       "file": "questions/2020.json",
-      "sha256": "e8d572bb1e7cc460bb5a173c85e0979abadfbb19486aa755725bf121c01bfe61",
+      "sha256": "24cba865fa9bf3d711263b8d4429a3666d4e8a84c1847ff8f88d9c780c2b5f2b",
       "count": 139,
       "years": [
         2020
@@ -111,7 +111,7 @@
     },
     {
       "file": "questions/2021.json",
-      "sha256": "ef22d28457f7340b385d00ea5c8d9294d2baa7e0df015ccce6feeef10f7606d2",
+      "sha256": "54b716804336df72a656e56feb18969db5acf0e179f3f83e7d8591ac210a7660",
       "count": 135,
       "years": [
         2021
@@ -143,7 +143,7 @@
     },
     {
       "file": "questions/2017-part-2.json",
-      "sha256": "d561a5e68f1c982a8151c23a47d6499498e436a71d57a11dfb4be8addbad5038",
+      "sha256": "9a2ec532c14cd4d436c670c3fe4183adc42e49d6b9ea014322b6d292a6821fc4",
       "count": 13,
       "years": [
         2017
@@ -167,7 +167,7 @@
     },
     {
       "file": "questions/2020-part-2.json",
-      "sha256": "c25fc0cbb187952517de4530e6719dc02b42f3f620ad9f83e5532a1356522c4b",
+      "sha256": "0b561928dbe8c7ad620ed079ae77aef63b6f293c52f7a31ced32c507d740c2d2",
       "count": 13,
       "years": [
         2020
@@ -175,7 +175,7 @@
     },
     {
       "file": "questions/2021-part-2.json",
-      "sha256": "3b39986aea2cd5fa753cf0be7c41e106f6326b7e15f5ad23315bb1692ce1084b",
+      "sha256": "ab0671d2a62f69df9ac8fc4d9a9637e1313d2c4966e7235131729d536a608732",
       "count": 15,
       "years": [
         2021

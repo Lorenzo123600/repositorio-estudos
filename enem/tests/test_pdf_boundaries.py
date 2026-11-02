@@ -2,6 +2,7 @@
 import importlib.util
 from pathlib import Path
 import unittest
+import json
 import fitz
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,6 +12,27 @@ spec.loader.exec_module(segment)
 
 
 class Boundaries(unittest.TestCase):
+    def test_reviewed_formula_and_glyph_corrections_are_present(self):
+        catalog=json.loads((ROOT/'src/question-catalog.json').read_text())
+        questions=json.loads((ROOT/'src/official-questions.json').read_text())
+        for chunk in catalog['chunks']:questions.extend(json.loads((ROOT/'public'/chunk['file']).read_text()))
+        by_id={q['id']:q for q in questions}
+        corrections=json.loads((ROOT/'references/enem-1000/reviewed-crop-boundaries.json').read_text())['corrections']
+        self.assertEqual(len(corrections),18)
+        for correction in corrections:
+            q=by_id[correction['id']]
+            self.assertEqual(q['validation']['statementSha256'],correction['sourceSha256'])
+            for role,rect in correction['rectangles'].items():
+                asset=next(a for a in q['validation']['assets'] if a['role']==role)
+                self.assertEqual(asset['rect'],rect,(q['id'],role))
+        fraction=by_id['enem-2020-137']
+        self.assertIn('42',fraction['alternatives'][4]['text'])
+        self.assertIn('16',fraction['alternatives'][4]['text'])
+        self.assertEqual(fraction['answer'],0)
+        molecule=by_id['enem-2022-106']
+        self.assertEqual(molecule['answer'],2)
+        self.assertLess(molecule['validation']['assets'][1]['rect'][1],molecule['validation']['labels'][0]['y']-20)
+
     def test_footer_in_other_column_and_below_old_filter(self):
         doc = fitz.open()
         page = doc.new_page(width=600, height=800)

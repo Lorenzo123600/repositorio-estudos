@@ -129,6 +129,9 @@ def main():
    bounds=[whitespace_boundary(page,label['y'],left,right) for label in geometry['labels']]
    stem_rect=[left,geometry['stem'][0][1][1],right,bounds[0]]
    option_rects=[[left,bounds[i],right,bounds[i+1] if i<4 else geometry['options'][4][1][3]] for i in range(5)]
+   reviewed=segment.reviewed_rectangles(record['sha256'],n,language,pi+1)
+   stem_rect=reviewed.get('statement',stem_rect)
+   option_rects=[reviewed.get(a,rect) for a,rect in zip('ABCDE',option_rects)]
    # Reject clipping that intersects text from outside the question column.
    for b in page.get_text('dict')['blocks']:
     for line in b.get('lines',[]):

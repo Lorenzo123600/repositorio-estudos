@@ -1,0 +1,348 @@
+{
+  "version": 1,
+  "method": "visual review against archived original; corrected boundaries fall in verified whitespace",
+  "corrections": [
+    {
+      "id": "enem-2020-137",
+      "number": 137,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "sourceSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "page": 16,
+      "rectangles": {
+        "D": [
+          285.4645080566406,
+          517.2623901367188,
+          546.1339111328125,
+          546.5
+        ],
+        "E": [
+          285.4645080566406,
+          546.5,
+          546.1339111328125,
+          592.3831787109375
+        ]
+      },
+      "reason": "Numerador 42 da fração 42/16 da alternativa E está no recorte D; E mostra apenas barra e denominador 16."
+    },
+    {
+      "id": "enem-2022-106",
+      "number": 106,
+      "language": null,
+      "source": "references/enem-1000/originals/2022-2-prova.pdf",
+      "sourceSha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "page": 7,
+      "rectangles": {
+        "statement": [
+          285.4645080566406,
+          63.834190368652344,
+          546.1339111328125,
+          338.5
+        ],
+        "A": [
+          285.4645080566406,
+          338.5,
+          546.1339111328125,
+          416.0
+        ],
+        "B": [
+          285.4645080566406,
+          416.0,
+          546.1339111328125,
+          496.0
+        ],
+        "C": [
+          285.4645080566406,
+          496.0,
+          546.1339111328125,
+          576.5
+        ],
+        "D": [
+          285.4645080566406,
+          576.5,
+          546.1339111328125,
+          654.5
+        ],
+        "E": [
+          285.4645080566406,
+          654.5,
+          546.1339111328125,
+          730.0
+        ]
+      },
+      "reason": "Partes superiores das cinco estruturas químicas estão atribuídas ao enunciado/alternativa anterior."
+    },
+    {
+      "id": "enem-2020-107",
+      "number": 107,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "sourceSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "page": 7,
+      "rectangles": {
+        "statement": [
+          285.4645080566406,
+          209.0,
+          546.1339111328125,
+          672.844482421875
+        ]
+      },
+      "reason": "Resíduo de glifo da questão anterior no topo do enunciado."
+    },
+    {
+      "id": "enem-2020-114",
+      "number": 114,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "sourceSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "page": 9,
+      "rectangles": {
+        "E": [
+          285.4645080566406,
+          329.780029296875,
+          546.1339111328125,
+          340.5
+        ]
+      },
+      "reason": "Parte inferior de letras/marcador atravessa o limite inferior do recorte."
+    },
+    {
+      "id": "enem-2020-115",
+      "number": 115,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "sourceSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "page": 9,
+      "rectangles": {
+        "statement": [
+          285.4645080566406,
+          340.5,
+          546.1339111328125,
+          502.1533203125
+        ]
+      },
+      "reason": "Resíduo de glifo da questão anterior no topo do enunciado."
+    },
+    {
+      "id": "enem-2020-12",
+      "number": 12,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "sourceSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "page": 8,
+      "rectangles": {
+        "E": [
+          23.181100845336914,
+          519.249267578125,
+          282.4645080566406,
+          542.5
+        ]
+      },
+      "reason": "Parte inferior de letras/marcador atravessa o limite inferior do recorte."
+    },
+    {
+      "id": "enem-2020-129",
+      "number": 129,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "sourceSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "page": 13,
+      "rectangles": {
+        "statement": [
+          285.4645080566406,
+          187.0,
+          546.1339111328125,
+          569.9285888671875
+        ]
+      },
+      "reason": "Resíduo de glifo da questão anterior no topo do enunciado."
+    },
+    {
+      "id": "enem-2020-130",
+      "number": 130,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "sourceSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "page": 14,
+      "rectangles": {
+        "E": [
+          23.181100845336914,
+          554.64892578125,
+          565.9290161132812,
+          565.0
+        ]
+      },
+      "reason": "Parte inferior de letras/marcador atravessa o limite inferior do recorte."
+    },
+    {
+      "id": "enem-2020-131",
+      "number": 131,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "sourceSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "page": 14,
+      "rectangles": {
+        "statement": [
+          23.181100845336914,
+          565.0,
+          565.9290161132812,
+          657.65283203125
+        ]
+      },
+      "reason": "Resíduo de glifo da questão anterior no topo do enunciado."
+    },
+    {
+      "id": "enem-2020-14",
+      "number": 14,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "sourceSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "page": 8,
+      "rectangles": {
+        "statement": [
+          285.4645080566406,
+          210.0,
+          546.1339111328125,
+          616.9343872070312
+        ]
+      },
+      "reason": "Resíduo de glifo da questão anterior no topo do enunciado."
+    },
+    {
+      "id": "enem-2020-161",
+      "number": 161,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "sourceSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "page": 24,
+      "rectangles": {
+        "E": [
+          23.181100845336914,
+          227.29811096191406,
+          282.4645080566406,
+          238.5
+        ]
+      },
+      "reason": "Parte inferior de letras/marcador atravessa o limite inferior do recorte."
+    },
+    {
+      "id": "enem-2020-162",
+      "number": 162,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "sourceSha256": "e074c958573b3d87c30c8d078d7be69a778a7bf3e89bde55b41bdb354e898eb6",
+      "page": 24,
+      "rectangles": {
+        "statement": [
+          23.181100845336914,
+          238.5,
+          282.4645080566406,
+          672.3416137695312
+        ]
+      },
+      "reason": "Resíduo de glifo da questão anterior no topo do enunciado."
+    },
+    {
+      "id": "enem-2020-25",
+      "number": 25,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "sourceSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "page": 12,
+      "rectangles": {
+        "E": [
+          285.4645080566406,
+          379.56573486328125,
+          546.1339111328125,
+          401.5
+        ]
+      },
+      "reason": "Parte inferior de letras/marcador atravessa o limite inferior do recorte."
+    },
+    {
+      "id": "enem-2020-26",
+      "number": 26,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "sourceSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "page": 12,
+      "rectangles": {
+        "statement": [
+          285.4645080566406,
+          401.5,
+          546.1339111328125,
+          561.0830078125
+        ]
+      },
+      "reason": "Resíduo de glifo da questão anterior no topo do enunciado."
+    },
+    {
+      "id": "enem-2020-48",
+      "number": 48,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "sourceSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "page": 20,
+      "rectangles": {
+        "E": [
+          285.4645080566406,
+          385.91473388671875,
+          546.1339111328125,
+          413.0
+        ]
+      },
+      "reason": "Parte inferior de letras/marcador atravessa o limite inferior do recorte."
+    },
+    {
+      "id": "enem-2020-49",
+      "number": 49,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "sourceSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "page": 20,
+      "rectangles": {
+        "statement": [
+          285.4645080566406,
+          413.0,
+          546.1339111328125,
+          646.7525024414062
+        ]
+      },
+      "reason": "Resíduo de glifo da questão anterior no topo do enunciado."
+    },
+    {
+      "id": "enem-2020-57",
+      "number": 57,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "sourceSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "page": 23,
+      "rectangles": {
+        "E": [
+          23.181100845336914,
+          531.0571899414062,
+          282.4645080566406,
+          543.0
+        ]
+      },
+      "reason": "Parte inferior de letras/marcador atravessa o limite inferior do recorte."
+    },
+    {
+      "id": "enem-2020-58",
+      "number": 58,
+      "language": null,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "sourceSha256": "29c741c0de8530620acfad646b74e6f37fe76b8a2e684d3c4998d161b5bb5b90",
+      "page": 23,
+      "rectangles": {
+        "statement": [
+          23.181100845336914,
+          543.0,
+          282.4645080566406,
+          669.5256958007812
+        ]
+      },
+      "reason": "Resíduo de glifo da questão anterior no topo do enunciado."
+    }
+  ]
+}

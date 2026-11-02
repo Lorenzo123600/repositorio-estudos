@@ -42,7 +42,19 @@
       "file": "enem-assets/official/2017/1-espanhol/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 3,
-      "transcript": null
+      "transcript": "QUESTÃO 01\nEl carpintero\nOrlando Goicoechea reconoce las maderas por el \nolor, de qué árboles vienen, qué edad tienen, y oliéndolas \nsabe  si  fueron  cortadas  a  tiempo  o  a  destiempo  y  les \nadivina los posibles contratiempos.\nAl cabo de tantos años de trabajo, Orlando se ha dado \nel lujo de comprarse un video, y ve una película tras otra.\nNo sabía que eras loco por cine le dice el vecino.\nY Orlando le explica que no, que a él ni le va ni le \nviene, pero gracias al video puede detener las películas \npara estudiar los muebles.\nGALEANO, E. Disponível em: http://elcajondesastre.blogcindarrio.com.\n Acesso em: 18 abr. 2012.\nNo conto de Galeano, a expressão ni le va ni le viene\nencerra uma opinião a respeito de cinema que",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 171,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 3,
+        "rect": [
+          316.05499267578125,
+          382.2715759277344,
+          577.0593872070312,
+          620.2843017578125
+        ]
+      }
     },
     "alternatives": [
       {
@@ -2172,7 +2184,19 @@
       "file": "enem-assets/official/2017/9/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 6,
-      "transcript": null
+      "transcript": "QUESTÃO 09\nTEXTO I\nTerezinha de Jesus\nDe uma queda foi ao chão\nAcudiu três cavalheiros\nTodos os três de chapéu na mão\nO primeiro foi seu pai\nO segundo, seu irmão\nO terceiro foi aquele\nA quem Tereza deu a mão\nBATISTA, M. F. B. M.; SANTOS, I. M. F. (Org.). Cancioneiro da Paraíba.\n João Pessoa: Grafset, 1993 (adaptado).\nTEXTO II\nOutra interpretação é feita a partir das condições \nsociais daquele tempo. Para a ama e para a criança \npara quem cantava a cantiga, a música falava do \ncasamento como um destino natural na vida da mulher, \nna  sociedade  brasileira  do  século  XIX,  marcada  pelo \npatriarcalismo. A música prepara a moça para o \nseu destino não apenas inexorável, mas desejável: \no casamento, estabelecendo uma hierarquia de \nobediência (pai, irmão mais velho, marido), de acordo \ncom a época e circunstâncias de sua vida.\nDisponível em: http://provsjose.blogspot.com.br. Acesso em: 5 dez. 2012.\nO  comentário  do  Texto  II  sobre  o  Texto  I  evoca  a \nmobilização da língua oral que, em determinados \ncontextos,",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 205,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 6,
+        "rect": [
+          316.05499267578125,
+          100.09959411621094,
+          577.0593872070312,
+          399.34136962890625
+        ]
+      }
     },
     "alternatives": [
       {
@@ -2385,7 +2409,19 @@
       "file": "enem-assets/official/2017/10/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 6,
-      "transcript": null
+      "transcript": "QUESTÃO 10\nEssas moças tinham o vezo de afirmar o contrário \ndo que desejavam. Notei a singularidade quando \nprincipiaram a elogiar o meu paletó cor de macaco. \nExaminavam-no sérias, achavam o pano e os \naviamentos de qualidade superior, o feitio admirável. \nEnvaideci-me: \nnunca \nhavia \nreparado \nem \ntais \nvantagens. Mas os gabos se prolongaram, trouxeram-me\ndesconfiança. Percebi afinal que elas zombavam e \nnão me susceptibilizei. Longe disso: achei curiosa \naquela maneira de falar pelo avesso, diferente das \ngrosserias a que me habituara. Em geral me diziam \ncom franqueza que a roupa não me assentava no \ncorpo, sobrava nos sovacos.\nRAMOS, G. Infância. Rio de Janeiro: Record, 1994.\nPor meio de recursos linguísticos, os textos mobilizam \nestratégias para introduzir e retomar ideias, promovendo \na progressão do tema. No fragmento transcrito, um novo \naspecto do tema é introduzido pela expressão",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 31,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 6,
+        "rect": [
+          316.05499267578125,
+          484.1665954589844,
+          577.0593872070312,
+          697.8995971679688
+        ]
+      }
     },
     "alternatives": [
       {
@@ -2811,7 +2847,19 @@
       "file": "enem-assets/official/2017/13/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 7,
-      "transcript": null
+      "transcript": "QUESTÃO 13\nO farrista\nQuando o almirante Cabral\nPôs as patas no Brasil\nO anjo da guarda dos índios\nEstava passeando em Paris.\nQuando ele voltou de viagem\nO holandês já está aqui.\nO anjo respira alegre:\n“Não faz mal, isto é boa gente,\nVou arejar outra vez.”\nO anjo transpôs a barra,\nDiz adeus a Pernambuco,\nFaz barulho, vuco-vuco,\nTal e qual o zepelim\nMas deu um vento no anjo,\nEle perdeu a memória...\nE não voltou nunca mais.\nMENDES, M. História do Brasil. Rio de Janeiro: Nova Fronteira, 1992.\nA obra de Murilo Mendes situa-se na fase inicial do \nModernismo, cujas propostas estéticas transparecem, no \npoema, por um eu lírico que",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 61,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 7,
+        "rect": [
+          316.05499267578125,
+          371.8025817871094,
+          577.0593872070312,
+          673.73681640625
+        ]
+      }
     },
     "alternatives": [
       {
@@ -3237,7 +3285,19 @@
       "file": "enem-assets/official/2017/15/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 8,
-      "transcript": null
+      "transcript": "QUESTÃO 15\nSítio Gerimum\nEste é o meu lugar [...]\nMeu Gerimum é com g\nVocê pode ter estranhado\nGerimum em abundância\nAqui era plantado\nE com a letra g\nMeu lugar foi registrado.\nOLIVEIRA, H. D. Língua Portuguesa, n. 88, fev. 2013 (fragmento).\nNos versos de um menino de 12 anos, o emprego da \npalavra “Gerimum” grafada com a letra “g” tem por objetivo",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 16,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 8,
+        "rect": [
+          52.35879898071289,
+          431.9535827636719,
+          313.05499267578125,
+          627.8108520507812
+        ]
+      }
     },
     "alternatives": [
       {
@@ -4302,7 +4362,19 @@
       "file": "enem-assets/official/2017/22/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 11,
-      "transcript": null
+      "transcript": "QUESTÃO 22\nTEXTO I\nA língua ticuna é o idioma mais falado entre os \nindígenas brasileiros. De acordo com o pesquisador \nAryon  Rodrigues,  há  40  mil  índios  que  falam  o  idioma. \nA maioria mora ao longo do Rio Solimões, no Alto \nAmazonas.  É  a  maior  nação  indígena  do  Brasil,  sendo \ntambém encontrada no Peru e na Colômbia. Os ticunas \nfalam uma língua considerada isolada, que não mantém \nsemelhança com nenhuma outra língua indígena e \napresenta complexidades em sua fonologia e sintaxe. \nSua característica principal é o uso de diferentes alturas \nna voz.\nO uso intensivo da língua não chega a ser ameaçado \npela proximidade de cidades ou mesmo pela convivência \ncom falantes de outras línguas no interior da própria área \nticuna: nas aldeias, esses outros falantes são minoritários \ne acabam por se submeter à realidade ticuna, razão pela \nqual, talvez, não representem uma ameaça linguística.\nLíngua Portuguesa, n. 52, fev. 2010 (adaptado).\nTEXTO II\nRiqueza da língua\n“O inglês está destinado a ser uma língua mundial em \nsentido mais amplo do que o latim foi na era passada e o \nfrancês é na presente”, dizia o presidente americano John \nAdams no século XVIII. A profecia se cumpriu: o inglês é \nhoje a língua franca da globalização. No extremo oposto \nda economia linguística mundial, estão as línguas de \npequenas comunidades declinantes. Calcula-se que hoje \nse falem de 6 000 a 7 000 línguas no mundo todo. Quase \nmetade delas deve desaparecer nos próximos 100 anos. \nA última edição do Ethnologue — o mais abrangente \nestudo sobre as línguas mundiais —, de 2005, listava\n516 línguas em risco de extinção.\nVeja, n. 36, set. 2007 (adaptado).\nOs textos tratam de línguas de culturas completamente \ndiferentes, cujas realidades se aproximam em função do(a)",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 306,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 11,
+        "rect": [
+          52.35879898071289,
+          100.09959411621094,
+          313.05499267578125,
+          519.6888427734375
+        ]
+      }
     },
     "alternatives": [
       {
@@ -4747,19 +4819,55 @@
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2017/25/C.webp",
-        "text": null
+        "text": "C relatos de experiências de artistas sobre os festivais \nde música de 1967.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 18,
+          "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            513.8759765625,
+            313.05499267578125,
+            537.9344482421875
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/25/D.webp",
-        "text": null
+        "text": "D  explicações sobre o quadro cultural do Brasil durante \na década de 1960.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 55,
+          "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            537.9344482421875,
+            313.05499267578125,
+            562.4444580078125
+          ]
+        }
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/25/E.webp",
-        "text": null
+        "text": "E opiniões a respeito de uma obra sobre a cena musical \nde 1967.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 8,
+          "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+          "page": 12,
+          "rect": [
+            52.35879898071289,
+            562.4444580078125,
+            313.05499267578125,
+            590.9306030273438
+          ]
+        }
       }
     ],
     "officialAnswer": "E",
@@ -5587,7 +5695,19 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/31/A.webp",
-        "text": null
+        "text": "A  nos Jogos Olímpicos, uma vez que reúnem diversos \npaíses na disputa de diferentes modalidades \nesportivas.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 50,
+          "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+          "page": 14,
+          "rect": [
+            52.35879898071289,
+            363.5890808105469,
+            313.05499267578125,
+            400.5957946777344
+          ]
+        }
       },
       {
         "letter": "B",
@@ -5824,7 +5944,19 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/33/E.webp",
-        "text": null
+        "text": "E O uso do pronome de terceira pessoa “ele” ao \nlongo do texto para fazer referência ao protagonista \n“João/Zero”.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 12,
+          "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+          "page": 14,
+          "rect": [
+            316.05499267578125,
+            721.2103881835938,
+            577.0593872070312,
+            766.6959838867188
+          ]
+        }
       }
     ],
     "officialAnswer": "B",
@@ -6219,7 +6351,19 @@
       "file": "enem-assets/official/2017/36/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 15,
-      "transcript": null
+      "transcript": "QUESTÃO 36\nVALENTIM, R. Emblema 78. Acrílico sobre tela. 73 x 100 cm. 1978.\nDisponível em: www.espacoarte.com.br. Acesso em: 2 ago. 2012.\nA obra de Rubem Valentim apresenta emblemas que, \nbaseando-se em signos de religiões afro-brasileiras, se \ntransformam em produção artística. A obra Emblema 78\nrelaciona-se com o Modernismo em virtude da",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 115,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 15,
+        "rect": [
+          316.05499267578125,
+          316.9075927734375,
+          577.0593872070312,
+          663.1465454101562
+        ]
+      }
     },
     "alternatives": [
       {
@@ -6432,7 +6576,19 @@
       "file": "enem-assets/official/2017/37/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 16,
-      "transcript": null
+      "transcript": "QUESTÃO 37\nERNESTO NETO. Dengo. 2010. MAM-SP, 2010.\nDisponível em: http://espacohumus.com. Acesso em: 25 abr. 2017.\nA instalação Dengo transformou a sala do MAM-SP \nem um ambiente singular, explorando como principal \ncaracterística artística a",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 63,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 16,
+        "rect": [
+          52.35879898071289,
+          100.09959411621094,
+          313.05499267578125,
+          333.5438537597656
+        ]
+      }
     },
     "alternatives": [
       {
@@ -6858,7 +7014,19 @@
       "file": "enem-assets/official/2017/41/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 17,
-      "transcript": null
+      "transcript": "QUESTÃO 41\nRevista Bolsa, 1986. In: CARRASCOZA, J. A. A evolução do texto publicitário: a associação \nde palavras como elemento de sedução na publicidade. São Paulo: Futura, 1999 (adaptado).\nNesse cartaz publicitário de uma empresa de papel e \ncelulose, a combinação dos elementos verbais e não \nverbais visa",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 43,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 17,
+        "rect": [
+          52.35879898071289,
+          100.09959411621094,
+          313.05499267578125,
+          429.35577392578125
+        ]
+      }
     },
     "alternatives": [
       {
@@ -7528,7 +7696,19 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/47/E.webp",
-        "text": null
+        "text": "E lançamento de bombas atômicas em Hiroshima e \nNagasaki pelas forças norte-americanas.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 39,
+          "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+          "page": 20,
+          "rect": [
+            52.85879898071289,
+            679.8189086914062,
+            313.05499267578125,
+            766.6959838867188
+          ]
+        }
       }
     ],
     "officialAnswer": "D",
@@ -8136,7 +8316,19 @@
       "file": "enem-assets/official/2017/50/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 20,
-      "transcript": null
+      "transcript": "QUESTÃO 50\nArt. \n231. \nSão \nreconhecidos \naos \níndios \nsua \norganização \nsocial, \ncostumes, \nlínguas, \ncrenças \ne \ntradições, e os direitos originários sobre as terras \nque tradicionalmente ocupam, competindo à União \ndemarcá-las, proteger e fazer respeitar todos os \nseus bens.\nBRASIL. Constituição da República Federativa do Brasil de 1988. \nDisponível em: www.planalto.gov.br. Acesso em: 27 abr. 2017.\nA persistência das reivindicações relativas à aplicação \ndesse preceito normativo tem em vista a vinculação \nhistórica fundamental entre",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 124,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 20,
+        "rect": [
+          316.05499267578125,
+          556.6077270507812,
+          577.5593872070312,
+          702.289306640625
+        ]
+      }
     },
     "alternatives": [
       {
@@ -9840,7 +10032,19 @@
       "file": "enem-assets/official/2017/58/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 23,
-      "transcript": null
+      "transcript": "QUESTÃO 58\nMuitos países se caracterizam por terem populações \nmultiétnicas. Com frequência, evoluíram desse modo \nao longo de séculos. Outras sociedades se tornaram \nmultiétnicas mais rapidamente, como resultado de \npolíticas incentivando a migração, ou por conta de legados \ncoloniais e imperiais. \nGIDDENS, A. Sociologia. Porto Alegre: Penso, 2012 (adaptado).\nDo ponto de vista do funcionamento das democracias \ncontemporâneas, o modelo de sociedade descrito \ndemanda, simultaneamente,",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 12,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 23,
+        "rect": [
+          52.35879898071289,
+          100.09959411621094,
+          313.05499267578125,
+          254.7772674560547
+        ]
+      }
     },
     "alternatives": [
       {
@@ -10266,7 +10470,19 @@
       "file": "enem-assets/official/2017/61/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 23,
-      "transcript": null
+      "transcript": "QUESTÃO 61\nA primeira Guerra do Golfo, genuinamente apoiada \npelas Nações Unidas e pela comunidade internacional, \nassim como a reação imediata ao Onze de Setembro, \ndemonstravam a força da posição dos Estados Unidos na \nera pós-soviética.\nHOBSBAWM, E. Globalização, democracia e terrorismo. São Paulo: Cia. das Letras, 2007.\nUm aspecto que explica a força dos Estados Unidos, \napontada pelo texto, reside no(a)",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 48,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 23,
+        "rect": [
+          316.05499267578125,
+          535.8526000976562,
+          577.0593872070312,
+          658.3203125
+        ]
+      }
     },
     "alternatives": [
       {
@@ -10291,7 +10507,19 @@
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/61/D.webp",
-        "text": null
+        "text": "D aliança estratégica com países produtores de \npetróleo, como Kuwait e Irã.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 28,
+          "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+          "page": 23,
+          "rect": [
+            316.05499267578125,
+            709.4210815429688,
+            577.0593872070312,
+            733.954833984375
+          ]
+        }
       },
       {
         "letter": "E",
@@ -10479,7 +10707,19 @@
       "file": "enem-assets/official/2017/62/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 24,
-      "transcript": null
+      "transcript": "QUESTÃO 62\nO New Deal visa restabelecer o equilíbrio entre o \ncusto de produção e o preço, entre a cidade e o campo, \nentre os preços agrícolas e os preços industriais, reativar \no mercado interno — o único que é importante —, pelo \ncontrole de preços e da produção, pela revalorização \ndos salários e do poder aquisitivo das massas, isto é, \ndos lavradores e operários, e pela regulamentação das \ncondições de emprego.\nCROUZET, M. Os Estados perante a crise. In: História geral das civilizações.\nSão Paulo: Difel, 1977 (adaptado).\nTendo como referência os condicionantes históricos do \nentreguerras, as medidas governamentais descritas \nobjetivavam",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 78,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 24,
+        "rect": [
+          52.35879898071289,
+          100.09959411621094,
+          313.05499267578125,
+          283.786865234375
+        ]
+      }
     },
     "alternatives": [
       {
@@ -10692,7 +10932,19 @@
       "file": "enem-assets/official/2017/63/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 24,
-      "transcript": null
+      "transcript": "QUESTÃO 63\nE venham, então, os alegres incendiários de dedos \ncarbonizados!  Vamos!  Ateiem  fogo  às  estantes  das \nbibliotecas!  Desviem  o  curso  dos  canais,  para  inundar \nos  museus!  Empunhem  as  picaretas,  os  machados, \nos martelos e deitem abaixo sem piedade as cidades \nveneradas!\nMARINETTI, F. T. Manifesto futurista. Disponível em: www.sibila.com.br. \nAcesso em: 2 ago. 2012 (adaptado).\nQue princípio marcante do Futurismo e comum a várias \ncorrentes artísticas e culturais das primeiras três décadas \ndo século XX está destacado no texto?",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 250,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 24,
+        "rect": [
+          52.35879898071289,
+          382.6885986328125,
+          313.05499267578125,
+          539.517578125
+        ]
+      }
     },
     "alternatives": [
       {
@@ -11331,7 +11583,19 @@
       "file": "enem-assets/official/2017/67/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 25,
-      "transcript": null
+      "transcript": "QUESTÃO 67\nA grande maioria dos países ocidentais democráticos \nadotou o Tribunal Constitucional como mecanismo de \ncontrole dos demais poderes. A inclusão dos Tribunais \nno cenário político implicou alterações no cálculo para \na implementação de políticas públicas. O governo, \nalém de negociar seu plano político com o Parlamento, \nteve que se preocupar em não infringir a Constituição. \nEssa \nnova \narquitetura \ninstitucional \npropiciou \no \ndesenvolvimento de um ambiente político que viabilizou a \nparticipação do Judiciário nos processos decisórios.\nCARVALHO, E. R. Revista de Sociologia e Política, n. 23, nov. 2004 (adaptado).\nO texto faz referência a uma importante mudança na \ndinâmica de funcionamento dos Estados contemporâneos \nque, no caso brasileiro, teve como consequência a",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 52,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 25,
+        "rect": [
+          52.35879898071289,
+          100.09959411621094,
+          313.05499267578125,
+          321.17852783203125
+        ]
+      }
     },
     "alternatives": [
       {
@@ -11970,7 +12234,19 @@
       "file": "enem-assets/official/2017/70/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 25,
-      "transcript": null
+      "transcript": "QUESTÃO 70\nMas era sobretudo a lã que os compradores, vindos \nda  Flandres  ou  da  Itália,  procuravam  por  toda  a  parte. \nPara satisfazê-los, as raças foram melhoradas através \ndo aumento progressivo das suas dimensões. Esse \ncrescimento  prosseguiu  durante  todo  o  século  XIII,  e \nas abadias da Ordem de Cister, onde eram utilizados \nos métodos mais racionais de criação de gado, \ndesempenharam certamente um papel determinante \nnesse aperfeiçoamento.\nDUBY, G. Economia rural e vida no campo no Ocidente medieval.\nLisboa: Estampa, 1987 (adaptado).\nO texto aponta para a relação entre aperfeiçoamento da \natividade pastoril e avanço técnico na Europa ocidental \nfeudal, que resultou do(a)",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 150,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 25,
+        "rect": [
+          316.05499267578125,
+          379.85357666015625,
+          577.0593872070312,
+          572.0821533203125
+        ]
+      }
     },
     "alternatives": [
       {
@@ -12396,7 +12672,19 @@
       "file": "enem-assets/official/2017/74/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 27,
-      "transcript": null
+      "transcript": "QUESTÃO 74\nA participação da mulher no processo de decisão \npolítica ainda é extremamente limitada em praticamente \ntodos \nos \npaíses, \nindependentemente \ndo \nregime \neconômico e social e da estrutura institucional vigente \nem cada um deles. É fato público e notório, além de \nempiricamente comprovado, que as mulheres estão em \ngeral sub-representadas nos órgãos do poder, pois a \nproporção não corresponde jamais ao peso relativo dessa \nparte da população.\nTABAK, F. Mulheres públicas: participação política e poder. Rio de Janeiro: Letra Capital, 2002.\nNo âmbito do Poder Legislativo brasileiro, a tentativa de \nreverter esse quadro de sub-representação tem envolvido \na implementação, pelo Estado, de",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 79,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 27,
+        "rect": [
+          52.35879898071289,
+          408.32257080078125,
+          313.05499267578125,
+          595.486083984375
+        ]
+      }
     },
     "alternatives": [
       {
@@ -13035,7 +13323,19 @@
       "file": "enem-assets/official/2017/77/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 28,
-      "transcript": null
+      "transcript": "QUESTÃO 77\nFigura 1\nTERRA\nMAR\nMORNO\nALTA      PRESSÃO\nBAIXA\nPRESSÃO\nQUENTE\nFORMAÇÃO DA BRISA MARINHA\nFigura 2\nTERRA\nMAR\nMORNO\nBAIXA\nPRESSÃO\nFRIO\nALTA       PRESSÃO\nFORMAÇÃO DO  TERRAL\nSALGADO-LABOURIAU, M. L. História ecológica da Terra.\nSão Paulo: Edgard Blucher, 1994 (adaptado).\nNas imagens constam informações sobre a formação de \nbrisas em áreas litorâneas. Esse processo é resultado de",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 68,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 28,
+        "rect": [
+          52.35879898071289,
+          100.09959411621094,
+          313.05499267578125,
+          449.50579833984375
+        ]
+      }
     },
     "alternatives": [
       {
@@ -13273,7 +13573,19 @@
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/78/D.webp",
-        "text": null
+        "text": "D estender a participação democrática dos meios de \ncomunicação no Brasil.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 22,
+          "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+          "page": 28,
+          "rect": [
+            52.35879898071289,
+            718.473876953125,
+            313.05499267578125,
+            739.485107421875
+          ]
+        }
       },
       {
         "letter": "E",
@@ -13461,7 +13773,19 @@
       "file": "enem-assets/official/2017/79/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 28,
-      "transcript": null
+      "transcript": "QUESTÃO 79\nTEXTO I\nSólon é o primeiro nome grego que nos vem à \nmente quando terra e dívida são mencionadas juntas. \nLogo depois de 600 a.C., ele foi designado “legislador” \nem Atenas, com poderes sem precedentes, porque a \nexigência de redistribuição de terras e o cancelamento \ndas dívidas não podiam continuar bloqueados pela \noligarquia dos proprietários de terra por meio da força ou \nde pequenas concessões.\nFINLEY, M. Economia e sociedade na Grécia antiga.\nSão Paulo: WMF Martins Fontes, 2013 (adaptado). \nTEXTO II\nA “Lei das Doze Tábuas” se tornou um dos textos \nfundamentais do direito romano, uma das principais \nheranças romanas que chegaram até nós. A publicação \ndessas leis, por volta de 450 a.C., foi importante, \npois o conhecimento das “regras do jogo” da vida \nem sociedade é um instrumento favorável ao homem \ncomum e potencialmente limitador da hegemonia e \narbítrio dos poderosos.\n FUNARI, P. P. Grécia e Roma. São Paulo: Contexto, 2011 (adaptado).\nO \nponto \nde \nconvergência \nentre \nas \nrealidades \nsociopolíticas indicadas nos textos consiste na ideia de \nque a",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 26,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 28,
+        "rect": [
+          316.05499267578125,
+          100.09959411621094,
+          577.0593872070312,
+          433.1712951660156
+        ]
+      }
     },
     "alternatives": [
       {
@@ -14313,7 +14637,19 @@
       "file": "enem-assets/official/2017/83/statement.webp",
       "source": "references/enem-1000/originals/2017-1-prova.pdf",
       "page": 29,
-      "transcript": null
+      "transcript": "QUESTÃO 83\nNo período anterior ao golpe militar de 1964, os \ndocumentos episcopais indicavam para os bispos \nque o desenvolvimento econômico, e claramente o \ndesenvolvimento capitalista, orientando-se no sentido \nda justa distribuição da riqueza, resolveria o problema \nda miséria rural e, consequentemente, suprimiria a \npossibilidade do proselitismo e da expansão comunista \nentre os camponeses. Foi nesse sentido que o golpe de \nEstado, de 31 de março de 1964, foi acolhido pela Igreja.\nMARTINS, J. S. A política do Brasil: lúmpen e místico. São Paulo: Contexto, 2011 (adaptado).\nEm que pesem as divergências no interior do clero após \na instalação da ditadura civil-militar, o posicionamento \nmencionado no texto fundamentou-se no entendimento \nda hierarquia católica de que o(a)",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 72,
+        "sourceSha256": "96e8f29916a9b1be2b9759af74292e3229fe7e1e0d5d0ec7c8cccea2fd21708f",
+        "page": 29,
+        "rect": [
+          316.05499267578125,
+          100.09959411621094,
+          577.0593872070312,
+          301.1806945800781
+        ]
+      }
     },
     "alternatives": [
       {
@@ -16017,7 +16353,19 @@
       "file": "enem-assets/official/2017/92/statement.webp",
       "source": "references/enem-1000/originals/2017-2-prova.pdf",
       "page": 2,
-      "transcript": null
+      "transcript": "QUESTÃO 92\nOs medicamentos são rotineiramente utilizados pelo \nser humano com o intuito de diminuir ou, por muitas vezes, \ncurar possíveis transtornos de saúde. Os antibióticos são \ngrupos de fármacos inseridos no tratamento de doenças \ncausadas por bactérias.\nNa terapêutica das doenças mencionadas, alguns desses \nfármacos atuam",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 109,
+        "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+        "page": 2,
+        "rect": [
+          52.35879898071289,
+          591.8555908203125,
+          313.05499267578125,
+          698.2225952148438
+        ]
+      }
     },
     "alternatives": [
       {
@@ -16450,31 +16798,91 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/94/A.webp",
-        "text": null
+        "text": "A utilização de água.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 19,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 2,
+          "rect": [
+            316.05499267578125,
+            703.1495971679688,
+            577.0593872070312,
+            715.466552734375
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2017/94/B.webp",
-        "text": null
+        "text": "B absorção de fótons.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 19,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 2,
+          "rect": [
+            316.05499267578125,
+            715.466552734375,
+            577.0593872070312,
+            726.7835693359375
+          ]
+        }
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2017/94/C.webp",
-        "text": null
+        "text": "C formação de gás oxigênio.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 25,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 2,
+          "rect": [
+            316.05499267578125,
+            726.7835693359375,
+            577.0593872070312,
+            738.6005859375
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/94/D.webp",
-        "text": null
+        "text": "D proliferação dos cloroplastos.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 30,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 2,
+          "rect": [
+            316.05499267578125,
+            738.6005859375,
+            577.0593872070312,
+            750.4176025390625
+          ]
+        }
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/94/E.webp",
-        "text": null
+        "text": "E captação de dióxido de carbono.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 31,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 2,
+          "rect": [
+            316.05499267578125,
+            750.4176025390625,
+            577.0593872070312,
+            766.6959838867188
+          ]
+        }
       }
     ],
     "officialAnswer": "B",
@@ -16663,31 +17071,91 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/97/A.webp",
-        "text": null
+        "text": "A reação  do  gás  de  cozinha  com  o  sal,  volatilizando \ngás cloro.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 50,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 4,
+          "rect": [
+            52.35879898071289,
+            248.53721618652344,
+            313.05499267578125,
+            273.3411865234375
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2017/97/B.webp",
-        "text": null
+        "text": "B emissão de fótons pelo sódio, excitado por causa da \nchama.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 52,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 4,
+          "rect": [
+            52.35879898071289,
+            273.3411865234375,
+            313.05499267578125,
+            298.1451416015625
+          ]
+        }
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2017/97/C.webp",
-        "text": null
+        "text": "C produção  de  derivado  amarelo,  pela  reação  com  o \ncarboidrato.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 48,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 4,
+          "rect": [
+            52.35879898071289,
+            298.1451416015625,
+            313.05499267578125,
+            322.94915771484375
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/97/D.webp",
-        "text": null
+        "text": "D reação do gás de cozinha com a água, formando gás \nhidrogênio.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 50,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 4,
+          "rect": [
+            52.35879898071289,
+            322.94915771484375,
+            313.05499267578125,
+            347.753173828125
+          ]
+        }
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/97/E.webp",
-        "text": null
+        "text": "E excitação das moléculas de proteínas, com formação \nde luz amarela.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 51,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 4,
+          "rect": [
+            52.35879898071289,
+            347.753173828125,
+            313.05499267578125,
+            380.28057861328125
+          ]
+        }
       }
     ],
     "officialAnswer": "B",
@@ -18154,31 +18622,91 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/106/A.webp",
-        "text": null
+        "text": "A volatilização das substâncias de interesse.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 43,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 7,
+          "rect": [
+            52.35879898071289,
+            240.31321716308594,
+            313.05499267578125,
+            253.34898376464844
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2017/106/B.webp",
-        "text": null
+        "text": "B polimerização  dos  óleos  catalisada  pela  radiação \nsolar.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 49,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 7,
+          "rect": [
+            52.35879898071289,
+            253.34898376464844,
+            313.05499267578125,
+            276.583251953125
+          ]
+        }
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2017/106/C.webp",
-        "text": null
+        "text": "C solubilização  das  substâncias  de  interesse  pelo \norvalho.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 48,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 7,
+          "rect": [
+            52.35879898071289,
+            276.583251953125,
+            313.05499267578125,
+            299.8184814453125
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/106/D.webp",
-        "text": null
+        "text": "D oxidação  do  óleo  pelo  oxigênio  produzido  na \nfotossíntese.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 44,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 7,
+          "rect": [
+            52.35879898071289,
+            299.8184814453125,
+            313.05499267578125,
+            323.0527038574219
+          ]
+        }
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/106/E.webp",
-        "text": null
+        "text": "E liberação das moléculas de óleo durante o processo \nde fotossíntese.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 51,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 7,
+          "rect": [
+            52.35879898071289,
+            323.0527038574219,
+            313.05499267578125,
+            351.2185974121094
+          ]
+        }
       }
     ],
     "officialAnswer": "A",
@@ -18580,7 +19108,19 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/109/A.webp",
-        "text": null
+        "text": "A percurso da migração.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 21,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 8,
+          "rect": [
+            52.35879898071289,
+            272.3555908203125,
+            313.05499267578125,
+            286.1670837402344
+          ]
+        }
       },
       {
         "letter": "B",
@@ -18598,7 +19138,19 @@
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/109/D.webp",
-        "text": null
+        "text": "D período de migração da espécie.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 31,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 8,
+          "rect": [
+            52.35879898071289,
+            313.8613586425781,
+            313.05499267578125,
+            327.6737976074219
+          ]
+        }
       },
       {
         "letter": "E",
@@ -19006,19 +19558,55 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/111/A.webp",
-        "text": null
+        "text": "A são animais herbívoros.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 23,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 8,
+          "rect": [
+            316.05499267578125,
+            253.36302185058594,
+            577.0593872070312,
+            264.36102294921875
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2017/111/B.webp",
-        "text": null
+        "text": "B são animais detritívoros.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 25,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 8,
+          "rect": [
+            316.05499267578125,
+            264.36102294921875,
+            577.0593872070312,
+            275.3590087890625
+          ]
+        }
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2017/111/C.webp",
-        "text": null
+        "text": "C são animais de grande porte.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 28,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 8,
+          "rect": [
+            316.05499267578125,
+            275.3590087890625,
+            577.0593872070312,
+            286.3332214355469
+          ]
+        }
       },
       {
         "letter": "D",
@@ -19030,7 +19618,19 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/111/E.webp",
-        "text": null
+        "text": "E estão no topo da cadeia alimentar.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 34,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 8,
+          "rect": [
+            316.05499267578125,
+            297.35498046875,
+            577.0593872070312,
+            316.1145935058594
+          ]
+        }
       }
     ],
     "officialAnswer": "E",
@@ -20284,25 +20884,73 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/117/A.webp",
-        "text": null
+        "text": "A dominância incompleta do alelo mutante em relação \nao alelo normal.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 50,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            52.35879898071289,
+            266.07135009765625,
+            313.05499267578125,
+            292.9130859375
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2017/117/B.webp",
-        "text": null
+        "text": "B falha na separação dos cromossomos X no momento \nda separação dos dois embriões.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 79,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            52.35879898071289,
+            292.9130859375,
+            313.05499267578125,
+            319.7548522949219
+          ]
+        }
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2017/117/C.webp",
-        "text": null
+        "text": "C recombinação cromossômica em uma divisão celular \nembrionária anterior à separação dos dois embriões.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 100,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            52.35879898071289,
+            319.7548522949219,
+            313.05499267578125,
+            346.59759521484375
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/117/D.webp",
-        "text": null
+        "text": "D inativação aleatória de um dos cromossomos X em \nfase posterior à divisão que resulta nos dois embriões.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 103,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            52.35879898071289,
+            346.59759521484375,
+            313.05499267578125,
+            373.41461181640625
+          ]
+        }
       },
       {
         "letter": "E",
@@ -20497,31 +21145,91 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/118/A.webp",
-        "text": null
+        "text": "A impermeabilização.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 18,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            52.35879898071289,
+            694.5558471679688,
+            313.05499267578125,
+            708.4718017578125
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2017/118/B.webp",
-        "text": null
+        "text": "B diminuição da temperatura.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 26,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            52.35879898071289,
+            708.4718017578125,
+            313.05499267578125,
+            721.3878173828125
+          ]
+        }
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2017/118/C.webp",
-        "text": null
+        "text": "C acumulação de matéria orgânica.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 31,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            52.35879898071289,
+            721.3878173828125,
+            313.05499267578125,
+            734.8038330078125
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/118/D.webp",
-        "text": null
+        "text": "D alteração do pH.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 16,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            52.35879898071289,
+            734.8038330078125,
+            313.05499267578125,
+            748.2198486328125
+          ]
+        }
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/118/E.webp",
-        "text": null
+        "text": "E salinização.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 12,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            52.35879898071289,
+            748.2198486328125,
+            313.05499267578125,
+            766.6959838867188
+          ]
+        }
       }
     ],
     "officialAnswer": "A",
@@ -20710,13 +21418,37 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/119/A.webp",
-        "text": null
+        "text": "A Solução de Na2CO3 para formar um sal de lapachol.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 13,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            316.05499267578125,
+            388.3658142089844,
+            577.0593872070312,
+            402.62457275390625
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2017/119/B.webp",
-        "text": null
+        "text": "B Solução-tampão  ácido  acético/acetato  de  sódio \n(pH = 4,5).",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 46,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            316.05499267578125,
+            402.62457275390625,
+            577.0593872070312,
+            428.25732421875
+          ]
+        }
       },
       {
         "letter": "C",
@@ -20728,7 +21460,19 @@
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/119/D.webp",
-        "text": null
+        "text": "D Solução de Na2SO4 para formar um par iônico com \nlapachol.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 13,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            316.05499267578125,
+            453.86981201171875,
+            577.0593872070312,
+            479.525390625
+          ]
+        }
       },
       {
         "letter": "E",
@@ -20935,19 +21679,55 @@
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2017/120/C.webp",
-        "text": null
+        "text": "C sentidos opostos e maior intensidade da pressão osmótica.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 57,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            316.05499267578125,
+            719.8868408203125,
+            577.0593872070312,
+            734.121826171875
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/120/D.webp",
-        "text": null
+        "text": "D mesmo sentido e maior intensidade da pressão osmótica.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 54,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            316.05499267578125,
+            734.121826171875,
+            577.0593872070312,
+            748.3568115234375
+          ]
+        }
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/120/E.webp",
-        "text": null
+        "text": "E sentidos opostos e maior intensidade da pressão mecânica.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 57,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 10,
+          "rect": [
+            316.05499267578125,
+            748.3568115234375,
+            577.0593872070312,
+            766.6959838867188
+          ]
+        }
       }
     ],
     "officialAnswer": "E",
@@ -24537,7 +25317,19 @@
       "file": "enem-assets/official/2017/148/statement.webp",
       "source": "references/enem-1000/originals/2017-2-prova.pdf",
       "page": 19,
-      "transcript": null
+      "transcript": "QUESTÃO 148\nUma rede hoteleira dispõe de cabanas simples na \nilha de Gotland, na Suécia, conforme Figura 1. A estrutura \nde  sustentação  de  cada  uma  dessas  cabanas  está \nrepresentada na Figura 2. A ideia é permitir ao hóspede uma \nestada livre de tecnologia, mas conectada com a natureza. \nFigura 2\nROMERO, L. Tendências. Superinteressante, n. 315, fev. 2013 (adaptado).\nA  forma  geométrica  da  superfície  cujas  arestas  estão \nrepresentadas na Figura 2 é",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 100,
+        "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+        "page": 19,
+        "rect": [
+          52.35879898071289,
+          433.8515930175781,
+          313.05499267578125,
+          697.932373046875
+        ]
+      }
     },
     "alternatives": [
       {
@@ -24970,31 +25762,91 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/150/A.webp",
-        "text": null
+        "text": "A 90° no sentido horário.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 23,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 20,
+          "rect": [
+            52.35879898071289,
+            692.4398193359375,
+            313.05499267578125,
+            706.2760620117188
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2017/150/B.webp",
-        "text": null
+        "text": "B 135° no sentido horário.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 24,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 20,
+          "rect": [
+            52.35879898071289,
+            706.2760620117188,
+            313.05499267578125,
+            720.111328125
+          ]
+        }
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2017/150/C.webp",
-        "text": null
+        "text": "C 180° no sentido anti-horário.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 29,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 20,
+          "rect": [
+            52.35879898071289,
+            720.111328125,
+            313.05499267578125,
+            733.9465942382812
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/150/D.webp",
-        "text": null
+        "text": "D 270° no sentido anti-horário.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 29,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 20,
+          "rect": [
+            52.35879898071289,
+            733.9465942382812,
+            313.05499267578125,
+            747.7817993164062
+          ]
+        }
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/150/E.webp",
-        "text": null
+        "text": "E 315° no sentido horário.",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 24,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 20,
+          "rect": [
+            52.35879898071289,
+            747.7817993164062,
+            313.05499267578125,
+            766.6959838867188
+          ]
+        }
       }
     ],
     "officialAnswer": "B",
@@ -25389,7 +26241,19 @@
       "file": "enem-assets/official/2017/153/statement.webp",
       "source": "references/enem-1000/originals/2017-2-prova.pdf",
       "page": 22,
-      "transcript": null
+      "transcript": "QUESTÃO 153\nA manchete demonstra que o transporte de grandes \ncargas  representa  cada  vez  mais  preocupação  quando \nfeito em vias urbanas.\nCaminhão entala em viaduto no Centro\nUm  caminhão  de  grande  porte  entalou  embaixo  do \nviaduto no cruzamento das avenidas Borges de Medeiros \ne Loureiro da Silva no sentido Centro-Bairro, próximo à \nPonte de Pedra, na capital. Esse veículo vinha de São \nPaulo para Porto Alegre e transportava três grandes \ntubos, conforme ilustrado na foto.\nDisponível em: www.caminhoes-e-carretas.com. Acesso em: 21 maio 2012 (adaptado).\nConsidere que o raio externo de cada cano da imagem \nseja 0,60 m e que eles estejam em cima de uma carroceria \ncuja parte superior está a 1,30 m do solo. O desenho \nrepresenta a vista traseira do empilhamento dos canos.\n0,60 m\nA margem de segurança recomendada para que \num veículo passe sob um viaduto é que a altura total do \nveículo com a carga seja, no mínimo, 0,50 m menor do \nque a altura do vão do viaduto.\nConsidere 1,7 como aproximação para \n3 .\nQual deveria ser a altura mínima do viaduto, em metro, \npara que esse caminhão pudesse passar com segurança \nsob seu vão?",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 284,
+        "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+        "page": 22,
+        "rect": [
+          52.35879898071289,
+          100.09959411621094,
+          313.05499267578125,
+          698.7613525390625
+        ]
+      }
     },
     "alternatives": [
       {
@@ -27739,31 +28603,91 @@
         "letter": "A",
         "format": "image",
         "file": "enem-assets/official/2017/170/A.webp",
-        "text": null
+        "text": "A 5 °C",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 4,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 28,
+          "rect": [
+            52.35879898071289,
+            696.9541015625,
+            313.05499267578125,
+            710.2903442382812
+          ]
+        }
       },
       {
         "letter": "B",
         "format": "image",
         "file": "enem-assets/official/2017/170/B.webp",
-        "text": null
+        "text": "B 7 °C",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 4,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 28,
+          "rect": [
+            52.35879898071289,
+            710.2903442382812,
+            313.05499267578125,
+            724.1255493164062
+          ]
+        }
       },
       {
         "letter": "C",
         "format": "image",
         "file": "enem-assets/official/2017/170/C.webp",
-        "text": null
+        "text": "C 13 °C",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 5,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 28,
+          "rect": [
+            52.35879898071289,
+            724.1255493164062,
+            313.05499267578125,
+            738.4608154296875
+          ]
+        }
       },
       {
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2017/170/D.webp",
-        "text": null
+        "text": "D 15 °C",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 5,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 28,
+          "rect": [
+            52.35879898071289,
+            738.4608154296875,
+            313.05499267578125,
+            751.7960815429688
+          ]
+        }
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2017/170/E.webp",
-        "text": null
+        "text": "E 19 °C",
+        "transcriptRecovery": {
+          "method": "exact-embedded-font-outline-match-v1",
+          "decodedGlyphs": 5,
+          "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+          "page": 28,
+          "rect": [
+            52.35879898071289,
+            751.7960815429688,
+            313.05499267578125,
+            766.6959838867188
+          ]
+        }
       }
     ],
     "officialAnswer": "E",
@@ -28797,7 +29721,19 @@
       "file": "enem-assets/official/2017/178/statement.webp",
       "source": "references/enem-1000/originals/2017-2-prova.pdf",
       "page": 31,
-      "transcript": null
+      "transcript": "QUESTÃO 178\nComo  não  são adeptos  da prática de esportes, um \ngrupo de amigos resolveu fazer um torneio de futebol \nutilizando videogame. Decidiram que cada jogador joga \numa única vez com cada um dos outros jogadores.\nO campeão será aquele que conseguir o maior número de \npontos. Observaram que o número de partidas jogadas \ndepende do número de jogadores, como mostra o quadro:\nQuantidade de \njogadores\n2\n3\n4\n5\n6\n7\nNúmero de \npartidas\n1\n3\n6\n10\n15\n21\nSe a quantidade de jogadores for 8, quantas partidas \nserão realizadas?",
+      "transcriptRecovery": {
+        "method": "exact-embedded-font-outline-match-v1",
+        "decodedGlyphs": 119,
+        "sourceSha256": "357771b0bebf4012ffee91976f6dd2003bd7e5b1b8e9ac9386c1f67fdf42c393",
+        "page": 31,
+        "rect": [
+          52.35879898071289,
+          488.7635803222656,
+          313.05499267578125,
+          694.859619140625
+        ]
+      }
     },
     "alternatives": [
       {

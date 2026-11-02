@@ -1,0 +1,1930 @@
+{
+  "scope": 1070,
+  "commit": "a21dfb209a1469574309fc00d876f7e112e1401e",
+  "productionDataChanged": false,
+  "answerChanges": 0,
+  "automatedChecks": {
+    "images": 6420,
+    "missingImages": 0,
+    "unreadableImages": 0,
+    "blankImages": 0,
+    "imageHashMismatches": 0,
+    "officialAnswerMismatches": 0,
+    "exactDuplicateOptionTexts": 0,
+    "deepPixelComparison": "passed for 1070 questions / 6420 images",
+    "releaseValidation": "passed"
+  },
+  "review": {
+    "candidateAlerts": 135,
+    "questionsWithVisualCandidateReview": 87,
+    "method": "Assistant visual inspection of all 66 candidate pairs, 37 crop-boundary alerts and 32 marker-layout alerts, using archived PDFs and saved crop images.",
+    "limitations": "Not a manual pedagogical solution of all 1070 questions; automated screening can miss defects that do not trigger the heuristics."
+  },
+  "accessibility": {
+    "missingStatementTranscripts": 301,
+    "missingOptionTranscripts": 670,
+    "affectedQuestions": 302
+  },
+  "confirmedIssues": [
+    {
+      "id": "enem-2020-137",
+      "severity": "high",
+      "category": "formula_segmentation",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 16,
+      "roles": [
+        "D",
+        "E"
+      ],
+      "description": "Numerador 42 da fração 42/16 da alternativa E está no recorte D; E mostra apenas barra e denominador 16.",
+      "answer": "A",
+      "officialAnswer": "A",
+      "answerChanged": false,
+      "evidenceImage": "references/enem-1000/audit-evidence/enem-2020-137.png"
+    },
+    {
+      "id": "enem-2022-106",
+      "severity": "high",
+      "category": "formula_segmentation",
+      "source": "references/enem-1000/originals/2022-2-prova.pdf",
+      "page": 7,
+      "roles": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "description": "Partes superiores das cinco estruturas químicas estão atribuídas ao enunciado/alternativa anterior.",
+      "answer": "C",
+      "officialAnswer": "C",
+      "answerChanged": false,
+      "evidenceImage": "references/enem-1000/audit-evidence/enem-2022-106.png"
+    },
+    {
+      "id": "enem-2020-107",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 7,
+      "roles": [
+        "statement"
+      ],
+      "description": "Resíduo de glifo da questão anterior no topo do enunciado.",
+      "answer": "C",
+      "officialAnswer": "C",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "E",
+          "origin": [
+            289.1339111328125,
+            207.43798828125
+          ],
+          "ink": [
+            289.6666666666667,
+            199.33333333333334,
+            298.6666666666667,
+            208.33333333333334
+          ],
+          "sides": [
+            "top"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-114",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 9,
+      "roles": [
+        "E"
+      ],
+      "description": "Parte inferior de letras/marcador atravessa o limite inferior do recorte.",
+      "answer": "C",
+      "officialAnswer": "C",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "E",
+          "origin": [
+            289.1339111328125,
+            338.9200134277344
+          ],
+          "ink": [
+            289.6666666666667,
+            331.0,
+            298.6666666666667,
+            340.0
+          ],
+          "sides": [
+            "bottom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-115",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 9,
+      "roles": [
+        "statement"
+      ],
+      "description": "Resíduo de glifo da questão anterior no topo do enunciado.",
+      "answer": "B",
+      "officialAnswer": "B",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "E",
+          "origin": [
+            289.1339111328125,
+            338.9200134277344
+          ],
+          "ink": [
+            289.6666666666667,
+            331.0,
+            298.6666666666667,
+            340.0
+          ],
+          "sides": [
+            "top"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-12",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 8,
+      "roles": [
+        "E"
+      ],
+      "description": "Parte inferior de letras/marcador atravessa o limite inferior do recorte.",
+      "answer": "A",
+      "officialAnswer": "A",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "p",
+          "origin": [
+            48.18560028076172,
+            540.0892944335938
+          ],
+          "ink": [
+            48.666666666666664,
+            534.6666666666666,
+            53.333333333333336,
+            542.0
+          ],
+          "sides": [
+            "bottom"
+          ]
+        },
+        {
+          "char": "p",
+          "origin": [
+            129.4810791015625,
+            540.0892944335938
+          ],
+          "ink": [
+            130.0,
+            534.6666666666666,
+            134.66666666666666,
+            542.0
+          ],
+          "sides": [
+            "bottom"
+          ]
+        },
+        {
+          "char": "p",
+          "origin": [
+            150.6190948486328,
+            540.0892944335938
+          ],
+          "ink": [
+            151.33333333333334,
+            534.6666666666666,
+            155.66666666666666,
+            542.0
+          ],
+          "sides": [
+            "bottom"
+          ]
+        },
+        {
+          "char": "p",
+          "origin": [
+            197.77012634277344,
+            540.0892944335938
+          ],
+          "ink": [
+            198.33333333333334,
+            534.6666666666666,
+            203.0,
+            542.0
+          ],
+          "sides": [
+            "bottom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-129",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 13,
+      "roles": [
+        "statement"
+      ],
+      "description": "Resíduo de glifo da questão anterior no topo do enunciado.",
+      "answer": "B",
+      "officialAnswer": "B",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "E",
+          "origin": [
+            289.1339111328125,
+            185.20343017578125
+          ],
+          "ink": [
+            289.6666666666667,
+            177.33333333333334,
+            298.6666666666667,
+            186.33333333333334
+          ],
+          "sides": [
+            "top"
+          ]
+        },
+        {
+          "char": ",",
+          "origin": [
+            311.55938720703125,
+            185.20343017578125
+          ],
+          "ink": [
+            312.3333333333333,
+            184.33333333333334,
+            313.3333333333333,
+            186.66666666666666
+          ],
+          "sides": [
+            "top"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-130",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 14,
+      "roles": [
+        "E"
+      ],
+      "description": "Parte inferior de letras/marcador atravessa o limite inferior do recorte.",
+      "answer": "A",
+      "officialAnswer": "A",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "E",
+          "origin": [
+            31.181100845336914,
+            563.7889404296875
+          ],
+          "ink": [
+            31.666666666666668,
+            555.6666666666666,
+            40.666666666666664,
+            564.6666666666666
+          ],
+          "sides": [
+            "bottom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-131",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 14,
+      "roles": [
+        "statement"
+      ],
+      "description": "Resíduo de glifo da questão anterior no topo do enunciado.",
+      "answer": "E",
+      "officialAnswer": "E",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "E",
+          "origin": [
+            31.181100845336914,
+            563.7889404296875
+          ],
+          "ink": [
+            31.666666666666668,
+            555.6666666666666,
+            40.666666666666664,
+            564.6666666666666
+          ],
+          "sides": [
+            "top"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-14",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 8,
+      "roles": [
+        "statement"
+      ],
+      "description": "Resíduo de glifo da questão anterior no topo do enunciado.",
+      "answer": "B",
+      "officialAnswer": "B",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "p",
+          "origin": [
+            306.1383972167969,
+            207.44940185546875
+          ],
+          "ink": [
+            306.6666666666667,
+            202.0,
+            311.3333333333333,
+            209.66666666666666
+          ],
+          "sides": [
+            "top"
+          ]
+        },
+        {
+          "char": "p",
+          "origin": [
+            348.4046325683594,
+            207.44940185546875
+          ],
+          "ink": [
+            348.6666666666667,
+            202.0,
+            353.3333333333333,
+            209.66666666666666
+          ],
+          "sides": [
+            "top"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-161",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 24,
+      "roles": [
+        "E"
+      ],
+      "description": "Parte inferior de letras/marcador atravessa o limite inferior do recorte.",
+      "answer": "B",
+      "officialAnswer": "B",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "E",
+          "origin": [
+            31.181100845336914,
+            237.32000732421875
+          ],
+          "ink": [
+            31.666666666666668,
+            229.33333333333334,
+            40.666666666666664,
+            238.33333333333334
+          ],
+          "sides": [
+            "bottom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-162",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "page": 24,
+      "roles": [
+        "statement"
+      ],
+      "description": "Resíduo de glifo da questão anterior no topo do enunciado.",
+      "answer": "E",
+      "officialAnswer": "E",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "E",
+          "origin": [
+            31.181100845336914,
+            237.32000732421875
+          ],
+          "ink": [
+            31.666666666666668,
+            229.33333333333334,
+            40.666666666666664,
+            238.33333333333334
+          ],
+          "sides": [
+            "top"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-25",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 12,
+      "roles": [
+        "E"
+      ],
+      "description": "Parte inferior de letras/marcador atravessa o limite inferior do recorte.",
+      "answer": "A",
+      "officialAnswer": "A",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "ç",
+          "origin": [
+            330.4158935546875,
+            399.2037048339844
+          ],
+          "ink": [
+            330.6666666666667,
+            394.0,
+            335.0,
+            401.3333333333333
+          ],
+          "sides": [
+            "bottom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-26",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 12,
+      "roles": [
+        "statement"
+      ],
+      "description": "Resíduo de glifo da questão anterior no topo do enunciado.",
+      "answer": "D",
+      "officialAnswer": "D",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "ç",
+          "origin": [
+            330.4158935546875,
+            399.2037048339844
+          ],
+          "ink": [
+            330.6666666666667,
+            394.0,
+            335.0,
+            401.3333333333333
+          ],
+          "sides": [
+            "top"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-48",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 20,
+      "roles": [
+        "E"
+      ],
+      "description": "Parte inferior de letras/marcador atravessa o limite inferior do recorte.",
+      "answer": "B",
+      "officialAnswer": "B",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "p",
+          "origin": [
+            390.1345520019531,
+            410.7522277832031
+          ],
+          "ink": [
+            390.6666666666667,
+            405.3333333333333,
+            395.3333333333333,
+            412.6666666666667
+          ],
+          "sides": [
+            "bottom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-49",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 20,
+      "roles": [
+        "statement"
+      ],
+      "description": "Resíduo de glifo da questão anterior no topo do enunciado.",
+      "answer": "C",
+      "officialAnswer": "C",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "p",
+          "origin": [
+            390.1345520019531,
+            410.7522277832031
+          ],
+          "ink": [
+            390.6666666666667,
+            405.3333333333333,
+            395.3333333333333,
+            412.6666666666667
+          ],
+          "sides": [
+            "top"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-57",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 23,
+      "roles": [
+        "E"
+      ],
+      "description": "Parte inferior de letras/marcador atravessa o limite inferior do recorte.",
+      "answer": "B",
+      "officialAnswer": "B",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "E",
+          "origin": [
+            31.181100845336914,
+            540.1972045898438
+          ],
+          "ink": [
+            31.666666666666668,
+            532.3333333333334,
+            40.666666666666664,
+            541.3333333333334
+          ],
+          "sides": [
+            "bottom"
+          ]
+        },
+        {
+          "char": "o",
+          "origin": [
+            57.93560028076172,
+            540.1972045898438
+          ],
+          "ink": [
+            57.666666666666664,
+            535.0,
+            63.666666666666664,
+            542.6666666666666
+          ],
+          "sides": [
+            "bottom"
+          ]
+        },
+        {
+          "char": "j",
+          "origin": [
+            63.35660171508789,
+            540.1972045898438
+          ],
+          "ink": [
+            63.333333333333336,
+            533.3333333333334,
+            65.0,
+            542.6666666666666
+          ],
+          "sides": [
+            "bottom"
+          ]
+        },
+        {
+          "char": "ç",
+          "origin": [
+            70.94210052490234,
+            540.1972045898438
+          ],
+          "ink": [
+            71.33333333333333,
+            535.0,
+            75.66666666666667,
+            542.3333333333334
+          ],
+          "sides": [
+            "bottom"
+          ]
+        },
+        {
+          "char": "p",
+          "origin": [
+            110.5075912475586,
+            540.1972045898438
+          ],
+          "ink": [
+            111.0,
+            535.0,
+            115.66666666666667,
+            542.6666666666666
+          ],
+          "sides": [
+            "bottom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enem-2020-58",
+      "severity": "low",
+      "category": "glyph_boundary",
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "page": 23,
+      "roles": [
+        "statement"
+      ],
+      "description": "Resíduo de glifo da questão anterior no topo do enunciado.",
+      "answer": "E",
+      "officialAnswer": "E",
+      "answerChanged": false,
+      "pixelEvidence": [
+        {
+          "char": "E",
+          "origin": [
+            31.181100845336914,
+            540.1972045898438
+          ],
+          "ink": [
+            31.666666666666668,
+            532.3333333333334,
+            40.666666666666664,
+            541.3333333333334
+          ],
+          "sides": [
+            "top"
+          ]
+        },
+        {
+          "char": "o",
+          "origin": [
+            57.93560028076172,
+            540.1972045898438
+          ],
+          "ink": [
+            57.666666666666664,
+            535.0,
+            63.666666666666664,
+            542.6666666666666
+          ],
+          "sides": [
+            "top"
+          ]
+        },
+        {
+          "char": "j",
+          "origin": [
+            63.35660171508789,
+            540.1972045898438
+          ],
+          "ink": [
+            63.333333333333336,
+            533.3333333333334,
+            65.0,
+            542.6666666666666
+          ],
+          "sides": [
+            "top"
+          ]
+        },
+        {
+          "char": "ç",
+          "origin": [
+            70.94210052490234,
+            540.1972045898438
+          ],
+          "ink": [
+            71.33333333333333,
+            535.0,
+            75.66666666666667,
+            542.3333333333334
+          ],
+          "sides": [
+            "top"
+          ]
+        },
+        {
+          "char": "p",
+          "origin": [
+            110.5075912475586,
+            540.1972045898438
+          ],
+          "ink": [
+            111.0,
+            535.0,
+            115.66666666666667,
+            542.6666666666666
+          ],
+          "sides": [
+            "top"
+          ]
+        }
+      ]
+    }
+  ],
+  "candidateReviews": [
+    {
+      "id": "enem-2023-137",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "2000 versus 9000"
+    },
+    {
+      "id": "enem-2023-113",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -5 e -3"
+    },
+    {
+      "id": "enem-2023-140",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "mediana igual versus menor que a média"
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "protonação do tiol e do grupo amino"
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "protonação do grupo amino"
+    },
+    {
+      "id": "enem-2022-112",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "300 N versus 360 N"
+    },
+    {
+      "id": "enem-2022-151",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "intervalos de tempo distintos"
+    },
+    {
+      "id": "enem-2022-167",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "R$ 100 versus R$ 200"
+    },
+    {
+      "id": "enem-2023-146",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "B"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "somas 7 e 9"
+    },
+    {
+      "id": "enem-2023-146",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "somas 7/9 versus 9/12"
+    },
+    {
+      "id": "enem-2017-93",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes 0 e 6"
+    },
+    {
+      "id": "enem-2017-113",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "resíduos 2 e 3"
+    },
+    {
+      "id": "enem-2017-166",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "argumentos 3πt e 2πt"
+    },
+    {
+      "id": "enem-2017-179",
+      "category": "similar_option_images",
+      "options": [
+        "D",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "0,600 versus 0,800"
+    },
+    {
+      "id": "enem-2017-180",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "intervalos de horário distintos"
+    },
+    {
+      "id": "enem-2018-122",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "instável versus estável"
+    },
+    {
+      "id": "enem-2018-122",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "estável versus instável"
+    },
+    {
+      "id": "enem-2018-139",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "numeradores e parcelas distintos"
+    },
+    {
+      "id": "enem-2018-139",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "numeradores e parcelas distintos"
+    },
+    {
+      "id": "enem-2018-141",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "520000 versus 528000"
+    },
+    {
+      "id": "enem-2018-142",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "igualdade versus desigualdade entre forças"
+    },
+    {
+      "id": "enem-2018-152",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "x ≤ y versus x + y"
+    },
+    {
+      "id": "enem-2018-171",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "105 versus 120 graus"
+    },
+    {
+      "id": "enem-2018-171",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "105 versus 135 graus"
+    },
+    {
+      "id": "enem-2018-171",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "120 versus 135 graus"
+    },
+    {
+      "id": "enem-2019-140",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -2 e -3"
+    },
+    {
+      "id": "enem-2019-140",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -2 e -5"
+    },
+    {
+      "id": "enem-2019-140",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -3 e -4"
+    },
+    {
+      "id": "enem-2019-140",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -3 e -5"
+    },
+    {
+      "id": "enem-2019-140",
+      "category": "similar_option_images",
+      "options": [
+        "D",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -4 e -5"
+    },
+    {
+      "id": "enem-2019-142",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "B"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "áreas 21 e 24"
+    },
+    {
+      "id": "enem-2019-142",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "áreas 21 e 48"
+    },
+    {
+      "id": "enem-2019-142",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "áreas 24 e 48"
+    },
+    {
+      "id": "enem-2019-142",
+      "category": "similar_option_images",
+      "options": [
+        "D",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "áreas 108 e 120"
+    },
+    {
+      "id": "enem-2019-152",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "6000 versus 6200"
+    },
+    {
+      "id": "enem-2019-152",
+      "category": "similar_option_images",
+      "options": [
+        "D",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "15000 versus 15500"
+    },
+    {
+      "id": "enem-2019-153",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "B"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "1340 versus 1349"
+    },
+    {
+      "id": "enem-2019-157",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "B"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "quantidades de hexágonos distintas"
+    },
+    {
+      "id": "enem-2019-168",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "constantes 1000 e 1080"
+    },
+    {
+      "id": "enem-2020-96",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -3 e -1"
+    },
+    {
+      "id": "enem-2020-107",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes 0 e 6"
+    },
+    {
+      "id": "enem-2020-116",
+      "category": "similar_option_images",
+      "options": [
+        "D",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "intervalos B-E e A-E"
+    },
+    {
+      "id": "enem-2020-144",
+      "category": "similar_option_images",
+      "options": [
+        "D",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -2 e -3"
+    },
+    {
+      "id": "enem-2020-154",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -3 e -4"
+    },
+    {
+      "id": "enem-2020-154",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -3 e -6"
+    },
+    {
+      "id": "enem-2020-154",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -3 e -7"
+    },
+    {
+      "id": "enem-2020-154",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -4 e -6"
+    },
+    {
+      "id": "enem-2020-154",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -4 e -7"
+    },
+    {
+      "id": "enem-2020-154",
+      "category": "similar_option_images",
+      "options": [
+        "D",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -6 e -7"
+    },
+    {
+      "id": "enem-2020-155",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes 99 e 97"
+    },
+    {
+      "id": "enem-2020-155",
+      "category": "similar_option_images",
+      "options": [
+        "D",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "expoentes -98 e -99"
+    },
+    {
+      "id": "enem-2021-94",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "30 versus 50 m/s"
+    },
+    {
+      "id": "enem-2021-145",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "pares 20/60 e 20/80"
+    },
+    {
+      "id": "enem-2021-178",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "1600000 versus 1900000"
+    },
+    {
+      "id": "enem-2021-180",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "2,30 versus 2,36"
+    },
+    {
+      "id": "enem-2021-180",
+      "category": "similar_option_images",
+      "options": [
+        "D",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "2,36 versus 2,95"
+    },
+    {
+      "id": "enem-2024-101",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "3,0 versus 8,0 m"
+    },
+    {
+      "id": "enem-2024-139",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "B"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "R$ 7 versus R$ 4"
+    },
+    {
+      "id": "enem-2024-152",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "C"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "ordens diferentes dos índices S"
+    },
+    {
+      "id": "enem-2024-152",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "ordens diferentes dos índices S"
+    },
+    {
+      "id": "enem-2024-152",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "ordens diferentes dos índices S"
+    },
+    {
+      "id": "enem-2018-149",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "B"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "40 versus 50 cm"
+    },
+    {
+      "id": "enem-2019-119",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "relação de densidades diferente"
+    },
+    {
+      "id": "enem-2019-119",
+      "category": "similar_option_images",
+      "options": [
+        "B",
+        "E"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "relação entre massas diferente"
+    },
+    {
+      "id": "enem-2019-119",
+      "category": "similar_option_images",
+      "options": [
+        "C",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "relação de densidades diferente"
+    },
+    {
+      "id": "enem-2021-156",
+      "category": "similar_option_images",
+      "options": [
+        "A",
+        "D"
+      ],
+      "resolution": "distinct_options",
+      "evidence": "coeficientes -3 e -6"
+    },
+    {
+      "id": "enem-2023-135",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "false_positive",
+      "evidence": "Caixas de máscaras de imagem no próprio PDF; figura, escala e texto íntegros."
+    },
+    {
+      "id": "enem-2022-64",
+      "category": "crop_boundary",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2022-64",
+      "category": "crop_boundary",
+      "role": "B",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2022-64",
+      "category": "crop_boundary",
+      "role": "C",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "confirmed_major",
+      "evidence": "Estrutura/numerador de alternativa atribuído ao recorte anterior; confirmado comparando PDF e imagens individuais."
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "crop_boundary",
+      "role": "A",
+      "resolution": "confirmed_major",
+      "evidence": "Estrutura/numerador de alternativa atribuído ao recorte anterior; confirmado comparando PDF e imagens individuais."
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "crop_boundary",
+      "role": "B",
+      "resolution": "confirmed_major",
+      "evidence": "Estrutura/numerador de alternativa atribuído ao recorte anterior; confirmado comparando PDF e imagens individuais."
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "crop_boundary",
+      "role": "C",
+      "resolution": "confirmed_major",
+      "evidence": "Estrutura/numerador de alternativa atribuído ao recorte anterior; confirmado comparando PDF e imagens individuais."
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "crop_boundary",
+      "role": "D",
+      "resolution": "confirmed_major",
+      "evidence": "Estrutura/numerador de alternativa atribuído ao recorte anterior; confirmado comparando PDF e imagens individuais."
+    },
+    {
+      "id": "enem-2020-6",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2020-12",
+      "category": "crop_boundary",
+      "role": "E",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-14",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-25",
+      "category": "crop_boundary",
+      "role": "E",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-26",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-48",
+      "category": "crop_boundary",
+      "role": "E",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-49",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-57",
+      "category": "crop_boundary",
+      "role": "E",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-58",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-105",
+      "category": "crop_boundary",
+      "role": "E",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2020-107",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-114",
+      "category": "crop_boundary",
+      "role": "E",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-115",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-124",
+      "category": "crop_boundary",
+      "role": "E",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2020-125",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2020-129",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-136",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2020-137",
+      "category": "crop_boundary",
+      "role": "D",
+      "resolution": "confirmed_major",
+      "evidence": "Estrutura/numerador de alternativa atribuído ao recorte anterior; confirmado comparando PDF e imagens individuais."
+    },
+    {
+      "id": "enem-2020-137",
+      "category": "crop_boundary",
+      "role": "E",
+      "resolution": "confirmed_major",
+      "evidence": "Estrutura/numerador de alternativa atribuído ao recorte anterior; confirmado comparando PDF e imagens individuais."
+    },
+    {
+      "id": "enem-2020-161",
+      "category": "crop_boundary",
+      "role": "E",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-162",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-94",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2020-94",
+      "category": "crop_boundary",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2020-94",
+      "category": "crop_boundary",
+      "role": "B",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2020-94",
+      "category": "crop_boundary",
+      "role": "C",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2020-94",
+      "category": "crop_boundary",
+      "role": "D",
+      "resolution": "false_positive",
+      "evidence": "Caixa métrica atravessa o limite, mas o conteúdo visível correspondente está íntegro; comparação do recorte e PDF ampliado."
+    },
+    {
+      "id": "enem-2020-130",
+      "category": "crop_boundary",
+      "role": "E",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2020-131",
+      "category": "crop_boundary",
+      "role": "statement",
+      "resolution": "confirmed_minor",
+      "evidence": "Pixels de glifos atravessam o limite; há corte de descendentes/marcador ou resíduo da questão anterior, visível na comparação ampliada."
+    },
+    {
+      "id": "enem-2023-64",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2023-155",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2023-42",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "confirmed_major",
+      "evidence": "Parte superior da fórmula está no recorte anterior."
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "premarker_layout",
+      "role": "B",
+      "resolution": "confirmed_major",
+      "evidence": "Parte superior da fórmula está no recorte anterior."
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "premarker_layout",
+      "role": "C",
+      "resolution": "confirmed_major",
+      "evidence": "Parte superior da fórmula está no recorte anterior."
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "premarker_layout",
+      "role": "D",
+      "resolution": "confirmed_major",
+      "evidence": "Parte superior da fórmula está no recorte anterior."
+    },
+    {
+      "id": "enem-2022-106",
+      "category": "premarker_layout",
+      "role": "E",
+      "resolution": "confirmed_major",
+      "evidence": "Parte superior da fórmula está no recorte anterior."
+    },
+    {
+      "id": "enem-2022-107",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2022-108",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2022-119",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2022-120",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2023-5-espanhol",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2023-142",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2023-180",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2018-3-ingles",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2018-8",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2018-98",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2018-134",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-19",
+      "category": "premarker_layout",
+      "role": "D",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-24",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-27",
+      "category": "premarker_layout",
+      "role": "E",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-36",
+      "category": "premarker_layout",
+      "role": "E",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-105",
+      "category": "premarker_layout",
+      "role": "D",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-124",
+      "category": "premarker_layout",
+      "role": "B",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-124",
+      "category": "premarker_layout",
+      "role": "D",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-137",
+      "category": "premarker_layout",
+      "role": "E",
+      "resolution": "confirmed_major",
+      "evidence": "Parte superior da fórmula está no recorte anterior."
+    },
+    {
+      "id": "enem-2020-148",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-161",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-168",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2020-179",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    },
+    {
+      "id": "enem-2024-92",
+      "category": "premarker_layout",
+      "role": "A",
+      "resolution": "false_positive",
+      "evidence": "Conteúdo acima do marcador pertence ao enunciado ou à alternativa anterior; alternativa atual íntegra."
+    }
+  ]
+}

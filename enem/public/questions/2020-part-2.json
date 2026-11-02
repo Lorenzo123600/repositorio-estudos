@@ -2322,17 +2322,17 @@
         },
         {
           "file": "enem-assets/official/2020/130/E.webp",
-          "sha256": "d4edccc55801a2970968c2afbb53ddd1af95a9ff85b7919955e8ef327f32177e",
+          "sha256": "a62bcb3d96347e4ce0f91226f49a78b65d47ec0daa0e34a8808e772dd34a908a",
           "page": 14,
           "rect": [
             23.181100845336914,
             554.64892578125,
             565.9290161132812,
-            564.2289428710938
+            565.0
           ],
           "role": "E",
           "width": 1086,
-          "height": 20
+          "height": 21
         }
       ]
     },
@@ -2385,7 +2385,7 @@
       "file": "enem-assets/official/2020/131/statement.webp",
       "source": "references/enem-1000/originals/2020-2-prova.pdf",
       "page": 14,
-      "transcript": "E\nQuestão 131                \nA  Química Verde é um ramo da química que prega o desenvolvimento de processos eficientes, que transformem a maior \nparte do reagente em produto, de forma mais rápida e seletiva, que utilizem poucos reagentes, que produzam somente o \nproduto desejado, evitando a formação de coprodutos, e que utilizem solventes não agressivos ao meio ambiente. Assim, \nas indústrias contornariam problemas relacionados à poluição ambiental e ao desperdício de água e energia.\nO perfil de um processo que segue todos os princípios desse ramo da química pode ser representado por:"
+      "transcript": "Questão 131                \nA  Química Verde é um ramo da química que prega o desenvolvimento de processos eficientes, que transformem a maior \nparte do reagente em produto, de forma mais rápida e seletiva, que utilizem poucos reagentes, que produzam somente o \nproduto desejado, evitando a formação de coprodutos, e que utilizem solventes não agressivos ao meio ambiente. Assim, \nas indústrias contornariam problemas relacionados à poluição ambiental e ao desperdício de água e energia.\nO perfil de um processo que segue todos os princípios desse ramo da química pode ser representado por:"
     },
     "alternatives": [
       {
@@ -2465,17 +2465,17 @@
       "assets": [
         {
           "file": "enem-assets/official/2020/131/statement.webp",
-          "sha256": "dbc64e6ff4cf8f7bc384d5da9ddb6d8ffc93f5d0dac040bbc1dc6db995178e5f",
+          "sha256": "33bde58cd076f5577995af205cab6328ea7df8ad29f9c47ba8cfa5a46859cd1a",
           "page": 14,
           "rect": [
             23.181100845336914,
-            564.2289428710938,
+            565.0,
             565.9290161132812,
             657.65283203125
           ],
           "role": "statement",
           "width": 1086,
-          "height": 188
+          "height": 186
         },
         {
           "file": "enem-assets/official/2020/131/A.webp",

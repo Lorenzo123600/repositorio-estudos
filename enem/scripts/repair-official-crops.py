@@ -36,6 +36,11 @@ def run(write=False):
             doc = documents[source]
             asset = q['validation']['assets'][-1]
             page = doc[asset['page']-1]
+            reviewed = imp.segment.reviewed_rectangles(q['validation']['statementSha256'],q['number'],q.get('language'),asset['page'])
+            if 'E' in reviewed:
+                if asset['rect'] != reviewed['E']:
+                    raise ValueError(q['id']+': recorte diverge da revisão oficial; execute repair-reviewed-content.py')
+                continue
             left, top, right, old_bottom = asset['rect']
             # Discover the next heading independently of the published crop.
             headings = [line for block in page.get_text('dict')['blocks']

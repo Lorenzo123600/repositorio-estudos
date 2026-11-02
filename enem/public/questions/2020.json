@@ -3173,17 +3173,17 @@
         },
         {
           "file": "enem-assets/official/2020/12/E.webp",
-          "sha256": "4f5ae9e23a1c51c73080f23b83029e27b97ab6ce0cef5079441a3284d15c3c34",
+          "sha256": "7c60d7b8ada2056515d88228ad2d06168d27b5f65001cfce387acb176b9da102",
           "page": 8,
           "rect": [
             23.181100845336914,
             519.249267578125,
             282.4645080566406,
-            540.529296875
+            542.5
           ],
           "role": "E",
           "width": 519,
-          "height": 44
+          "height": 47
         }
       ]
     },
@@ -3236,7 +3236,7 @@
       "file": "enem-assets/official/2020/14/statement.webp",
       "source": "references/enem-1000/originals/2020-1-prova.pdf",
       "page": 8,
-      "transcript": "p\np\nQuestão 14          \nTEXTO I\nHIRST, D. Mother and Child. Bezerro dividido em duas partes: 1029 x \n1689 x 625mm, 1993 (detalhe). Vidro, aço pintado, silicone, acrílico, \nmonofilamento, aço inoxidável, bezerro e solução de formaldeído.\nTEXTO II\nO grupo Jovens Artistas Britânicos (YABs), que surgiu \nno final da década de 1980, possui obras diversificadas \nque incluem fotografias, instalações, pinturas e carcaças \ndesmembradas. O trabalho desses artistas chamou \na atenção no final do período da recessão, por utilizar \nmateriais incomuns, como esterco de elefantes, sangue \ne legumes, o que expressava os detritos da vida e uma \natmosfera de niilismo, temperada por um humor mordaz.\nDisponível em: http://damienhirst.com. Acesso em: 15 jul. 2015.\nFARTHING, S. Tudo sobre arte. Rio de Janeiro: Sextante, 2011 (adaptado).\nA provocação desse grupo gera um debate em torno da \nobra de arte pelo(a)"
+      "transcript": "Questão 14          \nTEXTO I\nHIRST, D. Mother and Child. Bezerro dividido em duas partes: 1029 x \n1689 x 625mm, 1993 (detalhe). Vidro, aço pintado, silicone, acrílico, \nmonofilamento, aço inoxidável, bezerro e solução de formaldeído.\nTEXTO II\nO grupo Jovens Artistas Britânicos (YABs), que surgiu \nno final da década de 1980, possui obras diversificadas \nque incluem fotografias, instalações, pinturas e carcaças \ndesmembradas. O trabalho desses artistas chamou \na atenção no final do período da recessão, por utilizar \nmateriais incomuns, como esterco de elefantes, sangue \ne legumes, o que expressava os detritos da vida e uma \natmosfera de niilismo, temperada por um humor mordaz.\nDisponível em: http://damienhirst.com. Acesso em: 15 jul. 2015.\nFARTHING, S. Tudo sobre arte. Rio de Janeiro: Sextante, 2011 (adaptado).\nA provocação desse grupo gera um debate em torno da \nobra de arte pelo(a)"
     },
     "alternatives": [
       {
@@ -3316,17 +3316,17 @@
       "assets": [
         {
           "file": "enem-assets/official/2020/14/statement.webp",
-          "sha256": "2b44d6fb6ecac1ebcb2e00c1dac3b6e9535b26fdec4ae57e2c85bb729d98280f",
+          "sha256": "17bf4d065fedad6c75bf8b12c7c48994e28c9dff8f8c6f503e5019e52ced5813",
           "page": 8,
           "rect": [
             285.4645080566406,
-            207.89141845703125,
+            210.0,
             546.1339111328125,
             616.9343872070312
           ],
           "role": "statement",
           "width": 523,
-          "height": 819
+          "height": 814
         },
         {
           "file": "enem-assets/official/2020/14/A.webp",
@@ -5303,17 +5303,17 @@
         },
         {
           "file": "enem-assets/official/2020/25/E.webp",
-          "sha256": "66fdf0bf4c47214fb0153592ade6ff91c9f6d0a69aec3cbb38494a2d869b80de",
+          "sha256": "ba564b02ef327045d1e6440641fc849b9359674320f6be34b8ceab31346d7613",
           "page": 12,
           "rect": [
             285.4645080566406,
             379.56573486328125,
             546.1339111328125,
-            399.6457214355469
+            401.5
           ],
           "role": "E",
           "width": 523,
-          "height": 41
+          "height": 44
         }
       ]
     },
@@ -5366,7 +5366,7 @@
       "file": "enem-assets/official/2020/26/statement.webp",
       "source": "references/enem-1000/originals/2020-1-prova.pdf",
       "page": 12,
-      "transcript": "i\nç\nQuestão 26          \nDisponível em: www.iotforall.com. Acesso em: 22 jun. 2018.\nA realidade virtual é uma tecnologia de informação que, \nconforme sugere a imagem, tem como uma de suas \nprincipais funçõesi"
+      "transcript": "i\nQuestão 26          \nDisponível em: www.iotforall.com. Acesso em: 22 jun. 2018.\nA realidade virtual é uma tecnologia de informação que, \nconforme sugere a imagem, tem como uma de suas \nprincipais funçõesi"
     },
     "alternatives": [
       {
@@ -5446,17 +5446,17 @@
       "assets": [
         {
           "file": "enem-assets/official/2020/26/statement.webp",
-          "sha256": "a382f7696c742e26b7a6f49d45bf926ade1a91ac4f7992ee9527af6d220cdee1",
+          "sha256": "6ddfba8b02d4def9e7868a67025ea8863bf3ffa8da6f447eb9909c056cb02e84",
           "page": 12,
           "rect": [
             285.4645080566406,
-            399.6457214355469,
+            401.5,
             546.1339111328125,
             561.0830078125
           ],
           "role": "statement",
           "width": 523,
-          "height": 324
+          "height": 320
         },
         {
           "file": "enem-assets/official/2020/26/A.webp",
@@ -9563,17 +9563,17 @@
         },
         {
           "file": "enem-assets/official/2020/48/E.webp",
-          "sha256": "645f03827d9107a841013b1f976c8231adb3f54d7a2c3f9d6748ac5882f9a945",
+          "sha256": "7f44b23d94cf7b8dda3c424327f68cc9c010d06777dade057680b8c3c1138e33",
           "page": 20,
           "rect": [
             285.4645080566406,
             385.91473388671875,
             546.1339111328125,
-            411.1947326660156
+            413.0
           ],
           "role": "E",
           "width": 523,
-          "height": 52
+          "height": 55
         }
       ]
     },
@@ -9626,7 +9626,7 @@
       "file": "enem-assets/official/2020/49/statement.webp",
       "source": "references/enem-1000/originals/2020-1-prova.pdf",
       "page": 20,
-      "transcript": "p\nQuestão 49          \nA propriedade compreende, em seu conteúdo e alcance, \nalém do tradicional direito de uso, gozo e disposição por \nparte de seu titular, a obrigatoriedade do atendimento de \nsua função social, cuja definição é inseparável do requisito \nobrigatório do uso racional da propriedade e dos recursos \nambientais que lhe são integrantes. O proprietário, como \nmembro integrante da comunidade, se sujeita a obrigações \ncrescentes que, ultrapassando os limites do direito de \nvizinhança, no âmbito do direito privado, abrangem o campo \ndos direitos da coletividade, visando  o bem-estar geral, no \nâmbito do direito público.\nJELINEK, R. O princípio da função social da propriedade e sua repercussão sobre o \nsistema do Código Civil. Disponível em: www.mp.rs.gov.br. Acesso em: 20 fev. 2013.\nOs movimentos em prol da reforma agrária, que \natuam com base no conceito de direito à propriedade \napresentado no texto, propõem-se a"
+      "transcript": "Questão 49          \nA propriedade compreende, em seu conteúdo e alcance, \nalém do tradicional direito de uso, gozo e disposição por \nparte de seu titular, a obrigatoriedade do atendimento de \nsua função social, cuja definição é inseparável do requisito \nobrigatório do uso racional da propriedade e dos recursos \nambientais que lhe são integrantes. O proprietário, como \nmembro integrante da comunidade, se sujeita a obrigações \ncrescentes que, ultrapassando os limites do direito de \nvizinhança, no âmbito do direito privado, abrangem o campo \ndos direitos da coletividade, visando  o bem-estar geral, no \nâmbito do direito público.\nJELINEK, R. O princípio da função social da propriedade e sua repercussão sobre o \nsistema do Código Civil. Disponível em: www.mp.rs.gov.br. Acesso em: 20 fev. 2013.\nOs movimentos em prol da reforma agrária, que \natuam com base no conceito de direito à propriedade \napresentado no texto, propõem-se a"
     },
     "alternatives": [
       {
@@ -9706,17 +9706,17 @@
       "assets": [
         {
           "file": "enem-assets/official/2020/49/statement.webp",
-          "sha256": "c94a6d79559d2bc58deb70e10b18115c66ca08afdf88e07028b73b96886c82ca",
+          "sha256": "6fbe248faa08e6167a3d51c60c7af6591f8dec685ad56f1340e9e0fa960b4806",
           "page": 20,
           "rect": [
             285.4645080566406,
-            411.1947326660156,
+            413.0,
             546.1339111328125,
             646.7525024414062
           ],
           "role": "statement",
           "width": 523,
-          "height": 472
+          "height": 468
         },
         {
           "file": "enem-assets/official/2020/49/A.webp",
@@ -11054,17 +11054,17 @@
         },
         {
           "file": "enem-assets/official/2020/57/E.webp",
-          "sha256": "75a73ec6f8fd7e030a27ee202bbf3c0f0ef4c86d0d8cb7231c333d2e464a4f52",
+          "sha256": "4057332a9d712db598f5d3104105ece8ab63355b1d5e95060b7508cef58ef622",
           "page": 23,
           "rect": [
             23.181100845336914,
             531.0571899414062,
             282.4645080566406,
-            540.63720703125
+            543.0
           ],
           "role": "E",
           "width": 519,
-          "height": 20
+          "height": 24
         }
       ]
     },
@@ -11117,7 +11117,7 @@
       "file": "enem-assets/official/2020/58/statement.webp",
       "source": "references/enem-1000/originals/2020-1-prova.pdf",
       "page": 23,
-      "transcript": "E\nj ç\np\nQuestão 58          \nO planejamento deixou de controlar o crescimento \nurbano e passou a encorajá-lo por todos os meios \npossíveis e imagináveis. Cidades, a nova mensagem \nsoou em alto e bom som, eram máquinas de produzir \nriquezas; o primeiro e principal objetivo do planejamento \ndevia ser o de azeitar a máquina.\nHALL, P. Cidades do amanhã: uma história intelectual do planejamento e do projeto \nurbanos no século XX. São Paulo: Perspectiva, 2016 (adaptado).\nO modelo de planejamento urbano problematizado no \ntexto é marcado pelo(a)"
+      "transcript": "Questão 58          \nO planejamento deixou de controlar o crescimento \nurbano e passou a encorajá-lo por todos os meios \npossíveis e imagináveis. Cidades, a nova mensagem \nsoou em alto e bom som, eram máquinas de produzir \nriquezas; o primeiro e principal objetivo do planejamento \ndevia ser o de azeitar a máquina.\nHALL, P. Cidades do amanhã: uma história intelectual do planejamento e do projeto \nurbanos no século XX. São Paulo: Perspectiva, 2016 (adaptado).\nO modelo de planejamento urbano problematizado no \ntexto é marcado pelo(a)"
     },
     "alternatives": [
       {
@@ -11197,17 +11197,17 @@
       "assets": [
         {
           "file": "enem-assets/official/2020/58/statement.webp",
-          "sha256": "467b73c12d1b44b46a044b207fdc9d71760a2782d0e100d6845e032607834d5b",
+          "sha256": "7549ddcdaab681d1322f22c9a81674103df9baa80509c9a8be9cc76c02fbe681",
           "page": 23,
           "rect": [
             23.181100845336914,
-            540.63720703125,
+            543.0,
             282.4645080566406,
             669.5256958007812
           ],
           "role": "statement",
           "width": 519,
-          "height": 259
+          "height": 254
         },
         {
           "file": "enem-assets/official/2020/58/A.webp",
@@ -17933,7 +17933,7 @@
       "file": "enem-assets/official/2020/107/statement.webp",
       "source": "references/enem-1000/originals/2020-2-prova.pdf",
       "page": 7,
-      "transcript": "E\nQuestão 107        \nA Torre Eiﬀ el, com seus 324 metros de altura, feita \ncom treliças de ferro, pesava 7 300 toneladas quando \nterminou de ser construída em 1889. Um arquiteto \nresolve construir um protótipo dessa torre em escala \n1:100, usando os mesmos materiais (cada dimensão \nlinear em escala de 1:100 do monumento real). \nConsidere que a torre real tenha uma massa Mtorre\ne exerça na fundação sobre a qual foi erguida uma \npressão Ptorre. O modelo construído pelo arquiteto terá \numa massa Mmodelo e exercerá uma pressão Pmodelo.\nComo a pressão exercida pela torre se compara  com a \npressão exercida pelo protótipo? Ou seja, qual é a razão \nentre as pressões (Ptorre)/(Pmodelo) ?"
+      "transcript": "Questão 107        \nA Torre Eiﬀ el, com seus 324 metros de altura, feita \ncom treliças de ferro, pesava 7 300 toneladas quando \nterminou de ser construída em 1889. Um arquiteto \nresolve construir um protótipo dessa torre em escala \n1:100, usando os mesmos materiais (cada dimensão \nlinear em escala de 1:100 do monumento real). \nConsidere que a torre real tenha uma massa Mtorre\ne exerça na fundação sobre a qual foi erguida uma \npressão Ptorre. O modelo construído pelo arquiteto terá \numa massa Mmodelo e exercerá uma pressão Pmodelo.\nComo a pressão exercida pela torre se compara  com a \npressão exercida pelo protótipo? Ou seja, qual é a razão \nentre as pressões (Ptorre)/(Pmodelo) ?"
     },
     "alternatives": [
       {
@@ -18013,17 +18013,17 @@
       "assets": [
         {
           "file": "enem-assets/official/2020/107/statement.webp",
-          "sha256": "a78cdc40e30d6e05c8fc8e6f422452bd3617c199fe205ee58599c30fcf43d483",
+          "sha256": "d8883f256f8f08d0355336820ca104dc24542ea3d9b9abbf3b19f58282f9c3fd",
           "page": 7,
           "rect": [
             285.4645080566406,
-            207.87799072265625,
+            209.0,
             546.1339111328125,
             672.844482421875
           ],
           "role": "statement",
           "width": 523,
-          "height": 931
+          "height": 928
         },
         {
           "file": "enem-assets/official/2020/107/A.webp",
@@ -19361,17 +19361,17 @@
         },
         {
           "file": "enem-assets/official/2020/114/E.webp",
-          "sha256": "bb10f171c2ceb43bdf79d4450b4fdc59c71ea05f64393cb01c492fb44f263648",
+          "sha256": "bd200833cccd6c4c1c5c07c6f72d3faa80357a9c9b25f1c52d9ce8d4cabb152a",
           "page": 9,
           "rect": [
             285.4645080566406,
             329.780029296875,
             546.1339111328125,
-            339.3600158691406
+            340.5
           ],
           "role": "E",
           "width": 523,
-          "height": 20
+          "height": 22
         }
       ]
     },
@@ -19424,7 +19424,7 @@
       "file": "enem-assets/official/2020/115/statement.webp",
       "source": "references/enem-1000/originals/2020-2-prova.pdf",
       "page": 9,
-      "transcript": "E\nQuestão 115        \nInstituições acadêmicas e de pesquisa no mundo estão \ninserindo genes em genomas de plantas que possam \ncodificar produtos de interesse farmacológico. No Brasil, \nestá sendo desenvolvida uma variedade de soja com um \nviricida ou microbicida capaz de prevenir a contaminação \npelo vírus causador da aids. Essa leguminosa está sendo \ninduzida a produzir a enzima cianovirina-N, que tem \neficiência comprovada contra o vírus.\nOLIVEIRA, M. Remédio na planta. Pesquisa Fapesp, n. 206, abr. 2013.\nA técnica para gerar essa leguminosa é um exemplo de"
+      "transcript": "Questão 115        \nInstituições acadêmicas e de pesquisa no mundo estão \ninserindo genes em genomas de plantas que possam \ncodificar produtos de interesse farmacológico. No Brasil, \nestá sendo desenvolvida uma variedade de soja com um \nviricida ou microbicida capaz de prevenir a contaminação \npelo vírus causador da aids. Essa leguminosa está sendo \ninduzida a produzir a enzima cianovirina-N, que tem \neficiência comprovada contra o vírus.\nOLIVEIRA, M. Remédio na planta. Pesquisa Fapesp, n. 206, abr. 2013.\nA técnica para gerar essa leguminosa é um exemplo de"
     },
     "alternatives": [
       {
@@ -19504,17 +19504,17 @@
       "assets": [
         {
           "file": "enem-assets/official/2020/115/statement.webp",
-          "sha256": "f4cd75cdeef03694f8440dbe3ff40bd27e1af02037cdbe612df1939e3e3407e9",
+          "sha256": "3ce3c1bbbea5053ac261bdce6ce36ffd22c1eb4fcd9404a781368f19a5465c58",
           "page": 9,
           "rect": [
             285.4645080566406,
-            339.3600158691406,
+            340.5,
             546.1339111328125,
             502.1533203125
           ],
           "role": "statement",
           "width": 523,
-          "height": 327
+          "height": 324
         },
         {
           "file": "enem-assets/official/2020/115/A.webp",
@@ -21980,7 +21980,7 @@
       "file": "enem-assets/official/2020/129/statement.webp",
       "source": "references/enem-1000/originals/2020-2-prova.pdf",
       "page": 13,
-      "transcript": "E\n,\nQuestão 129        \nEm uma pesquisa estão sendo testados \ncinco quimioterápicos quanto à sua capacidade \nantitumoral. No entanto, para o tratamento de \npacientes, sabe-se que é necessário verificar também \no quanto cada composto agride células normais. Para o \nexperimento, partiu-se de cultivos de células tumorais \n(colunas escuras na figura) e células normais (colunas \nclaras) com o mesmo número de células iniciais. \nDois grupos-controle não receberam quimioterápicos: \ncontrole de células tumorais (CT) e de células normais \n(CN). As colunas I, II, III, IV e V correspondem aos \ngrupos tratados com os cinco compostos. O número de \ncélulas viáveis após os tratamentos está representado \npelas colunas.\nNúmero de células (milhão)\n60\n50\n40\n30\n20\n10\n0\nCT\nI\nII\nIII\nIV\nV\nCN\nI\nII\nIII\nIV\nV\nQual quimioterápico deve ser escolhido para tratamento \ndesse tipo de tumor?"
+      "transcript": "Questão 129        \nEm uma pesquisa estão sendo testados \ncinco quimioterápicos quanto à sua capacidade \nantitumoral. No entanto, para o tratamento de \npacientes, sabe-se que é necessário verificar também \no quanto cada composto agride células normais. Para o \nexperimento, partiu-se de cultivos de células tumorais \n(colunas escuras na figura) e células normais (colunas \nclaras) com o mesmo número de células iniciais. \nDois grupos-controle não receberam quimioterápicos: \ncontrole de células tumorais (CT) e de células normais \n(CN). As colunas I, II, III, IV e V correspondem aos \ngrupos tratados com os cinco compostos. O número de \ncélulas viáveis após os tratamentos está representado \npelas colunas.\nNúmero de células (milhão)\n60\n50\n40\n30\n20\n10\n0\nCT\nI\nII\nIII\nIV\nV\nCN\nI\nII\nIII\nIV\nV\nQual quimioterápico deve ser escolhido para tratamento \ndesse tipo de tumor?"
     },
     "alternatives": [
       {
@@ -22060,17 +22060,17 @@
       "assets": [
         {
           "file": "enem-assets/official/2020/129/statement.webp",
-          "sha256": "3babf1b94d21b58ca3a989c7ae82c2773b71cdac481541be6ed6c7c6aa94fd4c",
+          "sha256": "4cb9737f919f82241c82f1d7a2c876fe79358acada680d29dbc154cd262e5013",
           "page": 13,
           "rect": [
             285.4645080566406,
-            185.6434326171875,
+            187.0,
             546.1339111328125,
             569.9285888671875
           ],
           "role": "statement",
           "width": 523,
-          "height": 769
+          "height": 766
         },
         {
           "file": "enem-assets/official/2020/129/A.webp",
@@ -22857,13 +22857,13 @@
         "letter": "D",
         "format": "image",
         "file": "enem-assets/official/2020/137/D.webp",
-        "text": "D  42\n26\n42"
+        "text": "D  42\n26"
       },
       {
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/137/E.webp",
-        "text": "E  16"
+        "text": "E  \n42\n16"
       }
     ],
     "officialAnswer": "A",
@@ -22968,31 +22968,31 @@
         },
         {
           "file": "enem-assets/official/2020/137/D.webp",
-          "sha256": "d763cf36f9f96688b05cc5a4737ea2bf9fe8387fba209212955a85c74a6bc82a",
+          "sha256": "5f8844bb71a0855e58c4e23e053dd2d546a3899ef44190e0e8b4d93994a57242",
           "page": 16,
           "rect": [
             285.4645080566406,
             517.2623901367188,
             546.1339111328125,
-            559.3343505859375
+            546.5
           ],
           "role": "D",
           "width": 523,
-          "height": 85
+          "height": 59
         },
         {
           "file": "enem-assets/official/2020/137/E.webp",
-          "sha256": "85032948aecf73fda55f8bd87de1fe9e3b210dcab7dda19bbe261945b27535e1",
+          "sha256": "1d34a77b121fff25c4e97e6344f2761136aa6bf8488e7bdf6d0abd70a942faf2",
           "page": 16,
           "rect": [
             285.4645080566406,
-            559.3343505859375,
+            546.5,
             546.1339111328125,
             592.3831787109375
           ],
           "role": "E",
           "width": 523,
-          "height": 67
+          "height": 92
         }
       ]
     },
@@ -27028,17 +27028,17 @@
         },
         {
           "file": "enem-assets/official/2020/161/E.webp",
-          "sha256": "b3ffd9a2c01df317bb2b5b7de95c2594f5f1de619d45abd6e5cb74ebef2cd785",
+          "sha256": "95089e647e86e94577ba8bb70bce76e8fb76b86959b302fd0fcc62165e72cdcd",
           "page": 24,
           "rect": [
             23.181100845336914,
             227.29811096191406,
             282.4645080566406,
-            237.760009765625
+            238.5
           ],
           "role": "E",
           "width": 519,
-          "height": 22
+          "height": 23
         }
       ]
     },
@@ -27091,7 +27091,7 @@
       "file": "enem-assets/official/2020/162/statement.webp",
       "source": "references/enem-1000/originals/2020-2-prova.pdf",
       "page": 24,
-      "transcript": "E\nQuestão 162        \nA lei municipal para a edificação de casas em lotes \nde uma cidade determina que sejam obedecidos os \nseguintes critérios:\n•\t afastamento mínimo de 4 m da rua; \n•\t afastamento mínimo de 1 m da divisa com outro lote;\n•\t área total construída da casa entre 40% e 50% da \nárea total do lote. \nUm construtor submeteu para aprovação na \nprefeitura dessa cidade uma planta com propostas para a \nconstrução de casas em seus 5 lotes. Cada lote tem área \nmedindo 200 m². \nA imagem apresenta um esquema, sem escala, \nno qual estão representados os lotes, as ruas e os \nafastamentos considerados nos projetos entre as \ncasas e as divisas dos lotes. As medidas indicadas no \nesquema estão expressas em metro.\n \n1\nRua\nCasa 3\nCasa 5\nCasa 4\nLote\nLote\nCasa 1\nCasa 2\nLote\nLote\n10\n4\n1\n1\n10\n10\n10\n4\n4\n4\n2\n2\n1\n1\n4\n1\n1\n2\n2\n20\n20\n20\nRua\n4\n4\n1\n1\nA prefeitura aprovará apenas a planta da casa"
+      "transcript": "Questão 162        \nA lei municipal para a edificação de casas em lotes \nde uma cidade determina que sejam obedecidos os \nseguintes critérios:\n•\t afastamento mínimo de 4 m da rua; \n•\t afastamento mínimo de 1 m da divisa com outro lote;\n•\t área total construída da casa entre 40% e 50% da \nárea total do lote. \nUm construtor submeteu para aprovação na \nprefeitura dessa cidade uma planta com propostas para a \nconstrução de casas em seus 5 lotes. Cada lote tem área \nmedindo 200 m². \nA imagem apresenta um esquema, sem escala, \nno qual estão representados os lotes, as ruas e os \nafastamentos considerados nos projetos entre as \ncasas e as divisas dos lotes. As medidas indicadas no \nesquema estão expressas em metro.\n \n1\nRua\nCasa 3\nCasa 5\nCasa 4\nLote\nLote\nCasa 1\nCasa 2\nLote\nLote\n10\n4\n1\n1\n10\n10\n10\n4\n4\n4\n2\n2\n1\n1\n4\n1\n1\n2\n2\n20\n20\n20\nRua\n4\n4\n1\n1\nA prefeitura aprovará apenas a planta da casa"
     },
     "alternatives": [
       {
@@ -27171,17 +27171,17 @@
       "assets": [
         {
           "file": "enem-assets/official/2020/162/statement.webp",
-          "sha256": "05e1a41bbef9b124af1a7d8d5d22c78a766c452037a390e03e0b4482e7f38df6",
+          "sha256": "cece86f29292ff791c60904e58072951dffce038b73376b637fcc1758655812f",
           "page": 24,
           "rect": [
             23.181100845336914,
-            237.760009765625,
+            238.5,
             282.4645080566406,
             672.3416137695312
           ],
           "role": "statement",
           "width": 519,
-          "height": 870
+          "height": 868
         },
         {
           "file": "enem-assets/official/2020/162/A.webp",

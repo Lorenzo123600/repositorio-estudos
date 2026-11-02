@@ -5,5 +5,6 @@ export function commercialQuestion(question){
  result.validationStatus=question.validationStatus||question.validation?.status||'legacy';
  result.loaded=true;
  if(question.originalStatement)result.originalStatement={transcript:question.originalStatement.transcript};
+ if(question.alternatives)result.optionTranscripts=question.alternatives.map(a=>a.text||null);
  return result;
 }

@@ -120,6 +120,10 @@ Selecionar uma alternativa de desafio não registra uma resposta até confirmar.
 
 ## Duração personalizada do plano
 
+Cada atividade agora oferece **Praticar este assunto**, que abre diretamente uma seleção revisada de questões daquele tema. O retorno ao plano mantém respostas e a posição do treino após recarga na mesma aba; abrir a prática não marca o dia como concluído. Dias agrupados e revisões espaçadas preservam o destino de cada atividade. As seleções podem repetir questões nos ciclos seguintes.
+
+As etapas de redação oferecem o editor e questões de apoio à argumentação/repertório. O caderno de erros prioriza respostas incorretas; sem erros registrados, identifica explicitamente uma revisão inicial. A conclusão do dia continua sendo uma ação separada, preservando o progresso anterior.
+
 Em Meu plano, escolha a duração (1 a 180 dias) e a data inicial e clique em Aplicar meu plano. O padrão continua sendo 14 dias. Prazos curtos agrupam as 14 atividades-base; prazos longos acrescentam revisões espaçadas desses conteúdos, mantendo a preparação final no último dia. Não há geração automática de novos conteúdos exclusivos para cada dia adicional.
 
 A conclusão é armazenada por atividade estável (`planUnitsDone`); `done` reflete os dias totalmente concluídos no prazo atual. O progresso antigo de 14 dias é convertido sem apagar atividades concluídas. Reduzir o prazo não apaga revisões adicionais já feitas: elas reaparecem ao ampliar o plano novamente. O número de dias concluídos pode mudar com o reagrupamento. A duração e as atividades acompanham a sincronização da conta existente; não é necessário alterar o banco.

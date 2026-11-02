@@ -1,0 +1,4469 @@
+{
+  "recovered": 0,
+  "pending": 446,
+  "written": false,
+  "changes": [],
+  "unresolved": [
+    {
+      "id": "enem-2022-115",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        391.20318603515625,
+        548.319580078125
+      ]
+    },
+    {
+      "id": "enem-2022-116",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        69.84210205078125,
+        158.88043212890625
+      ]
+    },
+    {
+      "id": "enem-2022-120",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        412.8536071777344,
+        299.42340087890625
+      ]
+    },
+    {
+      "id": "enem-2022-12",
+      "role": "statement",
+      "reason": "invalid_character_without_safe_mapping",
+      "font": "ArialMT",
+      "origin": [
+        317.48028564453125,
+        396.4225158691406
+      ]
+    },
+    {
+      "id": "enem-2022-150",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        443.4870910644531,
+        159.2493896484375
+      ]
+    },
+    {
+      "id": "enem-2023-170",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        454.7601013183594,
+        378.0928039550781
+      ]
+    },
+    {
+      "id": "enem-2017-1-espanhol",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        359.28363037109375,
+        668.0370483398438
+      ]
+    },
+    {
+      "id": "enem-2017-1-espanhol",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        387.4708557128906,
+        722.5015258789062
+      ]
+    },
+    {
+      "id": "enem-2017-1-ingles",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        120.51033782958984,
+        212.65582275390625
+      ]
+    },
+    {
+      "id": "enem-2017-2-espanhol",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        261.42236328125,
+        321.98089599609375
+      ]
+    },
+    {
+      "id": "enem-2017-2-espanhol",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        101.73779296875,
+        516.5093383789062
+      ]
+    },
+    {
+      "id": "enem-2017-4-espanhol",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        556.91162109375,
+        312.320556640625
+      ]
+    },
+    {
+      "id": "enem-2017-4-espanhol",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        467.1185302734375,
+        637.3802490234375
+      ]
+    },
+    {
+      "id": "enem-2017-4-ingles",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        68.37567901611328,
+        191.1588134765625
+      ]
+    },
+    {
+      "id": "enem-2017-5-espanhol",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        277.71319580078125,
+        174.35455322265625
+      ]
+    },
+    {
+      "id": "enem-2017-5-espanhol",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        282.0347900390625,
+        695.2723999023438
+      ]
+    },
+    {
+      "id": "enem-2017-5-espanhol",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        95.24429321289062,
+        745.2987060546875
+      ]
+    },
+    {
+      "id": "enem-2017-6",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        429.4674072265625,
+        247.75115966796875
+      ]
+    },
+    {
+      "id": "enem-2017-6",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        351.1521301269531,
+        754.4855346679688
+      ]
+    },
+    {
+      "id": "enem-2017-7",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        281.5130615234375,
+        253.95013427734375
+      ]
+    },
+    {
+      "id": "enem-2017-8",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        184.19927978515625,
+        502.3205871582031
+      ]
+    },
+    {
+      "id": "enem-2017-8",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        84.94829559326172,
+        743.6590576171875
+      ]
+    },
+    {
+      "id": "enem-2017-8",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        84.94829559326172,
+        757.4942626953125
+      ]
+    },
+    {
+      "id": "enem-2017-9",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        395.0466003417969,
+        452.4966125488281
+      ]
+    },
+    {
+      "id": "enem-2017-11",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        192.5785675048828,
+        365.47052001953125
+      ]
+    },
+    {
+      "id": "enem-2017-13",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        352.7803649902344,
+        682.060546875
+      ]
+    },
+    {
+      "id": "enem-2017-14",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        132.74659729003906,
+        152.72760009765625
+      ]
+    },
+    {
+      "id": "enem-2017-14",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        86.03054809570312,
+        323.4708251953125
+      ]
+    },
+    {
+      "id": "enem-2017-14",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        285.28155517578125,
+        366.038330078125
+      ]
+    },
+    {
+      "id": "enem-2017-14",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        100.66529083251953,
+        408.6077880859375
+      ]
+    },
+    {
+      "id": "enem-2017-15",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        93.07979583740234,
+        663.5701293945312
+      ]
+    },
+    {
+      "id": "enem-2017-15",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        91.45154571533203,
+        745.879638671875
+      ]
+    },
+    {
+      "id": "enem-2017-16",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "Arial-BoldMT",
+      "origin": [
+        520.8508911132812,
+        144.0836181640625
+      ]
+    },
+    {
+      "id": "enem-2017-16",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        360.3658752441406,
+        691.5882568359375
+      ]
+    },
+    {
+      "id": "enem-2017-16",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        457.9048767089844,
+        717.0269775390625
+      ]
+    },
+    {
+      "id": "enem-2017-16",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        436.757080078125,
+        759.439453125
+      ]
+    },
+    {
+      "id": "enem-2017-17",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        95.82984161376953,
+        180.64306640625
+      ]
+    },
+    {
+      "id": "enem-2017-17",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        213.09259033203125,
+        420.6935729980469
+      ]
+    },
+    {
+      "id": "enem-2017-19",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        327.6488952636719,
+        378.7879638671875
+      ]
+    },
+    {
+      "id": "enem-2017-19",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        412.9281311035156,
+        683.474853515625
+      ]
+    },
+    {
+      "id": "enem-2017-19",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        508.82904052734375,
+        697.6123657226562
+      ]
+    },
+    {
+      "id": "enem-2017-20",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        140.2621307373047,
+        136.41534423828125
+      ]
+    },
+    {
+      "id": "enem-2017-20",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        273.94232177734375,
+        439.5792236328125
+      ]
+    },
+    {
+      "id": "enem-2017-24",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        457.00213623046875,
+        500.90533447265625
+      ]
+    },
+    {
+      "id": "enem-2017-25",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        68.14710235595703,
+        180.94830322265625
+      ]
+    },
+    {
+      "id": "enem-2017-27",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        541.075927734375,
+        541.595703125
+      ]
+    },
+    {
+      "id": "enem-2017-27",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        382.5763854980469,
+        730.8125610351562
+      ]
+    },
+    {
+      "id": "enem-2017-27",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        351.1521301269531,
+        744.443115234375
+      ]
+    },
+    {
+      "id": "enem-2017-28",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        180.64454650878906,
+        477.5610656738281
+      ]
+    },
+    {
+      "id": "enem-2017-30",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        401.7646179199219,
+        449.66259765625
+      ]
+    },
+    {
+      "id": "enem-2017-31",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        87.22384643554688,
+        152.84814453125
+      ]
+    },
+    {
+      "id": "enem-2017-31",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        169.96832275390625,
+        445.95001220703125
+      ]
+    },
+    {
+      "id": "enem-2017-33",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        472.8808288574219,
+        605.299560546875
+      ]
+    },
+    {
+      "id": "enem-2017-33",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        345.6629333496094,
+        703.5006103515625
+      ]
+    },
+    {
+      "id": "enem-2017-36",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        361.974609375,
+        671.446533203125
+      ]
+    },
+    {
+      "id": "enem-2017-41",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        94.69829559326172,
+        437.65576171875
+      ]
+    },
+    {
+      "id": "enem-2017-41",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        149.54205322265625,
+        507.91326904296875
+      ]
+    },
+    {
+      "id": "enem-2017-43",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "Arial-BoldMT",
+      "origin": [
+        414.7073974609375,
+        542.151611328125
+      ]
+    },
+    {
+      "id": "enem-2017-43",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        358.20135498046875,
+        705.43310546875
+      ]
+    },
+    {
+      "id": "enem-2017-43",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        471.99365234375,
+        759.9160766601562
+      ]
+    },
+    {
+      "id": "enem-2017-46",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        110.20733642578125,
+        201.78253173828125
+      ]
+    },
+    {
+      "id": "enem-2017-46",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        158.06631469726562,
+        336.62255859375
+      ]
+    },
+    {
+      "id": "enem-2017-46",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.86280059814453,
+        378.1292419433594
+      ]
+    },
+    {
+      "id": "enem-2017-47",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        259.53839111328125,
+        453.9715576171875
+      ]
+    },
+    {
+      "id": "enem-2017-48",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        485.9925537109375,
+        138.656982421875
+      ]
+    },
+    {
+      "id": "enem-2017-48",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.5633850097656,
+        245.50054931640625
+      ]
+    },
+    {
+      "id": "enem-2017-49",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        444.0472412109375,
+        348.4443664550781
+      ]
+    },
+    {
+      "id": "enem-2017-49",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        493.6315002441406,
+        533.1103515625
+      ]
+    },
+    {
+      "id": "enem-2017-51",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        118.16189575195312,
+        515.6555786132812
+      ]
+    },
+    {
+      "id": "enem-2017-51",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        244.5947265625,
+        698.5883178710938
+      ]
+    },
+    {
+      "id": "enem-2017-52",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        365.52764892578125,
+        129.653564453125
+      ]
+    },
+    {
+      "id": "enem-2017-53",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        552.57177734375,
+        433.8385314941406
+      ]
+    },
+    {
+      "id": "enem-2017-53",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        380.53863525390625,
+        580.0205078125
+      ]
+    },
+    {
+      "id": "enem-2017-54",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        136.24368286132812,
+        179.4495849609375
+      ]
+    },
+    {
+      "id": "enem-2017-55",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        247.83566284179688,
+        484.265625
+      ]
+    },
+    {
+      "id": "enem-2017-55",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36280059814453,
+        655.487548828125
+      ]
+    },
+    {
+      "id": "enem-2017-56",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        535.1102905273438,
+        213.03692626953125
+      ]
+    },
+    {
+      "id": "enem-2017-56",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        365.2311096191406,
+        381.5574951171875
+      ]
+    },
+    {
+      "id": "enem-2017-56",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        365.2408447265625,
+        409.22894287109375
+      ]
+    },
+    {
+      "id": "enem-2017-57",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        558.0945434570312,
+        532.5115966796875
+      ]
+    },
+    {
+      "id": "enem-2017-60",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        544.449951171875,
+        328.01153564453125
+      ]
+    },
+    {
+      "id": "enem-2017-60",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0633850097656,
+        461.45330810546875
+      ]
+    },
+    {
+      "id": "enem-2017-60",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        526.7300415039062,
+        525.7944946289062
+      ]
+    },
+    {
+      "id": "enem-2017-62",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36280059814453,
+        292.08685302734375
+      ]
+    },
+    {
+      "id": "enem-2017-65",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        483.8926086425781,
+        289.42034912109375
+      ]
+    },
+    {
+      "id": "enem-2017-66",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        358.44915771484375,
+        567.8121337890625
+      ]
+    },
+    {
+      "id": "enem-2017-67",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        91.01280212402344,
+        388.8593444824219
+      ]
+    },
+    {
+      "id": "enem-2017-68",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        298.39080810546875,
+        514.5115966796875
+      ]
+    },
+    {
+      "id": "enem-2017-68",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36280059814453,
+        579.850830078125
+      ]
+    },
+    {
+      "id": "enem-2017-68",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        96.32654571533203,
+        594.6893310546875
+      ]
+    },
+    {
+      "id": "enem-2017-68",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        99.03704071044922,
+        609.52880859375
+      ]
+    },
+    {
+      "id": "enem-2017-69",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        446.11431884765625,
+        130.0535888671875
+      ]
+    },
+    {
+      "id": "enem-2017-73",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        150.4048614501953,
+        152.84814453125
+      ]
+    },
+    {
+      "id": "enem-2017-74",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        103.92179107666016,
+        660.2498779296875
+      ]
+    },
+    {
+      "id": "enem-2017-75",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        436.0465087890625,
+        228.63543701171875
+      ]
+    },
+    {
+      "id": "enem-2017-76",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        356.54595947265625,
+        436.7425842285156
+      ]
+    },
+    {
+      "id": "enem-2017-78",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        282.6138610839844,
+        564.0298461914062
+      ]
+    },
+    {
+      "id": "enem-2017-79",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0633850097656,
+        494.35760498046875
+      ]
+    },
+    {
+      "id": "enem-2017-79",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        347.9053649902344,
+        520.7888793945312
+      ]
+    },
+    {
+      "id": "enem-2017-80",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "Arial-BoldMT",
+      "origin": [
+        463.7025146484375,
+        665.1217041015625
+      ]
+    },
+    {
+      "id": "enem-2017-81",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        109.79509735107422,
+        204.03814697265625
+      ]
+    },
+    {
+      "id": "enem-2017-81",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        147.81629943847656,
+        342.7221374511719
+      ]
+    },
+    {
+      "id": "enem-2017-81",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        274.4298095703125,
+        357.7575988769531
+      ]
+    },
+    {
+      "id": "enem-2017-82",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        127.03311157226562,
+        452.4095764160156
+      ]
+    },
+    {
+      "id": "enem-2017-83",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        430.8193359375,
+        338.36444091796875
+      ]
+    },
+    {
+      "id": "enem-2017-84",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        413.0074157714844,
+        535.8765869140625
+      ]
+    },
+    {
+      "id": "enem-2017-85",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        123.40223693847656,
+        161.86248779296875
+      ]
+    },
+    {
+      "id": "enem-2017-85",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        276.7893371582031,
+        370.801025390625
+      ]
+    },
+    {
+      "id": "enem-2017-86",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        80.4085922241211,
+        468.6471252441406
+      ]
+    },
+    {
+      "id": "enem-2017-87",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        516.8436279296875,
+        514.050537109375
+      ]
+    },
+    {
+      "id": "enem-2017-87",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        458.90899658203125,
+        737.3765869140625
+      ]
+    },
+    {
+      "id": "enem-2017-88",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        295.0646667480469,
+        129.653564453125
+      ]
+    },
+    {
+      "id": "enem-2017-89",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        223.0218963623047,
+        571.8385620117188
+      ]
+    },
+    {
+      "id": "enem-2017-89",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        232.98257446289062,
+        673.2835693359375
+      ]
+    },
+    {
+      "id": "enem-2017-91",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        263.5606994628906,
+        214.88006591796875
+      ]
+    },
+    {
+      "id": "enem-2017-92",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        249.69798278808594,
+        719.9818115234375
+      ]
+    },
+    {
+      "id": "enem-2017-92",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        95.20919799804688,
+        760.288330078125
+      ]
+    },
+    {
+      "id": "enem-2017-93",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        471.7490234375,
+        219.46783447265625
+      ]
+    },
+    {
+      "id": "enem-2017-94",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        392.9991149902344,
+        687.8155517578125
+      ]
+    },
+    {
+      "id": "enem-2017-97",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        85.2835922241211,
+        223.53125
+      ]
+    },
+    {
+      "id": "enem-2017-98",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        115.26484680175781,
+        411.63458251953125
+      ]
+    },
+    {
+      "id": "enem-2017-98",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        116.91854095458984,
+        727.6700439453125
+      ]
+    },
+    {
+      "id": "enem-2017-98",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        136.97427368164062,
+        742.9093017578125
+      ]
+    },
+    {
+      "id": "enem-2017-99",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        549.8818969726562,
+        264.27691650390625
+      ]
+    },
+    {
+      "id": "enem-2017-100",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        545.5322875976562,
+        567.0836181640625
+      ]
+    },
+    {
+      "id": "enem-2017-100",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        363.0666198730469,
+        715.3220825195312
+      ]
+    },
+    {
+      "id": "enem-2017-100",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        432.9936218261719,
+        758.621826171875
+      ]
+    },
+    {
+      "id": "enem-2017-101",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.73670196533203,
+        134.45355224609375
+      ]
+    },
+    {
+      "id": "enem-2017-102",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        320.43341064453125,
+        141.45037841796875
+      ]
+    },
+    {
+      "id": "enem-2017-103",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.4374084472656,
+        409.7115783691406
+      ]
+    },
+    {
+      "id": "enem-2017-106",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        136.51010131835938,
+        229.9136962890625
+      ]
+    },
+    {
+      "id": "enem-2017-107",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        78.20510864257812,
+        422.7664794921875
+      ]
+    },
+    {
+      "id": "enem-2017-109",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        203.8728790283203,
+        140.65155029296875
+      ]
+    },
+    {
+      "id": "enem-2017-110",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        179.86839294433594,
+        419.99951171875
+      ]
+    },
+    {
+      "id": "enem-2017-111",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        390.33160400390625,
+        140.65155029296875
+      ]
+    },
+    {
+      "id": "enem-2017-112",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        426.03619384765625,
+        455.6484375
+      ]
+    },
+    {
+      "id": "enem-2017-113",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        62.92685317993164,
+        178.6708984375
+      ]
+    },
+    {
+      "id": "enem-2017-114",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        60.36260223388672,
+        516.9125366210938
+      ]
+    },
+    {
+      "id": "enem-2017-115",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0674133300781,
+        128.45355224609375
+      ]
+    },
+    {
+      "id": "enem-2017-115",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0633850097656,
+        223.56884765625
+      ]
+    },
+    {
+      "id": "enem-2017-115",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0633850097656,
+        257.21710205078125
+      ]
+    },
+    {
+      "id": "enem-2017-116",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        330.9053955078125,
+        342.2170715332031
+      ]
+    },
+    {
+      "id": "enem-2017-116",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        342.53216552734375,
+        707.1554565429688
+      ]
+    },
+    {
+      "id": "enem-2017-116",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        352.7803649902344,
+        749.1974487304688
+      ]
+    },
+    {
+      "id": "enem-2017-116",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        352.7803649902344,
+        760.409912109375
+      ]
+    },
+    {
+      "id": "enem-2017-117",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        110.24359893798828,
+        131.02557373046875
+      ]
+    },
+    {
+      "id": "enem-2017-118",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        223.06085205078125,
+        506.72509765625
+      ]
+    },
+    {
+      "id": "enem-2017-119",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        424.1488037109375,
+        184.58612060546875
+      ]
+    },
+    {
+      "id": "enem-2017-119",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        427.7385559082031,
+        436.55731201171875
+      ]
+    },
+    {
+      "id": "enem-2017-119",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        416.01007080078125,
+        487.82537841796875
+      ]
+    },
+    {
+      "id": "enem-2017-120",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        520.5037841796875,
+        610.2196044921875
+      ]
+    },
+    {
+      "id": "enem-2017-126",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        67.94810485839844,
+        534.5867919921875
+      ]
+    },
+    {
+      "id": "enem-2017-126",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36280059814453,
+        756.7666015625
+      ]
+    },
+    {
+      "id": "enem-2017-128",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        338.49090576171875,
+        594.4459228515625
+      ]
+    },
+    {
+      "id": "enem-2017-128",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0633850097656,
+        693.2584228515625
+      ]
+    },
+    {
+      "id": "enem-2017-128",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        352.7706298828125,
+        706.6939086914062
+      ]
+    },
+    {
+      "id": "enem-2017-128",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        361.4481201171875,
+        720.12841796875
+      ]
+    },
+    {
+      "id": "enem-2017-128",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0633850097656,
+        733.56396484375
+      ]
+    },
+    {
+      "id": "enem-2017-131",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        62.13710403442383,
+        139.85186767578125
+      ]
+    },
+    {
+      "id": "enem-2017-134",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0674133300781,
+        131.5535888671875
+      ]
+    },
+    {
+      "id": "enem-2017-135",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        320.06341552734375,
+        601.330810546875
+      ]
+    },
+    {
+      "id": "enem-2017-135",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0674133300781,
+        755.8497314453125
+      ]
+    },
+    {
+      "id": "enem-2017-137",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        325.7272033691406,
+        181.64154052734375
+      ]
+    },
+    {
+      "id": "enem-2017-138",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0674133300781,
+        444.3285827636719
+      ]
+    },
+    {
+      "id": "enem-2017-138",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0656433105469,
+        694.1254272460938
+      ]
+    },
+    {
+      "id": "enem-2017-138",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0656433105469,
+        709.5606689453125
+      ]
+    },
+    {
+      "id": "enem-2017-138",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0656433105469,
+        724.9949340820312
+      ]
+    },
+    {
+      "id": "enem-2017-138",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0656433105469,
+        740.42919921875
+      ]
+    },
+    {
+      "id": "enem-2017-138",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0656433105469,
+        755.8634033203125
+      ]
+    },
+    {
+      "id": "enem-2017-139",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        74.45134735107422,
+        143.45556640625
+      ]
+    },
+    {
+      "id": "enem-2017-140",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        69.03034973144531,
+        471.44659423828125
+      ]
+    },
+    {
+      "id": "enem-2017-141",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        366.4831848144531,
+        135.85357666015625
+      ]
+    },
+    {
+      "id": "enem-2017-142",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        320.06341552734375,
+        494.30859375
+      ]
+    },
+    {
+      "id": "enem-2017-143",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.3666000366211,
+        129.653564453125
+      ]
+    },
+    {
+      "id": "enem-2017-144",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.3666000366211,
+        535.8375854492188
+      ]
+    },
+    {
+      "id": "enem-2017-145",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        337.0674133300781,
+        206.990478515625
+      ]
+    },
+    {
+      "id": "enem-2017-146",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        377.61767578125,
+        547.1475219726562
+      ]
+    },
+    {
+      "id": "enem-2017-147",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        74.45134735107422,
+        159.45001220703125
+      ]
+    },
+    {
+      "id": "enem-2017-149",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        345.78289794921875,
+        129.653564453125
+      ]
+    },
+    {
+      "id": "enem-2017-150",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        190.67137145996094,
+        130.45355224609375
+      ]
+    },
+    {
+      "id": "enem-2017-151",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        483.74041748046875,
+        197.97509765625
+      ]
+    },
+    {
+      "id": "enem-2017-155",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        320.0361328125,
+        683.5475463867188
+      ]
+    },
+    {
+      "id": "enem-2017-156",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        164.297607421875,
+        217.637451171875
+      ]
+    },
+    {
+      "id": "enem-2017-157",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        543.3773803710938,
+        145.4490966796875
+      ]
+    },
+    {
+      "id": "enem-2017-159",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        84.81269836425781,
+        547.4796142578125
+      ]
+    },
+    {
+      "id": "enem-2017-160",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        506.5135803222656,
+        140.65155029296875
+      ]
+    },
+    {
+      "id": "enem-2017-161",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        441.6390075683594,
+        498.53759765625
+      ]
+    },
+    {
+      "id": "enem-2017-162",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.3666000366211,
+        129.653564453125
+      ]
+    },
+    {
+      "id": "enem-2017-166",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        328.7311706542969,
+        139.05108642578125
+      ]
+    },
+    {
+      "id": "enem-2017-166",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        355.4725341796875,
+        297.29510498046875
+      ]
+    },
+    {
+      "id": "enem-2017-166",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        355.48162841796875,
+        310.12158203125
+      ]
+    },
+    {
+      "id": "enem-2017-166",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        355.48162841796875,
+        322.95556640625
+      ]
+    },
+    {
+      "id": "enem-2017-166",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        355.48162841796875,
+        335.7905578613281
+      ]
+    },
+    {
+      "id": "enem-2017-166",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        355.48260498046875,
+        348.6215515136719
+      ]
+    },
+    {
+      "id": "enem-2017-170",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        225.64369201660156,
+        129.653564453125
+      ]
+    },
+    {
+      "id": "enem-2017-171",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        535.7930297851562,
+        201.24041748046875
+      ]
+    },
+    {
+      "id": "enem-2017-174",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.3666000366211,
+        447.62457275390625
+      ]
+    },
+    {
+      "id": "enem-2017-174",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36280059814453,
+        706.759521484375
+      ]
+    },
+    {
+      "id": "enem-2017-174",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36280059814453,
+        719.590576171875
+      ]
+    },
+    {
+      "id": "enem-2017-174",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36280059814453,
+        732.4215698242188
+      ]
+    },
+    {
+      "id": "enem-2017-174",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36280059814453,
+        745.2525634765625
+      ]
+    },
+    {
+      "id": "enem-2017-174",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36280059814453,
+        758.0835571289062
+      ]
+    },
+    {
+      "id": "enem-2017-176",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        366.3564147949219,
+        443.4490661621094
+      ]
+    },
+    {
+      "id": "enem-2017-177",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        262.3045959472656,
+        162.64752197265625
+      ]
+    },
+    {
+      "id": "enem-2017-179",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        559.0847778320312,
+        129.653564453125
+      ]
+    },
+    {
+      "id": "enem-2017-180",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        506.3374938964844,
+        404.1584777832031
+      ]
+    },
+    {
+      "id": "enem-2020-155",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        48.07429885864258,
+        555.9318237304688
+      ]
+    },
+    {
+      "id": "enem-2020-155",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        48.07429885864258,
+        595.5462036132812
+      ]
+    },
+    {
+      "id": "enem-2020-155",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        48.07429885864258,
+        634.6993408203125
+      ]
+    },
+    {
+      "id": "enem-2020-155",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        48.07429885864258,
+        674.94482421875
+      ]
+    },
+    {
+      "id": "enem-2020-155",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        48.07429885864258,
+        715.225341796875
+      ]
+    },
+    {
+      "id": "enem-2021-1-espanhol",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        87.0668716430664,
+        302.5535888671875
+      ]
+    },
+    {
+      "id": "enem-2021-1-ingles",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        93.70468139648438,
+        223.9600830078125
+      ]
+    },
+    {
+      "id": "enem-2021-1-ingles",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        176.08197021484375,
+        534.1148681640625
+      ]
+    },
+    {
+      "id": "enem-2021-2-espanhol",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        520.5830688476562,
+        140.7879638671875
+      ]
+    },
+    {
+      "id": "enem-2021-2-espanhol",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        313.7305603027344,
+        545.9190063476562
+      ]
+    },
+    {
+      "id": "enem-2021-2-ingles",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        504.3172302246094,
+        295.64947509765625
+      ]
+    },
+    {
+      "id": "enem-2021-2-ingles",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        430.78900146484375,
+        521.8118896484375
+      ]
+    },
+    {
+      "id": "enem-2021-2-ingles",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        405.84857177734375,
+        549.4810180664062
+      ]
+    },
+    {
+      "id": "enem-2021-3-espanhol",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        220.13388061523438,
+        201.31256103515625
+      ]
+    },
+    {
+      "id": "enem-2021-3-ingles",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        230.26515197753906,
+        131.9486083984375
+      ]
+    },
+    {
+      "id": "enem-2021-4-espanhol",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        331.2323913574219,
+        126.28717041015625
+      ]
+    },
+    {
+      "id": "enem-2021-4-espanhol",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        377.8300476074219,
+        280.57550048828125
+      ]
+    },
+    {
+      "id": "enem-2021-5-espanhol",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        491.8472900390625,
+        633.070068359375
+      ]
+    },
+    {
+      "id": "enem-2021-5-ingles",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        517.3160400390625,
+        382.939697265625
+      ]
+    },
+    {
+      "id": "enem-2021-5-ingles",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        306.14508056640625,
+        598.0521240234375
+      ]
+    },
+    {
+      "id": "enem-2021-6",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        102.65223693847656,
+        153.12103271484375
+      ]
+    },
+    {
+      "id": "enem-2021-7",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        289.13958740234375,
+        140.45989990234375
+      ]
+    },
+    {
+      "id": "enem-2021-8",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        168.56613159179688,
+        230.244140625
+      ]
+    },
+    {
+      "id": "enem-2021-8",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        101.835693359375,
+        592.7247314453125
+      ]
+    },
+    {
+      "id": "enem-2021-8",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        144.1116943359375,
+        621.558837890625
+      ]
+    },
+    {
+      "id": "enem-2021-9",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        306.1476135253906,
+        118.8231201171875
+      ]
+    },
+    {
+      "id": "enem-2021-9",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        382.0224609375,
+        532.9000244140625
+      ]
+    },
+    {
+      "id": "enem-2021-9",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        341.8982849121094,
+        624.2041015625
+      ]
+    },
+    {
+      "id": "enem-2021-10",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        112.800048828125,
+        124.4541015625
+      ]
+    },
+    {
+      "id": "enem-2021-10",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        137.24183654785156,
+        630.049072265625
+      ]
+    },
+    {
+      "id": "enem-2021-11",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        373.4327087402344,
+        450.9927978515625
+      ]
+    },
+    {
+      "id": "enem-2021-12",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        87.01519775390625,
+        370.25335693359375
+      ]
+    },
+    {
+      "id": "enem-2021-14",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        456.0840759277344,
+        473.4747009277344
+      ]
+    },
+    {
+      "id": "enem-2021-15",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        47.19630432128906,
+        565.587158203125
+      ]
+    },
+    {
+      "id": "enem-2021-16",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        352.5546569824219,
+        249.75390625
+      ]
+    },
+    {
+      "id": "enem-2021-16",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        339.7337951660156,
+        630.9531860351562
+      ]
+    },
+    {
+      "id": "enem-2021-17",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        250.973388671875,
+        331.2900085449219
+      ]
+    },
+    {
+      "id": "enem-2021-17",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        61.74370193481445,
+        610.181640625
+      ]
+    },
+    {
+      "id": "enem-2021-18",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        409.16204833984375,
+        309.02252197265625
+      ]
+    },
+    {
+      "id": "enem-2021-18",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        395.02606201171875,
+        335.5575866699219
+      ]
+    },
+    {
+      "id": "enem-2021-18",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        339.71044921875,
+        364.09259033203125
+      ]
+    },
+    {
+      "id": "enem-2021-20",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        156.0008544921875,
+        633.8112182617188
+      ]
+    },
+    {
+      "id": "enem-2021-20",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        62.27995300292969,
+        677.7449340820312
+      ]
+    },
+    {
+      "id": "enem-2021-20",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        67.7009506225586,
+        724.5153198242188
+      ]
+    },
+    {
+      "id": "enem-2021-21",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        339.2196044921875,
+        181.29168701171875
+      ]
+    },
+    {
+      "id": "enem-2021-21",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        393.93402099609375,
+        678.80517578125
+      ]
+    },
+    {
+      "id": "enem-2021-24",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        486.0398864746094,
+        136.754150390625
+      ]
+    },
+    {
+      "id": "enem-2021-25",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        314.1760559082031,
+        470.1046142578125
+      ]
+    },
+    {
+      "id": "enem-2021-26",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        109.96961975097656,
+        185.636962890625
+      ]
+    },
+    {
+      "id": "enem-2021-28",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        492.7966003417969,
+        410.05438232421875
+      ]
+    },
+    {
+      "id": "enem-2021-28",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        373.76812744140625,
+        724.0103149414062
+      ]
+    },
+    {
+      "id": "enem-2021-29",
+      "role": "statement",
+      "reason": "ambiguous_glyph_position",
+      "font": "ArialMT",
+      "origin": [
+        31.190597534179688,
+        161.58441162109375
+      ]
+    },
+    {
+      "id": "enem-2021-31",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        183.48561096191406,
+        107.68511962890625
+      ]
+    },
+    {
+      "id": "enem-2021-31",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        59.033199310302734,
+        325.7755126953125
+      ]
+    },
+    {
+      "id": "enem-2021-33",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        395.69677734375,
+        733.4113159179688
+      ]
+    },
+    {
+      "id": "enem-2021-34",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        180.13307189941406,
+        509.8739013671875
+      ]
+    },
+    {
+      "id": "enem-2021-34",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        55.77669906616211,
+        541.7780151367188
+      ]
+    },
+    {
+      "id": "enem-2021-34",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        145.92520141601562,
+        605.5850830078125
+      ]
+    },
+    {
+      "id": "enem-2021-35",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        306.1476135253906,
+        116.28521728515625
+      ]
+    },
+    {
+      "id": "enem-2021-35",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        435.95458984375,
+        587.2919921875
+      ]
+    },
+    {
+      "id": "enem-2021-38",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        317.4866027832031,
+        303.03076171875
+      ]
+    },
+    {
+      "id": "enem-2021-38",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        432.3246154785156,
+        600.6390991210938
+      ]
+    },
+    {
+      "id": "enem-2021-40",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        110.16463470458984,
+        450.7166748046875
+      ]
+    },
+    {
+      "id": "enem-2021-41",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        396.4568176269531,
+        320.4389953613281
+      ]
+    },
+    {
+      "id": "enem-2021-46",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        187.81756591796875,
+        163.5892333984375
+      ]
+    },
+    {
+      "id": "enem-2021-46",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        76.35894775390625,
+        322.8315124511719
+      ]
+    },
+    {
+      "id": "enem-2021-47",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        53.61219787597656,
+        581.7631225585938
+      ]
+    },
+    {
+      "id": "enem-2021-47",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        96.43419647216797,
+        597.4310913085938
+      ]
+    },
+    {
+      "id": "enem-2021-47",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        53.61219787597656,
+        613.0980834960938
+      ]
+    },
+    {
+      "id": "enem-2021-49",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        368.73089599609375,
+        506.9794006347656
+      ]
+    },
+    {
+      "id": "enem-2021-50",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        199.28939819335938,
+        119.11981201171875
+      ]
+    },
+    {
+      "id": "enem-2021-51",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        181.90805053710938,
+        440.3796691894531
+      ]
+    },
+    {
+      "id": "enem-2021-51",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        176.0917205810547,
+        578.7919921875
+      ]
+    },
+    {
+      "id": "enem-2021-54",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        430.6628112792969,
+        552.2212524414062
+      ]
+    },
+    {
+      "id": "enem-2021-54",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        388.52276611328125,
+        684.88720703125
+      ]
+    },
+    {
+      "id": "enem-2021-55",
+      "role": "statement",
+      "reason": "ambiguous_glyph_position",
+      "font": "ArialMT",
+      "origin": [
+        31.18885040283203,
+        120.11505126953125
+      ]
+    },
+    {
+      "id": "enem-2021-55",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        84.50019073486328,
+        318.62750244140625
+      ]
+    },
+    {
+      "id": "enem-2021-55",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        105.09217834472656,
+        331.0445861816406
+      ]
+    },
+    {
+      "id": "enem-2021-56",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        190.6070098876953,
+        369.2966003417969
+      ]
+    },
+    {
+      "id": "enem-2021-56",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        53.61229705810547,
+        496.87091064453125
+      ]
+    },
+    {
+      "id": "enem-2021-56",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        152.23353576660156,
+        534.1229248046875
+      ]
+    },
+    {
+      "id": "enem-2021-57",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        191.98182678222656,
+        594.3701171875
+      ]
+    },
+    {
+      "id": "enem-2021-57",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        188.53280639648438,
+        723.2393188476562
+      ]
+    },
+    {
+      "id": "enem-2021-58",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        424.076171875,
+        95.28509521484375
+      ]
+    },
+    {
+      "id": "enem-2021-58",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        306.14508056640625,
+        303.65850830078125
+      ]
+    },
+    {
+      "id": "enem-2021-58",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        498.8249816894531,
+        314.65850830078125
+      ]
+    },
+    {
+      "id": "enem-2021-59",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        363.0460510253906,
+        495.71881103515625
+      ]
+    },
+    {
+      "id": "enem-2021-60",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        306.1476135253906,
+        615.2150268554688
+      ]
+    },
+    {
+      "id": "enem-2021-61",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        108.1502685546875,
+        178.09869384765625
+      ]
+    },
+    {
+      "id": "enem-2021-61",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        74.6694564819336,
+        315.84149169921875
+      ]
+    },
+    {
+      "id": "enem-2021-62",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        150.0684356689453,
+        407.3836975097656
+      ]
+    },
+    {
+      "id": "enem-2021-62",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        127.85843658447266,
+        623.7440795898438
+      ]
+    },
+    {
+      "id": "enem-2021-65",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        406.5990905761719,
+        589.4951782226562
+      ]
+    },
+    {
+      "id": "enem-2021-65",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        437.3020324707031,
+        704.2083129882812
+      ]
+    },
+    {
+      "id": "enem-2021-66",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        162.17601013183594,
+        96.28497314453125
+      ]
+    },
+    {
+      "id": "enem-2021-66",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        48.1912956237793,
+        247.6754150390625
+      ]
+    },
+    {
+      "id": "enem-2021-67",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        228.25665283203125,
+        417.7795715332031
+      ]
+    },
+    {
+      "id": "enem-2021-67",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        72.57604217529297,
+        723.486328125
+      ]
+    },
+    {
+      "id": "enem-2021-68",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        402.1539001464844,
+        224.105712890625
+      ]
+    },
+    {
+      "id": "enem-2021-69",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        372.7410583496094,
+        498.94561767578125
+      ]
+    },
+    {
+      "id": "enem-2021-69",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        431.2463073730469,
+        682.813232421875
+      ]
+    },
+    {
+      "id": "enem-2021-69",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        344.08233642578125,
+        713.6483154296875
+      ]
+    },
+    {
+      "id": "enem-2021-70",
+      "role": "statement",
+      "reason": "ambiguous_glyph_position",
+      "font": "ArialMT",
+      "origin": [
+        31.190597534179688,
+        133.91912841796875
+      ]
+    },
+    {
+      "id": "enem-2021-70",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        56.46904754638672,
+        322.54449462890625
+      ]
+    },
+    {
+      "id": "enem-2021-71",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        132.11929321289062,
+        549.5399780273438
+      ]
+    },
+    {
+      "id": "enem-2021-74",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        327.088623046875,
+        488.5323791503906
+      ]
+    },
+    {
+      "id": "enem-2021-74",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        389.5953063964844,
+        666.0311889648438
+      ]
+    },
+    {
+      "id": "enem-2021-75",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        45.40999984741211,
+        120.11505126953125
+      ]
+    },
+    {
+      "id": "enem-2021-76",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        106.95881652832031,
+        314.6734924316406
+      ]
+    },
+    {
+      "id": "enem-2021-78",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        309.1895751953125,
+        295.1353759765625
+      ]
+    },
+    {
+      "id": "enem-2021-78",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        330.5298156738281,
+        512.14990234375
+      ]
+    },
+    {
+      "id": "enem-2021-79",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        369.0704040527344,
+        613.85400390625
+      ]
+    },
+    {
+      "id": "enem-2021-79",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        443.171875,
+        737.4453735351562
+      ]
+    },
+    {
+      "id": "enem-2021-81",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        212.99600219726562,
+        503.056884765625
+      ]
+    },
+    {
+      "id": "enem-2021-81",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        125.30286407470703,
+        723.5963134765625
+      ]
+    },
+    {
+      "id": "enem-2021-82",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        374.2318115234375,
+        157.31915283203125
+      ]
+    },
+    {
+      "id": "enem-2021-82",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        354.9145202636719,
+        258.3104248046875
+      ]
+    },
+    {
+      "id": "enem-2021-83",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        515.6945190429688,
+        315.9145202636719
+      ]
+    },
+    {
+      "id": "enem-2021-83",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        339.2073059082031,
+        597.1051025390625
+      ]
+    },
+    {
+      "id": "enem-2021-84",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        47.155250549316406,
+        122.2191162109375
+      ]
+    },
+    {
+      "id": "enem-2021-84",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        133.80604553222656,
+        245.24139404296875
+      ]
+    },
+    {
+      "id": "enem-2021-86",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        316.2517395019531,
+        98.819091796875
+      ]
+    },
+    {
+      "id": "enem-2021-87",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        453.048583984375,
+        392.0716857910156
+      ]
+    },
+    {
+      "id": "enem-2021-87",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        406.40679931640625,
+        464.5447998046875
+      ]
+    },
+    {
+      "id": "enem-2021-87",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        392.4927978515625,
+        493.9148864746094
+      ]
+    },
+    {
+      "id": "enem-2021-88",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        312.6483459472656,
+        687.3441772460938
+      ]
+    },
+    {
+      "id": "enem-2021-88",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        344.072509765625,
+        703.76123046875
+      ]
+    },
+    {
+      "id": "enem-2021-91",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        136.8441162109375,
+        351.6955261230469
+      ]
+    },
+    {
+      "id": "enem-2021-94",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        61.794097900390625,
+        98.819091796875
+      ]
+    },
+    {
+      "id": "enem-2021-97",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        329.9863586425781,
+        482.5259094238281
+      ]
+    },
+    {
+      "id": "enem-2021-97",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        334.8710632324219,
+        495.5259094238281
+      ]
+    },
+    {
+      "id": "enem-2021-99",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        219.41531372070312,
+        110.51910400390625
+      ]
+    },
+    {
+      "id": "enem-2021-101",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        434.69061279296875,
+        535.06689453125
+      ]
+    },
+    {
+      "id": "enem-2021-103",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        239.31411743164062,
+        109.1170654296875
+      ]
+    },
+    {
+      "id": "enem-2021-104",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        154.543701171875,
+        604.597900390625
+      ]
+    },
+    {
+      "id": "enem-2021-104",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        61.20110321044922,
+        687.9141845703125
+      ]
+    },
+    {
+      "id": "enem-2021-104",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        48.19459915161133,
+        702.3311767578125
+      ]
+    },
+    {
+      "id": "enem-2021-108",
+      "role": "statement",
+      "reason": "ambiguous_glyph_position",
+      "font": "ArialMT",
+      "origin": [
+        31.19061279296875,
+        122.51922607421875
+      ]
+    },
+    {
+      "id": "enem-2021-109",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        419.4034423828125,
+        125.9586181640625
+      ]
+    },
+    {
+      "id": "enem-2021-109",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        321.318603515625,
+        380.43060302734375
+      ]
+    },
+    {
+      "id": "enem-2021-109",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        321.318603515625,
+        401.8006896972656
+      ]
+    },
+    {
+      "id": "enem-2021-109",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        321.318603515625,
+        423.1697082519531
+      ]
+    },
+    {
+      "id": "enem-2021-109",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        321.318603515625,
+        444.5387878417969
+      ]
+    },
+    {
+      "id": "enem-2021-109",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        321.318603515625,
+        465.9078063964844
+      ]
+    },
+    {
+      "id": "enem-2021-110",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        449.70556640625,
+        527.181884765625
+      ]
+    },
+    {
+      "id": "enem-2021-111",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        90.45109558105469,
+        211.63623046875
+      ]
+    },
+    {
+      "id": "enem-2021-111",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        71.49710083007812,
+        330.1555480957031
+      ]
+    },
+    {
+      "id": "enem-2021-114",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        358.03607177734375,
+        190.8411865234375
+      ]
+    },
+    {
+      "id": "enem-2021-114",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        354.3710632324219,
+        338.4106140136719
+      ]
+    },
+    {
+      "id": "enem-2021-115",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        359.1778564453125,
+        440.8146667480469
+      ]
+    },
+    {
+      "id": "enem-2021-127",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        92.96759033203125,
+        133.91912841796875
+      ]
+    },
+    {
+      "id": "enem-2021-127",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        118.6578369140625,
+        200.14129638671875
+      ]
+    },
+    {
+      "id": "enem-2021-129",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        176.09512329101562,
+        721.372314453125
+      ]
+    },
+    {
+      "id": "enem-2021-130",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        289.14361572265625,
+        122.2191162109375
+      ]
+    },
+    {
+      "id": "enem-2021-131",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "Arial-ItalicMT",
+      "origin": [
+        512.9633178710938,
+        517.2088623046875
+      ]
+    },
+    {
+      "id": "enem-2021-132",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        66.65935516357422,
+        100.11907958984375
+      ]
+    },
+    {
+      "id": "enem-2021-133",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        177.76539611816406,
+        578.5750122070312
+      ]
+    },
+    {
+      "id": "enem-2021-134",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        407.3925476074219,
+        139.27703857421875
+      ]
+    },
+    {
+      "id": "enem-2021-136",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        162.9716033935547,
+        179.28912353515625
+      ]
+    },
+    {
+      "id": "enem-2021-136",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        53.6151237487793,
+        337.5356140136719
+      ]
+    },
+    {
+      "id": "enem-2021-136",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        53.61512756347656,
+        359.5356140136719
+      ]
+    },
+    {
+      "id": "enem-2021-136",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        54.47905349731445,
+        381.5356140136719
+      ]
+    },
+    {
+      "id": "enem-2021-136",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        58.31169891357422,
+        403.53570556640625
+      ]
+    },
+    {
+      "id": "enem-2021-136",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        59.033199310302734,
+        425.53570556640625
+      ]
+    },
+    {
+      "id": "enem-2021-139",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        104.96884155273438,
+        193.872314453125
+      ]
+    },
+    {
+      "id": "enem-2021-141",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        464.84771728515625,
+        271.6551513671875
+      ]
+    },
+    {
+      "id": "enem-2021-142",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        314.8067932128906,
+        536.7221069335938
+      ]
+    },
+    {
+      "id": "enem-2021-143",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        73.67134857177734,
+        97.28509521484375
+      ]
+    },
+    {
+      "id": "enem-2021-144",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        116.27883911132812,
+        497.52581787109375
+      ]
+    },
+    {
+      "id": "enem-2021-146",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        394.0731201171875,
+        399.73992919921875
+      ]
+    },
+    {
+      "id": "enem-2021-149",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        190.5341033935547,
+        95.28509521484375
+      ]
+    },
+    {
+      "id": "enem-2021-151",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        332.63836669921875,
+        286.4314270019531
+      ]
+    },
+    {
+      "id": "enem-2021-154",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        354.69110107421875,
+        282.9414978027344
+      ]
+    },
+    {
+      "id": "enem-2021-157",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        241.85108947753906,
+        157.12298583984375
+      ]
+    },
+    {
+      "id": "enem-2021-158",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        42.41284942626953,
+        600.7667236328125
+      ]
+    },
+    {
+      "id": "enem-2021-158",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        59.03329849243164,
+        677.6821899414062
+      ]
+    },
+    {
+      "id": "enem-2021-158",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        53.6152229309082,
+        692.6823120117188
+      ]
+    },
+    {
+      "id": "enem-2021-158",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        53.6152229309082,
+        722.6823120117188
+      ]
+    },
+    {
+      "id": "enem-2021-158",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        58.311798095703125,
+        737.6823120117188
+      ]
+    },
+    {
+      "id": "enem-2021-159",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        414.3920593261719,
+        224.68524169921875
+      ]
+    },
+    {
+      "id": "enem-2021-160",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        390.91497802734375,
+        339.089599609375
+      ]
+    },
+    {
+      "id": "enem-2021-163",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        118.11985778808594,
+        108.2872314453125
+      ]
+    },
+    {
+      "id": "enem-2021-167",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        525.9110717773438,
+        645.9631958007812
+      ]
+    },
+    {
+      "id": "enem-2021-168",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        82.8071060180664,
+        117.28106689453125
+      ]
+    },
+    {
+      "id": "enem-2021-169",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        152.2270965576172,
+        388.0226745605469
+      ]
+    },
+    {
+      "id": "enem-2021-170",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        450.8369140625,
+        332.08758544921875
+      ]
+    },
+    {
+      "id": "enem-2021-171",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        317.5073547363281,
+        480.4335632324219
+      ]
+    },
+    {
+      "id": "enem-2021-172",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        212.219970703125,
+        261.781494140625
+      ]
+    },
+    {
+      "id": "enem-2021-173",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        229.36907958984375,
+        466.1138000488281
+      ]
+    },
+    {
+      "id": "enem-2021-175",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        356.1456604003906,
+        359.4510803222656
+      ]
+    },
+    {
+      "id": "enem-2021-176",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        256.4350891113281,
+        225.82781982421875
+      ]
+    },
+    {
+      "id": "enem-2021-177",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        183.9650115966797,
+        522.0219116210938
+      ]
+    },
+    {
+      "id": "enem-2021-178",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        432.08184814453125,
+        172.283203125
+      ]
+    },
+    {
+      "id": "enem-2017-72",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        530.8966674804688,
+        529.0740966796875
+      ]
+    },
+    {
+      "id": "enem-2017-72",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        99.58294677734375,
+        651.7900390625
+      ]
+    },
+    {
+      "id": "enem-2017-72",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        106.62244415283203,
+        680.0650634765625
+      ]
+    },
+    {
+      "id": "enem-2017-95",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.3666000366211,
+        129.45355224609375
+      ]
+    },
+    {
+      "id": "enem-2017-96",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        70.65859985351562,
+        608.101318359375
+      ]
+    },
+    {
+      "id": "enem-2017-96",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        90.90544891357422,
+        701.7391967773438
+      ]
+    },
+    {
+      "id": "enem-2017-96",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        101.20144653320312,
+        715.9741821289062
+      ]
+    },
+    {
+      "id": "enem-2017-96",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36270141601562,
+        730.209228515625
+      ]
+    },
+    {
+      "id": "enem-2017-96",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36270141601562,
+        744.4442138671875
+      ]
+    },
+    {
+      "id": "enem-2017-96",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36270141601562,
+        758.67919921875
+      ]
+    },
+    {
+      "id": "enem-2017-105",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        86.86320495605469,
+        285.16558837890625
+      ]
+    },
+    {
+      "id": "enem-2017-105",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        469.17529296875,
+        731.154541015625
+      ]
+    },
+    {
+      "id": "enem-2017-122",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.3666000366211,
+        129.25360107421875
+      ]
+    },
+    {
+      "id": "enem-2017-123",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.3666000366211,
+        411.0745849609375
+      ]
+    },
+    {
+      "id": "enem-2017-124",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        439.2173767089844,
+        548.0725708007812
+      ]
+    },
+    {
+      "id": "enem-2017-124",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        77.35836791992188,
+        707.0225830078125
+      ]
+    },
+    {
+      "id": "enem-2017-124",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        77.35836791992188,
+        720.058349609375
+      ]
+    },
+    {
+      "id": "enem-2017-124",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        77.35836791992188,
+        733.0940551757812
+      ]
+    },
+    {
+      "id": "enem-2017-124",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        77.35836791992188,
+        746.1298217773438
+      ]
+    },
+    {
+      "id": "enem-2017-124",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        77.35836791992188,
+        759.965087890625
+      ]
+    },
+    {
+      "id": "enem-2017-129",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.3666000366211,
+        132.92559814453125
+      ]
+    },
+    {
+      "id": "enem-2017-130",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.3666000366211,
+        343.444580078125
+      ]
+    },
+    {
+      "id": "enem-2017-169",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.3666000366211,
+        483.7685852050781
+      ]
+    },
+    {
+      "id": "enem-2017-169",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        77.36279296875,
+        742.5234375
+      ]
+    },
+    {
+      "id": "enem-2017-172",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        358.4191589355469,
+        140.65155029296875
+      ]
+    },
+    {
+      "id": "enem-2021-106",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        277.21063232421875,
+        113.1158447265625
+      ]
+    },
+    {
+      "id": "enem-2021-107",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        109.1148452758789,
+        496.2799072265625
+      ]
+    },
+    {
+      "id": "enem-2021-107",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        166.3207550048828,
+        719.4542846679688
+      ]
+    },
+    {
+      "id": "enem-2021-116",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        283.6758728027344,
+        107.7000732421875
+      ]
+    },
+    {
+      "id": "enem-2021-117",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        251.0365753173828,
+        476.24676513671875
+      ]
+    },
+    {
+      "id": "enem-2021-118",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        107.61919403076172,
+        642.5421142578125
+      ]
+    },
+    {
+      "id": "enem-2021-119",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        153.01687622070312,
+        98.819091796875
+      ]
+    },
+    {
+      "id": "enem-2021-120",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        242.75885009765625,
+        391.4929504394531
+      ]
+    },
+    {
+      "id": "enem-2021-121",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        104.27269744873047,
+        119.3851318359375
+      ]
+    },
+    {
+      "id": "enem-2021-121",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        227.76710510253906,
+        178.35418701171875
+      ]
+    },
+    {
+      "id": "enem-2021-121",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        234.80967712402344,
+        189.35418701171875
+      ]
+    },
+    {
+      "id": "enem-2021-121",
+      "role": "C",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        212.77357482910156,
+        200.35430908203125
+      ]
+    },
+    {
+      "id": "enem-2021-121",
+      "role": "E",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        245.4644775390625,
+        244.3543701171875
+      ]
+    },
+    {
+      "id": "enem-2021-124",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        449.1098937988281,
+        162.62518310546875
+      ]
+    },
+    {
+      "id": "enem-2021-125",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        158.7401123046875,
+        702.1273193359375
+      ]
+    },
+    {
+      "id": "enem-2021-125",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        184.2168731689453,
+        726.1273193359375
+      ]
+    },
+    {
+      "id": "enem-2021-147",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        295.69952392578125,
+        95.985107421875
+      ]
+    },
+    {
+      "id": "enem-2021-155",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        261.060546875,
+        97.985107421875
+      ]
+    },
+    {
+      "id": "enem-2021-156",
+      "role": "statement",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "ArialMT",
+      "origin": [
+        263.8362731933594,
+        337.839599609375
+      ]
+    },
+    {
+      "id": "enem-2021-156",
+      "role": "A",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        48.19129943847656,
+        679.4182739257812
+      ]
+    },
+    {
+      "id": "enem-2021-156",
+      "role": "B",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        48.19129943847656,
+        693.9182739257812
+      ]
+    },
+    {
+      "id": "enem-2021-156",
+      "role": "D",
+      "reason": "unmapped_or_ambiguous_glyph",
+      "font": "SymbolMT",
+      "origin": [
+        48.19129943847656,
+        722.9182739257812
+      ]
+    }
+  ],
+  "method": "Exact font outlines, advance widths, font family and glyph positions; no OCR or guessed glyph names. Unknown glyphs reject the whole region."
+}

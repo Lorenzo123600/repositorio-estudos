@@ -1,0 +1,371 @@
+{
+  "scope": 1070,
+  "flaggedOptions": 26,
+  "flaggedQuestions": 25,
+  "findings": [
+    {
+      "id": "enem-2023-64",
+      "role": "A",
+      "status": "review",
+      "page": 24,
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "markerY": 199.0070343017578,
+      "currentTop": 200.0070343017578,
+      "gap": [
+        172,
+        177
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2023-155",
+      "role": "A",
+      "status": "review",
+      "page": 22,
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "markerY": 336.84710693359375,
+      "currentTop": 337.84710693359375,
+      "gap": [
+        310,
+        315
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2023-42",
+      "role": "A",
+      "status": "review",
+      "page": 17,
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "markerY": 668.7894287109375,
+      "currentTop": 669.7894287109375,
+      "gap": [
+        641,
+        648
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2022-107",
+      "role": "A",
+      "status": "review",
+      "page": 8,
+      "source": "references/enem-1000/originals/2022-2-prova.pdf",
+      "markerY": 438.4150390625,
+      "currentTop": 439.4150390625,
+      "gap": [
+        409,
+        419
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2022-108",
+      "role": "A",
+      "status": "review",
+      "page": 8,
+      "source": "references/enem-1000/originals/2022-2-prova.pdf",
+      "markerY": 666.1807861328125,
+      "currentTop": 667.1807861328125,
+      "gap": [
+        622,
+        628
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2022-119",
+      "role": "A",
+      "status": "review",
+      "page": 12,
+      "source": "references/enem-1000/originals/2022-2-prova.pdf",
+      "markerY": 148.02870178222656,
+      "currentTop": 149.02870178222656,
+      "gap": [
+        133,
+        138
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2022-120",
+      "role": "A",
+      "status": "review",
+      "page": 12,
+      "source": "references/enem-1000/originals/2022-2-prova.pdf",
+      "markerY": 423.095703125,
+      "currentTop": 424.095703125,
+      "gap": [
+        406,
+        413
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2023-5-espanhol",
+      "role": "A",
+      "status": "review",
+      "page": 5,
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "markerY": 580.9570922851562,
+      "currentTop": 581.9570922851562,
+      "gap": [
+        550,
+        560
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2023-142",
+      "role": "A",
+      "status": "review",
+      "page": 18,
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "markerY": 458.65728759765625,
+      "currentTop": 459.65728759765625,
+      "gap": [
+        430,
+        437
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2023-180",
+      "role": "A",
+      "status": "review",
+      "page": 31,
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "markerY": 665.7567749023438,
+      "currentTop": 666.7567749023438,
+      "gap": [
+        637,
+        644
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2018-3-ingles",
+      "role": "A",
+      "status": "review",
+      "page": 2,
+      "source": "references/enem-1000/originals/2018-1-prova.pdf",
+      "markerY": 258.8302307128906,
+      "currentTop": 259.8302307128906,
+      "gap": [
+        222,
+        227
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2018-8",
+      "role": "A",
+      "status": "review",
+      "page": 5,
+      "source": "references/enem-1000/originals/2018-1-prova.pdf",
+      "markerY": 376.8885498046875,
+      "currentTop": 377.8885498046875,
+      "gap": [
+        349,
+        357
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2018-98",
+      "role": "A",
+      "status": "review",
+      "page": 4,
+      "source": "references/enem-1000/originals/2018-2-prova.pdf",
+      "markerY": 680.4590454101562,
+      "currentTop": 681.4590454101562,
+      "gap": [
+        654,
+        661
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2018-134",
+      "role": "A",
+      "status": "review",
+      "page": 15,
+      "source": "references/enem-1000/originals/2018-2-prova.pdf",
+      "markerY": 601.39013671875,
+      "currentTop": 602.39013671875,
+      "gap": [
+        586,
+        591
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-19",
+      "role": "D",
+      "status": "review",
+      "page": 10,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "markerY": 685.2484130859375,
+      "currentTop": 686.2484130859375,
+      "gap": [
+        670,
+        675
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-24",
+      "role": "A",
+      "status": "review",
+      "page": 12,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "markerY": 670.2265014648438,
+      "currentTop": 671.2265014648438,
+      "gap": [
+        642,
+        648
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-27",
+      "role": "E",
+      "status": "review",
+      "page": 13,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "markerY": 543.2918090820312,
+      "currentTop": 544.2918090820312,
+      "gap": [
+        528,
+        533
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-36",
+      "role": "E",
+      "status": "review",
+      "page": 16,
+      "source": "references/enem-1000/originals/2020-1-prova.pdf",
+      "markerY": 306.28399658203125,
+      "currentTop": 307.28399658203125,
+      "gap": [
+        291,
+        296
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-105",
+      "role": "D",
+      "status": "review",
+      "page": 7,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "markerY": 283.3800048828125,
+      "currentTop": 284.3800048828125,
+      "gap": [
+        268,
+        273
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-124",
+      "role": "B",
+      "status": "review",
+      "page": 12,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "markerY": 193.47999572753906,
+      "currentTop": 194.47999572753906,
+      "gap": [
+        178,
+        183
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-124",
+      "role": "D",
+      "status": "review",
+      "page": 12,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "markerY": 248.28004455566406,
+      "currentTop": 249.28004455566406,
+      "gap": [
+        233,
+        238
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-148",
+      "role": "A",
+      "status": "review",
+      "page": 20,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "markerY": 307.41070556640625,
+      "currentTop": 308.41070556640625,
+      "gap": [
+        270,
+        276
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-161",
+      "role": "A",
+      "status": "review",
+      "page": 24,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "markerY": 159.25865173339844,
+      "currentTop": 160.25865173339844,
+      "gap": [
+        133,
+        138
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-168",
+      "role": "A",
+      "status": "review",
+      "page": 26,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "markerY": 374.093505859375,
+      "currentTop": 375.093505859375,
+      "gap": [
+        323,
+        340
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2020-179",
+      "role": "A",
+      "status": "review",
+      "page": 31,
+      "source": "references/enem-1000/originals/2020-2-prova.pdf",
+      "markerY": 284.4327392578125,
+      "currentTop": 285.4327392578125,
+      "gap": [
+        253,
+        262
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    },
+    {
+      "id": "enem-2024-92",
+      "role": "A",
+      "status": "review",
+      "page": 2,
+      "source": "references/enem-1000/originals/2024-2-prova.pdf",
+      "markerY": 455.33123779296875,
+      "currentTop": 456.33123779296875,
+      "gap": [
+        424,
+        435
+      ],
+      "reason": "ink above option marker after a substantial blank gap; may be formula/diagram assigned to preceding crop"
+    }
+  ]
+}
