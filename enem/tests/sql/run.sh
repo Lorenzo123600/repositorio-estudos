@@ -14,3 +14,7 @@ psql_cmd=("${docker_cmd[@]}" exec -i "$container" psql -U postgres -v ON_ERROR_S
 "${psql_cmd[@]}" < supabase/schema.sql
 "${psql_cmd[@]}" < supabase/schema.sql
 "${psql_cmd[@]}" < tests/sql/isolation.sql
+
+"${psql_cmd[@]}" < supabase/premium.sql
+"${psql_cmd[@]}" < supabase/premium.sql
+"${psql_cmd[@]}" < tests/sql/premium.sql

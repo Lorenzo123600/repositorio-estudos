@@ -35,6 +35,16 @@ export function createSupabaseTransport(client,{redirectTo,isRecovery=()=>false}
   if(path==='/login'){const data=check(await client.auth.signInWithPassword({email:body.email.trim(),password:body.password}));await requireVerified(data.user);return {user:profile(data.user)};}
   if(path==='/recover'){check(await client.auth.resetPasswordForEmail(body.email.trim(),{redirectTo}));return {message:'Se o endereço estiver cadastrado, você receberá um link para definir uma nova senha. Confira também o spam.'};}
   const user=await current(expected);
+  if(path==='/access')return check(await client.rpc('enem_access'));
+  if(path==='/premium-progress'){
+   if(!check(await client.rpc('enem_has_premium')))throw error('Seu acesso premium não está vigente.',403);
+   if(options.method==='PUT'){
+    return check(await client.rpc('save_enem_premium_progress',{p_state:body.state,p_revision:body.revision}));
+   }
+   const row=check(await client.from('enem_premium_sessions').select('data,revision').eq('user_id',user.id).maybeSingle());
+   return {state:row?.data||{},revision:row?.revision||0};
+  }
+  if(path==='/premium-resources')return check(await client.from('enem_premium_resources').select('id,content'));
   if(path==='/me')return {user:profile(user)};
   if(path==='/logout'){check(await client.auth.signOut({scope:'local'}));return {ok:true};}
   if(path==='/password'){
@@ -60,6 +70,6 @@ export function configuredSupabase(){
  }
  let recovery=new URLSearchParams(window.location.hash.slice(1)).get('type')==='recovery';
  const client=createClient(url,key,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true,storageKey:'enem-supabase-auth'}});
- client.auth.onAuthStateChange(event=>{if(event==='PASSWORD_RECOVERY')recovery=true;if(event==='SIGNED_OUT')recovery=false;});
+ client.auth.onAuthStateChange((event,session)=>{if(event==='SIGNED_OUT'||event==='SIGNED_IN')window.dispatchEvent(new CustomEvent('enem-auth-change',{detail:{userId:session?.user?.id||null}}));if(event==='PASSWORD_RECOVERY')recovery=true;if(event==='SIGNED_OUT')recovery=false;});
  return createSupabaseTransport(client,{redirectTo:window.location.origin+window.location.pathname,isRecovery:()=>recovery});
 }

@@ -8,3 +8,16 @@ test('prazo inválido não altera plano e normalização mantém limites seguros
 
 test('dias só podem ser concluídos em sequência, inclusive após reabrir uma etapa',()=>{const state=normalizeState({});assert.equal(setPlanDayComplete(state,2,true),false);assert.deepEqual(state.done,[]);setPlanDayComplete(state,0,true);assert.equal(setPlanDayComplete(state,2,true),false);setPlanDayComplete(state,1,true);assert.equal(setPlanDayComplete(state,2,true),true);setPlanDayComplete(state,0,false);assert.deepEqual(state.done,[1,2]);assert.equal(setPlanDayComplete(state,3,true),false);setPlanDayComplete(state,0,true);assert.equal(setPlanDayComplete(state,3,true),true)});
 test('nova jornada exige conclusão, arquiva histórico e preserva respostas e redações',async()=>{const {startNextStudyPlan,planSummary}=await import('../src/study-plan.js');const state=normalizeState({answers:{0:1},essay:'Meu rascunho',challengeDone:{erro:true}});assert.equal(startNextStudyPlan(state,7),false);for(let i=0;i<14;i++)assert.equal(setPlanDayComplete(state,i,true),true);assert.equal(planSummary(state).finished,true);assert.equal(planSummary(state).finishedPlans,1);assert.equal(startNextStudyPlan(state,7,new Date('2026-11-02T01:00:00Z')),true);assert.equal(state.start,'2026-11-01');assert.equal(state.planDays,7);assert.deepEqual(state.done,[]);assert.equal(state.planHistory.length,1);assert.equal(state.planHistory[0].days,14);assert.equal(state.answers[0],1);assert.equal(state.challengeDone.erro,true);assert.equal(state.essay,'Meu rascunho');assert.equal(startNextStudyPlan(state,30),false);const restored=normalizeState(JSON.parse(JSON.stringify(state)));assert.equal(restored.planHistory.length,1);assert.equal(planSummary(restored).finishedPlans,1)});
+
+test('vínculos estáveis, conclusão individual e contexto sobrevivem a recarga',async()=>{
+ const {activityForUnit,completePlanUnit}=await import('../src/study-plan.js');
+ for(let id=0;id<180;id++)assert.ok(activityForUnit(id)?.tab);
+ assert.equal(activityForUnit(-1),null);assert.equal(activityForUnit('0'),null);
+ const state=normalizeState({planDays:7,planActivity:0});
+ assert.equal(completePlanUnit(state,2),false);
+ assert.equal(completePlanUnit(state,0),true);assert.deepEqual(state.done,[]);
+ assert.equal(completePlanUnit(state,1),true);assert.deepEqual(state.done,[0]);
+ const restored=normalizeState(JSON.parse(JSON.stringify(state)));
+ assert.equal(restored.planActivity,0);assert.deepEqual(restored.done,[0]);
+ assert.equal(activityForUnit(14).area,activityForUnit(0).area);
+});

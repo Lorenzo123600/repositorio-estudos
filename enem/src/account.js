@@ -23,18 +23,18 @@ export function createAccount({getState,loadState,render}){
  }
  async function sync(){
   if(!user||!ready||saving||conflict||!dirty)return;
-  saving=true;const sentVersion=version;status('Sincronizando…');
-  try{const result=await api('/progress',{method:'PUT',body:JSON.stringify({state:getState(),revision})});revision=result.revision;dirty=version!==sentVersion;cache();status(dirty?'Sincronização pendente':'Sincronizado com sua conta');}
-  catch(e){if(e.status===409){conflict=true;status('Conflito entre dispositivos · abra sua conta');}else status(e.status===401?'Sessão expirada · entre novamente; cópia local preservada':'Sem conexão · alterações pendentes neste dispositivo');}
+  saving=true;const sentVersion=version,sentUser=user.id;status('Sincronizando…');
+  try{const result=await api('/progress',{method:'PUT',body:JSON.stringify({state:getState(),revision})});if(user?.id!==sentUser)return;revision=result.revision;dirty=version!==sentVersion;cache();status(dirty?'Sincronização pendente':'Sincronizado com sua conta');}
+  catch(e){if(user?.id!==sentUser)return;if(e.status===409){conflict=true;status('Conflito entre dispositivos · abra sua conta');}else status(e.status===401?'Sessão expirada · entre novamente; cópia local preservada':'Sem conexão · alterações pendentes neste dispositivo');}
   finally{saving=false;if(dirty&&!conflict&&version!==sentVersion)timer=setTimeout(sync,600);}
  }
  async function pull(){
-  const result=await api('/progress');const cached=readCache();revision=result.revision;
+  const requestedUser=user?.id;const result=await api('/progress');if(user?.id!==requestedUser)return;const cached=readCache();revision=result.revision;
   if(cached?.dirty){loadState(cached.state);dirty=true;revision=cached.revision;conflict=revision!==result.revision;status(conflict?'Conflito entre dispositivos · abra sua conta':'Sincronização pendente');}
   else{loadState(result.state||{});dirty=false;conflict=false;status('Sincronizado com sua conta');}
   ready=true;cache();render();if(dirty&&!conflict)await sync();
  }
- async function refresh(force=false){if(!user||!ready||saving||dirty||(!force&&document.querySelector('#account-dialog')))return;const before=version;try{const result=await api('/progress');if(before!==version||dirty)return;if(result.revision!==revision){revision=result.revision;loadState(result.state||{});cache();render();status('Atualizado de outro dispositivo');}}catch{/* Keep the current device usable offline. */}}
+ async function refresh(force=false){if(!user||!ready||saving||dirty||(!force&&document.querySelector('#account-dialog')))return;const before=version,requestedUser=user.id;try{const result=await api('/progress');if(user?.id!==requestedUser||before!==version||dirty)return;if(result.revision!==revision){revision=result.revision;loadState(result.state||{});cache();render();status('Atualizado de outro dispositivo');}}catch{/* Keep the current device usable offline. */}}
  function download(){const link=document.createElement('a'),url=URL.createObjectURL(new Blob([JSON.stringify(getState(),null,2)],{type:'application/json'}));link.href=url;link.download='reta-final-progresso.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
  function open(){
   document.querySelector('#account-dialog')?.remove();const dialog=document.createElement('dialog');dialog.id='account-dialog';dialog.className='account-dialog';dialog.setAttribute('aria-labelledby','account-title');
@@ -61,7 +61,8 @@ export function createAccount({getState,loadState,render}){
   const remote=dialog.querySelector('#use-remote');if(remote)remote.onclick=run(async()=>{if(!confirm('Usar a versão da conta e descartar as alterações pendentes deste dispositivo?'))return;const result=await api('/progress');loadState(result.state||{});revision=result.revision;conflict=false;dirty=false;cache();status('Versão da conta carregada');dialog.close();render();});
   const local=dialog.querySelector('#use-local');if(local)local.onclick=run(async()=>{if(!confirm('Substituir a versão da conta pela versão deste dispositivo?'))return;const result=await api('/progress');revision=result.revision;conflict=false;dirty=true;await sync();dialog.close();open();});
  }
- async function init(){try{user=(await api('/me')).user;loadState({});try{await pull();}catch{const cached=readCache();loadState(cached?.state||{});dirty=!!cached?.dirty;revision=cached?.revision||0;status('Não foi possível carregar sua conta · tente sincronizar novamente');render();}}catch{status('Modo visitante · entre para sincronizar entre dispositivos');}paint();if(user&&emailRecovery&&cloud.isRecovering()){open();document.querySelector('#password-details').open=true;document.querySelector('#account-status').textContent='Defina sua nova senha no formulário abaixo.';}}
+ async function init(){try{user=(await api('/me')).user;loadState({});try{await pull();}catch{const cached=readCache();loadState(cached?.state||{});dirty=!!cached?.dirty;revision=cached?.revision||0;status('Não foi possível carregar sua conta · tente sincronizar novamente');render();}}catch{status('Modo visitante · entre para sincronizar entre dispositivos');}render();paint();if(user&&emailRecovery&&cloud.isRecovering()){open();document.querySelector('#password-details').open=true;document.querySelector('#account-status').textContent='Defina sua nova senha no formulário abaixo.';}}
+ window.addEventListener('enem-auth-change',e=>{if(user&&e.detail.userId!==user.id){clearTimeout(timer);if(dirty)cache();user=null;ready=false;dirty=false;conflict=false;loadState({});status('Sua sessão mudou. Entre novamente para continuar.');document.querySelector('#account-dialog')?.close();render();}});
  window.addEventListener('online',()=>{if(user&&!ready)pull().catch(()=>{});else sync();});window.addEventListener('focus',refresh);setInterval(()=>{if(dirty)sync();else refresh();},15000);
- return {changed,paint,init,isSignedIn:()=>!!user};
+ return {changed,paint,init,open,request:api,userId:()=>user?.id,isSignedIn:()=>!!user};
 }

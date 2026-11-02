@@ -9,6 +9,8 @@ const checks=v=>Array.isArray(v)?[...new Set(v.filter(i=>integer(i,0,4)))]:[];
 const validDate=v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v)&&!Number.isNaN(new Date(v+'T12:00:00').getTime());
 export function normalizeState(input){
  const source=object(input),state={};
+ state.planQuestion=integer(source.planQuestion,0,bank.length-1)?source.planQuestion:null;
+ state.planActivity=integer(source.planActivity,0,MAX_PLAN_DAYS-1)?source.planActivity:null;
  state.planDays=validPlanDays(source.planDays)?source.planDays:14;state.planUnitsDone=Array.isArray(source.planUnitsDone)?[...new Set(source.planUnitsDone.filter(i=>integer(i,0,MAX_PLAN_DAYS-1)))]:Array.isArray(source.done)?[...new Set(source.done.filter(i=>integer(i,0,13)))]:[];refreshPlanProgress(state);state.planHistory=Array.isArray(source.planHistory)?source.planHistory.filter(h=>h&&validPlanDays(h.days)&&validDate(h.start)&&Number.isFinite(h.finishedAt)&&integer(h.completedActivities,1,MAX_PLAN_DAYS)).slice(-20).map(h=>({days:h.days,start:h.start,finishedAt:h.finishedAt,completedActivities:h.completedActivities})):[];
  state.answers=answers(source.answers);state.essay=typeof source.essay==='string'?source.essay:'';state.checks=checks(source.checks);
  state.start=validDate(source.start)?source.start:new Date().toLocaleDateString('en-CA',{timeZone:'America/Sao_Paulo'});
