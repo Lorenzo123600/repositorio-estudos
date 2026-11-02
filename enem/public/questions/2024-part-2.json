@@ -1,0 +1,426 @@
+[
+  {
+    "id": "enem-2024-35",
+    "year": 2024,
+    "number": 35,
+    "area": "Linguagens",
+    "discipline": "Linguagens e Códigos",
+    "language": null,
+    "topic": "Linguagens e Códigos",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 35 — ENEM 2024",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2024:regular:blue:35:pt",
+    "context": "![Enunciado original do ENEM 2024, questão 35](enem-assets/official/2024/35/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2024/35/A.webp)",
+      "![Alternativa B original](enem-assets/official/2024/35/B.webp)",
+      "![Alternativa C original](enem-assets/official/2024/35/C.webp)",
+      "![Alternativa D original](enem-assets/official/2024/35/D.webp)",
+      "![Alternativa E original](enem-assets/official/2024/35/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2024/35/statement.webp",
+      "enem-assets/official/2024/35/A.webp",
+      "enem-assets/official/2024/35/B.webp",
+      "enem-assets/official/2024/35/C.webp",
+      "enem-assets/official/2024/35/D.webp",
+      "enem-assets/official/2024/35/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D1_CD1.pdf",
+    "answerVerification": "references/enem-1000/originals/2024-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2024/35/statement.webp",
+      "source": "references/enem-1000/originals/2024-1-prova.pdf",
+      "page": 15,
+      "transcript": "QUESTÃO 35\t\n— Eu lhe juro, Aurélia. Estes lábios nunca tocaram a face de outra mulher, que não fosse minha mãe. Meu primeiro \nbeijo de amor, guardei-o para minha esposa, para ti...\n[...]\n— Ou de outra mais rica! — disse ela, retraindo-se para fugir ao beijo do marido, e afastando-o com a ponta dos dedos.\nA voz da moça tomara o timbre cristalino, eco da rispidez e aspereza do sentimento que lhe sublevava o seio, \ne que parecia ringir-lhe nos lábios como aço.\n— Aurélia! Que significa isto?\n— Representamos uma comédia, na qual ambos desempenhamos o nosso papel com perícia consumada. Podemos \nter este orgulho, que os melhores atores não nos excederiam. Mas é tempo de pôr termo a esta cruel mistificação, \ncom que nos estamos escarnecendo mutuamente, senhor. Entremos na realidade por mais triste que ela seja; \ne resigne-se cada um ao que é, eu, uma mulher traída; o senhor, um homem vendido.\n— Vendido! — exclamou Seixas ferido dentro d’alma.\n— Vendido, sim: não tem outro nome. Sou rica, muito rica; sou milionária; precisava de um marido, traste indispensável \nàs mulheres honestas. O senhor estava no mercado; comprei-o. Custou-me cem contos de réis, foi barato; não se \nfez valer. Eu daria o dobro, o triplo, toda a minha riqueza por este momento.\nALENCAR, J. Senhora. Rio de Janeiro: Tecnoprint, 2003.\nAo tematizar o casamento, esse fragmento reproduz uma concepção de literatura romântica evidenciada na"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2024/35/A.webp",
+        "text": "A\tdefesa da igualdade de gêneros."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2024/35/B.webp",
+        "text": "B\timportância atribuída à castidade."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2024/35/C.webp",
+        "text": "C\tindignação com as injustiças sociais."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2024/35/D.webp",
+        "text": "D\tinterferência da riqueza sobre o amor."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2024/35/E.webp",
+        "text": "E\tvalorização das relações interpessoais."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2024-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2024-1-prova.pdf",
+      "statementSha256": "a818fc661cdee67325ddb11a053c7c51f452f3d14f24cdd6d2c37df09fb78b15",
+      "layout": "single-column",
+      "answerSha256": "673d3d060156d6ad610ecf96c3dd0b8c61f361e16c57860c4ca5b5fecc8be050",
+      "header": {
+        "number": 35,
+        "rect": [
+          32.007896423339844,
+          65.33269500732422,
+          103.09760284423828,
+          80.72669219970703
+        ],
+        "page": 15
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 309.0830078125
+        },
+        {
+          "letter": "B",
+          "y": 321.57281494140625
+        },
+        {
+          "letter": "C",
+          "y": 334.0625
+        },
+        {
+          "letter": "D",
+          "y": 346.55224609375
+        },
+        {
+          "letter": "E",
+          "y": 359.7440185546875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2024/35/statement.webp",
+          "sha256": "bb4dba423dfaa5341461ba928d103f9634a408bc16270fd697da0dc52efd8059",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            64.33269500732422,
+            567.5823364257812,
+            310.0830078125
+          ],
+          "role": "statement",
+          "width": 1088,
+          "height": 493
+        },
+        {
+          "file": "enem-assets/official/2024/35/A.webp",
+          "sha256": "142a59da1db80b18eb631d8755018c764205b227fd9bd8f4b1e1ab2fdd617600",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            310.0830078125,
+            567.5823364257812,
+            322.57281494140625
+          ],
+          "role": "A",
+          "width": 1088,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2024/35/B.webp",
+          "sha256": "6b3c4b20a7955f4f8e96d3be3f4246d3a4f754c78a1bc8a8e75e927018875d06",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            322.57281494140625,
+            567.5823364257812,
+            335.0625
+          ],
+          "role": "B",
+          "width": 1088,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2024/35/C.webp",
+          "sha256": "bd4e7313713ff8c67a436533421d3d515ddadff32efd80d7f02590e9b2c57c45",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            335.0625,
+            567.5823364257812,
+            347.55224609375
+          ],
+          "role": "C",
+          "width": 1088,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2024/35/D.webp",
+          "sha256": "71f6438234abbdbd06087c4af4de698460f8a6537dcd59962cd7a7533ac08ab2",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            347.55224609375,
+            567.5823364257812,
+            360.7440185546875
+          ],
+          "role": "D",
+          "width": 1088,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2024/35/E.webp",
+          "sha256": "bef4f017d1a0642d889678fe67a4df8256787edaf1dc3765dbdb98e122bc4acd",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            360.7440185546875,
+            567.5823364257812,
+            379.2193298339844
+          ],
+          "role": "E",
+          "width": 1088,
+          "height": 38
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno original do INEP; sem declaração de domínio público",
+    "structuredSource": null,
+    "contentFingerprint": "772d58482e80dd7aa63ca0b88e03d4c6913dcebc6beeb533f2fabcf35f2b99c2",
+    "explanationStatus": "not-provided"
+  },
+  {
+    "id": "enem-2024-134",
+    "year": 2024,
+    "number": 134,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 134 — ENEM 2024",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2024:regular:blue:134:pt",
+    "context": "![Enunciado original do ENEM 2024, questão 134](enem-assets/official/2024/134/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2024/134/A.webp)",
+      "![Alternativa B original](enem-assets/official/2024/134/B.webp)",
+      "![Alternativa C original](enem-assets/official/2024/134/C.webp)",
+      "![Alternativa D original](enem-assets/official/2024/134/D.webp)",
+      "![Alternativa E original](enem-assets/official/2024/134/E.webp)"
+    ],
+    "answer": 4,
+    "images": [
+      "enem-assets/official/2024/134/statement.webp",
+      "enem-assets/official/2024/134/A.webp",
+      "enem-assets/official/2024/134/B.webp",
+      "enem-assets/official/2024/134/C.webp",
+      "enem-assets/official/2024/134/D.webp",
+      "enem-assets/official/2024/134/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2024_GB_impresso_D2_CD7.pdf",
+    "answerVerification": "references/enem-1000/originals/2024-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2024/134/statement.webp",
+      "source": "references/enem-1000/originals/2024-2-prova.pdf",
+      "page": 15,
+      "transcript": "QUESTÃO 134\t\nA fitorremediação é uma técnica que utiliza plantas para a remediação de ambientes contaminados. A descontaminação \nde solos pode ocorrer por descarte, absorção e metabolização, imobilização, extração ou volatilização do poluente, \nconforme representado na figura.\nLUIZ, E. P. Avaliação dos métodos de fitorremediação [...] na remoção de chumbo, cobre e zinco. São Paulo: UFABC, 2016 (adaptado).\nO método que retira o mercúrio de uma área contaminada, impedindo sua entrada na cadeia alimentar, é aii"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2024/134/A.webp",
+        "text": "A\tfitoestabilização, ficando o mercúrio disponível sob a superfície das raízes das plantas.i"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2024/134/B.webp",
+        "text": "B\tfitovolatilização, permitindo a retirada do mercúrio por plantas e a sua transferência para uma forma volátil.i"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2024/134/C.webp",
+        "text": "C\tfitodegradação, com a degradação do mercúrio promovida por enzimas, contidas nas raízes, formando espécies \nmenos tóxicas.i"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2024/134/D.webp",
+        "text": "D\tfitoestimulação, com a remoção do mercúrio pela ação de microrganismos presentes nas raízes que absorvem e \nimobilizam o metal.i"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2024/134/E.webp",
+        "text": "E\tfitoextração, em que as plantas que acumulam o mercúrio são cultivadas nesses locais, e a biomassa rica no metal \né retirada após o crescimento."
+      }
+    ],
+    "officialAnswer": "E",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2024-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2024-2-prova.pdf",
+      "statementSha256": "1f59c49412870316b060bb1ee34f583c3cb6d60cb88eb1a719dbe14fa4d57a7f",
+      "layout": "single-column",
+      "answerSha256": "8d27b5a447061e9a1c181d00a916d10f45e1c6c1da68d628b3ae8bdfedbf5c92",
+      "header": {
+        "number": 134,
+        "rect": [
+          32.007896423339844,
+          65.33269500732422,
+          109.07469940185547,
+          80.72669219970703
+        ],
+        "page": 15
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 428.397216796875
+        },
+        {
+          "letter": "B",
+          "y": 441.51092529296875
+        },
+        {
+          "letter": "C",
+          "y": 454.6246337890625
+        },
+        {
+          "letter": "D",
+          "y": 479.43841552734375
+        },
+        {
+          "letter": "E",
+          "y": 504.2637939453125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2024/134/statement.webp",
+          "sha256": "78ebdb0bdabf0c5a9e1cc01166a63798144d518231eb7fbf61aaa55c789d3304",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            64.33269500732422,
+            567.5823364257812,
+            429.397216796875
+          ],
+          "role": "statement",
+          "width": 1088,
+          "height": 731
+        },
+        {
+          "file": "enem-assets/official/2024/134/A.webp",
+          "sha256": "4203326e1a578c19abb45065907ef5da99b94b7d8f8b22ad86a0f4d28f1f70ab",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            429.397216796875,
+            567.5823364257812,
+            442.51092529296875
+          ],
+          "role": "A",
+          "width": 1088,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2024/134/B.webp",
+          "sha256": "417545c1a87b2087992a411806130abc31894e2c5832a1f2d36bbd67d0f2b9bb",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            442.51092529296875,
+            567.5823364257812,
+            455.6246337890625
+          ],
+          "role": "B",
+          "width": 1088,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2024/134/C.webp",
+          "sha256": "c98297ff1d8bb66ad9fc4a199d24ddf06c3f897344bbd4fb311e3c083a495089",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            455.6246337890625,
+            567.5823364257812,
+            480.43841552734375
+          ],
+          "role": "C",
+          "width": 1088,
+          "height": 50
+        },
+        {
+          "file": "enem-assets/official/2024/134/D.webp",
+          "sha256": "abeef96f1a47026eab52e3f41717b387b29393fcc074918ef1fefa28ef83e027",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            480.43841552734375,
+            567.5823364257812,
+            505.2637939453125
+          ],
+          "role": "D",
+          "width": 1088,
+          "height": 51
+        },
+        {
+          "file": "enem-assets/official/2024/134/E.webp",
+          "sha256": "7399b1f913f1aa26c6e7b73e284857b3db4c9f0fbfa9bb26935b00e2babc4a1f",
+          "page": 15,
+          "rect": [
+            24.007896423339844,
+            505.2637939453125,
+            567.5823364257812,
+            535.3731079101562
+          ],
+          "role": "E",
+          "width": 1088,
+          "height": 61
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno original do INEP; sem declaração de domínio público",
+    "structuredSource": null,
+    "contentFingerprint": "9037ab9b8db43b0b1547afcc90e389ca0d7e6811bf801ce5cb5cb0cb1415a7bb",
+    "explanationStatus": "not-provided"
+  }
+]

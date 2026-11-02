@@ -5,13 +5,13 @@ const content=JSON.parse(readFileSync(new URL('../../supabase/functions/_shared/
 test('commercial artifacts contain the demo but no full question bank, plans or essay prompts',()=>{
  const assets=new URL('../../dist/assets/',import.meta.url);
  const output=readdirSync(assets).filter(f=>f.endsWith('.js')).map(f=>readFileSync(new URL(f,assets),'utf8')).join('\n');
- for(const privateText of [content.activities.bank.at(-1).text,content.data.plan[1][2],content.essays.essayTopics.at(-1).guide]){
+ for(const privateText of [content.activities.bank.filter(q=>q.text?.length>80).at(-1).text,content.data.plan[1][2],content.essays.essayTopics.at(-1).guide]){
   expect(output).not.toContain(privateText.slice(0,70));
  }
  expect(output).toContain('__ENEM_CONTENT__');
  expect(existsSync(new URL('../../dist/questions/',import.meta.url))).toBe(false);
- expect(content.activities.bank.filter(q=>q.origin==='enem')).toHaveLength(356);
- expect(content.activities.bank.every(q=>q.loaded!==false&&q.text&&q.options.length===5)).toBe(true);
+ expect(content.activities.bank.filter(q=>q.origin==='enem').length).toBeGreaterThanOrEqual(1000);
+ expect(content.activities.bank.every(q=>q.loaded!==false&&typeof q.text==='string'&&q.options.length===5)).toBe(true);
 });
 
 test('public demo, authenticated content loading, saved progress and revocation',async({page})=>{

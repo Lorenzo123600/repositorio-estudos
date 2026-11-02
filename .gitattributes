@@ -1,0 +1,5 @@
+# Preserve official document and lossless image bytes exactly as verified.
+*.pdf binary
+*.webp binary
+# Whitespace in frozen PDF table extractions is part of the evidence.
+enem/references/enem-1000/originals/*.txt -whitespace

@@ -1,0 +1,428 @@
+[
+  {
+    "id": "enem-2022-144",
+    "year": 2022,
+    "number": 144,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 144 — ENEM 2022",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2022:regular:blue:144:pt",
+    "context": "![Enunciado original do ENEM 2022, questão 144](enem-assets/official/2022/144/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2022/144/A.webp)",
+      "![Alternativa B original](enem-assets/official/2022/144/B.webp)",
+      "![Alternativa C original](enem-assets/official/2022/144/C.webp)",
+      "![Alternativa D original](enem-assets/official/2022/144/D.webp)",
+      "![Alternativa E original](enem-assets/official/2022/144/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2022/144/statement.webp",
+      "enem-assets/official/2022/144/A.webp",
+      "enem-assets/official/2022/144/B.webp",
+      "enem-assets/official/2022/144/C.webp",
+      "enem-assets/official/2022/144/D.webp",
+      "enem-assets/official/2022/144/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "answerVerification": "references/enem-1000/originals/2022-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2022/144/statement.webp",
+      "source": "references/enem-1000/originals/2022-2-prova.pdf",
+      "page": 19,
+      "transcript": "QUESTÃO 144\t\nCada número que identifica uma agência bancária tem \nquatro dígitos: N1, N2, N3, N4 mais um dígito verificador N5.\nN1 N2 N3\nN4\nN5\nTodos \nesses \ndígitos \nsão \nnúmeros \nnaturais \npertencentes ao conjunto {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. \nPara a determinação de N5, primeiramente multiplica-se \nordenadamente os quatro primeiros dígitos do número \nda agência por 5, 4, 3 e 2, respectivamente, somam-se \nos resultados e obtém-se S = 5 N1 + 4 N2 + 3 N3 + 2 N4.\nPosteriormente, encontra-se o resto da divisão de \nS por 11, denotando por R esse resto. Dessa forma, N5 é \na diferença 11 − R.\nConsidere o número de uma agência bancária cujos \nquatro primeiros dígitos são 0100.\nQual é o dígito verificador N5 dessa agência bancária?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2022/144/A.webp",
+        "text": "A\t\nA\t 0"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2022/144/B.webp",
+        "text": "B\t\nB\t 6"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2022/144/C.webp",
+        "text": "C\t\nC\t 7"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2022/144/D.webp",
+        "text": "D\t\nD\t 8"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2022/144/E.webp",
+        "text": "19\n7 - AZUL - 1ª Aplicação\nE\t\nE\t 9"
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2022-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2022-2-prova.pdf",
+      "statementSha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "layout": "two-column",
+      "answerSha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "header": {
+        "number": 144,
+        "rect": [
+          289.1339111328125,
+          409.79541015625,
+          359.03167724609375,
+          423.75738525390625
+        ],
+        "page": 19
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 644.6121826171875
+        },
+        {
+          "letter": "B",
+          "y": 662.4468994140625
+        },
+        {
+          "letter": "C",
+          "y": 680.2816162109375
+        },
+        {
+          "letter": "D",
+          "y": 698.1162109375
+        },
+        {
+          "letter": "E",
+          "y": 715.9508056640625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2022/144/statement.webp",
+          "sha256": "bcc3a9c7e49955f2429f17ca29a45eb9b9c55dbafe875e9387c64f73143cd4e8",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            408.79541015625,
+            546.1339111328125,
+            645.6121826171875
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 475
+        },
+        {
+          "file": "enem-assets/official/2022/144/A.webp",
+          "sha256": "fff60fee274177b83001db54e34ae7371106d6439a9c8dab2eb11a40d8ca20a4",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            645.6121826171875,
+            546.1339111328125,
+            663.4468994140625
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 36
+        },
+        {
+          "file": "enem-assets/official/2022/144/B.webp",
+          "sha256": "492f38c716cc990d5553e4e9e9d9c26ed4cbadadb37c45812708fa8519546048",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            663.4468994140625,
+            546.1339111328125,
+            681.2816162109375
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 37
+        },
+        {
+          "file": "enem-assets/official/2022/144/C.webp",
+          "sha256": "00c4110692596f863956630f11318e068e8c4c6afaedaa9cfe5e4039bbfe555c",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            681.2816162109375,
+            546.1339111328125,
+            699.1162109375
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 37
+        },
+        {
+          "file": "enem-assets/official/2022/144/D.webp",
+          "sha256": "df7566e186e6a4b6481fa2aea0cfcbc3d01986d7cd2dd05717ccda40d8fc4240",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            699.1162109375,
+            546.1339111328125,
+            716.9508056640625
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 36
+        },
+        {
+          "file": "enem-assets/official/2022/144/E.webp",
+          "sha256": "2fa080b11df994bac3cbb7f9da33bb224a2dafb8c6803e23cbe2e2974c64ae1d",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            716.9508056640625,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 73
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2022/questions/144/details.json",
+    "contentFingerprint": "c9e2895ae53ec14715985effcd6e2dac386a3068d4799f19fe1b7aac825e89e1",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "f0545c7b375eb2b6d39a43a16ed8dd71fd4c0df68252f7b213e9b602a38925ba"
+  },
+  {
+    "id": "enem-2022-166",
+    "year": 2022,
+    "number": 166,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 166 — ENEM 2022",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2022:regular:blue:166:pt",
+    "context": "![Enunciado original do ENEM 2022, questão 166](enem-assets/official/2022/166/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2022/166/A.webp)",
+      "![Alternativa B original](enem-assets/official/2022/166/B.webp)",
+      "![Alternativa C original](enem-assets/official/2022/166/C.webp)",
+      "![Alternativa D original](enem-assets/official/2022/166/D.webp)",
+      "![Alternativa E original](enem-assets/official/2022/166/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2022/166/statement.webp",
+      "enem-assets/official/2022/166/A.webp",
+      "enem-assets/official/2022/166/B.webp",
+      "enem-assets/official/2022/166/C.webp",
+      "enem-assets/official/2022/166/D.webp",
+      "enem-assets/official/2022/166/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2022_GB_impresso_D2_CD7.pdf",
+    "answerVerification": "references/enem-1000/originals/2022-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2022/166/statement.webp",
+      "source": "references/enem-1000/originals/2022-2-prova.pdf",
+      "page": 27,
+      "transcript": "QUESTÃO 166\t\nEm uma competição de velocidade, diz-se que há uma \nultrapassagem quando um veículo que está atrás de outro \npassa à sua frente, com ambos se deslocando no mesmo \nsentido. Considere uma competição automobilística entre \ncinco carros em uma pista com 100 m de comprimento, \nonde todos largam no mesmo instante e da mesma linha. \nO gráfico mostra a variação da distância percorrida por cada \nveículo, em função do tempo, durante toda a competição.\n100\n0\nDistância (m)\n0\nTempo (s)\n15\nQual o número de ultrapassagens, após o início da \ncompetição, efetuadas pelo veículo que chegou em \núltimo lugar?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2022/166/A.webp",
+        "text": "A\t\nA\t 0"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2022/166/B.webp",
+        "text": "B\t\nB\t 1"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2022/166/C.webp",
+        "text": "C\t\nC\t 2"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2022/166/D.webp",
+        "text": "D\t\nD\t 3"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2022/166/E.webp",
+        "text": "E\t\nE\t 4"
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2022-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2022-2-prova.pdf",
+      "statementSha256": "ab4cdea89504ab1bfc9435addacea482417cd82e9f220abaa6a317a10bd0b0f9",
+      "layout": "two-column",
+      "answerSha256": "1b4b0cd0978bfc6c862d9631c4f8a5c25091938d09acfd2bd8c8b510764cb118",
+      "header": {
+        "number": 166,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          359.03167724609375,
+          78.79618835449219
+        ],
+        "page": 27
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 412.40679931640625
+        },
+        {
+          "letter": "B",
+          "y": 426.9415283203125
+        },
+        {
+          "letter": "C",
+          "y": 441.47613525390625
+        },
+        {
+          "letter": "D",
+          "y": 456.01080322265625
+        },
+        {
+          "letter": "E",
+          "y": 470.54541015625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2022/166/statement.webp",
+          "sha256": "18fb0f224f5c81e258c76d7271f7e491ad370abf3e70b40b82940fea7e31075b",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            413.40679931640625
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 700
+        },
+        {
+          "file": "enem-assets/official/2022/166/A.webp",
+          "sha256": "26f80e3936e97646e2d0a3b494b7b78001faa47dd1eba918846eb1a192a59aad",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            413.40679931640625,
+            546.1339111328125,
+            427.9415283203125
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2022/166/B.webp",
+          "sha256": "5362f33debbe055393284861ab5ab6346b5baf21c7dec040ebb4311ba49b48a9",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            427.9415283203125,
+            546.1339111328125,
+            442.47613525390625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2022/166/C.webp",
+          "sha256": "5db8d7e7c882aaf90adf07a4ef48b6a500cf3decc2311f5c7e22d99189b614cb",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            442.47613525390625,
+            546.1339111328125,
+            457.01080322265625
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2022/166/D.webp",
+          "sha256": "a09567af45b9c35b5a9123e9e1052d4a093417c4da5067522859e9e225b97e82",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            457.01080322265625,
+            546.1339111328125,
+            471.54541015625
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2022/166/E.webp",
+          "sha256": "19efd84b87b9af852033395f6828a32ba1f1df34c54464beb18f8de6793e4eb4",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            471.54541015625,
+            546.1339111328125,
+            489.5914306640625
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 37
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2022/questions/166/details.json",
+    "contentFingerprint": "66e523045a4e29c038aae64ca4cb1f92cb2e30473ee5ed6a17ec813d14286db0",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "1078247e83d0dd6cb666bc4f6b3451765ee79cb836ade8b4dba1eccf1bf54894"
+  }
+]

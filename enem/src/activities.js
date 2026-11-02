@@ -1,3 +1,4 @@
+import {canonicalQuestionId} from './question-identity.js';
 import officialQuestions from './official-questions.json' with {type:'json'};
 import catalog from './question-catalog.json' with {type:'json'};
 import { questions } from './data.js';
@@ -22,11 +23,13 @@ for(const chunk of catalog.chunks)for(const q of chunk.questions){
  bank.push({...q,options:Array(5).fill(''),loaded:false});
 }
 for(const q of bank){
+ q.canonicalId=canonicalQuestionId(q);
+ q.validationStatus??=q.validation?.status||'legacy';
  q.discipline??=({'Linguagens':'Linguagens e Códigos','Humanas':'Ciências Humanas','Natureza':'Ciências da Natureza','Matemática':'Matemática'})[q.area];
  if(q.id==='enem-2023-164')q.cancelled=true;
 }
 export function matchesQuestion(q,{area='all',discipline='all',year='all',difficulty='all',origin='enem'}={}){
- return !q.cancelled&&(area==='all'||q.area===area)&&(discipline==='all'||q.discipline===discipline)&&(year==='all'||String(q.year)===String(year))&&(origin==='all'||q.origin===origin)&&(difficulty==='all'||q.difficulty===difficulty);
+ return !q.cancelled&&(q.validationStatus||q.validation?.status)!=='pending'&&(area==='all'||q.area===area)&&(discipline==='all'||q.discipline===discipline)&&(year==='all'||String(q.year)===String(year))&&(origin==='all'||q.origin===origin)&&(difficulty==='all'||q.difficulty===difficulty);
 }
 export const challenges = [
 {id:'erro',title:'Detetive de porcentagem',kind:'Encontre o erro',prompt:'Lucas diz: “Um desconto de 20% seguido de aumento de 20% devolve o preço original de R$ 100.” Onde está o erro?',options:['Não há erro: os percentuais se anulam.','O aumento incide sobre R$ 80; o valor final é R$ 96.','O valor final é R$ 120.'],answer:1,explanation:'As bases são diferentes: 100 × 0,8 × 1,2 = 96. Sempre identifique sobre qual valor o percentual incide.',area:'Matemática'},
@@ -36,7 +39,9 @@ export const challenges = [
 {id:'cidadania',title:'Cidadania em ação',kind:'Escolha uma atitude',prompt:'Uma comunidade quer participar de decisões sobre o orçamento municipal. Qual ação favorece a participação democrática?',options:['Impedir o debate público','Participar de audiências públicas e acompanhar os gastos','Restringir o acesso aos dados públicos'],answer:1,explanation:'Audiências e transparência permitem acompanhar decisões e exercer o controle social sobre os recursos públicos.',area:'Humanas'}
 ];
 export function makeExam(count, random=Math.random, filters={}){
- const groups=['Matemática','Linguagens','Humanas','Natureza'].map(area=>bank.flatMap((q,i)=>q.area===area&&matchesQuestion(q,filters)?[i]:[]));
+ const seen=new Set();
+ const unique=bank.map(q=>{const id=canonicalQuestionId(q);if(seen.has(id))return false;seen.add(id);return true});
+ const groups=['Matemática','Linguagens','Humanas','Natureza'].map(area=>bank.flatMap((q,i)=>unique[i]&&q.area===area&&matchesQuestion(q,filters)?[i]:[]));
  const available=groups.reduce((n,g)=>n+g.length,0);
  if(!Number.isInteger(count)||count<1||count>available)throw new RangeError('Não há questões suficientes para esta sessão.');
  for(const group of groups)for(let i=group.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[group[i],group[j]]=[group[j],group[i]];}

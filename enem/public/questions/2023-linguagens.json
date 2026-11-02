@@ -32,7 +32,12 @@
       "enem-assets/2023/questions/1-ingles/59a5b837-9914-48b0-a1b4-959562038c9a.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "b9c2540a5d53a1628629f6f20244dbedb1e6f33d625c68c716b286961b824926"
+    "sourceSha256": "b9c2540a5d53a1628629f6f20244dbedb1e6f33d625c68c716b286961b824926",
+    "canonicalId": "enem:2023:regular:blue:1:ingles",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-2-espanhol",
@@ -45,27 +50,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Me niego rotundamente\nA negar mi voz,\nMi sangre y mi piel.\nY me niego rotundamente\nA dejar de ser yo,\nA dejar de sentirme bien\nCuando miro mi rostro en el es\nCon mi boca\nRotundamente grande\nY mi nariz\nRotundamente hermosa,\nY mis dientes\nRotundamente blancos,\nY mi piel valientemente negra.\nY me niego categóricamente\nA dejar de hablar\nMi lengua, mi acento y mi historia\nY me niego absolutamente\nA ser parte de los que callan,\nDe los que temen,\nDe los que lloran\nPorque me acepto\nRotundamente libre,\nRotundamente negra,\nRotundamente hermosa.\nCAMPELL BARR, S. Disponível em:\nhttps.negracubanateniaqueser.com\nAcesso em 25 out. 2021.",
+    "context": "![Enunciado original do ENEM 2023, questão 2](enem-assets/official/2023/2-espanhol/statement.webp)",
     "text": "Para enfatizar caracteristicas e atitudes que reforçam a identidade da mulher negra, o poema da escritora costarriquenha apresenta:",
     "options": [
-      "Advérbios como \"rotundamente\" e \"categóricamente\".",
-      "Verbos reflexivos como \"me niego\" e \"me acepto\".",
-      "Adjetivos como \"grande\" e \"hermosa\".",
-      "Substantivos como \"sangre\" e \"piel\".",
-      "Adjetivos possessivos como \"mi\" e \"mis\"."
+      "![Alternativa A original](enem-assets/official/2023/2-espanhol/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/2-espanhol/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/2-espanhol/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/2-espanhol/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/2-espanhol/E.webp)"
     ],
     "answer": 0,
     "explanation": "Gabarito oficial: A. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/2-espanhol/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "b2fcf5133f33de3b247d8187376194ca0152b35da3cf7d4189014ecd39131c59"
+    "images": [
+      "enem-assets/official/2023/2-espanhol/statement.webp",
+      "enem-assets/official/2023/2-espanhol/A.webp",
+      "enem-assets/official/2023/2-espanhol/B.webp",
+      "enem-assets/official/2023/2-espanhol/C.webp",
+      "enem-assets/official/2023/2-espanhol/D.webp",
+      "enem-assets/official/2023/2-espanhol/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "b2fcf5133f33de3b247d8187376194ca0152b35da3cf7d4189014ecd39131c59",
+    "canonicalId": "enem:2023:regular:blue:2:espanhol",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 2,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 4
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 466.54144287109375
+        },
+        {
+          "letter": "B",
+          "y": 479.87603759765625
+        },
+        {
+          "letter": "C",
+          "y": 493.21063232421875
+        },
+        {
+          "letter": "D",
+          "y": 506.5452880859375
+        },
+        {
+          "letter": "E",
+          "y": 519.8798828125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/2-espanhol/statement.webp",
+          "sha256": "1d3b74c97cbbf57a96fd9aa0c7166203f319c8314b1aebe0b6559dba965cf675",
+          "page": 4,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            467.54144287109375
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 809
+        },
+        {
+          "file": "enem-assets/official/2023/2-espanhol/A.webp",
+          "sha256": "440540c938c29b9392addf61f49de7b683b95226de6a8ca13b480fa878bde56e",
+          "page": 4,
+          "rect": [
+            285.4645080566406,
+            467.54144287109375,
+            546.1339111328125,
+            480.87603759765625
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/2-espanhol/B.webp",
+          "sha256": "30ad3e042dd85a65839912da7d47011dac3eef8b3e506f2efcee19ef12983143",
+          "page": 4,
+          "rect": [
+            285.4645080566406,
+            480.87603759765625,
+            546.1339111328125,
+            494.21063232421875
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/2-espanhol/C.webp",
+          "sha256": "455426b6016f755d026bff09ec5bb72715e1e3648ee4a6f1bbf45b47137938dd",
+          "page": 4,
+          "rect": [
+            285.4645080566406,
+            494.21063232421875,
+            546.1339111328125,
+            507.5452880859375
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/2-espanhol/D.webp",
+          "sha256": "fc488a2721faa7f630fcdab09da610893007ccf73fb7c7362985efe1b446e7f1",
+          "page": 4,
+          "rect": [
+            285.4645080566406,
+            507.5452880859375,
+            546.1339111328125,
+            520.8798828125
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/2-espanhol/E.webp",
+          "sha256": "31b1765f9f23e9c47edc3f8cffa6e85dd2019dc946d6fcb7182306df64134c82",
+          "page": 4,
+          "rect": [
+            285.4645080566406,
+            520.8798828125,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 465
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/2-espanhol/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 4,
+      "transcript": "QUESTÃO 02\t\nMe niego rotundamente\nA negar mi voz,\nMi sangre y mi piel.\nY me niego rotundamente\nA dejar de ser yo,\nA dejar de sentirme bien\nCuando miro mi rostro en el espejo\nCon mi boca\nRotundamente grande,\nY mi nariz\nRotundamente hermosa,\nY mis dientes\nRotundamente blancos,\nY mi piel valientemente negra.\nY me niego categóricamente\nA dejar de hablar\nMi lengua, mi acento y mi historia.\nY me niego absolutamente\nA ser parte de los que callan,\nDe los que temen,\nDe los que lloran.\nPorque me acepto\nRotundamente libre,\nRotundamente negra,\nRotundamente hermosa.\nCAMPBELL BARR, S. Disponível em: https://negracubanateniaqueser.com. \nAcesso em: 25 out. 2021.\nPara enfatizar características e atitudes que reforçam \na identidade da mulher negra, o poema da escritora \ncostarriquenha apresenta"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/2-espanhol/A.webp",
+        "text": "A\t\nA\t advérbios como “rotundamente” e “categóricamente”.l"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/2-espanhol/B.webp",
+        "text": "B\t\nB\t verbos reflexivos como “me niego” e “me acepto”."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/2-espanhol/C.webp",
+        "text": "C\t\nC\t adjetivos como “grande” e “hermosa”."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/2-espanhol/D.webp",
+        "text": "D\t\nD\t substantivos como “sangre” e “piel”."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/2-espanhol/E.webp",
+        "text": "DERNO 1 • AZUL–\nE\t\nE\t adjetivos possessivos como “mi” e “mis”."
+      }
+    ],
+    "officialAnswer": "A",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/2-espanhol/details.json",
+    "contentFingerprint": "01d691970a673db7264bdff57339366085ff9b83e9dba83145b19b0cbce18452",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "b2fcf5133f33de3b247d8187376194ca0152b35da3cf7d4189014ecd39131c59"
   },
   {
     "id": "enem-2023-2-ingles",
@@ -98,7 +284,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "9556cc581967e8ca55bd3b5767116374191c94024446fe604f858c5e274c26a7"
+    "sourceSha256": "9556cc581967e8ca55bd3b5767116374191c94024446fe604f858c5e274c26a7",
+    "canonicalId": "enem:2023:regular:blue:2:ingles",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-3-espanhol",
@@ -131,7 +322,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "cf98b058f62a973cd2485f8313158a947c6576e3b44528608171d3d47f4df554"
+    "sourceSha256": "cf98b058f62a973cd2485f8313158a947c6576e3b44528608171d3d47f4df554",
+    "canonicalId": "enem:2023:regular:blue:3:espanhol",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-3-ingles",
@@ -144,27 +340,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Things We Carry on the Sea\n\nWe carry tears in our eyes: good-bye father, good-bye mother  \nWe carry soi in smal bags: may home never fade in our hearts  \nWe carry carnage of mining. droughts, floods, genocides  \nWe carry dust of our families and neighbors incinerated in mushroom clouds  \nWe carry our islands sinking under the sea  \nWe carry our hands, feet, bones, hearts and best minds for a new life  \nWe carry diplomas: medicine, engineer, nurse, education, math, poetry, even if they mean nothing to the other shore  \nWe carry railroads, plantations, laundromats. bodegas, taco trucks, farms, factories, nursing homes, hospitals, schools, temples… built on our ancestors’ backs  \nWe carry old homes along the spine, new dreams in our chests  \nWe carry yesterday, today and tomorrow  \nWe’re orphans of the wars forced upon us  \nWe’re refugees of the sea rising from industrial wastes  \nAnd we carry our mother tongues  \n\\[…\\]  \nAs we drift… in our rubber boats… from shore… to shore…. to shore…\n\nPING. W. Disponivel em: https://poets.org. Acesso en 1 jun. 2023 (fragmento)",
+    "context": "![Enunciado original do ENEM 2023, questão 3](enem-assets/official/2023/3-ingles/statement.webp)",
     "text": "Ao retratar a trajetória de refugiados, o poema recorre à imagem de viagem marítima para destacar o(a)",
     "options": [
-      "Risco de choques culturais.",
-      "Impacto do ensino de história.",
-      "Importância da luta ambiental.",
-      "Existência de experiências plurais.",
-      "Necessidade de capacitação profissional."
+      "![Alternativa A original](enem-assets/official/2023/3-ingles/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/3-ingles/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/3-ingles/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/3-ingles/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/3-ingles/E.webp)"
     ],
     "answer": 3,
     "explanation": "Gabarito oficial: D. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/3-ingles/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "085965856b6eac633f42a81047738807f6a9c2f25c38ac4b71acb6bcfbaa71e2"
+    "images": [
+      "enem-assets/official/2023/3-ingles/statement.webp",
+      "enem-assets/official/2023/3-ingles/A.webp",
+      "enem-assets/official/2023/3-ingles/B.webp",
+      "enem-assets/official/2023/3-ingles/C.webp",
+      "enem-assets/official/2023/3-ingles/D.webp",
+      "enem-assets/official/2023/3-ingles/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "085965856b6eac633f42a81047738807f6a9c2f25c38ac4b71acb6bcfbaa71e2",
+    "canonicalId": "enem:2023:regular:blue:3:ingles",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 3,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 2
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 484.2869873046875
+        },
+        {
+          "letter": "B",
+          "y": 498.82171630859375
+        },
+        {
+          "letter": "C",
+          "y": 513.3563232421875
+        },
+        {
+          "letter": "D",
+          "y": 527.8909912109375
+        },
+        {
+          "letter": "E",
+          "y": 542.4255981445312
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/3-ingles/statement.webp",
+          "sha256": "41fafdf1d06cf5ffc3c718d8d89cd7c072aa8f1409742ff35765cc37f5ce06f3",
+          "page": 2,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            485.2869873046875
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 844
+        },
+        {
+          "file": "enem-assets/official/2023/3-ingles/A.webp",
+          "sha256": "ea36ddcada5c4dfd1b2ac910476e6cf6d2dc77d6954ef9676bd4081edb87e194",
+          "page": 2,
+          "rect": [
+            285.4645080566406,
+            485.2869873046875,
+            546.1339111328125,
+            499.82171630859375
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/3-ingles/B.webp",
+          "sha256": "67925bef5f86d4160dadb73ec76d21955c284085dc7082b7f4878722c20f0a6e",
+          "page": 2,
+          "rect": [
+            285.4645080566406,
+            499.82171630859375,
+            546.1339111328125,
+            514.3563232421875
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/3-ingles/C.webp",
+          "sha256": "243c9c58e9956c9a5302da9d05550c7f54eab3aa4bcb3b475f7bac671d809044",
+          "page": 2,
+          "rect": [
+            285.4645080566406,
+            514.3563232421875,
+            546.1339111328125,
+            528.8909912109375
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/3-ingles/D.webp",
+          "sha256": "db8bf9e6f7d4789e399d5af86d6cc421692b1486bb1079166b167e4f2a48f0db",
+          "page": 2,
+          "rect": [
+            285.4645080566406,
+            528.8909912109375,
+            546.1339111328125,
+            543.4255981445312
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/3-ingles/E.webp",
+          "sha256": "2374c5e84acd5a2603e68c5fcd1f2c7bded794ca7f76737e906cd252d70bf325",
+          "page": 2,
+          "rect": [
+            285.4645080566406,
+            543.4255981445312,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 420
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/3-ingles/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 2,
+      "transcript": "QUESTÃO 03\t\nThings We Carry on the Sea\nWe carry tears in our eyes: good-bye father, good-bye\n[mother\nWe carry soil in small bags: may home never fade in our\n[hearts\nWe carry carnage of mining, droughts, floods, genocides\nWe carry dust of our families and neighbors incinerated\n[in mushroom clouds\nWe carry our islands sinking under the sea\nWe carry our hands, feet, bones, hearts and best minds \n[for a new life\nWe carry diplomas: medicine, engineer, nurse,\n[education, math, poetry, even if they mean \n[nothing to the other shore\nWe carry railroads, plantations, laundromats,\n[bodegas, taco trucks, farms, factories, nursing \n[homes, hospitals, schools, temples... built on \n[our ancestors’ backs\nWe carry old homes along the spine, new dreams in our\n[chests\nWe carry yesterday, today and tomorrow\nWe’re orphans of the wars forced upon us\nWe’re refugees of the sea rising from industrial wastes\nAnd we carry our mother tongues\n[...]\nAs we drift... in our rubber boats... from shore... to shore...\n[to shore...\nPING, W. Disponível em: https://poets.org. Acesso em: 1 jun. 2023 (fragmento).\nAo retratar a trajetória de refugiados, o poema recorre à \nimagem de viagem marítima para destacar o(a)"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/3-ingles/A.webp",
+        "text": "A\t\nA\t risco de choques culturais."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/3-ingles/B.webp",
+        "text": "B\t\nB\t impacto do ensino de história."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/3-ingles/C.webp",
+        "text": "C\t\nC\t importância da luta ambiental."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/3-ingles/D.webp",
+        "text": "D\t\nD\t existência de experiências plurais.i"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/3-ingles/E.webp",
+        "text": "DERNO 1 • AZUL–\nE\t\nE\t necessidade de capacitação profissional."
+      }
+    ],
+    "officialAnswer": "D",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/3-ingles/details.json",
+    "contentFingerprint": "9d2a7b2852b37f20d42db547109df58c89e0166787771ecbdb8706667844493c",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "085965856b6eac633f42a81047738807f6a9c2f25c38ac4b71acb6bcfbaa71e2"
   },
   {
     "id": "enem-2023-4-espanhol",
@@ -197,7 +574,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "d3e567b621a7f28f112066a69386c427ab8c8965de2d62073a221e092dab170f"
+    "sourceSha256": "d3e567b621a7f28f112066a69386c427ab8c8965de2d62073a221e092dab170f",
+    "canonicalId": "enem:2023:regular:blue:4:espanhol",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-4-ingles",
@@ -231,7 +613,12 @@
     "images": [],
     "license": "GPL-2.0",
     "sourceSha256": "0a4408dcb35a1392458ee1d89b3b23cf245a0c1efe03bc7a893f5f647ffe2900",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:4:ingles",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-5-espanhol",
@@ -244,28 +631,209 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "**Que quede claro**\n\nCómo es posible que se cierren\n\ntantas bocas, tantos ojos,\n\ntantas puertas, muchas mentes ante un\n\nacto xenofóbico sin precedentes.\n\nPresidentes, ministros, cancilleres,\n\nautoridades, responsables.\n\n¿Quién pagará el daño causado a familiares?\n\nPor un loco del estrada sin modales. \\[…\\]\n\nSe alejó de aquel lugar donde su color era\n\nmucho más que su color, era su raza.\n\nPersiguiendo un sueño que desapareció,\n\nque se fusionó y terminó en una pesadilla. \\[…\\]\n\nDéjame que te cuente esta historia\n\nque sucedió en el metro de Barcelona,\n\ncuando aquella mañana la injusticia\n\ny xenofobia se juntaron de la mano,\n\nprotagonizando una de las más feas escenas de racismo.\n\nEn aquel vagón viajaba un ángel de color diferente,\n\nen su camino se interpuso aquel inconsciente,\n\nque aún sabiendo lo que hacía,\n\nseguía hablando con su gente.\n\nLe dio al ángel dos patadas en su cara,\n\nse rió de ella sin cambiar la mirada.\n\nY aún anda suelto, aún anda suelto…\n\nORISHAS. In: **Cosita buena**. Delaware: Suerte Publishing LCC, 2008 (fragmento).",
+    "context": "![Enunciado original do ENEM 2023, questão 5](enem-assets/official/2023/5-espanhol/statement.webp)",
     "text": "A letra da canção Que quede claro, da banda cubana Orishas, revela o(a)",
     "options": [
-      "Indignação diante do desrespeito à diversidade.",
-      "Violência característica das grandes metrópoles.",
-      "Preconceito da sociedade com relação ao misticismo.",
-      "descuido da população com os sonhos dos imigrantes.",
-      "Falta de segurança existente no transporte público urbano."
+      "![Alternativa A original](enem-assets/official/2023/5-espanhol/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/5-espanhol/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/5-espanhol/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/5-espanhol/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/5-espanhol/E.webp)"
     ],
     "answer": 0,
     "explanation": "Gabarito oficial: A. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/5-espanhol/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
+    "images": [
+      "enem-assets/official/2023/5-espanhol/statement.webp",
+      "enem-assets/official/2023/5-espanhol/A.webp",
+      "enem-assets/official/2023/5-espanhol/B.webp",
+      "enem-assets/official/2023/5-espanhol/C.webp",
+      "enem-assets/official/2023/5-espanhol/D.webp",
+      "enem-assets/official/2023/5-espanhol/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
     "sourceSha256": "64f6124325805741d40f27d378d5cb7914f9bea6ad2198d218802f5ce8129734",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:5:espanhol",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 5,
+        "rect": [
+          289.1339111328125,
+          169.40943908691406,
+          353.6106872558594,
+          183.37144470214844
+        ],
+        "page": 5
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 580.9570922851562
+        },
+        {
+          "letter": "B",
+          "y": 594.2916870117188
+        },
+        {
+          "letter": "C",
+          "y": 607.6264038085938
+        },
+        {
+          "letter": "D",
+          "y": 620.9611206054688
+        },
+        {
+          "letter": "E",
+          "y": 634.2957153320312
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/5-espanhol/statement.webp",
+          "sha256": "896ca1e4eac6fe9e80d10b6fb9862fff6b3997ddc1ed9d18267f2106d0a20e18",
+          "page": 5,
+          "rect": [
+            285.4645080566406,
+            168.40943908691406,
+            546.1339111328125,
+            581.9570922851562
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 828
+        },
+        {
+          "file": "enem-assets/official/2023/5-espanhol/A.webp",
+          "sha256": "e4cd6735ce064f3a77ae8feb3b429109d656a20224dee627a44991ec8bbcc83f",
+          "page": 5,
+          "rect": [
+            285.4645080566406,
+            581.9570922851562,
+            546.1339111328125,
+            595.2916870117188
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/5-espanhol/B.webp",
+          "sha256": "833f5b6d79d599ea4c0a7e6d68a047463d27afe76bb8509914213fc20ae06ba8",
+          "page": 5,
+          "rect": [
+            285.4645080566406,
+            595.2916870117188,
+            546.1339111328125,
+            608.6264038085938
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/5-espanhol/C.webp",
+          "sha256": "b2c6507f75e3aa32aaf0bc7f0bb7ee30a15daa0a4c20ee95b340fe006a82b9a9",
+          "page": 5,
+          "rect": [
+            285.4645080566406,
+            608.6264038085938,
+            546.1339111328125,
+            621.9611206054688
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/5-espanhol/D.webp",
+          "sha256": "4545c62aadf7f6580bee50a20d158d990fad3f0b7df53b7e794611a5144d8dbd",
+          "page": 5,
+          "rect": [
+            285.4645080566406,
+            621.9611206054688,
+            546.1339111328125,
+            635.2957153320312
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/5-espanhol/E.webp",
+          "sha256": "394b55749abb0768b28292f0f6bcce6319e938001fb054122345258bfe8e075d",
+          "page": 5,
+          "rect": [
+            285.4645080566406,
+            635.2957153320312,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 236
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/5-espanhol/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 5,
+      "transcript": "QUESTÃO 05\t\nQue quede claro \nCómo es posible que se cierren\ntantas bocas, tantos ojos,\ntantas puertas, muchas mentes ante un\nacto xenofóbico sin precedentes.\nPresidentes, ministros, cancilleres,\nautoridades, responsables.\n¿Quién pagará el daño causado a familiares?\nPor un loco del estrada sin modales. [...]\nSe alejó de aquel lugar donde su color era\nmucho más que su color, era su raza.\nPersiguiendo un sueño que desapareció,\nque se fusionó y terminó en una pesadilla. [...]\nDéjame que te cuente esta historia\nque sucedió en el metro de Barcelona,\ncuando aquella mañana la injusticia\ny xenofobia se juntaron de la mano,\nprotagonizando una de las más feas escenas de racismo.\nEn aquel vagón viajaba un ángel de color diferente,\nen su camino se interpuso aquel inconsciente,\nque aún sabiendo lo que hacía,\nseguía hablando con su gente.\nLe dio al ángel dos patadas en su cara,\nse rió de ella sin cambiar la mirada.\nY aún anda suelto, aún anda suelto...\nORISHAS. In: Cosita buena. Delaware: Suerte Publishing LLC, 2008 (fragmento).\nA letra da canção Que quede claro, da banda cubana \nOrishas, revela o(a)"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/5-espanhol/A.webp",
+        "text": "A\t\nA\t indignação diante do desrespeito à diversidade."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/5-espanhol/B.webp",
+        "text": "B\t\nB\t violência característica das grandes metrópoles."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/5-espanhol/C.webp",
+        "text": "C\t\nC\t preconceito da sociedade com relação ao misticismo."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/5-espanhol/D.webp",
+        "text": "D\t\nD\t descuido da população com os sonhos dos imigrantes."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/5-espanhol/E.webp",
+        "text": "5\nDERNO 1 • AZUL–\nE\t\nE\t falta de segurança existente no transporte público \nurbano."
+      }
+    ],
+    "officialAnswer": "A",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/5-espanhol/details.json",
+    "contentFingerprint": "717bbb8b1f7bf88dafd6a591f3b81510fb02e546e04f7b04f542a5fddbdf81bf",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "64f6124325805741d40f27d378d5cb7914f9bea6ad2198d218802f5ce8129734"
   },
   {
     "id": "enem-2023-6",
@@ -298,7 +866,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "ccc282822813bdb945330c357034ddff525678793ad6a83be3a5ea82c9259ef3"
+    "sourceSha256": "ccc282822813bdb945330c357034ddff525678793ad6a83be3a5ea82c9259ef3",
+    "canonicalId": "enem:2023:regular:blue:6:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-12",
@@ -331,7 +904,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "7eb382ef2ac296075719e5e988a2b3ffd001d1c1fdaf7759a81813a8643de6d8"
+    "sourceSha256": "7eb382ef2ac296075719e5e988a2b3ffd001d1c1fdaf7759a81813a8643de6d8",
+    "canonicalId": "enem:2023:regular:blue:12:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-14",
@@ -364,7 +942,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "ebcbc240feb77c5af68fb6c77995d0ba91fd958af123a49a3392b6de78349e03"
+    "sourceSha256": "ebcbc240feb77c5af68fb6c77995d0ba91fd958af123a49a3392b6de78349e03",
+    "canonicalId": "enem:2023:regular:blue:14:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-16",
@@ -397,7 +980,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "038d79ffa7507ad1f6a8dee421bc0e0e293b4d145bb5aee93212b0c3dcf1c4fd"
+    "sourceSha256": "038d79ffa7507ad1f6a8dee421bc0e0e293b4d145bb5aee93212b0c3dcf1c4fd",
+    "canonicalId": "enem:2023:regular:blue:16:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-19",
@@ -430,7 +1018,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "0f3a8a974dd4ef6b23e39603b0f104c484d76516a0073fac11eacf91097bd673"
+    "sourceSha256": "0f3a8a974dd4ef6b23e39603b0f104c484d76516a0073fac11eacf91097bd673",
+    "canonicalId": "enem:2023:regular:blue:19:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-20",
@@ -463,7 +1056,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "fffbcbaeab65c21ecddf4f4250f7fe7b861c51931d57240f03c3b40f625b5400"
+    "sourceSha256": "fffbcbaeab65c21ecddf4f4250f7fe7b861c51931d57240f03c3b40f625b5400",
+    "canonicalId": "enem:2023:regular:blue:20:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-21",
@@ -476,27 +1074,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Um grupo de pesquisadores da Universidade Federal do Ceará desenvolveu um dicionário para traduzir sintomas de doenças da linguagem popular para os termos médicos. Defruço, chanha e piloura, por exemplo, podem ser termos conhecidos para muitos, mas, durante uma consulta médica, o desconhecimento pode significar um diagnóstico errado.\n“Isso é um registro histórico e pode ser muito útil para estudos dessas comunidades, na abordagem médica delas. É de certa forma pioneiro no Brasil e, sem dúvida, um instrumento de trabalho importante, porque a comunicação é fundamental na relação médico-paciente”, avalia o reitor da instituição.\nDisponível em: https://gl.globo.com. Acesso em: 1 nov. 2021 (adaptado).",
+    "context": "![Enunciado original do ENEM 2023, questão 21](enem-assets/official/2023/21/statement.webp)",
     "text": "Ao registrarem usos regionais de termos da área médica, Pesquisadores",
     "options": [
-      "Apontaram erros motivados pelo desconhecimento da variedade linguística local.",
-      "Explicaram problemas provocados pela incapacidade de comunicação.",
-      "Descobriram novos sintomas de doenças existentes na comunidade.",
-      "Propiciaram melhor compreensão dos sintomas dos pacientes.",
-      "Divulgaram um novo rol de doenças características da localidade."
+      "![Alternativa A original](enem-assets/official/2023/21/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/21/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/21/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/21/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/21/E.webp)"
     ],
     "answer": 3,
     "explanation": "Gabarito oficial: D. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/21/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "1a8514827d3189f52f488401454961206e70d3c80323121d699908b4eb083f7a"
+    "images": [
+      "enem-assets/official/2023/21/statement.webp",
+      "enem-assets/official/2023/21/A.webp",
+      "enem-assets/official/2023/21/B.webp",
+      "enem-assets/official/2023/21/C.webp",
+      "enem-assets/official/2023/21/D.webp",
+      "enem-assets/official/2023/21/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "1a8514827d3189f52f488401454961206e70d3c80323121d699908b4eb083f7a",
+    "canonicalId": "enem:2023:regular:blue:21:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 21,
+        "rect": [
+          289.1339111328125,
+          407.0172424316406,
+          353.6106872558594,
+          420.9792175292969
+        ],
+        "page": 11
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 602.98828125
+        },
+        {
+          "letter": "B",
+          "y": 629.25732421875
+        },
+        {
+          "letter": "C",
+          "y": 655.5263671875
+        },
+        {
+          "letter": "D",
+          "y": 681.79541015625
+        },
+        {
+          "letter": "E",
+          "y": 708.0645141601562
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/21/statement.webp",
+          "sha256": "39b81135be1251b9a763d8afc0d3a6cb081052ec0658d86d60629fe32755b79e",
+          "page": 11,
+          "rect": [
+            285.4645080566406,
+            406.0172424316406,
+            546.1339111328125,
+            603.98828125
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 396
+        },
+        {
+          "file": "enem-assets/official/2023/21/A.webp",
+          "sha256": "9d9fb13f4b7c335ed28745d156557f1bf726dbdd10d4deddf8342bc079afed06",
+          "page": 11,
+          "rect": [
+            285.4645080566406,
+            603.98828125,
+            546.1339111328125,
+            630.25732421875
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 54
+        },
+        {
+          "file": "enem-assets/official/2023/21/B.webp",
+          "sha256": "979415f56155525d88b72f7c5231ae32fcc0fe23a29f33eb250354d2d68bebe8",
+          "page": 11,
+          "rect": [
+            285.4645080566406,
+            630.25732421875,
+            546.1339111328125,
+            656.5263671875
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 54
+        },
+        {
+          "file": "enem-assets/official/2023/21/C.webp",
+          "sha256": "2ed76e63bb5be6d00263840687efb1a21b3a0e0c1fbfb673982fb8d464fa74e6",
+          "page": 11,
+          "rect": [
+            285.4645080566406,
+            656.5263671875,
+            546.1339111328125,
+            682.79541015625
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 53
+        },
+        {
+          "file": "enem-assets/official/2023/21/D.webp",
+          "sha256": "5d364ea8a76fc2d03a529666111524ecd486d8f054ef78a269905abb426ad4a9",
+          "page": 11,
+          "rect": [
+            285.4645080566406,
+            682.79541015625,
+            546.1339111328125,
+            709.0645141601562
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 54
+        },
+        {
+          "file": "enem-assets/official/2023/21/E.webp",
+          "sha256": "208faaac24c4ca447a791e60be98110cfa9de5c9ee46160245ec1b601ed723bd",
+          "page": 11,
+          "rect": [
+            285.4645080566406,
+            709.0645141601562,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 88
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/21/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 11,
+      "transcript": "QUESTÃO 21\t\nUm grupo de pesquisadores da Universidade Federal \ndo Ceará desenvolveu um dicionário para traduzir sintomas \nde doenças da linguagem popular para os termos médicos. \nDefruço, chanha e piloura, por exemplo, podem ser termos \nconhecidos para muitos, mas, durante uma consulta médica, \no desconhecimento pode significar um diagnóstico errado.\n“Isso é um registro histórico e pode ser muito útil para \nestudos dessas comunidades, na abordagem médica delas. \nÉ de certa forma pioneiro no Brasil e, sem dúvida, um instrumento \nde trabalho importante, porque a comunicação é fundamental \nna relação médico-paciente”, avalia o reitor da instituição.\nDisponível em: https://g1.globo.com. Acesso em: 1 nov. 2021 (adaptado).\nAo registrarem usos regionais de termos da área médica, \npesquisadores"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/21/A.webp",
+        "text": "A\t\nA\t apontaram erros motivados pelo desconhecimento da \nvariedade linguística local."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/21/B.webp",
+        "text": "B\t\nB\t explicaram problemas provocados pela incapacidade \nde comunicação."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/21/C.webp",
+        "text": "C\t\nC\t descobriram novos sintomas de doenças existentes \nna comunidade."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/21/D.webp",
+        "text": "D\t\nD\t propiciaram melhor compreensão dos sintomas dos \npacientes."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/21/E.webp",
+        "text": "11\nDERNO 1 • AZUL–\nE\t\nE\t divulgaram um novo rol de doenças características \nda localidade."
+      }
+    ],
+    "officialAnswer": "D",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/21/details.json",
+    "contentFingerprint": "304d93e0fccc153881b5a2257311957f47c3b2c25858eb460836a621e8ea5983",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "1a8514827d3189f52f488401454961206e70d3c80323121d699908b4eb083f7a"
   },
   {
     "id": "enem-2023-23",
@@ -529,7 +1308,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "527e4bb0953d078dd3f80b1fa622bff274d5d72b4bfa19e1ab059706a16670bd"
+    "sourceSha256": "527e4bb0953d078dd3f80b1fa622bff274d5d72b4bfa19e1ab059706a16670bd",
+    "canonicalId": "enem:2023:regular:blue:23:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-24",
@@ -542,29 +1326,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "![](enem-assets/2023/questions/24/78918e1a-00e2-4972-b8f7-9cc17a935ec2.png)",
+    "context": "![Enunciado original do ENEM 2023, questão 24](enem-assets/official/2023/24/statement.webp)",
     "text": "Esse anúncio publicitário, veiculado durante o contexto da pandemia de covid-19, tem por finalidade",
     "options": [
-      "Divulgar o canal telefônico de atendimento a casos de violência contra a mulher.",
-      "Informar sobre a atuação de uma entidade defensora da mulher vítima de violência.",
-      "Evidenciar o trabalho da Defensoria Pública em relação ao problema do abuso contra a mulher.",
-      "Alertar a sociedade sobre o aumento da violência contra a mulher em decorrência do coronavírus.",
-      "Incentivar o público feminino a denunciar crimes de violência contra a mulher durante o período de isolamento"
+      "![Alternativa A original](enem-assets/official/2023/24/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/24/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/24/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/24/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/24/E.webp)"
     ],
     "answer": 4,
     "explanation": "Gabarito oficial: E. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/24/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/24/78918e1a-00e2-4972-b8f7-9cc17a935ec2.png"
+      "enem-assets/official/2023/24/statement.webp",
+      "enem-assets/official/2023/24/A.webp",
+      "enem-assets/official/2023/24/B.webp",
+      "enem-assets/official/2023/24/C.webp",
+      "enem-assets/official/2023/24/D.webp",
+      "enem-assets/official/2023/24/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "e68bca245ea81532e6d54fa5f3b557c3e859c40edcdc224872b237d1d8b1972b"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "e68bca245ea81532e6d54fa5f3b557c3e859c40edcdc224872b237d1d8b1972b",
+    "canonicalId": "enem:2023:regular:blue:24:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 24,
+        "rect": [
+          289.1339111328125,
+          382.74810791015625,
+          353.6106872558594,
+          396.7100830078125
+        ],
+        "page": 12
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 586.7296142578125
+        },
+        {
+          "letter": "B",
+          "y": 613.906982421875
+        },
+        {
+          "letter": "C",
+          "y": 641.0842895507812
+        },
+        {
+          "letter": "D",
+          "y": 668.26171875
+        },
+        {
+          "letter": "E",
+          "y": 695.4390258789062
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/24/statement.webp",
+          "sha256": "b29fb6bf038f048f837cc603e910ad86c99446b6471ab903c644492be388c28e",
+          "page": 12,
+          "rect": [
+            285.4645080566406,
+            381.74810791015625,
+            546.1339111328125,
+            587.7296142578125
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 413
+        },
+        {
+          "file": "enem-assets/official/2023/24/A.webp",
+          "sha256": "743803349026df8bc3e48d3fb7b9cb8979c520063f992a6b7a888cf1f6e8efcb",
+          "page": 12,
+          "rect": [
+            285.4645080566406,
+            587.7296142578125,
+            546.1339111328125,
+            614.906982421875
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 55
+        },
+        {
+          "file": "enem-assets/official/2023/24/B.webp",
+          "sha256": "e72429a4d4d057002206f9e91280c068dedc5f5dc13c185d3b8dd306d10da57a",
+          "page": 12,
+          "rect": [
+            285.4645080566406,
+            614.906982421875,
+            546.1339111328125,
+            642.0842895507812
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 56
+        },
+        {
+          "file": "enem-assets/official/2023/24/C.webp",
+          "sha256": "a175cb6b010b556f7892d39c2ac219f7999722d2a76f315eec17e6e3d3fa2fa4",
+          "page": 12,
+          "rect": [
+            285.4645080566406,
+            642.0842895507812,
+            546.1339111328125,
+            669.26171875
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 55
+        },
+        {
+          "file": "enem-assets/official/2023/24/D.webp",
+          "sha256": "5e1b10cf4f19f48e0154257f6298d40cd8d54b89ba4795351a8c1217f7f41302",
+          "page": 12,
+          "rect": [
+            285.4645080566406,
+            669.26171875,
+            546.1339111328125,
+            696.4390258789062
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 55
+        },
+        {
+          "file": "enem-assets/official/2023/24/E.webp",
+          "sha256": "b2e311474f0c9696895fa07836b345c43584564b21c42b9d3035beaa4c03b14c",
+          "page": 12,
+          "rect": [
+            285.4645080566406,
+            696.4390258789062,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 114
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/24/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 12,
+      "transcript": "QUESTÃO 24\t\nEm tempos de isolamento\nsocial por conta da pandemia de \ncovid-19, a Defensoria Pública \nalerta para o aumento da \nviolência contra a mulher! \nNão se cale! Denuncie!\nA Defensoria não para!\n#JuntasSomosMaisFortes\nDisque 180\nDisponível em: www.defensoriapublica.mt.gov.br. Acesso em: 29 out. 2021 (adaptado).\nEsse anúncio publicitário, veiculado durante o contexto \nda pandemia de covid-19, tem por finalidade"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/24/A.webp",
+        "text": "A\t\nA\t divulgar o canal telefônico de atendimento a casos de \nviolência contra a mulher."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/24/B.webp",
+        "text": "B\t\nB\t informar sobre a atuação de uma entidade defensora \nda mulher vítima de violência."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/24/C.webp",
+        "text": "C\t\nC\t evidenciar o trabalho da Defensoria Pública em relação \nao problema do abuso contra a mulher."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/24/D.webp",
+        "text": "D\t\nD\t alertar a sociedade sobre o aumento da violência \ncontra a mulher em decorrência do coronavírus."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/24/E.webp",
+        "text": "DERNO 1 • AZUL–\nE\t\nE\t incentivar o público feminino a denunciar crimes \nde violência contra a mulher durante o período de \nisolamento."
+      }
+    ],
+    "officialAnswer": "E",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/24/details.json",
+    "contentFingerprint": "dbb5f387756b832ee1a64c1ae255299eef87389d66c9b562a821612431d06803",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "e68bca245ea81532e6d54fa5f3b557c3e859c40edcdc224872b237d1d8b1972b"
   },
   {
     "id": "enem-2023-26",
@@ -597,7 +1560,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "8fdff8212eb14bc910ad2d7560beae8529f30582d4926a8575d3de68767ec5d3"
+    "sourceSha256": "8fdff8212eb14bc910ad2d7560beae8529f30582d4926a8575d3de68767ec5d3",
+    "canonicalId": "enem:2023:regular:blue:26:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-27",
@@ -610,28 +1578,209 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "E assim as coisas continuaram acontecendo entre os dois, em quase sustos, um grande por acaso com cacoetes de gestos definitivos. Com o Nunca Mais se oferecendo o tempo todo, bastaria dizer foi um prazer ter te conhecido, bastaria não trocar telefones nem e-mails e enterrar a casualidade com a cal da sabedoria – nada poderia ser definitivo, os encontros duravam duas horas ou duas décadas ou duas vezes isso, mas em algum momento necessariamente seria o fim. De todos os grandes amores, De todos os pequenos. De todas as juras, das promessas, de todos os na-alegria-e-na-tristeza. De todos os não amores, os desamores, os casamentos para sempre, os rancores para sempre, de todas as paralelas que só se viabilizam na abstração da geometria, de todas as pequenas paixões e de todas as grandes paixões, de tudo que para na antessala da paixão, de todos os vínculos não experimentados, de todos.\nLISBOA, A. Rahushisha. Rio de Janeiro Objetiva 2014.",
+    "context": "![Enunciado original do ENEM 2023, questão 27](enem-assets/official/2023/27/statement.webp)",
     "text": "O recurso que promove a progressão textual, contribuindo para a construção da ideia de que as relações amorosas têm um enredo comum, é a",
     "options": [
-      "Repetição do pronome indefinido \"todos\".",
-      "utilização do travessão na marcação do aposto.",
-      "Retomada do antecedente pelo pronome \"isso\".",
-      "Contraposição de ideias marcada pela conjunção mas.",
-      "Substantivação de expressões pela anteposição do artigo."
+      "![Alternativa A original](enem-assets/official/2023/27/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/27/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/27/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/27/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/27/E.webp)"
     ],
     "answer": 0,
     "explanation": "Gabarito oficial: A. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/27/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
+    "images": [
+      "enem-assets/official/2023/27/statement.webp",
+      "enem-assets/official/2023/27/A.webp",
+      "enem-assets/official/2023/27/B.webp",
+      "enem-assets/official/2023/27/C.webp",
+      "enem-assets/official/2023/27/D.webp",
+      "enem-assets/official/2023/27/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
     "sourceSha256": "39dede96f4df7c3f1414d02c1011a18a7b02d2dcd6e57b6a3e447a612daf3786",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:27:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 27,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 13
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 322.99798583984375
+        },
+        {
+          "letter": "B",
+          "y": 337.53271484375
+        },
+        {
+          "letter": "C",
+          "y": 352.06744384765625
+        },
+        {
+          "letter": "D",
+          "y": 366.60198974609375
+        },
+        {
+          "letter": "E",
+          "y": 381.1365966796875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/27/statement.webp",
+          "sha256": "b228fa53255730ff0c53f254d8c8396d3174cdc3bcaf61a81e98733f272b2427",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            323.99798583984375
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 521
+        },
+        {
+          "file": "enem-assets/official/2023/27/A.webp",
+          "sha256": "13125027182a3a5ef3f7dbb29b8539145c73ed48f511d7bb9a10e10e43a43cd4",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            323.99798583984375,
+            546.1339111328125,
+            338.53271484375
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/27/B.webp",
+          "sha256": "26ac9bf0c348b22462fc5e8a9ab103c9f5e82ae07f1a32c7be67ebd72a21ad84",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            338.53271484375,
+            546.1339111328125,
+            353.06744384765625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/27/C.webp",
+          "sha256": "d54a5b6a59f73f4fb2c9fb73fbd7eeb1e2571c79d825391adc5385593656b0a1",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            353.06744384765625,
+            546.1339111328125,
+            367.60198974609375
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/27/D.webp",
+          "sha256": "9d18d1c59a5ab4f0128956ccc719c958c4de16de507f99be85f6c7e88847f5f3",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            367.60198974609375,
+            546.1339111328125,
+            382.1365966796875
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/27/E.webp",
+          "sha256": "5efbcc85e1fd5ea3f57d452742ea47bef4bb11e459a6704702724eef5d102fed",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            382.1365966796875,
+            546.1339111328125,
+            411.88262939453125
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 60
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/27/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 13,
+      "transcript": "QUESTÃO 27\t\nE assim as coisas continuaram acontecendo entre os \ndois, em quase sustos, um grande por acaso com cacoetes \nde gestos definitivos. Com o Nunca Mais se oferecendo \no tempo todo, bastaria dizer foi um prazer ter te conhecido, \nbastaria não trocar telefones nem e-mails e enterrar \na casualidade com a cal da sabedoria — nada poderia \nser definitivo, os encontros duravam duas horas ou duas \ndécadas ou duas vezes isso, mas em algum momento \nnecessariamente seria o fim. De todos os grandes amores. \nDe todos os pequenos. De todas as juras, das promessas, \nde todos os na-alegria-e-na-tristeza. De todos os não \namores, os desamores, os casamentos para sempre, \nos rancores para sempre, de todas as paralelas que só \nse viabilizam na abstração da geometria, de todas as \npequenas paixões e de todas as grandes paixões, de tudo \nque para na antessala da paixão, de todos os vínculos não \nexperimentados, de todos.\nLISBOA, A. Rakushisha. Rio de Janeiro: Objetiva, 2014.\nO recurso que promove a progressão textual, contribuindo \npara a construção da ideia de que as relações amorosas \ntêm um enredo comum, é ai"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/27/A.webp",
+        "text": "A\t\nA\t repetição do pronome indefinido “todos”."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/27/B.webp",
+        "text": "B\t\nB\t utilização do travessão na marcação do aposto."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/27/C.webp",
+        "text": "C\t\nC\t retomada do antecedente pelo pronome “isso”."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/27/D.webp",
+        "text": "D\t\nD\t contraposição de ideias marcada pela conjunção “mas”."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/27/E.webp",
+        "text": "E\t\nE\t substantivação de expressões pela anteposição do \nartigo."
+      }
+    ],
+    "officialAnswer": "A",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/27/details.json",
+    "contentFingerprint": "70a43238421420938f2782f9b4b2a485c139314503704aa0351d58a32413d0c8",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "39dede96f4df7c3f1414d02c1011a18a7b02d2dcd6e57b6a3e447a612daf3786"
   },
   {
     "id": "enem-2023-28",
@@ -644,27 +1793,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "A garganta é a gruta que guarda o som\nA garganta está entre a mente e o coração\nVem coisa de cima, vem coisa de baixo e de \n[repente um nó (e o que eu quero dizer?)\nÀs vezes, acontece um negócio esquisito\nQuando eu quero falar eu grito, quando eu quero\n[gritar eu falo, o resultado\nCalo.\nESTRELA D’ALVA, R. Disponível em: https://claudia.abril.com.br. Acesso em: 23 nov. 2021 (fragmento).",
+    "context": "![Enunciado original do ENEM 2023, questão 28](enem-assets/official/2023/28/statement.webp)",
     "text": "A função emotiva presente no poema cumpre o propósito do eu lírico de",
     "options": [
-      "Revelar as desilusões amorosas.",
-      "Refletir sobre a censura à sua voz",
-      "Expressar a dificuldade de comunicação.",
-      "Ressaltar a existência de pressões externas.",
-      "Manifestar as dores do processo de criação."
+      "![Alternativa A original](enem-assets/official/2023/28/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/28/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/28/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/28/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/28/E.webp)"
     ],
     "answer": 2,
     "explanation": "Gabarito oficial: C. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/28/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "58d79458ceb5ea89f515652f10755e89b02757eb5ec6f7fc0afd491934c708a5"
+    "images": [
+      "enem-assets/official/2023/28/statement.webp",
+      "enem-assets/official/2023/28/A.webp",
+      "enem-assets/official/2023/28/B.webp",
+      "enem-assets/official/2023/28/C.webp",
+      "enem-assets/official/2023/28/D.webp",
+      "enem-assets/official/2023/28/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "58d79458ceb5ea89f515652f10755e89b02757eb5ec6f7fc0afd491934c708a5",
+    "canonicalId": "enem:2023:regular:blue:28:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 28,
+        "rect": [
+          289.1339111328125,
+          412.88262939453125,
+          353.6106872558594,
+          426.8446044921875
+        ],
+        "page": 13
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 597.7216796875
+        },
+        {
+          "letter": "B",
+          "y": 612.2562866210938
+        },
+        {
+          "letter": "C",
+          "y": 626.791015625
+        },
+        {
+          "letter": "D",
+          "y": 641.3256225585938
+        },
+        {
+          "letter": "E",
+          "y": 655.8602294921875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/28/statement.webp",
+          "sha256": "597cac9310ab1361c5a03c2dfe8d0280e618f98dd2d584caec8bc60756cf73a6",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            411.88262939453125,
+            546.1339111328125,
+            598.7216796875
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 375
+        },
+        {
+          "file": "enem-assets/official/2023/28/A.webp",
+          "sha256": "fce9693abd53fefc1cc98d0d752f09cd6e9223111f6f88ee061c7a7d6dfd9361",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            598.7216796875,
+            546.1339111328125,
+            613.2562866210938
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/28/B.webp",
+          "sha256": "728b1af5cbfda63e199d96f51bf15509e6d9e6ca638b2b0ae9f94c9f9c08a80c",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            613.2562866210938,
+            546.1339111328125,
+            627.791015625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/28/C.webp",
+          "sha256": "83b0e4acfbe4698cbc9f94501c7767c67e790277fd4aaf202db2aba9c73521e3",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            627.791015625,
+            546.1339111328125,
+            642.3256225585938
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/28/D.webp",
+          "sha256": "c31cdc21be0ea5984f43f1786e26b2ce3b8f84e35a16edf145879626f4874364",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            642.3256225585938,
+            546.1339111328125,
+            656.8602294921875
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/28/E.webp",
+          "sha256": "46bbd2051d8a0f9c540806f4307039e66553d83b4846e89bba989540c113d27d",
+          "page": 13,
+          "rect": [
+            285.4645080566406,
+            656.8602294921875,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 193
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/28/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 13,
+      "transcript": "QUESTÃO 28\t\nA garganta é a gruta que guarda o som\nA garganta está entre a mente e o coração\nVem coisa de cima, vem coisa de baixo e de\n[repente um nó (e o que eu quero dizer?)\nÀs vezes, acontece um negócio esquisito\nQuando eu quero falar eu grito, quando eu quero\n[gritar eu falo, o resultado\nCalo.\nESTRELA D’ALVA, R. Disponível em: https://claudia.abril.com.br. \nAcesso em: 23 nov. 2021 (fragmento).\nA função emotiva presente no poema cumpre o propósito \ndo eu lírico de"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/28/A.webp",
+        "text": "A\t\nA\t revelar as desilusões amorosas.l"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/28/B.webp",
+        "text": "B\t\nB\t refletir sobre a censura à sua voz.i"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/28/C.webp",
+        "text": "C\t\nC\t expressar a dificuldade de comunicação."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/28/D.webp",
+        "text": "D\t\nD\t ressaltar a existência de pressões externas."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/28/E.webp",
+        "text": "13\nDERNO 1 • AZUL–\nE\t\nE\t manifestar as dores do processo de criação."
+      }
+    ],
+    "officialAnswer": "C",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/28/details.json",
+    "contentFingerprint": "dfe8af306663ccc45b2c954d778bfa7c73c3207ca1c0cc731c5e11879ad27617",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "58d79458ceb5ea89f515652f10755e89b02757eb5ec6f7fc0afd491934c708a5"
   },
   {
     "id": "enem-2023-30",
@@ -697,7 +2027,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "cddac511a2cb05e4ec09082cec4c09b92c0bc9f0e802388c805b78a765545fec"
+    "sourceSha256": "cddac511a2cb05e4ec09082cec4c09b92c0bc9f0e802388c805b78a765545fec",
+    "canonicalId": "enem:2023:regular:blue:30:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-32",
@@ -731,7 +2066,12 @@
     "images": [],
     "license": "GPL-2.0",
     "sourceSha256": "d4d866add5948c26548270fa1d6095ab5d08098eef331efdda8cafdadd3d87f2",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:32:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-33",
@@ -766,7 +2106,12 @@
       "enem-assets/2023/questions/33/d3f9dfc2-3337-498f-8dcd-67a7f5909bbb.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "1428b907ea16ef4da36091e0308a0705f91a354958442820a2ea2f9de4973656"
+    "sourceSha256": "1428b907ea16ef4da36091e0308a0705f91a354958442820a2ea2f9de4973656",
+    "canonicalId": "enem:2023:regular:blue:33:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-37",
@@ -779,27 +2124,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "O uso das redes sociais como forma de ampliar universos foi uma descoberta recente para o artista Wolney Fernandes, que começou a criar quando o ambiente em Goiás era mais árido em relação às artes visuais. “Hoje, ser diferente é uma potência e quem sabe o que quer com a própria arte encontra espaço”, diz. As colagens artísticas do goiano aparecem em capas de obras literárias pelo Brasil e exterior.\n\nDisponível em: https://opopular.com.br. Acesso em: 15 nov. 2021 (adaptado).",
+    "context": "![Enunciado original do ENEM 2023, questão 37](enem-assets/official/2023/37/statement.webp)",
     "text": "O artista goiano Wolney Fernandes busca expor seu trabalho por meio de plataformas virtuais com o objetivo de",
     "options": [
-      "Dar suporte à técnica de colagem em Artes Visuais, contornando dificuldades práticas.",
-      "Aproximar-se da estética visual própria da editoração de obras artísticas, como capas de livros.",
-      "Oferecer uma vitrine internacional para sua produção artística, a fim de dar mais visibilidade a suas obras.",
-      "Enfatizar o caráter original e inovador de suas criações artísticas, diferenciando-se das artes tradicionais.",
-      "Trazer um sentido tecnológico às suas colagens, uma vez que as imagens artísticas são recorrentes nas redes sociais."
+      "![Alternativa A original](enem-assets/official/2023/37/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/37/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/37/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/37/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/37/E.webp)"
     ],
     "answer": 2,
     "explanation": "Gabarito oficial: C. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/37/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "c50949b769b81c7f75418723e731161a79f502abadd6c8e70a17a0e908d484a6"
+    "images": [
+      "enem-assets/official/2023/37/statement.webp",
+      "enem-assets/official/2023/37/A.webp",
+      "enem-assets/official/2023/37/B.webp",
+      "enem-assets/official/2023/37/C.webp",
+      "enem-assets/official/2023/37/D.webp",
+      "enem-assets/official/2023/37/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "c50949b769b81c7f75418723e731161a79f502abadd6c8e70a17a0e908d484a6",
+    "canonicalId": "enem:2023:regular:blue:37:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 37,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 16
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 225.0980987548828
+        },
+        {
+          "letter": "B",
+          "y": 251.3327178955078
+        },
+        {
+          "letter": "C",
+          "y": 277.56732177734375
+        },
+        {
+          "letter": "D",
+          "y": 303.802001953125
+        },
+        {
+          "letter": "E",
+          "y": 329.33660888671875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/37/statement.webp",
+          "sha256": "3c31c1adf855f569b92d6be332003cc39d46cb190fbed534998bd30fdf5f59ce",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            226.0980987548828
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 326
+        },
+        {
+          "file": "enem-assets/official/2023/37/A.webp",
+          "sha256": "fa6b58096e46778ae64b11d7f9ce51cfb6a41596697dd37498834d1f8d6fca0b",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            226.0980987548828,
+            546.1339111328125,
+            252.3327178955078
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 53
+        },
+        {
+          "file": "enem-assets/official/2023/37/B.webp",
+          "sha256": "fdfff4ab03262f5ff3acc04ec7e5afed30e7f4cf86092f030d9768ba0b086874",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            252.3327178955078,
+            546.1339111328125,
+            278.56732177734375
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 54
+        },
+        {
+          "file": "enem-assets/official/2023/37/C.webp",
+          "sha256": "672858e5804a64e67e6112a91ad6087acac1a1c9bedcc184b26053bfce569b38",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            278.56732177734375,
+            546.1339111328125,
+            304.802001953125
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 53
+        },
+        {
+          "file": "enem-assets/official/2023/37/D.webp",
+          "sha256": "dcf5fd29939d3b95b6c5dc84ee3cf7eda16d56bfd7eff293ddbff59660cd1f35",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            304.802001953125,
+            546.1339111328125,
+            330.33660888671875
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 52
+        },
+        {
+          "file": "enem-assets/official/2023/37/E.webp",
+          "sha256": "59f417ab5beb034dec9c83dbebe3818eaedbdb2cc3cebc025b192d8791e9ddba",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            330.33660888671875,
+            546.1339111328125,
+            370.37860107421875
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 81
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/37/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 16,
+      "transcript": "QUESTÃO 37\t\nO uso das redes sociais como forma de ampliar \nuniversos foi uma descoberta recente para o artista Wolney \nFernandes, que começou a criar quando o ambiente em \nGoiás era mais árido em relação às artes visuais. “Hoje, ser \ndiferente é uma potência e quem sabe o que quer com \na própria arte encontra espaço”, diz. As colagens artísticas \ndo goiano aparecem em capas de obras literárias pelo \nBrasil e exterior.\nDisponível em: https://opopular.com.br. Acesso em: 15 nov. 2021 (adaptado).\nO artista goiano Wolney Fernandes busca expor seu \ntrabalho por meio de plataformas virtuais com o objetivo de"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/37/A.webp",
+        "text": "A\t\nA\t dar suporte à técnica de colagem em Artes Visuais, \ncontornando dificuldades práticas."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/37/B.webp",
+        "text": "B\t\nB\t aproximar-se da estética visual própria da editoração \nde obras artísticas, como capas de livros."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/37/C.webp",
+        "text": "C\t\nC\t oferecer uma vitrine internacional para sua produção \nartística, a fim de dar mais visibilidade a suas obras."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/37/D.webp",
+        "text": "D\t\nD\t enfatizar o caráter original e inovador de suas criações \nartísticas, diferenciando-se das artes tradicionais."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/37/E.webp",
+        "text": "E\t\nE\t trazer um sentido tecnológico às suas colagens, uma \nvez que as imagens artísticas são recorrentes nas \nredes sociais."
+      }
+    ],
+    "officialAnswer": "C",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/37/details.json",
+    "contentFingerprint": "5fcf852c1e14e573abbb152e58b10f610b2287014b2514c64e2c8efbb628030e",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "c50949b769b81c7f75418723e731161a79f502abadd6c8e70a17a0e908d484a6"
   },
   {
     "id": "enem-2023-38",
@@ -812,27 +2338,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "O mais antigo grupo de rap indígena do país, Brô MCs, surgiu em 2009, na aldeia Jaguapiru, em Dourados, Mato Grosso do Sul. Os integrantes conheceram o rap pelo rádio, ouvindo um programa que apresentava cantores e grupos brasileiros desse gênero musical. O Brô MCs conseguiu influenciar outros a fazerem rap e a lutarem pelas causas indígenas. Um dos nomes do movimento, Kunumi MC, é um jovem de 16 anos, da aldeia Krukutu, em São Paulo.\nO adolescente enxerga o rap como uma cultura da defesa e começou a fazer rimas quando percebeu que a poesia, pela qual sempre se interessou, podia virar música.\nNas letras que cria, inspiradas tanto pelo rap quanto pelos ritmos indígenas, tenta incluir sempre assuntos aos quais acha importante dar voz, principalmente, a questão da demarcação de terras.\nDisponível em: www.correiobraziliense.com.br. Acesso em: 13 nov. 2021 (adaptado).",
+    "context": "![Enunciado original do ENEM 2023, questão 38](enem-assets/official/2023/38/statement.webp)",
     "text": "O movimento rap dos povos originários do Brasil revela o(a)",
     "options": [
-      "Fusão de manifestações artísticas urbanas contemporâneas com a cultura indígena.",
-      "Contraposição das temáticas socioambientais indigenas as questões urbanas.",
-      "Rejeição da indústria radiofônica às músicas indígenas.",
-      "Distanciamento da realidade social indígena.",
-      "E estímulo ao estudo da poesia indígena."
+      "![Alternativa A original](enem-assets/official/2023/38/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/38/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/38/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/38/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/38/E.webp)"
     ],
     "answer": 0,
     "explanation": "Gabarito oficial: A. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/38/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "52b5b235f5a3953ff139228b9b3495adc6d1ff70558387caf117a8d877c1abf1"
+    "images": [
+      "enem-assets/official/2023/38/statement.webp",
+      "enem-assets/official/2023/38/A.webp",
+      "enem-assets/official/2023/38/B.webp",
+      "enem-assets/official/2023/38/C.webp",
+      "enem-assets/official/2023/38/D.webp",
+      "enem-assets/official/2023/38/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "52b5b235f5a3953ff139228b9b3495adc6d1ff70558387caf117a8d877c1abf1",
+    "canonicalId": "enem:2023:regular:blue:38:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 38,
+        "rect": [
+          289.1339111328125,
+          371.37860107421875,
+          353.6106872558594,
+          385.340576171875
+        ],
+        "page": 16
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 599.1484375
+        },
+        {
+          "letter": "B",
+          "y": 625.3831176757812
+        },
+        {
+          "letter": "C",
+          "y": 651.61767578125
+        },
+        {
+          "letter": "D",
+          "y": 666.1524047851562
+        },
+        {
+          "letter": "E",
+          "y": 680.68701171875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/38/statement.webp",
+          "sha256": "6579c080a4b01010a96b8afb2657a2056dd0afc659c917dfbd20cae4b2da6014",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            370.37860107421875,
+            546.1339111328125,
+            600.1484375
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 461
+        },
+        {
+          "file": "enem-assets/official/2023/38/A.webp",
+          "sha256": "13c4e44351c132bea1a48486e2e187c676983875a3e7463d43309cbdb5ee789a",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            600.1484375,
+            546.1339111328125,
+            626.3831176757812
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 53
+        },
+        {
+          "file": "enem-assets/official/2023/38/B.webp",
+          "sha256": "e6e63e781730d917a16f502e58da66c3a7842435a7f9738b797302a7496c6713",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            626.3831176757812,
+            546.1339111328125,
+            652.61767578125
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 54
+        },
+        {
+          "file": "enem-assets/official/2023/38/C.webp",
+          "sha256": "6f0082b5d4d571d7bc868f7de028dd2b1986192839a213bdba970e6d5980473a",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            652.61767578125,
+            546.1339111328125,
+            667.1524047851562
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/38/D.webp",
+          "sha256": "79558f9d59626f3e842ef5c469ce8cd8d78e5e02804176551be7bb0fc2017cc8",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            667.1524047851562,
+            546.1339111328125,
+            681.68701171875
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/38/E.webp",
+          "sha256": "9e244acbeb7da045ced175a430018716c135f901c12841af0d2a25fde581422e",
+          "page": 16,
+          "rect": [
+            285.4645080566406,
+            681.68701171875,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 143
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/38/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 16,
+      "transcript": "QUESTÃO 38\t\nO mais antigo grupo de rap indígena do país, Brô MCs, \nsurgiu em 2009, na aldeia Jaguapiru, em Dourados, Mato \nGrosso do Sul. Os integrantes conheceram o rap pelo rádio, \nouvindo um programa que apresentava cantores e grupos \nbrasileiros desse gênero musical. O Brô MCs conseguiu \ninfluenciar outros a fazerem rap e a lutarem pelas causas \nindígenas. Um dos nomes do movimento, Kunumí MC, \né um jovem de 16 anos, da aldeia Krukutu, em São Paulo. \nO adolescente enxerga o rap como uma cultura da defesa \ne começou a fazer rimas quando percebeu que a poesia, \npela qual sempre se interessou, podia virar música. \nNas letras que cria, inspiradas tanto pelo rap quanto pelos \nritmos indígenas, tenta incluir sempre assuntos aos quais \nacha importante dar voz, principalmente, a questão da \ndemarcação de terras.\nDisponível em: www.correiobraziliense.com.br. Acesso em: 13 nov. 2021 (adaptado).\nO movimento rap dos povos originários do Brasil revela o(a)"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/38/A.webp",
+        "text": "A\t\nA\t fusão de manifestações artísticas urbanas \ncontemporâneas com a cultura indígena."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/38/B.webp",
+        "text": "B\t\nB\t contraposição das temáticas socioambientais \nindígenas às questões urbanas."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/38/C.webp",
+        "text": "C\t\nC\t rejeição da indústria radiofônica às músicas indígenas."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/38/D.webp",
+        "text": "D\t\nD\t distanciamento da realidade social indígena."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/38/E.webp",
+        "text": "DERNO 1 • AZUL–\nE\t\nE\t estímulo ao estudo da poesia indígena."
+      }
+    ],
+    "officialAnswer": "A",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/38/details.json",
+    "contentFingerprint": "8eb1a1ffa28932bfec52755724b55d9cf595c3da3f58238c25439971b2de477f",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "52b5b235f5a3953ff139228b9b3495adc6d1ff70558387caf117a8d877c1abf1"
   },
   {
     "id": "enem-2023-41",
@@ -845,27 +2552,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "“Ganhei 25 medalhas em mundiais, sete em Jogos Olímpicos, e sou uma sobrevivente de abuso sexual.” Foi assim que Simone Biles se apresentou ao comitê do Senado norte-americano que investiga as supostas falhas do FBI no caso Larry Nassar. Biles e outras três atletas, vítimas dos abusos do ex-médico da equipe de ginástica feminina dos EUA, exigiram que os agentes da investigação sejam processados por falta de ação prévia contra Nassar, agora preso. Biles esclareceu que culpa Larry Nassar e “todo o sistema que o permitiu e o perpetrou”, acusando a Federação de Ginástica e o Comitê Olímpico dos Estados Unidos de saberem “muito antes” que ela havia sofrido abusos. A melhor ginasta do mundo é um ícone. Nos Jogos Olímpicos de Tóquio, uma lesão psicológica a impediu de competir como previa. No entanto, ela chegou ao topo como uma líder no trabalho de acabar com o preconceito com os problemas de saúde mental. “Não quero que nenhum outro atleta olímpico sofra o horror que eu e outras centenas suportamos e continuamos suportando até hoje”, afirmou.\n\nDisponível em https://brasil.elpais.com Acesso em 31 out 2021 (adaptado).",
+    "context": "![Enunciado original do ENEM 2023, questão 41](enem-assets/official/2023/41/statement.webp)",
     "text": "O fato relatado na notícia chama a atenção acerca da necessidade de reflexão sobre a relação entre o esporte e",
     "options": [
-      "O desempenho atlético internacional.",
-      "A dimensão emocional dos atletas.",
-      "Os comitês olímpicos nacionais.",
-      "As instituições de inteligência.",
-      "As federações esportivas."
+      "![Alternativa A original](enem-assets/official/2023/41/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/41/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/41/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/41/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/41/E.webp)"
     ],
     "answer": 1,
     "explanation": "Gabarito oficial: B. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/41/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D1_CD1.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D1_CD1.pdf",
-    "answerVerification": "references/official-keys/2023-d1.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-1-gabarito.pdf",
     "day": 1,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "3f08ac72d93e904c4042dace683493d9e27bd51a1ba274ee13706f513f568fbb"
+    "images": [
+      "enem-assets/official/2023/41/statement.webp",
+      "enem-assets/official/2023/41/A.webp",
+      "enem-assets/official/2023/41/B.webp",
+      "enem-assets/official/2023/41/C.webp",
+      "enem-assets/official/2023/41/D.webp",
+      "enem-assets/official/2023/41/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "3f08ac72d93e904c4042dace683493d9e27bd51a1ba274ee13706f513f568fbb",
+    "canonicalId": "enem:2023:regular:blue:41:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-1-prova.pdf",
+      "statementSha256": "a993c42dbe6c804c15e50cbfc23ca9732b09b29d648585524d2e6425f6e0dcd6",
+      "layout": "two-column",
+      "answerSha256": "d01f0ca9e0855b69428cf0942585259d046a2d63706568fa73a1efefb760d5c1",
+      "header": {
+        "number": 41,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          353.6106872558594,
+          78.79618835449219
+        ],
+        "page": 17
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 344.222412109375
+        },
+        {
+          "letter": "B",
+          "y": 356.6705322265625
+        },
+        {
+          "letter": "C",
+          "y": 369.11859130859375
+        },
+        {
+          "letter": "D",
+          "y": 381.56658935546875
+        },
+        {
+          "letter": "E",
+          "y": 394.01470947265625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/41/statement.webp",
+          "sha256": "6db0149492fc088bb49f9489c595237b81063d9ffb190d643d434deae167bda4",
+          "page": 17,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            345.222412109375
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 564
+        },
+        {
+          "file": "enem-assets/official/2023/41/A.webp",
+          "sha256": "c3b6d8a70980d1e3b36be216b102c3b7895e9cd56242cd89433118c8e155d9c1",
+          "page": 17,
+          "rect": [
+            285.4645080566406,
+            345.222412109375,
+            546.1339111328125,
+            357.6705322265625
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2023/41/B.webp",
+          "sha256": "46979dcacaa9823e376f75ca9930bd13010ef1a223945197971c674c7cf3032f",
+          "page": 17,
+          "rect": [
+            285.4645080566406,
+            357.6705322265625,
+            546.1339111328125,
+            370.11859130859375
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2023/41/C.webp",
+          "sha256": "745d358022bfc0bb1489ecf5de874bbeadde4de52e6d44316d9113a2e9f79c5a",
+          "page": 17,
+          "rect": [
+            285.4645080566406,
+            370.11859130859375,
+            546.1339111328125,
+            382.56658935546875
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2023/41/D.webp",
+          "sha256": "a3eb407fdcad69528c755b8d19c554b53abb07bb65f9e58af43f8d01f1941e48",
+          "page": 17,
+          "rect": [
+            285.4645080566406,
+            382.56658935546875,
+            546.1339111328125,
+            395.01470947265625
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2023/41/E.webp",
+          "sha256": "6e7f9d8c29176ddb6c4c3ba63d77b7b66235b0b29fdaefa5a393642f440306fd",
+          "page": 17,
+          "rect": [
+            285.4645080566406,
+            395.01470947265625,
+            546.1339111328125,
+            411.6762390136719
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 34
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/41/statement.webp",
+      "source": "references/enem-1000/originals/2023-1-prova.pdf",
+      "page": 17,
+      "transcript": "QUESTÃO 41\t\n“Ganhei 25 medalhas em mundiais, sete em Jogos \nOlímpicos, e sou uma sobrevivente de abuso sexual.” \nFoi assim que Simone Biles se apresentou ao comitê do \nSenado norte-americano que investiga as supostas falhas \ndo FBI no caso Larry Nassar. Biles e outras três atletas, \nvítimas dos abusos do ex-médico da equipe de ginástica \nfeminina dos EUA, exigiram que os agentes da investigação \nsejam processados por falta de ação prévia contra Nassar, \nagora preso. Biles esclareceu que culpa Larry Nassar \ne “todo o sistema que o permitiu e o perpetrou”, acusando \na Federação de Ginástica e o Comitê Olímpico dos Estados \nUnidos de saberem “muito antes” que ela havia sofrido \nabusos. A melhor ginasta do mundo é um ícone. Nos Jogos \nOlímpicos de Tóquio, uma lesão psicológica a impediu de \ncompetir como previa. No entanto, ela chegou ao topo como \numa líder no trabalho de acabar com o preconceito com \nos problemas de saúde mental. “Não quero que nenhum \noutro atleta olímpico sofra o horror que eu e outras centenas \nsuportamos e continuamos suportando até hoje”, afirmou.\nDisponível em: https://brasil.elpais.com. Acesso em: 31 out. 2021 (adaptado).\nO fato relatado na notícia chama a atenção acerca da \nnecessidade de reflexão sobre a relação entre o esporte e"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/41/A.webp",
+        "text": "A\t\nA\t o desempenho atlético internacional."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/41/B.webp",
+        "text": "B\t\nB\t a dimensão emocional dos atletas."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/41/C.webp",
+        "text": "C\t\nC\t os comitês olímpicos nacionais."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/41/D.webp",
+        "text": "D\t\nD\t as instituições de inteligência."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/41/E.webp",
+        "text": "E\t\nE\t as federações esportivas."
+      }
+    ],
+    "officialAnswer": "B",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/41/details.json",
+    "contentFingerprint": "5e2ac59fdf7699457b5c8f8c92b487a428262fcae1990631a3ce00c97454c4fa",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "3f08ac72d93e904c4042dace683493d9e27bd51a1ba274ee13706f513f568fbb"
   },
   {
     "id": "enem-2023-43",
@@ -899,7 +2787,12 @@
     "images": [],
     "license": "GPL-2.0",
     "sourceSha256": "b61a6002bf7639496b55777db3e66af61db2316e5e806893c0100123905edc3c",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:43:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-45",
@@ -932,6 +2825,11 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "1e3a2d91cd27b36369e2af301fe2b7ed791fa81f14037d5f516965fbb98ed081"
+    "sourceSha256": "1e3a2d91cd27b36369e2af301fe2b7ed791fa81f14037d5f516965fbb98ed081",
+    "canonicalId": "enem:2023:regular:blue:45:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   }
 ]

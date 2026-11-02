@@ -1,7 +1,7 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import catalog from '../src/question-catalog.json' with {type:'json'};
 import {questions,plan} from '../src/data.js';
-import {extraQuestions,bank,challenges,guapaHints} from '../src/activities.js';
+import {extraQuestions,bank,challenges,guapaHints,matchesQuestion} from '../src/activities.js';
 import {essayTopics} from '../src/essays.js';
 
 for(const chunk of catalog.chunks){
@@ -13,10 +13,10 @@ for(const chunk of catalog.chunks){
   Object.assign(bank[meta.index],q,{loaded:true});
  }
 }
-await writeFile(new URL('../src/demo-summary.json',import.meta.url),JSON.stringify({officialQuestions:bank.filter(q=>q.origin==='enem'&&!q.cancelled).length,authorQuestions:bank.filter(q=>q.origin==='autoral').length}));
+await writeFile(new URL('../src/demo-summary.json',import.meta.url),JSON.stringify({officialQuestions:bank.filter(q=>matchesQuestion(q)).length,authorQuestions:bank.filter(q=>q.origin==='autoral').length}));
 
 // Generated server-only material. Never copy this file into public/ or dist/.
-const content={data:{questions,plan},activities:{extraQuestions,bank,challenges,guapaHints},essays:{essayTopics}};
+const content={data:{questions,plan},activities:{extraQuestions,bank,challenges,guapaHints,matchesQuestion},essays:{essayTopics}};
 await writeFile(new URL('../supabase/functions/_shared/study-content.json',import.meta.url),JSON.stringify(content));
 await writeFile(new URL('../src/demo-questions.json',import.meta.url),JSON.stringify(bank.filter(q=>q.origin==='enem').slice(0,3)));
 console.log('Conteúdo privado e amostra pública preparados.');

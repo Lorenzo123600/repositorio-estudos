@@ -1,0 +1,3 @@
+# Development/import verification only; not installed or used by the static website.
+PyMuPDF==1.26.6
+Pillow==12.3.0

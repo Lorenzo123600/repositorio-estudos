@@ -13,3 +13,6 @@ playwright-report/
 .env.*.local
 
 supabase/.temp/
+# Local import working files
+scripts/__pycache__/
+work/

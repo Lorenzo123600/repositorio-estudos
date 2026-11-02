@@ -8,7 +8,7 @@ import {validateBank,validateQuestion} from '../scripts/validate-questions.mjs';
 const read=path=>JSON.parse(readFileSync(path,'utf8'));
 const catalog=read('src/question-catalog.json');
 const localFetch=async url=>({ok:true,json:async()=>read('public/'+new URL(url).pathname.replace('/meu-site/',''))});
-test('JSONs, imagens, catálogo e gabaritos oficiais são consistentes',()=>assert.deepEqual(validateBank(),{total:284,errors:[]}));
+test('JSONs, imagens, catálogo e gabaritos oficiais são consistentes',()=>assert.deepEqual(validateBank(),{total:catalog.chunks.reduce((n,c)=>n+c.questions.length,0),errors:[]}));
 test('validador detecta ID duplicado, alternativa ausente, resposta inválida e imagem ausente',()=>{
  const q=read('public/'+catalog.chunks[0].file)[0];
  assert.ok(validateQuestion(q,new Set([q.id])).some(e=>e.includes('duplicado')));
@@ -31,8 +31,8 @@ test('filtros combinados não repetem itens e anulada não participa de sessões
 test('carregamento usa subdiretório relativo, recupera falha e compartilha requisições',async()=>{
  const chunk=catalog.chunks[0],ids=chunk.questions.slice(0,2).map(q=>q.index);let calls=0;
  await assert.rejects(loadQuestions(ids,{base:'https://example.org/meu-site/',fetcher:async()=>({ok:false})}));
- const fetcher=async url=>{calls++;assert.equal(url,'https://example.org/meu-site/'+chunk.file);return localFetch(url)};
+ const fetcher=async url=>{calls++;assert.ok([chunk.file,'questions/manifest.json'].includes(url.replace('https://example.org/meu-site/','')));return localFetch(url)};
  await Promise.all([loadQuestions(ids,{base:'https://example.org/meu-site/',fetcher}),loadQuestions(ids,{base:'https://example.org/meu-site/',fetcher})]);
- assert.equal(calls,1);assert.ok(ids.every(id=>bank[id].loaded));assert.equal(bank[catalog.chunks[1].questions[0].index].loaded,false);
+ assert.equal(calls,2);assert.ok(ids.every(id=>bank[id].loaded));assert.equal(bank[catalog.chunks[1].questions[0].index].loaded,false);
  assert.equal(bank[ids[0]].options.length,5);
 });

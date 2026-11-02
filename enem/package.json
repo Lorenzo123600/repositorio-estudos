@@ -17,7 +17,12 @@
     "test:cloud": "playwright test --config playwright.cloud.config.js",
     "test:sql": "bash tests/sql/run.sh",
     "validate:questions": "node scripts/validate-questions.mjs",
-    "test:pages": "playwright test --config playwright.pages.config.js"
+    "test:pages": "playwright test --config playwright.pages.config.js",
+    "verify:originals": "python scripts/verify-official-originals.py",
+    "prebuild:pages": "npm run validate:release",
+    "validate:release": "node scripts/validate-questions.mjs --require-target",
+    "prebuild": "npm run validate:release",
+    "prebuild:sales": "npm run validate:release"
   },
   "devDependencies": {
     "@playwright/test": "^1.64.1",

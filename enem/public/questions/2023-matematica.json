@@ -37,7 +37,12 @@
     ],
     "license": "GPL-2.0",
     "sourceSha256": "fcf2d21e96577f9d5665a7dc1ff5be5d40eebcf4f66527d9504ecff6b249f01d",
-    "transcriptionCorrection": "references/enem-transcription-corrections.json"
+    "transcriptionCorrection": "references/enem-transcription-corrections.json",
+    "canonicalId": "enem:2023:regular:blue:141:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-142",
@@ -50,27 +55,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "",
+    "context": "![Enunciado original do ENEM 2023, questão 142](enem-assets/official/2023/142/statement.webp)",
     "text": "Qual é a quantidade mínima de água, em litro, que cada morador, em média, deverá economizar por dia, de modo que o reservatório não fique sem água nos próximos 10 dias?",
     "options": [
-      "50",
-      "60",
-      "80",
-      "140",
-      "150"
+      "![Alternativa A original](enem-assets/official/2023/142/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/142/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/142/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/142/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/142/E.webp)"
     ],
     "answer": 0,
     "explanation": "Gabarito oficial: A. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/142/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "909cf83bcf7705e4d8f616e108630d4f6dc4f379b07cd526220b2ea4d900156d"
+    "images": [
+      "enem-assets/official/2023/142/statement.webp",
+      "enem-assets/official/2023/142/A.webp",
+      "enem-assets/official/2023/142/B.webp",
+      "enem-assets/official/2023/142/C.webp",
+      "enem-assets/official/2023/142/D.webp",
+      "enem-assets/official/2023/142/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "909cf83bcf7705e4d8f616e108630d4f6dc4f379b07cd526220b2ea4d900156d",
+    "canonicalId": "enem:2023:regular:blue:142:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "single-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 142,
+        "rect": [
+          31.181100845336914,
+          327.9453125,
+          101.07884979248047,
+          341.90728759765625
+        ],
+        "page": 18
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 458.65728759765625
+        },
+        {
+          "letter": "B",
+          "y": 471.77459716796875
+        },
+        {
+          "letter": "C",
+          "y": 484.89190673828125
+        },
+        {
+          "letter": "D",
+          "y": 498.00921630859375
+        },
+        {
+          "letter": "E",
+          "y": 511.1265869140625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/142/statement.webp",
+          "sha256": "0a723f1ea80a32aa267db158743efc46c7cfca2c45e9e4caadfe8fda81b6a34e",
+          "page": 18,
+          "rect": [
+            23.181100845336914,
+            326.9453125,
+            565.9290161132812,
+            459.65728759765625
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 267
+        },
+        {
+          "file": "enem-assets/official/2023/142/A.webp",
+          "sha256": "cdbe324dbea61d2441b2268ee302533c670d398e6bc8f1fc6cc084bb2ba4be19",
+          "page": 18,
+          "rect": [
+            23.181100845336914,
+            459.65728759765625,
+            565.9290161132812,
+            472.77459716796875
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/142/B.webp",
+          "sha256": "8a2d1c1324f579c7260e2d5d484e96f011ff2ce7cf39a5d2560f760ce3d1894f",
+          "page": 18,
+          "rect": [
+            23.181100845336914,
+            472.77459716796875,
+            565.9290161132812,
+            485.89190673828125
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/142/C.webp",
+          "sha256": "32e774dc79ad7083a0d2cdfe087237bb9d76f8f2c6d78de0bb8ee6cc88170042",
+          "page": 18,
+          "rect": [
+            23.181100845336914,
+            485.89190673828125,
+            565.9290161132812,
+            499.00921630859375
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/142/D.webp",
+          "sha256": "c6b2345476fb2f8e719d54a6f82d929110275f40205a61e4cc11a742cfba8c39",
+          "page": 18,
+          "rect": [
+            23.181100845336914,
+            499.00921630859375,
+            565.9290161132812,
+            512.1265869140625
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/142/E.webp",
+          "sha256": "35db4df5d9f7e86534e0861744c31c8524cc48a9240dfa047008cf56da11ecad",
+          "page": 18,
+          "rect": [
+            23.181100845336914,
+            512.1265869140625,
+            565.9290161132812,
+            528.7588500976562
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 34
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/142/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 18,
+      "transcript": "QUESTÃO 142\t\nA água utilizada pelos 75 moradores de um vilarejo provém de um reservatório de formato cilíndrico circular reto \ncujo raio da base mede 5 metros, sempre abastecido no primeiro dia de cada mês por caminhões-pipa. Cada morador \ndesse vilarejo consome, em média, 200 litros de água por dia.\nNo mês de junho de um determinado ano, o vilarejo festejou o dia do seu padroeiro e houve um gasto extra de água \nnos primeiros 20 dias. Passado esse período, as pessoas verificaram a quantidade de água presente no reservatório \ne constataram que o nível da coluna de água estava em 1,5 metro. Decidiram, então, fazer um racionamento de água \ndurante os 10 dias seguintes. Considere 3 como aproximação para p.\nQual é a quantidade mínima de água, em litro, que cada morador, em média, deverá economizar por dia, de modo \nque o reservatório não fique sem água nos próximos 10 dias?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/142/A.webp",
+        "text": "A\t\nA\t 50"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/142/B.webp",
+        "text": "B\t\nB\t 60"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/142/C.webp",
+        "text": "C\t\nC\t 80"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/142/D.webp",
+        "text": "D\t\nD\t 140"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/142/E.webp",
+        "text": "E\t\nE\t 150"
+      }
+    ],
+    "officialAnswer": "A",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/142/details.json",
+    "contentFingerprint": "8f9b71250588c320d3d2a07b842993c5af74dc4df258ab09e07d704b854895a2",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "909cf83bcf7705e4d8f616e108630d4f6dc4f379b07cd526220b2ea4d900156d"
   },
   {
     "id": "enem-2023-145",
@@ -110,7 +296,12 @@
       "enem-assets/2023/questions/145/f338280e-33fe-4896-b296-cfb94ca78430.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "7ac81e8a32fbc48256c6ce408e7606084980e1f7ccea045e6dcc39057a10ac89"
+    "sourceSha256": "7ac81e8a32fbc48256c6ce408e7606084980e1f7ccea045e6dcc39057a10ac89",
+    "canonicalId": "enem:2023:regular:blue:145:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-146",
@@ -123,29 +314,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "![](enem-assets/2023/questions/146/74e0c851-b2af-410d-9f19-3348dd8f883a.jpg)",
+    "context": "![Enunciado original do ENEM 2023, questão 146](enem-assets/official/2023/146/statement.webp)",
     "text": "Considere que os números colocados nos vértices do triângulo estejam em progressão aritmética de razão igual a 2.\nNas condições propostas, quais as possíveis soluções para as somas dos números que formam os lados do triângulo?",
     "options": [
-      "Há somente uma solução possível, e as somas em cada lado do triângulo são iguais a 7.",
-      "Há somente uma solução possível, e as somas em cada lado do triângulo são iguais a 9.",
-      "Há somente duas soluções possíveis, uma em que as somas em cada lado do triângulo são iguais a 7 e outra em que as somas são iguais a 9.",
-      "Há somente duas soluções possíveis, uma em que as somas em cada lado do triângulo são iguais a 9 e outra em que as somas são iguais a 12.",
-      "Há somente duas soluções possíveis, uma em que as somas em cada lado do triângulo são iguais a 10 e outra em que as somas são iguais a 11."
+      "![Alternativa A original](enem-assets/official/2023/146/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/146/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/146/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/146/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/146/E.webp)"
     ],
     "answer": 4,
     "explanation": "Gabarito oficial: E. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/146/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/146/74e0c851-b2af-410d-9f19-3348dd8f883a.jpg"
+      "enem-assets/official/2023/146/statement.webp",
+      "enem-assets/official/2023/146/A.webp",
+      "enem-assets/official/2023/146/B.webp",
+      "enem-assets/official/2023/146/C.webp",
+      "enem-assets/official/2023/146/D.webp",
+      "enem-assets/official/2023/146/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "ea6f50d4649bf38e946a1d75ffe0ea0e3c1a2043cb41a0e0db20209abc2995f8"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "ea6f50d4649bf38e946a1d75ffe0ea0e3c1a2043cb41a0e0db20209abc2995f8",
+    "canonicalId": "enem:2023:regular:blue:146:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "two-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 146,
+        "rect": [
+          289.1339111328125,
+          296.3174133300781,
+          359.03167724609375,
+          310.2793884277344
+        ],
+        "page": 19
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 565.576171875
+        },
+        {
+          "letter": "B",
+          "y": 592.2219848632812
+        },
+        {
+          "letter": "C",
+          "y": 618.8677978515625
+        },
+        {
+          "letter": "D",
+          "y": 657.4190673828125
+        },
+        {
+          "letter": "E",
+          "y": 695.9705200195312
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/146/statement.webp",
+          "sha256": "21cd59d9ca85f45c41e81a5217067e21f4871301c14673bdc4ed58e4527059dd",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            295.3174133300781,
+            546.1339111328125,
+            566.576171875
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 544
+        },
+        {
+          "file": "enem-assets/official/2023/146/A.webp",
+          "sha256": "c9a19803ce64f5145cdca7dd3eb875de2c10480f286767695ee1fc06010e6308",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            566.576171875,
+            546.1339111328125,
+            593.2219848632812
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 54
+        },
+        {
+          "file": "enem-assets/official/2023/146/B.webp",
+          "sha256": "c73e121de3a445058b5a92d0e935d969e394341431421b348622916ba3af9edb",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            593.2219848632812,
+            546.1339111328125,
+            619.8677978515625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 54
+        },
+        {
+          "file": "enem-assets/official/2023/146/C.webp",
+          "sha256": "d859485a071688b1fc9b452a213464e9bec83e0545b62834a847c1b770624025",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            619.8677978515625,
+            546.1339111328125,
+            658.4190673828125
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 78
+        },
+        {
+          "file": "enem-assets/official/2023/146/D.webp",
+          "sha256": "9cebb21d58df252d751b1a911c55d4655c5c47f13bfc5bb4d09eaf61960bc949",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            658.4190673828125,
+            546.1339111328125,
+            696.9705200195312
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 78
+        },
+        {
+          "file": "enem-assets/official/2023/146/E.webp",
+          "sha256": "0c7c91f2edf061c71ec630325226828f5a0e8476b772254bddf76d8d948ef19a",
+          "page": 19,
+          "rect": [
+            285.4645080566406,
+            696.9705200195312,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 113
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/146/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 19,
+      "transcript": "QUESTÃO 146\t\nO triângulo da figura é denominado triângulo mágico. \nNos círculos, escrevem-se os números de 1 a 6, sem \nrepetição, com um número em cada círculo. O objetivo \né distribuir os números de forma que as somas dos \nnúmeros em cada lado do triângulo sejam iguais.\nConsidere que os números colocados nos vértices \ndo triângulo estejam em progressão aritmética de razão \nigual a 2.\nNas condições propostas, quais as possíveis soluções \npara as somas dos números que formam os lados do \ntriângulo?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/146/A.webp",
+        "text": "A\t\nA\t Há somente uma solução possível, e as somas em \ncada lado do triângulo são iguais a 7."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/146/B.webp",
+        "text": "B\t\nB\t Há somente uma solução possível, e as somas em \ncada lado do triângulo são iguais a 9."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/146/C.webp",
+        "text": "C\t\nC\t Há somente duas soluções possíveis, uma em que \nas somas em cada lado do triângulo são iguais a 7 e \noutra em que as somas são iguais a 9."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/146/D.webp",
+        "text": "D\t\nD\t Há somente duas soluções possíveis, uma em que \nas somas em cada lado do triângulo são iguais a 9 e \noutra em que as somas são iguais a 12."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/146/E.webp",
+        "text": "19\nDERNO 7 • AZUL\nE\t\nE\t Há somente duas soluções possíveis, uma em que \nas somas em cada lado do triângulo são iguais a 10 \ne outra em que as somas são iguais a 11."
+      }
+    ],
+    "officialAnswer": "E",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/146/details.json",
+    "contentFingerprint": "cd4720bc37031e59b591d00d766a551810512ebea7d225d0e91bf2f25e02a750",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "ea6f50d4649bf38e946a1d75ffe0ea0e3c1a2043cb41a0e0db20209abc2995f8"
   },
   {
     "id": "enem-2023-147",
@@ -178,7 +548,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "cc51e91eaa93c2689e1b3a4fcf8c9ebc168289cfd06eb02ed2b20ada85424c16"
+    "sourceSha256": "cc51e91eaa93c2689e1b3a4fcf8c9ebc168289cfd06eb02ed2b20ada85424c16",
+    "canonicalId": "enem:2023:regular:blue:147:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-148",
@@ -218,7 +593,12 @@
       "enem-assets/2023/questions/148/c6c6b6c4-3fba-4a68-99c6-014bb190c456.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "bcf547ec0b3e9ecd76099700d94b3fa099bca58bd2276885f7b35fd867e74a80"
+    "sourceSha256": "bcf547ec0b3e9ecd76099700d94b3fa099bca58bd2276885f7b35fd867e74a80",
+    "canonicalId": "enem:2023:regular:blue:148:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-149",
@@ -231,29 +611,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Um controlador de voo dispõe de um instrumento que descreve a altitude de uma aeronave em voo, em função da distância em solo. Essa distância em solo é a medida na horizontal entre o ponto de origem do voo até o ponto que representa a projeção ortogonal da posição da aeronave, em voo, no solo. Essas duas grandezas são dadas numa mesma unidade de medida.\n\nA tela do instrumento representa proporcionalmente as dimensões reais das distâncias associadas ao voo. A figura apresenta a tela do instrumento depois de concluída a viagem de um avião, sendo a medida do lado de cada quadradinho da malha igual a 1 cm.\n\n![](enem-assets/2023/questions/149/a88a534d-3ee0-4b70-aba7-1b3e7c46b5f3.png)",
+    "context": "![Enunciado original do ENEM 2023, questão 149](enem-assets/official/2023/149/statement.webp)",
     "text": "Essa tela apresenta os dados de um voo cuja maior altitude alcançada foi de 5 km.\nA escala em que essa tela representa as medidas reais é",
     "options": [
-      "1 : 5.",
-      "1 : 11.",
-      "1 : 55.",
-      "1 : 5000.",
-      "1 : 500 000."
+      "![Alternativa A original](enem-assets/official/2023/149/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/149/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/149/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/149/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/149/E.webp)"
     ],
     "answer": 4,
     "explanation": "Gabarito oficial: E. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/149/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/149/a88a534d-3ee0-4b70-aba7-1b3e7c46b5f3.png"
+      "enem-assets/official/2023/149/statement.webp",
+      "enem-assets/official/2023/149/A.webp",
+      "enem-assets/official/2023/149/B.webp",
+      "enem-assets/official/2023/149/C.webp",
+      "enem-assets/official/2023/149/D.webp",
+      "enem-assets/official/2023/149/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "7c71592fa7f3283721cb35564e0c3a4f95f24d847e232a8d9c32530317ac945a"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "7c71592fa7f3283721cb35564e0c3a4f95f24d847e232a8d9c32530317ac945a",
+    "canonicalId": "enem:2023:regular:blue:149:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "two-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 149,
+        "rect": [
+          289.1339111328125,
+          246.33131408691406,
+          359.03167724609375,
+          260.2933044433594
+        ],
+        "page": 20
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 546.977783203125
+        },
+        {
+          "letter": "B",
+          "y": 561.5125122070312
+        },
+        {
+          "letter": "C",
+          "y": 576.047119140625
+        },
+        {
+          "letter": "D",
+          "y": 590.581787109375
+        },
+        {
+          "letter": "E",
+          "y": 605.1165161132812
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/149/statement.webp",
+          "sha256": "b6be8603a0b6e12366afe7b45e715075d4ba940269557ccfddcee5a5397a4c2e",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            245.33131408691406,
+            546.1339111328125,
+            547.977783203125
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 606
+        },
+        {
+          "file": "enem-assets/official/2023/149/A.webp",
+          "sha256": "841a33c2d7877e9dd3c186d8da28778cad5612dc0374367b4c976f4942f597e0",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            547.977783203125,
+            546.1339111328125,
+            562.5125122070312
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/149/B.webp",
+          "sha256": "a9471a549cba2d96f5178fe1c15d9205c69a1b7f44b60167484fe23a190532d9",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            562.5125122070312,
+            546.1339111328125,
+            577.047119140625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/149/C.webp",
+          "sha256": "8087f7cab4829a7ac95dc0760066d0a00383f65cf5fa331d465cea0c3c7aed57",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            577.047119140625,
+            546.1339111328125,
+            591.581787109375
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/149/D.webp",
+          "sha256": "e28e6b8dd81ba45eef10510e6febecb6af2ace84c01e01082a8d28c193649c49",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            591.581787109375,
+            546.1339111328125,
+            606.1165161132812
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/149/E.webp",
+          "sha256": "0be9388aa9fe9b830482635fc3a3a50ed68a376c7a3958d107f3aa3d6e1f48e7",
+          "page": 20,
+          "rect": [
+            285.4645080566406,
+            606.1165161132812,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 294
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/149/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 20,
+      "transcript": "QUESTÃO 149\t\nUm controlador de voo dispõe de um instrumento que \ndescreve a altitude de uma aeronave em voo, em função \nda distância em solo. Essa distância em solo é a medida na \nhorizontal entre o ponto de origem do voo até o ponto que \nrepresenta a projeção ortogonal da posição da aeronave, \nem voo, no solo. Essas duas grandezas são dadas numa \nmesma unidade de medida.\nA tela do instrumento representa proporcionalmente \nas dimensões reais das distâncias associadas ao voo. \nA figura apresenta a tela do instrumento depois de \nconcluída a viagem de um avião, sendo a medida do lado \nde cada quadradinho da malha igual a 1 cm.\nAltitude\nOrigem \ndo voo\nDestino\nDistância\nEssa tela apresenta os dados de um voo cuja maior \naltitude alcançada foi de 5 km.\nA escala em que essa tela representa as medidas reais é"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/149/A.webp",
+        "text": "A\t\nA\t 1 : 5."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/149/B.webp",
+        "text": "B\t\nB\t 1 : 11."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/149/C.webp",
+        "text": "C\t\nC\t 1 : 55."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/149/D.webp",
+        "text": "D\t\nD\t 1 : 5 000."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/149/E.webp",
+        "text": "DERNO 7 • AZUL\nE\t\nE\t 1 : 500 000."
+      }
+    ],
+    "officialAnswer": "E",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/149/details.json",
+    "contentFingerprint": "e5b157ad213f5442cf0c6286adb6a29e6f15e95be32a8a23d278c3457bfd3d8e",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "7c71592fa7f3283721cb35564e0c3a4f95f24d847e232a8d9c32530317ac945a"
   },
   {
     "id": "enem-2023-152",
@@ -266,32 +825,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "A exposição a alguns níveis sonoros pode causar lesões auditivas. Por isso, em uma indústria, são adotadas medidas preventivas de acordo com a máquina que o funcionário opera e o nível _N_ de intensidade do som, medido em decibel (dB), a que o operário é exposto, sendo ![](enem-assets/2023/questions/152/30b0ee85-ac44-4eca-a7c9-54bd70f9c069.png), _I_ a intensidade do som e ![](enem-assets/2023/questions/152/40f43a4f-f8da-44a9-a02c-f20ba89a48ce.png).\n\nDisponível em: www.sofisica.com.br. Acesso em: 8 jul. 2015 (adaptado).\n\nQuando o som é considerado baixo, ou seja, _N_ = 48 dB ou menos, deve ser utilizada a medida preventiva I. No caso de o som ser moderado, quando _N_ está no intervalo (48 dB, 55 dB), deve ser utilizada a medida preventiva II. Quando o som é moderado alto, que equivale a _N_ no intervalo (55 dB, 80 dB), a medida preventiva a ser usada é a III. Se _N_ estiver no intervalo (80 dB, 115 dB), quando o som é considerado alto, deve ser utilizada a medida preventiva IV. E se o som é considerado muito alto, com _N_ maior que 115 dB, deve-se utilizar a medida preventiva V.  \nUma nova máquina, com ![](enem-assets/2023/questions/152/13f26008-1dcf-404f-b3cf-aae104a036c1.png), foi adquirida e será classificada de acordo com o nível de ruído que produz.  \nConsidere 0,3 como aproximação para ![](enem-assets/2023/questions/152/717fdd2f-5eef-48c9-9211-8f62bdb2639c.png).",
+    "context": "![Enunciado original do ENEM 2023, questão 152](enem-assets/official/2023/152/statement.webp)",
     "text": "O funcionário que operará a nova máquina deverá adotar a medida preventiva",
     "options": [
-      "I.",
-      "II.",
-      "III.",
-      "IV.",
-      "V."
+      "![Alternativa A original](enem-assets/official/2023/152/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/152/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/152/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/152/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/152/E.webp)"
     ],
     "answer": 1,
     "explanation": "Gabarito oficial: B. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/152/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/152/30b0ee85-ac44-4eca-a7c9-54bd70f9c069.png",
-      "enem-assets/2023/questions/152/40f43a4f-f8da-44a9-a02c-f20ba89a48ce.png",
-      "enem-assets/2023/questions/152/13f26008-1dcf-404f-b3cf-aae104a036c1.png",
-      "enem-assets/2023/questions/152/717fdd2f-5eef-48c9-9211-8f62bdb2639c.png"
+      "enem-assets/official/2023/152/statement.webp",
+      "enem-assets/official/2023/152/A.webp",
+      "enem-assets/official/2023/152/B.webp",
+      "enem-assets/official/2023/152/C.webp",
+      "enem-assets/official/2023/152/D.webp",
+      "enem-assets/official/2023/152/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "ab6c299fb00aae719ed71ddcaccefd3f80732600d7c1afd0da37eb856019b538"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "ab6c299fb00aae719ed71ddcaccefd3f80732600d7c1afd0da37eb856019b538",
+    "canonicalId": "enem:2023:regular:blue:152:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "two-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 152,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          359.03167724609375,
+          78.79618835449219
+        ],
+        "page": 21
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 393.57391357421875
+        },
+        {
+          "letter": "B",
+          "y": 408.1085205078125
+        },
+        {
+          "letter": "C",
+          "y": 422.6431884765625
+        },
+        {
+          "letter": "D",
+          "y": 437.17779541015625
+        },
+        {
+          "letter": "E",
+          "y": 451.7125244140625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/152/statement.webp",
+          "sha256": "62be52842b6a35989fdb2529ac9a52e35e985a58cde2dc6a36fc7a81a2578e36",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            394.57391357421875
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 663
+        },
+        {
+          "file": "enem-assets/official/2023/152/A.webp",
+          "sha256": "c49fc1c69ccd5791f7819d7bd91c6dab887b61a643f6c7238333d5e9db1322c6",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            394.57391357421875,
+            546.1339111328125,
+            409.1085205078125
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/152/B.webp",
+          "sha256": "dc9a536321e8bcfa50ffeb4b829aa3589f1d7fe2670609d8c1c00a5a1824632b",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            409.1085205078125,
+            546.1339111328125,
+            423.6431884765625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/152/C.webp",
+          "sha256": "59c5b9f064d764b9bb0fef60293f799175f2a79d904470cea8b87372a55a2a6a",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            423.6431884765625,
+            546.1339111328125,
+            438.17779541015625
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/152/D.webp",
+          "sha256": "9d2ea6f75bf63d70b7e1600d2b9636092b9999e2581266bf09d297ce398be3db",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            438.17779541015625,
+            546.1339111328125,
+            452.7125244140625
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/152/E.webp",
+          "sha256": "651dab170b622b9e36013e52f5c629d4b1803dfedcfcd94939eb39943808c87b",
+          "page": 21,
+          "rect": [
+            285.4645080566406,
+            452.7125244140625,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 601
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/152/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 21,
+      "transcript": "QUESTÃO 152\t\nA exposição a alguns níveis sonoros pode causar \nlesões auditivas. Por isso, em uma indústria, são adotadas \nmedidas preventivas de acordo com a máquina que o \nfuncionário opera e o nível N de intensidade do som, \nmedido em decibel (dB), a que o operário é exposto, \nsendo N = log10I 10 − log10I 10\n0 , I a intensidade do som e \nI0 = 10−12 W/m2.\nDisponível em: www.sofisica.com.br. Acesso em: 8 jul. 2015 (adaptado).\nQuando o som é considerado baixo, ou seja, \nN = 48 dB ou menos, deve ser utilizada a medida \npreventiva I. No caso de o som ser moderado, quando \nN está no intervalo (48 dB, 55 dB), deve ser utilizada a \nmedida preventiva II. Quando o som é moderado alto, \nque equivale a N no intervalo (55 dB, 80 dB), a medida \npreventiva a ser usada é a III. Se N estiver no intervalo \n(80 dB, 115 dB), quando o som é considerado alto, deve ser \nutilizada a medida preventiva IV. E se o som é considerado \nmuito alto, com N maior que 115 dB, deve-se utilizar a \nmedida preventiva V.\nUma nova máquina, com I = 8 × 10−8 W/m2, foi adquirida \ne será classificada de acordo com o nível de ruído \nque produz. \nConsidere 0,3 como aproximação para log102.\nO funcionário que operará a nova máquina deverá adotar \na medida preventiva"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/152/A.webp",
+        "text": "A\t\nA\t I."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/152/B.webp",
+        "text": "B\t\nB\t II."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/152/C.webp",
+        "text": "C\t\nC\t III."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/152/D.webp",
+        "text": "D\t\nD\t IV."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/152/E.webp",
+        "text": "21\nDERNO 7 • AZUL\nE\t\nE\t V."
+      }
+    ],
+    "officialAnswer": "B",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/152/details.json",
+    "contentFingerprint": "88b8786a4f069745dd5a5b739d1f4bbb9865e3e0dd7eef71c96597af9cffcee2",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "ab6c299fb00aae719ed71ddcaccefd3f80732600d7c1afd0da37eb856019b538"
   },
   {
     "id": "enem-2023-153",
@@ -324,7 +1059,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "a8d10726dbae561aa637595d71b306a4689c1b252dfd4b40a0889c38e83b05c4"
+    "sourceSha256": "a8d10726dbae561aa637595d71b306a4689c1b252dfd4b40a0889c38e83b05c4",
+    "canonicalId": "enem:2023:regular:blue:153:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-154",
@@ -359,7 +1099,12 @@
       "enem-assets/2023/questions/154/d39268bf-82aa-4063-8bcf-dfdafa4a3aa8.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "eb4e94edad99cfb96db30d6645b212e246f4102c200ae85f35b58189f4ffc510"
+    "sourceSha256": "eb4e94edad99cfb96db30d6645b212e246f4102c200ae85f35b58189f4ffc510",
+    "canonicalId": "enem:2023:regular:blue:154:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-156",
@@ -372,29 +1117,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Uma pessoa caminha por 30 minutos e utiliza um aplicativo instalado em seu celular para monitorar a variação da intensidade do sinal de internet recebido pelo aparelho durante o deslocamento. Chegando ao seu destino, o aplicativo forneceu este gráfico:\n\n![](enem-assets/2023/questions/156/e9e0b793-5535-48e6-87c6-5516e6d7c8cd.png)",
+    "context": "![Enunciado original do ENEM 2023, questão 156](enem-assets/official/2023/156/statement.webp)",
     "text": "Por quantos minutos, durante essa caminhada, o celular dessa pessoa ficou sem receber sinal de internet?",
     "options": [
-      "6",
-      "8",
-      "10",
-      "14",
-      "24"
+      "![Alternativa A original](enem-assets/official/2023/156/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/156/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/156/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/156/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/156/E.webp)"
     ],
     "answer": 0,
     "explanation": "Gabarito oficial: A. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/156/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/156/e9e0b793-5535-48e6-87c6-5516e6d7c8cd.png"
+      "enem-assets/official/2023/156/statement.webp",
+      "enem-assets/official/2023/156/A.webp",
+      "enem-assets/official/2023/156/B.webp",
+      "enem-assets/official/2023/156/C.webp",
+      "enem-assets/official/2023/156/D.webp",
+      "enem-assets/official/2023/156/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "6e475002d70152b90495457feae64b7ac28522e278b22412b63481da8aaca201"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "6e475002d70152b90495457feae64b7ac28522e278b22412b63481da8aaca201",
+    "canonicalId": "enem:2023:regular:blue:156:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "two-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 156,
+        "rect": [
+          289.1339111328125,
+          407.94866943359375,
+          359.03167724609375,
+          421.91064453125
+        ],
+        "page": 22
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 665.9395141601562
+        },
+        {
+          "letter": "B",
+          "y": 679.0568237304688
+        },
+        {
+          "letter": "C",
+          "y": 692.174072265625
+        },
+        {
+          "letter": "D",
+          "y": 705.2913818359375
+        },
+        {
+          "letter": "E",
+          "y": 718.40869140625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/156/statement.webp",
+          "sha256": "8df3d2423bafd2eca4bdae268e5f48be4ad2e6d4c321835ecb909c125544002d",
+          "page": 22,
+          "rect": [
+            285.4645080566406,
+            406.94866943359375,
+            546.1339111328125,
+            666.9395141601562
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 521
+        },
+        {
+          "file": "enem-assets/official/2023/156/A.webp",
+          "sha256": "9dc149904642c07628eb9125658178f453f7aa3f64fca88fb1bb14a9dc260342",
+          "page": 22,
+          "rect": [
+            285.4645080566406,
+            666.9395141601562,
+            546.1339111328125,
+            680.0568237304688
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/156/B.webp",
+          "sha256": "3fc52c4191c3e64af3629e37029eb8b6a272f54b1b641a40f80544c468359fb8",
+          "page": 22,
+          "rect": [
+            285.4645080566406,
+            680.0568237304688,
+            546.1339111328125,
+            693.174072265625
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/156/C.webp",
+          "sha256": "13afc42f49ee039cd0e70f721de08b1476e52a4e2aa8b34b5e596002d4a05968",
+          "page": 22,
+          "rect": [
+            285.4645080566406,
+            693.174072265625,
+            546.1339111328125,
+            706.2913818359375
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/156/D.webp",
+          "sha256": "e4a04dcdbfeae3635519ffa8b2c995625a0122d6aa20f3ce34cb84d91d03de7d",
+          "page": 22,
+          "rect": [
+            285.4645080566406,
+            706.2913818359375,
+            546.1339111328125,
+            719.40869140625
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/156/E.webp",
+          "sha256": "bf4b34ba8a2079a3696d6fe4a1c1f55197de285059213ce4e82b54d13d522636",
+          "page": 22,
+          "rect": [
+            285.4645080566406,
+            719.40869140625,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 68
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/156/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 22,
+      "transcript": "QUESTÃO 156\t\nUma pessoa caminha por 30 minutos e utiliza um \naplicativo instalado em seu celular para monitorar a \nvariação da intensidade do sinal de internet recebido \npelo aparelho durante o deslocamento. Chegando ao seu \ndestino, o aplicativo forneceu este gráfico:\nIntensidade do sinal de internet\nTempo (min)\n0\n2\n4\n6\n8\n10 12 14\n16\n18 20\n22 24\n26 28 30\nPor quantos minutos, durante essa caminhada, o celular \ndessa pessoa ficou sem receber sinal de internet?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/156/A.webp",
+        "text": "A\t\nA\t 6"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/156/B.webp",
+        "text": "B\t\nB\t 8"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/156/C.webp",
+        "text": "C\t\nC\t 10"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/156/D.webp",
+        "text": "D\t\nD\t 14"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/156/E.webp",
+        "text": "DERNO 7 • AZUL\nE\t\nE\t 24"
+      }
+    ],
+    "officialAnswer": "A",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/156/details.json",
+    "contentFingerprint": "49488c67b14545621c5a34dc59c5348c061868d7b58e8c514f072c6f14b5398d",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "6e475002d70152b90495457feae64b7ac28522e278b22412b63481da8aaca201"
   },
   {
     "id": "enem-2023-159",
@@ -407,27 +1331,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Um agricultor é informado sobre um método de proteção para sua lavoura que consiste em inserir larvas específicas, de rápida reprodução. A reprodução dessas larvas faz com que sua população multiplique-se por 10 a cada 3 dias e, para evitar eventuais desequilíbrios, é possível cessar essa reprodução aplicando-se um produto X. O agricultor decide iniciar esse método com 100 larvas e dispõe de 5 litros do produto X, cuja aplicação recomendada é de exatamente 1 litro para cada população de 200 000 larvas. A quantidade total do produto X de que ele dispõe deverá ser aplicada de uma única vez.",
+    "context": "![Enunciado original do ENEM 2023, questão 159](enem-assets/official/2023/159/statement.webp)",
     "text": "Quantos dias após iniciado esse método o agricultor deverá aplicar o produto X?",
     "options": [
-      "2",
-      "4",
-      "6",
-      "12",
-      "18"
+      "![Alternativa A original](enem-assets/official/2023/159/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/159/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/159/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/159/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/159/E.webp)"
     ],
     "answer": 3,
     "explanation": "Gabarito oficial: D. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/159/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "8b69883f8e6aadefac769fdb42dce92c7e884763fe1fb195bc93e235e5480940"
+    "images": [
+      "enem-assets/official/2023/159/statement.webp",
+      "enem-assets/official/2023/159/A.webp",
+      "enem-assets/official/2023/159/B.webp",
+      "enem-assets/official/2023/159/C.webp",
+      "enem-assets/official/2023/159/D.webp",
+      "enem-assets/official/2023/159/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "8b69883f8e6aadefac769fdb42dce92c7e884763fe1fb195bc93e235e5480940",
+    "canonicalId": "enem:2023:regular:blue:159:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "two-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 159,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          359.03167724609375,
+          78.79618835449219
+        ],
+        "page": 23
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 248.8767852783203
+        },
+        {
+          "letter": "B",
+          "y": 263.83380126953125
+        },
+        {
+          "letter": "C",
+          "y": 278.7908935546875
+        },
+        {
+          "letter": "D",
+          "y": 293.7479248046875
+        },
+        {
+          "letter": "E",
+          "y": 308.5489196777344
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/159/statement.webp",
+          "sha256": "54a2c7c15a2694ede74eac5a163fccad3636e1c546c5d9b6ef3547a895783009",
+          "page": 23,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            249.8767852783203
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 373
+        },
+        {
+          "file": "enem-assets/official/2023/159/A.webp",
+          "sha256": "450d577a5c11669ab4915b6cd1e72cfd8687de30fc67a7116148b38bcc83ef5e",
+          "page": 23,
+          "rect": [
+            285.4645080566406,
+            249.8767852783203,
+            546.1339111328125,
+            264.83380126953125
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/159/B.webp",
+          "sha256": "fed8e033b627c2646876aa9c7731ca828ef78c53e2fa6b781efecdfd023120a4",
+          "page": 23,
+          "rect": [
+            285.4645080566406,
+            264.83380126953125,
+            546.1339111328125,
+            279.7908935546875
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/159/C.webp",
+          "sha256": "2da1afdd10a09525d5cb130724f04703e9156fa22a1b6c47dc296def43842697",
+          "page": 23,
+          "rect": [
+            285.4645080566406,
+            279.7908935546875,
+            546.1339111328125,
+            294.7479248046875
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/159/D.webp",
+          "sha256": "514688e2870bd9937a295853e39b350b9fd28f3a290fa54baad3a681e0a7cfdc",
+          "page": 23,
+          "rect": [
+            285.4645080566406,
+            294.7479248046875,
+            546.1339111328125,
+            309.5489196777344
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/159/E.webp",
+          "sha256": "7e5ef546aef3a5abb754933e42045c65002b6dd6f1d3770248e4228514120f5a",
+          "page": 23,
+          "rect": [
+            285.4645080566406,
+            309.5489196777344,
+            546.1339111328125,
+            328.179931640625
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 38
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/159/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 23,
+      "transcript": "QUESTÃO 159\t\nUm agricultor é informado sobre um método de proteção \npara sua lavoura que consiste em inserir larvas específicas, \nde rápida reprodução. A reprodução dessas larvas faz com \nque sua população multiplique-se por 10 a cada 3 dias e, \npara evitar eventuais desequilíbrios, é possível cessar essa \nreprodução aplicando-se um produto X. O agricultor decide \niniciar esse método com 100 larvas e dispõe de 5 litros do \nproduto X, cuja aplicação recomendada é de exatamente \n1 litro para cada população de 200 000 larvas. A quantidade \ntotal do produto X de que ele dispõe deverá ser aplicada \nde uma única vez.\nQuantos dias após iniciado esse método o agricultor \ndeverá aplicar o produto X?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/159/A.webp",
+        "text": "A\t\nA\t 2"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/159/B.webp",
+        "text": "B\t\nB\t 4"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/159/C.webp",
+        "text": "C\t\nC\t 6"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/159/D.webp",
+        "text": "D\t\nD\t 12"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/159/E.webp",
+        "text": "E\t\nE\t 18"
+      }
+    ],
+    "officialAnswer": "D",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/159/details.json",
+    "contentFingerprint": "68eb0fa0e8df62e73f6beeac5992e465e9dc9964b4dd7e04770d6bbb6d13f577",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "8b69883f8e6aadefac769fdb42dce92c7e884763fe1fb195bc93e235e5480940"
   },
   {
     "id": "enem-2023-161",
@@ -460,7 +1565,12 @@
     "application": "1ª aplicação",
     "images": [],
     "license": "GPL-2.0",
-    "sourceSha256": "efab9dd28b322607a8ef807bc6d787ced2f9ce80d3b85936d13496b66fc09a0b"
+    "sourceSha256": "efab9dd28b322607a8ef807bc6d787ced2f9ce80d3b85936d13496b66fc09a0b",
+    "canonicalId": "enem:2023:regular:blue:161:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-163",
@@ -500,7 +1610,12 @@
       "enem-assets/2023/questions/163/ff0caefb-56e7-4c17-bae7-b65b91037e9c.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "bccb00cf6f323c03ea405425ab5a3ff02cb46904e361daf79cbb7faefb8b607f"
+    "sourceSha256": "bccb00cf6f323c03ea405425ab5a3ff02cb46904e361daf79cbb7faefb8b607f",
+    "canonicalId": "enem:2023:regular:blue:163:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-166",
@@ -513,30 +1628,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Uma pessoa pratica quatro atividades físicas — caminhar, correr, andar de bicicleta e jogar futebol — como parte de seu programa de emagrecimento. Essas atividades são praticadas semanalmente de acordo com o quadro, que apresenta o número de horas diárias por atividade.\n\n![](enem-assets/2023/questions/166/80863c14-e426-4ae6-9ff0-03f5b3c71160.png)\n\nEla deseja comemorar seu aniversário e escolhe o dia da semana em que o gasto calórico com as atividades físicas  praticadas for o maior. Para tanto, considera que os valores dos gastos calóricos das atividades por hora (cal/h) são os seguintes:\n\n![](enem-assets/2023/questions/166/e3d70b62-2929-4694-ba58-cf45c0ac1374.png)",
+    "context": "![Enunciado original do ENEM 2023, questão 166](enem-assets/official/2023/166/statement.webp)",
     "text": "O dia da semana em que será comemorado o aniversário é",
     "options": [
-      "Segunda-feira.",
-      "Terça-feira.",
-      "Quarta-feira.",
-      "Quinta-feira.",
-      "Sexta-feira."
+      "![Alternativa A original](enem-assets/official/2023/166/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/166/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/166/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/166/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/166/E.webp)"
     ],
     "answer": 2,
     "explanation": "Gabarito oficial: C. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/166/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/166/80863c14-e426-4ae6-9ff0-03f5b3c71160.png",
-      "enem-assets/2023/questions/166/e3d70b62-2929-4694-ba58-cf45c0ac1374.png"
+      "enem-assets/official/2023/166/statement.webp",
+      "enem-assets/official/2023/166/A.webp",
+      "enem-assets/official/2023/166/B.webp",
+      "enem-assets/official/2023/166/C.webp",
+      "enem-assets/official/2023/166/D.webp",
+      "enem-assets/official/2023/166/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "a6a62ba31a0a65edef8fc07d9bf6612437bb948b5ff66d2b293588142ef3998d"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "a6a62ba31a0a65edef8fc07d9bf6612437bb948b5ff66d2b293588142ef3998d",
+    "canonicalId": "enem:2023:regular:blue:166:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "single-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 166,
+        "rect": [
+          31.181100845336914,
+          64.83419036865234,
+          101.07884979248047,
+          78.79618835449219
+        ],
+        "page": 26
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 345.67681884765625
+        },
+        {
+          "letter": "B",
+          "y": 360.21142578125
+        },
+        {
+          "letter": "C",
+          "y": 374.74609375
+        },
+        {
+          "letter": "D",
+          "y": 389.28070068359375
+        },
+        {
+          "letter": "E",
+          "y": 403.8154296875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/166/statement.webp",
+          "sha256": "54a9a73423f3fed32572387d5daec49deaee5a350bc122d9f64c661b5b982a69",
+          "page": 26,
+          "rect": [
+            23.181100845336914,
+            63.834190368652344,
+            565.9290161132812,
+            346.67681884765625
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 567
+        },
+        {
+          "file": "enem-assets/official/2023/166/A.webp",
+          "sha256": "797780f68c873802c6a310ef5fe4b70e9bba6b0e2da6dd1bc3685b1bcf8e2b7a",
+          "page": 26,
+          "rect": [
+            23.181100845336914,
+            346.67681884765625,
+            565.9290161132812,
+            361.21142578125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/166/B.webp",
+          "sha256": "f26153ccc58d0788c9ec2a1bde1482cca0c577b156cc55e91386bf64536ebd66",
+          "page": 26,
+          "rect": [
+            23.181100845336914,
+            361.21142578125,
+            565.9290161132812,
+            375.74609375
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/166/C.webp",
+          "sha256": "3976afb74329e078d7f7fac23bf7244556780ee4161bc403ee017367800f40a0",
+          "page": 26,
+          "rect": [
+            23.181100845336914,
+            375.74609375,
+            565.9290161132812,
+            390.28070068359375
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/166/D.webp",
+          "sha256": "23c128bf0f5cff3f60eafc49ebea18211cb279c56175ff5ad663180127f53734",
+          "page": 26,
+          "rect": [
+            23.181100845336914,
+            390.28070068359375,
+            565.9290161132812,
+            404.8154296875
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/166/E.webp",
+          "sha256": "47874d1c7418d60952dca807eb4d0d5f80dd740fbe3e8de8e8270dde59e51b1b",
+          "page": 26,
+          "rect": [
+            23.181100845336914,
+            404.8154296875,
+            565.9290161132812,
+            422.8614196777344
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 37
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/166/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 26,
+      "transcript": "QUESTÃO 166\t\nUma pessoa pratica quatro atividades físicas — caminhar, correr, andar de bicicleta e jogar futebol — como parte \nde seu programa de emagrecimento. Essas atividades são praticadas semanalmente de acordo com o quadro, que \napresenta o número de horas diárias por atividade.\nDias da semana\nCaminhar Correr\nAndar de bicicleta\nJogar futebol\nSegunda-feira\n1,0\n0,5\n0,0\n2,0\nTerça-feira\n0,5\n1,0\n0,5\n1,0\nQuarta-feira\n0,0\n1,5\n1,0\n0,5\nQuinta-feira\n0,0\n2,0\n0,0\n0,0\nSexta-feira\n0,0\n0,5\n0,0\n2,5\nEla deseja comemorar seu aniversário e escolhe o dia da semana em que o gasto calórico com as atividades \nfísicas praticadas for o maior. Para tanto, considera que os valores dos gastos calóricos das atividades por hora (cal/h) \nsão os seguintes:\nAtividade física\nCaminhar \nCorrer\nAndar de bicicleta \nJogar futebol\nGasto calórico (cal/h)\n248\n764\n356\n492\nO dia da semana em que será comemorado o aniversário é"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/166/A.webp",
+        "text": "A\t\nA\t segunda-feira."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/166/B.webp",
+        "text": "B\t\nB\t terça-feira."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/166/C.webp",
+        "text": "C\t\nC\t quarta-feira."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/166/D.webp",
+        "text": "D\t\nD\t quinta-feira."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/166/E.webp",
+        "text": "E\t\nE\t sexta-feira."
+      }
+    ],
+    "officialAnswer": "C",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/166/details.json",
+    "contentFingerprint": "447af0e5c57b21ab6802762081dbf369e15291935dd5823773e5debe49af92ca",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "a6a62ba31a0a65edef8fc07d9bf6612437bb948b5ff66d2b293588142ef3998d"
   },
   {
     "id": "enem-2023-168",
@@ -575,7 +1868,12 @@
       "enem-assets/2023/questions/168/adeb932f-030f-4190-9b20-33a4a5f968f5.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "38bf0e168873a95815292801d519023b3e448a339fc196ec56dcf1a2b59a1b0f"
+    "sourceSha256": "38bf0e168873a95815292801d519023b3e448a339fc196ec56dcf1a2b59a1b0f",
+    "canonicalId": "enem:2023:regular:blue:168:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-169",
@@ -616,7 +1914,12 @@
       "enem-assets/2023/questions/169/3af229c8-e385-4ca2-891a-22bdf6b2d593.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "e3ec726e0296dc63a26e823669c54297de291dc67db64c1bff007eddb2d3e513"
+    "sourceSha256": "e3ec726e0296dc63a26e823669c54297de291dc67db64c1bff007eddb2d3e513",
+    "canonicalId": "enem:2023:regular:blue:169:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-170",
@@ -629,31 +1932,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Analisando as vendas de uma empresa, o gerente concluiu que o montante diário arrecadado, em milhar de real, poderia ser calculado pela expressão ![](enem-assets/2023/questions/170/369b24e4-258e-4faf-b7df-0c2e3da3c22a.png) , em que os valores de x representam os dias do mês, variando de 1 a 30.\n\nUm dos fatores para avaliar o desempenho mensal da empresa é verificar qual é o menor montante diário ![](enem-assets/2023/questions/170/b158b079-eaf5-4f8c-84b1-99db8076a950.png) arrecadado ao longo do mês e classificar o desempenho conforme as categorias apresentadas a seguir, em que as quantidades estão expressas em milhar de real.\n\n![](enem-assets/2023/questions/170/e7404490-a2b4-46e1-b1e6-3a8c828050fe.png)",
+    "context": "![Enunciado original do ENEM 2023, questão 170](enem-assets/official/2023/170/statement.webp)",
     "text": "No caso analisado, qual seria a classificação do desempenho da empresa?",
     "options": [
-      "Ótimo.",
-      "Bom.",
-      "Normal.",
-      "Ruim.",
-      "Péssimo."
+      "![Alternativa A original](enem-assets/official/2023/170/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/170/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/170/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/170/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/170/E.webp)"
     ],
     "answer": 3,
     "explanation": "Gabarito oficial: D. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/170/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/170/369b24e4-258e-4faf-b7df-0c2e3da3c22a.png",
-      "enem-assets/2023/questions/170/b158b079-eaf5-4f8c-84b1-99db8076a950.png",
-      "enem-assets/2023/questions/170/e7404490-a2b4-46e1-b1e6-3a8c828050fe.png"
+      "enem-assets/official/2023/170/statement.webp",
+      "enem-assets/official/2023/170/A.webp",
+      "enem-assets/official/2023/170/B.webp",
+      "enem-assets/official/2023/170/C.webp",
+      "enem-assets/official/2023/170/D.webp",
+      "enem-assets/official/2023/170/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "6b278fb0dbc6834f6044c31813e52c18fe8a4d4aa3364aca6b45b831226f7a01"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "6b278fb0dbc6834f6044c31813e52c18fe8a4d4aa3364aca6b45b831226f7a01",
+    "canonicalId": "enem:2023:regular:blue:170:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "two-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 170,
+        "rect": [
+          289.1339111328125,
+          319.00823974609375,
+          359.03167724609375,
+          332.97021484375
+        ],
+        "page": 27
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 575.5452880859375
+        },
+        {
+          "letter": "B",
+          "y": 590.0800170898438
+        },
+        {
+          "letter": "C",
+          "y": 604.6146240234375
+        },
+        {
+          "letter": "D",
+          "y": 619.1492919921875
+        },
+        {
+          "letter": "E",
+          "y": 633.6840209960938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/170/statement.webp",
+          "sha256": "82c6ab03f49da692c4335702ec317cec3b07013469a9fa6e891ae95d10736b03",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            318.00823974609375,
+            546.1339111328125,
+            576.0452880859375
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 517
+        },
+        {
+          "file": "enem-assets/official/2023/170/A.webp",
+          "sha256": "89b872a84a3d0aedfe0539dcea5e727c6546350d76d419c1f67b56d9f9620a57",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            576.0452880859375,
+            546.1339111328125,
+            591.0800170898438
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2023/170/B.webp",
+          "sha256": "0504517db78e3c157144041119d1e8607e1833a46fba8c6372c52622d2da7af5",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            591.0800170898438,
+            546.1339111328125,
+            605.6146240234375
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/170/C.webp",
+          "sha256": "78b9af28da11eacd0216da2cf6f0415c53b0c43f2e28369f5ed2325a9aeab5e0",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            605.6146240234375,
+            546.1339111328125,
+            620.1492919921875
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/170/D.webp",
+          "sha256": "c8f1746e21d0c4520206f40b437ca55713d0a42676433963ea6d28552da3ad4d",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            620.1492919921875,
+            546.1339111328125,
+            634.6840209960938
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/170/E.webp",
+          "sha256": "1ffb075d7a8ce0582a8a03d1fae71972033974fa283f7e685a91558b14d3999a",
+          "page": 27,
+          "rect": [
+            285.4645080566406,
+            634.6840209960938,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 237
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/170/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 27,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/170/A.webp",
+        "text": "A\t\nA\t Ótimo."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/170/B.webp",
+        "text": "B\t\nB\t Bom."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/170/C.webp",
+        "text": "C\t\nC\t Normal."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/170/D.webp",
+        "text": "D\t\nD\t Ruim."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/170/E.webp",
+        "text": "27\nDERNO 7 • AZUL\nE\t\nE\t Péssimo."
+      }
+    ],
+    "officialAnswer": "D",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/170/details.json",
+    "contentFingerprint": "d210081f0aafcfb0351d59e7fc93e3acae1c69017a154626cbd5869d4969d81b",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "6b278fb0dbc6834f6044c31813e52c18fe8a4d4aa3364aca6b45b831226f7a01"
   },
   {
     "id": "enem-2023-172",
@@ -689,7 +2169,12 @@
       "enem-assets/2023/questions/172/8bd02f79-d5fb-4b8d-9321-c57434be3374.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "47d58e1168d491ede92a8ddfbdd67956044f9a2800bb1291eb8ad547c09d2d08"
+    "sourceSha256": "47d58e1168d491ede92a8ddfbdd67956044f9a2800bb1291eb8ad547c09d2d08",
+    "canonicalId": "enem:2023:regular:blue:172:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-173",
@@ -728,7 +2213,12 @@
       "enem-assets/2023/questions/173/146d0f23-94de-4fd7-ae01-2d31285103d3.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "6123170b46a301a0233231220285bccc076ebe1f8cff4683c23d40c562fdd7f3"
+    "sourceSha256": "6123170b46a301a0233231220285bccc076ebe1f8cff4683c23d40c562fdd7f3",
+    "canonicalId": "enem:2023:regular:blue:173:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-175",
@@ -741,27 +2231,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos.",
+    "context": "![Enunciado original do ENEM 2023, questão 175](enem-assets/official/2023/175/statement.webp)",
     "text": "Qual o preço, em real, de uma cartela de tíquetes vermelhos?",
     "options": [
-      "4,68",
-      "6,30",
-      "9,30",
-      "10,50",
-      "10,65"
+      "![Alternativa A original](enem-assets/official/2023/175/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/175/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/175/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/175/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/175/E.webp)"
     ],
     "answer": 1,
     "explanation": "Gabarito oficial: B. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/175/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "ae68c5a71eff620acffaa746022bd2ed83514d0ec0a9431f6df240d6fa53c55d"
+    "images": [
+      "enem-assets/official/2023/175/statement.webp",
+      "enem-assets/official/2023/175/A.webp",
+      "enem-assets/official/2023/175/B.webp",
+      "enem-assets/official/2023/175/C.webp",
+      "enem-assets/official/2023/175/D.webp",
+      "enem-assets/official/2023/175/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "ae68c5a71eff620acffaa746022bd2ed83514d0ec0a9431f6df240d6fa53c55d",
+    "canonicalId": "enem:2023:regular:blue:175:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "single-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 175,
+        "rect": [
+          31.181100845336914,
+          495.08892822265625,
+          101.07884979248047,
+          509.0509033203125
+        ],
+        "page": 29
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 579.6201171875
+        },
+        {
+          "letter": "B",
+          "y": 594.1546630859375
+        },
+        {
+          "letter": "C",
+          "y": 608.6893920898438
+        },
+        {
+          "letter": "D",
+          "y": 623.22412109375
+        },
+        {
+          "letter": "E",
+          "y": 637.7586669921875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/175/statement.webp",
+          "sha256": "c6ca4175ddba8089686810725d56bf79a39a8e9fc066e4a5df9087ca0898be14",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            494.08892822265625,
+            565.9290161132812,
+            580.6201171875
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 174
+        },
+        {
+          "file": "enem-assets/official/2023/175/A.webp",
+          "sha256": "1fef81657923c7365d2ef6dc4106cfe635c82dc8a176666a528f38b5e2925d3a",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            580.6201171875,
+            565.9290161132812,
+            595.1546630859375
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/175/B.webp",
+          "sha256": "939bcf9e6f29b7ab1e0f2c0e959c54f0a642cdf1d25720a6f4b5b0e3f5dc04c9",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            595.1546630859375,
+            565.9290161132812,
+            609.6893920898438
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/175/C.webp",
+          "sha256": "36bd749c84c5c48e3e8b5b0b48ca07533da02c461ffbf14376b237f6c3475c55",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            609.6893920898438,
+            565.9290161132812,
+            624.22412109375
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/175/D.webp",
+          "sha256": "77792f3c84292e3db603c2f47a4fb29bd3f618620c87b19b0a6e33efba0f015a",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            624.22412109375,
+            565.9290161132812,
+            638.7586669921875
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2023/175/E.webp",
+          "sha256": "4065096b1ccd0989b72cfd8d9ab222f2201cfb28e807cc3a5662dafa0dc97312",
+          "page": 29,
+          "rect": [
+            23.181100845336914,
+            638.7586669921875,
+            565.9290161132812,
+            740.0474853515625
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 204
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/175/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 29,
+      "transcript": "QUESTÃO 175\t\nO metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos \nem cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e \numa cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço \nde um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos.\nQual o preço, em real, de uma cartela de tíquetes vermelhos?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/175/A.webp",
+        "text": "A\t\nA\t 4,68"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/175/B.webp",
+        "text": "B\t\nB\t 6,30"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/175/C.webp",
+        "text": "C\t\nC\t 9,30"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/175/D.webp",
+        "text": "D\t\nD\t 10,50"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/175/E.webp",
+        "text": "E\t\nE\t 10,65"
+      }
+    ],
+    "officialAnswer": "B",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/175/details.json",
+    "contentFingerprint": "56ecf8ec26a223a8461ddb492ff44e8007112159e31661e8fc8175121c0384cc",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "ae68c5a71eff620acffaa746022bd2ed83514d0ec0a9431f6df240d6fa53c55d"
   },
   {
     "id": "enem-2023-176",
@@ -796,7 +2467,12 @@
       "enem-assets/2023/questions/176/d21e916b-a5fc-441e-b782-d2d4aca3522b.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "4cef6610fb5cd6dfd26bf35c24a485f28e16033ff173ffd9c63513ac5a992e9c"
+    "sourceSha256": "4cef6610fb5cd6dfd26bf35c24a485f28e16033ff173ffd9c63513ac5a992e9c",
+    "canonicalId": "enem:2023:regular:blue:176:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-177",
@@ -836,7 +2512,12 @@
       "enem-assets/2023/questions/177/27c49bd5-ad8c-450c-9f56-970b9ca9c53c.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "77da09887cfbbc289d47d4abd1b2206e15a7f7c020b33d84cf58e2c0fb87e431"
+    "sourceSha256": "77da09887cfbbc289d47d4abd1b2206e15a7f7c020b33d84cf58e2c0fb87e431",
+    "canonicalId": "enem:2023:regular:blue:177:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-178",
@@ -875,7 +2556,12 @@
       "enem-assets/2023/questions/178/7ebc0f53-95db-497b-bc23-30cf64649c3a.png"
     ],
     "license": "GPL-2.0",
-    "sourceSha256": "d16258a6f4240a48afe40a409877308c822a2fd45c85f2ad58e1a060c16abf26"
+    "sourceSha256": "d16258a6f4240a48afe40a409877308c822a2fd45c85f2ad58e1a060c16abf26",
+    "canonicalId": "enem:2023:regular:blue:178:pt",
+    "validation": {
+      "status": "pending",
+      "reason": "Registro anterior preservado para o histórico; não contado na meta."
+    }
   },
   {
     "id": "enem-2023-179",
@@ -888,29 +2574,208 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "As características culturais variam de povo para povo. Há notícias de um povo que possuía formas de contar diferentes das nossas, como indicado no quadrinho a seguir.\n\n![](enem-assets/2023/questions/179/d2b83dd3-33ef-40d6-944a-b98d17f6411b.png)",
+    "context": "![Enunciado original do ENEM 2023, questão 179](enem-assets/official/2023/179/statement.webp)",
     "text": "Segundo o padrão de contagem indicado na figura, as representações dos numerais cinco e sete, nessa cultura, devem ser, respectivamente,",
     "options": [
-      "Okosa urapum urapum urapum e okosa okosa urapum urapum urapum.",
-      "Okosa okosa urapum e okosa okosa okosa okosa urapum.",
-      "Okosa okosa urapum e okosa okosa okosa urapum.",
-      "Okosa urapum urapum e okosa urapum okosa urapum urapum.",
-      "Okosa okosa urapum e okosa okosa okosa okosa."
+      "![Alternativa A original](enem-assets/official/2023/179/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/179/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/179/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/179/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/179/E.webp)"
     ],
     "answer": 2,
     "explanation": "Gabarito oficial: C. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/179/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
     "images": [
-      "enem-assets/2023/questions/179/d2b83dd3-33ef-40d6-944a-b98d17f6411b.png"
+      "enem-assets/official/2023/179/statement.webp",
+      "enem-assets/official/2023/179/A.webp",
+      "enem-assets/official/2023/179/B.webp",
+      "enem-assets/official/2023/179/C.webp",
+      "enem-assets/official/2023/179/D.webp",
+      "enem-assets/official/2023/179/E.webp"
     ],
-    "license": "GPL-2.0",
-    "sourceSha256": "5afa9c75bfc72b21d2c69d6b4bd567b743daae1b783d78290b0c6d113321578e"
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "5afa9c75bfc72b21d2c69d6b4bd567b743daae1b783d78290b0c6d113321578e",
+    "canonicalId": "enem:2023:regular:blue:179:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "two-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 179,
+        "rect": [
+          289.1339111328125,
+          64.83419036865234,
+          359.03167724609375,
+          78.79618835449219
+        ],
+        "page": 31
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 327.5411376953125
+        },
+        {
+          "letter": "B",
+          "y": 352.3583984375
+        },
+        {
+          "letter": "C",
+          "y": 365.4757080078125
+        },
+        {
+          "letter": "D",
+          "y": 378.593017578125
+        },
+        {
+          "letter": "E",
+          "y": 403.410400390625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/179/statement.webp",
+          "sha256": "7853e62d74381fd973cba35a7e47bef8c9603d5805f7fc8ba854a35ed17ffd8e",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            63.834190368652344,
+            546.1339111328125,
+            328.5411376953125
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 531
+        },
+        {
+          "file": "enem-assets/official/2023/179/A.webp",
+          "sha256": "e007c2fac4e856a32ec51e11123cb9c997c89cfdfef4c532ebf9408b9b5b0ead",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            328.5411376953125,
+            546.1339111328125,
+            353.3583984375
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 50
+        },
+        {
+          "file": "enem-assets/official/2023/179/B.webp",
+          "sha256": "d67a380e1bbe5a5476eb74c5e113dae43adf36721308b0cfab285a3bcf2382b1",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            353.3583984375,
+            546.1339111328125,
+            366.4757080078125
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/179/C.webp",
+          "sha256": "057b0118e904879b7b372378f5cb3d438f873118a510ccec73ae1375982e797a",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            366.4757080078125,
+            546.1339111328125,
+            379.593017578125
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/179/D.webp",
+          "sha256": "bdeffe1d86641f923e47fa9840f9285b3e8c7f168292d68b632d5b621405925f",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            379.593017578125,
+            546.1339111328125,
+            404.410400390625
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 50
+        },
+        {
+          "file": "enem-assets/official/2023/179/E.webp",
+          "sha256": "cfbebbafb59404c3e16a4c22229056f05479b879e7c99cfcaf6b8df914c23bdf",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            404.410400390625,
+            546.1339111328125,
+            421.04266357421875
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 35
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/179/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 31,
+      "transcript": "QUESTÃO 179\t\nAs características culturais variam de povo para povo. \nHá notícias de um povo que possuía formas de contar \ndiferentes das nossas, como indicado no quadrinho a seguir.\nSegundo o padrão de contagem indicado na figura, as \nrepresentações dos numerais cinco e sete, nessa cultura, \ndevem ser, respectivamente,"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/179/A.webp",
+        "text": "A\t\nA\t okosa urapum urapum urapum e okosa okosa urapum \nurapum urapum."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/179/B.webp",
+        "text": "B\t\nB\t okosa okosa urapum e okosa okosa okosa okosa urapum."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/179/C.webp",
+        "text": "C\t\nC\t okosa okosa urapum e okosa okosa okosa urapum."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/179/D.webp",
+        "text": "D\t\nD\t okosa urapum urapum e okosa urapum okosa urapum \nurapum."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/179/E.webp",
+        "text": "E\t\nE\t okosa okosa urapum e okosa okosa okosa okosa."
+      }
+    ],
+    "officialAnswer": "C",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/179/details.json",
+    "contentFingerprint": "c6479321953f879ea27e6940401533c267463c614a00ba6663ee33aef8563070",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "5afa9c75bfc72b21d2c69d6b4bd567b743daae1b783d78290b0c6d113321578e"
   },
   {
     "id": "enem-2023-180",
@@ -923,26 +2788,207 @@
     "difficulty": "unclassified",
     "difficultyReason": "Não foi atribuída dificuldade editorial a este item.",
     "origin": "enem",
-    "context": "Um tipo de semente necessita de bastante água nos dois primeiros meses após o plantio. Um produtor pretende estabelecer o melhor momento para o plantio desse tipo de semente, nos meses de outubro a março. Após consultar a previsão do índice mensal de precipitação de chuva (ImPC) da região onde ocorrerá o plantio, para o período chuvoso de 2020-2021, ele obteve os seguintes dados:  \n• outubro/2020: ImPC = 250 mm;  \n• novembro/2020: ImPC = 150 mm;  \n• dezembro/2020: ImPC = 200 mm;  \n• janeiro/2021: ImPC = 450 mm;  \n• fevereiro/2021: ImPC = 100 mm;  \n• março/2021: ImPC = 200 mm.\n\nCom base nessas previsões, ele precisa escolher dois meses consecutivos em que a média mensal de precipitação seja a maior possível.",
+    "context": "![Enunciado original do ENEM 2023, questão 180](enem-assets/official/2023/180/statement.webp)",
     "text": "No início de qual desses meses o produtor deverá plantar esse tipo de semente?",
     "options": [
-      "Outubro.",
-      "Novembro.",
-      "Dezembro.",
-      "Janeiro.",
-      "Fevereiro."
+      "![Alternativa A original](enem-assets/official/2023/180/A.webp)",
+      "![Alternativa B original](enem-assets/official/2023/180/B.webp)",
+      "![Alternativa C original](enem-assets/official/2023/180/C.webp)",
+      "![Alternativa D original](enem-assets/official/2023/180/D.webp)",
+      "![Alternativa E original](enem-assets/official/2023/180/E.webp)"
     ],
     "answer": 2,
     "explanation": "Gabarito oficial: C. Resolução comentada ainda não disponível.",
     "source": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/180/details.json",
     "officialSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_PV_impresso_D2_CD7.pdf",
     "answerSource": "https://download.inep.gov.br/enem/provas_e_gabaritos/2023_GB_impresso_D2_CD7.pdf",
-    "answerVerification": "references/official-keys/2023-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2023-2-gabarito.pdf",
     "day": 2,
     "booklet": "Azul",
     "application": "1ª aplicação",
-    "images": [],
-    "license": "GPL-2.0",
-    "sourceSha256": "9269eb4b521853bb97fbecbf715aa0106450e0d36fb39bfcc9a8376f7b3f06b5"
+    "images": [
+      "enem-assets/official/2023/180/statement.webp",
+      "enem-assets/official/2023/180/A.webp",
+      "enem-assets/official/2023/180/B.webp",
+      "enem-assets/official/2023/180/C.webp",
+      "enem-assets/official/2023/180/D.webp",
+      "enem-assets/official/2023/180/E.webp"
+    ],
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "sourceSha256": "9269eb4b521853bb97fbecbf715aa0106450e0d36fb39bfcc9a8376f7b3f06b5",
+    "canonicalId": "enem:2023:regular:blue:180:pt",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2023-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2023-2-prova.pdf",
+      "statementSha256": "6248d5e099267ab1db3ddf5e46b8cb1a83bb27d387528b9a8755ffba8ced1ba6",
+      "layout": "two-column",
+      "answerSha256": "cf40c0c8b19145440132673b11ec682ceef2e047eb1cfa1a2f19a0f908c12410",
+      "header": {
+        "number": 180,
+        "rect": [
+          289.1339111328125,
+          422.04266357421875,
+          359.03167724609375,
+          436.004638671875
+        ],
+        "page": 31
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 665.7567749023438
+        },
+        {
+          "letter": "B",
+          "y": 678.8740844726562
+        },
+        {
+          "letter": "C",
+          "y": 691.9915161132812
+        },
+        {
+          "letter": "D",
+          "y": 705.1088256835938
+        },
+        {
+          "letter": "E",
+          "y": 718.22607421875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2023/180/statement.webp",
+          "sha256": "68aab72cfdd41545921ae48b4e8531fa10ef5262b74dc68fee3855e1982a39c6",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            421.04266357421875,
+            546.1339111328125,
+            666.7567749023438
+          ],
+          "role": "statement",
+          "width": 523,
+          "height": 492
+        },
+        {
+          "file": "enem-assets/official/2023/180/A.webp",
+          "sha256": "279ee023b4a07924500a07e6e7d18774fe29e1469ae61c03d1d445079a55c80d",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            666.7567749023438,
+            546.1339111328125,
+            679.8740844726562
+          ],
+          "role": "A",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/180/B.webp",
+          "sha256": "63b7cb23659969a3b9ebc533b928099f540847547ac645c7004955102fca6c6f",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            679.8740844726562,
+            546.1339111328125,
+            692.9915161132812
+          ],
+          "role": "B",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/180/C.webp",
+          "sha256": "46a0e53662b8f5d1c73f0a711febf280ecd0a360fbda467702d2b05cec59771d",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            692.9915161132812,
+            546.1339111328125,
+            706.1088256835938
+          ],
+          "role": "C",
+          "width": 523,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2023/180/D.webp",
+          "sha256": "7eb318dc33b11b3cc98f493bf86808ff88a3cfc7a5c62e70fcabeffa1d1d675e",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            706.1088256835938,
+            546.1339111328125,
+            719.22607421875
+          ],
+          "role": "D",
+          "width": 523,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2023/180/E.webp",
+          "sha256": "03dcfd2016b4267bab47305296fb4c65114ca23c7feed48e78ee5a32637c1087",
+          "page": 31,
+          "rect": [
+            285.4645080566406,
+            719.22607421875,
+            546.1339111328125,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 523,
+          "height": 68
+        }
+      ]
+    },
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2023/180/statement.webp",
+      "source": "references/enem-1000/originals/2023-2-prova.pdf",
+      "page": 31,
+      "transcript": "QUESTÃO 180\t\nUm tipo de semente necessita de bastante água nos \ndois primeiros meses após o plantio. Um produtor pretende \nestabelecer o melhor momento para o plantio desse tipo de \nsemente, nos meses de outubro a março. Após consultar \na previsão do índice mensal de precipitação de chuva \n(ImPC) da região onde ocorrerá o plantio, para o período \nchuvoso de 2020 - 2021, ele obteve os seguintes dados:\n•\t outubro/2020: ImPC = 250 mm;\n•\t novembro/2020: ImPC = 150 mm;\n•\t dezembro/2020: ImPC = 200 mm;\n•\t janeiro/2021: ImPC = 450 mm;\n•\t fevereiro/2021: ImPC = 100 mm;\n•\t março/2021: ImPC = 200 mm.\nCom base nessas previsões, ele precisa escolher \ndois meses consecutivos em que a média mensal de \nprecipitação seja a maior possível.\nNo início de qual desses meses o produtor deverá plantar \nesse tipo de semente?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2023/180/A.webp",
+        "text": "A\t\nA\t Outubro."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2023/180/B.webp",
+        "text": "B\t\nB\t Novembro."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2023/180/C.webp",
+        "text": "C\t\nC\t Dezembro."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2023/180/D.webp",
+        "text": "D\t\nD\t Janeiro."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2023/180/E.webp",
+        "text": "31\nDERNO 7 • AZUL\nE\t\nE\t Fevereiro."
+      }
+    ],
+    "officialAnswer": "C",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2023/questions/180/details.json",
+    "contentFingerprint": "abed2551eb21507a1c0cbd0b4b0672af27e0ed35bf644b9a2fb2e9225ebe9a22",
+    "explanationStatus": "preserved-editorial",
+    "structuredSourceSha256": "9269eb4b521853bb97fbecbf715aa0106450e0d36fb39bfcc9a8376f7b3f06b5"
   }
 ]

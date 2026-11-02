@@ -1,0 +1,3197 @@
+[
+  {
+    "id": "enem-2021-89",
+    "year": 2021,
+    "number": 89,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 89 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:89:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 89](enem-assets/official/2021/89/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/89/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/89/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/89/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/89/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/89/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2021/89/statement.webp",
+      "enem-assets/official/2021/89/A.webp",
+      "enem-assets/official/2021/89/B.webp",
+      "enem-assets/official/2021/89/C.webp",
+      "enem-assets/official/2021/89/D.webp",
+      "enem-assets/official/2021/89/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s3.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/89/statement.webp",
+      "source": "references/enem-1000/originals/2021-1-prova.pdf",
+      "page": 31,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/89/A.webp",
+        "text": null
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/89/B.webp",
+        "text": null
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/89/C.webp",
+        "text": null
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/89/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/89/E.webp",
+        "text": null
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-1-prova.pdf",
+      "statementSha256": "387bfbd3c30074f595b59e404fc11619c5fdf0dec1d712520e9eb931bf348599",
+      "layout": "single-column",
+      "answerSha256": "b9d1a2cca6ba38dbac52e437371af2557173d38bfe0d0cbc948b1060547eead4",
+      "header": {
+        "number": 89,
+        "rect": [
+          31.18670082092285,
+          76.546875,
+          85.09669494628906,
+          86.546875
+        ],
+        "page": 31
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 291.1445007324219
+        },
+        {
+          "letter": "B",
+          "y": 304.9794921875
+        },
+        {
+          "letter": "C",
+          "y": 318.8135070800781
+        },
+        {
+          "letter": "D",
+          "y": 332.6485900878906
+        },
+        {
+          "letter": "E",
+          "y": 346.4836120605469
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/89/statement.webp",
+          "sha256": "a3d6ee66fb4398b32d78068e74f5d9367afaec3c07c95651de0643f78ed76dc6",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            75.546875,
+            566.0,
+            290.6445007324219
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 431
+        },
+        {
+          "file": "enem-assets/official/2021/89/A.webp",
+          "sha256": "216b48083e9f429b348d319364fceabe67165026d182ef9afbd03d5f9d8633b2",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            290.6445007324219,
+            566.0,
+            304.9794921875
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/89/B.webp",
+          "sha256": "ead44e583558cf597a6f0af5c82ba627638a0c8898afdccc4f9341333223c954",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            304.9794921875,
+            566.0,
+            318.8135070800781
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/89/C.webp",
+          "sha256": "72ddb1e561455890a5d2cf05dd4e711bd0e3bfb470b92a7dff975130d51a661e",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            318.8135070800781,
+            566.0,
+            332.1485900878906
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2021/89/D.webp",
+          "sha256": "ed3df0a86139dc78c5c2959cadf098e34dbff10709068c90e30a8d003768b5b8",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            332.1485900878906,
+            566.0,
+            346.4836120605469
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/89/E.webp",
+          "sha256": "af7f59a373f5f9308e822da1fc71f124aadc8ea1182f6202248c66168904acd0",
+          "page": 31,
+          "rect": [
+            23.18670082092285,
+            346.4836120605469,
+            566.0,
+            360.5794982910156
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 30
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/89/details.json",
+    "contentFingerprint": "03b57ae0965c8b12f5392087f2517351b50618c733852673c3e52d3dc2b75491",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "e9ac76ea057d38ff7027b32b78837c927a304464dd28a4da5f8e799f5c9282d7"
+  },
+  {
+    "id": "enem-2021-106",
+    "year": 2021,
+    "number": 106,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 106 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:106:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 106](enem-assets/official/2021/106/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/106/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/106/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/106/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/106/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/106/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2021/106/statement.webp",
+      "enem-assets/official/2021/106/A.webp",
+      "enem-assets/official/2021/106/B.webp",
+      "enem-assets/official/2021/106/C.webp",
+      "enem-assets/official/2021/106/D.webp",
+      "enem-assets/official/2021/106/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/106/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 7,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/106/A.webp",
+        "text": "A ótico."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/106/B.webp",
+        "text": "B funcional."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/106/C.webp",
+        "text": "C de cadeia."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/106/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/106/E.webp",
+        "text": "E geométrico."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 106,
+        "rect": [
+          31.18670082092285,
+          76.546875,
+          90.65669250488281,
+          86.546875
+        ],
+        "page": 7
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 394.26470947265625
+        },
+        {
+          "letter": "B",
+          "y": 408.1836853027344
+        },
+        {
+          "letter": "C",
+          "y": 422.1028137207031
+        },
+        {
+          "letter": "D",
+          "y": 436.0227966308594
+        },
+        {
+          "letter": "E",
+          "y": 449.9418029785156
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/106/statement.webp",
+          "sha256": "08d0a81f2df7328daf009ee8b58945d903174a0b6edf158782727c278a2de71f",
+          "page": 7,
+          "rect": [
+            23.18670082092285,
+            75.546875,
+            566.0,
+            394.26470947265625
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 638
+        },
+        {
+          "file": "enem-assets/official/2021/106/A.webp",
+          "sha256": "6dd69f5e6351ed42bb4355a6a54adbb6d9ca7c07f40275dec2dc09908e63ba8a",
+          "page": 7,
+          "rect": [
+            23.18670082092285,
+            394.26470947265625,
+            566.0,
+            407.6836853027344
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2021/106/B.webp",
+          "sha256": "557ab6c9e1076a827ac65f882365fb464a53a5634fb66d075d4b572ca8ca1676",
+          "page": 7,
+          "rect": [
+            23.18670082092285,
+            407.6836853027344,
+            566.0,
+            421.6028137207031
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/106/C.webp",
+          "sha256": "57c38534c825d84914eb04cec22946709e3a64208a1bb185e7984edec1ba2e82",
+          "page": 7,
+          "rect": [
+            23.18670082092285,
+            421.6028137207031,
+            566.0,
+            435.5227966308594
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/106/D.webp",
+          "sha256": "ed1459457fb7cbdd095541fe71a764545152ec9758ede1c17370f63eb10e544a",
+          "page": 7,
+          "rect": [
+            23.18670082092285,
+            435.5227966308594,
+            566.0,
+            449.9418029785156
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/106/E.webp",
+          "sha256": "690af884ecf7bc87b7c4a8c144de41a350732c2b95b615b064bb049c0ccadac1",
+          "page": 7,
+          "rect": [
+            23.18670082092285,
+            449.9418029785156,
+            566.0,
+            469.70770263671875
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 41
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/106/details.json",
+    "contentFingerprint": "9898f6516eff539bad997b16074a5c8c771231448865455c8772c7f1722b8c94",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "5388e42679c9b3e6fa66ba8aa89026c7bf70947bebd3e62b523923cc9f9271c0"
+  },
+  {
+    "id": "enem-2021-107",
+    "year": 2021,
+    "number": 107,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 107 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:107:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 107](enem-assets/official/2021/107/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/107/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/107/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/107/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/107/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/107/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2021/107/statement.webp",
+      "enem-assets/official/2021/107/A.webp",
+      "enem-assets/official/2021/107/B.webp",
+      "enem-assets/official/2021/107/C.webp",
+      "enem-assets/official/2021/107/D.webp",
+      "enem-assets/official/2021/107/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/107/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 7,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/107/A.webp",
+        "text": null
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/107/B.webp",
+        "text": null
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/107/C.webp",
+        "text": null
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/107/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/107/E.webp",
+        "text": null
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 107,
+        "rect": [
+          31.186800003051758,
+          470.70770263671875,
+          90.65679168701172,
+          480.70770263671875
+        ],
+        "page": 7
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 629.9161376953125
+        },
+        {
+          "letter": "B",
+          "y": 644.4501953125
+        },
+        {
+          "letter": "C",
+          "y": 658.9852294921875
+        },
+        {
+          "letter": "D",
+          "y": 685.2202758789062
+        },
+        {
+          "letter": "E",
+          "y": 711.4542846679688
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/107/statement.webp",
+          "sha256": "8b9b52f24c8f0b672616ee9425fd3cc17c495455aebfec233e1946f606d4a8f7",
+          "page": 7,
+          "rect": [
+            23.186800003051758,
+            469.70770263671875,
+            566.0,
+            629.9161376953125
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 321
+        },
+        {
+          "file": "enem-assets/official/2021/107/A.webp",
+          "sha256": "28c538d3d7f86c843b1c5f27eed04554c308d4a39ab5d659d27ccaf4c25b3c06",
+          "page": 7,
+          "rect": [
+            23.186800003051758,
+            629.9161376953125,
+            566.0,
+            644.4501953125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2021/107/B.webp",
+          "sha256": "e96333c0d48eb557ef0a436952ff8c33dfa9d8119068b4abe48924f229c019cf",
+          "page": 7,
+          "rect": [
+            23.186800003051758,
+            644.4501953125,
+            566.0,
+            658.9852294921875
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2021/107/C.webp",
+          "sha256": "32cd15d895ab6baa3c55b153e563a345bdbd99dd283a5a78ed966f1186dd0944",
+          "page": 7,
+          "rect": [
+            23.186800003051758,
+            658.9852294921875,
+            566.0,
+            684.7202758789062
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 53
+        },
+        {
+          "file": "enem-assets/official/2021/107/D.webp",
+          "sha256": "a9f553cad417167c93a9392d74490c7cd07d30ad2ebed4e2282a9b2d77f0a48f",
+          "page": 7,
+          "rect": [
+            23.186800003051758,
+            684.7202758789062,
+            566.0,
+            711.4542846679688
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 54
+        },
+        {
+          "file": "enem-assets/official/2021/107/E.webp",
+          "sha256": "da5a916df9b7d6c9a0866c0d3296fba545925fc34a3edef0980a5de725e7aea3",
+          "page": 7,
+          "rect": [
+            23.186800003051758,
+            711.4542846679688,
+            566.0,
+            753.0
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 84
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/107/details.json",
+    "contentFingerprint": "c5a3bd55c2f0d8c49a26bf703faed79de7aa1985906eac06cd9c1ae385c04767",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "d89ccc4eabe8de59bf598284531dca0ac1c4263f9c2ce1cff8dfe3f4b31ee199"
+  },
+  {
+    "id": "enem-2021-116",
+    "year": 2021,
+    "number": 116,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 116 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:116:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 116](enem-assets/official/2021/116/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/116/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/116/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/116/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/116/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/116/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2021/116/statement.webp",
+      "enem-assets/official/2021/116/A.webp",
+      "enem-assets/official/2021/116/B.webp",
+      "enem-assets/official/2021/116/C.webp",
+      "enem-assets/official/2021/116/D.webp",
+      "enem-assets/official/2021/116/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/116/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 10,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/116/A.webp",
+        "text": "A ("
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/116/B.webp",
+        "text": "B ("
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/116/C.webp",
+        "text": "C ("
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/116/D.webp",
+        "text": "D =("
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/116/E.webp",
+        "text": "E V."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 116,
+        "rect": [
+          31.18670082092285,
+          76.546875,
+          90.10469055175781,
+          86.546875
+        ],
+        "page": 10
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 355.2445983886719
+        },
+        {
+          "letter": "B",
+          "y": 368.0797119140625
+        },
+        {
+          "letter": "C",
+          "y": 380.9147033691406
+        },
+        {
+          "letter": "D",
+          "y": 393.7486877441406
+        },
+        {
+          "letter": "E",
+          "y": 406.5837097167969
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/116/statement.webp",
+          "sha256": "e7e36481a12bf0848e9f34b2d5261397178ddc2a86ee4e76102b59858ec29c0a",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            75.546875,
+            566.0,
+            354.7445983886719
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 559
+        },
+        {
+          "file": "enem-assets/official/2021/116/A.webp",
+          "sha256": "582cf81e5feed6dabf6999b49cf59f28af7ddf6469e2c1623c7c2ca3018945c6",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            354.7445983886719,
+            566.0,
+            367.5797119140625
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2021/116/B.webp",
+          "sha256": "a647556795ce891b654ca1bad7fe5bde3ff7c5c7772ad7fc5ee8f1d89644be74",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            367.5797119140625,
+            566.0,
+            380.9147033691406
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2021/116/C.webp",
+          "sha256": "5fc0cfa8250ee9f887608a47152eef1dff0956fe2dbb148869c950d23ec04f60",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            380.9147033691406,
+            566.0,
+            393.2486877441406
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2021/116/D.webp",
+          "sha256": "24f3e7179f7a690e3e8ad834f6b8e6bc00bd91f2bb1e5eb36a27187c5a4103ff",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            393.2486877441406,
+            566.0,
+            406.0837097167969
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2021/116/E.webp",
+          "sha256": "3da3f03c52c63d4fb27e338ebc8324e9d9c83568eabec280e4e25fa625d0290f",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            406.0837097167969,
+            566.0,
+            420.68060302734375
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 30
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/116/details.json",
+    "contentFingerprint": "8b5dac5e4996c452bedc154cb67e380e32933d9d50c4cb6aee510ad9642fa521",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "cdd0d4d6d922f994ddd41c28ef463ce2078c0401f8e77ab707caf94ffcc6b344"
+  },
+  {
+    "id": "enem-2021-117",
+    "year": 2021,
+    "number": 117,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 117 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:117:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 117](enem-assets/official/2021/117/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/117/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/117/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/117/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/117/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/117/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2021/117/statement.webp",
+      "enem-assets/official/2021/117/A.webp",
+      "enem-assets/official/2021/117/B.webp",
+      "enem-assets/official/2021/117/C.webp",
+      "enem-assets/official/2021/117/D.webp",
+      "enem-assets/official/2021/117/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/117/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 10,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/117/A.webp",
+        "text": "A etanol."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/117/B.webp",
+        "text": "B biogás."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/117/C.webp",
+        "text": "C butano."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/117/D.webp",
+        "text": "D metanol."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/117/E.webp",
+        "text": "E biodiesel."
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 117,
+        "rect": [
+          31.18670082092285,
+          421.68060302734375,
+          90.10469055175781,
+          431.68060302734375
+        ],
+        "page": 10
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 520.3739013671875
+        },
+        {
+          "letter": "B",
+          "y": 532.7919921875
+        },
+        {
+          "letter": "C",
+          "y": 545.208984375
+        },
+        {
+          "letter": "D",
+          "y": 557.6270141601562
+        },
+        {
+          "letter": "E",
+          "y": 570.0440673828125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/117/statement.webp",
+          "sha256": "a7564582b6e8bc8b343c660f518f834612032ea66d331219d606a1630c3a34a8",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            420.68060302734375,
+            566.0,
+            520.3739013671875
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 200
+        },
+        {
+          "file": "enem-assets/official/2021/117/A.webp",
+          "sha256": "370ffa22cb83ba1a26308f99463b8b0db6edaad8e201f58f4af092de6d7d4c09",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            520.3739013671875,
+            566.0,
+            532.7919921875
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2021/117/B.webp",
+          "sha256": "69a742a514990210a351b698d4f001769ae3aee15ca5fdbdf267c172409a8daf",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            532.7919921875,
+            566.0,
+            544.708984375
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2021/117/C.webp",
+          "sha256": "930e9872b941a7a8443a55e185d08fb41118d317bf250c4071d25f81a1dd6cee",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            544.708984375,
+            566.0,
+            557.1270141601562
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2021/117/D.webp",
+          "sha256": "434bf3e60e30e0523f1889be05b9dbb5415df39bcee3425a91d92ba8ef7a17e4",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            557.1270141601562,
+            566.0,
+            569.5440673828125
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2021/117/E.webp",
+          "sha256": "8499ff3269dc0cbc7231a8aca7bead9f57632120d60750d8e7a7d9f623656dfd",
+          "page": 10,
+          "rect": [
+            23.18670082092285,
+            569.5440673828125,
+            566.0,
+            586.9750366210938
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 35
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/117/details.json",
+    "contentFingerprint": "5e5c5f321f5a75fc99b4e2194f192cdd600c41f11ca1ed4a8793fe7cde9226fb",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "89dcbbeb38702c9730b43e06f7d557650bbdf25a1cf4b40105f170d1c03d3ca7"
+  },
+  {
+    "id": "enem-2021-118",
+    "year": 2021,
+    "number": 118,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 118 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:118:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 118](enem-assets/official/2021/118/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/118/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/118/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/118/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/118/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/118/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2021/118/statement.webp",
+      "enem-assets/official/2021/118/A.webp",
+      "enem-assets/official/2021/118/B.webp",
+      "enem-assets/official/2021/118/C.webp",
+      "enem-assets/official/2021/118/D.webp",
+      "enem-assets/official/2021/118/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/118/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 10,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/118/A.webp",
+        "text": "A morte do indivíduo adulto."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/118/B.webp",
+        "text": null
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/118/C.webp",
+        "text": "C comprometimento da metamorfose."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/118/D.webp",
+        "text": "D impedimento do desenvolvimento da larva."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/118/E.webp",
+        "text": "E repelência da forma transmissora da doença."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 118,
+        "rect": [
+          31.186800003051758,
+          587.9750366210938,
+          90.10478973388672,
+          597.9750366210938
+        ],
+        "page": 10
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 678.5042114257812
+        },
+        {
+          "letter": "B",
+          "y": 690.9213256835938
+        },
+        {
+          "letter": "C",
+          "y": 703.3383178710938
+        },
+        {
+          "letter": "D",
+          "y": 715.7562866210938
+        },
+        {
+          "letter": "E",
+          "y": 728.1732788085938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/118/statement.webp",
+          "sha256": "8047d087845403ec085fa3b6e4d7cacc3a318d27bcb1fd8b0143bc2f04aa2c79",
+          "page": 10,
+          "rect": [
+            23.186800003051758,
+            586.9750366210938,
+            566.0,
+            678.0042114257812
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 184
+        },
+        {
+          "file": "enem-assets/official/2021/118/A.webp",
+          "sha256": "5bba89bbf180519c746868e45daec28cddbdc695c243e8cd8bfa6ae7fba8ca94",
+          "page": 10,
+          "rect": [
+            23.186800003051758,
+            678.0042114257812,
+            566.0,
+            690.9213256835938
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2021/118/B.webp",
+          "sha256": "9bfcdeb88501c9940965539a599ed6a0b7fd90f10df16efd893cceb28a1a0d88",
+          "page": 10,
+          "rect": [
+            23.186800003051758,
+            690.9213256835938,
+            566.0,
+            703.3383178710938
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2021/118/C.webp",
+          "sha256": "4a8aef442cc013692b3754a2b578dc4bbe7109988f059d0ba80bd44025e1d622",
+          "page": 10,
+          "rect": [
+            23.186800003051758,
+            703.3383178710938,
+            566.0,
+            715.7562866210938
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2021/118/D.webp",
+          "sha256": "472c1ca51cc1ee129a0edc030dc8254f15bfef9c8210c988c4dc7d10cc298669",
+          "page": 10,
+          "rect": [
+            23.186800003051758,
+            715.7562866210938,
+            566.0,
+            727.6732788085938
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2021/118/E.webp",
+          "sha256": "af91f89f45a39c8cdec900e4a86eb20821a19595bbdb424a3df5b5dcc3520166",
+          "page": 10,
+          "rect": [
+            23.186800003051758,
+            727.6732788085938,
+            566.0,
+            753.0
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 51
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/118/details.json",
+    "contentFingerprint": "e9540c1c3c36a721707a00285adcb54e48fdc32d133cab41589fd725df89d918",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "52bd16ac8f1016f5ee9ecfc2abb568a227e478d86247d9ee8b5562481c51332f"
+  },
+  {
+    "id": "enem-2021-119",
+    "year": 2021,
+    "number": 119,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 119 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:119:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 119](enem-assets/official/2021/119/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/119/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/119/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/119/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/119/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/119/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2021/119/statement.webp",
+      "enem-assets/official/2021/119/A.webp",
+      "enem-assets/official/2021/119/B.webp",
+      "enem-assets/official/2021/119/C.webp",
+      "enem-assets/official/2021/119/D.webp",
+      "enem-assets/official/2021/119/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/119/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 11,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/119/A.webp",
+        "text": "A 1"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/119/B.webp",
+        "text": "B 2"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/119/C.webp",
+        "text": "C 3"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/119/D.webp",
+        "text": "D 4"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/119/E.webp",
+        "text": "E 5"
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 119,
+        "rect": [
+          31.18670082092285,
+          76.546875,
+          90.10469055175781,
+          86.546875
+        ],
+        "page": 11
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 287.0215148925781
+        },
+        {
+          "letter": "B",
+          "y": 300.72149658203125
+        },
+        {
+          "letter": "C",
+          "y": 314.4215087890625
+        },
+        {
+          "letter": "D",
+          "y": 328.1216125488281
+        },
+        {
+          "letter": "E",
+          "y": 341.82159423828125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/119/statement.webp",
+          "sha256": "6271989e21e2dd3cd2f6408e075c7b15ef5fc135a52faecc2842f8294cafcd15",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            75.546875,
+            566.0,
+            286.5215148925781
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 423
+        },
+        {
+          "file": "enem-assets/official/2021/119/A.webp",
+          "sha256": "2237d903a16e6314632f8e27482d8c0ede87ddefeb264da461e4f8ef5e56c283",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            286.5215148925781,
+            566.0,
+            300.22149658203125
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2021/119/B.webp",
+          "sha256": "d2cee4cabcd39bce7f33a5def216f3ba3495e84d805ded6ed37a142041be35fd",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            300.22149658203125,
+            566.0,
+            314.4215087890625
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/119/C.webp",
+          "sha256": "99c3727750a9799ebb4c2375a90c670b22545f98aa1e59137df05cb93ed87e8c",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            314.4215087890625,
+            566.0,
+            327.6216125488281
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2021/119/D.webp",
+          "sha256": "f1586dd4385b925b610ab846a3f34da1222d01e2411dcfa764777800b3948a91",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            327.6216125488281,
+            566.0,
+            341.82159423828125
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/119/E.webp",
+          "sha256": "29e5ae437ba25d80e259723ad0acbacd66d7a46bb57e46a57231e01a03149f14",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            341.82159423828125,
+            566.0,
+            355.9175109863281
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 29
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/119/details.json",
+    "contentFingerprint": "12e376e9309861cd45be2da36d49edb516fb50cef3c1d8e07d6f179ec9c02c35",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "b883fd3d718dc84e664b0a18c79afba8b9c5202a12379cf312f425f99eeb1724"
+  },
+  {
+    "id": "enem-2021-120",
+    "year": 2021,
+    "number": 120,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 120 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:120:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 120](enem-assets/official/2021/120/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/120/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/120/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/120/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/120/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/120/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2021/120/statement.webp",
+      "enem-assets/official/2021/120/A.webp",
+      "enem-assets/official/2021/120/B.webp",
+      "enem-assets/official/2021/120/C.webp",
+      "enem-assets/official/2021/120/D.webp",
+      "enem-assets/official/2021/120/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/120/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 11,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/120/A.webp",
+        "text": "A Entre o violeta e o azul."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/120/B.webp",
+        "text": "B Entre o azul e o verde."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/120/C.webp",
+        "text": "C Entre o verde e o amarelo."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/120/D.webp",
+        "text": "D Entre o amarelo e o laranja."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/120/E.webp",
+        "text": "E Entre o laranja e o vermelho."
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 120,
+        "rect": [
+          31.18670082092285,
+          356.9175109863281,
+          90.65669250488281,
+          366.9175109863281
+        ],
+        "page": 11
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 664.4371948242188
+        },
+        {
+          "letter": "B",
+          "y": 680.4373168945312
+        },
+        {
+          "letter": "C",
+          "y": 696.4373168945312
+        },
+        {
+          "letter": "D",
+          "y": 712.4373168945312
+        },
+        {
+          "letter": "E",
+          "y": 728.4373168945312
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/120/statement.webp",
+          "sha256": "b8fd66d02e6e9cc748f4ab88425cad7d2add363535a92b7c14ae3dc564653a35",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            355.9175109863281,
+            566.0,
+            664.4371948242188
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 618
+        },
+        {
+          "file": "enem-assets/official/2021/120/A.webp",
+          "sha256": "e292fe9a5c25fd303d5d18be14c20478335c8761b6957c00b45483cb0687d11f",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            664.4371948242188,
+            566.0,
+            680.4373168945312
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2021/120/B.webp",
+          "sha256": "6e99bba13f80e44ea008de1b0ac920a1eae55221be3429160df53d78a20672f1",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            680.4373168945312,
+            566.0,
+            696.4373168945312
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2021/120/C.webp",
+          "sha256": "7fb00ace4bcf415935d7ee4687090074de134d820ee8c940e0db2e12b583dfdc",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            696.4373168945312,
+            566.0,
+            712.4373168945312
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2021/120/D.webp",
+          "sha256": "3e1da1b7a4cea5c6f57d2b01a11b91871d41420aade18c3d4edc72793a3f1a79",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            712.4373168945312,
+            566.0,
+            728.4373168945312
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2021/120/E.webp",
+          "sha256": "f2745ca4e432ead24d60529598ee3a84ee7ad7e955d8cf254c2f78a251e0ab16",
+          "page": 11,
+          "rect": [
+            23.18670082092285,
+            728.4373168945312,
+            566.0,
+            753.0
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 50
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/120/details.json",
+    "contentFingerprint": "9d8c01b03f7db50ddff9e2e4e28d809795b96c10de01ae142b91359c76e277a1",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "ba4e4ebde468e2e890c7c8f544f03312b947f101ce55986295caf07f6618eacb"
+  },
+  {
+    "id": "enem-2021-121",
+    "year": 2021,
+    "number": 121,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 121 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:121:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 121](enem-assets/official/2021/121/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/121/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/121/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/121/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/121/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/121/E.webp)"
+    ],
+    "answer": 4,
+    "images": [
+      "enem-assets/official/2021/121/statement.webp",
+      "enem-assets/official/2021/121/A.webp",
+      "enem-assets/official/2021/121/B.webp",
+      "enem-assets/official/2021/121/C.webp",
+      "enem-assets/official/2021/121/D.webp",
+      "enem-assets/official/2021/121/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/121/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 12,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/121/A.webp",
+        "text": null
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/121/B.webp",
+        "text": null
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/121/C.webp",
+        "text": null
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/121/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/121/E.webp",
+        "text": null
+      }
+    ],
+    "officialAnswer": "E",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 121,
+        "rect": [
+          31.18670082092285,
+          76.546875,
+          90.65669250488281,
+          86.546875
+        ],
+        "page": 12
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 170.35418701171875
+        },
+        {
+          "letter": "B",
+          "y": 181.35418701171875
+        },
+        {
+          "letter": "C",
+          "y": 192.35430908203125
+        },
+        {
+          "letter": "D",
+          "y": 214.3543701171875
+        },
+        {
+          "letter": "E",
+          "y": 236.3543701171875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/121/statement.webp",
+          "sha256": "00f5b4905075f63231abab21d5da6b7ab4359e6b3b72bb08ced0818ff3997efa",
+          "page": 12,
+          "rect": [
+            23.18670082092285,
+            75.546875,
+            566.0,
+            170.35418701171875
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 190
+        },
+        {
+          "file": "enem-assets/official/2021/121/A.webp",
+          "sha256": "fd092b49b169bfe420a63b92724a4c3927d4d392741963ab60058ed4481399bf",
+          "page": 12,
+          "rect": [
+            23.18670082092285,
+            170.35418701171875,
+            566.0,
+            181.35418701171875
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 23
+        },
+        {
+          "file": "enem-assets/official/2021/121/B.webp",
+          "sha256": "47cd5fbc652fa0df9e38527b4c4437b8d4479c8bcbedfede3a3103a3b6efc917",
+          "page": 12,
+          "rect": [
+            23.18670082092285,
+            181.35418701171875,
+            566.0,
+            192.35430908203125
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 23
+        },
+        {
+          "file": "enem-assets/official/2021/121/C.webp",
+          "sha256": "c292d33abf70618300034a6218a2d6b81bb9811343331e6ffafdea21483cf46a",
+          "page": 12,
+          "rect": [
+            23.18670082092285,
+            192.35430908203125,
+            566.0,
+            214.3543701171875
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 45
+        },
+        {
+          "file": "enem-assets/official/2021/121/D.webp",
+          "sha256": "3afba2224b044467111ab1726150cbe92ed1152ec539db396306c5b59927e300",
+          "page": 12,
+          "rect": [
+            23.18670082092285,
+            214.3543701171875,
+            566.0,
+            236.3543701171875
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 45
+        },
+        {
+          "file": "enem-assets/official/2021/121/E.webp",
+          "sha256": "1c2d51b56ade43c42a587d3c4261f6ef9700ee3c4e3a5f9d5dc366a914ffef75",
+          "page": 12,
+          "rect": [
+            23.18670082092285,
+            236.3543701171875,
+            566.0,
+            264.2853088378906
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 57
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/121/details.json",
+    "contentFingerprint": "6c58dd6c751e971420dafa279368cb4f0f17ddc08a17cc80f10ebe8a8f8d2cda",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "eb36ae89072032a461d3bb3d75ed919299fc7f85d407cd9bb12cf9aa2997e39f"
+  },
+  {
+    "id": "enem-2021-122",
+    "year": 2021,
+    "number": 122,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 122 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:122:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 122](enem-assets/official/2021/122/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/122/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/122/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/122/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/122/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/122/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2021/122/statement.webp",
+      "enem-assets/official/2021/122/A.webp",
+      "enem-assets/official/2021/122/B.webp",
+      "enem-assets/official/2021/122/C.webp",
+      "enem-assets/official/2021/122/D.webp",
+      "enem-assets/official/2021/122/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/122/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 12,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/122/A.webp",
+        "text": "A 1"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/122/B.webp",
+        "text": "B 2"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/122/C.webp",
+        "text": "C 3"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/122/D.webp",
+        "text": "D 5"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/122/E.webp",
+        "text": "E 6"
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 122,
+        "rect": [
+          31.186800003051758,
+          265.2853088378906,
+          90.65679168701172,
+          275.2853088378906
+        ],
+        "page": 12
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 558.3930053710938
+        },
+        {
+          "letter": "B",
+          "y": 569.3930053710938
+        },
+        {
+          "letter": "C",
+          "y": 580.39306640625
+        },
+        {
+          "letter": "D",
+          "y": 591.39306640625
+        },
+        {
+          "letter": "E",
+          "y": 602.39306640625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/122/statement.webp",
+          "sha256": "556320e301376817543c2c406a52580dd4c51ba5dbead6fd058544fbee46fedd",
+          "page": 12,
+          "rect": [
+            23.186800003051758,
+            264.2853088378906,
+            566.0,
+            558.3930053710938
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 589
+        },
+        {
+          "file": "enem-assets/official/2021/122/A.webp",
+          "sha256": "7148dca1783ec09ad647cf67acd7e589f0bfea412e1d4734a88e6f9113af775f",
+          "page": 12,
+          "rect": [
+            23.186800003051758,
+            558.3930053710938,
+            566.0,
+            569.3930053710938
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 23
+        },
+        {
+          "file": "enem-assets/official/2021/122/B.webp",
+          "sha256": "11a47c990e92c1183d66af7b4d2aca7fb06853413978a6427b80c0dab6629614",
+          "page": 12,
+          "rect": [
+            23.186800003051758,
+            569.3930053710938,
+            566.0,
+            580.39306640625
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 23
+        },
+        {
+          "file": "enem-assets/official/2021/122/C.webp",
+          "sha256": "27d7073f3f1c4e81d6b1514f2ca3d493f9478a6e43b8cc92408cf0b1c53b228e",
+          "page": 12,
+          "rect": [
+            23.186800003051758,
+            580.39306640625,
+            566.0,
+            591.39306640625
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 23
+        },
+        {
+          "file": "enem-assets/official/2021/122/D.webp",
+          "sha256": "39d243ce2c143aef4bf93e069c49e974b18d1b6f38c1bdc4f506e76f705978e1",
+          "page": 12,
+          "rect": [
+            23.186800003051758,
+            591.39306640625,
+            566.0,
+            602.39306640625
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 23
+        },
+        {
+          "file": "enem-assets/official/2021/122/E.webp",
+          "sha256": "85433602043dfd346ae75eec9ff9f24e92569f3a19dc2e62ac98462263adbc62",
+          "page": 12,
+          "rect": [
+            23.186800003051758,
+            602.39306640625,
+            566.0,
+            616.489990234375
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 29
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/122/details.json",
+    "contentFingerprint": "97b2a9d33fa0e73249ed417252dc8c9f451cbc9928a9ae9491b4d2f9061cae3c",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "aab50ebaf734198e699ca4bb977fd5b16d443592ceb6a189255e8edaf3f26812"
+  },
+  {
+    "id": "enem-2021-124",
+    "year": 2021,
+    "number": 124,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 124 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:124:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 124](enem-assets/official/2021/124/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/124/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/124/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/124/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/124/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/124/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2021/124/statement.webp",
+      "enem-assets/official/2021/124/A.webp",
+      "enem-assets/official/2021/124/B.webp",
+      "enem-assets/official/2021/124/C.webp",
+      "enem-assets/official/2021/124/D.webp",
+      "enem-assets/official/2021/124/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/124/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 13,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/124/A.webp",
+        "text": "A AFC."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/124/B.webp",
+        "text": "B MSFC."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/124/C.webp",
+        "text": "C PEM."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/124/D.webp",
+        "text": "D PAFC."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/124/E.webp",
+        "text": "E SOFC."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 124,
+        "rect": [
+          31.18670082092285,
+          76.546875,
+          90.65669250488281,
+          86.546875
+        ],
+        "page": 13
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 411.0787048339844
+        },
+        {
+          "letter": "B",
+          "y": 422.9128112792969
+        },
+        {
+          "letter": "C",
+          "y": 434.747802734375
+        },
+        {
+          "letter": "D",
+          "y": 446.581787109375
+        },
+        {
+          "letter": "E",
+          "y": 458.41680908203125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/124/statement.webp",
+          "sha256": "e5b017e63033d0c951b3075a84c0c7aa7106f82a5ae3aeecf946ad5f3c8177c5",
+          "page": 13,
+          "rect": [
+            23.18670082092285,
+            75.546875,
+            566.0,
+            410.5787048339844
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 671
+        },
+        {
+          "file": "enem-assets/official/2021/124/A.webp",
+          "sha256": "bd10832588de6fb86b6d328f22e883fe425454827bbfed179ea3569e2da184ab",
+          "page": 13,
+          "rect": [
+            23.18670082092285,
+            410.5787048339844,
+            566.0,
+            422.9128112792969
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2021/124/B.webp",
+          "sha256": "be7e34635cabfeac11ce616070092b8615fbdc0f2a1916ed3add893b1d4899fc",
+          "page": 13,
+          "rect": [
+            23.18670082092285,
+            422.9128112792969,
+            566.0,
+            434.247802734375
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 24
+        },
+        {
+          "file": "enem-assets/official/2021/124/C.webp",
+          "sha256": "956dfb31f98306c745f2a0ed27267d2cd082bcd968efc4e42a44c8ec6a69b66f",
+          "page": 13,
+          "rect": [
+            23.18670082092285,
+            434.247802734375,
+            566.0,
+            446.081787109375
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2021/124/D.webp",
+          "sha256": "56d9023c01b73a000391eade2821f319656f4b656eb1d3f3d87846628575a7d5",
+          "page": 13,
+          "rect": [
+            23.18670082092285,
+            446.081787109375,
+            566.0,
+            458.41680908203125
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2021/124/E.webp",
+          "sha256": "d3a4d9909d5b62331d34c456f623800b98681c4eecefef610ad599f2574a58e5",
+          "page": 13,
+          "rect": [
+            23.18670082092285,
+            458.41680908203125,
+            566.0,
+            472.5137939453125
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 30
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/124/details.json",
+    "contentFingerprint": "186d454c13b307871ac1e53bf4e525abeda1f80c1265306fb55e14f640719624",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "98fe47f380701cb5a85a7d2fc671a7b63af021da20aba1529e11a53a753eb38d"
+  },
+  {
+    "id": "enem-2021-125",
+    "year": 2021,
+    "number": 125,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 125 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:125:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 125](enem-assets/official/2021/125/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/125/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/125/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/125/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/125/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/125/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2021/125/statement.webp",
+      "enem-assets/official/2021/125/A.webp",
+      "enem-assets/official/2021/125/B.webp",
+      "enem-assets/official/2021/125/C.webp",
+      "enem-assets/official/2021/125/D.webp",
+      "enem-assets/official/2021/125/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/125/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 13,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/125/A.webp",
+        "text": null
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/125/B.webp",
+        "text": null
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/125/C.webp",
+        "text": null
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/125/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/125/E.webp",
+        "text": null
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 125,
+        "rect": [
+          31.186800003051758,
+          473.5137939453125,
+          90.65679168701172,
+          483.5137939453125
+        ],
+        "page": 13
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 682.1273193359375
+        },
+        {
+          "letter": "B",
+          "y": 694.1273193359375
+        },
+        {
+          "letter": "C",
+          "y": 706.1273193359375
+        },
+        {
+          "letter": "D",
+          "y": 718.1273193359375
+        },
+        {
+          "letter": "E",
+          "y": 730.1273193359375
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/125/statement.webp",
+          "sha256": "9bc1f0c0cb887e1217c9f29268dc3436cd3fb71310d3ee82925a90d681dedfed",
+          "page": 13,
+          "rect": [
+            23.186800003051758,
+            472.5137939453125,
+            566.0,
+            681.6273193359375
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 419
+        },
+        {
+          "file": "enem-assets/official/2021/125/A.webp",
+          "sha256": "7b8091f02adf0376fbab9e381125b276f94e7d127d95e5ca9a28e26e9bc9cbf3",
+          "page": 13,
+          "rect": [
+            23.186800003051758,
+            681.6273193359375,
+            566.0,
+            693.6273193359375
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2021/125/B.webp",
+          "sha256": "3ed7c497d90f1911a7abb0eb0af44a0de3399fd1ce71e7095e58920e47c4ff19",
+          "page": 13,
+          "rect": [
+            23.186800003051758,
+            693.6273193359375,
+            566.0,
+            705.6273193359375
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2021/125/C.webp",
+          "sha256": "bbeb5cc9c9443511c02e10ddeeae783d82e2810778f8c35706c4dacac9b8280e",
+          "page": 13,
+          "rect": [
+            23.186800003051758,
+            705.6273193359375,
+            566.0,
+            717.6273193359375
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2021/125/D.webp",
+          "sha256": "7a826712d3191ca5054cab699d0623b253b9a35f3a1d21aca6187b3de2b58d79",
+          "page": 13,
+          "rect": [
+            23.186800003051758,
+            717.6273193359375,
+            566.0,
+            729.6273193359375
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 25
+        },
+        {
+          "file": "enem-assets/official/2021/125/E.webp",
+          "sha256": "25e71d271eeceb30510994248eef6b5b0a7e337c50c1f3c9a5934d91fb8bffb0",
+          "page": 13,
+          "rect": [
+            23.186800003051758,
+            729.6273193359375,
+            566.0,
+            753.0
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 47
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/125/details.json",
+    "contentFingerprint": "8fa08f350adea6e95ad6e3ea69b87e6ba4e965539798c357c9f744e0d1edf5a3",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "97585264a911e61814a6605d20d7680bb9d664611e1594a719f9b2ddb53cf2b9"
+  },
+  {
+    "id": "enem-2021-147",
+    "year": 2021,
+    "number": 147,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 147 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:147:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 147](enem-assets/official/2021/147/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/147/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/147/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/147/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/147/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/147/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2021/147/statement.webp",
+      "enem-assets/official/2021/147/A.webp",
+      "enem-assets/official/2021/147/B.webp",
+      "enem-assets/official/2021/147/C.webp",
+      "enem-assets/official/2021/147/D.webp",
+      "enem-assets/official/2021/147/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/147/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 21,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/147/A.webp",
+        "text": "A  A, E, O e S."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/147/B.webp",
+        "text": null
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/147/C.webp",
+        "text": "C  D, H, R e V."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/147/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/147/E.webp",
+        "text": null
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 147,
+        "rect": [
+          31.18670082092285,
+          76.546875,
+          90.65669250488281,
+          86.546875
+        ],
+        "page": 21
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 492.1899108886719
+        },
+        {
+          "letter": "B",
+          "y": 506.18994140625
+        },
+        {
+          "letter": "C",
+          "y": 520.1898803710938
+        },
+        {
+          "letter": "D",
+          "y": 534.1898803710938
+        },
+        {
+          "letter": "E",
+          "y": 548.1900024414062
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/147/statement.webp",
+          "sha256": "2ff4a8ef540d3779aebb75beebb5b5c29751e4306dc75aabcbcb06eec22782fc",
+          "page": 21,
+          "rect": [
+            23.18670082092285,
+            75.546875,
+            566.0,
+            491.6899108886719
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 833
+        },
+        {
+          "file": "enem-assets/official/2021/147/A.webp",
+          "sha256": "dfec05d27ee8571b3d6798a59f880a99513e521a820d77fcb05619bf51ff9788",
+          "page": 21,
+          "rect": [
+            23.18670082092285,
+            491.6899108886719,
+            566.0,
+            505.68994140625
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/147/B.webp",
+          "sha256": "c40d28353f88968c066e5cb4589593f058b58d9e8b22eecca13b7a0d665988ff",
+          "page": 21,
+          "rect": [
+            23.18670082092285,
+            505.68994140625,
+            566.0,
+            519.6898803710938
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/147/C.webp",
+          "sha256": "02d1331e763b94dff2fb114d5132487853d4c100509b6a64789d9aa5af2d4827",
+          "page": 21,
+          "rect": [
+            23.18670082092285,
+            519.6898803710938,
+            566.0,
+            533.6898803710938
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/147/D.webp",
+          "sha256": "e636a1c22c8f5e70bc3e6a8d531bf3a60d02c84827f1d082feeaa4ef86a253c0",
+          "page": 21,
+          "rect": [
+            23.18670082092285,
+            533.6898803710938,
+            566.0,
+            547.6900024414062
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2021/147/E.webp",
+          "sha256": "d943188822bf1ae553a46ed248dd862c08ff260be3ce9c44b4a7e5d2fbdb8488",
+          "page": 21,
+          "rect": [
+            23.18670082092285,
+            547.6900024414062,
+            566.0,
+            562.285888671875
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 30
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/147/details.json",
+    "contentFingerprint": "205afd830760ae408a785700a407ebf9b28444a3f65f1acc15bbe6de97ceddae",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "b1f5d42f0000db58e2bc88c62b016ae5b67630f87578b3b2692992b237f48e27"
+  },
+  {
+    "id": "enem-2021-155",
+    "year": 2021,
+    "number": 155,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 155 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:155:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 155](enem-assets/official/2021/155/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/155/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/155/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/155/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/155/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/155/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2021/155/statement.webp",
+      "enem-assets/official/2021/155/A.webp",
+      "enem-assets/official/2021/155/B.webp",
+      "enem-assets/official/2021/155/C.webp",
+      "enem-assets/official/2021/155/D.webp",
+      "enem-assets/official/2021/155/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/155/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 24,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/155/A.webp",
+        "text": "A  12,5"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/155/B.webp",
+        "text": "B  28,0"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/155/C.webp",
+        "text": "C  30,0"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/155/D.webp",
+        "text": "D  50,0"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/155/E.webp",
+        "text": null
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 155,
+        "rect": [
+          31.18670082092285,
+          76.546875,
+          90.65669250488281,
+          86.546875
+        ],
+        "page": 24
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 229.9354248046875
+        },
+        {
+          "letter": "B",
+          "y": 245.9354248046875
+        },
+        {
+          "letter": "C",
+          "y": 261.9353942871094
+        },
+        {
+          "letter": "D",
+          "y": 277.93548583984375
+        },
+        {
+          "letter": "E",
+          "y": 295.635498046875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/155/statement.webp",
+          "sha256": "4971be7058feba2b6b9b5c895a24422f7d5d840fb59ec12cabe82896b632efd2",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            75.546875,
+            566.0,
+            229.9354248046875
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 309
+        },
+        {
+          "file": "enem-assets/official/2021/155/A.webp",
+          "sha256": "bf7e161037f99910cb3cc91e5c4465e646cdf051baf1072a8fa61ad785260314",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            229.9354248046875,
+            566.0,
+            245.9354248046875
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2021/155/B.webp",
+          "sha256": "c0e47241e0e3dc9b735bd6987f42aa26be586e714d7f7c305b2c8e9cf47e3f0d",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            245.9354248046875,
+            566.0,
+            261.9353942871094
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2021/155/C.webp",
+          "sha256": "5fd856fa53f6968cb958928bc4940dbd1bc8f1a281e77c054ac74938757345d7",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            261.9353942871094,
+            566.0,
+            277.93548583984375
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2021/155/D.webp",
+          "sha256": "a2dee017f5f2b1be128b128938921f00eba5f5c8ae7534e7285085b6b949c1f3",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            277.93548583984375,
+            566.0,
+            295.135498046875
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 36
+        },
+        {
+          "file": "enem-assets/official/2021/155/E.webp",
+          "sha256": "b3f905f830b468b7675306782b5f6adcd670d1bbf228d98f50fbf2ccc26ffbb0",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            295.135498046875,
+            566.0,
+            312.56640625
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 36
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/155/details.json",
+    "contentFingerprint": "ebbabe09559d706d231d760a4f6d5a0286e2ec9bd02a92630b4c08d6f6ae8c08",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "92838d1e201d8d34c773a8beaafecbec0d1018e28e6e473bbb93357babd457d6"
+  },
+  {
+    "id": "enem-2021-156",
+    "year": 2021,
+    "number": 156,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 156 — ENEM 2021",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2021:regular:blue:156:pt",
+    "context": "![Enunciado original do ENEM 2021, questão 156](enem-assets/official/2021/156/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2021/156/A.webp)",
+      "![Alternativa B original](enem-assets/official/2021/156/B.webp)",
+      "![Alternativa C original](enem-assets/official/2021/156/C.webp)",
+      "![Alternativa D original](enem-assets/official/2021/156/D.webp)",
+      "![Alternativa E original](enem-assets/official/2021/156/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2021/156/statement.webp",
+      "enem-assets/official/2021/156/A.webp",
+      "enem-assets/official/2021/156/B.webp",
+      "enem-assets/official/2021/156/C.webp",
+      "enem-assets/official/2021/156/D.webp",
+      "enem-assets/official/2021/156/E.webp"
+    ],
+    "source": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "officialSource": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2021",
+    "answerSource": "https://s2.static.brasilescola.uol.com.br/enem/2021/12/gabarito-azul-d2.pdf",
+    "answerVerification": "references/enem-1000/originals/2021-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2021/156/statement.webp",
+      "source": "references/enem-1000/originals/2021-2-prova.pdf",
+      "page": 24,
+      "transcript": null
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2021/156/A.webp",
+        "text": null
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2021/156/B.webp",
+        "text": null
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2021/156/C.webp",
+        "text": "C  3 cos (2t)"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2021/156/D.webp",
+        "text": null
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2021/156/E.webp",
+        "text": "E  6 sen (2t)"
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2021-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2021-2-prova.pdf",
+      "statementSha256": "887b2a10ebb163f0c40db2ab4f67a5a4b5959ceb74ce7273466a755b8e55f540",
+      "layout": "single-column",
+      "answerSha256": "c78b77767c239fb93350f502f2f9f83bcadc7ae467d77b0a6cd887de8b5f4cc7",
+      "header": {
+        "number": 156,
+        "rect": [
+          31.18670082092285,
+          313.56640625,
+          90.65669250488281,
+          323.56640625
+        ],
+        "page": 24
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 671.4182739257812
+        },
+        {
+          "letter": "B",
+          "y": 685.9182739257812
+        },
+        {
+          "letter": "C",
+          "y": 700.4182739257812
+        },
+        {
+          "letter": "D",
+          "y": 714.9182739257812
+        },
+        {
+          "letter": "E",
+          "y": 729.4183959960938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2021/156/statement.webp",
+          "sha256": "fcc948b5e9e0a3a509b37a1b4389be259174bef6212875e4088b604c1690c6c8",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            312.56640625,
+            566.0,
+            671.4182739257812
+          ],
+          "role": "statement",
+          "width": 1086,
+          "height": 718
+        },
+        {
+          "file": "enem-assets/official/2021/156/A.webp",
+          "sha256": "de05286beb92142fc71f59d57f5e20af7bbf1874800b4c3ed1824dec13ca835d",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            671.4182739257812,
+            566.0,
+            685.9182739257812
+          ],
+          "role": "A",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2021/156/B.webp",
+          "sha256": "91a7750921ac34acdfb2d8c9af29b72702114b8522b3bcbf8e435cfde41d770a",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            685.9182739257812,
+            566.0,
+            700.4182739257812
+          ],
+          "role": "B",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2021/156/C.webp",
+          "sha256": "b960691d53d2a722ef3d9574e793720d255eec3abe9fb2df34ef1068838fe089",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            700.4182739257812,
+            566.0,
+            714.9182739257812
+          ],
+          "role": "C",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2021/156/D.webp",
+          "sha256": "63303a31172a1e454bcce9621a41a0ade69f36acc678bfeb9a1b52e0fb24f771",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            714.9182739257812,
+            566.0,
+            729.4183959960938
+          ],
+          "role": "D",
+          "width": 1086,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2021/156/E.webp",
+          "sha256": "f612eeb3794d401604ff9aaa6ea9cb5bc6c750cb83ef25e05a9ea64e94aeb2e5",
+          "page": 24,
+          "rect": [
+            23.18670082092285,
+            729.4183959960938,
+            566.0,
+            753.0
+          ],
+          "role": "E",
+          "width": 1086,
+          "height": 48
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2021/questions/156/details.json",
+    "contentFingerprint": "0440bbbc85aa6417dfbd9660774a51555e0110cdef3bde84183bfc5fb7313409",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "1bd0b4e55b69f7ece3e2e08337970543c12f47da742a11f7ee00ea5aeb296064"
+  }
+]

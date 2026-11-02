@@ -1,0 +1,4475 @@
+[
+  {
+    "id": "enem-2019-10",
+    "year": 2019,
+    "number": 10,
+    "area": "Linguagens",
+    "discipline": "Linguagens e Códigos",
+    "language": null,
+    "topic": "Linguagens e Códigos",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 10 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:10:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 10](enem-assets/official/2019/10/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/10/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/10/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/10/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/10/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/10/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2019/10/statement.webp",
+      "enem-assets/official/2019/10/A.webp",
+      "enem-assets/official/2019/10/B.webp",
+      "enem-assets/official/2019/10/C.webp",
+      "enem-assets/official/2019/10/D.webp",
+      "enem-assets/official/2019/10/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/10/statement.webp",
+      "source": "references/enem-1000/originals/2019-1-prova.pdf",
+      "page": 7,
+      "transcript": "Questão 10\t\nDisponível em: www.essl.pt. Acesso em: 9 maio 2019 (adaptado).\nEssa campanha se destaca pela maneira como utiliza a linguagem para conscientizar a sociedade da necessidade \nde se acabar com o bullying. Tal estratégia está centrada no(a)"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/10/A.webp",
+        "text": "A\t chamamento de diferentes atores sociais pelo uso recorrente de estruturas injuntivas."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/10/B.webp",
+        "text": "B\t variedade linguística caracterizadora do português europeu.iii"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/10/C.webp",
+        "text": "C\t restrição a um grupo específico de vítimas ao apresentar marcas gráficas de identificação de gênero como “o(a)”.i"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/10/D.webp",
+        "text": "D\t combinação do significado de palavras escritas em línguas inglesa e portuguesa."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/10/E.webp",
+        "text": "E\t enunciado de cunho esperançoso “passe à história” no título do cartaz."
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-1-prova.pdf",
+      "statementSha256": "63117da6cc5ccaffda1a44a401a63283b3e152e2d643b2b3a133ad15afa1e352",
+      "layout": "single-column",
+      "answerSha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "header": {
+        "number": 10,
+        "rect": [
+          29.281890869140625,
+          75.26284790039062,
+          91.64088439941406,
+          91.01484680175781
+        ],
+        "page": 7
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 431.292236328125
+        },
+        {
+          "letter": "B",
+          "y": 445.9268493652344
+        },
+        {
+          "letter": "C",
+          "y": 460.56146240234375
+        },
+        {
+          "letter": "D",
+          "y": 475.1961364746094
+        },
+        {
+          "letter": "E",
+          "y": 489.83074951171875
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/10/statement.webp",
+          "sha256": "3f1d98098634ee68a86d376788b7f95aae41c0023f8a92e3d3d0dfc0191de62f",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            74.26284790039062,
+            565.9290161132812,
+            432.292236328125
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 717
+        },
+        {
+          "file": "enem-assets/official/2019/10/A.webp",
+          "sha256": "50ca5769be3c6efea3ef42179418ccddefe385fa2a497eef2642d55ddf1610cd",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            432.292236328125,
+            565.9290161132812,
+            446.9268493652344
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/10/B.webp",
+          "sha256": "7489ee752977b3e5fe2b40eb616c0c04b8febd7097d3aad6939b4fcf3e3f64d4",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            446.9268493652344,
+            565.9290161132812,
+            461.56146240234375
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/10/C.webp",
+          "sha256": "483afbcc9e5f9fb4ff33289c33f8c56e9058651aff974426529f83d3c028ef71",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            461.56146240234375,
+            565.9290161132812,
+            476.1961364746094
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/10/D.webp",
+          "sha256": "da3ab3ff1ae6bce0a93d644786fd1a3aaf1f51ebff4e1213cdf112b58e3015eb",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            476.1961364746094,
+            565.9290161132812,
+            490.83074951171875
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/10/E.webp",
+          "sha256": "1c4c4ebb7b796e25c0ae03676cd43fbefe51496a359e567b06a52ace6bd70b28",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            490.83074951171875,
+            565.9290161132812,
+            509.1187438964844
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 38
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/10/details.json",
+    "contentFingerprint": "b59d68599699aec4200b2ec165eea68a165289ce2992a8f93c9b54ad463952ea",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "51736c33640fdb7ee0e836e91b5c4176344881eecee08b5f06db3e68957b8571"
+  },
+  {
+    "id": "enem-2019-11",
+    "year": 2019,
+    "number": 11,
+    "area": "Linguagens",
+    "discipline": "Linguagens e Códigos",
+    "language": null,
+    "topic": "Linguagens e Códigos",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 11 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:11:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 11](enem-assets/official/2019/11/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/11/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/11/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/11/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/11/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/11/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2019/11/statement.webp",
+      "enem-assets/official/2019/11/A.webp",
+      "enem-assets/official/2019/11/B.webp",
+      "enem-assets/official/2019/11/C.webp",
+      "enem-assets/official/2019/11/D.webp",
+      "enem-assets/official/2019/11/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/11/statement.webp",
+      "source": "references/enem-1000/originals/2019-1-prova.pdf",
+      "page": 7,
+      "transcript": "Questão 11\t\nEsporte e cultura: análise acerca da esportivização de práticas corporais nos jogos indígenas\nNos Jogos dos Povos Indígenas, observa-se que as práticas corporais realizadas envolvem elementos \ntradicionais (como as pinturas e adornos corporais) e modernos (como a regulamentação, a fiscalização e a \npadronização). O arco e flecha e a lança, por exemplo, são instrumentos tradicionalmente utilizados para a caça e a \ndefesa da comunidade na aldeia. Na ocasião do evento, esses artefatos foram produzidos pela própria etnia, porém \nsua estruturação como “modalidade esportiva” promoveu uma semelhança entre as técnicas apresentadas, com o \nsentido único da competição.\nALMEIDA, A. J. M.; SUASSUNA, D. M. F. A. Pensar a prática, n. 1, jan.-abr. 2010 (adaptado).\nA relação entre os elementos tradicionais e modernos nos Jogos dos Povos Indígenas desencadeou a"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/11/A.webp",
+        "text": "A\t padronização de pinturas e adornos corporais."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/11/B.webp",
+        "text": "B\t sobreposição de elementos tradicionais sobre os modernos."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/11/C.webp",
+        "text": "C\t individuação das técnicas apresentadas em diferentes modalidades."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/11/D.webp",
+        "text": "D\t legitimação das práticas corporais indígenas como modalidade esportiva.i"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/11/E.webp",
+        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 7\nE\t preservação dos significados próprios das práticas corporais em cada cultura."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-1-prova.pdf",
+      "statementSha256": "63117da6cc5ccaffda1a44a401a63283b3e152e2d643b2b3a133ad15afa1e352",
+      "layout": "single-column",
+      "answerSha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "header": {
+        "number": 11,
+        "rect": [
+          29.281890869140625,
+          510.1187438964844,
+          91.03587341308594,
+          525.8707275390625
+        ],
+        "page": 7
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 663.78515625
+        },
+        {
+          "letter": "B",
+          "y": 678.4197387695312
+        },
+        {
+          "letter": "C",
+          "y": 693.054443359375
+        },
+        {
+          "letter": "D",
+          "y": 707.6890258789062
+        },
+        {
+          "letter": "E",
+          "y": 722.5237426757812
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/11/statement.webp",
+          "sha256": "b917755eba22d1ebc3bccf2a037a13a2f61e8c8ec1651d4fe3212c43c92547b4",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            509.1187438964844,
+            565.9290161132812,
+            664.78515625
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 312
+        },
+        {
+          "file": "enem-assets/official/2019/11/A.webp",
+          "sha256": "4ffbad5f5b4c7c77f2e075ca45c9e32aed0096f5e2762c59b744eb069324b3c3",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            664.78515625,
+            565.9290161132812,
+            679.4197387695312
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/11/B.webp",
+          "sha256": "ee8d39ffbfd659737cd23e047936e1452b9d3d15ccf06c79503f311d923e3d98",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            679.4197387695312,
+            565.9290161132812,
+            694.054443359375
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/11/C.webp",
+          "sha256": "e72b9390410278af912ebf4eaf62bb85a10db4ff2b632b53957318f8f75b0305",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            694.054443359375,
+            565.9290161132812,
+            708.6890258789062
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/11/D.webp",
+          "sha256": "43ff09cec2bf422748f8d65003abd2f465490daccec6275e86c1b17ae796f864",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            708.6890258789062,
+            565.9290161132812,
+            723.5237426757812
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/11/E.webp",
+          "sha256": "4a1a84e8cd28b6b6ba97ffc51273b51b2b14bbe73fe3b9804ad18360c35b0cab",
+          "page": 7,
+          "rect": [
+            21.281890869140625,
+            723.5237426757812,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 59
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/11/details.json",
+    "contentFingerprint": "9be6ae25380d99274a9819c03321727bb28e15d2bc1d05e628908d69834b3e2b",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "c5b5894490d19b4c172f70849f4136ea9fe79454a831ea307db66a85b35c8da4"
+  },
+  {
+    "id": "enem-2019-26",
+    "year": 2019,
+    "number": 26,
+    "area": "Linguagens",
+    "discipline": "Linguagens e Códigos",
+    "language": null,
+    "topic": "Linguagens e Códigos",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 26 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:26:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 26](enem-assets/official/2019/26/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/26/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/26/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/26/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/26/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/26/E.webp)"
+    ],
+    "answer": 4,
+    "images": [
+      "enem-assets/official/2019/26/statement.webp",
+      "enem-assets/official/2019/26/A.webp",
+      "enem-assets/official/2019/26/B.webp",
+      "enem-assets/official/2019/26/C.webp",
+      "enem-assets/official/2019/26/D.webp",
+      "enem-assets/official/2019/26/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/26/statement.webp",
+      "source": "references/enem-1000/originals/2019-1-prova.pdf",
+      "page": 13,
+      "transcript": "Questão 26\t\nTEXTO I\nO Estatuto do Idoso completou 15 anos em 2018 e só no primeiro semestre o Disque 100 recebeu 16 mil \ndenúncias de violação de direitos dos idosos em todo o País.\nPara especialistas da área, o aumento no número de denúncias pode ser consequência do encorajamento dos \nmais velhos na busca pelos direitos. Mas também pode refletir uma onda crescente de violência na sociedade e \ndentro das próprias famílias.\nPolíticas públicas mais eficazes no atendimento ao idoso são o mínimo que um país deve estabelecer. O Brasil \nestá ficando para trás e é preciso levar em consideração que o País envelhece (tendência mundial) sem estar \npreparado para arcar com os desafios, como criar uma rede de proteção, preparar os serviços de saúde pública e \ndar suporte às famílias que precisam cuidar de seus idosos dependentes.\nDisponível em: www.folhadelondrina.com.br. Acesso em: 9 dez. 2018 (adaptado).\n TEXTO II\nDisponível em: www.brasil.gov.br. Acesso em: 9 dez. 2018.\nNa comparação entre os textos, conclui-se que as regras do Estatuto do Idoso"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/26/A.webp",
+        "text": "A\t apresentam vantagens em relação às de outros países."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/26/B.webp",
+        "text": "B\t são ignoradas pelas famílias responsáveis por idosos."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/26/C.webp",
+        "text": "C\t alteram a qualidade de vida das pessoas com mais de 60 anos."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/26/D.webp",
+        "text": "D\t precisam ser revistas em razão do envelhecimento da população."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/26/E.webp",
+        "text": "E\t contrastam com as condições de vida proporcionadas pelo País."
+      }
+    ],
+    "officialAnswer": "E",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-1-prova.pdf",
+      "statementSha256": "63117da6cc5ccaffda1a44a401a63283b3e152e2d643b2b3a133ad15afa1e352",
+      "layout": "single-column",
+      "answerSha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "header": {
+        "number": 26,
+        "rect": [
+          29.281890869140625,
+          75.76284790039062,
+          91.64088439941406,
+          91.51484680175781
+        ],
+        "page": 13
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 423.75994873046875
+        },
+        {
+          "letter": "B",
+          "y": 438.3945617675781
+        },
+        {
+          "letter": "C",
+          "y": 453.02923583984375
+        },
+        {
+          "letter": "D",
+          "y": 467.6638488769531
+        },
+        {
+          "letter": "E",
+          "y": 482.2985534667969
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/26/statement.webp",
+          "sha256": "12cf324020b8df621f581842f3fbb3f678d5f216518b2a99ce74e467e071b5a8",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            74.76284790039062,
+            565.9290161132812,
+            424.75994873046875
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 701
+        },
+        {
+          "file": "enem-assets/official/2019/26/A.webp",
+          "sha256": "0f75d759eec3e7c73b81bd0b4fd80af352f1c7e762f0100f81ac6262b55257d2",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            424.75994873046875,
+            565.9290161132812,
+            439.3945617675781
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/26/B.webp",
+          "sha256": "b35a389838dcbebd4109a5cffec71a455a43cc7df9abd4b3a8e35b7dbd0d3e32",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            439.3945617675781,
+            565.9290161132812,
+            454.02923583984375
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/26/C.webp",
+          "sha256": "19e0e6abbef1dcff14578b5cb9ce330d4a9a9094ee544d6c92710950ed843a83",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            454.02923583984375,
+            565.9290161132812,
+            468.6638488769531
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/26/D.webp",
+          "sha256": "2dca7a01df715886d2be7633687d398a016b7e33fe689580bc5dc0c5fc6e93c7",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            468.6638488769531,
+            565.9290161132812,
+            483.2985534667969
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/26/E.webp",
+          "sha256": "9255684a6db76376b96d2f30fcd69e052e93619ec065bee75ee06f5623d16e8c",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            483.2985534667969,
+            565.9290161132812,
+            501.5864562988281
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 38
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/26/details.json",
+    "contentFingerprint": "42b9645eddaf89010d8fc3a83a783a981f15210ca478db1c0f49aec56ee4a5c2",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "6ae2d82ba4ccd47b35ea268c28e4e181f3fed9535aef7ca96805b9ebe0d94d7e"
+  },
+  {
+    "id": "enem-2019-27",
+    "year": 2019,
+    "number": 27,
+    "area": "Linguagens",
+    "discipline": "Linguagens e Códigos",
+    "language": null,
+    "topic": "Linguagens e Códigos",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 27 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:27:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 27](enem-assets/official/2019/27/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/27/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/27/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/27/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/27/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/27/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2019/27/statement.webp",
+      "enem-assets/official/2019/27/A.webp",
+      "enem-assets/official/2019/27/B.webp",
+      "enem-assets/official/2019/27/C.webp",
+      "enem-assets/official/2019/27/D.webp",
+      "enem-assets/official/2019/27/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/27/statement.webp",
+      "source": "references/enem-1000/originals/2019-1-prova.pdf",
+      "page": 13,
+      "transcript": "Questão 27\t\nEducação para a saúde mediante programas de educação física escolar\nA educação para a saúde deverá ser alcançada mediante interação de ações que possam envolver o próprio \nhomem mediante suas atitudes frente às exigências ambientais representadas pelos hábitos alimentares, estado de \nestresse, opções de lazer, atividade física, agressões climáticas etc. Dessa forma, parece evidente que o estado de \nser saudável não é algo estático. Pelo contrário, torna-se necessário adquiri-lo e construí-lo de forma individualizada \nconstantemente ao longo de toda a vida, apontando para o fato de que saúde é educável e, portanto, deve ser \ntratada não apenas com base em referenciais de natureza biológica e higienista, mas sobretudo em um contexto \ndidático-pedagógico.\nGUEDES, D. P. Motriz, n. 1, 1999.\nA educação para a saúde pressupõe a adoção de comportamentos com base na interação de fatores relacionados à"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/27/A.webp",
+        "text": "A\t adesão a programas de lazer."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/27/B.webp",
+        "text": "B\t opção por dietas balanceadas."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/27/C.webp",
+        "text": "C\t constituição de hábitos saudáveis."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/27/D.webp",
+        "text": "D\t evasão de ambientes estressores."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/27/E.webp",
+        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 13\nE\t realização de atividades físicas regulares."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-1-prova.pdf",
+      "statementSha256": "63117da6cc5ccaffda1a44a401a63283b3e152e2d643b2b3a133ad15afa1e352",
+      "layout": "single-column",
+      "answerSha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "header": {
+        "number": 27,
+        "rect": [
+          29.281890869140625,
+          502.5864562988281,
+          91.64088439941406,
+          518.3384399414062
+        ],
+        "page": 13
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 662.383544921875
+        },
+        {
+          "letter": "B",
+          "y": 677.0181884765625
+        },
+        {
+          "letter": "C",
+          "y": 691.65283203125
+        },
+        {
+          "letter": "D",
+          "y": 706.2875366210938
+        },
+        {
+          "letter": "E",
+          "y": 721.1221313476562
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/27/statement.webp",
+          "sha256": "c9c16a97c68a3a749e5b803927133d1a51607ea159bab1d0b0b19f6984293fd8",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            501.5864562988281,
+            565.9290161132812,
+            663.383544921875
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 324
+        },
+        {
+          "file": "enem-assets/official/2019/27/A.webp",
+          "sha256": "074fb32912e3852df6e4d4f84104c44400aaaf6f4311481a9df60fc7a89cdb0d",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            663.383544921875,
+            565.9290161132812,
+            678.0181884765625
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/27/B.webp",
+          "sha256": "baf7d182e0e6287c7303447cd0ee4dff925ab70f61eaea60cde05d228311c911",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            678.0181884765625,
+            565.9290161132812,
+            692.65283203125
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/27/C.webp",
+          "sha256": "41cf7a4e89a706c69fcb3b7c62f7bf576a463ba2e97f57165cc5c8d8617c4216",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            692.65283203125,
+            565.9290161132812,
+            707.2875366210938
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/27/D.webp",
+          "sha256": "256ab4818dcf44f3db7f4a79e56ea6370e8d84cb377b5643fdce3726548f7fd8",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            707.2875366210938,
+            565.9290161132812,
+            722.1221313476562
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/27/E.webp",
+          "sha256": "fa9c0bf19fe828bccdfa29830969292b8298940ace80ce6fb94d09b8bc3d6d64",
+          "page": 13,
+          "rect": [
+            21.281890869140625,
+            722.1221313476562,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 62
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/27/details.json",
+    "contentFingerprint": "ac624aa61afd51746bbc3a34f4eb55586decf6dde4e8c6c28e5e5d1d5e277b2b",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "cf47bcf32257210232247ab9214151cc5f956683fa6838e6cbb612c0d4bd9a2f"
+  },
+  {
+    "id": "enem-2019-59",
+    "year": 2019,
+    "number": 59,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 59 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:59:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 59](enem-assets/official/2019/59/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/59/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/59/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/59/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/59/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/59/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2019/59/statement.webp",
+      "enem-assets/official/2019/59/A.webp",
+      "enem-assets/official/2019/59/B.webp",
+      "enem-assets/official/2019/59/C.webp",
+      "enem-assets/official/2019/59/D.webp",
+      "enem-assets/official/2019/59/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/59/statement.webp",
+      "source": "references/enem-1000/originals/2019-1-prova.pdf",
+      "page": 24,
+      "transcript": "Questão 59\t\nDisponível em: https://hypescience.com. Acesso em: 1 dez. 2018 (adaptado).\nA divisão política do mundo como apresentada na imagem seria possível caso o planeta fosse marcado \npela estabilidade do(a)"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/59/A.webp",
+        "text": "A\t ciclo hidrológico."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/59/B.webp",
+        "text": "B\t processo erosivo."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/59/C.webp",
+        "text": "C\t estrutura geológica."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/59/D.webp",
+        "text": "D\t índice pluviométrico."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/59/E.webp",
+        "text": "E\t pressão atmosférica."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-1-prova.pdf",
+      "statementSha256": "63117da6cc5ccaffda1a44a401a63283b3e152e2d643b2b3a133ad15afa1e352",
+      "layout": "single-column",
+      "answerSha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "header": {
+        "number": 59,
+        "rect": [
+          30.19689178466797,
+          75.76296997070312,
+          92.55587768554688,
+          91.51496887207031
+        ],
+        "page": 24
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 441.8300476074219
+        },
+        {
+          "letter": "B",
+          "y": 457.06463623046875
+        },
+        {
+          "letter": "C",
+          "y": 472.2993469238281
+        },
+        {
+          "letter": "D",
+          "y": 487.533935546875
+        },
+        {
+          "letter": "E",
+          "y": 502.7686462402344
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/59/statement.webp",
+          "sha256": "333fa513ef7f46e6c5b81c3d1534e31f4e26ec77fdd953e337495ed34835a152",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            74.76296997070312,
+            565.9290161132812,
+            442.8300476074219
+          ],
+          "role": "statement",
+          "width": 1088,
+          "height": 737
+        },
+        {
+          "file": "enem-assets/official/2019/59/A.webp",
+          "sha256": "62631f9032b4e118043a869773ecd2a078e3f4af1b8bf00dababcb5b1de10779",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            442.8300476074219,
+            565.9290161132812,
+            458.06463623046875
+          ],
+          "role": "A",
+          "width": 1088,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/59/B.webp",
+          "sha256": "f56e75ab83d43c02516a8f134ce285e5be1cd1d61a578ed9a703017f6210ab39",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            458.06463623046875,
+            565.9290161132812,
+            473.2993469238281
+          ],
+          "role": "B",
+          "width": 1088,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/59/C.webp",
+          "sha256": "6cb3b49d0ce13eccdf4331706b47d75278429f5113f55f2a0ae7f2e70b4ed776",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            473.2993469238281,
+            565.9290161132812,
+            488.533935546875
+          ],
+          "role": "C",
+          "width": 1088,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/59/D.webp",
+          "sha256": "ce687c0ae7af47cb02b0df42240b88ee83d4c47d608b660fec7a3a9df54d423e",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            488.533935546875,
+            565.9290161132812,
+            503.7686462402344
+          ],
+          "role": "D",
+          "width": 1088,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/59/E.webp",
+          "sha256": "7acb484f1f2b5142bcd839c628e6ecd78eb2418ed07ef6c9c042fe6fe861fc5a",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            503.7686462402344,
+            565.9290161132812,
+            522.6565551757812
+          ],
+          "role": "E",
+          "width": 1088,
+          "height": 39
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/59/details.json",
+    "contentFingerprint": "146c8dc8c5b3b61a393ec25c0586ddd9096028399399e7b8b30e1f750d8b14f2",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "5e041dfb5c07773f59cf283b0c280375126dda2c44d3e42aa1cfdf2e1c9443e0"
+  },
+  {
+    "id": "enem-2019-60",
+    "year": 2019,
+    "number": 60,
+    "area": "Humanas",
+    "discipline": "Ciências Humanas",
+    "language": null,
+    "topic": "Ciências Humanas",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 60 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 1,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:60:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 60](enem-assets/official/2019/60/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/60/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/60/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/60/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/60/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/60/E.webp)"
+    ],
+    "answer": 4,
+    "images": [
+      "enem-assets/official/2019/60/statement.webp",
+      "enem-assets/official/2019/60/A.webp",
+      "enem-assets/official/2019/60/B.webp",
+      "enem-assets/official/2019/60/C.webp",
+      "enem-assets/official/2019/60/D.webp",
+      "enem-assets/official/2019/60/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D1_CD1.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_1_dia_caderno_1_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-1-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/60/statement.webp",
+      "source": "references/enem-1000/originals/2019-1-prova.pdf",
+      "page": 24,
+      "transcript": "Questão 60\t\nA cidade medieval é, antes de mais nada, uma sociedade da abundância, concentrada num pequeno espaço \nem meio a vastas regiões pouco povoadas. Em seguida, é um lugar de produção e de trocas, onde se articulam \no artesanato e o comércio, sustentados por uma economia monetária. É também o centro de um sistema de \nvalores particular, do qual emerge a prática laboriosa e criativa do trabalho, o gosto pelo negócio e pelo dinheiro, \na inclinação para o luxo, o senso da beleza. É ainda um sistema de organização de um espaço fechado \ncom muralhas, onde se penetra por portas e se caminha por ruas e praças e que é guarnecido por torres.\nLE GOFF, J.; SCHMITT, J.-C. Dicionário temático do Ocidente Medieval. Bauru: Edusc, 2006.\nNo texto, o espaço descrito se caracteriza pela associação entre a ampliação das atividades urbanas e a"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/60/A.webp",
+        "text": "A\t emancipação do poder hegemônico da realeza."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/60/B.webp",
+        "text": "B\t aceitação das práticas usurárias dos religiosos."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/60/C.webp",
+        "text": "C\t independência da produção alimentar dos campos."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/60/D.webp",
+        "text": "D\t superação do ordenamento corporativo dos ofícios."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/60/E.webp",
+        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 24\nE\t permanência dos elementos arquitetônicos de proteção."
+      }
+    ],
+    "officialAnswer": "E",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-1-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-1-prova.pdf",
+      "statementSha256": "63117da6cc5ccaffda1a44a401a63283b3e152e2d643b2b3a133ad15afa1e352",
+      "layout": "single-column",
+      "answerSha256": "64acd7f272276858a7baa0e5d1194c71964483afe3a258b240f535f9edb2afdc",
+      "header": {
+        "number": 60,
+        "rect": [
+          30.19689178466797,
+          523.6565551757812,
+          92.55587768554688,
+          539.4085693359375
+        ],
+        "page": 24
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 662.4189453125
+        },
+        {
+          "letter": "B",
+          "y": 677.6536254882812
+        },
+        {
+          "letter": "C",
+          "y": 692.8882446289062
+        },
+        {
+          "letter": "D",
+          "y": 708.1229248046875
+        },
+        {
+          "letter": "E",
+          "y": 723.3575439453125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/60/statement.webp",
+          "sha256": "a5246e08f8ff655364a29d7b039bfdebd534bcb20fd04aeab21db9adc7bc4108",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            522.6565551757812,
+            565.9290161132812,
+            663.4189453125
+          ],
+          "role": "statement",
+          "width": 1088,
+          "height": 282
+        },
+        {
+          "file": "enem-assets/official/2019/60/A.webp",
+          "sha256": "b7d2b2c8746add0bb26103b54ce8c2769c438161e288b3ae9e833fcf66c03097",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            663.4189453125,
+            565.9290161132812,
+            678.6536254882812
+          ],
+          "role": "A",
+          "width": 1088,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/60/B.webp",
+          "sha256": "19fb1f0affd34b0eea010e0a469ccb18c846347fb1b20e31ffafcb23108e923f",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            678.6536254882812,
+            565.9290161132812,
+            693.8882446289062
+          ],
+          "role": "B",
+          "width": 1088,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/60/C.webp",
+          "sha256": "730292b8e6d445502330583f89f5ce8cd2e922bdfd6f2a0a2c5656a39b779664",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            693.8882446289062,
+            565.9290161132812,
+            709.1229248046875
+          ],
+          "role": "C",
+          "width": 1088,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/60/D.webp",
+          "sha256": "100cd3ca2d812a97f0c22d29d1aae2efc139c27ab2bdcb0bf347577e9dcc643a",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            709.1229248046875,
+            565.9290161132812,
+            724.3575439453125
+          ],
+          "role": "D",
+          "width": 1088,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/60/E.webp",
+          "sha256": "6bd9e27a7a209221974b1289d09e769ef1f7ec6858bd938467e5d2b2dff33d82",
+          "page": 24,
+          "rect": [
+            22.19689178466797,
+            724.3575439453125,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1088,
+          "height": 58
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/60/details.json",
+    "contentFingerprint": "5b45096cf6a4a727da4a11393f797634fdf397115398f07c8c2dd370fca18d71",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "e8a8db09ea50bc03137cc58e778398f2b81fa093fbe7885df2062f05fd89678c"
+  },
+  {
+    "id": "enem-2019-94",
+    "year": 2019,
+    "number": 94,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 94 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:94:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 94](enem-assets/official/2019/94/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/94/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/94/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/94/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/94/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/94/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2019/94/statement.webp",
+      "enem-assets/official/2019/94/A.webp",
+      "enem-assets/official/2019/94/B.webp",
+      "enem-assets/official/2019/94/C.webp",
+      "enem-assets/official/2019/94/D.webp",
+      "enem-assets/official/2019/94/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/94/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 3,
+      "transcript": "Questão 94\t\nEm 1962, um jingle (vinheta musical) criado por Heitor Carillo fez tanto sucesso que extrapolou as fronteiras do \nrádio e chegou à televisão ilustrado por um desenho animado. Nele, uma pessoa respondia ao fantasma que batia \nem sua porta, personificando o “frio”, que não o deixaria entrar, pois não abriria a porta e compraria lãs e cobertores \npara aquecer sua casa. Apesar de memorável, tal comercial televisivo continha incorreções a respeito de conceitos \nfísicos relativos à calorimetria.\nDUARTE, M. Jingle é a alma do negócio: livro revela os bastidores das músicas de propagandas. \nDisponível em: https://guiadoscuriosos.uol.com.br. Acesso em: 24 abr. 2019 (adaptado).\nPara solucionar essas incorreções, deve-se associar à porta e aos cobertores, respectivamente, as funções de:"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/94/A.webp",
+        "text": "A\t Aquecer a casa e os corpos."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/94/B.webp",
+        "text": "B\t Evitar a entrada do frio na casa e nos corpos."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/94/C.webp",
+        "text": "C\t Minimizar a perda de calor pela casa e pelos corpos."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/94/D.webp",
+        "text": "D\t Diminuir a entrada do frio na casa e aquecer os corpos."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/94/E.webp",
+        "text": "E\t Aquecer a casa e reduzir a perda de calor pelos corpos."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 94,
+        "rect": [
+          29.28190040588379,
+          75.76284790039062,
+          91.6408920288086,
+          91.51484680175781
+        ],
+        "page": 3
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 185.38674926757812
+        },
+        {
+          "letter": "B",
+          "y": 198.42129516601562
+        },
+        {
+          "letter": "C",
+          "y": 211.45602416992188
+        },
+        {
+          "letter": "D",
+          "y": 224.49063110351562
+        },
+        {
+          "letter": "E",
+          "y": 237.52523803710938
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/94/statement.webp",
+          "sha256": "b5876e4fca8a7088b2f217d528c2dd2e42178f1a6325fcbff66945bb576b26a0",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            74.76284790039062,
+            565.9290161132812,
+            186.38674926757812
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 224
+        },
+        {
+          "file": "enem-assets/official/2019/94/A.webp",
+          "sha256": "e59e6e384614f2af3f47c2eb9fe939b3ba381beec68d26a5d7e2ddd4e9337fe9",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            186.38674926757812,
+            565.9290161132812,
+            199.42129516601562
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2019/94/B.webp",
+          "sha256": "a7c419b4a729e29f9579991f06a3ad13fbb696a7f68d665e6d1cf8838f4598cf",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            199.42129516601562,
+            565.9290161132812,
+            212.45602416992188
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2019/94/C.webp",
+          "sha256": "51ba2b07bb7fff69aca0aaa008de324fbfe93734e32458a44df2bc032be2681c",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            212.45602416992188,
+            565.9290161132812,
+            225.49063110351562
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 27
+        },
+        {
+          "file": "enem-assets/official/2019/94/D.webp",
+          "sha256": "e99edb2ccebf6800bd0a3948128d245c7a4919519184bc3927e51b1509278627",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            225.49063110351562,
+            565.9290161132812,
+            238.52523803710938
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 28
+        },
+        {
+          "file": "enem-assets/official/2019/94/E.webp",
+          "sha256": "4759820e2d2418e29e0fa02409298aa62d5bdf69bef33c04b64073a5345ed4f5",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            238.52523803710938,
+            565.9290161132812,
+            254.21322631835938
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 32
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/94/details.json",
+    "contentFingerprint": "4c31fa37d7375a12ca1c802c12c60cf0550a6038c705e17b46a17389e604d79c",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "3dd03538d0885bacaf996d9e21d6d7b41a4b80771980f549436035337d0d74dd"
+  },
+  {
+    "id": "enem-2019-95",
+    "year": 2019,
+    "number": 95,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 95 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:95:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 95](enem-assets/official/2019/95/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/95/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/95/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/95/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/95/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/95/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2019/95/statement.webp",
+      "enem-assets/official/2019/95/A.webp",
+      "enem-assets/official/2019/95/B.webp",
+      "enem-assets/official/2019/95/C.webp",
+      "enem-assets/official/2019/95/D.webp",
+      "enem-assets/official/2019/95/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/95/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 3,
+      "transcript": "Questão 95\t\nGlicólise é um processo que ocorre nas células, convertendo glicose em piruvato. Durante a prática de exercícios \nfísicos que demandam grande quantidade de esforço, a glicose é completamente oxidada na presença de O2. \nEntretanto, em alguns casos, as células musculares podem sofrer um déficit de O2 e a glicose ser convertida em \nduas moléculas de ácido lático. As equações termoquímicas para a combustão da glicose e do ácido lático são, \nrespectivamente, mostradas a seguir:\nC6H12O6 (s) + 6 O2 (g) → 6 CO2 (g) + 6 H2O (l)      ∆cH = −2 800 kJ\nCH3CH(OH)COOH (s) + 3 O2 (g) → 3 CO2 (g) + 3 H2O (l)      ∆cH = −1 344 kJ\nO processo anaeróbico é menos vantajoso energeticamente porque"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/95/A.webp",
+        "text": "A\t libera 112 kJ por mol de glicose."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/95/B.webp",
+        "text": "B\t libera 467 kJ por mol de glicose."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/95/C.webp",
+        "text": "C\t libera 2 688 kJ por mol de glicose."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/95/D.webp",
+        "text": "D\t absorve 1 344 kJ por mol de glicose."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/95/E.webp",
+        "text": "E\t absorve 2 800 kJ por mol de glicose."
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 95,
+        "rect": [
+          29.28190040588379,
+          255.21322631835938,
+          91.6408920288086,
+          270.9652099609375
+        ],
+        "page": 3
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 381.8717346191406
+        },
+        {
+          "letter": "B",
+          "y": 394.30633544921875
+        },
+        {
+          "letter": "C",
+          "y": 406.74102783203125
+        },
+        {
+          "letter": "D",
+          "y": 419.1756286621094
+        },
+        {
+          "letter": "E",
+          "y": 431.6103210449219
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/95/statement.webp",
+          "sha256": "2148dca3d660669ba5dea6752fb766d3d680fe2abb457ab70ff3b6c27717b13e",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            254.21322631835938,
+            565.9290161132812,
+            382.8717346191406
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 258
+        },
+        {
+          "file": "enem-assets/official/2019/95/A.webp",
+          "sha256": "059cdb973b06b21c6f7de0e8f6b9dd0359a04712aa88e50941d65c5622726666",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            382.8717346191406,
+            565.9290161132812,
+            395.30633544921875
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2019/95/B.webp",
+          "sha256": "d7054885242b71700aec23582a59fed4aad04e2ca1f70b3108e6281d3ddc1b46",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            395.30633544921875,
+            565.9290161132812,
+            407.74102783203125
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2019/95/C.webp",
+          "sha256": "77c28583e139b6777cdb32f85861053ae1827af0e8c7bec34cb96773048fc125",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            407.74102783203125,
+            565.9290161132812,
+            420.1756286621094
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2019/95/D.webp",
+          "sha256": "bebc2ecd47421ef24553a416d950661a76afd75de306971c52b8938373da3285",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            420.1756286621094,
+            565.9290161132812,
+            432.6103210449219
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2019/95/E.webp",
+          "sha256": "a1bbe4d3d252b7f1886f57a9b737178eb1587519499774b505a7c56814d083a0",
+          "page": 3,
+          "rect": [
+            21.28190040588379,
+            432.6103210449219,
+            565.9290161132812,
+            448.8982238769531
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 33
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/95/details.json",
+    "contentFingerprint": "322f89d2f2da917ae511dc72e48448773d74849615fb07ee30b258698b8aad38",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "934b86e6a39c6dbb190ef51a574723ec90173e62ed902daf301c565b8c10803b"
+  },
+  {
+    "id": "enem-2019-96",
+    "year": 2019,
+    "number": 96,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 96 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:96:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 96](enem-assets/official/2019/96/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/96/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/96/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/96/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/96/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/96/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2019/96/statement.webp",
+      "enem-assets/official/2019/96/A.webp",
+      "enem-assets/official/2019/96/B.webp",
+      "enem-assets/official/2019/96/C.webp",
+      "enem-assets/official/2019/96/D.webp",
+      "enem-assets/official/2019/96/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/96/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 3,
+      "transcript": "Questão 96\t\nNo quadro estão apresentadas informações sobre duas estratégias de sobrevivência que podem ser adotadas \npor algumas espécies de seres vivos.\nEstratégia 1\nEstratégia 2\nHábitat\nMais instável e imprevisível \nMais estável e previsível \nPotencial biótico \nMuito elevado \nBaixo \nDuração da vida\nCurta e com reprodução precoce \nLonga e com reprodução tardia \nDescendentes\nMuitos e com tamanho corporal pequeno \nPoucos e com tamanho corporal maior \nTamanho populacional\nVariável \nConstante \nNa recuperação de uma área desmatada deveriam ser reintroduzidas primeiramente as espécies que adotam qual \nestratégia?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/96/A.webp",
+        "text": "A\t Estratégia 1, pois essas espécies produzem descendentes pequenos, o que diminui a competição com outras \nespécies."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/96/B.webp",
+        "text": "B\t Estratégia 2, pois essas espécies têm uma longa duração da vida, o que favorece a produção de muitos \ndescendentes."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/96/C.webp",
+        "text": "C\t Estratégia 1, pois essas espécies apresentam um elevado potencial biótico, o que facilita a rápida recolonização \nda área desmatada."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/96/D.webp",
+        "text": "D\t Estratégia 2, pois essas espécies estão adaptadas a hábitats mais estáveis, o que corresponde ao ambiente de \numa área desmatada."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/96/E.webp",
+        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 3\nE\t Estratégia 2, pois essas espécies apresentam um tamanho populacional constante, o que propicia uma \nrecolonização mais estável da área desmatada."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 96,
+        "rect": [
+          29.281999588012695,
+          449.8982238769531,
+          91.6409912109375,
+          465.65020751953125
+        ],
+        "page": 3
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 624.7307739257812
+        },
+        {
+          "letter": "B",
+          "y": 647.1654052734375
+        },
+        {
+          "letter": "C",
+          "y": 669.5999755859375
+        },
+        {
+          "letter": "D",
+          "y": 692.0346069335938
+        },
+        {
+          "letter": "E",
+          "y": 714.4692993164062
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/96/statement.webp",
+          "sha256": "175e39a019ed75f3cd717008fe627027fde7bbd9f1c0fced5664bdd5da6bda8e",
+          "page": 3,
+          "rect": [
+            21.281999588012695,
+            448.8982238769531,
+            565.9290161132812,
+            625.7307739257812
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 355
+        },
+        {
+          "file": "enem-assets/official/2019/96/A.webp",
+          "sha256": "2c25bf35f0c4af6d6f6437d1e31e3fce6684639db4dcc31f0178097dcfae77cf",
+          "page": 3,
+          "rect": [
+            21.281999588012695,
+            625.7307739257812,
+            565.9290161132812,
+            648.1654052734375
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 46
+        },
+        {
+          "file": "enem-assets/official/2019/96/B.webp",
+          "sha256": "f63af6031838890693fb298ffbb227093773d19767b3f3e043ea13d797df8d01",
+          "page": 3,
+          "rect": [
+            21.281999588012695,
+            648.1654052734375,
+            565.9290161132812,
+            670.5999755859375
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 46
+        },
+        {
+          "file": "enem-assets/official/2019/96/C.webp",
+          "sha256": "63a5542edcee7c4f57189f79a13b70478a4c52f37a410e771db1bb40cc4634f3",
+          "page": 3,
+          "rect": [
+            21.281999588012695,
+            670.5999755859375,
+            565.9290161132812,
+            693.0346069335938
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 46
+        },
+        {
+          "file": "enem-assets/official/2019/96/D.webp",
+          "sha256": "2c9fcbdf1214e6c4b3db7da2709e63de26bbed775392ed5a56c334c2c9390733",
+          "page": 3,
+          "rect": [
+            21.281999588012695,
+            693.0346069335938,
+            565.9290161132812,
+            715.4692993164062
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 45
+        },
+        {
+          "file": "enem-assets/official/2019/96/E.webp",
+          "sha256": "39e1fc36a783dc7bc060877ac8d531b05f448fef2454dfcd8580026999cd04be",
+          "page": 3,
+          "rect": [
+            21.281999588012695,
+            715.4692993164062,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 76
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/96/details.json",
+    "contentFingerprint": "a4b25f2e8e90e9a31597b99ddfc4ed834f66e74e333ff690a4194db707af3df2",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "36d213ab4e150ff8328d981f5a9ac18dbe134adabaad442e2ac2a1d0708b14e3"
+  },
+  {
+    "id": "enem-2019-110",
+    "year": 2019,
+    "number": 110,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 110 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:110:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 110](enem-assets/official/2019/110/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/110/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/110/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/110/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/110/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/110/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2019/110/statement.webp",
+      "enem-assets/official/2019/110/A.webp",
+      "enem-assets/official/2019/110/B.webp",
+      "enem-assets/official/2019/110/C.webp",
+      "enem-assets/official/2019/110/D.webp",
+      "enem-assets/official/2019/110/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/110/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 8,
+      "transcript": "Questão 110\t\nCom base nos experimentos de plantas de Mendel, foram estabelecidos três princípios básicos, que são \nconhecidos como leis da uniformidade, segregação e distribuição independente. A lei da distribuição independente \nrefere-se ao fato de que os membros de pares diferentes de genes segregam-se independentemente, uns dos \noutros, para a prole.\nTURNPENNY, P. D. Genética médica. Rio de Janeiro: Elsevier, 2009 (adaptado).\nHoje, sabe-se que isso nem sempre é verdade. Por quê?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/110/A.webp",
+        "text": "A\t A distribuição depende do caráter de dominância ou recessividade do gene."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/110/B.webp",
+        "text": "B\t Os organismos nem sempre herdam cada um dos genes de cada um dos genitores."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/110/C.webp",
+        "text": "C\t As alterações cromossômicas podem levar a falhas na segregação durante a meiose.i"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/110/D.webp",
+        "text": "D\t Os genes localizados fisicamente próximos no mesmo cromossomo tendem a ser herdados juntos."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/110/E.webp",
+        "text": "E\t O cromossomo que contém dois determinados genes pode não sofrer a disjunção na primeira fase da meiose."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 110,
+        "rect": [
+          29.7637996673584,
+          75.76284790039062,
+          97.6337890625,
+          91.51484680175781
+        ],
+        "page": 8
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 180.02133178710938
+        },
+        {
+          "letter": "B",
+          "y": 194.85604858398438
+        },
+        {
+          "letter": "C",
+          "y": 209.69064331054688
+        },
+        {
+          "letter": "D",
+          "y": 224.52523803710938
+        },
+        {
+          "letter": "E",
+          "y": 239.75991821289062
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/110/statement.webp",
+          "sha256": "ee2cf95ae55a8c52f6b0263e564d900f4afbeb3db7fc4d973ca3683260e2c9da",
+          "page": 8,
+          "rect": [
+            21.7637996673584,
+            74.76284790039062,
+            565.9290161132812,
+            181.02133178710938
+          ],
+          "role": "statement",
+          "width": 1089,
+          "height": 214
+        },
+        {
+          "file": "enem-assets/official/2019/110/A.webp",
+          "sha256": "cb2f03616d9e9126298a0c7b24c3f827e45d749adc198fcb8409bb4dd2b2f53e",
+          "page": 8,
+          "rect": [
+            21.7637996673584,
+            181.02133178710938,
+            565.9290161132812,
+            195.85604858398438
+          ],
+          "role": "A",
+          "width": 1089,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/110/B.webp",
+          "sha256": "8e8662b5bd07d7e83a68f8d907ae16a5e13071fa7ccc199e8835ab8d4e9739d5",
+          "page": 8,
+          "rect": [
+            21.7637996673584,
+            195.85604858398438,
+            565.9290161132812,
+            210.69064331054688
+          ],
+          "role": "B",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/110/C.webp",
+          "sha256": "7cccec0b271428a5c0842ceb99f44dd95a2c3676341721dfddd1563c84e333d6",
+          "page": 8,
+          "rect": [
+            21.7637996673584,
+            210.69064331054688,
+            565.9290161132812,
+            225.52523803710938
+          ],
+          "role": "C",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/110/D.webp",
+          "sha256": "f81710e6ec43c355b08912e13a4577f616ea4ed44d6e8080b13a45ce8ff59e62",
+          "page": 8,
+          "rect": [
+            21.7637996673584,
+            225.52523803710938,
+            565.9290161132812,
+            240.75991821289062
+          ],
+          "role": "D",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/110/E.webp",
+          "sha256": "395d0dc30c336eda1d8da7e2929019ba58bcf3e8b41775b4b230f2f0859df051",
+          "page": 8,
+          "rect": [
+            21.7637996673584,
+            240.75991821289062,
+            565.9290161132812,
+            259.247802734375
+          ],
+          "role": "E",
+          "width": 1089,
+          "height": 38
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/110/details.json",
+    "contentFingerprint": "3c1a221ea0c9d088aa503215f3c6abff021969ec57ffe245bff1a7dfe7672c05",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "b600fe9c2c7294e11136b95cefed54317e7338de21439702c5af3432789aff9b"
+  },
+  {
+    "id": "enem-2019-111",
+    "year": 2019,
+    "number": 111,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 111 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:111:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 111](enem-assets/official/2019/111/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/111/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/111/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/111/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/111/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/111/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2019/111/statement.webp",
+      "enem-assets/official/2019/111/A.webp",
+      "enem-assets/official/2019/111/B.webp",
+      "enem-assets/official/2019/111/C.webp",
+      "enem-assets/official/2019/111/D.webp",
+      "enem-assets/official/2019/111/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/111/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 8,
+      "transcript": "Questão 111\t\nEm qualquer obra de construção civil é fundamental a utilização de equipamentos de proteção individual, \ntal como capacetes. Por exemplo, a queda livre de um tijolo de massa 2,5 kg de uma altura de 5 m, cujo impacto \ncontra um capacete pode durar até 0,5 s, resulta em uma força impulsiva média maior do que o peso do tijolo. \nSuponha que a aceleração gravitacional seja 10 m s−2 e que o efeito de resistência do ar seja desprezível.\nA força impulsiva média gerada por esse impacto equivale ao peso de quantos tijolos iguais?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/111/A.webp",
+        "text": "A\t 2"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/111/B.webp",
+        "text": "B\t 5"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/111/C.webp",
+        "text": "C\t 10"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/111/D.webp",
+        "text": "D\t 20"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/111/E.webp",
+        "text": "E\t 50"
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 111,
+        "rect": [
+          29.763900756835938,
+          260.247802734375,
+          97.02888488769531,
+          275.9997863769531
+        ],
+        "page": 8
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 354.90643310546875
+        },
+        {
+          "letter": "B",
+          "y": 369.74102783203125
+        },
+        {
+          "letter": "C",
+          "y": 384.5757141113281
+        },
+        {
+          "letter": "D",
+          "y": 399.4103088378906
+        },
+        {
+          "letter": "E",
+          "y": 414.24493408203125
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/111/statement.webp",
+          "sha256": "43650823eb61bb524e4b0dc18588ed3eb734e21165a4bbd61026f04347a06052",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            259.247802734375,
+            565.9290161132812,
+            355.90643310546875
+          ],
+          "role": "statement",
+          "width": 1089,
+          "height": 194
+        },
+        {
+          "file": "enem-assets/official/2019/111/A.webp",
+          "sha256": "acf7cf8935caabe090697dc33dd5521b99691078707e94e89d8edb5128773c5e",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            355.90643310546875,
+            565.9290161132812,
+            370.74102783203125
+          ],
+          "role": "A",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/111/B.webp",
+          "sha256": "6f84d376f365cbe7fff417e2b7209287824f3e5d665ff263a96ba529614f2cdc",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            370.74102783203125,
+            565.9290161132812,
+            385.5757141113281
+          ],
+          "role": "B",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/111/C.webp",
+          "sha256": "37ff8093dea5fc010ca045ce507bc1be0e4b67fa0759a181e679803d683bab13",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            385.5757141113281,
+            565.9290161132812,
+            400.4103088378906
+          ],
+          "role": "C",
+          "width": 1089,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/111/D.webp",
+          "sha256": "43baeb75e74c969de47c323a6bdb5f0868b180ccf7c5eb8bcb6361080b017c36",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            400.4103088378906,
+            565.9290161132812,
+            415.24493408203125
+          ],
+          "role": "D",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/111/E.webp",
+          "sha256": "14f636174b48d9a5d3c40a5e27314edb0fbb1b1603ed502ade9ba20fa646872a",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            415.24493408203125,
+            565.9290161132812,
+            433.73291015625
+          ],
+          "role": "E",
+          "width": 1089,
+          "height": 38
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/111/details.json",
+    "contentFingerprint": "6b36e5686e00f1e78fe7627b14ad85f2b3b276360d6443d8c915a41d150c0c6c",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "70a08163fac170608c34647d67bdb36a54e04abf261be3211a4f84dd47b524b0"
+  },
+  {
+    "id": "enem-2019-112",
+    "year": 2019,
+    "number": 112,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 112 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:112:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 112](enem-assets/official/2019/112/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/112/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/112/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/112/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/112/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/112/E.webp)"
+    ],
+    "answer": 3,
+    "images": [
+      "enem-assets/official/2019/112/statement.webp",
+      "enem-assets/official/2019/112/A.webp",
+      "enem-assets/official/2019/112/B.webp",
+      "enem-assets/official/2019/112/C.webp",
+      "enem-assets/official/2019/112/D.webp",
+      "enem-assets/official/2019/112/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/112/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 8,
+      "transcript": "Questão 112\t\nOs hidrocarbonetos são moléculas orgânicas com uma série de aplicações industriais. Por exemplo, eles estão \npresentes em grande quantidade nas diversas frações do petróleo e normalmente são separados por destilação \nfracionada, com base em suas temperaturas de ebulição. O quadro apresenta as principais frações obtidas na \ndestilação do petróleo em diferentes faixas de temperaturas.\nFração\nFaixa de \ntemperatura (°C)\nExemplos de produto(s)\nNúmero de átomos de carbono \n(hidrocarboneto de fórmula geral CnH2n+2)\n1 \nAté 20 \nGás natural e gás de cozinha (GLP) \nC1 a C4 \n2 \n30 a 180 \nGasolina \nC6 a C12 \n3 \n170 a 290 \nQuerosene \nC11 a C16 \n4 \n260 a 350 \nÓleo diesel \nC14 a C18 \nSANTA MARIA, L. C. et al. Petróleo: um tema para o ensino de química. Química Nova na Escola, n. 15, maio 2002 (adaptado).\nNa fração 4, a separação dos compostos ocorre em temperaturas mais elevadas porque"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/112/A.webp",
+        "text": "A\t suas densidades são maiores.i"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/112/B.webp",
+        "text": "B\t o número de ramificações é maior."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/112/C.webp",
+        "text": "C\t sua solubilidade no petróleo é maior."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/112/D.webp",
+        "text": "D\t as forças intermoleculares são mais intensas."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/112/E.webp",
+        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 8\nE\t a cadeia carbônica é mais difícil de ser quebrada."
+      }
+    ],
+    "officialAnswer": "D",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 112,
+        "rect": [
+          29.763900756835938,
+          434.73291015625,
+          97.6338882446289,
+          450.4848937988281
+        ],
+        "page": 8
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 663.9417724609375
+        },
+        {
+          "letter": "B",
+          "y": 678.7763671875
+        },
+        {
+          "letter": "C",
+          "y": 693.611083984375
+        },
+        {
+          "letter": "D",
+          "y": 708.4456787109375
+        },
+        {
+          "letter": "E",
+          "y": 723.6802978515625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/112/statement.webp",
+          "sha256": "5d199f908745622ca7641e04167080e4136dbbc739e7443795eda67c09091bf6",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            433.73291015625,
+            565.9290161132812,
+            664.9417724609375
+          ],
+          "role": "statement",
+          "width": 1089,
+          "height": 463
+        },
+        {
+          "file": "enem-assets/official/2019/112/A.webp",
+          "sha256": "f21ffc6a17059536eb6edf06a04b11e0c3efa1e6d8fc3e01c1a2a6a9e6c694db",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            664.9417724609375,
+            565.9290161132812,
+            679.7763671875
+          ],
+          "role": "A",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/112/B.webp",
+          "sha256": "c0a5ed79025ee13597f8ada7fa3b234bef4fe4a20e1fb17f9a1458a85d2550d5",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            679.7763671875,
+            565.9290161132812,
+            694.611083984375
+          ],
+          "role": "B",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/112/C.webp",
+          "sha256": "247ed06204c95d70e4313ca537cfc8b75722235de1cabade9b9faad1513c1ab4",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            694.611083984375,
+            565.9290161132812,
+            709.4456787109375
+          ],
+          "role": "C",
+          "width": 1089,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/112/D.webp",
+          "sha256": "59007e6bbd4f1df4409bfefce5894e0a4759ad207624554aefb5302db8158fce",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            709.4456787109375,
+            565.9290161132812,
+            724.6802978515625
+          ],
+          "role": "D",
+          "width": 1089,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/112/E.webp",
+          "sha256": "73dd5d08dd6b0dd3be3f32d46fd7893f422c69d0536046b044fcce60a6ba6b22",
+          "page": 8,
+          "rect": [
+            21.763900756835938,
+            724.6802978515625,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1089,
+          "height": 57
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/112/details.json",
+    "contentFingerprint": "835ec0557c94e025a73d09f65dd2aa0dc9f8dc094262cba2d1cc07e85f768b46",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "1e7a24e272b59695c6ff34ac0beab87c5f711df1953738d1ec5215bc24117fc0"
+  },
+  {
+    "id": "enem-2019-119",
+    "year": 2019,
+    "number": 119,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 119 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:119:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 119](enem-assets/official/2019/119/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/119/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/119/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/119/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/119/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/119/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2019/119/statement.webp",
+      "enem-assets/official/2019/119/A.webp",
+      "enem-assets/official/2019/119/B.webp",
+      "enem-assets/official/2019/119/C.webp",
+      "enem-assets/official/2019/119/D.webp",
+      "enem-assets/official/2019/119/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/119/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 11,
+      "transcript": "Questão 119\t\nDois amigos se encontram em um posto de gasolina para calibrar os pneus de suas bicicletas. \nUma das bicicletas é de corrida (bicicleta A) e a outra, de passeio (bicicleta B). Os pneus de ambas as bicicletas \ntêm as mesmas características, exceto que a largura dos pneus de A é menor que a largura dos pneus de B. \nAo calibrarem os pneus das bicicletas A e B, respectivamente com pressões de calibração pA e pB, os amigos \nobservam que o pneu da bicicleta A deforma, sob mesmos esforços, muito menos que o pneu da bicicleta B. \nPode-se considerar que as massas de ar comprimido no pneu da bicicleta A, mA, e no pneu da bicicleta B, mB, são \ndiretamente proporcionais aos seus volumes.\nComparando as pressões e massas de ar comprimido nos pneus das bicicletas, temos:"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/119/A.webp",
+        "text": "A\t pA < pB e mA < mB"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/119/B.webp",
+        "text": "B\t pA > pB e mA < mB"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/119/C.webp",
+        "text": "C\t pA > pB e mA = mB"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/119/D.webp",
+        "text": "D\t pA < pB e mA = mB"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/119/E.webp",
+        "text": "E\t pA > pB e mA > mB"
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 119,
+        "rect": [
+          29.28190040588379,
+          75.76284790039062,
+          97.15188598632812,
+          91.51484680175781
+        ],
+        "page": 11
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 207.65603637695312
+        },
+        {
+          "letter": "B",
+          "y": 222.49063110351562
+        },
+        {
+          "letter": "C",
+          "y": 237.32522583007812
+        },
+        {
+          "letter": "D",
+          "y": 252.15994262695312
+        },
+        {
+          "letter": "E",
+          "y": 266.9945068359375
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/119/statement.webp",
+          "sha256": "8846bf1d2ed42e723b664ec28023c5cb3d7a4e57a6802a68606818e3f8f65a5e",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            74.76284790039062,
+            565.9290161132812,
+            208.65603637695312
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 269
+        },
+        {
+          "file": "enem-assets/official/2019/119/A.webp",
+          "sha256": "6184ea9dec545f9d764f5efb6858b6098728497a56981d5b776db5e4dac80807",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            208.65603637695312,
+            565.9290161132812,
+            223.49063110351562
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/119/B.webp",
+          "sha256": "9e1060b60552ae41056bb31d09c8876eba4be3bd0bddb775d87028e867ed6cf7",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            223.49063110351562,
+            565.9290161132812,
+            238.32522583007812
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/119/C.webp",
+          "sha256": "d8c680f3e568a948db373063bb8ef0137ebf9ad1ddec12813cb568a1fb4fbaf6",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            238.32522583007812,
+            565.9290161132812,
+            253.15994262695312
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/119/D.webp",
+          "sha256": "48b830af048201fb5fd318d015e73560bd91eeee326fb7cc5c5acd7c73dc8dc4",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            253.15994262695312,
+            565.9290161132812,
+            267.9945068359375
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/119/E.webp",
+          "sha256": "ded9ec81f21de3d9b0530780125ca619fbdb30071598e418af3fb96b2f41bda2",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            267.9945068359375,
+            565.9290161132812,
+            286.4825134277344
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 38
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/119/details.json",
+    "contentFingerprint": "3b79f75bcc810a76241b692044cb17e533f961dc1dc25522088185e2a8538477",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "bca3ba0817cf1bbabb517d0a3d02aa012dc836af4805a09a54e9bbc27ea8c962"
+  },
+  {
+    "id": "enem-2019-120",
+    "year": 2019,
+    "number": 120,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 120 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:120:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 120](enem-assets/official/2019/120/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/120/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/120/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/120/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/120/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/120/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2019/120/statement.webp",
+      "enem-assets/official/2019/120/A.webp",
+      "enem-assets/official/2019/120/B.webp",
+      "enem-assets/official/2019/120/C.webp",
+      "enem-assets/official/2019/120/D.webp",
+      "enem-assets/official/2019/120/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/120/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 11,
+      "transcript": "Questão 120\t\nA utilização de corantes na indústria de alimentos é bastante difundida e a escolha por corantes naturais vem \nsendo mais explorada por diversas razões. A seguir são mostradas três estruturas de corantes naturais.\nBixina (presente no urucum)\nLicopeno (presente no tomate)\nβ-caroteno (presente na cenoura e na laranja)\nCOOCH3\nHOOC\nHAMERSKI, L.; REZENDE, M. J. C.; SILVA, B. V. Usando as cores da natureza para atender aos desejos do consumidor: \nsubstâncias naturais como corantes na indústria alimentícia. Revista Virtual de Química, n. 3, 2013.\nA propriedade comum às estruturas que confere cor a esses compostos é a presença de"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/120/A.webp",
+        "text": "A\t cadeia conjugada.i"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/120/B.webp",
+        "text": "B\t cadeia ramificada."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/120/C.webp",
+        "text": "C\t átomos de carbonos terciários.i"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/120/D.webp",
+        "text": "D\t ligações duplas de configuração cis."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/120/E.webp",
+        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 11\nE\t átomos de carbonos de hibridação sp3."
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 120,
+        "rect": [
+          29.28190040588379,
+          287.4825134277344,
+          97.75688934326172,
+          303.2344970703125
+        ],
+        "page": 11
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 618.527587890625
+        },
+        {
+          "letter": "B",
+          "y": 632.5621948242188
+        },
+        {
+          "letter": "C",
+          "y": 646.5968017578125
+        },
+        {
+          "letter": "D",
+          "y": 660.6314697265625
+        },
+        {
+          "letter": "E",
+          "y": 673.4461059570312
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/120/statement.webp",
+          "sha256": "d4f4e25491d89b2f0bd4c36b1f75df3b6234f91a6150b4f0ab9d885fab37a675",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            286.4825134277344,
+            565.9290161132812,
+            619.527587890625
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 668
+        },
+        {
+          "file": "enem-assets/official/2019/120/A.webp",
+          "sha256": "5fec41f57ddff806254b351ba83471b1ade1f2b9553267892b5f96894e2d7659",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            619.527587890625,
+            565.9290161132812,
+            633.5621948242188
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2019/120/B.webp",
+          "sha256": "4eb35a0a9f16f9599033f4c5938f9afb650773fed7031ad68c1bf19e67d4fe98",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            633.5621948242188,
+            565.9290161132812,
+            647.5968017578125
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2019/120/C.webp",
+          "sha256": "1b93cbfab66c33348b527b10923a6a3bbd2920aaa4f1e7661bc106ea71d0dca1",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            647.5968017578125,
+            565.9290161132812,
+            661.6314697265625
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 29
+        },
+        {
+          "file": "enem-assets/official/2019/120/D.webp",
+          "sha256": "fce1c719a855193cc4a829e2344e031e19eab31539391ebd416ee53b398db827",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            661.6314697265625,
+            565.9290161132812,
+            674.4461059570312
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 26
+        },
+        {
+          "file": "enem-assets/official/2019/120/E.webp",
+          "sha256": "c05074e41d3e5cb4d4d82d4d2a84147b7eb823f377747a0f92d1cb87799eb95e",
+          "page": 11,
+          "rect": [
+            21.28190040588379,
+            674.4461059570312,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 158
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/120/details.json",
+    "contentFingerprint": "f10f3d2c984280e434f33e8793816e589e31a0fd42c2db7616624037275fe179",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "05b241a8c215910b5ba6063f2c3e1bf05c72a65a6c3d1f79df940014503cecc9"
+  },
+  {
+    "id": "enem-2019-124",
+    "year": 2019,
+    "number": 124,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 124 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:124:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 124](enem-assets/official/2019/124/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/124/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/124/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/124/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/124/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/124/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2019/124/statement.webp",
+      "enem-assets/official/2019/124/A.webp",
+      "enem-assets/official/2019/124/B.webp",
+      "enem-assets/official/2019/124/C.webp",
+      "enem-assets/official/2019/124/D.webp",
+      "enem-assets/official/2019/124/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/124/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 13,
+      "transcript": "Questão 124\t\nUma das técnicas de reciclagem química do polímero PET [poli(tereftalato de etileno)] gera o tereftalato de \nmetila e o etanodiol, conforme o esquema de reação, e ocorre por meio de uma reação de transesterificação.\nAltas temperaturas\ne pressão\nO\nO\nO\nO\n+  2n A\n+\nn\nn\nCOOCH3\nn HO\nOH\nCOOCH3\nPET\nO composto A, representado no esquema de reação, é o"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/124/A.webp",
+        "text": "A\t metano."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/124/B.webp",
+        "text": "B\t metanol."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/124/C.webp",
+        "text": "C\t éter metílico."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/124/D.webp",
+        "text": "D\t ácido etanoico."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/124/E.webp",
+        "text": "E\t anidrido etanoico."
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 124,
+        "rect": [
+          29.28190040588379,
+          75.76284790039062,
+          97.75688934326172,
+          91.51484680175781
+        ],
+        "page": 13
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 238.94223022460938
+        },
+        {
+          "letter": "B",
+          "y": 255.37692260742188
+        },
+        {
+          "letter": "C",
+          "y": 271.8116149902344
+        },
+        {
+          "letter": "D",
+          "y": 288.2462158203125
+        },
+        {
+          "letter": "E",
+          "y": 304.6808166503906
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/124/statement.webp",
+          "sha256": "f0bbf00e2e691030a2edc61b745f18859015abc24cf8574556eb714ef393057d",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            74.76284790039062,
+            565.9290161132812,
+            239.94223022460938
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 331
+        },
+        {
+          "file": "enem-assets/official/2019/124/A.webp",
+          "sha256": "bda10438f158cdc4d1a6fc00d687b8a07cd1fcdbdde580d4369fb7294ff73de8",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            239.94223022460938,
+            565.9290161132812,
+            256.3769226074219
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2019/124/B.webp",
+          "sha256": "66429c8fb7d55833cc347345b3b1cec7fbd0641b64a8b9eb64c17716502439e0",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            256.3769226074219,
+            565.9290161132812,
+            272.8116149902344
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2019/124/C.webp",
+          "sha256": "c6da3f6195105f751a5673934d892e46dad68b71eb1ffaac5424bbeae781508c",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            272.8116149902344,
+            565.9290161132812,
+            289.2462158203125
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2019/124/D.webp",
+          "sha256": "92573debc1921f17132331bc9193efed33b2ef519cce177a2af8803aa0fd8cb6",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            289.2462158203125,
+            565.9290161132812,
+            305.6808166503906
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2019/124/E.webp",
+          "sha256": "9ed4c6b379cd0753c5edff6d3b986c39dfbd910bc89f0ca863da5186f0ba634a",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            305.6808166503906,
+            565.9290161132812,
+            325.7688293457031
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 41
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/124/details.json",
+    "contentFingerprint": "428195e8bb5ec4254679b145b7d0ff1b272a27fbc9a47a70d6d2f3f7d5a7d9a6",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "dca95ed8b4733bd943b72313efb196eeb57ed9a8aa558ef00a03fc2ca195ed22"
+  },
+  {
+    "id": "enem-2019-125",
+    "year": 2019,
+    "number": 125,
+    "area": "Natureza",
+    "discipline": "Ciências da Natureza",
+    "language": null,
+    "topic": "Ciências da Natureza",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 125 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:125:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 125](enem-assets/official/2019/125/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/125/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/125/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/125/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/125/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/125/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2019/125/statement.webp",
+      "enem-assets/official/2019/125/A.webp",
+      "enem-assets/official/2019/125/B.webp",
+      "enem-assets/official/2019/125/C.webp",
+      "enem-assets/official/2019/125/D.webp",
+      "enem-assets/official/2019/125/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/125/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 13,
+      "transcript": "Questão 125\t\nDurante sua evolução, as plantas apresentaram grande diversidade de características, as quais permitiram sua \nsobrevivência em diferentes ambientes. Na imagem, cinco dessas características estão indicadas por números.\nALGA VERDE\nANCESTRAL\n500\n450\n400\n350\n300\n50\n0\nMilhões de anos\nLegenda:\n1.  Embriões protegidos no gametófito.\n2   Tecidos condutores verdadeiros.\n3   Formação de tubo polínico.\n4   Polinização pelo vento.\n5   Produção de frutos.\nHepáticas\nAntóceros\nMusgos\nLicófitas (licopódios,\nIsoetes, Selaginella)\nPteridófitas (samambaias,\ncavalinhas, Psilotum)\nGimnospermas\nAngiospermas\n4\n5\n1\n3\n2\nCAMPBELL, N. et al. Biologia. São Paulo: Artmed, 2010 (adaptado).\nA aquisição evolutiva que permitiu a conquista definitiva do ambiente terrestre pelas plantas está indicada pelo número"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/125/A.webp",
+        "text": "A\t 1."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/125/B.webp",
+        "text": "B\t 2."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/125/C.webp",
+        "text": "C\t 3."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/125/D.webp",
+        "text": "D\t 4."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/125/E.webp",
+        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 13\nE\t 5."
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 125,
+        "rect": [
+          29.28190040588379,
+          326.7688293457031,
+          97.75688934326172,
+          342.52081298828125
+        ],
+        "page": 13
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 658.893798828125
+        },
+        {
+          "letter": "B",
+          "y": 675.328369140625
+        },
+        {
+          "letter": "C",
+          "y": 691.7630004882812
+        },
+        {
+          "letter": "D",
+          "y": 708.1976928710938
+        },
+        {
+          "letter": "E",
+          "y": 724.6323852539062
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/125/statement.webp",
+          "sha256": "a62171f3a5a8cf2de8107c7db25130d916539eecb14113475e1105597a4d3e95",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            325.7688293457031,
+            565.9290161132812,
+            659.893798828125
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 669
+        },
+        {
+          "file": "enem-assets/official/2019/125/A.webp",
+          "sha256": "c016d53c988ff3fcd02bb43a1ab4208c94b1a89abd0481cf71873a0bb669cf44",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            659.893798828125,
+            565.9290161132812,
+            676.328369140625
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2019/125/B.webp",
+          "sha256": "a901d55073feb61dcc346195c83ebedeb707b7c774053ff49cf62980d54640f0",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            676.328369140625,
+            565.9290161132812,
+            692.7630004882812
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2019/125/C.webp",
+          "sha256": "41cbacbb6895145acdecc8b131e623ebaacb46df634786927f1e4783cb64b5db",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            692.7630004882812,
+            565.9290161132812,
+            709.1976928710938
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2019/125/D.webp",
+          "sha256": "9d14f2aa1adfc75874d1f5ad2af3ea349fe1eceab59f64fd79484d4769916346",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            709.1976928710938,
+            565.9290161132812,
+            725.6323852539062
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 34
+        },
+        {
+          "file": "enem-assets/official/2019/125/E.webp",
+          "sha256": "aca41dc646c972618a1e2799f424bd2b2b6687ba1ec465b37f63bb37a5abbd13",
+          "page": 13,
+          "rect": [
+            21.28190040588379,
+            725.6323852539062,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 55
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/125/details.json",
+    "contentFingerprint": "849520455fbc8469b82a8bc27733bdf9d5e7cdead4ea6f34607b0ad0d9cec082",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "ee6b49fbfdc6a89022ba9bf066167880b11d44ff7d10296174de9305756f6964"
+  },
+  {
+    "id": "enem-2019-173",
+    "year": 2019,
+    "number": 173,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 173 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:173:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 173](enem-assets/official/2019/173/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/173/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/173/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/173/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/173/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/173/E.webp)"
+    ],
+    "answer": 4,
+    "images": [
+      "enem-assets/official/2019/173/statement.webp",
+      "enem-assets/official/2019/173/A.webp",
+      "enem-assets/official/2019/173/B.webp",
+      "enem-assets/official/2019/173/C.webp",
+      "enem-assets/official/2019/173/D.webp",
+      "enem-assets/official/2019/173/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/173/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 28,
+      "transcript": "Questão 173\t\nEm um determinado ano, os computadores da receita federal de um país identificaram como inconsistentes \n20% das declarações de imposto de renda que lhe foram encaminhadas. Uma declaração é classificada como \ninconsistente quando apresenta algum tipo de erro ou conflito nas informações prestadas. Essas declarações \nconsideradas inconsistentes foram analisadas pelos auditores, que constataram que 25% delas eram fraudulentas. \nConstatou-se ainda que, dentre as declarações que não apresentaram inconsistências, 6,25% eram fraudulentas.\nQual é a probabilidade de, nesse ano, a declaração de um contribuinte ser considerada inconsistente, dado que \nela era fraudulenta?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/173/A.webp",
+        "text": "A\t 0,0500"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/173/B.webp",
+        "text": "B\t 0,1000"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/173/C.webp",
+        "text": "C\t 0,1125"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/173/D.webp",
+        "text": "D\t 0,3125"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/173/E.webp",
+        "text": "E\t 0,5000"
+      }
+    ],
+    "officialAnswer": "E",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 173,
+        "rect": [
+          29.7637996673584,
+          75.76284790039062,
+          98.2387924194336,
+          91.51484680175781
+        ],
+        "page": 28
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 200.45602416992188
+        },
+        {
+          "letter": "B",
+          "y": 215.89059448242188
+        },
+        {
+          "letter": "C",
+          "y": 231.32522583007812
+        },
+        {
+          "letter": "D",
+          "y": 246.75991821289062
+        },
+        {
+          "letter": "E",
+          "y": 262.1946105957031
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/173/statement.webp",
+          "sha256": "d3d415f015c4af54a3a34ff2829e113f6cddb05b1d3a3ef762bcf7cc462cd8b8",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            74.76284790039062,
+            565.9290161132812,
+            201.45602416992188
+          ],
+          "role": "statement",
+          "width": 1089,
+          "height": 254
+        },
+        {
+          "file": "enem-assets/official/2019/173/A.webp",
+          "sha256": "66d77b91a31dfaa58ac599505962ff5b186a699124558e5f6a4e345aae818df1",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            201.45602416992188,
+            565.9290161132812,
+            216.89059448242188
+          ],
+          "role": "A",
+          "width": 1089,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/173/B.webp",
+          "sha256": "3c352d8434dc95954e81630102c875b81d79276885191d8e01591e8f3a511ead",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            216.89059448242188,
+            565.9290161132812,
+            232.32522583007812
+          ],
+          "role": "B",
+          "width": 1089,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/173/C.webp",
+          "sha256": "90d9ae7818c3a01e7a14dec2555ddfdba1c24838fda81bda7f116a0aeaa63141",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            232.32522583007812,
+            565.9290161132812,
+            247.75991821289062
+          ],
+          "role": "C",
+          "width": 1089,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/173/D.webp",
+          "sha256": "1652593abf9a97237abf24512b7ed68946397f48fe4e4a29a9508e820ebe6a48",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            247.75991821289062,
+            565.9290161132812,
+            263.1946105957031
+          ],
+          "role": "D",
+          "width": 1089,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/173/E.webp",
+          "sha256": "71e0473fc6c7cbb08a87b35979cdffc9309c31f4bdaa9d0f541d3ea7d7574f57",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            263.1946105957031,
+            565.9290161132812,
+            282.28253173828125
+          ],
+          "role": "E",
+          "width": 1089,
+          "height": 39
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/173/details.json",
+    "contentFingerprint": "024ef7463ae4b5a5f3ea353421f7c35f2e33b90b44af0e1852ce2ef0830362d6",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "274cf85d051c00e59086dbce0fd12287ee544ef511c06a91b0e612c8dabcf715"
+  },
+  {
+    "id": "enem-2019-174",
+    "year": 2019,
+    "number": 174,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 174 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:174:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 174](enem-assets/official/2019/174/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/174/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/174/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/174/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/174/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/174/E.webp)"
+    ],
+    "answer": 2,
+    "images": [
+      "enem-assets/official/2019/174/statement.webp",
+      "enem-assets/official/2019/174/A.webp",
+      "enem-assets/official/2019/174/B.webp",
+      "enem-assets/official/2019/174/C.webp",
+      "enem-assets/official/2019/174/D.webp",
+      "enem-assets/official/2019/174/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/174/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 28,
+      "transcript": "Questão 174\t\nA taxa de urbanização de um município é dada pela razão entre a população urbana e a população total do \nmunicípio (isto é, a soma das populações rural e urbana). Os gráficos apresentam, respectivamente, a população \nurbana e a população rural de cinco municípios (I, II, III, IV, V) de uma mesma região estadual. Em reunião \nentre o governo do estado e os prefeitos desses municípios, ficou acordado que o município com maior taxa de \nurbanização receberá um investimento extra em infraestrutura.\n14 000\n12 000\n10 000\n8 000\n6 000\n4 000\n2 000\n8 000\n10 000\n12 000\nI\nII\nIII\nIV\nV\n0\nPopulação rural\n4 000\n5 000\nSegundo o acordo, qual município receberá o investimento extra?\n14 000\n12 000\n10 000\n8 000\n6 000\n4 000\n2 000\n0\n16 000\n18 000\n20 000\nPopulação urbana\n8 000\n10 000\n11 000\n18 000\n17 000\nI\nII\nIII\nIV\nV"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/174/A.webp",
+        "text": "A\t I"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/174/B.webp",
+        "text": "B\t II"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/174/C.webp",
+        "text": "C\t III"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/174/D.webp",
+        "text": "D\t IV"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/174/E.webp",
+        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 28\nE\t V"
+      }
+    ],
+    "officialAnswer": "C",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 174,
+        "rect": [
+          29.7637996673584,
+          283.28253173828125,
+          98.2387924194336,
+          299.0345153808594
+        ],
+        "page": 28
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 548.4464721679688
+        },
+        {
+          "letter": "B",
+          "y": 563.8812255859375
+        },
+        {
+          "letter": "C",
+          "y": 579.3157958984375
+        },
+        {
+          "letter": "D",
+          "y": 594.75048828125
+        },
+        {
+          "letter": "E",
+          "y": 610.18505859375
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/174/statement.webp",
+          "sha256": "4cf3ae6e17ad0cef877f8b7d0734d89a8ebbe3adc658ebaf970be307996f2fa1",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            282.28253173828125,
+            565.9290161132812,
+            549.4464721679688
+          ],
+          "role": "statement",
+          "width": 1089,
+          "height": 535
+        },
+        {
+          "file": "enem-assets/official/2019/174/A.webp",
+          "sha256": "bfac1e8064ce6ce425adafa827c429bb683f3386effa496b4e920c7864919200",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            549.4464721679688,
+            565.9290161132812,
+            564.8812255859375
+          ],
+          "role": "A",
+          "width": 1089,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/174/B.webp",
+          "sha256": "5bfda21c15ff614177741acd435b7e59221633df8b3e569b369f1ad7a831e2e7",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            564.8812255859375,
+            565.9290161132812,
+            580.3157958984375
+          ],
+          "role": "B",
+          "width": 1089,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/174/C.webp",
+          "sha256": "bc1ab088d252e4fa07c438fd816c2912ee31f8f2af5d8e71da04885907d26b6b",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            580.3157958984375,
+            565.9290161132812,
+            595.75048828125
+          ],
+          "role": "C",
+          "width": 1089,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/174/D.webp",
+          "sha256": "7548bb9c231009e546c2153b2f3e59e16877760763ce60e32083e48a6192b450",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            595.75048828125,
+            565.9290161132812,
+            611.18505859375
+          ],
+          "role": "D",
+          "width": 1089,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/174/E.webp",
+          "sha256": "8a073d3f74e2d2582eb19765bf8e3f2cb063526f25c4a8cb6e5a71f4420110b3",
+          "page": 28,
+          "rect": [
+            21.7637996673584,
+            611.18505859375,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1089,
+          "height": 284
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/174/details.json",
+    "contentFingerprint": "1e57001c93ccd1d96da010c5d691c9da63de7077050c969a34e96f8feb0aca1a",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "d682924a87d63a9bed87d83665366c417a9126a7cbdee61271d5b78c2e1152c7"
+  },
+  {
+    "id": "enem-2019-178",
+    "year": 2019,
+    "number": 178,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 178 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:178:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 178](enem-assets/official/2019/178/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/178/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/178/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/178/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/178/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/178/E.webp)"
+    ],
+    "answer": 1,
+    "images": [
+      "enem-assets/official/2019/178/statement.webp",
+      "enem-assets/official/2019/178/A.webp",
+      "enem-assets/official/2019/178/B.webp",
+      "enem-assets/official/2019/178/C.webp",
+      "enem-assets/official/2019/178/D.webp",
+      "enem-assets/official/2019/178/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/178/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 30,
+      "transcript": "Questão 178\t\nUm comerciante, que vende somente pastel, refrigerante em lata e caldo de cana em copos, fez um levantamento \ndas vendas realizadas durante a semana. O resultado desse levantamento está apresentado no gráfico.\nEle estima que venderá, em cada dia da próxima semana, uma quantidade de refrigerante em lata igual à \nsoma das quantidades de refrigerante em lata e caldo de cana em copos vendidas no respectivo dia da última \nsemana. Quanto aos pastéis, estima vender, a cada dia da próxima semana, uma quantidade igual à quantidade \nde refrigerante em lata que prevê vender em tal dia. Já para o número de caldo de cana em copos, estima que as \nvendas diárias serão iguais às da última semana.\nSegundo essas estimativas, a quantidade a mais de pastéis que esse comerciante deve vender na próxima semana é\nSábado\nSexta\nQuinta\nQuarta\nTerça\nSegunda\nDomingo\nVendas na última semana\n10\nCaldo de cana\nRefrigerante\nPastel\n8\n6\n4\n2\n0"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/178/A.webp",
+        "text": "A\t 20."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/178/B.webp",
+        "text": "B\t 27."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/178/C.webp",
+        "text": "C\t 44."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/178/D.webp",
+        "text": "D\t 55."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/178/E.webp",
+        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 30\nE\t 71."
+      }
+    ],
+    "officialAnswer": "B",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 178,
+        "rect": [
+          29.7637996673584,
+          75.76284790039062,
+          98.2387924194336,
+          91.51484680175781
+        ],
+        "page": 30
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 537.3253173828125
+        },
+        {
+          "letter": "B",
+          "y": 552.159912109375
+        },
+        {
+          "letter": "C",
+          "y": 566.9945068359375
+        },
+        {
+          "letter": "D",
+          "y": 581.8292236328125
+        },
+        {
+          "letter": "E",
+          "y": 596.6638793945312
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/178/statement.webp",
+          "sha256": "dd8af5fa8e0c21a0af32498ec3d0cdcb19f7d86778bae56c82a13cba1553e35b",
+          "page": 30,
+          "rect": [
+            21.7637996673584,
+            74.76284790039062,
+            565.9290161132812,
+            538.3253173828125
+          ],
+          "role": "statement",
+          "width": 1089,
+          "height": 928
+        },
+        {
+          "file": "enem-assets/official/2019/178/A.webp",
+          "sha256": "af4d71f8f1c3e13d5318dfc909e36d01a0ec3b1da07dd2860b6ee989ff1aa7c2",
+          "page": 30,
+          "rect": [
+            21.7637996673584,
+            538.3253173828125,
+            565.9290161132812,
+            553.159912109375
+          ],
+          "role": "A",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/178/B.webp",
+          "sha256": "65c4f42f4b82dcff5000b7889c2787073b1c82fc171e3db97347929206112c4c",
+          "page": 30,
+          "rect": [
+            21.7637996673584,
+            553.159912109375,
+            565.9290161132812,
+            567.9945068359375
+          ],
+          "role": "B",
+          "width": 1089,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/178/C.webp",
+          "sha256": "7e5bb05b5fe0abc77ca8e7ea58471422f96c2e4225342fde019101a9a51ef887",
+          "page": 30,
+          "rect": [
+            21.7637996673584,
+            567.9945068359375,
+            565.9290161132812,
+            582.8292236328125
+          ],
+          "role": "C",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/178/D.webp",
+          "sha256": "931be64f2d24915ef7a4a01bdf011f171b11c7b3a48cd1efde498182a9a6c70f",
+          "page": 30,
+          "rect": [
+            21.7637996673584,
+            582.8292236328125,
+            565.9290161132812,
+            597.6638793945312
+          ],
+          "role": "D",
+          "width": 1089,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/178/E.webp",
+          "sha256": "9f7205f7ccb60cdff01a86b5a3606fca244f642d9eb7b002341e19e36572e312",
+          "page": 30,
+          "rect": [
+            21.7637996673584,
+            597.6638793945312,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1089,
+          "height": 311
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/178/details.json",
+    "contentFingerprint": "32d50d808e4378094179c175b074b9b3dcadd4ecf492df6e08a41244d4cbba67",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "a994c268842d8451c1b8404c8bc88e2f7d57efa0edc2de72970054c7cae78d87"
+  },
+  {
+    "id": "enem-2019-179",
+    "year": 2019,
+    "number": 179,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 179 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:179:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 179](enem-assets/official/2019/179/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/179/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/179/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/179/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/179/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/179/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2019/179/statement.webp",
+      "enem-assets/official/2019/179/A.webp",
+      "enem-assets/official/2019/179/B.webp",
+      "enem-assets/official/2019/179/C.webp",
+      "enem-assets/official/2019/179/D.webp",
+      "enem-assets/official/2019/179/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/179/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 31,
+      "transcript": "Questão 179\t\nNos seis cômodos de uma casa há sensores de presença posicionados de forma que a luz de cada cômodo \nacende assim que uma pessoa nele adentra, e apaga assim que a pessoa se retira desse cômodo. Suponha que o \nacendimento e o desligamento sejam instantâneos.\nO morador dessa casa visitou alguns desses cômodos, ficando exatamente um minuto em cada um deles. \nO gráfico descreve o consumo acumulado de energia, em watt × minuto, em função do tempo t, em minuto, das \nlâmpadas de LED dessa casa, enquanto a figura apresenta a planta baixa da casa, na qual os cômodos estão \nnumerados de 1 a 6, com as potências das respectivas lâmpadas indicadas.\nEnergia (W⋅min)\nTempo (min)\n(0 ; 0)\n(1 ; 20)\n(2 ; 35)\n(3 ; 40)\n(4 ; 55)\n(5 ; 75)\n(6 ; 85)\n(7 ; 105)\n(8 ; 120)\n1\n2\n4\n5\n6\n3\nQUARTO\n(13 W)\nSALA\n(20 W)\nBANHO\n(2 W)\nBANHO\n(5 W)\nCOZINHA\n(10 W)\nENTRADA\nSUÍTE\n(15 W)\nA sequência de deslocamentos pelos cômodos, conforme o consumo de energia apresentado no gráfico, é"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/179/A.webp",
+        "text": "A 1\n4\n5\n4\n1\n6\n1\n4\n→\n→\n→\n→\n→\n→\n→"
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/179/B.webp",
+        "text": "B 1\n2\n3\n1\n4\n1\n4\n4\n→\n→\n→\n→\n→\n→\n→"
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/179/C.webp",
+        "text": "C 1\n4\n5\n4\n1\n6\n1\n2\n3\n→\n→\n→\n→\n→\n→\n→\n→"
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/179/D.webp",
+        "text": "D 1\n2\n3\n5\n4\n1\n6\n1\n4\n→\n→\n→\n→\n→\n→\n→\n→"
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/179/E.webp",
+        "text": "E 1\n4\n2\n3\n5\n1\n6\n1\n4\n→\n→\n→\n→\n→\n→\n→\n→"
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 179,
+        "rect": [
+          29.28190040588379,
+          75.76284790039062,
+          97.75688934326172,
+          91.51484680175781
+        ],
+        "page": 31
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 380.2665100097656
+        },
+        {
+          "letter": "B",
+          "y": 395.85540771484375
+        },
+        {
+          "letter": "C",
+          "y": 411.4443359375
+        },
+        {
+          "letter": "D",
+          "y": 427.0381164550781
+        },
+        {
+          "letter": "E",
+          "y": 442.62213134765625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/179/statement.webp",
+          "sha256": "75e4f8699f2bd1dd9aeab1bf1d99d476a2d2180e7e6bacefb00ebaf1500fb70c",
+          "page": 31,
+          "rect": [
+            21.28190040588379,
+            74.76284790039062,
+            565.9290161132812,
+            381.2665100097656
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 614
+        },
+        {
+          "file": "enem-assets/official/2019/179/A.webp",
+          "sha256": "abe87f5207b8273445c8311fb4cbee447edc5d3ff0c1bfc26dbfd06a70cdff30",
+          "page": 31,
+          "rect": [
+            21.28190040588379,
+            381.2665100097656,
+            565.9290161132812,
+            396.85540771484375
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/179/B.webp",
+          "sha256": "63133c14f6e44eaf4b08bb4fe63c94b364e701610ff04ad1ec829c10fd68a8bb",
+          "page": 31,
+          "rect": [
+            21.28190040588379,
+            396.85540771484375,
+            565.9290161132812,
+            412.4443359375
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/179/C.webp",
+          "sha256": "1a9eee0194277b4d4a8134af0828943c531f27b537646a1d54fc7995ea078aea",
+          "page": 31,
+          "rect": [
+            21.28190040588379,
+            412.4443359375,
+            565.9290161132812,
+            428.0381164550781
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 33
+        },
+        {
+          "file": "enem-assets/official/2019/179/D.webp",
+          "sha256": "423ba5c4d9fde25d0550070fdbf0cae39b96986051bde2e51378c9107510a530",
+          "page": 31,
+          "rect": [
+            21.28190040588379,
+            428.0381164550781,
+            565.9290161132812,
+            443.62213134765625
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 32
+        },
+        {
+          "file": "enem-assets/official/2019/179/E.webp",
+          "sha256": "76616be3f93430e8cc6d9f55258d025b98780c9f82d44599de0a55d88f72d866",
+          "page": 31,
+          "rect": [
+            21.28190040588379,
+            443.62213134765625,
+            565.9290161132812,
+            462.4045104980469
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 38
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/179/details.json",
+    "contentFingerprint": "acf78fbd927f8e4bdb9673849eee5d072e298b4e0527aab144a919d1b5c1e319",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "56980c278e8fe6cc2143e7f0bfca1dabfd383488747a7c7e14c0578155e3480e"
+  },
+  {
+    "id": "enem-2019-180",
+    "year": 2019,
+    "number": 180,
+    "area": "Matemática",
+    "discipline": "Matemática",
+    "language": null,
+    "topic": "Matemática",
+    "origin": "enem",
+    "difficulty": "unclassified",
+    "difficultyReason": "Dificuldade não classificada; sem estimativa TRI.",
+    "text": "Questão 180 — ENEM 2019",
+    "explanation": "Resolução comentada não disponibilizada pela fonte. O gabarito foi conferido na prova oficial.",
+    "day": 2,
+    "booklet": "Azul",
+    "application": "1ª aplicação",
+    "canonicalId": "enem:2019:regular:blue:180:pt",
+    "context": "![Enunciado original do ENEM 2019, questão 180](enem-assets/official/2019/180/statement.webp)",
+    "options": [
+      "![Alternativa A original](enem-assets/official/2019/180/A.webp)",
+      "![Alternativa B original](enem-assets/official/2019/180/B.webp)",
+      "![Alternativa C original](enem-assets/official/2019/180/C.webp)",
+      "![Alternativa D original](enem-assets/official/2019/180/D.webp)",
+      "![Alternativa E original](enem-assets/official/2019/180/E.webp)"
+    ],
+    "answer": 0,
+    "images": [
+      "enem-assets/official/2019/180/statement.webp",
+      "enem-assets/official/2019/180/A.webp",
+      "enem-assets/official/2019/180/B.webp",
+      "enem-assets/official/2019/180/C.webp",
+      "enem-assets/official/2019/180/D.webp",
+      "enem-assets/official/2019/180/E.webp"
+    ],
+    "source": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "officialSource": "https://download.inep.gov.br/educacao_basica/enem/provas/2019/2019_PV_impresso_D2_CD7.pdf",
+    "answerSource": "https://download.inep.gov.br/educacao_basica/enem/gabaritos/2019/gabarito_2_dia_caderno_7_azul_aplicacao_regular.pdf",
+    "answerVerification": "references/enem-1000/originals/2019-2-gabarito.pdf",
+    "originalStatement": {
+      "format": "image",
+      "file": "enem-assets/official/2019/180/statement.webp",
+      "source": "references/enem-1000/originals/2019-2-prova.pdf",
+      "page": 31,
+      "transcript": "Questão 180\t\nUm casal planejou uma viagem e definiu como teto para o gasto diário um valor de até R$ 1 000,00. Antes de \ndecidir o destino da viagem, fizeram uma pesquisa sobre a taxa de câmbio vigente para as moedas de cinco países \nque desejavam visitar e também sobre as estimativas de gasto diário em cada um, com o objetivo de escolher o \ndestino que apresentasse o menor custo diário em real.\nO quadro mostra os resultados obtidos com a pesquisa realizada.\nPaís de destino\nMoeda local\nTaxa de câmbio\nGasto diário\nFrança \nEuro (€) \nR$ 3,14 \n315,00 €\nEUA  \nDólar (US$) \nR$ 2,78 \nUS$ 390,00 \nAustrália \nDólar australiano (A$) \nR$ 2,14 \nA$ 400,00\nCanadá \nDólar canadense (C$) \nR$ 2,10 \nC$ 410,00\nReino Unido \nLibra esterlina (£) \nR$ 4,24 \n£ 290,00\nNessas condições, qual será o destino escolhido para a viagem?"
+    },
+    "alternatives": [
+      {
+        "letter": "A",
+        "format": "image",
+        "file": "enem-assets/official/2019/180/A.webp",
+        "text": "A\t Austrália."
+      },
+      {
+        "letter": "B",
+        "format": "image",
+        "file": "enem-assets/official/2019/180/B.webp",
+        "text": "B\t Canadá."
+      },
+      {
+        "letter": "C",
+        "format": "image",
+        "file": "enem-assets/official/2019/180/C.webp",
+        "text": "C\t EUA."
+      },
+      {
+        "letter": "D",
+        "format": "image",
+        "file": "enem-assets/official/2019/180/D.webp",
+        "text": "D\t França."
+      },
+      {
+        "letter": "E",
+        "format": "image",
+        "file": "enem-assets/official/2019/180/E.webp",
+        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 31\nE\t Reino Unido."
+      }
+    ],
+    "officialAnswer": "A",
+    "validation": {
+      "status": "validated",
+      "method": "official-pdf-regions-v1",
+      "application": "regular",
+      "booklet": "blue",
+      "answerEvidence": "references/enem-1000/originals/2019-2-gabarito.pdf",
+      "statementEvidence": "references/enem-1000/originals/2019-2-prova.pdf",
+      "statementSha256": "a476882608be2bf1353af8b26c60838ac187f2d1a3653524c90de62b0372efa6",
+      "layout": "single-column",
+      "answerSha256": "f90f7be81fee2bf1648c4757c7f5361c7423bd4ea623868917ad5c9513d25644",
+      "header": {
+        "number": 180,
+        "rect": [
+          29.281999588012695,
+          463.4045104980469,
+          97.75698852539062,
+          479.156494140625
+        ],
+        "page": 31
+      },
+      "labels": [
+        {
+          "letter": "A",
+          "y": 664.9910888671875
+        },
+        {
+          "letter": "B",
+          "y": 679.82568359375
+        },
+        {
+          "letter": "C",
+          "y": 694.660400390625
+        },
+        {
+          "letter": "D",
+          "y": 709.4949951171875
+        },
+        {
+          "letter": "E",
+          "y": 724.3297119140625
+        }
+      ],
+      "assets": [
+        {
+          "file": "enem-assets/official/2019/180/statement.webp",
+          "sha256": "64fee079f44bcdb7aa28de0a97be8bc8c021adbb9e5bd23f7876c7fc6a8d4010",
+          "page": 31,
+          "rect": [
+            21.281999588012695,
+            462.4045104980469,
+            565.9290161132812,
+            665.9910888671875
+          ],
+          "role": "statement",
+          "width": 1090,
+          "height": 408
+        },
+        {
+          "file": "enem-assets/official/2019/180/A.webp",
+          "sha256": "2818af6d6e1a1f24bc803c9377924c3c29e3323a57ac22e77bdbbc72384380bc",
+          "page": 31,
+          "rect": [
+            21.281999588012695,
+            665.9910888671875,
+            565.9290161132812,
+            680.82568359375
+          ],
+          "role": "A",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/180/B.webp",
+          "sha256": "a734f594eea146de5dad32e9546b6797524a370c9dfea9105e51e0fe80991e21",
+          "page": 31,
+          "rect": [
+            21.281999588012695,
+            680.82568359375,
+            565.9290161132812,
+            695.660400390625
+          ],
+          "role": "B",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/180/C.webp",
+          "sha256": "713d510701eee20f39068db76ee9862516660da2481a2fd957e14a801230822b",
+          "page": 31,
+          "rect": [
+            21.281999588012695,
+            695.660400390625,
+            565.9290161132812,
+            710.4949951171875
+          ],
+          "role": "C",
+          "width": 1090,
+          "height": 30
+        },
+        {
+          "file": "enem-assets/official/2019/180/D.webp",
+          "sha256": "c429f00aa4b42602d252e0b2af24660ea08281a73f8a162a2149f4ef6e7d7a8b",
+          "page": 31,
+          "rect": [
+            21.281999588012695,
+            710.4949951171875,
+            565.9290161132812,
+            725.3297119140625
+          ],
+          "role": "D",
+          "width": 1090,
+          "height": 31
+        },
+        {
+          "file": "enem-assets/official/2019/180/E.webp",
+          "sha256": "b67734cfc038be01041f768d458843bd272fe88804587e8a7902af30062e1cc4",
+          "page": 31,
+          "rect": [
+            21.281999588012695,
+            725.3297119140625,
+            565.9290161132812,
+            752.5280151367188
+          ],
+          "role": "E",
+          "width": 1090,
+          "height": 56
+        }
+      ]
+    },
+    "license": "Créditos e direitos conforme o caderno INEP; metadados estruturados GPL-2.0",
+    "structuredSource": "https://github.com/yunger7/enem-api/blob/938c56fbd3b391e03d93316c920a90c3e54842e5/public/2019/questions/180/details.json",
+    "contentFingerprint": "ece810ed6a97fbdc603cd62a167e94d4d4a23076ef0ea10cced303bcbf481775",
+    "explanationStatus": "not-provided",
+    "structuredSourceSha256": "3e6fa8980d2fa3bf5e1e4dd0f6bd24e24106f3e57cb6ea068320ec3938f3636b"
+  }
+]

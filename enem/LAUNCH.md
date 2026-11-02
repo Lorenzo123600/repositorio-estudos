@@ -130,3 +130,9 @@ A main recebeu 284 novas questões durante o onboarding. A integração preserva
 ## Bloqueio real de cadastro público identificado antes da ativação
 
 A configuração de Auth aponta para a origem definitiva e exige confirmação de e-mail, mas smtp_host está vazio (custom SMTP ausente). A documentação oficial do Supabase em apps/docs/content/guides/auth/auth-smtp.mdx informa que o SMTP padrão só envia a membros autorizados da equipe; novos compradores exigem SMTP próprio. Configurar e validar esse serviço antes de liberar vendas. Não desativar a confirmação nem relaxar a exigência de usuário confirmado para contornar a pendência. Cobranças reais permanecem explicitamente bloqueadas com MERCADOPAGO_PRODUCTION_ENABLED=false.
+
+## Main final com 1.070 questões utilizáveis
+
+Durante a preparação do SMTP, a main avançou para 78390d9 com o banco de mil questões. A segunda integração preserva esse trabalho, os IDs anteriores, os originais e os validadores. A oferta usa a contagem de matchesQuestion e mostra 1.070 questões utilizáveis; registros pendentes/anulados continuam apenas para histórico. O JSON privado foi regenerado integralmente e o catálogo público continua fora do build comercial. prebuild, prebuild:sales e prebuild:pages executam validate:release obrigatoriamente.
+
+Passaram validate:release, 74 testes Node, três testes cloud, dois comerciais (incluindo ausência de dist/questions e uso autenticado dos novos filtros) e cinco testes Pages. A revisão profunda de PDFs, opcional no workflow, não foi repetida; os checks obrigatórios de integridade do repositório passaram. O SMTP foi configurado e conferido; a confirmação de entrega real do e-mail ainda depende do cadastro de teste do usuário. Cobranças permanecem bloqueadas.

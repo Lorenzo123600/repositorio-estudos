@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-02",
+  "review": "Inspeção visual do PDF renderizado e do recorte oficial da questão 135/2023, página 15.",
+  "questionId": "enem-2023-135",
+  "result": "Figura, escala de 450 m, textos e alternativas íntegros. Os três alertas de bounding boxes pertencem a camadas de imagem com máscaras de recorte do próprio PDF; os pixels visíveis estão dentro do recorte.",
+  "alertsReviewed": 3,
+  "questionsReviewed": 1
+}
