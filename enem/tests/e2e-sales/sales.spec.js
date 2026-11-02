@@ -53,3 +53,19 @@ for(const kind of ['purchase','complimentary'])test('authenticated content, save
  await page.locator('#mobile-menu').click();await page.locator('[data-tab="Redação"]').click();await expect(page.locator('#essay')).toHaveValue('Meu rascunho anterior');
  access=[];await page.evaluate(()=>window.dispatchEvent(new Event('focus')));await expect(page.locator('.sale-offer')).toBeVisible();await expect(page.locator('#essay')).toHaveCount(0);expect(writes).toBe(0);expect(errors).toEqual([]);
 });
+
+
+test('home and privacy remain public without JavaScript or authentication',async({browser})=>{
+ const context=await browser.newContext({javaScriptEnabled:false});
+ const page=await context.newPage();
+ try{
+  const home=await page.goto('/');
+  expect(home.status()).toBe(200);
+  await expect(page.getByRole('heading',{name:'bora pro enem',exact:true})).toBeVisible();
+  await expect(page.getByText('Prepare-se para o ENEM',{exact:false})).toBeVisible();
+  await page.getByRole('link',{name:'Política de Privacidade',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'Política de Privacidade — bora pro enem',exact:true})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Uso e proteção dos dados recebidos do Google'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Seus direitos e exclusão'})).toBeVisible();
+ }finally{await context.close();}
+});
