@@ -123,3 +123,11 @@ Selecionar uma alternativa de desafio não registra uma resposta até confirmar.
 Em Meu plano, escolha a duração (1 a 180 dias) e a data inicial e clique em Aplicar meu plano. O padrão continua sendo 14 dias. Prazos curtos agrupam as 14 atividades-base; prazos longos acrescentam revisões espaçadas desses conteúdos, mantendo a preparação final no último dia. Não há geração automática de novos conteúdos exclusivos para cada dia adicional.
 
 A conclusão é armazenada por atividade estável (`planUnitsDone`); `done` reflete os dias totalmente concluídos no prazo atual. O progresso antigo de 14 dias é convertido sem apagar atividades concluídas. Reduzir o prazo não apaga revisões adicionais já feitas: elas reaparecem ao ampliar o plano novamente. O número de dias concluídos pode mudar com o reagrupamento. A duração e as atividades acompanham a sincronização da conta existente; não é necessário alterar o banco.
+
+## Sequência, feedback e novos ciclos
+
+Novos dias só podem ser marcados como concluídos quando todos os anteriores estiverem concluídos. A regra é validada tanto no botão quanto na função que altera o progresso. Todos os conteúdos continuam disponíveis para leitura. Dias concluídos antes dessa regra são preservados; se houver lacunas, termine-as antes de marcar novos dias. Desfazer um dia reabre a etapa sem apagar as conclusões posteriores.
+
+Alterar a duração ou a data inicial recalcula o roteiro ao sair do campo; Aplicar meu plano também funciona. O painel mostra dias concluídos/restantes, atividades do roteiro atual e planos finalizados no histórico guardado. Cada conclusão informa as atividades terminadas. Ao completar tudo, há um aviso persistente com sugestões de novos ciclos de 7, 14 ou 30 dias. As sugestões repetem o roteiro-base com agrupamento ou revisões espaçadas; não são conteúdos novos gerados automaticamente.
+
+Um novo ciclo só começa após seleção e confirmação explícitas. O anterior é arquivado em `planHistory` (até 20 registros recentes). Respostas, redações, conquistas e demais estudos ficam preservados; apenas as atividades do ciclo ativo começam em zero. O histórico é salvo e sincronizado junto ao restante do progresso, sem migração do banco.

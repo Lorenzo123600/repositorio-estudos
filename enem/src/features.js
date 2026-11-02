@@ -7,7 +7,7 @@ export function missionStatus(state){const day=state.activities?.[todayKey()]||{
 {label:'Vença um desafio',detail:day.challenges.length?'Desafio concluído hoje':'Uma descoberta já faz diferença',done:day.challenges.length>0,tab:'Desafios'},
 {label:'Coloque sua tese no papel',detail:day.writing?'Rascunho trabalhado hoje':'Escreva ou revise um rascunho com 40 palavras',done:day.writing,tab:'Redação'}];}
 export function achievementList(state){return [
-['Primeiro passo','Conclua um dia do plano',(state.planUnitsDone?.length||state.done.length)>0],
+['Primeiro passo','Conclua um dia do plano',(state.planUnitsDone?.length||state.done.length||state.planHistory?.length)>0],
 ['Mente curiosa','Responda 5 questões diferentes',Object.keys(state.answers).length>=5],
 ['Desafio aceito','Conclua 3 desafios',Object.keys(state.challengeDone||{}).length>=3],
 ['Ritmo de prova','Finalize um minissimulado',(state.examHistory||[]).length>0],
