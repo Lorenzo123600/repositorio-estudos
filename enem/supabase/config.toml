@@ -7,3 +7,7 @@ verify_jwt = false
 
 [functions.mercadopago-webhook]
 verify_jwt = false
+
+[functions.study-content]
+# The handler verifies Auth and production access before returning private content.
+verify_jwt = false

@@ -1,3 +1,5 @@
+// Cloudflare serves normal ES modules; preserve relative chunk imports in the commercial edition.
+if(process.env.CF_PAGES==='1'){console.log('Build comercial Cloudflare: chunks preservados em dist/.');process.exit(0);}
 import {inlinePages} from './inline-pages.mjs';
 import {readFile,writeFile} from 'node:fs/promises';
 const html=await readFile('dist/index.html','utf8');

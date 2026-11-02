@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
+    "build": "node scripts/prepare-commercial-content.mjs && vite build",
+    "build:sales": "node scripts/prepare-commercial-content.mjs && vite build --mode commercial --base=./",
     "preview": "vite preview --host 0.0.0.0",
     "test": "node --test tests/*.test.js",
-    "build:pages": "vite build --base=./ && node scripts/build-pages.mjs",
+    "build:pages": "node scripts/prepare-commercial-content.mjs && vite build --base=./ && node scripts/build-pages.mjs",
     "start": "node server/app.js",
     "dev:server": "node --watch server/app.js",
     "test:e2e": "playwright test",
