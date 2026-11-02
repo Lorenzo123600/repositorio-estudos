@@ -1,0 +1,5 @@
+import {bank} from './activities.js';
+const open=exam=>exam&&!exam.finished&&Date.now()<exam.deadline;
+export function selectExamAnswer(exam,id,answer){if(!open(exam)||!exam.ids.includes(id)||!bank[id]||!Number.isInteger(answer)||answer<0||answer>=bank[id].options.length)return false;exam.draftAnswers??={};exam.draftAnswers[id]=answer;return true}
+export function confirmExamAnswer(exam,id){if(!open(exam)||!exam.ids.includes(id)||!bank[id])return false;const answer=exam.draftAnswers?.[id];if(!Number.isInteger(answer)||answer<0||answer>=bank[id].options.length)return false;exam.answers[id]=answer;return true}
+export function examJourney(exam){const confirmed=exam.ids.filter(id=>exam.answers[id]!==undefined),unconfirmed=exam.ids.filter(id=>exam.draftAnswers?.[id]!==undefined&&exam.draftAnswers[id]!==exam.answers[id]),missing=exam.ids.filter(id=>exam.answers[id]===undefined),pending=exam.ids.filter(id=>missing.includes(id)||unconfirmed.includes(id));return {confirmed,unconfirmed,missing,pending}}

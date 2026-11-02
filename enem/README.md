@@ -131,3 +131,11 @@ Novos dias só podem ser marcados como concluídos quando todos os anteriores es
 Alterar a duração ou a data inicial recalcula o roteiro ao sair do campo; Aplicar meu plano também funciona. O painel mostra dias concluídos/restantes, atividades do roteiro atual e planos finalizados no histórico guardado. Cada conclusão informa as atividades terminadas. Ao completar tudo, há um aviso persistente com sugestões de novos ciclos de 7, 14 ou 30 dias. As sugestões repetem o roteiro-base com agrupamento ou revisões espaçadas; não são conteúdos novos gerados automaticamente.
 
 Um novo ciclo só começa após seleção e confirmação explícitas. O anterior é arquivado em `planHistory` (até 20 registros recentes). Respostas, redações, conquistas e demais estudos ficam preservados; apenas as atividades do ciclo ativo começam em zero. O histórico é salvo e sincronizado junto ao restante do progresso, sem migração do banco.
+
+## Jornada dos simulados
+
+Durante a sessão, selecionar uma alternativa salva um rascunho em `activeExam.draftAnswers`. **Confirmar resposta** registra a escolha em `activeExam.answers` e libera Próxima. Para seguir sem confirmar, use Deixar para depois ou o mapa; as seleções permanecem salvas ao recarregar e sincronizam pela conta. Ao alterar uma confirmação anterior, ela continua válida até confirmar a nova escolha.
+
+O mapa distingue respostas confirmadas, seleções pendentes e questões sem resposta. Revisar e finalizar apresenta as pendências e permite voltar à primeira delas. A finalização exige confirmação explícita; somente as respostas confirmadas entram na pontuação. Quando o tempo termina, vale a mesma regra. Sessões antigas, cujas escolhas eram salvas diretamente em `answers`, mantêm suas respostas como confirmadas.
+
+Capitu e Guapa oferecem orientação sobre o fluxo e o ritmo, sem dicas do conteúdo ou sinalização de acerto durante a prova. A correção e o filtro Para revisar aparecem após finalizar. Cada sessão continua mostrando acertos, sem estimativa de nota TRI.
