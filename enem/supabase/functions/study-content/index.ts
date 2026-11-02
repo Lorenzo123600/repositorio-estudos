@@ -1,6 +1,14 @@
 import {createClient} from 'npm:@supabase/supabase-js@2.118.0';
 import {studyContentHandler} from '../_shared/study-content.js';
-import content from '../_shared/study-content.json' with {type:'json'};
+import payload from '../_shared/study-content.payload.json' with {type:'json'};
+
+if(payload.encoding!=='gzip-base64')throw Error('invalid_study_content');
+const bytes=Uint8Array.from(atob(payload.data),character=>character.charCodeAt(0));
+const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+const json=await new Response(stream).text();
+const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(json))),byte=>byte.toString(16).padStart(2,'0')).join('');
+if(hash!==payload.sha256)throw Error('invalid_study_content');
+const content=JSON.parse(json);
 
 const url=Deno.env.get('SUPABASE_URL')!;
 const service=createClient(url,Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,{auth:{persistSession:false,autoRefreshToken:false}});
