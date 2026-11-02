@@ -286,7 +286,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2019/11/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 7\nE\t preservação dos significados próprios das práticas corporais em cada cultura."
+        "text": "E\t preservação dos significados próprios das práticas corporais em cada cultura."
       }
     ],
     "officialAnswer": "D",
@@ -405,17 +405,17 @@
         },
         {
           "file": "enem-assets/official/2019/11/E.webp",
-          "sha256": "4a1a84e8cd28b6b6ba97ffc51273b51b2b14bbe73fe3b9804ad18360c35b0cab",
+          "sha256": "1631961492bcbc37b1bdd21ded7a09c1a7fa5548f9ce6aa9753250b39003dad3",
           "page": 7,
           "rect": [
             21.281890869140625,
             723.5237426757812,
             565.9290161132812,
-            752.5280151367188
+            743.1016845703125
           ],
           "role": "E",
           "width": 1090,
-          "height": 59
+          "height": 40
         }
       ]
     },
@@ -712,7 +712,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2019/27/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 13\nE\t realização de atividades físicas regulares."
+        "text": "E\t realização de atividades físicas regulares."
       }
     ],
     "officialAnswer": "C",
@@ -831,17 +831,17 @@
         },
         {
           "file": "enem-assets/official/2019/27/E.webp",
-          "sha256": "fa9c0bf19fe828bccdfa29830969292b8298940ace80ce6fb94d09b8bc3d6d64",
+          "sha256": "46c394e5e1ef10e77adea04da567a5e5986dfebf04d465d06b07a4977b0e9d98",
           "page": 13,
           "rect": [
             21.281890869140625,
             722.1221313476562,
             565.9290161132812,
-            752.5280151367188
+            743.1016845703125
           ],
           "role": "E",
           "width": 1090,
-          "height": 62
+          "height": 43
         }
       ]
     },
@@ -1138,7 +1138,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2019/60/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 24\nE\t permanência dos elementos arquitetônicos de proteção."
+        "text": "E\t permanência dos elementos arquitetônicos de proteção."
       }
     ],
     "officialAnswer": "E",
@@ -1257,17 +1257,17 @@
         },
         {
           "file": "enem-assets/official/2019/60/E.webp",
-          "sha256": "6bd9e27a7a209221974b1289d09e769ef1f7ec6858bd938467e5d2b2dff33d82",
+          "sha256": "fdb053e18ef6ff035115255e2d20d79633f5b28499f7e7b0a17941a540b48f6e",
           "page": 24,
           "rect": [
             22.19689178466797,
             724.3575439453125,
             565.9290161132812,
-            752.5280151367188
+            742.9473266601562
           ],
           "role": "E",
           "width": 1088,
-          "height": 58
+          "height": 38
         }
       ]
     },
@@ -1777,7 +1777,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2019/96/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 3\nE\t Estratégia 2, pois essas espécies apresentam um tamanho populacional constante, o que propicia uma \nrecolonização mais estável da área desmatada."
+        "text": "E\t Estratégia 2, pois essas espécies apresentam um tamanho populacional constante, o que propicia uma \nrecolonização mais estável da área desmatada."
       }
     ],
     "officialAnswer": "C",
@@ -1896,17 +1896,17 @@
         },
         {
           "file": "enem-assets/official/2019/96/E.webp",
-          "sha256": "39e1fc36a783dc7bc060877ac8d531b05f448fef2454dfcd8580026999cd04be",
+          "sha256": "15ed59f5f3c4dff2355334f688bdd739fe175bae896a9b3dbed7602cd664a326",
           "page": 3,
           "rect": [
             21.281999588012695,
             715.4692993164062,
             565.9290161132812,
-            752.5280151367188
+            743.1016845703125
           ],
           "role": "E",
           "width": 1090,
-          "height": 76
+          "height": 57
         }
       ]
     },
@@ -2416,7 +2416,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2019/112/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 8\nE\t a cadeia carbônica é mais difícil de ser quebrada."
+        "text": "E\t a cadeia carbônica é mais difícil de ser quebrada."
       }
     ],
     "officialAnswer": "D",
@@ -2535,17 +2535,17 @@
         },
         {
           "file": "enem-assets/official/2019/112/E.webp",
-          "sha256": "73dd5d08dd6b0dd3be3f32d46fd7893f422c69d0536046b044fcce60a6ba6b22",
+          "sha256": "bcdbff86c5d863860aec16fa49c84275cb91fe93e913a4023d6f5261723e6d5c",
           "page": 8,
           "rect": [
             21.763900756835938,
             724.6802978515625,
             565.9290161132812,
-            752.5280151367188
+            742.9473266601562
           ],
           "role": "E",
           "width": 1089,
-          "height": 57
+          "height": 37
         }
       ]
     },
@@ -2842,7 +2842,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2019/120/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 11\nE\t átomos de carbonos de hibridação sp3."
+        "text": "E\t átomos de carbonos de hibridação sp3."
       }
     ],
     "officialAnswer": "A",
@@ -2961,17 +2961,17 @@
         },
         {
           "file": "enem-assets/official/2019/120/E.webp",
-          "sha256": "c05074e41d3e5cb4d4d82d4d2a84147b7eb823f377747a0f92d1cb87799eb95e",
+          "sha256": "cefa9f27576056691f6f2130f7bc719dad6727426d12abf134a1706a8b5f3fae",
           "page": 11,
           "rect": [
             21.28190040588379,
             674.4461059570312,
             565.9290161132812,
-            752.5280151367188
+            702.4854125976562
           ],
           "role": "E",
           "width": 1090,
-          "height": 158
+          "height": 57
         }
       ]
     },
@@ -3268,7 +3268,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2019/125/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 13\nE\t 5."
+        "text": "E\t 5."
       }
     ],
     "officialAnswer": "C",
@@ -3387,17 +3387,17 @@
         },
         {
           "file": "enem-assets/official/2019/125/E.webp",
-          "sha256": "aca41dc646c972618a1e2799f424bd2b2b6687ba1ec465b37f63bb37a5abbd13",
+          "sha256": "a2951f1591036565c592f73dc119b31d26bfd3990f9421874976a6873039427a",
           "page": 13,
           "rect": [
             21.28190040588379,
             725.6323852539062,
             565.9290161132812,
-            752.5280151367188
+            743.1016845703125
           ],
           "role": "E",
           "width": 1090,
-          "height": 55
+          "height": 36
         }
       ]
     },
@@ -3694,7 +3694,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2019/174/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 28\nE\t V"
+        "text": "E\t V"
       }
     ],
     "officialAnswer": "C",
@@ -3813,17 +3813,17 @@
         },
         {
           "file": "enem-assets/official/2019/174/E.webp",
-          "sha256": "8a073d3f74e2d2582eb19765bf8e3f2cb063526f25c4a8cb6e5a71f4420110b3",
+          "sha256": "948852468f77883493e3abbe284e7f42d9969a6a6842e71052d0f7f158e54a9e",
           "page": 28,
           "rect": [
             21.7637996673584,
             611.18505859375,
             565.9290161132812,
-            752.5280151367188
+            742.9473266601562
           ],
           "role": "E",
           "width": 1089,
-          "height": 284
+          "height": 264
         }
       ]
     },
@@ -3907,7 +3907,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2019/178/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 30\nE\t 71."
+        "text": "E\t 71."
       }
     ],
     "officialAnswer": "B",
@@ -4026,17 +4026,17 @@
         },
         {
           "file": "enem-assets/official/2019/178/E.webp",
-          "sha256": "9f7205f7ccb60cdff01a86b5a3606fca244f642d9eb7b002341e19e36572e312",
+          "sha256": "5b65d2fc04133fd86210b1c1faea157b554ab4ed71de463a41ec0e5fe0d5baf8",
           "page": 30,
           "rect": [
             21.7637996673584,
             597.6638793945312,
             565.9290161132812,
-            752.5280151367188
+            742.9473266601562
           ],
           "role": "E",
           "width": 1089,
-          "height": 311
+          "height": 291
         }
       ]
     },
@@ -4333,7 +4333,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2019/180/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 31\nE\t Reino Unido."
+        "text": "E\t Reino Unido."
       }
     ],
     "officialAnswer": "A",
@@ -4452,17 +4452,17 @@
         },
         {
           "file": "enem-assets/official/2019/180/E.webp",
-          "sha256": "b67734cfc038be01041f768d458843bd272fe88804587e8a7902af30062e1cc4",
+          "sha256": "c73ee0c0a90c8b0056a1295925a8174e4b51af161277f887724949cbdd4943e0",
           "page": 31,
           "rect": [
             21.281999588012695,
             725.3297119140625,
             565.9290161132812,
-            752.5280151367188
+            743.1016845703125
           ],
           "role": "E",
           "width": 1090,
-          "height": 56
+          "height": 37
         }
       ]
     },

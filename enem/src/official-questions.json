@@ -140,17 +140,17 @@
         },
         {
           "file": "enem-assets/official/2023/8/E.webp",
-          "sha256": "f57824cdccf61ca47ea01850dd9dd6fb7426fb8bec61b996b513557f18f3166c",
+          "sha256": "9babd960328ad789c7eb2ae340cfeaa084fb1f1e10595a4cce2f6c09abd40491",
           "page": 6,
           "rect": [
             285.4645080566406,
             439.7059326171875,
             546.1339111328125,
-            752.5280151367188
+            476.66522216796875
           ],
           "role": "E",
           "width": 523,
-          "height": 627
+          "height": 75
         }
       ]
     },
@@ -201,7 +201,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/8/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t à distância territorial entre os falantes do português \nque vivem em Portugal e no Brasil."
+        "text": "E\t\nE\t à distância territorial entre os falantes do português \nque vivem em Portugal e no Brasil."
       }
     ],
     "officialAnswer": "C",
@@ -445,17 +445,17 @@
         },
         {
           "file": "enem-assets/official/2023/15/E.webp",
-          "sha256": "51004612b551f8d69a80705f5bae1a40b9dd811c7062be65ab9c8b53f25b9367",
+          "sha256": "585a14dd6452f4aaa760ae18d773af58e091813ca95ce1af66d46671a58bdca3",
           "page": 9,
           "rect": [
             285.4645080566406,
             473.67132568359375,
             546.1339111328125,
-            752.5280151367188
+            498.93060302734375
           ],
           "role": "E",
           "width": 523,
-          "height": 559
+          "height": 51
         }
       ]
     },
@@ -506,7 +506,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/15/E.webp",
-        "text": "9\nDERNO 1 • AZUL–\nE\t\nE\t inviabiliza o estudo da língua do povo Tikuna."
+        "text": "E\t\nE\t inviabiliza o estudo da língua do povo Tikuna."
       }
     ],
     "officialAnswer": "B",
@@ -719,17 +719,17 @@
         },
         {
           "file": "enem-assets/official/2023/13/E.webp",
-          "sha256": "ec4a0237ab798d66ef55cd77df3dd539d3762477e0420d7b226625346cad5703",
+          "sha256": "d26f923c89326f3851619e131f25af6e602d606bd7cff9fa3c85f491dc0707f2",
           "page": 8,
           "rect": [
             285.4645080566406,
             450.21771240234375,
             546.1339111328125,
-            752.5280151367188
+            475.4770202636719
           ],
           "role": "E",
           "width": 523,
-          "height": 606
+          "height": 51
         }
       ]
     },
@@ -780,7 +780,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/13/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t disponibilidade para a exploração do prazer efêmero."
+        "text": "E\t\nE\t disponibilidade para a exploração do prazer efêmero."
       }
     ],
     "officialAnswer": "C",
@@ -931,17 +931,17 @@
         },
         {
           "file": "enem-assets/official/2023/18/E.webp",
-          "sha256": "8c7289ada5998ab49f5d565cb1803be974a0729bf882c23bd4de5c99d1cd7c04",
+          "sha256": "aeb96e7b5aaf5398c2adb0d8652f116b3d174b3cc9a2a97d5a6350588846b272",
           "page": 10,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },
@@ -992,7 +992,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/18/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t crítica à finalidade comercial das notícias."
+        "text": "E\t\nE\t crítica à finalidade comercial das notícias."
       }
     ],
     "officialAnswer": "B",
@@ -1810,17 +1810,17 @@
         },
         {
           "file": "enem-assets/official/2023/61/E.webp",
-          "sha256": "f04b5cafb44483652063e4b654117bdc6e816da617fb0bab4c01d04f436eed44",
+          "sha256": "4fbf87232dbb8bafc4c4fc526505aa428bcfc5f9373c047313b8e482e8382d8d",
           "page": 23,
           "rect": [
             285.4645080566406,
             674.064208984375,
             546.1339111328125,
-            752.5280151367188
+            699.323486328125
           ],
           "role": "E",
           "width": 523,
-          "height": 158
+          "height": 51
         }
       ]
     },
@@ -1871,7 +1871,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/61/E.webp",
-        "text": "23\nDERNO 1 • AZUL–\nE\t\nE\t Invisibilidade do profissional."
+        "text": "E\t\nE\t Invisibilidade do profissional."
       }
     ],
     "officialAnswer": "E",
@@ -2327,17 +2327,17 @@
         },
         {
           "file": "enem-assets/official/2023/100/E.webp",
-          "sha256": "6735d767d093365ee14b8a6b63e3c3a65e938722e38fe6643acb5f24600a3dce",
+          "sha256": "429f2dd299c54ac48d40ba059dad03421004a03b2e5e54b11cd057302bffa94c",
           "page": 3,
           "rect": [
             285.4645080566406,
             653.1668701171875,
             546.1339111328125,
-            752.5280151367188
+            678.4263305664062
           ],
           "role": "E",
           "width": 523,
-          "height": 200
+          "height": 51
         }
       ]
     },
@@ -2388,7 +2388,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/100/E.webp",
-        "text": "3\nDERNO 7 • AZUL\nE\t\nE\t v ≠ 0 para baixo e a ≠ 0 para baixo."
+        "text": "E\t\nE\t v ≠ 0 para baixo e a ≠ 0 para baixo."
       }
     ],
     "officialAnswer": "C",
@@ -2539,17 +2539,17 @@
         },
         {
           "file": "enem-assets/official/2023/105/E.webp",
-          "sha256": "cb993672aca69ab425678b4238cd73249291aae83f55e3bf5fa110cd809ce471",
+          "sha256": "c1ca8ac107b2c5bc8e185db1b192b2a1e03ed86c2aed0d8602dd2801221906d5",
           "page": 4,
           "rect": [
             285.4645080566406,
             609.0369873046875,
             546.1241455078125,
-            752.5280151367188
+            634.2963256835938
           ],
           "role": "E",
           "width": 523,
-          "height": 288
+          "height": 51
         }
       ]
     },
@@ -2600,7 +2600,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/105/E.webp",
-        "text": "DERNO 7 • AZUL\nDERNO 7 • AZUL\nE\t\nE\t nutrição das raízes."
+        "text": "E\t\nE\t nutrição das raízes."
       }
     ],
     "officialAnswer": "E",
@@ -3299,17 +3299,17 @@
         },
         {
           "file": "enem-assets/official/2023/135/E.webp",
-          "sha256": "72ee76c76bb0200dc6597837f8758b9450afe0485e6982cc1c67ce6894c3d74c",
+          "sha256": "494df3c834c7c2ec363b81f096d1e52484c6865709608c2632367dc60d9a15fa",
           "page": 15,
           "rect": [
             285.4645080566406,
             601.1638793945312,
             546.1339111328125,
-            752.5280151367188
+            626.4232177734375
           ],
           "role": "E",
           "width": 523,
-          "height": 304
+          "height": 51
         }
       ]
     },
@@ -3360,7 +3360,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/135/E.webp",
-        "text": "15\nDERNO 7 • AZUL\nE\t\nE\t 1 800."
+        "text": "E\t\nE\t 1 800."
       }
     ],
     "officialAnswer": "D",
@@ -3966,17 +3966,17 @@
         },
         {
           "file": "enem-assets/official/2023/138/E.webp",
-          "sha256": "38e83f157c6a3337612222e8de332f50a6cbefb5626c449705254e9384dd9671",
+          "sha256": "b7e6bac2e95d08408d53dde1115a9ceb214c7d926c6c8be473acc582b38d94e4",
           "page": 16,
           "rect": [
             285.4645080566406,
             681.753173828125,
             546.1241455078125,
-            752.5280151367188
+            707.0123901367188
           ],
           "role": "E",
           "width": 523,
-          "height": 143
+          "height": 52
         }
       ]
     },
@@ -4027,7 +4027,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/138/E.webp",
-        "text": "DERNO 7 • AZUL\nE\t\nE\t 80"
+        "text": "E\t\nE\t 80"
       }
     ],
     "officialAnswer": "C",
@@ -4633,17 +4633,17 @@
         },
         {
           "file": "enem-assets/official/2023/160/E.webp",
-          "sha256": "cf3e49da0a33bb903e1e92c7ba4df345c41f87665546375f51f22619c697ec93",
+          "sha256": "0bd6d3c7da7fd58fb3a608330c9fb342a730105e77e71b05afa717ad33a34213",
           "page": 23,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1241760253906,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },
@@ -4694,7 +4694,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/160/E.webp",
-        "text": "23\nDERNO 7 • AZUL\nE\t\nE\t tipo III, pois tem maior quantidade de caracteres."
+        "text": "E\t\nE\t tipo III, pois tem maior quantidade de caracteres."
       }
     ],
     "officialAnswer": "A",
@@ -4876,17 +4876,17 @@
         },
         {
           "file": "enem-assets/official/2023/11/E.webp",
-          "sha256": "e36399793f84b7bddb70ba899302c167678a4ad0e35978a5abc0d033b6bdb5b8",
+          "sha256": "a5dec4ee97ef95f30fd43748135d66ae3395e91c99ea57b8245538203390fb4d",
           "page": 7,
           "rect": [
             285.4645080566406,
             619.5485229492188,
             546.1339111328125,
-            752.5280151367188
+            656.5076904296875
           ],
           "role": "E",
           "width": 523,
-          "height": 267
+          "height": 75
         }
       ]
     },
@@ -4937,7 +4937,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/11/E.webp",
-        "text": "7\nDERNO 1 • AZUL–\nE\t\nE\t restringir os problemas da violência no trânsito a \naspectos emocionais."
+        "text": "E\t\nE\t restringir os problemas da violência no trânsito a \naspectos emocionais."
       }
     ],
     "officialAnswer": "D",
@@ -5119,17 +5119,17 @@
         },
         {
           "file": "enem-assets/official/2023/42/E.webp",
-          "sha256": "377bbd79401366428e874c0fe69dbff45c580908b07d78d3fd08ef27ce5924a6",
+          "sha256": "7cf0fddf3988c314212b3d09fb2ff6c64be4a621f817223535db91c665dff7a1",
           "page": 17,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },
@@ -5180,7 +5180,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/42/E.webp",
-        "text": "17\nDERNO 1 • AZUL–\nE\t\nE\t desigualdade entre classes sociais."
+        "text": "E\t\nE\t desigualdade entre classes sociais."
       }
     ],
     "officialAnswer": "E",
@@ -5486,17 +5486,17 @@
         },
         {
           "file": "enem-assets/official/2023/31/E.webp",
-          "sha256": "281615ce98ec17cd0a6031b03c9b197d0976a20ca0da058c4dd66f610910dd9a",
+          "sha256": "a5bbfa871cb0f96bca014e90c1ddcfc71886473db8ebcfe96393f222b7fb39fe",
           "page": 14,
           "rect": [
             285.4645080566406,
             573.90283203125,
             546.1339111328125,
-            752.5280151367188
+            599.1619873046875
           ],
           "role": "E",
           "width": 523,
-          "height": 359
+          "height": 52
         }
       ]
     },
@@ -5547,7 +5547,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/31/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t condicionar a existência da paixão a espaços idealizados."
+        "text": "E\t\nE\t condicionar a existência da paixão a espaços idealizados."
       }
     ],
     "officialAnswer": "C",
@@ -5729,17 +5729,17 @@
         },
         {
           "file": "enem-assets/official/2023/69/E.webp",
-          "sha256": "19a47d12b771ebaa3c588fdebb6dee69c3a3c37c89d0cf2ae9780f79cf1ec560",
+          "sha256": "ffb51dff6ab4c6b81935936047c3df7ff344d302804194bfde46d37592845c32",
           "page": 25,
           "rect": [
             285.4645080566406,
             583.8524169921875,
             546.1339111328125,
-            752.5280151367188
+            609.1116943359375
           ],
           "role": "E",
           "width": 523,
-          "height": 339
+          "height": 52
         }
       ]
     },
@@ -5790,7 +5790,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/69/E.webp",
-        "text": "25\nDERNO 1 • AZUL–\nE\t\nE\t oposição aos princípios hierárquicos."
+        "text": "E\t\nE\t oposição aos princípios hierárquicos."
       }
     ],
     "officialAnswer": "D",
@@ -6308,17 +6308,17 @@
         },
         {
           "file": "enem-assets/official/2023/80/E.webp",
-          "sha256": "19eea30e6ea54cca7feaeb90b2f641e89b6a6ba96a42720fdbce2cb14e3d1d57",
+          "sha256": "39a7a1f0ab2b5b3c633bb9bb4b63b9404c7561653f64318b44a03681bace35e2",
           "page": 28,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },
@@ -6369,7 +6369,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/80/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t estimular a oferta de mão de obra."
+        "text": "E\t\nE\t estimular a oferta de mão de obra."
       }
     ],
     "officialAnswer": "A",
@@ -6794,17 +6794,17 @@
         },
         {
           "file": "enem-assets/official/2023/131/E.webp",
-          "sha256": "6afcc13c00da3fb0e57510490bcf9c564800f2895b7f1551eb83c7988fbd0a50",
+          "sha256": "f82c8108b9bccd2a5fb155ed6a6c3b4ea8e05d984bae198f5e0cd6d1723db128",
           "page": 13,
           "rect": [
             285.4645080566406,
             629.18701171875,
             546.1339111328125,
-            752.5280151367188
+            654.4462890625
           ],
           "role": "E",
           "width": 523,
-          "height": 248
+          "height": 51
         }
       ]
     },
@@ -6855,7 +6855,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/131/E.webp",
-        "text": "13\nDERNO 7 • AZUL\nE\t\nE\t maior temperatura de congelamento."
+        "text": "E\t\nE\t maior temperatura de congelamento."
       }
     ],
     "officialAnswer": "A",
@@ -7006,17 +7006,17 @@
         },
         {
           "file": "enem-assets/official/2023/117/E.webp",
-          "sha256": "f797b57c359d4e106e2cc501c3fa0521679d3d8826e547870fd6bf090ed73769",
+          "sha256": "77630575097717be78e29e672a8570f0733c2513dd2e0c645b769c55908ce6b8",
           "page": 8,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },
@@ -7067,7 +7067,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/117/E.webp",
-        "text": "DERNO 7 • AZUL\nDERNO 7 • AZUL\nE\t\nE\t 1 000"
+        "text": "E\t\nE\t 1 000"
       }
     ],
     "officialAnswer": "A",
@@ -7430,17 +7430,17 @@
         },
         {
           "file": "enem-assets/official/2023/120/E.webp",
-          "sha256": "a38e9a218cd584a34689075e5a6841dfe2fba6e4923631b6dbe4ec0811f8898f",
+          "sha256": "d1bd59d1aa8627233f4cb616a4960abe8c9132813a1b0719bf0c875fcd96ccb9",
           "page": 9,
           "rect": [
             285.4645080566406,
             433.5600280761719,
             546.1339111328125,
-            752.5280151367188
+            458.9753112792969
           ],
           "role": "E",
           "width": 523,
-          "height": 639
+          "height": 51
         }
       ]
     },
@@ -7491,7 +7491,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/120/E.webp",
-        "text": "9\nDERNO 7 • AZUL\nE\t\nE\t mais intenso para L 1 e menos intenso para L3."
+        "text": "E\t\nE\t mais intenso para L 1 e menos intenso para L3."
       }
     ],
     "officialAnswer": "C",

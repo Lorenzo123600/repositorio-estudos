@@ -73,7 +73,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/5-ingles/E.webp",
-        "text": "3\nDERNO 1 • AZUL–\nE\t\nE\t salientar o espírito de cooperação."
+        "text": "E\t\nE\t salientar o espírito de cooperação."
       }
     ],
     "officialAnswer": "B",
@@ -192,17 +192,17 @@
         },
         {
           "file": "enem-assets/official/2023/5-ingles/E.webp",
-          "sha256": "664aca43b163c4f5c3d46aba8c31a8dd0cc16490e8cbb95f307aa1a7f46ffcac",
+          "sha256": "6630da224c53d7dfd97b3bb2259511fed0b470c26d4893ffd6788fb990f5381f",
           "page": 3,
           "rect": [
             285.4645080566406,
             456.35589599609375,
             546.1339111328125,
-            752.5280151367188
+            481.6152038574219
           ],
           "role": "E",
           "width": 523,
-          "height": 594
+          "height": 52
         }
       ]
     },
@@ -286,7 +286,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/34/E.webp",
-        "text": "15\nDERNO 1 • AZUL–\nE\t\nE\t oposição entre o resgate de tradições e a efemeridade \nda vida humana."
+        "text": "E\t\nE\t oposição entre o resgate de tradições e a efemeridade \nda vida humana."
       }
     ],
     "officialAnswer": "C",
@@ -405,17 +405,17 @@
         },
         {
           "file": "enem-assets/official/2023/34/E.webp",
-          "sha256": "19a1083c66e2d91d0025a41489f292f03336bbbfab6a8e46c93963c0e616a7aa",
+          "sha256": "38afe5129b33fae133f00d14d08301d1df6dfc531dc55a1b0332f0b62bfb90cd",
           "page": 15,
           "rect": [
             285.4645080566406,
             709.9639282226562,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 87
+          "height": 62
         }
       ]
     },
@@ -498,7 +498,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/65/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t reciprocidade de tratamento."
+        "text": "E\t\nE\t reciprocidade de tratamento."
       }
     ],
     "officialAnswer": "A",
@@ -617,17 +617,17 @@
         },
         {
           "file": "enem-assets/official/2023/65/E.webp",
-          "sha256": "b8ed22d9480a8bf2cac490c5a68552fca2fbad86102681093086d27a9a44169d",
+          "sha256": "f5e27f83c7f7428622e6ab34599d7682fb94d3c51346e0bdd7c9f0070c7df23c",
           "page": 24,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },

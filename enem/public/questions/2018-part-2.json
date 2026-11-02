@@ -286,7 +286,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/20/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 9\nE\t apego aos protocolos de conduta segundo os gêneros."
+        "text": "E\t apego aos protocolos de conduta segundo os gêneros."
       }
     ],
     "officialAnswer": "B",
@@ -405,17 +405,17 @@
         },
         {
           "file": "enem-assets/official/2018/20/E.webp",
-          "sha256": "eb5918f6b5b7dcb22e7dbea3b3c246b2684c3854c1330c25dccb688946f11b28",
+          "sha256": "4db6e2f1a4ce8882dc2cffdf3b24af79bc2cd9af016802870601bcc507049899",
           "page": 9,
           "rect": [
             29.095703125,
             603.9363403320312,
             580.102294921875,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 1103,
-          "height": 299
+          "height": 280
         }
       ]
     },
@@ -712,7 +712,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/83/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 29\nE\t interpretações da realidade circundante."
+        "text": "E\t interpretações da realidade circundante."
       }
     ],
     "officialAnswer": "D",
@@ -831,17 +831,17 @@
         },
         {
           "file": "enem-assets/official/2018/83/E.webp",
-          "sha256": "cc55d3d4389326fabf88a9486d1d413d65a6962e10c6835732841fb21160d331",
+          "sha256": "0c6f2a0ec6a0473b90cca890c8f72b47f42b0699f825d851f86f2d1b7b833d4b",
           "page": 29,
           "rect": [
             28.84571075439453,
             725.4807739257812,
             580.102294921875,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 1104,
-          "height": 56
+          "height": 37
         }
       ]
     },
@@ -1564,7 +1564,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/92/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 2\nE\t 67."
+        "text": "E\t 67."
       }
     ],
     "officialAnswer": "D",
@@ -1683,17 +1683,17 @@
         },
         {
           "file": "enem-assets/official/2018/92/E.webp",
-          "sha256": "886baa0fd6d1b445fd39118a8b6ef6235fd57e86dda5d6e5fcab290f16fa0841",
+          "sha256": "3c656c59def626ea648f3fed767fafc95a628034e858dd81e6d2d8c5531708a1",
           "page": 2,
           "rect": [
             28.851783752441406,
             724.9699096679688,
             580.102783203125,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 1104,
-          "height": 57
+          "height": 38
         }
       ]
     },
@@ -1990,7 +1990,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/107/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 6\nE\t modificação do genoma decorrente da transgenia."
+        "text": "E\t modificação do genoma decorrente da transgenia."
       }
     ],
     "officialAnswer": "C",
@@ -2109,17 +2109,17 @@
         },
         {
           "file": "enem-assets/official/2018/107/E.webp",
-          "sha256": "d32933c5d4c902f9f7b6224bdf464563b65f6ac5aa177bfe9fdbe46f63b0092d",
+          "sha256": "4a2e0f3be7a1e0896c3df0d91ba13b0bede9ed2be98e32864599dd82b05c2409",
           "page": 6,
           "rect": [
             28.8551025390625,
             726.100830078125,
             580.102783203125,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 1104,
-          "height": 54
+          "height": 35
         }
       ]
     },
@@ -2416,7 +2416,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/117/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 9\nE\t V"
+        "text": "E\t V"
       }
     ],
     "officialAnswer": "D",
@@ -2535,17 +2535,17 @@
         },
         {
           "file": "enem-assets/official/2018/117/E.webp",
-          "sha256": "4134a425b0e508d0356ad964a5515c10dfc0c8c6f43031304c939d969d303f1f",
+          "sha256": "5b580033e06330e60059bb096d6ee83b190e406640c8a8755f3d663dfc96adb5",
           "page": 9,
           "rect": [
             28.85405731201172,
             724.5790405273438,
             580.102783203125,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 1104,
-          "height": 57
+          "height": 38
         }
       ]
     },
@@ -3055,7 +3055,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/128/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 13\nE\t 0 < VB < VA; o carro A se move para a esquerda."
+        "text": "E\t 0 < VB < VA; o carro A se move para a esquerda."
       }
     ],
     "officialAnswer": "B",
@@ -3174,17 +3174,17 @@
         },
         {
           "file": "enem-assets/official/2018/128/E.webp",
-          "sha256": "cf182551f007dd4fd96e69c14d5e85d32be24810fa011d500fc590d318c449f1",
+          "sha256": "35f7eeee0938a4476283dde628f7b70f0f73379da10a3fe2c6f40e9781b37209",
           "page": 13,
           "rect": [
             28.8551025390625,
             723.8226928710938,
             580.102783203125,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 1104,
-          "height": 59
+          "height": 40
         }
       ]
     },
@@ -3268,7 +3268,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/149/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 20\nE\t rebaixado em 50 cm."
+        "text": "E\t rebaixado em 50 cm."
       }
     ],
     "officialAnswer": "A",
@@ -3387,17 +3387,17 @@
         },
         {
           "file": "enem-assets/official/2018/149/E.webp",
-          "sha256": "ddc9ddd3a0acfcec1c0502fd5d40b03d5ac29c1a87ff211b6c569e4d6a6b023f",
+          "sha256": "5ed446694ba9559879db36caa9ba1867fbc6ade8fd81abcc50fb4db3da22a5ef",
           "page": 20,
           "rect": [
             28.855201721191406,
             544.6049194335938,
             580.102783203125,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 1104,
-          "height": 417
+          "height": 398
         }
       ]
     },

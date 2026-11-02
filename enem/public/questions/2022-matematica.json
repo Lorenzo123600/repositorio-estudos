@@ -413,17 +413,17 @@
         },
         {
           "file": "enem-assets/official/2022/138/E.webp",
-          "sha256": "36e18f8e6fd0ac0fead865f0062d7e02513f30169d1ebc9b1f6414ca8de37b4a",
+          "sha256": "66b4c2cda9f39fc7faa8727ead66d8fe7da0883e4bffde3d507394f77da146b1",
           "page": 17,
           "rect": [
             285.4645080566406,
             432.110107421875,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 642
+          "height": 619
         }
       ]
     },
@@ -463,7 +463,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/138/E.webp",
-        "text": "17\n7 - AZUL - 1ª Aplicação\nE\t\nE\t 5,5"
+        "text": "E\t\nE\t 5,5"
       }
     ],
     "officialAnswer": "D",
@@ -841,17 +841,17 @@
         },
         {
           "file": "enem-assets/official/2022/140/E.webp",
-          "sha256": "5a5bb77c0ba36335b139822fdf25cab98b1d5e23183d540490e8409aec7932f4",
+          "sha256": "60b4b63cff71403bc097f41a8d17354c06d9304293d3ef93c9ab76822147c32f",
           "page": 18,
           "rect": [
             23.181100845336914,
             666.8524169921875,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 157
+          "height": 150
         }
       ]
     },
@@ -1529,17 +1529,17 @@
         },
         {
           "file": "enem-assets/official/2022/146/E.webp",
-          "sha256": "d7905b64a7743773d2342e774a4b98354cff55b21f039446b92076092e8eaf5a",
+          "sha256": "5e60923c58519552d1cdd777356c3c321662098c785019afc0220ecd6fe42498",
           "page": 20,
           "rect": [
             23.181100845336914,
             599.18701171875,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 292
+          "height": 285
         }
       ]
     },
@@ -1743,17 +1743,17 @@
         },
         {
           "file": "enem-assets/official/2022/147/E.webp",
-          "sha256": "de5a6226c905f85375a72db4029b766730663b2689659fff08261cd58a6b82c1",
+          "sha256": "ed16ad114e9e162cc3a537003efdb9134fba4745b799abb12a5f46085f0d468b",
           "page": 20,
           "rect": [
             285.4645080566406,
             678.61376953125,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 149
+          "height": 126
         }
       ]
     },
@@ -1793,7 +1793,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/147/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\nE\t\nE\t excelente."
+        "text": "E\t\nE\t excelente."
       }
     ],
     "officialAnswer": "C",
@@ -2002,17 +2002,17 @@
         },
         {
           "file": "enem-assets/official/2022/149/E.webp",
-          "sha256": "8b3bdc565a3371b59610ae10cf718c366357e4d61b07bae5ab2144c9d6165063",
+          "sha256": "ee46076e6e2f7e013a60dc5d27a610e9e5f32e7d63c4abfdd06affdc5ad1ce1b",
           "page": 21,
           "rect": [
             23.181100845336914,
             694.0286865234375,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 102
+          "height": 95
         }
       ]
     },
@@ -2216,17 +2216,17 @@
         },
         {
           "file": "enem-assets/official/2022/150/E.webp",
-          "sha256": "15b153f64fe480976eb3e75752f7172c5f03a67751dceac4ab79617ecc354093",
+          "sha256": "6fc7b0b6914b9e728dd6ff14f47a90b8a5cfbaaa562f31ec87b7e01bdcf06774",
           "page": 21,
           "rect": [
             285.4645080566406,
             601.2083740234375,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 304
+          "height": 281
         }
       ]
     },
@@ -2266,7 +2266,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/150/E.webp",
-        "text": "21\n7 - AZUL - 1ª Aplicação\nE\t\nE\t em todos os ginásios."
+        "text": "E\t\nE\t em todos os ginásios."
       }
     ],
     "officialAnswer": "D",
@@ -2644,17 +2644,17 @@
         },
         {
           "file": "enem-assets/official/2022/152/E.webp",
-          "sha256": "c48835d5f7faa1467f3fb4094facb8aec3868696d4568e37cb5c0d5516bc79c7",
+          "sha256": "f68ed9477f738a0bc942709b7b5cad0f8323e1214815c3e03daf471448f6e93a",
           "page": 22,
           "rect": [
             23.181100845336914,
             718.1569213867188,
             565.9290161132812,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 1086,
-          "height": 54
+          "height": 47
         }
       ]
     },
@@ -3072,17 +3072,17 @@
         },
         {
           "file": "enem-assets/official/2022/154/E.webp",
-          "sha256": "78e60fb00abb678a3543ec4fe6fd9be01a87ccc38e6d6367a21da835e35c1ef6",
+          "sha256": "95afa8c65252e4079964a51ceba0a0c2a7a951cf5cb523ecb47260102db28f33",
           "page": 23,
           "rect": [
             23.181100845336914,
             684.163818359375,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 122
+          "height": 115
         }
       ]
     },
@@ -3592,17 +3592,17 @@
         },
         {
           "file": "enem-assets/official/2022/159/E.webp",
-          "sha256": "3cfc9b6b88d9c942264a7d341ca3e5d010561d360f91d64a6f21c62dba342cde",
+          "sha256": "01cb16ed59f9e549dcfb2f84689f4be3033a1d2d0c63733aa317bad351f302c1",
           "page": 25,
           "rect": [
             23.181100845336914,
             720.1353759765625,
             565.9290161132812,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 1086,
-          "height": 50
+          "height": 43
         }
       ]
     },
@@ -4533,17 +4533,17 @@
         },
         {
           "file": "enem-assets/official/2022/165/E.webp",
-          "sha256": "2b01f9f284bf8358ba60d8069f30565e5e7644b482ba0fdb0d13f3fdb9982c72",
+          "sha256": "f95228cab1672d63085ff7acaf3c3dd58ca1746553c17f0de65603af4a7d523e",
           "page": 27,
           "rect": [
             23.181100845336914,
             719.502685546875,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 51
+          "height": 44
         }
       ]
     },
@@ -4747,17 +4747,17 @@
         },
         {
           "file": "enem-assets/official/2022/167/E.webp",
-          "sha256": "4635a042d8c19e1b6ce0d6a050392182e1ce0addef6429775e2615cc068f933d",
+          "sha256": "93e8e7aa7d10d1c05a1e627f53c5f6576a36a5d61e4917f301a1e053d61db052",
           "page": 27,
           "rect": [
             285.4645080566406,
             716.6265258789062,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 73
+          "height": 50
         }
       ]
     },
@@ -4797,7 +4797,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/167/E.webp",
-        "text": "27\n7 - AZUL - 1ª Aplicação\nE\t\nE\t R$ 80,00 maior."
+        "text": "E\t\nE\t R$ 80,00 maior."
       }
     ],
     "officialAnswer": "A",
@@ -5213,17 +5213,17 @@
         },
         {
           "file": "enem-assets/official/2022/170/E.webp",
-          "sha256": "734d805069f59b73e10c84803b9f3ef89982fafbe405ac0ccd537081802045a6",
+          "sha256": "13bb888ddd3c001ad0e3be102f915002e09d7dd2df4f7beba6cb1318b768c44d",
           "page": 28,
           "rect": [
             285.4645080566406,
             669.5963745117188,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 167
+          "height": 144
         }
       ]
     },
@@ -5263,7 +5263,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/170/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\nE\t\nE\t 2013"
+        "text": "E\t\nE\t 2013"
       }
     ],
     "officialAnswer": "B",
@@ -5641,17 +5641,17 @@
         },
         {
           "file": "enem-assets/official/2022/172/E.webp",
-          "sha256": "4715b2a69625a60c85bd28eebc97abe094d1543f8a96971084b995c75ea92817",
+          "sha256": "04d79aaf7be7940377c356c51a3fb14ae91eb43b0a45a7d37e4255e11c9f4334",
           "page": 29,
           "rect": [
             23.181100845336914,
             720.4570922851562,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 50
+          "height": 43
         }
       ]
     },
@@ -6069,17 +6069,17 @@
         },
         {
           "file": "enem-assets/official/2022/174/E.webp",
-          "sha256": "898ac30e68fd9186d79b94309f4372bf696be5f7b7073081451c6a6279f5a411",
+          "sha256": "ecd7c51eded39512098fa033c99609f587ab28dd92af4a01d3b3afd3adda5fbd",
           "page": 29,
           "rect": [
             285.4645080566406,
             718.1854248046875,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 70
+          "height": 47
         }
       ]
     },
@@ -6119,7 +6119,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/174/E.webp",
-        "text": "29\n7 - AZUL - 1ª Aplicação\nE\t\nE\t 6 400"
+        "text": "E\t\nE\t 6 400"
       }
     ],
     "officialAnswer": "D",
@@ -6497,17 +6497,17 @@
         },
         {
           "file": "enem-assets/official/2022/176/E.webp",
-          "sha256": "e3847d95977b2a509cf428ec1f476ce52170ca282e7087f2565a93e2db5d8cd5",
+          "sha256": "a3a8faa8ede8f83e9fd2db0f2586e0002df30a4d9812b99546c22b66ed71d9d1",
           "page": 30,
           "rect": [
             23.181100845336914,
             682.4107666015625,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 126
+          "height": 119
         }
       ]
     },
@@ -6925,17 +6925,17 @@
         },
         {
           "file": "enem-assets/official/2022/178/E.webp",
-          "sha256": "1908bd0aa88e4bd3016ceec573623a3da070ab006cd7caa7d6a4425cdcd5d05b",
+          "sha256": "10f7ced169f3e1e6a8a79912973e55d8d67fa968e14d4a4b2d85957f7f26f849",
           "page": 30,
           "rect": [
             285.4645080566406,
             620.7689208984375,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 265
+          "height": 242
         }
       ]
     },
@@ -6975,7 +6975,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/178/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\nE\t\nE\t 24"
+        "text": "E\t\nE\t 24"
       }
     ],
     "officialAnswer": "E",
@@ -7139,17 +7139,17 @@
         },
         {
           "file": "enem-assets/official/2022/179/E.webp",
-          "sha256": "0e28fe42ca9e0c05d3828034fed15af2d6f3dd6310d5254ce1eda8584fb13249",
+          "sha256": "606a50ed5c158b14f5f273b74098072594450a09a6d3cc6b40915462726a38a9",
           "page": 31,
           "rect": [
             23.181100845336914,
             537.7050170898438,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 415
+          "height": 408
         }
       ]
     },

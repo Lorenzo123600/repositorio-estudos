@@ -194,17 +194,17 @@
         },
         {
           "file": "enem-assets/official/2023/2-espanhol/E.webp",
-          "sha256": "31b1765f9f23e9c47edc3f8cffa6e85dd2019dc946d6fcb7182306df64134c82",
+          "sha256": "d87832f4d1934ccccff75c6f061c7038127575c077f177041ae6bebfbb1b96d7",
           "page": 4,
           "rect": [
             285.4645080566406,
             520.8798828125,
             546.1339111328125,
-            752.5280151367188
+            546.1392211914062
           ],
           "role": "E",
           "width": 523,
-          "height": 465
+          "height": 52
         }
       ]
     },
@@ -244,7 +244,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/2-espanhol/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t adjetivos possessivos como “mi” e “mis”."
+        "text": "E\t\nE\t adjetivos possessivos como “mi” e “mis”."
       }
     ],
     "officialAnswer": "A",
@@ -484,17 +484,17 @@
         },
         {
           "file": "enem-assets/official/2023/3-ingles/E.webp",
-          "sha256": "2374c5e84acd5a2603e68c5fcd1f2c7bded794ca7f76737e906cd252d70bf325",
+          "sha256": "9ea972e2b7a690d682dc347f431f607cda3f49c1a943c9e13c0863a87ddf4f63",
           "page": 2,
           "rect": [
             285.4645080566406,
             543.4255981445312,
             546.1339111328125,
-            752.5280151367188
+            568.6849365234375
           ],
           "role": "E",
           "width": 523,
-          "height": 420
+          "height": 52
         }
       ]
     },
@@ -534,7 +534,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/3-ingles/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t necessidade de capacitação profissional."
+        "text": "E\t\nE\t necessidade de capacitação profissional."
       }
     ],
     "officialAnswer": "D",
@@ -776,17 +776,17 @@
         },
         {
           "file": "enem-assets/official/2023/5-espanhol/E.webp",
-          "sha256": "394b55749abb0768b28292f0f6bcce6319e938001fb054122345258bfe8e075d",
+          "sha256": "de3d8ef98f6f4eeaf551c2a55f7d67c9c9c2137d9012b9ef14b976a25e71213e",
           "page": 5,
           "rect": [
             285.4645080566406,
             635.2957153320312,
             546.1339111328125,
-            752.5280151367188
+            671.0549926757812
           ],
           "role": "E",
           "width": 523,
-          "height": 236
+          "height": 73
         }
       ]
     },
@@ -826,7 +826,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/5-espanhol/E.webp",
-        "text": "5\nDERNO 1 • AZUL–\nE\t\nE\t falta de segurança existente no transporte público \nurbano."
+        "text": "E\t\nE\t falta de segurança existente no transporte público \nurbano."
       }
     ],
     "officialAnswer": "A",
@@ -1218,17 +1218,17 @@
         },
         {
           "file": "enem-assets/official/2023/21/E.webp",
-          "sha256": "208faaac24c4ca447a791e60be98110cfa9de5c9ee46160245ec1b601ed723bd",
+          "sha256": "fc69ee20579d2a63730db31e7144cee84843ce835b57359e4118f65de06911dc",
           "page": 11,
           "rect": [
             285.4645080566406,
             709.0645141601562,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 88
+          "height": 63
         }
       ]
     },
@@ -1268,7 +1268,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/21/E.webp",
-        "text": "11\nDERNO 1 • AZUL–\nE\t\nE\t divulgaram um novo rol de doenças características \nda localidade."
+        "text": "E\t\nE\t divulgaram um novo rol de doenças características \nda localidade."
       }
     ],
     "officialAnswer": "D",
@@ -1470,17 +1470,17 @@
         },
         {
           "file": "enem-assets/official/2023/24/E.webp",
-          "sha256": "b2e311474f0c9696895fa07836b345c43584564b21c42b9d3035beaa4c03b14c",
+          "sha256": "c1ad8315adee63debc63e4e0f2c34ac8aeb56e77211538239817641f70eea99e",
           "page": 12,
           "rect": [
             285.4645080566406,
             696.4390258789062,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 114
+          "height": 89
         }
       ]
     },
@@ -1520,7 +1520,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/24/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t incentivar o público feminino a denunciar crimes \nde violência contra a mulher durante o período de \nisolamento."
+        "text": "E\t\nE\t incentivar o público feminino a denunciar crimes \nde violência contra a mulher durante o período de \nisolamento."
       }
     ],
     "officialAnswer": "E",
@@ -1937,17 +1937,17 @@
         },
         {
           "file": "enem-assets/official/2023/28/E.webp",
-          "sha256": "46bbd2051d8a0f9c540806f4307039e66553d83b4846e89bba989540c113d27d",
+          "sha256": "e579a9f93f6a50aa6a9e76e9504275d9981808545415fd770cb5b73b21a2a785",
           "page": 13,
           "rect": [
             285.4645080566406,
             656.8602294921875,
             546.1339111328125,
-            752.5280151367188
+            682.11962890625
           ],
           "role": "E",
           "width": 523,
-          "height": 193
+          "height": 52
         }
       ]
     },
@@ -1987,7 +1987,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/28/E.webp",
-        "text": "13\nDERNO 1 • AZUL–\nE\t\nE\t manifestar as dores do processo de criação."
+        "text": "E\t\nE\t manifestar as dores do processo de criação."
       }
     ],
     "officialAnswer": "C",
@@ -2482,17 +2482,17 @@
         },
         {
           "file": "enem-assets/official/2023/38/E.webp",
-          "sha256": "9e244acbeb7da045ced175a430018716c135f901c12841af0d2a25fde581422e",
+          "sha256": "3fe075b642700c58ae4fab6a8f23a181efa4f7e4b21f35f40f19cc3557135bcb",
           "page": 16,
           "rect": [
             285.4645080566406,
             681.68701171875,
             546.1339111328125,
-            752.5280151367188
+            706.9462890625
           ],
           "role": "E",
           "width": 523,
-          "height": 143
+          "height": 51
         }
       ]
     },
@@ -2532,7 +2532,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/38/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t estímulo ao estudo da poesia indígena."
+        "text": "E\t\nE\t estímulo ao estudo da poesia indígena."
       }
     ],
     "officialAnswer": "A",

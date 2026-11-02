@@ -406,17 +406,17 @@
         },
         {
           "file": "enem-assets/official/2022/48/E.webp",
-          "sha256": "60cba007118320598f17d6a9b2efbcb267a1ad4678bc72bc3243c797ea0964a0",
+          "sha256": "3ea0516fdca3500ee36e5a84af6a0d9ea0279e8dbbec0e5832b170c6eb8a5629",
           "page": 21,
           "rect": [
             23.181100845336914,
             720.5571899414062,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 49
+          "height": 42
         }
       ]
     },
@@ -621,17 +621,17 @@
         },
         {
           "file": "enem-assets/official/2022/49/E.webp",
-          "sha256": "2dbdfeb72bccfc08e7130d914f57ad03979c1f0be35d5b75d62f3bfb9a2e8c3f",
+          "sha256": "ea469155e552f63e305567c527090694dcf469bc810d81308e16f5aa48ea9ad3",
           "page": 21,
           "rect": [
             285.4645080566406,
             717.9473876953125,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 71
+          "height": 48
         }
       ]
     },
@@ -671,7 +671,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/49/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n21\nE\t\nE\t estrutura das rochas."
+        "text": "E\t\nE\t estrutura das rochas."
       }
     ],
     "officialAnswer": "B",
@@ -1050,17 +1050,17 @@
         },
         {
           "file": "enem-assets/official/2022/51/E.webp",
-          "sha256": "7c911e3d116ee24839979a5b3351b63b2726b408107c3b62495f0f557b5980b6",
+          "sha256": "9fd3968cc448e3d0ba989c2d7d7ce24df8d9098f41ec4e2251876c06bd4b84e4",
           "page": 22,
           "rect": [
             23.181100845336914,
             668.7562866210938,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 153
+          "height": 146
         }
       ]
     },
@@ -1478,17 +1478,17 @@
         },
         {
           "file": "enem-assets/official/2022/53/E.webp",
-          "sha256": "f740aeecf63a5e61f0d516538d49757418592570aca42a3d42f4eef8afae2159",
+          "sha256": "3fe8a35039cfe365b547640d0121cdd976fe39c28d1746c4f9f2e6707cfbcac5",
           "page": 22,
           "rect": [
             285.4645080566406,
             717.2296142578125,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 72
+          "height": 49
         }
       ]
     },
@@ -1528,7 +1528,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/53/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t aparecimento de diversas editoras comerciais."
+        "text": "E\t\nE\t aparecimento de diversas editoras comerciais."
       }
     ],
     "officialAnswer": "A",
@@ -1906,17 +1906,17 @@
         },
         {
           "file": "enem-assets/official/2022/55/E.webp",
-          "sha256": "0bbb3585506f2a558f9cd32a932a98ca8b00756abed47ab0247393d51cf60a6c",
+          "sha256": "c5bc286412f3f5f44df6d7b15343ce270b213ef22fdc958f09ff2ea7e5613e69",
           "page": 23,
           "rect": [
             23.181100845336914,
             657.0562744140625,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 176
+          "height": 169
         }
       ]
     },
@@ -2121,17 +2121,17 @@
         },
         {
           "file": "enem-assets/official/2022/56/E.webp",
-          "sha256": "9862c4b4eae48de039573c5643ebb0088de5b0df5106a88cd5fa461dbeaddc6a",
+          "sha256": "d794962ba337e66be6361d152f2e5dc7a8f0c90f4ded5eced8d44e12b2f4717e",
           "page": 23,
           "rect": [
             285.4645080566406,
             585.3759155273438,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 336
+          "height": 313
         }
       ]
     },
@@ -2171,7 +2171,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/56/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n23\nE\t\nE\t Valorização intelectual."
+        "text": "E\t\nE\t Valorização intelectual."
       }
     ],
     "officialAnswer": "A",
@@ -2549,17 +2549,17 @@
         },
         {
           "file": "enem-assets/official/2022/58/E.webp",
-          "sha256": "3ae38d60018adbf6af0935898331fc24982b83f21e7fc2008cba608cddf97bec",
+          "sha256": "7d1415b6a3f08e2315015ca4d44a7e6c8551651efbb8ffed263fb8a9dce6a1fe",
           "page": 24,
           "rect": [
             23.181100845336914,
             707.9024047851562,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 75
+          "height": 68
         }
       ]
     },
@@ -2978,17 +2978,17 @@
         },
         {
           "file": "enem-assets/official/2022/60/E.webp",
-          "sha256": "73aa4157b177c6db0a2b5acffbf4b37d200dde3b8999ca653e541c754f82f618",
+          "sha256": "da7f02e16e1a2f63cab01b0646c1c411cb6b7d471d8d53575a9d0b47d1ecde1d",
           "page": 24,
           "rect": [
             285.4645080566406,
             682.1563110351562,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 142
+          "height": 119
         }
       ]
     },
@@ -3028,7 +3028,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/60/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t cognitiva, \nfavorecendo \na \naprendizagem \npelas \nferramentas virtuais."
+        "text": "E\t\nE\t cognitiva, \nfavorecendo \na \naprendizagem \npelas \nferramentas virtuais."
       }
     ],
     "officialAnswer": "B",
@@ -4128,17 +4128,17 @@
         },
         {
           "file": "enem-assets/official/2022/67/E.webp",
-          "sha256": "123170287450f76b029492f01a6c75d08b2a2e45271d415e908874539621c481",
+          "sha256": "76dca49454ce08f684e60bec1b118cc22024c1e16cced6ddaf7c9dc8b882cd45",
           "page": 26,
           "rect": [
             23.181100845336914,
             716.6256103515625,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 57
+          "height": 50
         }
       ]
     },
@@ -4556,17 +4556,17 @@
         },
         {
           "file": "enem-assets/official/2022/69/E.webp",
-          "sha256": "fc1f7f6925d01f72a1baa9bc375becf69d5138b8f65f97b07558f6f5b2251573",
+          "sha256": "0b15adc9496a86ddb142ddfa068e806365340231b533de6dafcd1dafde2bb7af",
           "page": 26,
           "rect": [
             285.4645080566406,
             708.617919921875,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 89
+          "height": 66
         }
       ]
     },
@@ -4606,7 +4606,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/69/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t a expulsão das forças navais ocidentais garantiria a \nsoberania nacional."
+        "text": "E\t\nE\t a expulsão das forças navais ocidentais garantiria a \nsoberania nacional."
       }
     ],
     "officialAnswer": "A",
@@ -4985,17 +4985,17 @@
         },
         {
           "file": "enem-assets/official/2022/71/E.webp",
-          "sha256": "f6ad4e411500810905996410be4d65fe4a358680f57656e964e2611aeb6b0cbf",
+          "sha256": "97b3e247b46956644923d4784a5b8102450d610e9ea3730b333dc84e3634b89c",
           "page": 27,
           "rect": [
             23.181100845336914,
             674.7025756835938,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 141
+          "height": 134
         }
       ]
     },
@@ -5413,17 +5413,17 @@
         },
         {
           "file": "enem-assets/official/2022/73/E.webp",
-          "sha256": "8ff03376133583a2e9a087f9d6ee0bc694795d340f25e9c555527208850ff752",
+          "sha256": "0bbafe618d3c6a20dc3c89a314da8a882629126355a49cd7e3b7f3ae6a93e68f",
           "page": 27,
           "rect": [
             285.4645080566406,
             600.1602783203125,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 306
+          "height": 283
         }
       ]
     },
@@ -5463,7 +5463,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/73/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n27\nE\t\nE\t definir uma tradição popular."
+        "text": "E\t\nE\t definir uma tradição popular."
       }
     ],
     "officialAnswer": "B",
@@ -5841,17 +5841,17 @@
         },
         {
           "file": "enem-assets/official/2022/75/E.webp",
-          "sha256": "6e9b385631c559f40d5e6597e611219368c5edad93e482a1fa5b9e9285b73d8a",
+          "sha256": "519246959af34f04c9adf9147de197cbc5561d6edd4c71d8f117e97d846fce79",
           "page": 28,
           "rect": [
             23.181106567382812,
             717.83642578125,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 55
+          "height": 48
         }
       ]
     },
@@ -6269,17 +6269,17 @@
         },
         {
           "file": "enem-assets/official/2022/77/E.webp",
-          "sha256": "cefda2d8a20024380ae93f670dc203d147c088664f6d1bd741a1f1f15b7ef0c8",
+          "sha256": "e832b7eda6436e892c0a9dbd09799efce944a5a3f8b6e4434dce5d2299953af7",
           "page": 28,
           "rect": [
             285.4645080566406,
             664.2562866210938,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 178
+          "height": 155
         }
       ]
     },
@@ -6319,7 +6319,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/77/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t emancipadores das metrópoles."
+        "text": "E\t\nE\t emancipadores das metrópoles."
       }
     ],
     "officialAnswer": "A",
@@ -6697,17 +6697,17 @@
         },
         {
           "file": "enem-assets/official/2022/79/E.webp",
-          "sha256": "d0b2eaf583b9cd23203090a8f4083aa9777703ba6bd282977f4247337b2cf37e",
+          "sha256": "f920afd3204714affba3ce5cdb061494f37507c80cb3b65bda8e5ceaaf3931ac",
           "page": 29,
           "rect": [
             23.181100845336914,
             706.0388793945312,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 78
+          "height": 71
         }
       ]
     },
@@ -7125,17 +7125,17 @@
         },
         {
           "file": "enem-assets/official/2022/81/E.webp",
-          "sha256": "589f14a5d3831f9aa8302ae8ad15d358d1522fc147b4fefb0e1d1a72c9cc490e",
+          "sha256": "fb71d0d8922600f8356d9f13775948639347f32fd63b564bd8e2d830a35c83b8",
           "page": 29,
           "rect": [
             285.4645080566406,
             706.998779296875,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 93
+          "height": 70
         }
       ]
     },
@@ -7175,7 +7175,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/81/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n29\nE\t\nE\t privatização dos meios de comunicação."
+        "text": "E\t\nE\t privatização dos meios de comunicação."
       }
     ],
     "officialAnswer": "D",
@@ -7553,17 +7553,17 @@
         },
         {
           "file": "enem-assets/official/2022/83/E.webp",
-          "sha256": "376a558ef32525da7312262dffe1b6f06d5a9a95afb5d515bfff40032de7fa7e",
+          "sha256": "2d770f89498d625af2b2c7dda9deb541f4efcbcb0e6d0270971fe4db369a2039",
           "page": 30,
           "rect": [
             23.181100845336914,
             645.10302734375,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 200
+          "height": 193
         }
       ]
     },
@@ -7981,17 +7981,17 @@
         },
         {
           "file": "enem-assets/official/2022/85/E.webp",
-          "sha256": "ff75b9d0886ad1528461f6609cbacd0fae545cf6182a1987a4aef347f3259176",
+          "sha256": "f893cef15fceb8135110ee5ee6c8f3a5907a4ccd18aa3da97814ae8caedb2e48",
           "page": 30,
           "rect": [
             285.4645080566406,
             718.8681030273438,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 69
+          "height": 46
         }
       ]
     },
@@ -8031,7 +8031,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/85/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t ordenar cultos de heresia."
+        "text": "E\t\nE\t ordenar cultos de heresia."
       }
     ],
     "officialAnswer": "D",
@@ -8623,17 +8623,17 @@
         },
         {
           "file": "enem-assets/official/2022/88/E.webp",
-          "sha256": "d395708a72a61f7bb63901dc820cb4d881cb76155444341f5a60627ed7070a7a",
+          "sha256": "600960cda847a74cd768197d99162521df96b27fbdbd0be356e1f89c1718ff55",
           "page": 31,
           "rect": [
             23.181100845336914,
             717.668212890625,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 55
+          "height": 48
         }
       ]
     },

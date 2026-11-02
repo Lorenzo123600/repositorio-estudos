@@ -1,5 +1,7 @@
 # Verificação da missão de 1.000 questões — 02/11/2026
 
+Revisão posterior dos limites dos PDFs: 515 alternativas E foram recortadas novamente para excluir rodapés e linhas separadoras. A igualdade de pixels, isoladamente, não detectava esses limites incorretos. Consulte [a causa, a auditoria e as verificações adicionais](PDF-CROP-REPAIR.md).
+
 **1.070 questões únicas validadas**, com 6.420 recortes comparados aos PDFs oficiais arquivados. 839 registros são novos e 231 anteriores foram revalidados. As 403 pendências e sete anulações estão fora dos novos sorteios e da contagem.
 
 - `npm run validate:release`: aprovado; verifica estrutura, IDs/canônicos, duplicação, alternativas, imagens, hashes, origens, gabaritos, manifesto, índices históricos e mínimo de 1.000 aprovações.

@@ -286,7 +286,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/51/E.webp",
-        "text": "E \t intensificação da atividade pecuária.\nCH\n1° di\n| C d\n1\nAZUL\nPá i\n21"
+        "text": "E \t intensificação da atividade pecuária."
       }
     ],
     "officialAnswer": "D",
@@ -405,17 +405,17 @@
         },
         {
           "file": "enem-assets/official/2020/51/E.webp",
-          "sha256": "d4af47c3efeadd3607719e574a07d9a1d7a55b237f4b1f272686f38d30ac2713",
+          "sha256": "46a4f68af4c8ee70b4ff5e075a302dae7283032e2983b55e5d39754f1b477f57",
           "page": 21,
           "rect": [
             23.181100845336914,
             726.9702758789062,
             565.9290161132812,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 1086,
-          "height": 53
+          "height": 38
         }
       ]
     },
@@ -712,7 +712,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/66/E.webp",
-        "text": "E \t Apropriação de práticas estrangeiras.\nCH\n1° di\n| C d\n1\nAZUL\nPá i\n25"
+        "text": "E \t Apropriação de práticas estrangeiras."
       }
     ],
     "officialAnswer": "E",
@@ -831,17 +831,17 @@
         },
         {
           "file": "enem-assets/official/2020/66/E.webp",
-          "sha256": "9007ca2f91be2bd9980ae4c34239249a0931fec855c3e00a3d27fa5972dc61fa",
+          "sha256": "5b789f336f30c6616fa201148691834c6ad2709a5704a7e353a4d47ed32b38ba",
           "page": 25,
           "rect": [
             23.181100845336914,
             727.9586181640625,
             565.9290161132812,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 1086,
-          "height": 51
+          "height": 36
         }
       ]
     },
@@ -1138,7 +1138,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/92/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n2\nE \t apresentam propriedades mecânicas semelhantes aos convencionais."
+        "text": "E \t apresentam propriedades mecânicas semelhantes aos convencionais."
       }
     ],
     "officialAnswer": "D",
@@ -1257,17 +1257,17 @@
         },
         {
           "file": "enem-assets/official/2020/92/E.webp",
-          "sha256": "0bfb1bcb59c7c74cda9306888c04ec3d3c27ecd49ca35efc7142c26a52a4a534",
+          "sha256": "f9ca1022e5afab3511e48d271497501fc8b3007c9defc792a161ea0e351c6d50",
           "page": 2,
           "rect": [
             23.181100845336914,
             570.7238159179688,
             565.9290161132812,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 1086,
-          "height": 365
+          "height": 350
         }
       ]
     },
@@ -1351,7 +1351,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/94/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n3\nE \t 5"
+        "text": "E \t 5"
       }
     ],
     "officialAnswer": "A",
@@ -1470,17 +1470,17 @@
         },
         {
           "file": "enem-assets/official/2020/94/E.webp",
-          "sha256": "17ed942921042a938982c5a40e42c2ffdcb8cb516af83397622d510e7c89f9be",
+          "sha256": "d9c37e2b0899eb39c074c8e002dffaf24e4da064a3b5e89e46f8914eefbdc226",
           "page": 3,
           "rect": [
             23.181100845336914,
             729.102783203125,
             565.9290161132812,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 1086,
-          "height": 48
+          "height": 33
         }
       ]
     },
@@ -1990,7 +1990,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/104/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n6\nE \t refazer a camada de cera impermeabilizante das penas."
+        "text": "E \t refazer a camada de cera impermeabilizante das penas."
       }
     ],
     "officialAnswer": "E",
@@ -2109,17 +2109,17 @@
         },
         {
           "file": "enem-assets/official/2020/104/E.webp",
-          "sha256": "01d1d7f9318c0d17fb08b6b25004422507827e07acf5039e52e5f932b3e69325",
+          "sha256": "d7e4fb710f39c8e76b09023168cf4b4ce73a415ee41ec77e86684c2767448dff",
           "page": 6,
           "rect": [
             23.181100845336914,
             728.2728881835938,
             565.9290161132812,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 1086,
-          "height": 50
+          "height": 35
         }
       ]
     },
@@ -2416,7 +2416,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/131/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n14\nE \t A + 1−2B → C    (a reação ocorre com o uso de um catalisador contendo um metal não tóxico)."
+        "text": "E \t A + 1−2B → C    (a reação ocorre com o uso de um catalisador contendo um metal não tóxico)."
       }
     ],
     "officialAnswer": "E",
@@ -2535,17 +2535,17 @@
         },
         {
           "file": "enem-assets/official/2020/131/E.webp",
-          "sha256": "252c4e6097a0d26b89f7240710fcdd1d1d5738432779c25eba16ae320cc05109",
+          "sha256": "fc83db444dfcb27d7b9cf85ec8aa66dacb95976a9b8c1e39f52c688a8ffbc4d2",
           "page": 14,
           "rect": [
             23.181100845336914,
             713.6270141601562,
             565.9290161132812,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 1086,
-          "height": 79
+          "height": 64
         }
       ]
     },
@@ -2629,7 +2629,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/174/E.webp",
-        "text": "E  87 000.\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n28"
+        "text": "E  87 000."
       }
     ],
     "officialAnswer": "B",
@@ -2748,17 +2748,17 @@
         },
         {
           "file": "enem-assets/official/2020/174/E.webp",
-          "sha256": "f9a80a7d412e941020170956248def48c9f2861785c6985574511c54ec6b2a30",
+          "sha256": "faa1871f9b67e5239ce6d1cafa58d0d03561b0be691aa2905486047c991ff754",
           "page": 28,
           "rect": [
             23.181100845336914,
             544.611083984375,
             565.9290161132812,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 1086,
-          "height": 417
+          "height": 402
         }
       ]
     },

@@ -368,17 +368,17 @@
         },
         {
           "file": "enem-assets/official/2022/92/E.webp",
-          "sha256": "648f9e058c4343c448541a5b42d2378c1cf02bb2d23ca66ee3e4fbb666081683",
+          "sha256": "b5522e1eb264fdba7a09f8a753fe9e32ef8539ad0a830f6de964a57b11259b1f",
           "page": 2,
           "rect": [
             23.181100845336914,
             718.7254028320312,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 53
+          "height": 46
         }
       ]
     },
@@ -796,17 +796,17 @@
         },
         {
           "file": "enem-assets/official/2022/94/E.webp",
-          "sha256": "9ffea683e61f2a1465d76b3308e3659e337442dde6066e639ab89c8fdbcf3cd2",
+          "sha256": "650d0a7f534333ac2bfb0a287a369d67187268a91c42f24efaf28bf3723741e0",
           "page": 2,
           "rect": [
             285.4645080566406,
             715.6566162109375,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 75
+          "height": 52
         }
       ]
     },
@@ -846,7 +846,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/94/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\nE\t\nE\t formação de sais tóxicos e liberação de gás oxidante."
+        "text": "E\t\nE\t formação de sais tóxicos e liberação de gás oxidante."
       }
     ],
     "officialAnswer": "A",
@@ -1314,17 +1314,17 @@
         },
         {
           "file": "enem-assets/official/2022/98/E.webp",
-          "sha256": "53a79920ae38140b6f26bf4af27b247a4d5665da2552fbbf8c080086cd3a7797",
+          "sha256": "db24c0a258dd35284741747512257b71a2e22bcbfca5559a22b1d6f828626c28",
           "page": 4,
           "rect": [
             285.4645080566406,
             678.4296264648438,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 150
+          "height": 127
         }
       ]
     },
@@ -1364,7 +1364,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/98/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\nE\t\nE\t expressão do gene responsável pela produção da \nenzima normal."
+        "text": "E\t\nE\t expressão do gene responsável pela produção da \nenzima normal."
       }
     ],
     "officialAnswer": "E",
@@ -1742,17 +1742,17 @@
         },
         {
           "file": "enem-assets/official/2022/100/E.webp",
-          "sha256": "16265a4fb73acc7009c21bf8d18d1e01a765320878569941cf9fdc1fe0db3e04",
+          "sha256": "7b53384103b65f847c8d45ec3242d86978bde10b1cd61034cdac3cb93dcb3212",
           "page": 5,
           "rect": [
             23.190839767456055,
             660.7296142578125,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 169
+          "height": 162
         }
       ]
     },
@@ -2170,17 +2170,17 @@
         },
         {
           "file": "enem-assets/official/2022/102/E.webp",
-          "sha256": "3c080ca763f6c902ac981d035d41a5b83b13f1b4945dde01abb905ee19cff1c6",
+          "sha256": "1044f5dd6aba14361ceb0bc1b9bd7f309806dcc50ca8c65072ff7c2b8cced43c",
           "page": 5,
           "rect": [
             285.4645080566406,
             709.9650268554688,
             546.1337890625,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 87
+          "height": 64
         }
       ]
     },
@@ -2220,7 +2220,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/102/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\n5\nE\t\nE\t obter moléculas de cDNA viral por meio da transcrição \nreversa."
+        "text": "E\t\nE\t obter moléculas de cDNA viral por meio da transcrição \nreversa."
       }
     ],
     "officialAnswer": "E",
@@ -2648,17 +2648,17 @@
         },
         {
           "file": "enem-assets/official/2022/105/E.webp",
-          "sha256": "7354b3bd06ba3065586e524d3fb83fa6bfb33f5daff2553142e2463815a635d4",
+          "sha256": "fb86e69cd57ec31b7cff89604d09c3f528d36113bcec643e12a148a130a162cd",
           "page": 7,
           "rect": [
             23.181100845336914,
             655.5562744140625,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 179
+          "height": 172
         }
       ]
     },
@@ -2862,17 +2862,17 @@
         },
         {
           "file": "enem-assets/official/2022/106/E.webp",
-          "sha256": "cd7d4f56ba467955b74a754fc20a46e43ec1a6332174398f5f41c79328637913",
+          "sha256": "dda2f0411a826a1e4eced00325a4c810c15a002ce9f85c542b8cd097c63e6755",
           "page": 7,
           "rect": [
             285.4645080566406,
             686.187255859375,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 134
+          "height": 111
         }
       ]
     },
@@ -2912,7 +2912,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/106/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\n7\nE\nS\nH\nC\nC\nCH3 NH3\n+\nCOOH"
+        "text": "E\nS\nH\nC\nC\nCH3 NH3\n+\nCOOH"
       }
     ],
     "officialAnswer": "C",
@@ -3290,17 +3290,17 @@
         },
         {
           "file": "enem-assets/official/2022/108/E.webp",
-          "sha256": "2931faa178a6688b022c028b763bd9a021e3d7bda1cc92b1df121f1f135bce94",
+          "sha256": "f5663667d280ce00c6cb9b4ce325ee811f11ae45010d56e1bcf4b75bce1e28f2",
           "page": 8,
           "rect": [
             23.181100845336914,
             718.5194091796875,
             565.9290161132812,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 1086,
-          "height": 53
+          "height": 46
         }
       ]
     },
@@ -3756,17 +3756,17 @@
         },
         {
           "file": "enem-assets/official/2022/111/E.webp",
-          "sha256": "94a5dcf78164f961e58b9bce46ce85fe0eb25bbfa8b209aab9acc4c55249382d",
+          "sha256": "395bde485705823d504fd465437e6bdaa3debf4b152687d549bf0daf23c635eb",
           "page": 9,
           "rect": [
             285.4645080566406,
             720.3126831054688,
             546.1338806152344,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 66
+          "height": 43
         }
       ]
     },
@@ -3806,7 +3806,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/111/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\n9\nE\t\nE\t Equador."
+        "text": "E\t\nE\t Equador."
       }
     ],
     "officialAnswer": "A",
@@ -4184,17 +4184,17 @@
         },
         {
           "file": "enem-assets/official/2022/113/E.webp",
-          "sha256": "3d717a391ec4585e68e633e4c829bed1251b20be824c99aa481b434561500fe4",
+          "sha256": "72b20ad388973e7feb415110ad01badd5b264a9d56e9572d10cf872a619d4536",
           "page": 10,
           "rect": [
             23.181100845336914,
             703.2327880859375,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 84
+          "height": 77
         }
       ]
     },
@@ -4612,17 +4612,17 @@
         },
         {
           "file": "enem-assets/official/2022/115/E.webp",
-          "sha256": "f1e2e5dbfed1491837635b8813679b5dc4342d95ba5175bccb13eafaed4e956d",
+          "sha256": "f59252315923bc63b24bf6f8a014bb7ea010bc1702cd634880c3e55ab1645471",
           "page": 10,
           "rect": [
             285.4645080566406,
             710.8762817382812,
             546.1241455078125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 85
+          "height": 62
         }
       ]
     },
@@ -4662,7 +4662,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/115/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\nE\t\nE\t 13,1."
+        "text": "E\t\nE\t 13,1."
       }
     ],
     "officialAnswer": "B",
@@ -5040,17 +5040,17 @@
         },
         {
           "file": "enem-assets/official/2022/117/E.webp",
-          "sha256": "f29553de037dc8400b92d2624221ab3a27ec7e175ec50efda3ea0756b2203da4",
+          "sha256": "a8f01a6a771a4126f8684580f25e263e1620b255e02522575af5b0993012b81d",
           "page": 11,
           "rect": [
             23.181100845336914,
             717.60302734375,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 55
+          "height": 48
         }
       ]
     },
@@ -5254,17 +5254,17 @@
         },
         {
           "file": "enem-assets/official/2022/118/E.webp",
-          "sha256": "3abbaeb28a045bd153a5b879a5885ad2ccfe8896bcec66a577ecee7874aa7010",
+          "sha256": "7b3d790dc55b1a109ed05ebfcd36f4673255f535eaef0bb81ace5f9ff752b453",
           "page": 11,
           "rect": [
             285.4645080566406,
             585.7896728515625,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 335
+          "height": 312
         }
       ]
     },
@@ -5304,7 +5304,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/118/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\n11\nE\t\nE\t Hormônio folículo estimulante."
+        "text": "E\t\nE\t Hormônio folículo estimulante."
       }
     ],
     "officialAnswer": "C",
@@ -5896,17 +5896,17 @@
         },
         {
           "file": "enem-assets/official/2022/121/E.webp",
-          "sha256": "903e3813b077d14562e5140ee3316ba67baf9d8ffa583f10433a6c42e3cd953a",
+          "sha256": "1ffe3acd01866d055e28ca6dabcd081a99f748bb28b7bb15fd1a7b83e0c70d9a",
           "page": 12,
           "rect": [
             23.181100845336914,
             718.5546875,
             565.9290161132812,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 1086,
-          "height": 53
+          "height": 46
         }
       ]
     },
@@ -6324,17 +6324,17 @@
         },
         {
           "file": "enem-assets/official/2022/123/E.webp",
-          "sha256": "b668637d6487118a3c11b98caab2424ac55bbe6c303265040eda57c92189a78a",
+          "sha256": "6044a5558b148cb13a394eac154498a2a40185677dea06e5c50fcd901ffb4cdf",
           "page": 13,
           "rect": [
             23.181089401245117,
             647.4216918945312,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 196
+          "height": 189
         }
       ]
     },
@@ -6752,17 +6752,17 @@
         },
         {
           "file": "enem-assets/official/2022/125/E.webp",
-          "sha256": "7eac4930a26d111acc225d21b3d77a3f6d899bfbb5b91a27a8be9dc41d39b431",
+          "sha256": "9afc7e20f71626b557e7b5c2ef11f38a3a7d762c22c6bdacfc98b8a0009ec068",
           "page": 13,
           "rect": [
             285.4645080566406,
             717.548583984375,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 71
+          "height": 48
         }
       ]
     },
@@ -6802,7 +6802,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/125/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\n13\nE\t\nE\t expressividade variável."
+        "text": "E\t\nE\t expressividade variável."
       }
     ],
     "officialAnswer": "E",
@@ -7648,17 +7648,17 @@
         },
         {
           "file": "enem-assets/official/2022/130/E.webp",
-          "sha256": "e7ed875fd0b2cabeddeb04a4cda296e3d6e5803770b9560a22d6f6c8f074defe",
+          "sha256": "e6d07306e4cb7986fb8604ef446d314a147847cc8ee26f38c70059492538d4b7",
           "page": 14,
           "rect": [
             285.4645080566406,
             707.9755859375,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 91
+          "height": 68
         }
       ]
     },
@@ -7698,7 +7698,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/130/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\nE\t\nE\t fazer uma pequena distinção de cores em ambientes \niluminados."
+        "text": "E\t\nE\t fazer uma pequena distinção de cores em ambientes \niluminados."
       }
     ],
     "officialAnswer": "C",
@@ -8076,17 +8076,17 @@
         },
         {
           "file": "enem-assets/official/2022/132/E.webp",
-          "sha256": "abd20abaf4d0df12d48956316f145ca23fa7633220dd06e5d387f40f0c694cff",
+          "sha256": "6bb1c81561b49bad9a92671aa31e52f617ff5c74588d28dd871e9387af322326",
           "page": 15,
           "rect": [
             23.181100845336914,
             713.109130859375,
             565.9290161132812,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 1086,
-          "height": 64
+          "height": 57
         }
       ]
     },
@@ -8545,17 +8545,17 @@
         },
         {
           "file": "enem-assets/official/2022/135/E.webp",
-          "sha256": "c13e1983610a1ebc0b7f736888649c30d2137677dad70219f8fe08e17df61d09",
+          "sha256": "02f3149480b01824e55421ec1176997239c607938d40e1b88220bee60ef66b14",
           "page": 16,
           "rect": [
             285.4645080566406,
             659.5203247070312,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 187
+          "height": 164
         }
       ]
     },
@@ -8595,7 +8595,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/135/E.webp",
-        "text": "7 - AZUL - 1ª Aplicação\nE\t\nE\t Refração."
+        "text": "E\t\nE\t Refração."
       }
     ],
     "officialAnswer": "E",

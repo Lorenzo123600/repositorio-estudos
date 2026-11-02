@@ -30,7 +30,7 @@ for path,doc in documents.items():
     m=re.search(r'opcao\s*:?\s*(ingles|espanhol)',text)
     if m:cues.append(((pi+1,0 if line['bbox'][0]<page.rect.width/2 else 1,line['bbox'][1]),m[1]))
  language_cues[path]=sorted(cues)
-seen=set();assets=0
+seen=set();assets=0;furniture={}
 for q in questions:
  assert q['canonicalId'] not in seen,'ID canônico duplicado';seen.add(q['canonicalId'])
  assert keys[f'{q["year"]}-{q["number"]}'+(f'-{q["language"]}' if q.get('language') else '')]=='ABCDE'[q['answer']],q['id']+' gabarito'
@@ -46,6 +46,15 @@ for q in questions:
   cues=[lang for position,lang in language_cues[v['statementEvidence']] if position<order]
   assert cues and cues[-1]==q['language'],q['id']+' idioma não corresponde ao cabeçalho oficial'
  for a in v['assets']:
+  # Pixel equality alone also accepts a faithfully rendered, WRONG crop.
+  # Check semantic page boundaries before comparing the archived pixels.
+  page=doc[a['page']-1]
+  page_key=(v['statementEvidence'],a['page'])
+  if page_key not in furniture:furniture[page_key]=imp.segment.page_furniture(page)
+  limit=imp.segment.content_bottom(page,a['rect'][0],a['rect'][2],furniture=furniture[page_key])
+  assert a['rect'][3]<=limit+.01,q['id']+' recorte contém rodapé/linha da página'
+  if a['role']=='E':
+   assert a['rect'][3]<=g['options'][-1][1][3]+.01,q['id']+' alternativa E contém separador da próxima questão'
   pix=doc[a['page']-1].get_pixmap(matrix=fitz.Matrix(2,2),clip=fitz.Rect(a['rect']),alpha=False)
   expected=Image.frombytes('RGB',(pix.width,pix.height),pix.samples)
   with Image.open(ROOT/'public'/a['file']) as original:

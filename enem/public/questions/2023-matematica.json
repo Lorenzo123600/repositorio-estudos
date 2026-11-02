@@ -458,17 +458,17 @@
         },
         {
           "file": "enem-assets/official/2023/146/E.webp",
-          "sha256": "0c7c91f2edf061c71ec630325226828f5a0e8476b772254bddf76d8d948ef19a",
+          "sha256": "71d7ced45a1a51d58693e51494e338d5e2bc98f0993883c2de06ec02909d4ce5",
           "page": 19,
           "rect": [
             285.4645080566406,
             696.9705200195312,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 113
+          "height": 88
         }
       ]
     },
@@ -508,7 +508,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/146/E.webp",
-        "text": "19\nDERNO 7 • AZUL\nE\t\nE\t Há somente duas soluções possíveis, uma em que \nas somas em cada lado do triângulo são iguais a 10 \ne outra em que as somas são iguais a 11."
+        "text": "E\t\nE\t Há somente duas soluções possíveis, uma em que \nas somas em cada lado do triângulo são iguais a 10 \ne outra em que as somas são iguais a 11."
       }
     ],
     "officialAnswer": "E",
@@ -755,17 +755,17 @@
         },
         {
           "file": "enem-assets/official/2023/149/E.webp",
-          "sha256": "0be9388aa9fe9b830482635fc3a3a50ed68a376c7a3958d107f3aa3d6e1f48e7",
+          "sha256": "aefc5b581711c4ce080aa89d3ba54fc6dcbb2f87c429e955852546b796248e11",
           "page": 20,
           "rect": [
             285.4645080566406,
             606.1165161132812,
             546.1339111328125,
-            752.5280151367188
+            631.375732421875
           ],
           "role": "E",
           "width": 523,
-          "height": 294
+          "height": 51
         }
       ]
     },
@@ -805,7 +805,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/149/E.webp",
-        "text": "DERNO 7 • AZUL\nE\t\nE\t 1 : 500 000."
+        "text": "E\t\nE\t 1 : 500 000."
       }
     ],
     "officialAnswer": "E",
@@ -969,17 +969,17 @@
         },
         {
           "file": "enem-assets/official/2023/152/E.webp",
-          "sha256": "651dab170b622b9e36013e52f5c629d4b1803dfedcfcd94939eb39943808c87b",
+          "sha256": "29da47716b06eda4193c688b9c38386ff8be055ecf09517e53107579787a03fe",
           "page": 21,
           "rect": [
             285.4645080566406,
             452.7125244140625,
             546.1339111328125,
-            752.5280151367188
+            477.9718017578125
           ],
           "role": "E",
           "width": 523,
-          "height": 601
+          "height": 51
         }
       ]
     },
@@ -1019,7 +1019,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/152/E.webp",
-        "text": "21\nDERNO 7 • AZUL\nE\t\nE\t V."
+        "text": "E\t\nE\t V."
       }
     ],
     "officialAnswer": "B",
@@ -1261,17 +1261,17 @@
         },
         {
           "file": "enem-assets/official/2023/156/E.webp",
-          "sha256": "bf4b34ba8a2079a3696d6fe4a1c1f55197de285059213ce4e82b54d13d522636",
+          "sha256": "b8f5985260245a9ba697fcadd79a48c790b5b91e197bbfff0470037fa1466e0f",
           "page": 22,
           "rect": [
             285.4645080566406,
             719.40869140625,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 68
+          "height": 43
         }
       ]
     },
@@ -1311,7 +1311,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/156/E.webp",
-        "text": "DERNO 7 • AZUL\nE\t\nE\t 24"
+        "text": "E\t\nE\t 24"
       }
     ],
     "officialAnswer": "A",
@@ -2076,17 +2076,17 @@
         },
         {
           "file": "enem-assets/official/2023/170/E.webp",
-          "sha256": "1ffb075d7a8ce0582a8a03d1fae71972033974fa283f7e685a91558b14d3999a",
+          "sha256": "16970d41399d6655accb02bab0882196ade0dc6f9f92c3e80cb248ea0691fb69",
           "page": 27,
           "rect": [
             285.4645080566406,
             634.6840209960938,
             546.1339111328125,
-            752.5280151367188
+            659.9432373046875
           ],
           "role": "E",
           "width": 523,
-          "height": 237
+          "height": 51
         }
       ]
     },
@@ -2126,7 +2126,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/170/E.webp",
-        "text": "27\nDERNO 7 • AZUL\nE\t\nE\t Péssimo."
+        "text": "E\t\nE\t Péssimo."
       }
     ],
     "officialAnswer": "D",
@@ -2932,17 +2932,17 @@
         },
         {
           "file": "enem-assets/official/2023/180/E.webp",
-          "sha256": "03dcfd2016b4267bab47305296fb4c65114ca23c7feed48e78ee5a32637c1087",
+          "sha256": "c0226e270bbbc4ab807d5af443d8a85a05ac0692b213665ca69fb14e40834525",
           "page": 31,
           "rect": [
             285.4645080566406,
             719.22607421875,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 68
+          "height": 43
         }
       ]
     },
@@ -2982,7 +2982,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/180/E.webp",
-        "text": "31\nDERNO 7 • AZUL\nE\t\nE\t Fevereiro."
+        "text": "E\t\nE\t Fevereiro."
       }
     ],
     "officialAnswer": "C",

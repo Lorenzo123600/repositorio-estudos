@@ -618,17 +618,17 @@
         },
         {
           "file": "enem-assets/official/2021/107/E.webp",
-          "sha256": "da5a916df9b7d6c9a0866c0d3296fba545925fc34a3edef0980a5de725e7aea3",
+          "sha256": "f6c1376a4217bca01528b52a32ca72303e9352075136d7d77626d6033474b84e",
           "page": 7,
           "rect": [
             23.186800003051758,
             711.4542846679688,
             566.0,
-            753.0
+            748.4409790039062
           ],
           "role": "E",
           "width": 1086,
-          "height": 84
+          "height": 75
         }
       ]
     },
@@ -1257,17 +1257,17 @@
         },
         {
           "file": "enem-assets/official/2021/118/E.webp",
-          "sha256": "af91f89f45a39c8cdec900e4a86eb20821a19595bbdb424a3df5b5dcc3520166",
+          "sha256": "ff19704068da4eeb21b0a09ee32d5414bfe37d56e4f62d2cbee839016825e1f2",
           "page": 10,
           "rect": [
             23.186800003051758,
             727.6732788085938,
             566.0,
-            753.0
+            748.4409790039062
           ],
           "role": "E",
           "width": 1086,
-          "height": 51
+          "height": 42
         }
       ]
     },
@@ -1683,17 +1683,17 @@
         },
         {
           "file": "enem-assets/official/2021/120/E.webp",
-          "sha256": "f2745ca4e432ead24d60529598ee3a84ee7ad7e955d8cf254c2f78a251e0ab16",
+          "sha256": "adcb4ddc046f696844100cba11678c792a648022021f27c731ecb0f81ae557e2",
           "page": 11,
           "rect": [
             23.18670082092285,
             728.4373168945312,
             566.0,
-            753.0
+            748.4409790039062
           ],
           "role": "E",
           "width": 1086,
-          "height": 50
+          "height": 41
         }
       ]
     },
@@ -2535,17 +2535,17 @@
         },
         {
           "file": "enem-assets/official/2021/125/E.webp",
-          "sha256": "25e71d271eeceb30510994248eef6b5b0a7e337c50c1f3c9a5934d91fb8bffb0",
+          "sha256": "ddc88b712f2149e9cbcd4aba16953dc4a2d5913f7b0f718afd5abbb8e13d6fb7",
           "page": 13,
           "rect": [
             23.186800003051758,
             729.6273193359375,
             566.0,
-            753.0
+            748.4409790039062
           ],
           "role": "E",
           "width": 1086,
-          "height": 47
+          "height": 38
         }
       ]
     },
@@ -3174,17 +3174,17 @@
         },
         {
           "file": "enem-assets/official/2021/156/E.webp",
-          "sha256": "f612eeb3794d401604ff9aaa6ea9cb5bc6c750cb83ef25e05a9ea64e94aeb2e5",
+          "sha256": "3b07d6d00b9bbc3770230b0646bce0c15d904beaadc68b795f09ffaadfe58692",
           "page": 24,
           "rect": [
             23.18670082092285,
             729.4183959960938,
             566.0,
-            753.0
+            748.4409790039062
           ],
           "role": "E",
           "width": 1086,
-          "height": 48
+          "height": 39
         }
       ]
     },

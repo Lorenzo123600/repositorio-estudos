@@ -51,9 +51,14 @@ jobs:
       - run: npm test
         working-directory: enem
       - uses: actions/setup-python@v5
-        if: inputs.deep_verify == true
         with:
           python-version: '3.12'
+      - name: Verificar limites dos recortes e impedir rodapés nas alternativas
+        run: |
+          python -m pip install -r scripts/requirements-enem.txt
+          python -m unittest discover -s tests -p 'test_pdf_*.py'
+          python scripts/repair-official-crops.py
+        working-directory: enem
       - name: Preparar verificação dos documentos originais
         if: inputs.deep_verify == true
         run: |

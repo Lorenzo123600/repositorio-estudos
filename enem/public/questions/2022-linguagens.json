@@ -155,17 +155,17 @@
         },
         {
           "file": "enem-assets/official/2022/1-espanhol/E.webp",
-          "sha256": "c48413fb1a083240e17271aef9c8cabeb330819a9037cfbf4923e61ceca6b4ee",
+          "sha256": "b4cb39aca3f790568281b8ed5100f2ee432a91f28e0c4441fa52b79bfc778be9",
           "page": 3,
           "rect": [
             285.4645080566406,
             647.4271240234375,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 212
+          "height": 189
         }
       ]
     },
@@ -205,7 +205,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/1-espanhol/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n3\nE\t\nE\t defender a preservação das línguas originárias \ngarantindo a diversidade linguística mexicana."
+        "text": "E\t\nE\t defender a preservação das línguas originárias \ngarantindo a diversidade linguística mexicana."
       }
     ],
     "officialAnswer": "E",
@@ -799,17 +799,17 @@
         },
         {
           "file": "enem-assets/official/2022/2-ingles/E.webp",
-          "sha256": "1867a4daba86da9156bec8e5b1b013436e75e7c51abf5f5c227864c755c73225",
+          "sha256": "3ada12840d74cbd7bb1c8a63c8058e8192e9e490d506ab5382cbb23701858004",
           "page": 2,
           "rect": [
             23.181100845336914,
             709.5335693359375,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 71
+          "height": 64
         }
       ]
     },
@@ -1013,17 +1013,17 @@
         },
         {
           "file": "enem-assets/official/2022/3-espanhol/E.webp",
-          "sha256": "7e524e26a6c18ff9eeeb00c3851798ab7a7dd71eccd20969f63098c2c73548f0",
+          "sha256": "925ebdde8cddb5fda841cc58d09ddca38853e38e4fb293a82f69e3ea3a38a7bd",
           "page": 4,
           "rect": [
             23.181100845336914,
             670.173583984375,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 150
+          "height": 143
         }
       ]
     },
@@ -1227,17 +1227,17 @@
         },
         {
           "file": "enem-assets/official/2022/3-ingles/E.webp",
-          "sha256": "0b143a5fb049153766c17b45db24c3548b8922feb2ef94dbd284d24cfe7beeaf",
+          "sha256": "33e852dce3c3c9e6f436281e7004759bb5c8227fe8d789a9533c435189f45ae8",
           "page": 2,
           "rect": [
             285.4645080566406,
             606.572509765625,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 293
+          "height": 270
         }
       ]
     },
@@ -1277,7 +1277,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/3-ingles/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t rejeição ao novo tipo de residência."
+        "text": "E\t\nE\t rejeição ao novo tipo de residência."
       }
     ],
     "officialAnswer": "B",
@@ -1442,17 +1442,17 @@
         },
         {
           "file": "enem-assets/official/2022/4-espanhol/E.webp",
-          "sha256": "34e40f10be574453c4182eb29cc5f7ea63ab016778835ac56418c5d3e43d0d81",
+          "sha256": "27b32b897fbbfa001c8533240d9ba2d1948643e8c2cfd5ab556334b170bd7608",
           "page": 4,
           "rect": [
             285.4645080566406,
             609.4531860351562,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 288
+          "height": 265
         }
       ]
     },
@@ -1492,7 +1492,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/4-espanhol/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t falta de serviços de saúde adequados."
+        "text": "E\t\nE\t falta de serviços de saúde adequados."
       }
     ],
     "officialAnswer": "A",
@@ -1871,17 +1871,17 @@
         },
         {
           "file": "enem-assets/official/2022/5-espanhol/E.webp",
-          "sha256": "bf45d27fa23ff2e4bd063bb9a8eca278e75dbfe83052595e91764133f4c7cd2a",
+          "sha256": "24c0680215e4c9fdb73cc9c28181df27b32d78d0ed32f54ca69226b84f8bbbe0",
           "page": 5,
           "rect": [
             23.181100845336914,
             696.119384765625,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 98
+          "height": 91
         }
       ]
     },
@@ -2085,17 +2085,17 @@
         },
         {
           "file": "enem-assets/official/2022/5-ingles/E.webp",
-          "sha256": "86ae91a026fd544da8950c133e5448c9f5d343ced17d67d9a01a8c3b92a28753",
+          "sha256": "d6fb97832a881e8b00aa359911523230b9f2abf20fc9ff893434e2f75df3e35c",
           "page": 3,
           "rect": [
             23.181100845336914,
             717.889404296875,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 55
+          "height": 48
         }
       ]
     },
@@ -2299,17 +2299,17 @@
         },
         {
           "file": "enem-assets/official/2022/6/E.webp",
-          "sha256": "fd00efccd15faa325d132bf026f2ce75f1212146570ceae4cdc2f9dadc0c7f17",
+          "sha256": "91cca8a3a45b282d65d4fbd3bb988421593397f56bdf4c690624e77ac74e8620",
           "page": 5,
           "rect": [
             285.4645080566406,
             468.2665100097656,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 570
+          "height": 547
         }
       ]
     },
@@ -2349,7 +2349,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/6/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n5\nE\t\nE\t emprego de metáforas, como em: “a vida engata \numa primeira e sai em disparada”."
+        "text": "E\t\nE\t emprego de metáforas, como em: “a vida engata \numa primeira e sai em disparada”."
       }
     ],
     "officialAnswer": "E",
@@ -2765,17 +2765,17 @@
         },
         {
           "file": "enem-assets/official/2022/9/E.webp",
-          "sha256": "1659265773ac1855a903eda43b6ac4371cc1f20c554632e71d3452ac4ecf39dc",
+          "sha256": "4cba933ac03dcba886ce28d5bde5efa1c15c26e9e69a7815d4782552b89c2c8d",
           "page": 6,
           "rect": [
             285.4645080566406,
             699.311279296875,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 108
+          "height": 85
         }
       ]
     },
@@ -2815,7 +2815,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/9/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t sofrimento decorrente da perda de entes queridos em \nacidentes automobilísticos."
+        "text": "E\t\nE\t sofrimento decorrente da perda de entes queridos em \nacidentes automobilísticos."
       }
     ],
     "officialAnswer": "A",
@@ -3231,17 +3231,17 @@
         },
         {
           "file": "enem-assets/official/2022/12/E.webp",
-          "sha256": "86f8bdf7ca47a7bd574e19cbe7800ab62ede1af4923e6d95b5d8028d7f1546ca",
+          "sha256": "df1e86c49ce77ce37c486613fc75371a3c8a67f1e317ebd2781d3d3a289febaa",
           "page": 7,
           "rect": [
             285.4645080566406,
             694.4505615234375,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 118
+          "height": 95
         }
       ]
     },
@@ -3281,7 +3281,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/12/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n7\nE\t\nE\t nível social dos participantes da situação."
+        "text": "E\t\nE\t nível social dos participantes da situação."
       }
     ],
     "officialAnswer": "B",
@@ -3698,17 +3698,17 @@
         },
         {
           "file": "enem-assets/official/2022/15/E.webp",
-          "sha256": "0ba197c7e2f92aec60db52b39577d9713364a7c3c23200650c1475a3ea7cd6e2",
+          "sha256": "4207b07e0481f5d492b871b04b9af7efbd54d8259e18af6c898d71ae4b4497b2",
           "page": 8,
           "rect": [
             285.4645080566406,
             705.2631225585938,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 96
+          "height": 73
         }
       ]
     },
@@ -3748,7 +3748,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/15/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t assegurar a fiscalização dos gastos públicos."
+        "text": "E\t\nE\t assegurar a fiscalização dos gastos públicos."
       }
     ],
     "officialAnswer": "B",
@@ -4164,17 +4164,17 @@
         },
         {
           "file": "enem-assets/official/2022/18/E.webp",
-          "sha256": "ef31b34e327b253fed120f5715fb46cfff382ab0be5309955801c6a536f9fd84",
+          "sha256": "ba5b41d75c9b24c66dc3b47c2f5b8cde04a0c331ffc0b02e3572d3d05b587392",
           "page": 9,
           "rect": [
             285.4645080566406,
             666.952392578125,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 173
+          "height": 150
         }
       ]
     },
@@ -4214,7 +4214,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/18/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n9\nE\t\nE\t inter-relação entre orações por elementos linguísticos \nlógicos."
+        "text": "E\t\nE\t inter-relação entre orações por elementos linguísticos \nlógicos."
       }
     ],
     "officialAnswer": "A",
@@ -4378,17 +4378,17 @@
         },
         {
           "file": "enem-assets/official/2022/19/E.webp",
-          "sha256": "3b504dc5e84ae1366075ac97550ce27f8fa2e85db9645e2a1c7e007c52cdb20b",
+          "sha256": "67cf5d0e3bef6c6f249874d5f2c5cbfff50d5fa1f38671f9c7703b193f0a046d",
           "page": 10,
           "rect": [
             23.181100845336914,
             490.4713134765625,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 510
+          "height": 503
         }
       ]
     },
@@ -4593,17 +4593,17 @@
         },
         {
           "file": "enem-assets/official/2022/20/E.webp",
-          "sha256": "f0fc65f2dab1e8a98f5590e49ea9ccafad710579adca62af5ef5427566e71aa1",
+          "sha256": "461a52628820e5c46d50299140aef69e408e7de8227a3f3bc074a537ff227e7f",
           "page": 10,
           "rect": [
             285.4645080566406,
             595.7713012695312,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 315
+          "height": 292
         }
       ]
     },
@@ -4643,7 +4643,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/20/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t estimulem o incentivo fiscal para a iniciativa privada \ndestinar verbas aos programas nacionais de \npromoção da saúde pelo esporte."
+        "text": "E\t\nE\t estimulem o incentivo fiscal para a iniciativa privada \ndestinar verbas aos programas nacionais de \npromoção da saúde pelo esporte."
       }
     ],
     "officialAnswer": "C",
@@ -4883,17 +4883,17 @@
         },
         {
           "file": "enem-assets/official/2022/23/E.webp",
-          "sha256": "31d51a16cc8112acd7f25625a7cd6d6130f09199a2fac6bf97d818a0b595d67a",
+          "sha256": "41789cb88306cccaf0f15ef29201a45781308c054cfbf469b1e607a5b5cbdeb2",
           "page": 11,
           "rect": [
             285.4645080566406,
             719.9091796875,
             546.1339416503906,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 67
+          "height": 44
         }
       ]
     },
@@ -4933,7 +4933,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/23/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n11\nE\t\nE\t marca de antigos sofrimentos no fluxo de consciência."
+        "text": "E\t\nE\t marca de antigos sofrimentos no fluxo de consciência."
       }
     ],
     "officialAnswer": "E",
@@ -5097,17 +5097,17 @@
         },
         {
           "file": "enem-assets/official/2022/24/E.webp",
-          "sha256": "713583f2da46e7dcb4354e26e96d7536f869bb8e82ebceb8ffb9492f1b538a81",
+          "sha256": "d966eadbb2f1303b32776304e2bdb8d8103b2e06cd23876bbf480468d51c618f",
           "page": 12,
           "rect": [
             23.181100845336914,
             616.2445068359375,
             281.7190246582031,
-            744.6962280273438
+            741.0103149414062
           ],
           "role": "E",
           "width": 518,
-          "height": 258
+          "height": 251
         }
       ]
     },
@@ -5311,17 +5311,17 @@
         },
         {
           "file": "enem-assets/official/2022/25/E.webp",
-          "sha256": "74c1a1087b9413f9f7ab289c095c109c8d6ea5a9673e736ff550ec159f53d56f",
+          "sha256": "7c4ef4b62493853334a74e813a3911449a6de1103ecc5d231188f577bbe821f1",
           "page": 12,
           "rect": [
             285.4645080566406,
             429.6846923828125,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 647
+          "height": 624
         }
       ]
     },
@@ -5361,7 +5361,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/25/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t conquista de medalha nos Jogos Olímpicos \nde Tóquio."
+        "text": "E\t\nE\t conquista de medalha nos Jogos Olímpicos \nde Tóquio."
       }
     ],
     "officialAnswer": "C",
@@ -5779,17 +5779,17 @@
         },
         {
           "file": "enem-assets/official/2022/28/E.webp",
-          "sha256": "1e1d2c11bdef856eef7e28a961041e1ddffdd7ffecb5b639eb95e3a2a7657a01",
+          "sha256": "b48fbf4cfacab0452f6e6c1e2eef5ad72ceaafac123168b0f29325a5fd720e01",
           "page": 13,
           "rect": [
             285.4645080566406,
             707.68310546875,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 91
+          "height": 68
         }
       ]
     },
@@ -5829,7 +5829,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/28/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n13\nE\t\nE\t aumenta o número de línguas indígenas faladas \nno Brasil."
+        "text": "E\t\nE\t aumenta o número de línguas indígenas faladas \nno Brasil."
       }
     ],
     "officialAnswer": "B",
@@ -6245,17 +6245,17 @@
         },
         {
           "file": "enem-assets/official/2022/31/E.webp",
-          "sha256": "6ee2917fab273a5f3faa12a401a1fc2cc672eb188e6cdfc365e2d27f147c0d78",
+          "sha256": "12927c67a2a519a9783c43900b3bfcc6034cb1fdcc021e1e2ecb8481df0dee4e",
           "page": 14,
           "rect": [
             285.4645080566406,
             643.0908813476562,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 220
+          "height": 197
         }
       ]
     },
@@ -6295,7 +6295,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/31/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t contemplação lírica da paisagem transformada em \nalegoria."
+        "text": "E\t\nE\t contemplação lírica da paisagem transformada em \nalegoria."
       }
     ],
     "officialAnswer": "A",
@@ -6674,17 +6674,17 @@
         },
         {
           "file": "enem-assets/official/2022/33/E.webp",
-          "sha256": "957e25c70e161212a84d27ff5883602d48ecfe551ad4582ebac271fcf9fa7aea",
+          "sha256": "b59a1d1a9714ba09e254d8d2d1b842a9a362bb45d91ba8603808cb262015e194",
           "page": 15,
           "rect": [
             23.181100845336914,
             676.0380249023438,
             565.9290161132812,
-            744.6962280273438
+            701.2973022460938
           ],
           "role": "E",
           "width": 1086,
-          "height": 138
+          "height": 51
         }
       ]
     },
@@ -7141,17 +7141,17 @@
         },
         {
           "file": "enem-assets/official/2022/36/E.webp",
-          "sha256": "baadd4fa540b1bbc2fc98c0eff1de1a5a23028cf87ba2a5a6edded541e503f54",
+          "sha256": "e30709a2dc4a575c224a251ffae634c907842d7010d5fb664bc8c7ea70bd3cdf",
           "page": 16,
           "rect": [
             285.4645080566406,
             530.3176879882812,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 446
+          "height": 423
         }
       ]
     },
@@ -7191,7 +7191,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/36/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t responsabilizar os agentes públicos pela demora na \ntomada de decisões."
+        "text": "E\t\nE\t responsabilizar os agentes públicos pela demora na \ntomada de decisões."
       }
     ],
     "officialAnswer": "C",
@@ -7609,17 +7609,17 @@
         },
         {
           "file": "enem-assets/official/2022/39/E.webp",
-          "sha256": "f95105081cf6db0fca23dae041f8dfca9971b7bd74e29977d0a5470a70293e15",
+          "sha256": "bd6b634fe214bfaed02d27da3da45f18b5ac8674257caac6e362123853d574a4",
           "page": 17,
           "rect": [
             285.4645080566406,
             719.0933227539062,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 68
+          "height": 45
         }
       ]
     },
@@ -7659,7 +7659,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/39/E.webp",
-        "text": "- AZUL - 1ª Aplicação\n17\nE\t\nE\t combinação de formas sintéticas no espaço utilizado."
+        "text": "E\t\nE\t combinação de formas sintéticas no espaço utilizado."
       }
     ],
     "officialAnswer": "E",
@@ -8076,17 +8076,17 @@
         },
         {
           "file": "enem-assets/official/2022/42/E.webp",
-          "sha256": "a2389fb69b8bf32084e3538f1d40f738d067f629a9f4e978354fc18451d583f1",
+          "sha256": "d4462ad742cc122af4cbe4fc7d4fc207868d36b71b4f8d865c9b90acea6ced75",
           "page": 18,
           "rect": [
             285.4645080566406,
             494.18701171875,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 518
+          "height": 495
         }
       ]
     },
@@ -8126,7 +8126,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/42/E.webp",
-        "text": "- AZUL - 1ª Aplicação\nE\t\nE\t necessidade de revelar seus anseios mais íntimos."
+        "text": "E\t\nE\t necessidade de revelar seus anseios mais íntimos."
       }
     ],
     "officialAnswer": "D",

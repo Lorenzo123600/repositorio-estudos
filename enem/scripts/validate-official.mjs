@@ -51,6 +51,9 @@ export function validateOfficialQuestion(q,evidence,root){
  check(q.validation.header?.number===q.number,'cabeçalho de questão incorreto');
  check(q.originalStatement?.format==='image'&&q.originalStatement.source===source?.path,'enunciado original ausente');
  check(q.alternatives?.length===5&&q.alternatives.map(a=>a.letter).join('')==='ABCDE','alternativas oficiais fora de ordem');
+ for(const alternative of q.alternatives||[]){
+  check(!/\b(?:1|2)[º°]?\s*dia\s*[|•-]\s*Caderno\s+\d/i.test(alternative.text||''),'rodapé do caderno na alternativa '+alternative.letter);
+ }
  const assets=q.validation.assets||[];check(assets.length===6,'enunciado/cinco alternativas incompletos');
  check(JSON.stringify(assets.map(a=>a.file))===JSON.stringify(q.images),'lista de imagens diverge da evidência');
  check(assets[0]?.file===q.originalStatement?.file,'enunciado original divergente');

@@ -446,17 +446,17 @@
         },
         {
           "file": "enem-assets/official/2023/49/E.webp",
-          "sha256": "570e8c3b6dd2c9c86e96b2607f20b68a3cdd8634f59f25ecc71ca3e409b54179",
+          "sha256": "989bc913affa2ba54eb0974afd6c910570f2ba217c1d7f4ed17e23e1e5b06b9a",
           "page": 20,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1339416503906,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },
@@ -496,7 +496,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/49/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t Assegurar a integridade territorial."
+        "text": "E\t\nE\t Assegurar a integridade territorial."
       }
     ],
     "officialAnswer": "E",
@@ -775,17 +775,17 @@
         },
         {
           "file": "enem-assets/official/2023/54/E.webp",
-          "sha256": "3fc1c09a31fa15e785503fb031b9244d14a625f76e0ca44295aa67494f232add",
+          "sha256": "91dffe292236d3f9b68b30252d7b1dcd93463ea88c38943215140880aa5f09b2",
           "page": 21,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },
@@ -825,7 +825,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/54/E.webp",
-        "text": "21\nDERNO 1 • AZUL–\nE\t\nE\t defender uma posição intencionalista."
+        "text": "E\t\nE\t defender uma posição intencionalista."
       }
     ],
     "officialAnswer": "A",
@@ -1709,17 +1709,17 @@
         },
         {
           "file": "enem-assets/official/2023/72/E.webp",
-          "sha256": "9a2a34d6ac6dd2096367c762233dad1fcc3153540c0ba32113ebee7584819388",
+          "sha256": "c5309340a1b61b5d610438c173c996311abbd6a37f0cf0ab52b34eda4f49e5a7",
           "page": 26,
           "rect": [
             285.4645080566406,
             534.9752197265625,
             546.1339111328125,
-            752.5280151367188
+            560.2344970703125
           ],
           "role": "E",
           "width": 523,
-          "height": 437
+          "height": 52
         }
       ]
     },
@@ -1759,7 +1759,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/72/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t Receio e civilidade."
+        "text": "E\t\nE\t Receio e civilidade."
       }
     ],
     "officialAnswer": "B",
@@ -1923,17 +1923,17 @@
         },
         {
           "file": "enem-assets/official/2023/76/E.webp",
-          "sha256": "47b202adee0c52ea3d20f4e4c0413aa4b2a97264dfd6572050171c8643b771d5",
+          "sha256": "92fab002490da7227ba47747c63d5daf18ffacbf556580798ec3b6cfcdc9542d",
           "page": 27,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },
@@ -1973,7 +1973,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/76/E.webp",
-        "text": "27\nDERNO 1 • AZUL–\nE\t\nE\t Diminuição dos benefícios na licença-maternidade."
+        "text": "E\t\nE\t Diminuição dos benefícios na licença-maternidade."
       }
     ],
     "officialAnswer": "D",
@@ -2429,17 +2429,17 @@
         },
         {
           "file": "enem-assets/official/2023/84/E.webp",
-          "sha256": "b4ad70e42ea7ab931afa841d805646aeb8d961b822811f665c471aa04d4c3686",
+          "sha256": "be1db6507a60811c6c43b0f4264224b08d0a42d0b735c7143f2845ac8a8adba0",
           "page": 29,
           "rect": [
             285.4645080566406,
             681.9869995117188,
             546.1339111328125,
-            752.5280151367188
+            707.246337890625
           ],
           "role": "E",
           "width": 523,
-          "height": 143
+          "height": 52
         }
       ]
     },
@@ -2479,7 +2479,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/84/E.webp",
-        "text": "29\nDERNO 1 • AZUL–\nE\t\nE\t afastamento das atividades especializadas."
+        "text": "E\t\nE\t afastamento das atividades especializadas."
       }
     ],
     "officialAnswer": "D",
@@ -2933,17 +2933,17 @@
         },
         {
           "file": "enem-assets/official/2023/88/E.webp",
-          "sha256": "ba70cdb1257aed746bc90c2367c5ca36cb3aba505c3fa5a5224687c7d13e4b59",
+          "sha256": "61b29c2b9bbb92b823c908cef5520a66f5b984af50836ba236823a64a275ee03",
           "page": 30,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },
@@ -2983,7 +2983,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/88/E.webp",
-        "text": "DERNO 1 • AZUL–\nE\t\nE\t Modernização da produção industrial."
+        "text": "E\t\nE\t Modernização da produção industrial."
       }
     ],
     "officialAnswer": "A",

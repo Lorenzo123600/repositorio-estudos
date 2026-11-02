@@ -73,7 +73,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/1-espanhol/E.webp",
-        "text": "E \t usar um apelido jocoso para designar a atuação de \num indivíduo em seu próprio bairro.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n4"
+        "text": "E \t usar um apelido jocoso para designar a atuação de \num indivíduo em seu próprio bairro."
       }
     ],
     "officialAnswer": "A",
@@ -192,17 +192,17 @@
         },
         {
           "file": "enem-assets/official/2020/1-espanhol/E.webp",
-          "sha256": "5ca4ee73254e8a2e8fab70b63c16a93dae66f757bd20e27abc80b5c696825cde",
+          "sha256": "2205b1751a01bc183c66b6ae864a957d6f95a5e3c69d12cc01775e69e7b1a565",
           "page": 4,
           "rect": [
             23.181100845336914,
             614.5610961914062,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 277
+          "height": 262
         }
       ]
     },
@@ -286,7 +286,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/1-ingles/E.webp",
-        "text": "E \t censurar a mulher pelo uso de determinadas palavras.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n2"
+        "text": "E \t censurar a mulher pelo uso de determinadas palavras."
       }
     ],
     "officialAnswer": "A",
@@ -405,17 +405,17 @@
         },
         {
           "file": "enem-assets/official/2020/1-ingles/E.webp",
-          "sha256": "7c1be5860afd72a15cd9d540761dfa8a5a18cd466b14411c3f9a95969626940b",
+          "sha256": "90a47136fa317084a1532c9ce80410fdcffd2533f4c7360560c2fdae9545dd61",
           "page": 2,
           "rect": [
             23.181100845336914,
             559.4448852539062,
             282.4645080566406,
-            752.5280151367188
+            581.8695068359375
           ],
           "role": "E",
           "width": 519,
-          "height": 388
+          "height": 46
         }
       ]
     },
@@ -618,17 +618,17 @@
         },
         {
           "file": "enem-assets/official/2020/2-espanhol/E.webp",
-          "sha256": "8a15ced3c6cd00e60b4baed9d3e662f8886e040096845806f7646cddf3625ba9",
+          "sha256": "cd2093b2f55d1f7c94fff49890b915d1f27b5e667205558e15b16fc39b82c39d",
           "page": 4,
           "rect": [
             285.4645080566406,
             713.7335815429688,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 79
+          "height": 64
         }
       ]
     },
@@ -831,17 +831,17 @@
         },
         {
           "file": "enem-assets/official/2020/2-ingles/E.webp",
-          "sha256": "803b37198660d8646561c21eef4665c32d69a77e5b181a735f169ba2e58dd315",
+          "sha256": "46477a45a564a0fbee7fc46b50cff1cfec431463a2e19594115f95e18acf8a6e",
           "page": 2,
           "rect": [
             285.4645080566406,
             581.63623046875,
             546.1339111328125,
-            752.5280151367188
+            604.060791015625
           ],
           "role": "E",
           "width": 523,
-          "height": 343
+          "height": 46
         }
       ]
     },
@@ -1351,7 +1351,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/5-espanhol/E.webp",
-        "text": "E \t cuidado para tratar de assuntos íntimos.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n5"
+        "text": "E \t cuidado para tratar de assuntos íntimos."
       }
     ],
     "officialAnswer": "E",
@@ -1470,17 +1470,17 @@
         },
         {
           "file": "enem-assets/official/2020/5-espanhol/E.webp",
-          "sha256": "5b21dd036d863440ae51a829233cef08d95819ea2f25d34a15c2d8137f3ed075",
+          "sha256": "ca2258cf98f047e98218d63238775bdbddc2ed01db7e3d45d4865b5f3be090c4",
           "page": 5,
           "rect": [
             285.4645080566406,
             727.7098999023438,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 51
+          "height": 36
         }
       ]
     },
@@ -1563,7 +1563,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/5-ingles/E.webp",
-        "text": "E \t evidenciam uma mudança de comportamento.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n3"
+        "text": "E \t evidenciam uma mudança de comportamento."
       }
     ],
     "officialAnswer": "C",
@@ -1682,17 +1682,17 @@
         },
         {
           "file": "enem-assets/official/2020/5-ingles/E.webp",
-          "sha256": "26cc2be539d22098b80f47385a03000f787fff93832d2bba867829bb07770ff8",
+          "sha256": "1f63661c3675543de9f743ecefb9a770b8ad6df3fd50396f38983b1edcdbcfdf",
           "page": 3,
           "rect": [
             285.4645080566406,
             729.0297241210938,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 48
+          "height": 33
         }
       ]
     },
@@ -1776,7 +1776,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/6/E.webp",
-        "text": "E \t apelativa, porque o poeta tenta convencer os leitores \nsobre sua dificuldade de compor um poema.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n6"
+        "text": "E \t apelativa, porque o poeta tenta convencer os leitores \nsobre sua dificuldade de compor um poema."
       }
     ],
     "officialAnswer": "C",
@@ -1895,17 +1895,17 @@
         },
         {
           "file": "enem-assets/official/2020/6/E.webp",
-          "sha256": "b53c7eaaf9670fd66f87991d512cd9a602e530e3d051358815eb1defbbf727b7",
+          "sha256": "ad3b1e086d69d1958c1d0405571c7fa3e4ae12034a67e8f1c176e44f65528fb8",
           "page": 6,
           "rect": [
             23.181100845336914,
             710.33203125,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 86
+          "height": 71
         }
       ]
     },
@@ -2108,17 +2108,17 @@
         },
         {
           "file": "enem-assets/official/2020/7/E.webp",
-          "sha256": "abbb1c40b1753788389836c2530a18088f13c17dc14ca18cffe7d951d7ba8712",
+          "sha256": "5296c6079058bfa1ab8233adffdcab90ed20272b0479b3658b4700e5cd9c7e48",
           "page": 6,
           "rect": [
             285.4645080566406,
             526.57470703125,
             546.1339111328125,
-            752.5280151367188
+            548.9993286132812
           ],
           "role": "E",
           "width": 523,
-          "height": 453
+          "height": 45
         }
       ]
     },
@@ -2534,17 +2534,17 @@
         },
         {
           "file": "enem-assets/official/2020/9/E.webp",
-          "sha256": "ad2c68eac6349c7edce830d0833e20fd945ce6711d1edef860faaf5e70bd3042",
+          "sha256": "3e142d058eaa3469b10f9089bbe24d801dd2906a4a53acbe00a57650e8c39e12",
           "page": 7,
           "rect": [
             23.181100845336914,
             728.6572265625,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 49
+          "height": 34
         }
       ]
     },
@@ -2841,7 +2841,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/11/E.webp",
-        "text": "E \t instabilidade psicológica da personagem face à \nrealidade hostil.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n7"
+        "text": "E \t instabilidade psicológica da personagem face à \nrealidade hostil."
       }
     ],
     "officialAnswer": "B",
@@ -2960,17 +2960,17 @@
         },
         {
           "file": "enem-assets/official/2020/11/E.webp",
-          "sha256": "7b3f360ac9cd8b14f9273a36f1485fe776f964138e5f0284791e46b998634a13",
+          "sha256": "5796b1d7d6565c042deb260b95c57d0101ed77c40a80b2472bcc00e9061bf4c5",
           "page": 7,
           "rect": [
             285.4645080566406,
             712.1226196289062,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 82
+          "height": 67
         }
       ]
     },
@@ -3386,17 +3386,17 @@
         },
         {
           "file": "enem-assets/official/2020/14/E.webp",
-          "sha256": "43bb5e34b1c483235ca5764392d7e368dad4796740db7da6af61d67dd0eb2564",
+          "sha256": "0875458ba3b177cf88eb161330019720d2d2c3d5e4fa9cf8a793bdc3b962f9db",
           "page": 8,
           "rect": [
             285.4645080566406,
             712.9343872070312,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 81
+          "height": 66
         }
       ]
     },
@@ -3599,17 +3599,17 @@
         },
         {
           "file": "enem-assets/official/2020/15/E.webp",
-          "sha256": "5549ecd794b12a0f16d35bd00a042cd76f04b4880358db640260cee13e07557c",
+          "sha256": "457934f71bb5cf579bdcef7d7eeade168fca3342d4f5ce9becee13c90b4957e2",
           "page": 9,
           "rect": [
             23.181100845336914,
             700.331298828125,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 106
+          "height": 91
         }
       ]
     },
@@ -3693,7 +3693,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/16/E.webp",
-        "text": "E \t apelo pela identificação com a empresa extensiva ao \namor patriótico.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n9"
+        "text": "E \t apelo pela identificação com a empresa extensiva ao \namor patriótico."
       }
     ],
     "officialAnswer": "E",
@@ -3812,17 +3812,17 @@
         },
         {
           "file": "enem-assets/official/2020/16/E.webp",
-          "sha256": "4c5d55351e789f0bba89a04d226f53ea91802090af3c433653783bbea2a4f0a6",
+          "sha256": "d3ef413970e414f28ec20625229864368dabc770cb779c5b396f54d88b3c6383",
           "page": 9,
           "rect": [
             285.4645080566406,
             705.75341796875,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 95
+          "height": 80
         }
       ]
     },
@@ -4238,17 +4238,17 @@
         },
         {
           "file": "enem-assets/official/2020/19/E.webp",
-          "sha256": "a370afe7ad763d1bad1436b3d75a7859faf54350ed5063c18c2ab5e389436e0c",
+          "sha256": "a0783d641c62e6bea55d95b308e9cf58d63a6ecf0fb213d9e9fb4b5cf70ea182",
           "page": 10,
           "rect": [
             285.4645080566406,
             713.6483764648438,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 79
+          "height": 64
         }
       ]
     },
@@ -4545,7 +4545,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/22/E.webp",
-        "text": "E \t regulamentar normas de boa convivência nos \nestádios.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n11"
+        "text": "E \t regulamentar normas de boa convivência nos \nestádios."
       }
     ],
     "officialAnswer": "A",
@@ -4664,17 +4664,17 @@
         },
         {
           "file": "enem-assets/official/2020/22/E.webp",
-          "sha256": "8e70ead4601d377154755e65f31be392a91e0122bb3aca9e3a656aafa0f274ea",
+          "sha256": "3d2cb3aed8ca44c3f53b789292939db3f4906765d69e1af14d13fe6d1d2cfbfa",
           "page": 11,
           "rect": [
             285.4645080566406,
             716.6732177734375,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 73
+          "height": 58
         }
       ]
     },
@@ -4971,7 +4971,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/24/E.webp",
-        "text": "E \t transferência de responsabilidade.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n12"
+        "text": "E \t transferência de responsabilidade."
       }
     ],
     "officialAnswer": "D",
@@ -5090,17 +5090,17 @@
         },
         {
           "file": "enem-assets/official/2020/24/E.webp",
-          "sha256": "a9fc7b39f6b7732f7289b31c1e5a811ee551ebbe6e265792b0cd457f79860c50",
+          "sha256": "63163307f5e8be4b0bc0b290e063172c82a8bd11b62c0ec5fbcea00e754073ab",
           "page": 12,
           "rect": [
             23.181100845336914,
             726.0264892578125,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 54
+          "height": 39
         }
       ]
     },
@@ -5516,17 +5516,17 @@
         },
         {
           "file": "enem-assets/official/2020/26/E.webp",
-          "sha256": "f785c4aee6a884ef83ab6c59857b89db9d662e0fb21c92be3b058c482bc65933",
+          "sha256": "74e75c584193e02ab4bdf15e9a16022adaf92ed0744d9106ca28e3d031467eb5",
           "page": 12,
           "rect": [
             285.4645080566406,
             702.6829833984375,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 101
+          "height": 86
         }
       ]
     },
@@ -5823,7 +5823,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/29/E.webp",
-        "text": "E \t questionar os lugares predeterminados da família.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n13"
+        "text": "E \t questionar os lugares predeterminados da família."
       }
     ],
     "officialAnswer": "B",
@@ -5942,17 +5942,17 @@
         },
         {
           "file": "enem-assets/official/2020/29/E.webp",
-          "sha256": "71177b4f9ba5566e2d270465bfd64df2209a380c6a0019ed76e2a1c1815349e8",
+          "sha256": "328964efb822528772f8d4a5be76f6ce98d9359ce37b888ecda273b20385d3ff",
           "page": 13,
           "rect": [
             285.4645080566406,
             722.3176879882812,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 62
+          "height": 47
         }
       ]
     },
@@ -6368,17 +6368,17 @@
         },
         {
           "file": "enem-assets/official/2020/32/E.webp",
-          "sha256": "9b12d990c8cf71bfa53b82e690823a40275a95b2e8cf180c4dcda022a3e60ed4",
+          "sha256": "8d047587468568ed6d2355c2d5f81adccd50dd7e751e7731c73df4b866ef09a1",
           "page": 14,
           "rect": [
             285.4645080566406,
             716.8870239257812,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 73
+          "height": 58
         }
       ]
     },
@@ -6581,17 +6581,17 @@
         },
         {
           "file": "enem-assets/official/2020/33/E.webp",
-          "sha256": "9bfd992e3ef2fe4b190435bacf2d80ca7f21dad6a9c0002c530197cfcce66caf",
+          "sha256": "7e9c708c4794bd4d7befbedec96f85af555daaed4bbef3dec5aa15cc182cb649",
           "page": 15,
           "rect": [
             23.181100845336914,
             715.944580078125,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 75
+          "height": 60
         }
       ]
     },
@@ -6888,7 +6888,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/35/E.webp",
-        "text": "E \t reforçarem estereótipos de gênero masculino ou \nfeminino nos esportes.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n15"
+        "text": "E \t reforçarem estereótipos de gênero masculino ou \nfeminino nos esportes."
       }
     ],
     "officialAnswer": "A",
@@ -7007,17 +7007,17 @@
         },
         {
           "file": "enem-assets/official/2020/35/E.webp",
-          "sha256": "5cc232f1b495503d695060bb5276213d75a85ef05b234410c7e9820e12b50b17",
+          "sha256": "ca630e004f8f4543f322261983fa60cd70e1ed2b5ef7ec6016d877d3121f2163",
           "page": 15,
           "rect": [
             285.4645080566406,
             714.9492797851562,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 77
+          "height": 62
         }
       ]
     },
@@ -7314,7 +7314,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/37/E.webp",
-        "text": "E  forma de organização social.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n16"
+        "text": "E  forma de organização social."
       }
     ],
     "officialAnswer": "E",
@@ -7433,17 +7433,17 @@
         },
         {
           "file": "enem-assets/official/2020/37/E.webp",
-          "sha256": "cc243b86e12904c9b938c76057233e37f33e643675e054a4e7c2b56b824837b7",
+          "sha256": "9cc38aa6fc67d4fced0fa350a211ed73371e30133c92a882c9f01e520b99d7ad",
           "page": 16,
           "rect": [
             23.181100845336914,
             728.648193359375,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 49
+          "height": 34
         }
       ]
     },
@@ -7646,17 +7646,17 @@
         },
         {
           "file": "enem-assets/official/2020/38/E.webp",
-          "sha256": "6a9c1ecc9a871777c5bab1c7795f584a1847166e62ee48df04027f8220d06a17",
+          "sha256": "40488d8d7565c8a80e9f871cb6fbb8801e182b0272a4ba3f2e79747eb4e04e82",
           "page": 16,
           "rect": [
             285.4645080566406,
             711.965087890625,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 83
+          "height": 68
         }
       ]
     },
@@ -8072,17 +8072,17 @@
         },
         {
           "file": "enem-assets/official/2020/40/E.webp",
-          "sha256": "077cd529968d02b50286833fbd9db0eb02b27e86e2a8a3c6853e7ea1ccabee44",
+          "sha256": "0169c2c5d88e088d13da1f111ecee6d045d437bacd9bb41e54311d05933138ee",
           "page": 17,
           "rect": [
             23.181100845336914,
             728.4517211914062,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 50
+          "height": 35
         }
       ]
     },
@@ -8379,7 +8379,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/42/E.webp",
-        "text": "E \t disputa entre jogadores, contribuindo para o \nindividualismo.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n17"
+        "text": "E \t disputa entre jogadores, contribuindo para o \nindividualismo."
       }
     ],
     "officialAnswer": "A",
@@ -8498,17 +8498,17 @@
         },
         {
           "file": "enem-assets/official/2020/42/E.webp",
-          "sha256": "219caef7542d5ace8b052a48b9865dfbf7f635fc65c5e4745108e1cf07ec5a7d",
+          "sha256": "13b3b46a9bf7b531b7a300a0b82671ca95f22e08c7461804d8f9695ad0c71009",
           "page": 17,
           "rect": [
             285.4645080566406,
             715.1525268554688,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 76
+          "height": 61
         }
       ]
     },
@@ -8805,7 +8805,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/44/E.webp",
-        "text": "E \t os filhos adotivos são companheiros dos pais.\nLC\n1° di\n| C d\n1\nAZUL\nPá i\n18"
+        "text": "E \t os filhos adotivos são companheiros dos pais."
       }
     ],
     "officialAnswer": "B",
@@ -8924,17 +8924,17 @@
         },
         {
           "file": "enem-assets/official/2020/44/E.webp",
-          "sha256": "fc387af87a4310ab8413629aefda9a58240edf54f886d1a135d5ac85966d5178",
+          "sha256": "bb46c37076d15a1f6e430a0bdeeb518d31af01b35942824a85e5ec76e8b4239a",
           "page": 18,
           "rect": [
             23.181100845336914,
             724.83740234375,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 57
+          "height": 42
         }
       ]
     },
@@ -9231,7 +9231,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/47/E.webp",
-        "text": "E \t desregulamentação das propriedades nas zonas de \nfronteira.\nCH\n1° di\n| C d\n1\nAZUL\nPá i\n20"
+        "text": "E \t desregulamentação das propriedades nas zonas de \nfronteira."
       }
     ],
     "officialAnswer": "A",
@@ -9350,17 +9350,17 @@
         },
         {
           "file": "enem-assets/official/2020/47/E.webp",
-          "sha256": "946a1828f2797077e5f0ada4014e3edbc37b0f2902349ad06aa5c5e1bbee90f5",
+          "sha256": "6800a8125d56eb27ce22b777df1903326b1ff5904728e96abe94c7edf221e852",
           "page": 20,
           "rect": [
             23.181100845336914,
             705.8233032226562,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 95
+          "height": 80
         }
       ]
     },
@@ -9776,17 +9776,17 @@
         },
         {
           "file": "enem-assets/official/2020/49/E.webp",
-          "sha256": "772527186a30bc0dd4f8b8f922027c3de0e58215402ed4b223bff8333bc27a4f",
+          "sha256": "a9d4f4d5f35e4b362661a28dac675a62d56d0b81f8388eccdaca0f228d5350d7",
           "page": 20,
           "rect": [
             285.4645080566406,
             704.7525024414062,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 97
+          "height": 82
         }
       ]
     },
@@ -10083,7 +10083,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/53/E.webp",
-        "text": "E \t às distorções das formas continentais.\nCH\n1° di\n| C d\n1\nAZUL\nPá i\n22"
+        "text": "E \t às distorções das formas continentais."
       }
     ],
     "officialAnswer": "D",
@@ -10202,17 +10202,17 @@
         },
         {
           "file": "enem-assets/official/2020/53/E.webp",
-          "sha256": "3882e0cdd3ac1d89c55d15cb277c8b30c8d1e9c25392460175fa86613cfed84d",
+          "sha256": "cb20f96df3e9f55560d42ac394ba69968a9240e964b88a9248b78aab2bfd35f7",
           "page": 22,
           "rect": [
             23.181100845336914,
             718.9572143554688,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 69
+          "height": 54
         }
       ]
     },
@@ -10628,17 +10628,17 @@
         },
         {
           "file": "enem-assets/official/2020/55/E.webp",
-          "sha256": "d59f662f453556598da98ef97cda00e380dc2161b4e1fd3507bcaf20de4a0ab3",
+          "sha256": "9278ef037dddacebeef1bf84394f1872e94b45e6dec64f84bb791307ec735b32",
           "page": 22,
           "rect": [
             285.4645080566406,
             687.73681640625,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 131
+          "height": 116
         }
       ]
     },
@@ -11267,17 +11267,17 @@
         },
         {
           "file": "enem-assets/official/2020/58/E.webp",
-          "sha256": "63e5e0a95542e040018d5db73167c9d5815d54c3ca032e527df868ae901ab16f",
+          "sha256": "78b4f9149577aa791ada2f3f31249cf8a3863f48a3811816dae4445409bc979f",
           "page": 23,
           "rect": [
             23.181100845336914,
             727.5256958007812,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 51
+          "height": 36
         }
       ]
     },
@@ -11574,7 +11574,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/60/E.webp",
-        "text": "E \t existencialista, na questão do reconhecimento de si.\nCH\n1° di\n| C d\n1\nAZUL\nPá i\n23"
+        "text": "E \t existencialista, na questão do reconhecimento de si."
       }
     ],
     "officialAnswer": "E",
@@ -11693,17 +11693,17 @@
         },
         {
           "file": "enem-assets/official/2020/60/E.webp",
-          "sha256": "31eb13255239d1fd902be2de43d8e33552a58d84f41b3e01b37bb2de2f303cac",
+          "sha256": "65ff3e6445d1ccb8a893295deccd75a821b2403a84aa3c49b8577a601c5b8546",
           "page": 23,
           "rect": [
             285.4645080566406,
             591.7265014648438,
             546.1339111328125,
-            752.5280151367188
+            614.151123046875
           ],
           "role": "E",
           "width": 523,
-          "height": 323
+          "height": 46
         }
       ]
     },
@@ -12000,7 +12000,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/62/E.webp",
-        "text": "E \t conferir prerrogativas políticas aos descendentes de \nestrangeiros.\nCH\n1° di\n| C d\n1\nAZUL\nPá i\n24"
+        "text": "E \t conferir prerrogativas políticas aos descendentes de \nestrangeiros."
       }
     ],
     "officialAnswer": "B",
@@ -12119,17 +12119,17 @@
         },
         {
           "file": "enem-assets/official/2020/62/E.webp",
-          "sha256": "5344247ab5d42e3dbec8841f1fdceb3785b6b00cb182489f2dc2355144842eca",
+          "sha256": "0196c112ce99e6d29eb24ed1e25901bc1f5abcc7a2b59a4ea2a156425533cac3",
           "page": 24,
           "rect": [
             23.181100845336914,
             687.5303955078125,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 131
+          "height": 116
         }
       ]
     },
@@ -12545,17 +12545,17 @@
         },
         {
           "file": "enem-assets/official/2020/64/E.webp",
-          "sha256": "f615c18cbad67eea9cd1ca1fa2a5c3080c6bd6a2180dbddd41c8115d43bac4f4",
+          "sha256": "a0a7f2040422c73950ba9e6cb18bb51c232a76b5e1a708e527d858ff7cb2731d",
           "page": 24,
           "rect": [
             285.4645080566406,
             714.3533935546875,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 78
+          "height": 63
         }
       ]
     },
@@ -13184,17 +13184,17 @@
         },
         {
           "file": "enem-assets/official/2020/70/E.webp",
-          "sha256": "7884685a491205f9001557b1b593d3edcb6bd99a01ffaa8dc5cdb489b0ced243",
+          "sha256": "07e646b33e46250fbb31fde7330adc524135aa7706db22bb6b896e0234c581db",
           "page": 26,
           "rect": [
             285.4645080566406,
             718.517822265625,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 69
+          "height": 54
         }
       ]
     },
@@ -13610,17 +13610,17 @@
         },
         {
           "file": "enem-assets/official/2020/72/E.webp",
-          "sha256": "da1ed9affab6563afb5577cf0b9b36df3c9e11f23698d511473325c960817b4d",
+          "sha256": "dd2af714758cbf4a1ff8e6cd146e9674925c948a5729878b55daf4ae37a3b0e2",
           "page": 27,
           "rect": [
             23.181100845336914,
             694.7982177734375,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 117
+          "height": 102
         }
       ]
     },
@@ -13917,7 +13917,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/74/E.webp",
-        "text": "E \t possibilidade de contemplação de verdades atemporais.\nCH\n1° di\n| C d\n1\nAZUL\nPá i\n27"
+        "text": "E \t possibilidade de contemplação de verdades atemporais."
       }
     ],
     "officialAnswer": "C",
@@ -14036,17 +14036,17 @@
         },
         {
           "file": "enem-assets/official/2020/74/E.webp",
-          "sha256": "3855d742d7920e0c06b817a60b90f105ff28ec79030e2cb504b9613b0c027825",
+          "sha256": "0190fa24ea4a25397002a8972463fe7423d24b2cced8152f87bd49af10b2a069",
           "page": 27,
           "rect": [
             285.4645080566406,
             717.4722290039062,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 72
+          "height": 57
         }
       ]
     },
@@ -14888,17 +14888,17 @@
         },
         {
           "file": "enem-assets/official/2020/79/E.webp",
-          "sha256": "b21b1276108fbd4e4fe84f380b39c23777c0214a2205c8b6979702808e789e9d",
+          "sha256": "05c010843a4919c7248d5f356bb8b741515459f51dcd3e108468d9ed3d3c588b",
           "page": 28,
           "rect": [
             285.4645080566406,
             713.836669921875,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 79
+          "height": 64
         }
       ]
     },
@@ -15621,7 +15621,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/84/E.webp",
-        "text": "E \t Dobramentos modernos.\nCH\n1° di\n| C d\n1\nAZUL\nPá i\n29"
+        "text": "E \t Dobramentos modernos."
       }
     ],
     "officialAnswer": "E",
@@ -15740,17 +15740,17 @@
         },
         {
           "file": "enem-assets/official/2020/84/E.webp",
-          "sha256": "981bc844f455babb62a1efb0b4af7d75e24e20e162ad3c8caa1aae905d5ddf00",
+          "sha256": "5a0993fd972d2d5df5db27ac51100dbf27c6acb9a32074855fa3bd192c681ae5",
           "page": 29,
           "rect": [
             285.4645080566406,
             727.66259765625,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 51
+          "height": 36
         }
       ]
     },
@@ -16166,17 +16166,17 @@
         },
         {
           "file": "enem-assets/official/2020/87/E.webp",
-          "sha256": "a645e18303d6e173ada70c8cd6f27524e9916518d3ad23c00de7b81278d5c0c7",
+          "sha256": "c3e805a0a53e0f77982c2c1af975bbb822e4f1e2d6cf6c7de68b504f5f31d193",
           "page": 30,
           "rect": [
             285.4645080566406,
             456.4493408203125,
             546.1339111328125,
-            752.5280151367188
+            478.8739318847656
           ],
           "role": "E",
           "width": 523,
-          "height": 594
+          "height": 46
         }
       ]
     },
@@ -16686,7 +16686,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/96/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n4\nE \t 4,27 × 10−1 mol L−1"
+        "text": "E \t 4,27 × 10−1 mol L−1"
       }
     ],
     "officialAnswer": "B",
@@ -16805,17 +16805,17 @@
         },
         {
           "file": "enem-assets/official/2020/96/E.webp",
-          "sha256": "a62d62327ac7da55d0aa98b4aeccb249f0c4f1911a11f0017025bf4df7b10105",
+          "sha256": "80ed79749688619b882991a840315ef2a16a9095dbcaafdad7862997b1856afd",
           "page": 4,
           "rect": [
             23.181100845336914,
             538.8265380859375,
             282.4645080566406,
-            752.5280151367188
+            561.2510986328125
           ],
           "role": "E",
           "width": 519,
-          "height": 429
+          "height": 46
         }
       ]
     },
@@ -17231,17 +17231,17 @@
         },
         {
           "file": "enem-assets/official/2020/98/E.webp",
-          "sha256": "722586ec4d5c43b92ceba18b6bcd3e63692b8c9a49e5c845af513c594d5c16cf",
+          "sha256": "b58f1640c744a8b7569d1e9d1d1660f2f474be3113b9b65da8fa82144a63c320",
           "page": 4,
           "rect": [
             285.4645080566406,
             713.1611328125,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 80
+          "height": 65
         }
       ]
     },
@@ -17538,7 +17538,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/101/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n5\nE \t D2 foram preservadas as mesmas características \nfenotípicas da população original A."
+        "text": "E \t D2 foram preservadas as mesmas características \nfenotípicas da população original A."
       }
     ],
     "officialAnswer": "C",
@@ -17657,17 +17657,17 @@
         },
         {
           "file": "enem-assets/official/2020/101/E.webp",
-          "sha256": "b13cecd2ce4b1bf26421e0e5cb89a4ae15c4c3e87b0cd4f5345cde40c563d70e",
+          "sha256": "664487f33f30328cc8de6dc2ae8238ef714b0bae800a2cc9824dedf95857b2a5",
           "page": 5,
           "rect": [
             285.4645080566406,
             569.8692016601562,
             546.1339111328125,
-            752.5280151367188
+            606.2939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 367
+          "height": 74
         }
       ]
     },
@@ -17964,7 +17964,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/107/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n7\nE  106"
+        "text": "E  106"
       }
     ],
     "officialAnswer": "C",
@@ -18083,17 +18083,17 @@
         },
         {
           "file": "enem-assets/official/2020/107/E.webp",
-          "sha256": "f4d1732d86cd0f65688ee9d8605dd987215d8a784df1c3210a83c27dda5132ac",
+          "sha256": "3d6f56722a055809b3200b3fa2a2482fcfb67555cd490cf33f5be8379d85b7a1",
           "page": 7,
           "rect": [
             285.4645080566406,
             727.64453125,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 51
+          "height": 36
         }
       ]
     },
@@ -18603,7 +18603,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/110/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n8\nE \t elevada energia de ativação."
+        "text": "E \t elevada energia de ativação."
       }
     ],
     "officialAnswer": "D",
@@ -18722,17 +18722,17 @@
         },
         {
           "file": "enem-assets/official/2020/110/E.webp",
-          "sha256": "58bce64e85309aa4038f3b08702633be75bf84246ca8646d05a3a35720881bc3",
+          "sha256": "165a85fd958ff39741294d850a63d0b32ab402dbddc9df2f2ebb73cb26af46ed",
           "page": 8,
           "rect": [
             23.181100845336914,
             727.0745239257812,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 52
+          "height": 37
         }
       ]
     },
@@ -19148,17 +19148,17 @@
         },
         {
           "file": "enem-assets/official/2020/112/E.webp",
-          "sha256": "bb9a439b7ee11b2f7afd1ec9022c72a41012aa42f9586ff25418396268943e83",
+          "sha256": "235b25391275f1f9d37fce63a606c81a77940f51df92b1725b4ade5ba05ea1d7",
           "page": 8,
           "rect": [
             285.4645080566406,
             635.897216796875,
             546.1339111328125,
-            752.5280151367188
+            658.32177734375
           ],
           "role": "E",
           "width": 523,
-          "height": 235
+          "height": 46
         }
       ]
     },
@@ -19455,7 +19455,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/115/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n9\nE \t melhoramento genético."
+        "text": "E \t melhoramento genético."
       }
     ],
     "officialAnswer": "B",
@@ -19574,17 +19574,17 @@
         },
         {
           "file": "enem-assets/official/2020/115/E.webp",
-          "sha256": "ff810f8a34a4a0de9bee25576028a2c1b6022a71522bcafbcf0458d00c6650fe",
+          "sha256": "d81c3f8f8b4ac4dd57909043ccc5247e30bc794caba1fa7c804b0dd48fc11032",
           "page": 9,
           "rect": [
             285.4645080566406,
             556.9531860351562,
             546.1339111328125,
-            752.5280151367188
+            579.3779296875
           ],
           "role": "E",
           "width": 523,
-          "height": 393
+          "height": 46
         }
       ]
     },
@@ -19668,7 +19668,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/116/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n10\nE \t Entre A e E; 0,9 mA."
+        "text": "E \t Entre A e E; 0,9 mA."
       }
     ],
     "officialAnswer": "D",
@@ -19787,17 +19787,17 @@
         },
         {
           "file": "enem-assets/official/2020/116/E.webp",
-          "sha256": "59ec110483ff7d7792091f60d0160bc7168958186eb99e9e6ae006ca7593e90e",
+          "sha256": "6ec8989e265069243607b02a7bef0218fa939730976cf685f7932703137dac9e",
           "page": 10,
           "rect": [
             23.181100845336914,
             485.78570556640625,
             282.4645080566406,
-            752.5280151367188
+            513.8797607421875
           ],
           "role": "E",
           "width": 519,
-          "height": 535
+          "height": 57
         }
       ]
     },
@@ -20213,17 +20213,17 @@
         },
         {
           "file": "enem-assets/official/2020/118/E.webp",
-          "sha256": "68d8be75866ee22da04fc046ea618739205ae82d9b9aedf32b9cd65829ead5d0",
+          "sha256": "0250a779cac87e09fcb297445b1193ed52071d349b7269fd985fcfc4d4c3d8d9",
           "page": 10,
           "rect": [
             285.4645080566406,
             696.5863037109375,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 113
+          "height": 98
         }
       ]
     },
@@ -20520,7 +20520,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/121/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n11\nE \t Vermelho."
+        "text": "E \t Vermelho."
       }
     ],
     "officialAnswer": "E",
@@ -20639,17 +20639,17 @@
         },
         {
           "file": "enem-assets/official/2020/121/E.webp",
-          "sha256": "c3ce00a7895f8b506661daee8029f513fa79bbb4778145847c234c65c77e0f1a",
+          "sha256": "92562c8f6baf76df4dc6bc234bbafab7e67c0ec28be55a77305e259cabfc28d9",
           "page": 11,
           "rect": [
             285.4645080566406,
             727.1597290039062,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 52
+          "height": 37
         }
       ]
     },
@@ -20946,7 +20946,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/123/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n12\nE \t decantar a mistura separando os dois componentes em \num funil adequado."
+        "text": "E \t decantar a mistura separando os dois componentes em \num funil adequado."
       }
     ],
     "officialAnswer": "E",
@@ -21065,17 +21065,17 @@
         },
         {
           "file": "enem-assets/official/2020/123/E.webp",
-          "sha256": "16d315ffebec8e3f35e648d6bbcb5a6bcf3de0fb90a244acf739229fbb8b25f5",
+          "sha256": "27e5e4090d52fc82d9ba97ee87c2d4b747964aff215c3ff61b301a304f71f11a",
           "page": 12,
           "rect": [
             23.181100845336914,
             714.146728515625,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 78
+          "height": 63
         }
       ]
     },
@@ -21491,17 +21491,17 @@
         },
         {
           "file": "enem-assets/official/2020/125/E.webp",
-          "sha256": "c01ea66ab7c07e76e7198de7672a956c26cae9908b4629b1ef9d88549fa9a8c5",
+          "sha256": "50b25e7108063caa4fa83f4a531a26b4f16cad820a7f784619920eb46fb38580",
           "page": 12,
           "rect": [
             285.4645080566406,
             561.6173095703125,
             546.1339111328125,
-            752.5280151367188
+            584.0419311523438
           ],
           "role": "E",
           "width": 523,
-          "height": 383
+          "height": 46
         }
       ]
     },
@@ -22011,7 +22011,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/129/E.webp",
-        "text": "CN\n2° di\n| C d\n7\nAZUL\nPá i\n13\nE \t V"
+        "text": "E \t V"
       }
     ],
     "officialAnswer": "B",
@@ -22130,17 +22130,17 @@
         },
         {
           "file": "enem-assets/official/2020/129/E.webp",
-          "sha256": "e1a05e1f80c3b097f9806db742e226354ffc9c764c5acbd35b53fdd6e69d2898",
+          "sha256": "9dfcf847d3fe3b81616ed6c03d6cf6a569ad14a2c7d0b717175ab3a1f8624e61",
           "page": 13,
           "rect": [
             285.4645080566406,
             624.7286376953125,
             546.1339111328125,
-            752.5280151367188
+            647.1531982421875
           ],
           "role": "E",
           "width": 523,
-          "height": 257
+          "height": 46
         }
       ]
     },
@@ -22650,7 +22650,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/136/E.webp",
-        "text": "E \t  90\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n16"
+        "text": "E \t  90"
       }
     ],
     "officialAnswer": "D",
@@ -22769,17 +22769,17 @@
         },
         {
           "file": "enem-assets/official/2020/136/E.webp",
-          "sha256": "1ad971ea665041f08f31fce946d6dea52e030b91bbffd4b330801a90536e5ef2",
+          "sha256": "3b6466a30311b00d63e20cb8ff6383284501c92eb144dcc7be7829a41ac387b5",
           "page": 16,
           "rect": [
             23.181100845336914,
             727.5344848632812,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 51
+          "height": 36
         }
       ]
     },
@@ -22982,17 +22982,17 @@
         },
         {
           "file": "enem-assets/official/2020/137/E.webp",
-          "sha256": "c1f4fe0b82bc9d37357108729a0425d1f5cae1b5b80bf233626059e768b829f2",
+          "sha256": "85032948aecf73fda55f8bd87de1fe9e3b210dcab7dda19bbe261945b27535e1",
           "page": 16,
           "rect": [
             285.4645080566406,
             559.3343505859375,
             546.1339111328125,
-            752.5280151367188
+            592.3831787109375
           ],
           "role": "E",
           "width": 523,
-          "height": 388
+          "height": 67
         }
       ]
     },
@@ -23408,17 +23408,17 @@
         },
         {
           "file": "enem-assets/official/2020/139/E.webp",
-          "sha256": "dc33af621b22deb6596f058af1b4dbae3fe6b8c80ae4afda40b37076e2cd949c",
+          "sha256": "e34ab3a36c1177aef627064c944fe9603028d4a4efb49ef59f50b3aa7e2af12a",
           "page": 17,
           "rect": [
             23.181100845336914,
             728.4157104492188,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 50
+          "height": 35
         }
       ]
     },
@@ -23715,7 +23715,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/141/E.webp",
-        "text": "E   60\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n17"
+        "text": "E   60"
       }
     ],
     "officialAnswer": "A",
@@ -23834,17 +23834,17 @@
         },
         {
           "file": "enem-assets/official/2020/141/E.webp",
-          "sha256": "de926304f716adb6af19c907ab18a15b2fbb7455cbe2f2f7faca5ac9f72be4a1",
+          "sha256": "2532754cb3346db25030b5cc016adf6e769ce590c74d8b6e3d992bf1dc5336fd",
           "page": 17,
           "rect": [
             285.4645080566406,
             609.5650634765625,
             546.1339111328125,
-            752.5280151367188
+            631.98974609375
           ],
           "role": "E",
           "width": 523,
-          "height": 287
+          "height": 45
         }
       ]
     },
@@ -24260,17 +24260,17 @@
         },
         {
           "file": "enem-assets/official/2020/144/E.webp",
-          "sha256": "b0ddb670e23e3eae79a73f30f71e6864f5bf68429f1e628cee1d53e17f1e3a90",
+          "sha256": "8ff3dcb950d6ac19ee4f8c275bf5d342aa09d33c291212b02ec7708ff65c0c53",
           "page": 18,
           "rect": [
             285.4645080566406,
             724.2230224609375,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 58
+          "height": 43
         }
       ]
     },
@@ -24566,7 +24566,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/147/E.webp",
-        "text": "E 1 ∙X\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n19"
+        "text": "E 1 ∙X"
       }
     ],
     "officialAnswer": "C",
@@ -24685,17 +24685,17 @@
         },
         {
           "file": "enem-assets/official/2020/147/E.webp",
-          "sha256": "cce755b4d09c2535ec4e37696a6f15ed77ec6ed14dded7f1a7af8ff20f1e484b",
+          "sha256": "644e3400f6c704a33dbd8907e4230372bbb2e4a0bca70706cf5e8d94d90d9dd5",
           "page": 19,
           "rect": [
             285.4645080566406,
             550.223876953125,
             546.1339111328125,
-            752.5280151367188
+            575.7691040039062
           ],
           "role": "E",
           "width": 523,
-          "height": 406
+          "height": 52
         }
       ]
     },
@@ -25324,17 +25324,17 @@
         },
         {
           "file": "enem-assets/official/2020/151/E.webp",
-          "sha256": "04e12e335df68cf9daa12e8d500501aa4616410b3e4dde7d0710c3ac62cbbbed",
+          "sha256": "1269991978505eb792bfcbff4806aa4645809c8060a131059afa1821feff2fd1",
           "page": 20,
           "rect": [
             285.4645080566406,
             727.8745727539062,
             546.1337890625,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 51
+          "height": 36
         }
       ]
     },
@@ -25631,7 +25631,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/154/E.webp",
-        "text": "E  1,0 × 10 − 7\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n21"
+        "text": "E  1,0 × 10 − 7"
       }
     ],
     "officialAnswer": "C",
@@ -25750,17 +25750,17 @@
         },
         {
           "file": "enem-assets/official/2020/154/E.webp",
-          "sha256": "22bbae797c9f0942c2e5eb7df9ea1fdda392e1f394a1e2f53585dc8368171937",
+          "sha256": "7580fc3ff482e641171e539381760ddf37dd90cbc4925a2974881fef10a0fb9f",
           "page": 21,
           "rect": [
             285.4645080566406,
             729.0795288085938,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 48
+          "height": 33
         }
       ]
     },
@@ -25963,17 +25963,17 @@
         },
         {
           "file": "enem-assets/official/2020/155/E.webp",
-          "sha256": "8762edcedd6dff865976860f1a7db5fdf6b792b457de5c1dcbacd2211e429164",
+          "sha256": "f3608bf82f088f197ead80f15a0e4026b81dc4efac84fc9957a8616fd177eebe",
           "page": 22,
           "rect": [
             23.181100845336914,
             702.5978393554688,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 101
+          "height": 86
         }
       ]
     },
@@ -26176,17 +26176,17 @@
         },
         {
           "file": "enem-assets/official/2020/156/E.webp",
-          "sha256": "1874cfb9b2230d2f5dc67664abbb7c5b71a4d1de26d93e61599885b9c4083838",
+          "sha256": "ef9461fe5b0441dca526dda8fcf88a614fc619aaf2b6b54d556251a140b0722c",
           "page": 22,
           "rect": [
             285.4645080566406,
             729.0886840820312,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 48
+          "height": 33
         }
       ]
     },
@@ -26389,17 +26389,17 @@
         },
         {
           "file": "enem-assets/official/2020/158/E.webp",
-          "sha256": "7c2686bc72a4f272ea6bbf3f0ade9fb03702b97f75eb629f817ec6c6f7d8ae41",
+          "sha256": "af5584338bae5ffd1f13e4e94807a705effc7976406a09738bf67cc514fffe41",
           "page": 23,
           "rect": [
             23.181100845336914,
             727.8565063476562,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 51
+          "height": 36
         }
       ]
     },
@@ -26696,7 +26696,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/160/E.webp",
-        "text": "E  21.\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n23"
+        "text": "E  21."
       }
     ],
     "officialAnswer": "C",
@@ -26815,17 +26815,17 @@
         },
         {
           "file": "enem-assets/official/2020/160/E.webp",
-          "sha256": "65828e1c69b37ad6b0e1101d81e15e9f8256173bb76424d22eb59625d27a9489",
+          "sha256": "a305352e891d2bf27ed86dedd374fc23a7fd7d77b473c929adaab2135eb84bd3",
           "page": 23,
           "rect": [
             285.4645080566406,
             728.1630249023438,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 50
+          "height": 35
         }
       ]
     },
@@ -27122,7 +27122,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/162/E.webp",
-        "text": "E \t 5.\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n24"
+        "text": "E \t 5."
       }
     ],
     "officialAnswer": "E",
@@ -27241,17 +27241,17 @@
         },
         {
           "file": "enem-assets/official/2020/162/E.webp",
-          "sha256": "ae5c63d50c89a20a52c456d2475ca09574ffd51d91bb367f4a3e3fc3ad0fd06a",
+          "sha256": "b3cdf4cf84fe285fedf93d0e014efb7e7602917a2f8017ec78f6c6987d1fa74a",
           "page": 24,
           "rect": [
             23.181100845336914,
             727.1416015625,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 52
+          "height": 37
         }
       ]
     },
@@ -27667,17 +27667,17 @@
         },
         {
           "file": "enem-assets/official/2020/164/E.webp",
-          "sha256": "fc996fe7f4ebdae5d85849d42d06524e0f93715f21e79e17c4d3785340ad05b4",
+          "sha256": "12e2ed8bb2c3cb3bcb71c58697b2c88adb6baaf1f4f53de322fbf5404ee8a8f4",
           "page": 24,
           "rect": [
             285.4645080566406,
             726.5219116210938,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 53
+          "height": 38
         }
       ]
     },
@@ -27974,7 +27974,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/167/E.webp",
-        "text": "E  76,5\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n25"
+        "text": "E  76,5"
       }
     ],
     "officialAnswer": "B",
@@ -28093,17 +28093,17 @@
         },
         {
           "file": "enem-assets/official/2020/167/E.webp",
-          "sha256": "ff77dfdabf29962209e8a115a9f5ecc610cd0a046ff1e1c72630ced4065fff27",
+          "sha256": "54c87b7ff9dc5384575f6c329a7e8e04c1ce0727cc1d4be9299c37acfa4ca1b2",
           "page": 25,
           "rect": [
             285.4645080566406,
             728.5192260742188,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 49
+          "height": 34
         }
       ]
     },
@@ -28399,7 +28399,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/169/E.webp",
-        "text": "E  100.\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n26"
+        "text": "E  100."
       }
     ],
     "officialAnswer": "C",
@@ -28518,17 +28518,17 @@
         },
         {
           "file": "enem-assets/official/2020/169/E.webp",
-          "sha256": "792b22e96056e3d1c8817e475826c3a967bc6a34370f3966efad7dde0297ad19",
+          "sha256": "9eaa53bb79f59907398fd6202472a1124b88ab07075848b7d004f68897a645e6",
           "page": 26,
           "rect": [
             23.181100845336914,
             729.00537109375,
             282.4645080566406,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 519,
-          "height": 48
+          "height": 33
         }
       ]
     },
@@ -28731,17 +28731,17 @@
         },
         {
           "file": "enem-assets/official/2020/171/E.webp",
-          "sha256": "27426afc5b0ca667586efbb818cf4e9436b46dcd2a60d5c4411b8fb08d0e5ccb",
+          "sha256": "b3b884f0f753fbfc77d2e0b4b3d262e8bb3982b8cc240b847a32dcc6f09ef314",
           "page": 26,
           "rect": [
             285.4645080566406,
             728.5338745117188,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 49
+          "height": 34
         }
       ]
     },
@@ -28944,17 +28944,17 @@
         },
         {
           "file": "enem-assets/official/2020/172/E.webp",
-          "sha256": "9f851c679d8e6a51de1ac49b8d559c00a62023319e77cb78b9b2dad5459959a1",
+          "sha256": "b948d58778521c1333c42269d50948845d2bfd6271f346e835a5420a87b07e60",
           "page": 27,
           "rect": [
             23.181100845336914,
             545.030517578125,
             282.4645080566406,
-            752.5280151367188
+            567.455078125
           ],
           "role": "E",
           "width": 519,
-          "height": 416
+          "height": 45
         }
       ]
     },
@@ -29038,7 +29038,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/173/E.webp",
-        "text": "E  60.\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n27"
+        "text": "E  60."
       }
     ],
     "officialAnswer": "C",
@@ -29157,17 +29157,17 @@
         },
         {
           "file": "enem-assets/official/2020/173/E.webp",
-          "sha256": "dcbc7d1cf03208af82a787c24f90e9e601989d08e217800923f0acec0d0f354f",
+          "sha256": "df2c62d6dc157052274455a0b62f3d862cdbf775c7ab73c36d06c9c7167801bc",
           "page": 27,
           "rect": [
             285.4645080566406,
             585.7872924804688,
             546.1339111328125,
-            752.5280151367188
+            608.2120361328125
           ],
           "role": "E",
           "width": 523,
-          "height": 335
+          "height": 46
         }
       ]
     },
@@ -29463,7 +29463,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2020/180/E.webp",
-        "text": "E\t T.\nMT\n2° di\n| C d\n7\nAZUL\nPá i\n31"
+        "text": "E\t T."
       }
     ],
     "officialAnswer": "C",
@@ -29582,17 +29582,17 @@
         },
         {
           "file": "enem-assets/official/2020/180/E.webp",
-          "sha256": "64c3c80408832a3a7201a17e3c718375b8e4ce7f68e0b01e15542213fceaa53a",
+          "sha256": "782f00966851cb821e90f93b424726aae497e9bb372b2a8f12ddb9487bab6f26",
           "page": 31,
           "rect": [
             285.4645080566406,
             728.8665161132812,
             546.1339111328125,
-            752.5280151367188
+            745.2623291015625
           ],
           "role": "E",
           "width": 523,
-          "height": 49
+          "height": 34
         }
       ]
     },

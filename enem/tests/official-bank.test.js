@@ -17,6 +17,7 @@ test('verificação recusa troca de gabarito, página, caderno e alternativa sem
   {...q,answer:(q.answer+1)%5},
   {...q,validation:{...q.validation,booklet:'yellow'}},
   {...q,validation:{...q.validation,header:{...q.validation.header,page:100}}},
+  {...q,alternatives:q.alternatives.map(a=>a.letter==='E'?{...a,text:'E resposta\n1º dia | Caderno 1\nAZUL\nPágina 2'}:a)},
   {...q,validation:{...q.validation,assets:q.validation.assets.slice(1)}}
  ])assert.ok(validateOfficialQuestion(bad,evidence,root).length>0);
 });

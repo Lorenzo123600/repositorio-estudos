@@ -696,17 +696,17 @@
         },
         {
           "file": "enem-assets/official/2023/96/E.webp",
-          "sha256": "c08e8eb47d558c8313251efdd490c8100544d1003e0f2f4adecb057cabb57c83",
+          "sha256": "1da490844ff934a14df3b5b41230e348e8aa10501eef294b9949a7ebfdb2405e",
           "page": 2,
           "rect": [
             285.4645080566406,
             720.7816772460938,
             546.1339111328125,
-            752.5280151367188
+            740.0474853515625
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 40
         }
       ]
     },
@@ -746,7 +746,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2023/96/E.webp",
-        "text": "DERNO 7 • AZUL\nDERNO 7 • AZUL\nE\t\nE\t 75%"
+        "text": "E\t\nE\t 75%"
       }
     ],
     "officialAnswer": "D",

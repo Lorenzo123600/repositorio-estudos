@@ -286,7 +286,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/2-espanhol/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 3\nE\t otimiza os custos da construção de edifícios."
+        "text": "E\t otimiza os custos da construção de edifícios."
       }
     ],
     "officialAnswer": "B",
@@ -405,17 +405,17 @@
         },
         {
           "file": "enem-assets/official/2018/2-espanhol/E.webp",
-          "sha256": "42483b199f963f364f82346da6e8e236e85a387501bdcbde07efc02dc3823201",
+          "sha256": "49bc010932e108e9c522e02bb13c971b57ed4f9b51ed1df30128d12a551a4f43",
           "page": 3,
           "rect": [
             292.5511474609375,
             725.970947265625,
             553.5464782714844,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 55
+          "height": 36
         }
       ]
     },
@@ -499,7 +499,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/2-ingles/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 2\nE\t ouça atentamente."
+        "text": "E\t ouça atentamente."
       }
     ],
     "officialAnswer": "B",
@@ -618,17 +618,17 @@
         },
         {
           "file": "enem-assets/official/2018/2-ingles/E.webp",
-          "sha256": "e12c0362cba7b9f47add3810bbbc61396add04a1582ba84b7d7e21eb9e499f60",
+          "sha256": "1f577056415286870df56cfdb2d6b8f8b11f0c3a1e3848b6bf39da0697f7817a",
           "page": 2,
           "rect": [
             28.845718383789062,
             730.3997192382812,
             289.5511474609375,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 46
+          "height": 27
         }
       ]
     },
@@ -1257,17 +1257,17 @@
         },
         {
           "file": "enem-assets/official/2018/5-espanhol/E.webp",
-          "sha256": "e5db20f4bf028ea0b78309b209a7bbd6812578afcab8496df1d87d448b4045c4",
+          "sha256": "78f02f73be51349437f35a449a0ccc0564299a432b65d4019d4d1cdbffafd18c",
           "page": 4,
           "rect": [
             292.5511474609375,
             658.1134033203125,
             553.54638671875,
-            752.5272827148438
+            683.035400390625
           ],
           "role": "E",
           "width": 523,
-          "height": 190
+          "height": 51
         }
       ]
     },
@@ -1990,7 +1990,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/9/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 5\nE\t expõe a ineficácia dos estudos para alterar tal \ncomportamento."
+        "text": "E\t expõe a ineficácia dos estudos para alterar tal \ncomportamento."
       }
     ],
     "officialAnswer": "B",
@@ -2109,17 +2109,17 @@
         },
         {
           "file": "enem-assets/official/2018/9/E.webp",
-          "sha256": "042cc1d01ce3dabea8312ea4b78fad1915cfa2dfe0025bd2b19cb696691c8122",
+          "sha256": "ea01c8d13c2d1a840e1f5d0bacd4925746e262120951b8335fe5f7eb7907be0b",
           "page": 5,
           "rect": [
             292.5511474609375,
             716.768310546875,
             553.5465087890625,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 73
+          "height": 54
         }
       ]
     },
@@ -2535,17 +2535,17 @@
         },
         {
           "file": "enem-assets/official/2018/12/E.webp",
-          "sha256": "eaab2fe18001787e6ad8fa58aa00f1bee8cd372dbff015a5dc33112fd89b10c0",
+          "sha256": "b9cc1148bd8e08ef02578e668b8de995942cfa35818951cd78ccc9e5ee743d8c",
           "page": 6,
           "rect": [
             292.5511474609375,
             709.4028930664062,
             553.54638671875,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 88
+          "height": 69
         }
       ]
     },
@@ -2748,17 +2748,17 @@
         },
         {
           "file": "enem-assets/official/2018/13/E.webp",
-          "sha256": "b1f562742a5a21b94096aaeb15cc98e657878439e6f4e14cbab63a44e4c422b5",
+          "sha256": "f811c7ad27f70bbfbe5428acb108cff0aea1929cbc6d1c6d90449b27fa9785a2",
           "page": 7,
           "rect": [
             28.845699310302734,
             716.753662109375,
             289.5511474609375,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 73
+          "height": 54
         }
       ]
     },
@@ -3055,7 +3055,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/15/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 7\nE\t revela a fragmentação das relações humanas."
+        "text": "E\t revela a fragmentação das relações humanas."
       }
     ],
     "officialAnswer": "D",
@@ -3174,17 +3174,17 @@
         },
         {
           "file": "enem-assets/official/2018/15/E.webp",
-          "sha256": "d257f457ec8ce6b03c9283cb1c2da6b41cf0175f6db7ffee33ea00ffc291764f",
+          "sha256": "43ef80314b7534f3cbfecae2a1cecc12f64372a0fa3f7b5c8ed969326bb47aed",
           "page": 7,
           "rect": [
             292.5511474609375,
             726.0975952148438,
             553.5465087890625,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 54
+          "height": 35
         }
       ]
     },
@@ -3600,17 +3600,17 @@
         },
         {
           "file": "enem-assets/official/2018/18/E.webp",
-          "sha256": "b5b273fc70d65046c291bc61031ee277b8e94d60e8d759bbb80fc19df13822b0",
+          "sha256": "cb2077bb1a9aea98d784baab8bfa2d8d355a60c21bb5813e7a3b9357c240f1a2",
           "page": 8,
           "rect": [
             292.5511474609375,
             715.09375,
             553.54638671875,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 76
+          "height": 57
         }
       ]
     },
@@ -3907,7 +3907,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/22/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 10\nE\t poluição visual promovida pelo multilinguismo."
+        "text": "E\t poluição visual promovida pelo multilinguismo."
       }
     ],
     "officialAnswer": "B",
@@ -4026,17 +4026,17 @@
         },
         {
           "file": "enem-assets/official/2018/22/E.webp",
-          "sha256": "18a16fab7d7d8d0291c09240ab8315533f1da24ab619c841b2bc936b2cc4648a",
+          "sha256": "1f745b4d96f4361813442abca68d053595091da415d3da0a9f60d0f2c50caecd",
           "page": 10,
           "rect": [
             28.845703125,
             723.2117309570312,
             289.5511474609375,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 60
+          "height": 41
         }
       ]
     },
@@ -4239,17 +4239,17 @@
         },
         {
           "file": "enem-assets/official/2018/23/E.webp",
-          "sha256": "f5b2850b4668d412778c6d20a44437137a26bc4a32e54d731a3dd38bcf09f414",
+          "sha256": "4f50e583adf62eb7d6ff15ce0766f37737b55ff574034d03d5a22ff91775d0c3",
           "page": 10,
           "rect": [
             292.5511474609375,
             446.48602294921875,
             553.54638671875,
-            752.5272827148438
+            483.1077880859375
           ],
           "role": "E",
           "width": 523,
-          "height": 614
+          "height": 75
         }
       ]
     },
@@ -4452,17 +4452,17 @@
         },
         {
           "file": "enem-assets/official/2018/24/E.webp",
-          "sha256": "9dbc6bd68126dc77febca0f1f63f0c5cdeb08e7d487aff4d1e1481bca8209da6",
+          "sha256": "b670f1e99cdfc69a9c470134ef3231cfb64041e070093da9237d6e0b1c2d0485",
           "page": 11,
           "rect": [
             28.845699310302734,
             699.618896484375,
             289.5511474609375,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 107
+          "height": 88
         }
       ]
     },
@@ -4546,7 +4546,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/25/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 11\nE\t desconstruir a diagramação do texto literário pelo \ndesequilíbrio da composição."
+        "text": "E\t desconstruir a diagramação do texto literário pelo \ndesequilíbrio da composição."
       }
     ],
     "officialAnswer": "D",
@@ -4665,17 +4665,17 @@
         },
         {
           "file": "enem-assets/official/2018/25/E.webp",
-          "sha256": "410b408fea1280251c0cc287ef1582b5bb5f18435129539b0da86654fbdc61cd",
+          "sha256": "990dc34673a5a548bd20a3ae0b0d4e9c451261269ecb4e680ad7f55006403e94",
           "page": 11,
           "rect": [
             292.5511474609375,
             713.690185546875,
             553.5465087890625,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 79
+          "height": 60
         }
       ]
     },
@@ -5091,17 +5091,17 @@
         },
         {
           "file": "enem-assets/official/2018/28/E.webp",
-          "sha256": "9ee3a7646e7d11e7460bf3a7b142a7db0aeeb0590c6d9f0fca30f1108130d842",
+          "sha256": "57196a0efc19965eea123a93dd44682fbab0b4730ac0c5d214e5e85f2346931c",
           "page": 12,
           "rect": [
             292.5511474609375,
             604.928466796875,
             553.54638671875,
-            752.5272827148438
+            629.8504028320312
           ],
           "role": "E",
           "width": 523,
-          "height": 297
+          "height": 51
         }
       ]
     },
@@ -5304,17 +5304,17 @@
         },
         {
           "file": "enem-assets/official/2018/29/E.webp",
-          "sha256": "bcf2b2bdf7ceb9aec9a658729b3bca7ef59cc9b8fa3367d41982e1ee921e743f",
+          "sha256": "47799957e39dbf66103d84df7374c580f648e2a2b4e29bc6b0b7f8bb0285569c",
           "page": 13,
           "rect": [
             28.845699310302734,
             705.960205078125,
             289.5511474609375,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 95
+          "height": 76
         }
       ]
     },
@@ -5611,7 +5611,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/31/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 13\nE\t contribuíram para esse esporte ter mais jogadores, \nbem como acompanhado de torcedores."
+        "text": "E\t contribuíram para esse esporte ter mais jogadores, \nbem como acompanhado de torcedores."
       }
     ],
     "officialAnswer": "D",
@@ -5730,17 +5730,17 @@
         },
         {
           "file": "enem-assets/official/2018/31/E.webp",
-          "sha256": "09ed2895f05134a0042f13196a799de380169add3a3ae153557fd48101458e02",
+          "sha256": "cfd7e518f04b27cb39de66a6922d6798f1440ce076d55f29f517db6cf733516f",
           "page": 13,
           "rect": [
             292.5511474609375,
             716.2135009765625,
             553.5465087890625,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 74
+          "height": 55
         }
       ]
     },
@@ -5824,7 +5824,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/32/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 14\nE\t adoção de um enredo como fio condutor."
+        "text": "E\t adoção de um enredo como fio condutor."
       }
     ],
     "officialAnswer": "B",
@@ -5943,17 +5943,17 @@
         },
         {
           "file": "enem-assets/official/2018/32/E.webp",
-          "sha256": "63b3884196e9f6dca71245883efb4c3db5f8488527d086f1d6d716586f3ddedf",
+          "sha256": "a476062609251580813ae215323122fa561fa28f7516dd4df790e98a7a2ae210",
           "page": 14,
           "rect": [
             28.845699310302734,
             597.4166870117188,
             289.5511474609375,
-            752.5272827148438
+            622.3385009765625
           ],
           "role": "E",
           "width": 523,
-          "height": 312
+          "height": 51
         }
       ]
     },
@@ -6156,17 +6156,17 @@
         },
         {
           "file": "enem-assets/official/2018/33/E.webp",
-          "sha256": "624e78f667a081e9baf07567383e54d39e0da9fed2c99596775b41a4301656fa",
+          "sha256": "784fe537c89a08586ae68f57e014201bd61e306a70562236b2058ee44d5b44c5",
           "page": 14,
           "rect": [
             292.5511474609375,
             484.4206237792969,
             553.54638671875,
-            752.5272827148438
+            521.04248046875
           ],
           "role": "E",
           "width": 523,
-          "height": 538
+          "height": 75
         }
       ]
     },
@@ -6369,17 +6369,17 @@
         },
         {
           "file": "enem-assets/official/2018/34/E.webp",
-          "sha256": "a1045c98c23c15b14d55c55a35cbc7619799fb30c976666f9da84c3306129837",
+          "sha256": "b6046dd2ce2d00ac175774133c5e6d9de82eba614af1198ebb0dbb3f475f155b",
           "page": 15,
           "rect": [
             28.845699310302734,
             721.4024658203125,
             289.5511474609375,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 64
+          "height": 45
         }
       ]
     },
@@ -6676,7 +6676,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/36/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 15\nE\t definição modifica o significado do termo no dicionário."
+        "text": "E\t definição modifica o significado do termo no dicionário."
       }
     ],
     "officialAnswer": "B",
@@ -6795,17 +6795,17 @@
         },
         {
           "file": "enem-assets/official/2018/36/E.webp",
-          "sha256": "177dfb2fe2deb0c71c4724ca7605e96d20a21515cfe7ce11cf80e01f8b6b9a40",
+          "sha256": "52b5412104b03397d209a6839e9c9f3d82d07034145ef915ed084a26aba4f8d4",
           "page": 15,
           "rect": [
             292.5511474609375,
             722.9080200195312,
             553.5465087890625,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 61
+          "height": 42
         }
       ]
     },
@@ -6889,7 +6889,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/37/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 16\nE\t ser comum em conversas no ambiente de trabalho."
+        "text": "E\t ser comum em conversas no ambiente de trabalho."
       }
     ],
     "officialAnswer": "C",
@@ -7008,17 +7008,17 @@
         },
         {
           "file": "enem-assets/official/2018/37/E.webp",
-          "sha256": "ee240f71702c8dd60fb6010ae986b83a5a76dec5000033b38dc90c0694f093e1",
+          "sha256": "bc65e1bd43f2c4c7beb7e0589ad0753cc91c6391ca503db56e54ee7a27db60e1",
           "page": 16,
           "rect": [
             28.845699310302734,
             531.6226806640625,
             289.5511474609375,
-            752.5272827148438
+            556.7503662109375
           ],
           "role": "E",
           "width": 523,
-          "height": 443
+          "height": 51
         }
       ]
     },
@@ -7434,17 +7434,17 @@
         },
         {
           "file": "enem-assets/official/2018/39/E.webp",
-          "sha256": "83908a050bde5a353516cdeb6ae450ea588a13060f4a43bf17939d092105df6e",
+          "sha256": "0063f2640754598081a191acf041ddbd98527a35d0b2dc46d261bd03a791139d",
           "page": 16,
           "rect": [
             292.5511474609375,
             711.8423461914062,
             553.54638671875,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 83
+          "height": 64
         }
       ]
     },
@@ -7741,7 +7741,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/42/E.webp",
-        "text": "LC\n1º dia | Caderno 1\nAZUL\nPágina 17\nE\t sobreposição das manifestações populares pelo \ndiscurso oficial para destacar o autoritarismo do \nmomento histórico."
+        "text": "E\t sobreposição das manifestações populares pelo \ndiscurso oficial para destacar o autoritarismo do \nmomento histórico."
       }
     ],
     "officialAnswer": "C",
@@ -7860,17 +7860,17 @@
         },
         {
           "file": "enem-assets/official/2018/42/E.webp",
-          "sha256": "31bbe2954a11491ea27c12eeb6bbb1eb4fe27d60779473d5551f2398adc2ca8d",
+          "sha256": "0c0534efadbf04cc856308e3ae7a31d3daecea5222279a670901ee3370aec7cd",
           "page": 17,
           "rect": [
             292.5511474609375,
             704.2557373046875,
             553.5465087890625,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 98
+          "height": 79
         }
       ]
     },
@@ -8380,7 +8380,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/47/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 20\nE\t criação das faculdades de medicina, promovida pelo \nrenascimento urbano."
+        "text": "E\t criação das faculdades de medicina, promovida pelo \nrenascimento urbano."
       }
     ],
     "officialAnswer": "A",
@@ -8499,17 +8499,17 @@
         },
         {
           "file": "enem-assets/official/2018/47/E.webp",
-          "sha256": "6ab0497181c4fc1f09778e199f55441d26729868565684bc95283767fc967b6f",
+          "sha256": "8651e9cb8790cf38e3e351886bb3a5fc08044220156d2c6289c39c3e26019b30",
           "page": 20,
           "rect": [
             28.845703125,
             714.1098022460938,
             289.5511474609375,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 78
+          "height": 59
         }
       ]
     },
@@ -8925,17 +8925,17 @@
         },
         {
           "file": "enem-assets/official/2018/49/E.webp",
-          "sha256": "87402cb5e541919a9121fc5656fa2210c03690b75c1b33c1195d2bd6ea298c56",
+          "sha256": "1c97a8cc01bee55c4ae07172108c38948762584eee3e37351bbea120adbb17f3",
           "page": 20,
           "rect": [
             292.5511474609375,
             711.3435668945312,
             553.54638671875,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 84
+          "height": 65
         }
       ]
     },
@@ -9445,7 +9445,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/53/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 21\nE\t redefinição de regiões administrativas."
+        "text": "E\t redefinição de regiões administrativas."
       }
     ],
     "officialAnswer": "D",
@@ -9564,17 +9564,17 @@
         },
         {
           "file": "enem-assets/official/2018/53/E.webp",
-          "sha256": "e4ad4ff5e35ca92a49e47551c1a22c7e62bf09170cf5533b37f1cb8854916b70",
+          "sha256": "54106b4db216132c79d96460e3a6188121cfc1d44459a4060f1ec13c442636da",
           "page": 21,
           "rect": [
             292.5511474609375,
             728.0997314453125,
             553.5465087890625,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 50
+          "height": 31
         }
       ]
     },
@@ -9871,7 +9871,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/55/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 22\nE\t compartilhamento de pesquisas científicas."
+        "text": "E\t compartilhamento de pesquisas científicas."
       }
     ],
     "officialAnswer": "C",
@@ -9990,17 +9990,17 @@
         },
         {
           "file": "enem-assets/official/2018/55/E.webp",
-          "sha256": "98745b8588e2c7c3d78fe456fbf36dd5f58be6e14d600b7b37d7b1bae4cd28dc",
+          "sha256": "014f5b957f99e10706ef088f0bb57c9c07e4e18b539a290c12e97879c7a536b7",
           "page": 22,
           "rect": [
             28.845703125,
             725.3162841796875,
             289.5511474609375,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 56
+          "height": 37
         }
       ]
     },
@@ -10416,17 +10416,17 @@
         },
         {
           "file": "enem-assets/official/2018/58/E.webp",
-          "sha256": "532b7ee6bac5273e892e4c0d32a092e856122e84a2b98b16d30998060335935d",
+          "sha256": "b48b06befa5ac0bacbe54d89c083339e5f699b4d021bd016a55e16a8bac119a1",
           "page": 23,
           "rect": [
             28.845703125,
             620.9391479492188,
             289.5511474609375,
-            752.5272827148438
+            657.158203125
           ],
           "role": "E",
           "width": 523,
-          "height": 265
+          "height": 74
         }
       ]
     },
@@ -10723,7 +10723,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/60/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 23\nE\t desterritorialização forçada de populações afetadas \npor conflitos armados."
+        "text": "E\t desterritorialização forçada de populações afetadas \npor conflitos armados."
       }
     ],
     "officialAnswer": "E",
@@ -10842,17 +10842,17 @@
         },
         {
           "file": "enem-assets/official/2018/60/E.webp",
-          "sha256": "55b0517e37731998d3190f6506dd39abe6b52bf52a2e30aa605118f185f2f089",
+          "sha256": "7c04a8511784a675b3b42c8bb66759ae15a73dcbfa62c38753ec26279399482f",
           "page": 23,
           "rect": [
             292.5511474609375,
             619.37109375,
             553.5465087890625,
-            752.5272827148438
+            656.5928955078125
           ],
           "role": "E",
           "width": 523,
-          "height": 268
+          "height": 76
         }
       ]
     },
@@ -11149,7 +11149,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/62/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 24\nE\t compromisso com as resoluções emanadas dos \norganismos internacionais."
+        "text": "E\t compromisso com as resoluções emanadas dos \norganismos internacionais."
       }
     ],
     "officialAnswer": "B",
@@ -11268,17 +11268,17 @@
         },
         {
           "file": "enem-assets/official/2018/62/E.webp",
-          "sha256": "24cb727697f9078a773d2b89338689f88c09113c1e3e23823b43d850346bccef",
+          "sha256": "804579edbf0e78f59afd25c14fe6cd64f8356c14e80dc54c8079db4fb04871bb",
           "page": 24,
           "rect": [
             28.83594512939453,
             711.3496704101562,
             289.5511474609375,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 84
+          "height": 65
         }
       ]
     },
@@ -11693,17 +11693,17 @@
         },
         {
           "file": "enem-assets/official/2018/64/E.webp",
-          "sha256": "8c052e68105588f39a0f29ea46105fd25a23005e24c244da3d7d3f5d0d952bf2",
+          "sha256": "fdedccd1e5dfdd3e16e7ce005e9d3b36bae4ca438c54ec8664688f042c616642",
           "page": 24,
           "rect": [
             292.5511474609375,
             709.2378540039062,
             553.54638671875,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 88
+          "height": 69
         }
       ]
     },
@@ -12119,17 +12119,17 @@
         },
         {
           "file": "enem-assets/official/2018/66/E.webp",
-          "sha256": "59ff72c12a92f7a5cd50facedc0fa9d5ee55b6fced9e29f2eed11c21a9300aa5",
+          "sha256": "c81d84fcb6f0d1a2c77a79de4f47e80a19c64c1c6383791ff24e9d97778bbbd2",
           "page": 25,
           "rect": [
             28.84569549560547,
             589.1363525390625,
             289.5511474609375,
-            752.5272827148438
+            625.75830078125
           ],
           "role": "E",
           "width": 523,
-          "height": 328
+          "height": 74
         }
       ]
     },
@@ -12426,7 +12426,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/68/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 25\nE\t comprar terras para o enfraquecimento das teocracias \nautóctones."
+        "text": "E\t comprar terras para o enfraquecimento das teocracias \nautóctones."
       }
     ],
     "officialAnswer": "C",
@@ -12545,17 +12545,17 @@
         },
         {
           "file": "enem-assets/official/2018/68/E.webp",
-          "sha256": "33f714d3d46db651fb2cb6f0e5c03895cf08d284eb2b1514eb8faebf1ae8cc81",
+          "sha256": "24e6fd601a2181068ccd70cb889fad75572cb6afa65b92c587f17829503974fb",
           "page": 25,
           "rect": [
             292.5511474609375,
             709.0928344726562,
             553.5465087890625,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 88
+          "height": 69
         }
       ]
     },
@@ -12852,7 +12852,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/70/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 26\nE\t reconhecimento na esfera artística."
+        "text": "E\t reconhecimento na esfera artística."
       }
     ],
     "officialAnswer": "B",
@@ -12971,17 +12971,17 @@
         },
         {
           "file": "enem-assets/official/2018/70/E.webp",
-          "sha256": "9105bef1ff7a8e662e8f5a45371c400e2ffb5933a9feba0fc4bd9247f64fad53",
+          "sha256": "647183fde36b36b1ba7ddf7d7cd5b5c8862d52d3e8302d82b77d105866bd2b2d",
           "page": 26,
           "rect": [
             28.845703125,
             649.4749755859375,
             289.5511474609375,
-            752.5272827148438
+            674.3967895507812
           ],
           "role": "E",
           "width": 523,
-          "height": 208
+          "height": 51
         }
       ]
     },
@@ -13397,17 +13397,17 @@
         },
         {
           "file": "enem-assets/official/2018/72/E.webp",
-          "sha256": "729cd74197ae44faef75929fbc5e62e0269630c8aa303fce4d8e2447e5e843c4",
+          "sha256": "be27e41e10143cfb9e8ab7396dce3cc6c6b691aa3b4b1d30c93af1a423b3cfd4",
           "page": 26,
           "rect": [
             292.5511474609375,
             647.8244018554688,
             553.54638671875,
-            752.5272827148438
+            673.358154296875
           ],
           "role": "E",
           "width": 523,
-          "height": 211
+          "height": 52
         }
       ]
     },
@@ -13917,7 +13917,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/76/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 27\nE\t condenação pela ciência dos conhecimentos populares \nde cura."
+        "text": "E\t condenação pela ciência dos conhecimentos populares \nde cura."
       }
     ],
     "officialAnswer": "E",
@@ -14036,17 +14036,17 @@
         },
         {
           "file": "enem-assets/official/2018/76/E.webp",
-          "sha256": "99884445c5a4a49dde9fff5bf8cb8b1a07e5239819a987b04963d14b77ba4ffd",
+          "sha256": "4f42ee319ddc10dda57ef39e514a773e8cb67ce4083e941e082eba30220a04fe",
           "page": 27,
           "rect": [
             292.5511474609375,
             715.3560180664062,
             553.5465087890625,
-            752.5272827148438
+            743.355712890625
           ],
           "role": "E",
           "width": 523,
-          "height": 76
+          "height": 57
         }
       ]
     },
@@ -14556,7 +14556,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/79/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 28\nE\t Prudência, caracterizada pelo correto uso da razão."
+        "text": "E\t Prudência, caracterizada pelo correto uso da razão."
       }
     ],
     "officialAnswer": "C",
@@ -14675,17 +14675,17 @@
         },
         {
           "file": "enem-assets/official/2018/79/E.webp",
-          "sha256": "5123397198e7852353dc3dd606d9e7ca08d08c135f98c8f299b977220314d064",
+          "sha256": "0f699b99c676dbc8f5dac29d04bec8a8a55ca94fd67edb53fbc1f66c2b9811f6",
           "page": 28,
           "rect": [
             28.845703125,
             719.2198486328125,
             289.5511474609375,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 68
+          "height": 49
         }
       ]
     },
@@ -15101,17 +15101,17 @@
         },
         {
           "file": "enem-assets/official/2018/81/E.webp",
-          "sha256": "76e8c320734754395bc059c2a5f9698691eebb6349c757c3153a01c902759a93",
+          "sha256": "6081cc6531a99ed122f68edcb1cbe75cdacfe7196331ee4048ca41feaf3004aa",
           "page": 28,
           "rect": [
             292.5511474609375,
             625.2095336914062,
             553.53662109375,
-            752.5272827148438
+            650.1314697265625
           ],
           "role": "E",
           "width": 523,
-          "height": 256
+          "height": 51
         }
       ]
     },
@@ -15408,7 +15408,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/85/E.webp",
-        "text": "CH\n1º dia | Caderno 1\nAZUL\nPágina 30\nE\t ocupação de região fronteiriça como contenção do \navanço mongol."
+        "text": "E\t ocupação de região fronteiriça como contenção do \navanço mongol."
       }
     ],
     "officialAnswer": "A",
@@ -15527,17 +15527,17 @@
         },
         {
           "file": "enem-assets/official/2018/85/E.webp",
-          "sha256": "09c4ae1a6ea295446f194da2209e1f27dc5bc12292fe95fdb5a9065501e655cb",
+          "sha256": "ce2f9154d7f26cbc7f363ed09f30f9b1c77877e0e3627b1a62398135f1091a8d",
           "page": 30,
           "rect": [
             28.845703125,
             611.6995849609375,
             289.5511474609375,
-            752.5272827148438
+            647.9581909179688
           ],
           "role": "E",
           "width": 523,
-          "height": 283
+          "height": 73
         }
       ]
     },
@@ -15953,17 +15953,17 @@
         },
         {
           "file": "enem-assets/official/2018/87/E.webp",
-          "sha256": "41b3f9410dbdc08df9ffd9f9019a579da499b36528c3eb767a733c9ee3b17965",
+          "sha256": "05f223a93b7151f4a9cd8c61ac1db9d163d5e70d03087e6917c3d24a2820d38a",
           "page": 30,
           "rect": [
             292.5511474609375,
             728.131591796875,
             553.53662109375,
-            752.5272827148438
+            743.2012939453125
           ],
           "role": "E",
           "width": 523,
-          "height": 50
+          "height": 31
         }
       ]
     },
@@ -16379,17 +16379,17 @@
         },
         {
           "file": "enem-assets/official/2018/94/E.webp",
-          "sha256": "23b0039541944d9f916da69506db39d4269a4343b1a2ce149c42b8e2547df8a5",
+          "sha256": "704aeedea657c8a8ee3b090a248009a6fa2631ed562bd0b9f27681a43575df21",
           "page": 3,
           "rect": [
             28.8551025390625,
             724.99267578125,
             289.5513916015625,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 57
+          "height": 38
         }
       ]
     },
@@ -16899,7 +16899,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/98/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 4\nE\t favorece a formação de ilhas de proteção integral."
+        "text": "E\t favorece a formação de ilhas de proteção integral."
       }
     ],
     "officialAnswer": "A",
@@ -17018,17 +17018,17 @@
         },
         {
           "file": "enem-assets/official/2018/98/E.webp",
-          "sha256": "768accff078b78079b6465ca916c0a956140bacdb8b2f029d9b71bfa01bfcc2e",
+          "sha256": "0a89d3dbf896130ac4c0a2846763e2ebcc39f77b3e1fcc40a78cde7ba3d85d9d",
           "page": 4,
           "rect": [
             28.855201721191406,
             727.5375366210938,
             289.5513916015625,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 523,
-          "height": 51
+          "height": 32
         }
       ]
     },
@@ -17231,17 +17231,17 @@
         },
         {
           "file": "enem-assets/official/2018/100/E.webp",
-          "sha256": "c998dc4f3ba98f3e045b4cadb93ec2b798d2accb55d0b638cfaa501fe6ade132",
+          "sha256": "6dffa14a67b49d500c836fe377f1c2d2c78a35b8ea420d9d7c3781913e729c43",
           "page": 4,
           "rect": [
             292.5513916015625,
             625.3870239257812,
             553.5574951171875,
-            752.5277709960938
+            662.0371704101562
           ],
           "role": "E",
           "width": 523,
-          "height": 256
+          "height": 75
         }
       ]
     },
@@ -17870,17 +17870,17 @@
         },
         {
           "file": "enem-assets/official/2018/103/E.webp",
-          "sha256": "5b2898d930870a601af0c9e94fa1b33b7ba4fbc8e8e9ab6940d3df63dff5d213",
+          "sha256": "aa4683b51c82b7b4e621360fad49ac42fc74ffe92f2718d20f27697935b9cea7",
           "page": 5,
           "rect": [
             28.85509490966797,
             727.2510986328125,
             289.5513916015625,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 52
+          "height": 33
         }
       ]
     },
@@ -18177,7 +18177,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/105/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 5\nE\t estarem localizados na família dos alcalinos terrosos \ne alcalinos, respectivamente."
+        "text": "E\t estarem localizados na família dos alcalinos terrosos \ne alcalinos, respectivamente."
       }
     ],
     "officialAnswer": "C",
@@ -18296,17 +18296,17 @@
         },
         {
           "file": "enem-assets/official/2018/105/E.webp",
-          "sha256": "597dd6677f9a2fab360845d217566c25cc1988ab3ac59c31503013d8b0d677d8",
+          "sha256": "ce8ecff0e837b6dace62e2c77a9aa47ab7ebe2f1620bd5f93c6912ba826decfb",
           "page": 5,
           "rect": [
             292.5513916015625,
             715.688720703125,
             553.555908203125,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 75
+          "height": 56
         }
       ]
     },
@@ -18603,7 +18603,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/110/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 7\nE\t todas as sequências de pares de bases presentes em \num organismo."
+        "text": "E\t todas as sequências de pares de bases presentes em \num organismo."
       }
     ],
     "officialAnswer": "A",
@@ -18722,17 +18722,17 @@
         },
         {
           "file": "enem-assets/official/2018/110/E.webp",
-          "sha256": "2d5b390e160385779814bad228a6e4448dfe63d098b0d946d1edfc7e8395ceea",
+          "sha256": "10bf5f718b86f29752435dd6a8962def80447349dbb8b508670a0f764ba5d2f3",
           "page": 7,
           "rect": [
             292.5513916015625,
             713.1731567382812,
             553.555908203125,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 80
+          "height": 61
         }
       ]
     },
@@ -19574,17 +19574,17 @@
         },
         {
           "file": "enem-assets/official/2018/115/E.webp",
-          "sha256": "98db2d53e72a64463ba7beed2db952aac8a2851056d08a08f2dec9103a64fdbc",
+          "sha256": "accff496daf2402926745b7935912747486f4ac1e5112db2b27ba00b287e503f",
           "page": 8,
           "rect": [
             292.5513916015625,
             726.874267578125,
             553.555908203125,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 523,
-          "height": 53
+          "height": 34
         }
       ]
     },
@@ -19881,7 +19881,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/119/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 10\nE\t aids."
+        "text": "E\t aids."
       }
     ],
     "officialAnswer": "C",
@@ -20000,17 +20000,17 @@
         },
         {
           "file": "enem-assets/official/2018/119/E.webp",
-          "sha256": "670aaf874c3a6c7421ed3db468096e84a617b4200ff8b42ce791c75235a59197",
+          "sha256": "85c387348b33c3f4a141979d1a3520d4da673105afe8db52a7c5275d48da0940",
           "page": 10,
           "rect": [
             28.855201721191406,
             725.5269775390625,
             289.5513916015625,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 523,
-          "height": 55
+          "height": 36
         }
       ]
     },
@@ -20213,17 +20213,17 @@
         },
         {
           "file": "enem-assets/official/2018/120/E.webp",
-          "sha256": "3e61c95eea2e1da18446e06117cd0d442eeaca6a07548f0f9702b0bcaff8f346",
+          "sha256": "c3666e6f773d4f267af4c028acc0151c807d4896ae67de25606c357892101b5d",
           "page": 10,
           "rect": [
             292.5513916015625,
             689.1345825195312,
             553.555908203125,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 523,
-          "height": 128
+          "height": 109
         }
       ]
     },
@@ -20639,17 +20639,17 @@
         },
         {
           "file": "enem-assets/official/2018/122/E.webp",
-          "sha256": "881fc60b62cc153a1780087cd5bad680570cca8e1e02fa3bf749b9c9309333a0",
+          "sha256": "6cad681a7b208b86cc202b6485373317a186de565412e9af474fcfdbdab3c31c",
           "page": 11,
           "rect": [
             28.855201721191406,
             701.168212890625,
             289.5513916015625,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 104
+          "height": 85
         }
       ]
     },
@@ -20946,7 +20946,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/124/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 11\nE\t Separação dos diferentes componentes do petróleo \nem função de suas temperaturas de ebulição."
+        "text": "E\t Separação dos diferentes componentes do petróleo \nem função de suas temperaturas de ebulição."
       }
     ],
     "officialAnswer": "A",
@@ -21065,17 +21065,17 @@
         },
         {
           "file": "enem-assets/official/2018/124/E.webp",
-          "sha256": "32959038750c3a98f2de2d4a35b984cb750ab1dd422c414f7afe23e5d5b19056",
+          "sha256": "98964d54bf6a722f476abfd54107a0ba90a836f73143d1075ae136742241ddc1",
           "page": 11,
           "rect": [
             292.5513916015625,
             715.3499145507812,
             553.555908203125,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 76
+          "height": 57
         }
       ]
     },
@@ -21159,7 +21159,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/129/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 14\nE\t distinguir os dois comprimentos de onda, pois \nambos estimulam o pigmento “vermelho” na mesma \nintensidade."
+        "text": "E\t distinguir os dois comprimentos de onda, pois \nambos estimulam o pigmento “vermelho” na mesma \nintensidade."
       }
     ],
     "officialAnswer": "E",
@@ -21278,17 +21278,17 @@
         },
         {
           "file": "enem-assets/official/2018/129/E.webp",
-          "sha256": "ebb79f9fef624d946af909cf5ebe34d33e7ad546eaf80a61405fb18f3efe1c84",
+          "sha256": "53d26a951998474ebdf996b47c0a0dbd0a3466ae1c74be323c33ccf1d16c6bbb",
           "page": 14,
           "rect": [
             28.855201721191406,
             704.4966430664062,
             289.5513916015625,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 523,
-          "height": 98
+          "height": 79
         }
       ]
     },
@@ -21704,17 +21704,17 @@
         },
         {
           "file": "enem-assets/official/2018/131/E.webp",
-          "sha256": "17e55342db344f26335a56203e5c593f384cc6a995b94e6c3077e235617908c2",
+          "sha256": "c3d15632bab8bf9add173dcd15e6f45bc9332e852276ccbe3b66abca6aadc87d",
           "page": 14,
           "rect": [
             292.5513916015625,
             716.1526489257812,
             553.5525512695312,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 523,
-          "height": 74
+          "height": 55
         }
       ]
     },
@@ -22130,17 +22130,17 @@
         },
         {
           "file": "enem-assets/official/2018/134/E.webp",
-          "sha256": "a59a3724061486c383976f23d429e3eab5f82abb3ea442bceb2512b1b7020a9a",
+          "sha256": "8fbd37c918ff75b53a5ca8322718946c942bd2b1a8d1f41e74fd86239dd95e28",
           "page": 15,
           "rect": [
             28.855201721191406,
             716.1461791992188,
             289.5513916015625,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 74
+          "height": 55
         }
       ]
     },
@@ -22224,7 +22224,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/135/E.webp",
-        "text": "CN\n2º dia | Caderno 7\nAZUL\nPágina 15\nE\t A necessidade das plantas de absorverem sais de \nnitrogênio disponíveis no solo."
+        "text": "E\t A necessidade das plantas de absorverem sais de \nnitrogênio disponíveis no solo."
       }
     ],
     "officialAnswer": "D",
@@ -22343,17 +22343,17 @@
         },
         {
           "file": "enem-assets/official/2018/135/E.webp",
-          "sha256": "443f27640c77808cc38ce6a8e7b9d0ac20b04aaf6d6ed79a52576512f562dcb8",
+          "sha256": "6173d09523d069bf907b023c4d140b0cb8c3bd7cd56047cf0ab9bea313f38e14",
           "page": 15,
           "rect": [
             292.5513916015625,
             612.5858764648438,
             553.555908203125,
-            752.5277709960938
+            649.2026977539062
           ],
           "role": "E",
           "width": 523,
-          "height": 281
+          "height": 74
         }
       ]
     },
@@ -22650,7 +22650,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/137/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 16\nE\t 45a"
+        "text": "E\t 45a"
       }
     ],
     "officialAnswer": "C",
@@ -22769,17 +22769,17 @@
         },
         {
           "file": "enem-assets/official/2018/137/E.webp",
-          "sha256": "f3b7140318d73088ece737322cc96041ad159b3bb133fb2b187f045a27bba79d",
+          "sha256": "dd0da6dec230f48dbeacb2290bccf78fd230455ca338f17160034d41cf27e356",
           "page": 16,
           "rect": [
             28.8551025390625,
             727.414794921875,
             289.5513916015625,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 523,
-          "height": 52
+          "height": 33
         }
       ]
     },
@@ -22982,17 +22982,17 @@
         },
         {
           "file": "enem-assets/official/2018/138/E.webp",
-          "sha256": "64ce7a759b2bb3df68352902a7b62bf35cca87b5f1902a2cd00f5fc8d1427714",
+          "sha256": "9bc729dcf877a7f7de60b68974b337afb96df3011269cf44727501da79a0230d",
           "page": 16,
           "rect": [
             292.5513916015625,
             585.567138671875,
             553.555908203125,
-            752.5277709960938
+            610.494873046875
           ],
           "role": "E",
           "width": 523,
-          "height": 335
+          "height": 50
         }
       ]
     },
@@ -23195,17 +23195,17 @@
         },
         {
           "file": "enem-assets/official/2018/139/E.webp",
-          "sha256": "d6c8a976f5f5941ff9ff51772203f686a2a8d8994fdb8cf0470445e79326d085",
+          "sha256": "89a0aff543430f69156ba46b2797ff36ef3d9cb08be8c117e2ca5978b9721249",
           "page": 17,
           "rect": [
             28.855201721191406,
             699.6322021484375,
             289.5513916015625,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 107
+          "height": 88
         }
       ]
     },
@@ -23502,7 +23502,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/141/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 17\nE\t R$ 584 000,00."
+        "text": "E\t R$ 584 000,00."
       }
     ],
     "officialAnswer": "C",
@@ -23621,17 +23621,17 @@
         },
         {
           "file": "enem-assets/official/2018/141/E.webp",
-          "sha256": "5c37090966cb0909ace5460d2590a439e3faa6621e94b7820bee4b7312a6918e",
+          "sha256": "d8b8b3af81d8d5771e53c09347c70a27d3615d18b30baf058241f4c174ac96e5",
           "page": 17,
           "rect": [
             292.5513916015625,
             727.2638549804688,
             553.555908203125,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 52
+          "height": 33
         }
       ]
     },
@@ -24260,17 +24260,17 @@
         },
         {
           "file": "enem-assets/official/2018/145/E.webp",
-          "sha256": "9458bd55864eb611bb2902c48cfc9b50a261993d4d33d8d447d2d180088ce7bd",
+          "sha256": "362ed9e93daffaaba121ff2ba84d66a8e18e3f27167298ee6e6e73aef99f37c7",
           "page": 18,
           "rect": [
             292.5513916015625,
             726.1759033203125,
             553.555908203125,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 523,
-          "height": 54
+          "height": 35
         }
       ]
     },
@@ -24780,7 +24780,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/152/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 21\nE\t 0 ≤ x + y ≤ 20"
+        "text": "E\t 0 ≤ x + y ≤ 20"
       }
     ],
     "officialAnswer": "B",
@@ -24899,17 +24899,17 @@
         },
         {
           "file": "enem-assets/official/2018/152/E.webp",
-          "sha256": "628567bef5afbaeb1fceeccdf6e124ad77eddb9049f5e9098f2f405ef680d80d",
+          "sha256": "d3278e08ced7c3a48170e22d9fc49faa4949f5ebcd5d1ff9954937eed5c49b78",
           "page": 21,
           "rect": [
             292.5513916015625,
             717.8916015625,
             553.5579528808594,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 71
+          "height": 52
         }
       ]
     },
@@ -24993,7 +24993,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/153/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 22\nE\t 192π"
+        "text": "E\t 192π"
       }
     ],
     "officialAnswer": "D",
@@ -25112,17 +25112,17 @@
         },
         {
           "file": "enem-assets/official/2018/153/E.webp",
-          "sha256": "8c098a56fd5d72578c299a4b5a71193c467631abeb32814cef15717e1a1fa296",
+          "sha256": "8e34c821b851b50e372e392a125aa577bcef1225a5b07001a518b3e6f84ef99f",
           "page": 22,
           "rect": [
             28.855201721191406,
             725.6502075195312,
             289.5513916015625,
-            752.5277709960938
+            743.1922607421875
           ],
           "role": "E",
           "width": 523,
-          "height": 55
+          "height": 36
         }
       ]
     },
@@ -25325,17 +25325,17 @@
         },
         {
           "file": "enem-assets/official/2018/154/E.webp",
-          "sha256": "6ee9666cc3c81d9c8cc845c1be20545d3a894e2fe82cca3ccc4f988f3a228027",
+          "sha256": "8badb3cb09a6eac9b5686d296d749ed90511d3f95a60fe9024b8cc997daa0580",
           "page": 22,
           "rect": [
             292.5513916015625,
             569.1672973632812,
             553.555908203125,
-            752.5277709960938
+            594.0865478515625
           ],
           "role": "E",
           "width": 523,
-          "height": 368
+          "height": 51
         }
       ]
     },
@@ -25845,7 +25845,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/158/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 23\nE\t 21"
+        "text": "E\t 21"
       }
     ],
     "officialAnswer": "B",
@@ -25964,17 +25964,17 @@
         },
         {
           "file": "enem-assets/official/2018/158/E.webp",
-          "sha256": "c2ad874e7dc7d82622b18d4d04e53e000ddc670b5f4d25926cab5e02bbe2af0c",
+          "sha256": "522bd3c47003e5ed16d5e0627227e2783a5f3a3d9838fdcba26428dee46e594b",
           "page": 23,
           "rect": [
             292.5513916015625,
             726.3319091796875,
             553.5597839355469,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 54
+          "height": 35
         }
       ]
     },
@@ -26390,17 +26390,17 @@
         },
         {
           "file": "enem-assets/official/2018/161/E.webp",
-          "sha256": "0e72815abd4c2b79bd70f8806324670a2e558717dd090fc6d7d8a02540a883ec",
+          "sha256": "89450ae5c955f2895b6e8c9974f615b3756a8eacf72c41fb41673159aec3b791",
           "page": 25,
           "rect": [
             28.855201721191406,
             677.5947265625,
             289.5513916015625,
-            752.5277709960938
+            702.5144653320312
           ],
           "role": "E",
           "width": 523,
-          "height": 151
+          "height": 51
         }
       ]
     },
@@ -26910,7 +26910,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/165/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 26\nE\t C\nC\n4\n2\n6\n2\n×"
+        "text": "E\t C\nC\n4\n2\n6\n2\n×"
       }
     ],
     "officialAnswer": "C",
@@ -27029,17 +27029,17 @@
         },
         {
           "file": "enem-assets/official/2018/165/E.webp",
-          "sha256": "4e94a6d0ebe301923956f070d7e7d55fa7ac19da96874c5cab5d73b5630ffc6b",
+          "sha256": "a125a40354342d8ab57d3915716f9bf4e4574cbe1d0a816c151321c49a264eed",
           "page": 26,
           "rect": [
             28.855201721191406,
             628.5285034179688,
             289.5513916015625,
-            752.5277709960938
+            664.0003662109375
           ],
           "role": "E",
           "width": 523,
-          "height": 249
+          "height": 71
         }
       ]
     },
@@ -27455,17 +27455,17 @@
         },
         {
           "file": "enem-assets/official/2018/167/E.webp",
-          "sha256": "9ac5ee3c4ce943c770b3d70ed99fd8f528f7979b015b8b598be9ccce7ef03265",
+          "sha256": "c7f9f2dcbd6bf869fc28676efb56b0d67a1ee1d2162dabae96eedee265d6223a",
           "page": 26,
           "rect": [
             292.5513916015625,
             561.2262573242188,
             553.555908203125,
-            752.5277709960938
+            586.145263671875
           ],
           "role": "E",
           "width": 523,
-          "height": 384
+          "height": 51
         }
       ]
     },
@@ -27881,17 +27881,17 @@
         },
         {
           "file": "enem-assets/official/2018/169/E.webp",
-          "sha256": "1a2c55a94acb45621acdf3dbe0a6487c01f3f99fc9941fd8c069b5180fee0d0a",
+          "sha256": "76d4a4042b82bcedd83233b7bfd6a51f764fcb6bbb1fef69dfe813e4b19237e7",
           "page": 27,
           "rect": [
             28.855201721191406,
             643.1356811523438,
             289.5513916015625,
-            752.5277709960938
+            668.0675659179688
           ],
           "role": "E",
           "width": 523,
-          "height": 220
+          "height": 51
         }
       ]
     },
@@ -27975,7 +27975,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/170/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 27\nE\t f t\nsen t\ncos t\n( )\n( )\n( )\n=\n+\n88\n168"
+        "text": "E\t f t\nsen t\ncos t\n( )\n( )\n( )\n=\n+\n88\n168"
       }
     ],
     "officialAnswer": "A",
@@ -28094,17 +28094,17 @@
         },
         {
           "file": "enem-assets/official/2018/170/E.webp",
-          "sha256": "9f500d7670cebc6a2921883b0a1ba9d23e9cc5b09d909fe111de032972e59902",
+          "sha256": "54ef8c5e2aaf7d2cfb30ce078b570f355a2678fcb169e98d847526928da49274",
           "page": 27,
           "rect": [
             292.5513916015625,
             715.5656127929688,
             553.555908203125,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 75
+          "height": 56
         }
       ]
     },
@@ -28188,7 +28188,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/171/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 28\nE\t 165º no sentido horário."
+        "text": "E\t 165º no sentido horário."
       }
     ],
     "officialAnswer": "E",
@@ -28307,17 +28307,17 @@
         },
         {
           "file": "enem-assets/official/2018/171/E.webp",
-          "sha256": "f09874d9d1a80140d38aace0c5e98a3d74b7fd39377597ce14810fd0309ffece",
+          "sha256": "f55dcaeef94a1b06077c578a503478aa7482a47c9f068b66c51a3db63ec00991",
           "page": 28,
           "rect": [
             28.855201721191406,
             559.070556640625,
             289.5513916015625,
-            752.5277709960938
+            584.002685546875
           ],
           "role": "E",
           "width": 523,
-          "height": 388
+          "height": 51
         }
       ]
     },
@@ -28520,17 +28520,17 @@
         },
         {
           "file": "enem-assets/official/2018/172/E.webp",
-          "sha256": "95b5406501b0bdcfc8395b5964baccac17da2a028e54897354bd0c4b4d2569ea",
+          "sha256": "49f19f95af3cb779a61238db56f1a19fac2d05acc5db8263f6cdfcb55c7464ed",
           "page": 28,
           "rect": [
             292.5513916015625,
             558.1057739257812,
             553.555908203125,
-            752.5277709960938
+            583.0152587890625
           ],
           "role": "E",
           "width": 523,
-          "height": 390
+          "height": 51
         }
       ]
     },
@@ -28827,7 +28827,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/175/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 30\nE\t 58"
+        "text": "E\t 58"
       }
     ],
     "officialAnswer": "B",
@@ -28946,17 +28946,17 @@
         },
         {
           "file": "enem-assets/official/2018/175/E.webp",
-          "sha256": "36e9ed15be1c031ce9808ae76b6518822f019e5fe1913713e5fbf956905182e6",
+          "sha256": "03340faa058af91e9bcb04a85d6817ac722ee7a3dea89776e21ff971e2ebe4de",
           "page": 30,
           "rect": [
             28.85755157470703,
             619.2274780273438,
             289.5513916015625,
-            752.5277709960938
+            644.149169921875
           ],
           "role": "E",
           "width": 523,
-          "height": 268
+          "height": 51
         }
       ]
     },
@@ -29159,17 +29159,17 @@
         },
         {
           "file": "enem-assets/official/2018/176/E.webp",
-          "sha256": "cc4ded72421e4349b70d2718ef1eeb1cd2a9cf76b1acf17e7474c9094f407c23",
+          "sha256": "438e9bd26fe7c50dba8110e332b0a7793139d9ead36017e9e657cab0ac65bfb1",
           "page": 30,
           "rect": [
             292.5513916015625,
             617.6065063476562,
             553.555908203125,
-            752.5277709960938
+            642.5242919921875
           ],
           "role": "E",
           "width": 523,
-          "height": 271
+          "height": 51
         }
       ]
     },
@@ -29585,17 +29585,17 @@
         },
         {
           "file": "enem-assets/official/2018/178/E.webp",
-          "sha256": "df32f3ca16b0131d383f83234007bf95cba67c6a8e39f1c5d48b866d8fe47aa2",
+          "sha256": "f8e7bc6d94691d3416ecb929f11006051139b7158da9c73b124b5ed1792f2750",
           "page": 31,
           "rect": [
             28.8551025390625,
             720.7628173828125,
             289.5513916015625,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 65
+          "height": 46
         }
       ]
     },
@@ -29892,7 +29892,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2018/180/E.webp",
-        "text": "MT\n2º dia | Caderno 7\nAZUL\nPágina 31\nE\t 72"
+        "text": "E\t 72"
       }
     ],
     "officialAnswer": "B",
@@ -30011,17 +30011,17 @@
         },
         {
           "file": "enem-assets/official/2018/180/E.webp",
-          "sha256": "ee9fbcc04f18c4192909f692c899b4235216e7ad21a72406a42996d5d4276674",
+          "sha256": "68b8d133a759676eca2544449f1d3b423d8469a5df7b55aa423f753c14040d96",
           "page": 31,
           "rect": [
             292.5513916015625,
             717.0116577148438,
             553.555908203125,
-            752.5277709960938
+            743.3466796875
           ],
           "role": "E",
           "width": 523,
-          "height": 72
+          "height": 53
         }
       ]
     },

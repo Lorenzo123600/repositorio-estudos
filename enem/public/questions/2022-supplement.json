@@ -73,7 +73,7 @@
         "letter": "E",
         "format": "image",
         "file": "enem-assets/official/2022/144/E.webp",
-        "text": "19\n7 - AZUL - 1ª Aplicação\nE\t\nE\t 9"
+        "text": "E\t\nE\t 9"
       }
     ],
     "officialAnswer": "C",
@@ -192,17 +192,17 @@
         },
         {
           "file": "enem-assets/official/2022/144/E.webp",
-          "sha256": "2fa080b11df994bac3cbb7f9da33bb224a2dafb8c6803e23cbe2e2974c64ae1d",
+          "sha256": "33497049b5ccf28b4cdd07124dbceabe0173b9715a2af75a511bad1a454953a7",
           "page": 19,
           "rect": [
             285.4645080566406,
             716.9508056640625,
             546.1339111328125,
-            752.5280151367188
+            741.0103149414062
           ],
           "role": "E",
           "width": 523,
-          "height": 73
+          "height": 50
         }
       ]
     },
