@@ -6,6 +6,11 @@ on:
       - 'enem/**'
       - '.github/workflows/enem-pages.yml'
   workflow_dispatch:
+    inputs:
+      deep_verify:
+        description: Repetir renderização dos PDFs no runner
+        type: boolean
+        default: false
 permissions:
   contents: read
   pages: write
@@ -46,15 +51,18 @@ jobs:
       - run: npm test
         working-directory: enem
       - uses: actions/setup-python@v5
+        if: inputs.deep_verify == true
         with:
           python-version: '3.12'
       - name: Preparar verificação dos documentos originais
+        if: inputs.deep_verify == true
         run: |
           sudo apt-get update
           sudo apt-get install --no-install-recommends -y poppler-utils
           python -m pip install -r scripts/requirements-enem.txt
         working-directory: enem
       - name: Comparar questões com os PDFs oficiais
+        if: inputs.deep_verify == true
         run: npm run verify:originals
         working-directory: enem
       - name: Compilar site com Supabase

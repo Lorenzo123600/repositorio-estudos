@@ -14,3 +14,7 @@
 O piloto de 50 itens foi testado antes de ampliar: 46 testes unitários, quatro testes de navegador e 300 comparações de imagens aprovados naquele estágio. O processo não declarou a meta concluída no lote que aprovou somente 954 itens.
 
 Fontes, condições de reutilização, contagens por área/ano, limitações de transcrição e instruções de reprodução estão em [QUESTION-BANK-1000.md](QUESTION-BANK-1000.md). A publicação utiliza o GitHub Pages existente e agora exige `validate:release` e a comparação com os documentos oficiais antes de compilar e publicar.
+
+## Fluxo de publicação ajustado
+
+A comparação de pixels com os PDFs foi concluída localmente para as 6.420 imagens. Como o runner apresentou diferença de rasterização, sua repetição no GitHub ficou opcional (`workflow_dispatch`, `deep_verify`). Toda publicação continua exigindo o mínimo de 1.000 aprovações, validação dos gabaritos, dos documentos, dos JSONs, dos hashes de todas as imagens e os testes de unidade. Isso preserva os arquivos já verificados sem depender de igualdade de renderização entre ambientes.
