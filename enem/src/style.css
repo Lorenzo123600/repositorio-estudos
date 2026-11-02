@@ -120,3 +120,6 @@
 .home-extra>summary small{font-size:11px;font-weight:400;color:#62786b;margin-left:auto}
 .home-extra-body{padding:0 15px 16px}.home-extra-body>.plan-finished{margin:0}.home-extra-body>.companion-panel{margin-top:0}
 @media(max-width:760px){.home-hero{padding:20px}.home-hero .training-orb{transform:scale(.75)}.home-stats{gap:7px}.home-stats article{padding:10px}.home-dashboard-grid .card{padding:15px}.home-extra>summary{padding:15px;flex-wrap:wrap}.home-extra>summary small{flex-basis:100%;margin-left:0;order:3}.home-extra>summary::after{margin-left:auto}}
+
+/* Acao principal contextual com CTA destacado */
+.home-next-action{min-height:46px;padding:13px 22px;border-radius:11px;font-weight:800;box-shadow:0 5px 15px #17493424}.home-hero .hero-tag{letter-spacing:1.1px}.home-hero .hero-copy p{line-height:1.65}
