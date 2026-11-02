@@ -1,0 +1,9 @@
+project_id = "oeblcfrygdrywdorengz"
+
+[functions.create-mercadopago-order]
+# Gateway accepts modern publishable keys; handler ALWAYS verifies the user JWT
+# through auth.getUser(token). Never trust decoded client claims.
+verify_jwt = false
+
+[functions.mercadopago-webhook]
+verify_jwt = false

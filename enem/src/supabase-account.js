@@ -41,6 +41,14 @@ export function createSupabaseTransport(client,{redirectTo,isRecovery=()=>false}
    if(!isRecovery())check(await client.auth.signInWithPassword({email:user.email,password:body.currentPassword}));
    check(await client.auth.updateUser({password:body.password}));return {ok:true};
   }
+  if(path==='/payment-plans')return check(await client.from('enem_payment_plans').select('id,name,price,currency,duration_days,access_expires_at').eq('active',true).order('price'));
+  if(path==='/payments')return check(await client.from('enem_payments').select('id,plan_id,idempotency_key,status,environment,amount,currency,created_at').eq('user_id',user.id).order('created_at',{ascending:false}).limit(50));
+  if(path==='/payment-access')return check(await client.from('enem_user_access').select('payment_id,plan_id,status,environment,activated_at,expires_at').eq('user_id',user.id));
+  if(path==='/create-payment'){
+   const result=await client.functions.invoke('create-mercadopago-order',{body});
+   if(result.error)throw error('Não foi possível abrir o pagamento. Tente novamente; a mesma tentativa será reutilizada.',result.error.context?.status||503);
+   return result.data;
+  }
   if(path==='/progress'){
    if(options.method==='PUT')return check(await client.rpc('save_enem_study_progress',{p_state:body.state,p_revision:body.revision}));
    return check(await client.rpc('load_enem_study_progress'));

@@ -63,5 +63,5 @@ export function createAccount({getState,loadState,render}){
  }
  async function init(){try{user=(await api('/me')).user;loadState({});try{await pull();}catch{const cached=readCache();loadState(cached?.state||{});dirty=!!cached?.dirty;revision=cached?.revision||0;status('Não foi possível carregar sua conta · tente sincronizar novamente');render();}}catch{status('Modo visitante · entre para sincronizar entre dispositivos');}paint();if(user&&emailRecovery&&cloud.isRecovering()){open();document.querySelector('#password-details').open=true;document.querySelector('#account-status').textContent='Defina sua nova senha no formulário abaixo.';}}
  window.addEventListener('online',()=>{if(user&&!ready)pull().catch(()=>{});else sync();});window.addEventListener('focus',refresh);setInterval(()=>{if(dirty)sync();else refresh();},15000);
- return {changed,paint,init,isSignedIn:()=>!!user};
+ return {changed,paint,init,isSignedIn:()=>!!user,open,paymentsAvailable:()=>emailRecovery,paymentRequest:api,paymentUser:()=>user?.id};
 }

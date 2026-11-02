@@ -142,3 +142,9 @@
 .exam-option-extended .exam-option-cta:hover{background:#eaf5ec}
 .exam-option-cta:disabled{opacity:.55;cursor:not-allowed}
 @media(max-width:750px){.exam-options{grid-template-columns:1fr;gap:13px}.exam-options .exam-option{padding:18px}.exam-option-heading h2{font-size:20px}}
+
+/* Purchase dialog stays independent from study/progress rendering. */
+.payments-dialog{width:min(92vw,680px);max-height:85dvh;overflow:auto}
+.payment-plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px}
+.payments-dialog .card{margin:12px 0;overflow-wrap:anywhere}
+#payment-message{overflow-wrap:anywhere}
