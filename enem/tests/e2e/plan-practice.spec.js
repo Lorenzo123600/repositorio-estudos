@@ -56,13 +56,39 @@ test('conclui automaticamente uma etapa somente após responder todas as questõ
  await expect(page.locator('.plan-unit.unit-complete').first()).toContainText('Interpretação de texto');
 });
 
-test('não conclui uma etapa se o treino terminar com respostas faltando',async({page})=>{
+test('não avança sem resposta confirmada e não conclui etapa interrompida',async({page})=>{
  await page.goto('/');await page.locator('[data-tab="Plano de 14 dias"]').click();
  await page.locator('[data-plan-practice="0"]').click();
- for(let i=0;i<9;i++)await page.locator('#next').click();
+ await expect(page.locator('#next')).toBeDisabled();
+ await page.locator('[data-answer="0"]').click();
+ await expect(page.locator('#next')).toBeDisabled();
+ await page.locator('#confirm-answer').click();
+ await expect(page.locator('#next')).toBeEnabled();
  await page.locator('#next').click();
- await expect(page.getByText('Treino incompleto:',{exact:false})).toBeVisible();
+ await expect(page.locator('.question-position')).toContainText('Questão 2 de 10');
+ await expect(page.locator('#next')).toBeDisabled();
+ await page.reload();
+ await expect(page.locator('#next')).toBeDisabled();
  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone||[])).not.toContain(0);
- await page.locator('#review-training').click();
- await expect(page.locator('.question-position')).toContainText('Questão 1 de 10');
+ await page.locator('#back-to-plan').click();
+ await expect(page.locator('[data-day="0"]')).toContainText('Marcar como concluído');
+});
+
+test('retoma treino e não duplica conclusão ao repetir atividade',async({page})=>{
+ await page.goto('/');await page.locator('[data-tab="Plano de 14 dias"]').click();
+ await page.locator('[data-plan-practice="0"]').click();
+ await page.locator('[data-answer="0"]').click();await page.locator('#confirm-answer').click();
+ await page.reload();
+ await expect(page.locator('#next')).toBeEnabled();
+ for(let i=0;i<10;i++){
+  if(i>0){await page.locator('[data-answer="0"]').click();await page.locator('#confirm-answer').click();}
+  await page.locator('#next').click();
+ }
+ const done=await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone);
+ expect(done.filter(x=>x===0)).toHaveLength(1);
+ await page.locator('#finish-training').click();
+ await page.locator('[data-plan-practice="0"]').click();
+ for(let i=0;i<10;i++)await page.locator('#next').click();
+ const repeated=await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone);
+ expect(repeated.filter(x=>x===0)).toHaveLength(1);
 });
