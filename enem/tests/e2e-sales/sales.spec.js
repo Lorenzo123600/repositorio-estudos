@@ -18,7 +18,14 @@ for(const kind of ['purchase','complimentary'])test('authenticated content, save
  const uid='11111111-1111-4111-8111-111111111111';
  const user={id:uid,aud:'authenticated',email:'buyer@example.test',email_confirmed_at:new Date().toISOString(),app_metadata:{provider:'email'},user_metadata:{name:'Estudante'},identities:[],created_at:new Date().toISOString()};
  const jwt='eyJhbGciOiJIUzI1NiJ9.'+Buffer.from(JSON.stringify({sub:uid,exp:Math.floor(Date.now()/1000)+3600,role:'authenticated'})).toString('base64url')+'.fixture';
- let access=[],contentRequests=0,writes=0;
+ let access=[],contentRequests=0,writes=0,delayAccess=false;
+ // Observe every DOM commit, including brief intermediate screens.
+ await page.addInitScript(()=>{
+  window.unexpectedOffers=[];
+  new MutationObserver(()=>{
+   if(document.querySelector('.sale-offer'))window.unexpectedOffers.push('offer');
+  }).observe(document,{childList:true,subtree:true});
+ });
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.route('https://enem-test.supabase.co/**',async route=>{
   const path=new URL(route.request().url()).pathname;
@@ -29,7 +36,7 @@ for(const kind of ['purchase','complimentary'])test('authenticated content, save
   else if(path.endsWith('/user'))data=user;
   else if(path.endsWith('/load_enem_study_progress'))data={state:{essay:'Meu rascunho anterior',answers:{91:1,375:1}},revision:0};
   else if(path.endsWith('/save_enem_study_progress')){writes++;data={revision:writes};}
-  else if(path.endsWith('/enem_access_status'))data=access;
+  else if(path.endsWith('/enem_access_status')){if(delayAccess)await new Promise(resolve=>setTimeout(resolve,500));data=access;}
   else if(path.endsWith('/study-content')){
    expect(route.request().headers().authorization).toBe('Bearer '+jwt);contentRequests++;
    if(!access.some(a=>a.environment==='production'))return route.fulfill({status:403,json:{error:'paid_access_required'},headers});
@@ -46,11 +53,16 @@ for(const kind of ['purchase','complimentary'])test('authenticated content, save
  await page.locator('#store-login').click();await page.locator('#store-auth-form [name=email]').fill(user.email);await page.locator('#store-auth-form [name=password]').fill('Senha fixture123');await page.locator('#store-auth-form [type=submit]').click();await expect(page.locator('#store-auth')).toHaveCount(0);
  await expect(page.locator('#store-status')).toContainText('Seu acesso completo ainda não está ativo');expect(contentRequests).toBe(0);
  access=[{kind,environment:'production',status:'active',activated_at:new Date(Date.now()-1000).toISOString(),expires_at:new Date(Date.now()+86400000).toISOString()}];
+ delayAccess=true;
  await page.locator('#store-refresh').click();await expect(page.locator('#store-login')).toHaveCount(0);await expect(page.locator('.home-welcome')).toBeVisible();await page.locator('#mobile-menu').click();await page.locator('[data-tab="Redação"]').click();await expect(page.locator('#essay')).toHaveValue('Meu rascunho anterior');expect(contentRequests).toBe(1);
  const publicQuestionRequests=[];page.on('request',request=>{if(request.url().includes('/questions/'))publicQuestionRequests.push(request.url())});
  await page.locator('[data-mobile-tab="Questões"]').click();await page.locator('#practice-year').selectOption('2022');await page.locator('#practice-discipline').selectOption('Inglês');await expect(page.locator('.question-source')).toContainText('ENEM 2022');await expect(page.locator('[data-answer]')).toHaveCount(5);expect(publicQuestionRequests).toEqual([]);
  expect(await page.evaluate(uid=>JSON.parse(localStorage.getItem('enem-cloud-user-'+uid)).state.answers['375'],uid)).toBe(1);
  await page.locator('#mobile-menu').click();await page.locator('[data-tab="Redação"]').click();await expect(page.locator('#essay')).toHaveValue('Meu rascunho anterior');
+ expect(await page.evaluate(()=>window.unexpectedOffers)).toEqual([]);
+ // Restoring an existing session must also go straight to the dashboard.
+ await page.reload();await expect(page.locator('.home-welcome')).toBeVisible();
+ expect(await page.evaluate(()=>window.unexpectedOffers)).toEqual([]);
  access=[];await page.evaluate(()=>window.dispatchEvent(new Event('focus')));await expect(page.locator('.sale-offer')).toBeVisible();await expect(page.locator('#essay')).toHaveCount(0);expect(writes).toBe(0);expect(errors).toEqual([]);
 });
 
