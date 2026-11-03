@@ -1,0 +1,46 @@
+
+> reta-final-enem@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:19142) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:19226) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 26 tests using 1 worker
+
+(node:19236) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/e2e/audit-isolation.spec.js:14:1 › late progress response after logout must never restore private draft (2.2s)
+  ✓   2 tests/e2e/audit-isolation.spec.js:35:1 › switching the shared session in another tab must clear the old private draft (2.8s)
+  ✓   3 tests/e2e/audit-journey.spec.js:4:1 › plans of 1, 2, 7, 14, 30 and 180 days keep one expandable card per day (2.7s)
+  ✓   4 tests/e2e/audit-journey.spec.js:23:1 › 40 stratified questions retain all five alternatives and load every image on mobile (10.3s)
+  ✓   5 tests/e2e/exam-journey.spec.js:3:1 › selecionar, confirmar, avançar, deixar para depois e revisar preservam os rascunhos (1.8s)
+  ✓   6 tests/e2e/exam-journey.spec.js:7:1 › finalização usa última confirmação, apresenta resultado e filtra a revisão sem trocar números (1.0s)
+  ✓   7 tests/e2e/mascots.spec.js:5:1 › Capitu e Guapa conversam, dão pistas, corrigem tentativas e salvam vitórias reais (2.4s)
+  ✓   8 tests/e2e/mascots.spec.js:15:1 › ouvir usa voz de verdade com controle de parada e alternativa em texto (814ms)
+  ✓   9 tests/e2e/plan-practice.spec.js:12:1 › um card compacto por dia, independente da quantidade de atividades (803ms)
+  ✓  10 tests/e2e/plan-practice.spec.js:22:1 › recomendação do painel abre a próxima etapa diretamente nas questões (714ms)
+  ✓  11 tests/e2e/plan-practice.spec.js:30:1 › atividade abre questões do assunto, preserva respostas e retoma após recarga sem concluir o dia (1.6s)
+  ✓  12 tests/e2e/plan-practice.spec.js:44:1 › dias agrupados e espaçados têm destinos próprios e redação abre o editor (1.5s)
+  ✓  13 tests/e2e/plan-practice.spec.js:54:1 › etapa de caderno de erros abre a questão errada e não inclui a correta (745ms)
+  ✓  14 tests/e2e/plan-practice.spec.js:62:1 › conclui automaticamente uma etapa somente após responder todas as questões (2.5s)
+  ✓  15 tests/e2e/plan-practice.spec.js:76:1 › não avança sem resposta confirmada e não conclui etapa interrompida (1.3s)
+  ✓  16 tests/e2e/plan-practice.spec.js:94:1 › retoma treino e não duplica conclusão ao repetir atividade (3.4s)
+  ✓  17 tests/e2e/plan-practice.spec.js:113:1 › resultado correto ou errado conclui na ultima confirmação (9.2s)
+  ✓  18 tests/e2e/plan-practice.spec.js:133:1 › configurar duração e data em uma única aplicação sem perder os campos (1.3s)
+  ✓  19 tests/e2e/plan-sequence.spec.js:4:1 › sequência libera próximo dia, recalcula automaticamente e confirma novo ciclo (2.1s)
+  ✓  20 tests/e2e/redesign.spec.js:5:1 › treino recomendado confirma a resposta antes de salvar e conclui dez questões (2.8s)
+  ✓  21 tests/e2e/redesign.spec.js:16:1 › celular tem navegação acessível, menu, mascotes e revisão de quinze minutos (1.7s)
+  ✓  22 tests/e2e/study-plan.spec.js:4:1 › personalizar prazo preserva atividades antigas, salva e atualiza todos os indicadores (4.5s)
+  ✓  23 tests/e2e/study.spec.js:14:1 › duas sessões independentes compartilham plano, redações e respostas; conflitos preservam cópia local (7.7s)
+  ✓  24 tests/e2e/study.spec.js:31:1 › questões reais, imagens, filtros, simulado e tela móvel funcionam (1.3s)
+  ✓  25 tests/e2e/study.spec.js:41:1 › código de recuperação permite voltar à conta sem e-mail e rotaciona após uso (1.5s)
+  ✓  26 tests/e2e/study.spec.js:48:1 › simulado com alternativas em imagem mantém figuras na resolução (920ms)
+
+  26 passed (1.2m)

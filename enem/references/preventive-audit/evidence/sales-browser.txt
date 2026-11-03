@@ -1,0 +1,16 @@
+[WebServer] (node:17953) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:17990) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 5 tests using 1 worker
+
+(node:18008) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e-sales/sales.spec.js:5:1 › commercial artifacts contain the demo but no full question bank, plans or essay prompts (9ms)
+  ✓  2 tests/e2e-sales/sales.spec.js:17:48 › authenticated content, saved progress and revocation: purchase (5.1s)
+  ✓  3 tests/e2e-sales/sales.spec.js:17:48 › authenticated content, saved progress and revocation: complimentary (4.9s)
+  ✓  4 tests/e2e-sales/sales.spec.js:70:1 › home and privacy remain public without JavaScript or authentication (613ms)
+  ✓  5 tests/e2e-sales/sales.spec.js:85:1 › welcome prioritizes learning, keeps payment optional and adapts to mobile (1.2s)
+
+  5 passed (16.4s)

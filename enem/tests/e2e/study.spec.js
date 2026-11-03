@@ -1,3 +1,4 @@
+import {clickPlanDay} from '../helpers/ui.js';
 import {bank} from '../../src/activities.js';
 import {test,expect} from '@playwright/test';
 const password='Senha de teste 123!';
@@ -14,7 +15,7 @@ test('duas sessões independentes compartilham plano, redações e respostas; co
  const a=await browser.newContext(),b=await browser.newContext(),one=await a.newPage(),two=await b.newPage();const errors=[];one.on('pageerror',e=>errors.push(e.message));two.on('pageerror',e=>errors.push(e.message));
  const email=`e2e-${Date.now()}@example.com`;
  await enter(one,email,true);
- await one.getByRole('button',{name:'Plano de 14 dias',exact:false}).first().click();await one.locator('[data-day="0"]').click();await synced(one);await one.locator('#plan-days').fill('21');await one.locator('#plan-settings button[type=submit]').click();await synced(one);
+ await one.getByRole('button',{name:'Plano de 14 dias',exact:false}).first().click();await clickPlanDay(one,0);await synced(one);await one.locator('#plan-days').fill('21');await one.locator('#plan-settings button[type=submit]').click();await synced(one);
  await one.locator('[data-tab="Redação"]').click();await one.locator('#essay').fill('Minha redação sincronizada entre computador e celular.');await synced(one);
  await one.locator('[data-tab="Questões"]').click();await one.locator('[data-answer="2"]').click();await one.locator('#confirm-answer').click();await synced(one);
  await enter(two,email);await two.locator('[data-tab="Plano de 14 dias"]').click();await expect(two.locator('[data-day="0"]')).toContainText('Concluído');await expect(two.locator('#plan-days')).toHaveValue('21');

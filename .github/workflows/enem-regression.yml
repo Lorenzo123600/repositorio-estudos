@@ -28,3 +28,47 @@ jobs:
       - run: npm run test:e2e
         env:
           CI: 'true'
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: regression-local-evidence
+          path: enem/test-results/
+          retention-days: 7
+  browser-modes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        mode: [cloud, sales, pages]
+    defaults:
+      run:
+        working-directory: enem
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: enem/package-lock.json
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - if: matrix.mode == 'pages'
+        run: npm run build:pages
+      - run: npx playwright test --config playwright.${{ matrix.mode }}.config.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: regression-${{ matrix.mode }}-evidence
+          path: enem/test-results/
+          retention-days: 7
+  database-isolation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: enem
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash tests/sql/run-payments.sh

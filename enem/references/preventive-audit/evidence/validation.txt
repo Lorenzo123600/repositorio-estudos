@@ -1,0 +1,5 @@
+
+> reta-final-enem@1.0.0 validate:release
+> node scripts/validate-questions.mjs --require-target
+
+OK: 1123 questões nos arquivos locais. Validações e histórico conferidos.

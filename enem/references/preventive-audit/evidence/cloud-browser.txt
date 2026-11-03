@@ -1,0 +1,23 @@
+
+> reta-final-enem@1.0.0 test:cloud
+> playwright test --config playwright.cloud.config.js
+
+[WebServer] (node:17479) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:17520) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:17538) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/e2e-cloud/account.spec.js:6:1 › SDK Supabase: confirmação, login, progresso em duas sessões e recuperação por e-mail (5.0s)
+  ✓  2 tests/e2e-cloud/paid-access.spec.js:3:1 › demo preserves progress; only a current production purchase unlocks study (12.5s)
+  ✓  3 tests/e2e-cloud/payments.spec.js:5:1 › planos: login, retry idempotente, retorno não confiável, recarga e outro dispositivo (serviços simulados) (3.8s)
+
+  3 passed (25.0s)

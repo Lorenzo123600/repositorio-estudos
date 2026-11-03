@@ -1,0 +1,25 @@
+[
+  {
+    "endpoint": "/rest/v1/rpc/load_enem_study_progress",
+    "http_status": 401,
+    "anonymous_denied": true
+  },
+  {
+    "endpoint": "/rest/v1/rpc/enem_access_status",
+    "http_status": 401,
+    "anonymous_denied": true
+  },
+  {
+    "endpoint": "/functions/v1/study-content",
+    "http_status": 401,
+    "anonymous_denied": true
+  },
+  {
+    "page": "/",
+    "http_status": 200
+  },
+  {
+    "page": "privacidade",
+    "http_status": 200
+  }
+]

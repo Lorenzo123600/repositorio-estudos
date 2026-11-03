@@ -103,7 +103,7 @@
 .focus-global-durations{display:flex;justify-content:center;gap:7px;margin-top:12px}
 .focus-global-durations button{font-size:11px;border:1px solid #dce7dd;background:#f8faf7;color:#496b54;padding:7px 11px;border-radius:99px}
 .focus-global-durations button[aria-pressed=true]{background:#e0efdf;color:#1a623c;border-color:#9abc9d;font-weight:700}
-@media(max-width:760px){#focus-global-root{right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px))}.focus-global-panel{width:min(286px,calc(100vw - 24px))}}
+@media(max-width:760px){#focus-global-root{right:12px;bottom:calc(84px + env(safe-area-inset-bottom,0px))}.focus-global-panel{width:min(286px,calc(100vw - 24px))}}
 
 /* Home mais objetiva: a ação de estudo vem antes dos conteúdos de apoio */
 .home-welcome{margin-bottom:14px}.home-welcome h1{margin-bottom:5px}.home-welcome .subtitle{margin-bottom:0}
