@@ -198,3 +198,45 @@
 @media(min-width:1100px){.plan-carousel{--plan-slides-per-view:2}}
 @media(max-width:480px){.plan-carousel-controls{gap:6px}.plan-carousel-controls button{font-size:11px;padding:9px 7px}.plan-carousel-position{font-size:12px}.plan-carousel-footer{gap:12px}}
 @media(prefers-reduced-motion:reduce){.plan-carousel-track{scroll-behavior:auto}.plan-carousel .plan-progress-track>div{transition:none}}
+
+/* Plans dialog: fixed heading, a single vertical scroll area and native touch carousel. */
+html:has(.payments-dialog[open]),body:has(.payments-dialog[open]){overflow:hidden}
+dialog.payments-dialog{width:min(760px,calc(100% - 32px));max-width:760px;max-height:85dvh;margin:auto;padding:0;border:1px solid #dbe6dc;border-radius:20px;box-shadow:0 22px 70px #143c2c26;overflow:hidden;color:#294737;background:#fff}
+dialog.payments-dialog[open]{display:flex;flex-direction:column}
+.payments-dialog::backdrop{background:#153e345c;backdrop-filter:blur(3px)}
+.payments-dialog .payment-modal-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:20px 24px 16px;border-bottom:1px solid #e5ece3;flex-shrink:0}
+.payments-dialog .payment-modal-heading .eyebrow{font-size:9px;letter-spacing:1.2px;color:#557260}
+.payments-dialog #payments-title{font-size:23px;line-height:1.25;margin:6px 0 0;letter-spacing:-.5px}
+.payments-dialog #payments-close{flex-shrink:0;width:44px;height:44px;margin:0;border-radius:50%;background:#f0f5ee;color:#245c43;font-size:18px}
+.payments-dialog #payments-body{padding:18px 24px 22px;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:#9db8a2 transparent}
+.payments-dialog #payments-body::-webkit-scrollbar{width:6px}
+.payments-dialog #payments-body::-webkit-scrollbar-thumb{background:#9db8a2;border-radius:8px}
+.payments-dialog #payments-body::-webkit-scrollbar-track{background:transparent}
+.payments-dialog p{font-size:13px;line-height:1.6;margin:0 0 12px;overflow-wrap:anywhere}
+.payments-dialog .card{margin:0;overflow-wrap:anywhere;min-width:0}
+.payments-dialog .payment-plan-card{padding:22px;border-radius:16px;border-color:#cadcc9;background:linear-gradient(145deg,#f3f8ee,#fff 75%)}
+.payments-dialog .payment-plan-card h3{font-size:20px;line-height:1.35;margin:10px 0 8px;color:#215e43}
+.payments-dialog .payment-plan-price{font-size:36px;font-weight:800;line-height:1.15;letter-spacing:-1px;color:#215e43;margin:0 0 6px;font-variant-numeric:tabular-nums}
+.payments-dialog .payment-once{font-size:12px;color:#526c5b}
+.payments-dialog .payment-benefits{list-style:none;padding:0;margin:16px 0;display:grid;gap:9px;font-size:13px;line-height:1.5}
+.payments-dialog .payment-benefits li{display:flex;gap:9px;align-items:baseline}
+.payments-dialog .payment-benefits span{color:#477857;flex-shrink:0}
+.payments-dialog .payment-validity{padding:12px 14px;margin:0;background:#e8f1e3;border-radius:10px;color:#285439;font-size:13px;font-weight:600}
+.payments-dialog .payment-validity small{display:block;font-size:11px;font-weight:400;line-height:1.5;margin-top:3px}
+.payments-dialog .payment-login-note,.payments-dialog .payment-caption{font-size:12px;line-height:1.6;color:#526b5b;margin:12px 0}
+.payments-dialog .primary{width:100%;min-height:46px;border-radius:10px;font-size:14px;font-weight:700;margin-top:16px;white-space:normal}
+.payments-dialog .payment-access-status{font-weight:700;color:#215e43;margin-bottom:4px}
+.payments-dialog .payment-caption{margin-top:0}
+.payments-dialog .payment-purchases-title{font-size:16px;margin:22px 0 12px}
+.payments-dialog .payment-purchase{padding:14px 16px;margin:0 0 10px;border-radius:12px}
+.payments-dialog .payment-purchase p{margin:6px 0 0;font-size:12px}
+.payments-dialog #payment-message:empty{display:none}
+.payments-dialog #payment-refresh{min-height:44px;font-size:12px}
+.payments-dialog .payment-plans{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;padding:3px}
+.payments-dialog .payment-plans::-webkit-scrollbar{display:none}
+.payments-dialog .payment-plans>.payment-plan-card{flex:0 0 100%;scroll-snap-align:start;scroll-snap-stop:always}
+.payments-dialog .payment-carousel-controls{display:flex;justify-content:flex-end;align-items:center;gap:12px;margin-bottom:10px;font-size:12px;color:#42664d}
+.payments-dialog .payment-carousel-controls button{height:44px;width:44px;border:1px solid #cbdcca;border-radius:10px;background:#f3f8ee;color:#245c43;font-size:18px}
+.payments-dialog .payment-carousel-controls button:disabled{opacity:.4}
+.payments-dialog :is(button,.payment-plans):focus-visible{outline:3px solid #32714c;outline-offset:2px}
+@media(max-width:480px){dialog.payments-dialog{width:calc(100% - 24px)}.payments-dialog .payment-modal-heading{padding:16px}.payments-dialog #payments-title{font-size:20px}.payments-dialog #payments-body{padding:16px}.payments-dialog .payment-plan-card{padding:18px}.payments-dialog .payment-plan-price{font-size:32px}}
