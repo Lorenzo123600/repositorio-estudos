@@ -1,9 +1,14 @@
-export function studyContentHandler({origin,authenticate,hasAccess,content}){
+export function studyContentHandler({origin,allowedOrigins=[],authenticate,hasAccess,content}){
+ // Exact, explicitly configured origins only. Payment origin rules are unchanged.
+ const origins=new Set([origin,...(Array.isArray(allowedOrigins)?allowedOrigins:[])].filter(value=>{
+  try{const url=new URL(value);return url.protocol==='https:'&&!url.hostname.includes('*')&&url.origin===value;}catch{return false;}
+ }));
  return async request=>{
   const headers={'Content-Type':'application/json','Cache-Control':'no-store','Vary':'Origin'};
   const reply=(body,status)=>Response.json(body,{status,headers});
-  if(!origin||request.headers.get('origin')!==origin)return reply({error:'origin_not_allowed'},403);
-  headers['Access-Control-Allow-Origin']=origin;
+  const requestOrigin=request.headers.get('origin');
+  if(!origins.has(requestOrigin))return reply({error:'origin_not_allowed'},403);
+  headers['Access-Control-Allow-Origin']=requestOrigin;
   headers['Access-Control-Allow-Headers']='authorization, apikey, content-type, x-client-info';
   headers['Access-Control-Allow-Methods']='POST, OPTIONS';
   if(request.method==='OPTIONS')return new Response(null,{status:204,headers});

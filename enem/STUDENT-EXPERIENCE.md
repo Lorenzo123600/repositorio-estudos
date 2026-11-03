@@ -19,3 +19,18 @@ Base conferida: main `938e44d` (inclui as correções da auditoria e os indicado
 Mudanças ficam em branch/PR próprio; não habilitam cobranças reais, não alteram gabaritos e não removem histórico do aluno.
 
 Resultado local: 85 testes JavaScript e 44 testes de navegador aprovados (31 locais, 3 Supabase simulado, 5 comerciais e 5 Pages). Compilações e validação do banco concluídas nas suítes.
+
+
+## Correção do carregamento na prévia
+
+Diagnóstico remoto: `OPTIONS /functions/v1/study-content` com origem `https://bora-pro-enem.pages.dev` retorna 204; com `https://17a4e897.bora-pro-enem.pages.dev` retorna 403 `origin_not_allowed`. A função hospedada permite somente `PAYMENTS_APP_ORIGIN`, enquanto a interface da prévia consegue autenticar e consultar o acesso pelo SDK. A falha ocorre na entrega do conteúdo.
+
+A função passa a aceitar também uma lista **explícita**, separada por vírgulas, em `STUDY_CONTENT_ALLOWED_ORIGINS`. Para esta prévia, configurar:
+
+```text
+STUDY_CONTENT_ALLOWED_ORIGINS=https://17a4e897.bora-pro-enem.pages.dev,https://feat-student-experience-2026.bora-pro-enem.pages.dev
+```
+
+É necessário publicar a versão atualizada da Edge Function `study-content` e configurar essa variável no projeto Supabase `oeblcfrygdrywdorengz`. Esta sessão não tem credencial administrativa para executar essa implantação. A publicação automática do frontend na Cloudflare não publica funções Supabase.
+
+Não alterar `PAYMENTS_APP_ORIGIN` para resolver a prévia. A lista se aplica somente à entrega do estudo; não muda checkout, RLS, validação de JWT ou exigência de acesso vigente. Não aceita wildcard ou confiança por sufixo. Novos endereços de prévia precisam ser incluídos explicitamente. Os testes verificam prévia autorizada, origens falsas, requisição anônima, usuário sem acesso e conteúdo protegido.
