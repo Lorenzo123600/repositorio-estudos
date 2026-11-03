@@ -34,7 +34,7 @@ export function openPayments(account){
   if(closed||loading||busy)return;loading=true;
   try{
    if(!account.paymentsAvailable()){root.innerHTML='<p>Os pagamentos ainda não estão disponíveis nesta versão do site.</p>';return;}
-   if(!account.isSignedIn()){root.innerHTML='<p>Entre na sua conta para consultar os planos e comprar acesso.</p><button class="primary" id="payment-login">Entrar / Criar conta</button>';root.querySelector('button').onclick=()=>{dialog.close();account.open();};return;}
+   if(!account.isSignedIn()){root.innerHTML='<article class="card public-plan"><span class="badge">EDIÇÃO ENEM 2026</span><h3>Acesso completo</h3><p class="public-plan-price">R$ 14,90</p><p>Pagamento único, sem mensalidade ou renovação automática.</p><p>Acesso até 31/12/2026, às 23h59 de Brasília. Edições futuras não incluídas.</p><p>Plano de estudos, questões oficiais, simulados, redação e progresso sincronizado.</p></article><p>Entre na sua conta para consultar os planos disponíveis e suas compras. Preço e disponibilidade são confirmados na conta e no checkout.</p><button class="primary" id="payment-login">Entrar / Criar conta</button>';root.querySelector('button').onclick=()=>{dialog.close();account.open();};return;}
    const userId=account.paymentUser();
    if(!root.children.length)root.textContent='Consultando planos e pagamentos…';
    const [plans,payments,access]=await Promise.all([account.paymentRequest('/payment-plans'),account.paymentRequest('/payments'),account.paymentRequest('/payment-access')]);
