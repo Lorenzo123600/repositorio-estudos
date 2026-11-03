@@ -12,7 +12,7 @@ test('nova jornada exige conclusão, arquiva histórico e preserva respostas e r
 test('indicadores sem respostas nem atividades exibem aproveitamento indisponível',async()=>{
  const {planDayMetrics}=await import('../src/study-plan.js');
  const state=normalizeState({});
- assert.deepEqual(planDayMetrics(state,createStudyPlan(14)[0]),{completed:0,total:1,progress:0,answered:0,correct:0,accuracy:null});
+ assert.deepEqual(planDayMetrics(state,createStudyPlan(14)[0]),{completed:0,total:1,progress:0,selected:0,answered:0,correct:0,accuracy:null});
 });
 test('QA-06: corrigir erro no caderno não retira a questão do denominador',async()=>{
  const {planDayMetrics}=await import('../src/study-plan.js');

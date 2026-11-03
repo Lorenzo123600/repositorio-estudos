@@ -5,7 +5,7 @@ import {bank} from '../../src/activities.js';
 
 async function openPractice(page,id){
  const button=page.locator(`[data-plan-practice="${id}"]`);
- await button.locator('xpath=ancestor::details[1]').locator('summary').click();
+ await expandFor(button);
  await button.click();
 }
 
