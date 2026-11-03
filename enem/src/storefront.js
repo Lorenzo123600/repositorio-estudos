@@ -15,7 +15,7 @@ const root=document.querySelector('#app');
 root.innerHTML=`<main class="public-storefront welcome-page">
 <a class="skip-link" href="#store-content">Pular para o conteúdo</a>
 <header class="welcome-header"><a class="brand" href="#" aria-label="bora pro enem — início">bora pro enem<span class="brand-dot" aria-hidden="true">.</span></a><nav aria-label="Navegação de boas-vindas"><a href="#welcome-resources">O que você encontra</a><button class="welcome-login" id="store-login">Entrar / Criar conta</button></nav></header>
-<div id="store-content" tabindex="-1">
+<section id="store-account-welcome" class="store-account-welcome" hidden><span class="welcome-kicker">SUA CONTA</span><h1>Boas-vindas de volta.</h1><p id="store-account-message">Vamos preparar seu espaço de estudos.</p><button class="primary" id="store-account-plans">Ver planos e pagamentos</button></section><div id="store-content" tabindex="-1">
 <section class="welcome-hero" aria-labelledby="welcome-title">
 <div class="welcome-copy"><span class="welcome-kicker"><span aria-hidden="true">✦</span> SEU ESPAÇO DE PREPARAÇÃO PARA O ENEM</span><h1 id="welcome-title">Um passo de cada vez.<br><em>Mais perto do seu futuro.</em></h1><p>Boas-vindas ao <strong>bora pro enem</strong>. Organize sua rotina, pratique questões e descubra o que revisar. Seu próximo passo pode começar aqui.</p><div class="welcome-actions"><button class="primary" id="store-demo">Experimentar demonstração gratuita <svg class="welcome-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></button><button class="welcome-secondary" id="store-access">Já tenho conta</button></div><p class="welcome-note">3 questões reais com resolução · Sem cadastro e sem cartão</p></div>
 <div class="welcome-preview" aria-label="Como funciona: planejar, praticar e revisar">
@@ -32,6 +32,8 @@ root.innerHTML=`<main class="public-storefront welcome-page">
 <footer class="welcome-footer"><div><strong>bora pro enem</strong><p>Sua jornada, um passo por vez.</p></div><nav aria-label="Informações e suporte"><a href="./privacidade">Política de Privacidade</a><a href="./termos.html">Termos de Serviço</a><a href="mailto:manualdeumgamer25@gmail.com">Contato e suporte</a></nav></footer></main>`;
 const status=message=>{root.querySelector('#store-status').textContent=message;};
 const buy=()=>openPayments(account);
+root.querySelector('#store-account-plans').onclick=buy;
+try{if(localStorage.getItem('enem-supabase-auth')){root.querySelector('#store-content').hidden=true;status('Restaurando sua sessão…');}}catch{}
 root.querySelector('#store-buy').onclick=buy;
 root.querySelector('#store-access').onclick=()=>user?refresh():showAuth();
 root.querySelector('#store-login').onclick=()=>showAuth();
@@ -53,7 +55,7 @@ function showAuth(){
   const form=dialog.querySelector('form');
   form.innerHTML=user&&mode!=='password'?`<p>Conta: ${esc(user.email)}</p><button type="button" id="store-logout" class="text-btn">Sair da conta</button>`:`${mode==='register'?'<label>Nome<input name="name" autocomplete="name" maxlength="80"></label>':''}${mode!=='password'?'<label>E-mail<input name="email" type="email" autocomplete="email" required></label>':''}${mode!=='recover'?`<label>${mode==='password'?'Nova senha':'Senha'}<input name="password" type="password" autocomplete="${mode==='login'?'current-password':'new-password'}" minlength="10" maxlength="128" required></label>`:''}<button class="primary" type="submit">${({login:'Entrar',register:'Criar conta',recover:'Enviar recuperação',password:'Salvar nova senha'})[mode]}</button>`;
   form.querySelector('#store-logout')?.addEventListener('click',async()=>{
-   try{await cloud.request('/logout');user=null;dialog.close();status('Você saiu da conta.');}catch{feedback('Não foi possível sair. Tente novamente.');}
+   try{await cloud.request('/logout');user=null;dialog.close();await refresh();status('Você saiu da conta.');}catch{feedback('Não foi possível sair. Tente novamente.');}
   });
   form.onsubmit=async event=>{
    event.preventDefault();const button=form.querySelector('[type=submit]');if(!button)return;button.disabled=true;
@@ -78,6 +80,10 @@ async function refresh(){
   try{user=(await cloud.request('/me')).user;}catch{user=null;}
   root.querySelector('#store-login').textContent=user?'Minha conta':'Entrar / Criar conta';
   root.querySelector('#store-refresh').hidden=!user;
+  root.querySelector('#store-content').hidden=!!user;
+  root.querySelector('.welcome-header nav>a').hidden=!!user;
+  root.querySelector('#store-account-welcome').hidden=!user;
+  if(user)root.querySelector('#store-account-message').textContent='Sua conta está conectada. Confira seu acesso ou consulte os planos disponíveis.';
   if(!user){status('');return;}
   const access=await cloud.request('/payment-access');
   if(!access.some(a=>accessIsCurrent(a))){status('Seu acesso completo ainda não está ativo. Consulte as opções em Conhecer acesso completo.');return;}

@@ -24,7 +24,7 @@ test('40 stratified questions retain all five alternatives and load every image 
  test.setTimeout(90000);await page.setViewportSize({width:390,height:844});
  for(let i=0;i<sample.length;i+=8){
   const questionIds=sample.slice(i,i+8).map(q=>q.id);
-  await page.goto('/');await page.evaluate(questionIds=>sessionStorage.setItem('bora-enem-plan-practice-v1',JSON.stringify({unitId:0,dayIndex:0,questionIds,currentQuestionId:questionIds[0]})),questionIds);await page.reload();
+  await page.goto('/');await page.evaluate(questionIds=>{sessionStorage.setItem('bora-enem-view-v1:guest',JSON.stringify({tab:'Questões'}));sessionStorage.setItem('bora-enem-plan-practice-v1',JSON.stringify({unitId:0,dayIndex:0,questionIds,currentQuestionId:questionIds[0]}));},questionIds);await page.reload();
   for(let j=0;j<questionIds.length;j++){
    await expect(page.locator('[data-answer]')).toHaveCount(5);
    const images=page.locator('.official-original img,.options img');await expect(images).toHaveCount(6);
