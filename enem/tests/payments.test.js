@@ -31,6 +31,16 @@ test('Orders: preflight e credenciais ausentes falham sem criação',async()=>{
  const {handler}=setup();assert.equal((await handler(new Request('https://functions.test',{method:'OPTIONS',headers:{origin}}))).status,204);
  assert.equal((await setup({accessToken:''}).handler(request())).status,503);assert.equal((await setup({environment:'arbitrary'}).handler(request())).status,503);
 });
+test('Orders: CORS funciona com cobrança real desabilitada sem permitir POST',async()=>{
+ const {handler,calls}=setup({environment:'production',productionEnabled:false});
+ const preflight=await handler(new Request('https://functions.test',{method:'OPTIONS',headers:{origin}}));
+ assert.equal(preflight.status,204);
+ assert.equal(preflight.headers.get('access-control-allow-origin'),origin);
+ assert.equal((await handler(request())).status,503);
+ assert.equal(calls.length,0);
+ const denied=await handler(new Request('https://functions.test',{method:'OPTIONS',headers:{origin:'https://evil.test'}}));
+ assert.equal(denied.status,403);
+});
 test('Orders: timeout/retry reutiliza chave e payload congelados; resposta não é logada',async()=>{
  let attempts=0;const received=[],logs=[];
  const env=setup({logger:entry=>logs.push(entry),fetcher:async(_,options)=>{received.push(options);if(!attempts++)throw Error('private-fixture');return Response.json(order());}});
