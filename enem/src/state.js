@@ -6,10 +6,12 @@ const integer=(v,min,max)=>Number.isInteger(v)&&v>=min&&v<=max;
 const ids=v=>Array.isArray(v)?[...new Set(v.filter(id=>integer(id,0,bank.length-1)))]:[];
 const answers=v=>Object.fromEntries(Object.entries(object(v)).filter(([id,a])=>/^\d+$/.test(id)&&integer(+id,0,bank.length-1)&&integer(a,0,4)));
 const checks=v=>Array.isArray(v)?[...new Set(v.filter(i=>integer(i,0,4)))]:[];
+const knownQuestionIds=new Set(bank.map(q=>q.id));
 const validDate=v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v)&&!Number.isNaN(new Date(v+'T12:00:00').getTime());
 export function normalizeState(input){
  const source=object(input),state={};
  state.planDays=validPlanDays(source.planDays)?source.planDays:14;state.planUnitsDone=Array.isArray(source.planUnitsDone)?[...new Set(source.planUnitsDone.filter(i=>integer(i,0,MAX_PLAN_DAYS-1)))]:Array.isArray(source.done)?[...new Set(source.done.filter(i=>integer(i,0,13)))]:[];refreshPlanProgress(state);state.planHistory=Array.isArray(source.planHistory)?source.planHistory.filter(h=>h&&validPlanDays(h.days)&&validDate(h.start)&&Number.isFinite(h.finishedAt)&&integer(h.completedActivities,1,MAX_PLAN_DAYS)).slice(-20).map(h=>({days:h.days,start:h.start,finishedAt:h.finishedAt,completedActivities:h.completedActivities})):[];
+ state.planMetricSelections=Object.fromEntries(Object.entries(object(source.planMetricSelections)).filter(([unit,values])=>/^[0-9]+$/.test(unit)&&integer(Number(unit),0,MAX_PLAN_DAYS-1)&&Array.isArray(values)).map(([unit,values])=>[unit,[...new Set(values.filter(id=>typeof id==='string'&&knownQuestionIds.has(id)))].slice(0,200)]));
  state.answers=answers(source.answers);state.essay=typeof source.essay==='string'?source.essay:'';state.checks=checks(source.checks);
  state.start=validDate(source.start)?source.start:new Date().toLocaleDateString('en-CA',{timeZone:'America/Sao_Paulo'});
  state.activities=Object.fromEntries(Object.entries(object(source.activities)).filter(([day,v])=>validDate(day)&&v&&typeof v==='object').map(([day,v])=>[day,{questions:ids(v.questions),challenges:Array.isArray(v.challenges)?v.challenges.filter(id=>challenges.some(c=>c.id===id)):[],exams:Array.isArray(v.exams)?v.exams.filter(Number.isFinite):[],writing:v.writing===true}]));

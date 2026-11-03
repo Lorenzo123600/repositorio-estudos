@@ -148,3 +148,19 @@ test('configurar duração e data em uma única aplicação sem perder os campos
  await expect(page.locator('#plan-days')).toHaveValue('30');
  await expect(page.locator('#start')).toHaveValue('2026-11-04');
 });
+
+test('card apresenta somente aproveitamento real e preserva após recarga',async({page})=>{
+ await page.goto('/');await page.locator('[data-tab="Plano de 14 dias"]').click();
+ await expect(page.locator('.plan-card').first().locator('.plan-day-stats')).toContainText('—');
+ await openPractice(page,0);
+ const id=planPractice(0).ids[0];
+ await page.locator('[data-answer="'+bank[id].answer+'"]').click();
+ await page.locator('#confirm-answer').click();
+ await page.locator('#back-to-plan').click();
+ const card=page.locator('.plan-card').first();
+ await expect(card.locator('.plan-day-stats')).toContainText('100%');
+ await expect(card.locator('.plan-day-feedback')).toContainText('1 de 1');
+ await expect(card.locator('.plan-progress-track')).toHaveAttribute('aria-valuenow','0');
+ await page.reload();await page.locator('[data-tab="Plano de 14 dias"]').click();
+ await expect(page.locator('.plan-card').first().locator('.plan-day-feedback')).toContainText('1 de 1');
+});
