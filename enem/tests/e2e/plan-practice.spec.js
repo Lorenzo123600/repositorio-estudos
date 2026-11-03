@@ -112,3 +112,22 @@ test('resultado correto ou errado conclui na ultima confirmação',async({page})
   expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planUnitsDone)).toContain(0);
  }
 });
+
+test('configurar duração e data em uma única aplicação sem perder os campos',async({page})=>{
+ await page.goto('/');
+ await page.locator('[data-tab="Plano de 14 dias"]').click();
+ for(const days of [1,7,14,30]){
+  await page.locator('#plan-days').fill(String(days));
+  await page.locator('#start').fill('2026-11-04');
+  await expect(page.locator('#plan-days')).toHaveValue(String(days));
+  await expect(page.locator('#start')).toHaveValue('2026-11-04');
+  await page.locator('#plan-settings button[type=submit]').click();
+  await expect(page.locator('.plan-card')).toHaveCount(days);
+  await expect(page.locator('#start')).toHaveValue('2026-11-04');
+  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')).planDays)).toBe(days);
+ }
+ await page.reload();
+ await page.locator('[data-tab="Plano de 14 dias"]').click();
+ await expect(page.locator('#plan-days')).toHaveValue('30');
+ await expect(page.locator('#start')).toHaveValue('2026-11-04');
+});
