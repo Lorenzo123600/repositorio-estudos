@@ -1,3 +1,4 @@
+import {expandFor} from '../helpers/ui.js';
 import {test,expect} from '@playwright/test';
 import {planPractice} from '../../src/plan-practice.js';
 import {bank} from '../../src/activities.js';
@@ -43,7 +44,7 @@ test('atividade abre questões do assunto, preserva respostas e retoma após rec
 test('dias agrupados e espaçados têm destinos próprios e redação abre o editor',async({page})=>{
  await page.goto('/');await page.locator('[data-tab="Plano de 14 dias"]').click();await page.locator('#plan-days').fill('1');await page.locator('#plan-settings button[type=submit]').click();
  await expect(page.locator('[data-plan-practice]')).toHaveCount(14);await openPractice(page,8);await expect(page.locator('.session-banner')).toContainText('Ecologia');
- await page.locator('#back-to-plan').click();await page.locator('[data-plan-writing="2"]').click();await expect(page.locator('#essay')).toBeVisible();
+ await page.locator('#back-to-plan').click();await expandFor(page.locator('[data-plan-writing="2"]'));await page.locator('[data-plan-writing="2"]').click();await expect(page.locator('#essay')).toBeVisible();
  await page.locator('[data-tab="Plano de 14 dias"]').click();await page.locator('#plan-days').fill('30');await page.locator('#plan-settings button[type=submit]').click();await openPractice(page,14);
  expect(await page.evaluate(()=>JSON.parse(sessionStorage.getItem('bora-enem-plan-practice-v1')).questionIds)).toEqual(planPractice(0).questionIds);
  await page.locator('#back-to-plan').click();await page.locator('#plan-days').fill('7');await page.locator('#plan-settings button[type=submit]').click();

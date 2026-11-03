@@ -1,0 +1,26 @@
+{
+  "base": "2dde0b018ae26bdfe57d3e80fe6681e7f5cae670",
+  "javascriptTests": {
+    "passed": 82,
+    "failed": 0
+  },
+  "browserTests": {
+    "local": 26,
+    "supabaseMock": 3,
+    "commercialMock": 5,
+    "staticPages": 5,
+    "total": 39,
+    "failed": 0
+  },
+  "pythonTests": {
+    "passed": 14,
+    "failed": 0
+  },
+  "officialQuestionsVerified": 1070,
+  "officialImageRegionsCompared": 6420,
+  "visualSampleQuestions": 40,
+  "authorQuestionsRead": 20,
+  "postgresql": "local PostgreSQL 16: all scripts passed",
+  "liveAnonymousEndpointsDenied": 3,
+  "productionWrites": false
+}

@@ -26,5 +26,10 @@ test('SDK Supabase: confirmação, login, progresso em duas sessões e recupera�
  await login(two);await two.locator('[data-tab="Redação"]').click();await expect(two.locator('#essay')).toHaveValue('Minha redação no plano gratuito');
  await two.locator('#account-open').click();await expect(two.locator('#recovery-code-form')).toHaveCount(0);await two.locator('#account-logout').click();await two.locator('#account-open').click();await two.getByText('Esqueci minha senha',{exact:true}).click();await two.locator('#recover-form [name=email]').fill(user.email);await expect(two.locator('#recover-form [name=code]')).toHaveCount(0);await two.getByRole('button',{name:'Recuperar acesso',exact:true}).click();await expect(two.locator('#account-status')).toContainText('link');expect(resetRequested).toBe(true);
  await two.locator('#account-close').click();await two.goto('about:blank');await two.goto('/#access_token='+jwt+'&refresh_token=refresh-example&expires_in=3600&token_type=bearer&type=recovery');await expect(two.locator('#password-details')).toHaveAttribute('open','');await expect(two.locator('#password-form [name=currentPassword]')).toHaveCount(0);await two.locator('#password-form [name=password]').fill('Nova senha de estudo123');await two.getByRole('button',{name:'Salvar nova senha',exact:true}).click();await expect(two.locator('#account-status')).toContainText('Senha alterada');
+ // Signing out in another tab must erase the old account's private UI immediately.
+ const three=await a.newPage();await three.goto('/');await three.locator('#account-open').click();
+ await expect(three.locator('#account-logout')).toBeVisible();await three.locator('#account-logout').click();
+ await expect(one.locator('#essay')).toHaveCount(0);
+ expect(await one.evaluate(()=>JSON.parse(localStorage.getItem('enem-reta-final')||'{}').essay||'')).toBe('');
  expect(errors).toEqual([]);await a.close();await b.close();
 });

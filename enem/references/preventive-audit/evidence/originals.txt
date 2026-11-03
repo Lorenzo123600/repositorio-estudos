@@ -1,0 +1,5 @@
+
+> reta-final-enem@1.0.0 verify:originals
+> python scripts/verify-official-originals.py
+
+{"verified": 1070, "canonicalUnique": 1070, "originalImages": 6420, "method": "pixel comparison against archived official PDF regions"}

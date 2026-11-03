@@ -1,0 +1,70 @@
+{
+  "base": "2dde0b018ae26bdfe57d3e80fe6681e7f5cae670",
+  "productionWrites": false,
+  "findings": [
+    {
+      "id": "QA-01",
+      "priority": "high",
+      "status": "fixed-in-branch",
+      "category": "privacy",
+      "title": "Late progress response repopulates private data after logout"
+    },
+    {
+      "id": "QA-02",
+      "priority": "high",
+      "status": "fixed-in-branch",
+      "category": "privacy",
+      "title": "Shared session switches but old account remains visible"
+    },
+    {
+      "id": "QA-03",
+      "priority": "medium",
+      "status": "fixed-in-branch",
+      "category": "ci",
+      "title": "Browser regression starts without a compiled application"
+    },
+    {
+      "id": "QA-04",
+      "priority": "medium",
+      "status": "fixed-in-branch",
+      "category": "mobile",
+      "title": "Focus timer covers bottom navigation"
+    },
+    {
+      "id": "QA-05",
+      "priority": "medium",
+      "status": "fixed-in-branch",
+      "category": "editorial",
+      "title": "Public copy promises unavailable worked solutions"
+    },
+    {
+      "id": "QA-06",
+      "priority": "high",
+      "status": "open-on-pr9-only",
+      "category": "learning-metrics",
+      "title": "Review accuracy denominator removes corrected questions",
+      "pr": 9,
+      "head": "8a464b2039af9eaa38429f08cce1ad820355e0eb"
+    },
+    {
+      "id": "LIMIT-01",
+      "priority": "high",
+      "status": "open",
+      "category": "accessibility",
+      "missingTranscriptRegions": 446
+    },
+    {
+      "id": "LIMIT-02",
+      "priority": "medium",
+      "status": "open",
+      "category": "editorial",
+      "unavailableWorkedSolutions": 1034
+    },
+    {
+      "id": "LIMIT-03",
+      "status": "not-verified",
+      "category": "hosted-homologation",
+      "title": "Real email delivery, two hosted accounts, deployed schema/secrets and sandbox checkout not verified"
+    }
+  ]
+}
