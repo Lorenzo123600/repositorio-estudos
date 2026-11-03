@@ -69,3 +69,32 @@ test('home and privacy remain public without JavaScript or authentication',async
   await expect(page.getByRole('heading',{name:'Seus direitos e exclusão'})).toBeVisible();
  }finally{await context.close();}
 });
+
+test('welcome prioritizes learning, keeps payment optional and adapts to mobile',async({page})=>{
+ await page.route('https://enem-test.supabase.co/**',route=>route.abort());
+ await page.goto('/');
+ await expect(page.getByRole('heading',{level:1})).toContainText('Um passo de cada vez.');
+ await expect(page.locator('#store-demo')).toBeVisible();
+ await expect(page.locator('#payments-dialog')).toHaveCount(0);
+ await expect(page.getByText('R$ 14,90 em pagamento único',{exact:false})).not.toBeVisible();
+ await expect(page.locator('#store-refresh')).toBeHidden();
+ await page.setViewportSize({width:1440,height:1100});
+ await page.screenshot({path:'/tmp/enem-welcome-desktop.png',fullPage:true});
+ for(const width of [390,320]){
+  await page.setViewportSize({width,height:844});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  await expect(page.locator('#store-demo')).toBeInViewport();
+ }
+ await page.setViewportSize({width:390,height:844});
+ await page.screenshot({path:'/tmp/enem-welcome-mobile.png',fullPage:true});
+ await page.locator('#store-login').click();
+ await expect(page.locator('#store-auth')).toBeVisible();
+ await page.locator('#store-auth-close').click();
+ await page.getByText('Condições do acesso completo',{exact:true}).click();
+ await expect(page.getByText('R$ 14,90 em pagamento único',{exact:false})).toBeVisible();
+ await page.locator('#store-buy').click();
+ await expect(page.locator('#payments-dialog')).toBeVisible();
+ await page.getByRole('button',{name:'Fechar pagamentos',exact:true}).click();
+ await page.locator('#store-demo').click();
+ await expect(page.locator('[data-demo-answer="0"]')).toBeVisible();
+});
