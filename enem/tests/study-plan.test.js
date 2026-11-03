@@ -8,3 +8,23 @@ test('prazo inválido não altera plano e normalização mantém limites seguros
 
 test('dias só podem ser concluídos em sequência, inclusive após reabrir uma etapa',()=>{const state=normalizeState({});assert.equal(setPlanDayComplete(state,2,true),false);assert.deepEqual(state.done,[]);setPlanDayComplete(state,0,true);assert.equal(setPlanDayComplete(state,2,true),false);setPlanDayComplete(state,1,true);assert.equal(setPlanDayComplete(state,2,true),true);setPlanDayComplete(state,0,false);assert.deepEqual(state.done,[1,2]);assert.equal(setPlanDayComplete(state,3,true),false);setPlanDayComplete(state,0,true);assert.equal(setPlanDayComplete(state,3,true),true)});
 test('nova jornada exige conclusão, arquiva histórico e preserva respostas e redações',async()=>{const {startNextStudyPlan,planSummary}=await import('../src/study-plan.js');const state=normalizeState({answers:{0:1},essay:'Meu rascunho',challengeDone:{erro:true}});assert.equal(startNextStudyPlan(state,7),false);for(let i=0;i<14;i++)assert.equal(setPlanDayComplete(state,i,true),true);assert.equal(planSummary(state).finished,true);assert.equal(planSummary(state).finishedPlans,1);assert.equal(startNextStudyPlan(state,7,new Date('2026-11-02T01:00:00Z')),true);assert.equal(state.start,'2026-11-01');assert.equal(state.planDays,7);assert.deepEqual(state.done,[]);assert.equal(state.planHistory.length,1);assert.equal(state.planHistory[0].days,14);assert.equal(state.answers[0],1);assert.equal(state.challengeDone.erro,true);assert.equal(state.essay,'Meu rascunho');assert.equal(startNextStudyPlan(state,30),false);const restored=normalizeState(JSON.parse(JSON.stringify(state)));assert.equal(restored.planHistory.length,1);assert.equal(planSummary(restored).finishedPlans,1)});
+
+test('indicadores diários usam respostas reais, sem duplicar questões',async()=>{
+ const {planDayMetrics}=await import('../src/study-plan.js');
+ const {planPractice}=await import('../src/plan-practice.js');
+ const {bank}=await import('../src/activities.js');
+ const state=normalizeState({planDays:2});
+ const day=createStudyPlan(2)[0];
+ const empty=planDayMetrics(state,day);
+ assert.equal(empty.progress,0);assert.equal(empty.answered,0);assert.equal(empty.accuracy,null);
+ const ids=planPractice(day.units[0].id,{}).ids;
+ assert.ok(ids.length>=2);
+ state.answers[ids[0]]=bank[ids[0]].answer;
+ state.answers[ids[1]]=(bank[ids[1]].answer+1)%5;
+ const partial=planDayMetrics(state,day);
+ assert.equal(partial.answered,2);assert.equal(partial.correct,1);assert.equal(partial.accuracy,50);
+ assert.equal(partial.progress,0);
+ state.planUnitsDone=day.units.map(u=>u.id);
+ const full=planDayMetrics(state,day);
+ assert.equal(full.progress,100);assert.equal(full.completed,day.units.length);
+});
