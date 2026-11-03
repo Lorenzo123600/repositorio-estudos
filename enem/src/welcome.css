@@ -16,7 +16,7 @@
 .welcome-kicker{font-size:10px;font-weight:750;letter-spacing:1.65px;line-height:1.7;color:#52705d;display:block}
 .welcome-copy>.welcome-kicker{display:flex;gap:10px;align-items:center}
 .welcome-copy>.welcome-kicker>span{font-size:21px;color:#66872f}
-.welcome-page .welcome-copy h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(36px,4.1vw,57px);font-weight:500;letter-spacing:-1.9px;line-height:1.12;margin:24px 0}
+.welcome-page .welcome-copy h1{font-family:Inter,Arial,sans-serif;font-size:clamp(36px,4.1vw,57px);font-weight:700;letter-spacing:-1.4px;line-height:1.12;margin:24px 0}
 .welcome-copy h1 em{font-style:normal;color:#567947}
 .welcome-copy>p{font-size:16px;line-height:1.85;max-width:510px;color:#586b5e;margin:0 0 27px}
 .welcome-copy strong{font-weight:650;color:#254c3c}
@@ -27,7 +27,7 @@
 .welcome-preview{background:#eaf0df;border:1px solid #dbe5ce;border-radius:26px;padding:30px;position:relative;overflow:hidden;box-shadow:0 14px 35px #264c3610}
 .welcome-preview-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
 .welcome-spark{font-size:43px;line-height:1;color:#77933e}
-.welcome-preview h2{font:500 35px/1.13 Georgia,serif;letter-spacing:-.8px;margin:14px 0 24px}
+.welcome-preview h2{font:700 35px/1.13 Inter,Arial,sans-serif;letter-spacing:-.8px;margin:14px 0 24px}
 .welcome-path{list-style:none;margin:0;padding:0;display:grid;gap:12px}
 .welcome-path li{display:flex;align-items:center;gap:16px;padding:15px;background:#ffffffab;border:1px solid #d8e3cf;border-radius:13px}
 .welcome-step{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#dce8cb;font-size:11px;font-weight:700;flex-shrink:0}
@@ -37,7 +37,7 @@
 .welcome-preview-bottom span{font-size:20px}
 .welcome-resources{padding:32px 0 44px;border-top:1px solid #e0e6dc;scroll-margin-top:24px}
 .welcome-section-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:26px}
-.welcome-page .welcome-section-heading h2,.welcome-page .welcome-start h2{font:500 30px/1.2 Georgia,serif;letter-spacing:-.6px;margin:10px 0 0}
+.welcome-page .welcome-section-heading h2,.welcome-page .welcome-start h2{font:700 30px/1.2 Inter,Arial,sans-serif;letter-spacing:-.6px;margin:10px 0 0}
 .welcome-section-heading>p{font-size:12px;color:#5f7263;line-height:1.6;max-width:200px;margin:0}
 .welcome-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .welcome-cards article{padding:26px;background:#fff;border:1px solid #dfe5d9;border-radius:16px}
