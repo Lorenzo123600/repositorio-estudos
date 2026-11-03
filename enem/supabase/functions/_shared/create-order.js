@@ -19,7 +19,6 @@ export function createOrderHandler({authenticate,store,accessToken,environment='
   const headers={'Content-Type':'application/json','Cache-Control':'no-store','Vary':'Origin'};
   const json=(data,status=200)=>new Response(JSON.stringify(data),{status,headers});
   try{
-   if(!origin||!sellerId||!applicationId||sellerId===otherSellerId||!['test','production'].includes(environment)||!accessToken||(environment==='production'&&(!productionEnabled||!otherSellerId)))throw failure('payments_not_configured',503);
    let redirect;
    try{
     const app=new URL(origin);redirect=new URL(returnUrl||origin+'/');
@@ -32,6 +31,7 @@ export function createOrderHandler({authenticate,store,accessToken,environment='
    headers['Access-Control-Allow-Headers']='authorization, apikey, content-type, x-client-info';
    headers['Access-Control-Allow-Methods']='POST, OPTIONS';
    if(request.method==='OPTIONS')return new Response(null,{status:204,headers});
+   if(!origin||!sellerId||!applicationId||sellerId===otherSellerId||!['test','production'].includes(environment)||!accessToken||(environment==='production'&&(!productionEnabled||!otherSellerId)))throw failure('payments_not_configured',503);
    if(request.method!=='POST')throw failure('method_not_allowed',405);
    const authorization=request.headers.get('authorization')||'';
    if(!/^Bearer \S+$/i.test(authorization))throw failure('login_required',401);
