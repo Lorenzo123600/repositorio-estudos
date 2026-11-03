@@ -1,4 +1,6 @@
 import {plan} from './data.js';
+import {planPractice} from './plan-practice.js';
+import {bank} from './activities.js';
 export const MAX_PLAN_DAYS=180;
 export function validPlanDays(value){return Number.isInteger(value)&&value>=1&&value<=MAX_PLAN_DAYS}
 export function createStudyPlan(days=14){
@@ -13,3 +15,17 @@ export function setPlanDayComplete(state,index,complete){const schedule=createSt
 export function canCompletePlanDay(state,index){const schedule=createStudyPlan(state.planDays);return Number.isInteger(index)&&!!schedule[index]&&Array.from({length:index},(_,i)=>i).every(i=>state.done.includes(i))}
 export function planSummary(state){const schedule=createStudyPlan(state.planDays),activeIds=new Set(schedule.flatMap(d=>d.units.map(u=>u.id)));return {totalDays:state.planDays,completedDays:state.done.length,remainingDays:state.planDays-state.done.length,completedActivities:(state.planUnitsDone||[]).filter(id=>activeIds.has(id)).length,totalActivities:activeIds.size,finished:state.done.length===state.planDays,finishedPlans:(state.planHistory?.length||0)+(state.done.length===state.planDays?1:0)}}
 export function startNextStudyPlan(state,days,now=new Date()){if(!validPlanDays(days)||!planSummary(state).finished)return false;state.planHistory=[...(state.planHistory||[]),{days:state.planDays,start:state.start,completedActivities:planSummary(state).completedActivities,finishedAt:now.getTime()}].slice(-20);state.planDays=days;state.planUnitsDone=[];state.done=[];state.start=now.toLocaleDateString('en-CA',{timeZone:'America/Sao_Paulo'});return true}
+
+// Um conjunto por dia: questões repetidas não inflam o aproveitamento.
+export function planDayMetrics(state,day){
+ const units=day.units;
+ const completed=units.filter(u=>(state.planUnitsDone||[]).includes(u.id)).length;
+ const ids=new Set();
+ for(const unit of units){
+  const practice=planPractice(unit.id,state.answers||{});
+  for(const id of practice?.ids||[])ids.add(id);
+ }
+ const answered=[...ids].filter(id=>Number.isInteger(state.answers?.[id]));
+ const correct=answered.filter(id=>bank[id]&&state.answers[id]===bank[id].answer).length;
+ return {completed,total:units.length,progress:units.length?Math.round(completed*100/units.length):0,answered:answered.length,correct,accuracy:answered.length?Math.round(correct*100/answered.length):null};
+}
