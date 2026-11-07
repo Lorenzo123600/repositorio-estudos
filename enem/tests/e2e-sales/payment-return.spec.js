@@ -38,14 +38,15 @@ test('approved payment return goes directly to studying without reopening paymen
  expect(errors).toEqual([]);
 });
 
-test('pending return remains pending until the server confirms access, then closes payments',async({page})=>{
+test('pending return waits for server confirmation and closes when the page regains focus',async({page})=>{
  const state=await buyer(page,{paid:false});
  await page.goto('/?payment_return=1&payment_status=approved');
  await expect(page.locator('#payments-dialog[open]')).toBeVisible();
  await expect(page.locator('#payments-body')).toContainText('Pagamento pendente');
  await expect(page.locator('.home-welcome')).toHaveCount(0);
  state.paid=true;
- await page.locator('#payment-refresh').click();
+ // Returning to the tab may confirm access and remove the modal before a click.
+ await page.evaluate(()=>window.dispatchEvent(new Event('focus')));
  await expect(page.locator('.home-welcome')).toBeVisible();
  await expect(page.locator('#payments-dialog')).toHaveCount(0);
 });
