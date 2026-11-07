@@ -6,7 +6,7 @@ O limite exclusivo no banco é `2027-01-01T03:00:00Z`. Não há renovação auto
 ## Implementado nesta branch
 
 - Oferta com preço, prazo, conteúdo incluído, suporte e links para termos e privacidade.
-- Demonstração de três questões oficiais com resolução, sem alterar o progresso salvo.
+- Demonstração de dez questões oficiais com resolução, sem alterar o progresso salvo.
 - Build comercial sem o banco textual completo nos arquivos públicos; entrega autenticada pela Edge Function.
 - No modo Supabase, navegação completa condicionada a acesso de produção ativo e vigente.
 - Acesso consultado novamente após compra, retorno de foco e periodicamente; troca de conta,
