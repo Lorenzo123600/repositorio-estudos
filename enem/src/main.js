@@ -193,6 +193,7 @@ account.init().then(async()=>{
  const url=new URL(window.location.href);
  if(url.searchParams.get('payment_return')==='1'){
   url.searchParams.delete('payment_return');history.replaceState(null,'',url);
-  openPayments(account);
+  if(!paidAccess.snapshot().active)openPayments(account,{closeOnActive:true});
+  else document.querySelector('#content')?.focus({preventScroll:true});
  }
 });

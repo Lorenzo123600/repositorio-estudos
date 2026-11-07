@@ -131,7 +131,7 @@ const timer=setInterval(refresh,10000);
 refresh().then(()=>{
 if(!started&&cloud.isRecovering())showAuth('password');
 if(!started&&new URL(location.href).searchParams.get('payment_return')==='1'){
- const url=new URL(location.href);url.searchParams.delete('payment_return');history.replaceState(null,'',url);buy();
+ const url=new URL(location.href);url.searchParams.delete('payment_return');history.replaceState(null,'',url);openPayments(account,{closeOnActive:true});
 }
 
 });
