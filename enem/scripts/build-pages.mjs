@@ -3,7 +3,7 @@ if(process.env.CF_PAGES==='1'){console.log('Build comercial Cloudflare: chunks p
 import {inlinePages} from './inline-pages.mjs';
 import {readFile,writeFile} from 'node:fs/promises';
 const html=await readFile('dist/index.html','utf8');
-const jsPath=html.match(/<script[^>]+src="([^"]+)"[^>]*><\/script>/)?.[1];
+const jsPath=html.match(/<script(?=[^>]*type="module")[^>]+src="([^"]+)"[^>]*><\/script>/)?.[1];
 const cssPath=html.match(/<link[^>]+href="([^"]+\.css)"[^>]*>/)?.[1];
 if(!jsPath||!cssPath)throw new Error('Não foram encontrados os arquivos compilados.');
 const assetPath=path=>'dist/assets/'+path.split('/').at(-1);

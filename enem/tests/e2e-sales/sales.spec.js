@@ -1,4 +1,13 @@
 import {test,expect} from '@playwright/test';
+import {securityHeaders} from '../../scripts/security-headers.mjs';
+
+// Exercise the paid journey with the policy Cloudflare enforces in production.
+test.beforeEach(async({page})=>{
+ await page.route(/^http:\/\/127\.0\.0\.1:3300\//,async route=>{
+  const response=await route.fetch();
+  await route.fulfill({response,headers:{...response.headers(),...securityHeaders('https://enem-test.supabase.co')}});
+ });
+});
 import {readFileSync,readdirSync,existsSync} from 'node:fs';
 const content=JSON.parse(readFileSync(new URL('../../supabase/functions/_shared/study-content.json',import.meta.url),'utf8'));
 
