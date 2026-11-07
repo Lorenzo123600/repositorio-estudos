@@ -23,5 +23,5 @@ const content={data:{questions,plan},activities:{extraQuestions,bank:bank.map(co
 const json=JSON.stringify(content);
 await writeFile(new URL('../supabase/functions/_shared/study-content.json',import.meta.url),json);
 await writeFile(new URL('../supabase/functions/_shared/study-content.payload.json',import.meta.url),JSON.stringify({encoding:'gzip-base64',sha256:createHash('sha256').update(json).digest('hex'),data:gzipSync(json).toString('base64')}));
-await writeFile(new URL('../src/demo-questions.json',import.meta.url),JSON.stringify(bank.filter(q=>q.origin==='enem').slice(0,3)));
+await writeFile(new URL('../src/demo-questions.json',import.meta.url),JSON.stringify(bank.filter(q=>q.origin==='enem').slice(0,10)));
 console.log('Conteúdo privado e amostra pública preparados.');

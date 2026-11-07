@@ -23,10 +23,10 @@ test('demo preserves progress; only a current production purchase unlocks study'
  await expect(page.locator('.sale-offer')).toContainText('R$ 14,90');
  await page.locator('[data-tab="Redação"]').click();await expect(page.locator('#essay')).toHaveCount(0);
  await page.locator('#offer-demo').click();
- await expect(page.locator('#content')).toContainText('Questão 1 de 3');
+ await expect(page.locator('#content')).toContainText('Questão 1 de 10');
  await page.locator('[data-demo-answer="0"]').click();await page.locator('#demo-confirm').click();await expect(page.locator('.feedback')).toBeVisible();
  await page.waitForTimeout(11000);await expect(page.locator('.feedback')).toBeVisible();
- await page.locator('#demo-next').click();await page.locator('#demo-next').click();await expect(page.locator('#demo-next')).toHaveCount(0);expect(writes).toBe(0);
+ for(let i=0;i<9;i++)await page.locator('#demo-next').click();await expect(page.locator('#content')).toContainText('Questão 10 de 10');await expect(page.locator('#demo-next')).toHaveCount(0);expect(writes).toBe(0);
  await page.locator('[data-tab="Painel"]').click();await page.locator('#offer-login').click();
  await page.locator('#account-form [name=email]').fill(user.email);await page.locator('#account-form [name=password]').fill('Senha fixture123');await page.locator('#account-form button[name=action]').click();await expect(page.locator('#account-title')).toHaveText('Sua conta');await page.locator('#account-close').click();
  const grant={environment:'test',status:'active',activated_at:new Date(Date.now()-1000).toISOString(),expires_at:new Date(Date.now()+86400000).toISOString()};

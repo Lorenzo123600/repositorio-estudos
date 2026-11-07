@@ -58,7 +58,7 @@ for(const kind of ['purchase','complimentary'])test('authenticated content, save
  await expect(page.locator('#store-buy')).toBeVisible();expect(contentRequests).toBe(0);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  await page.locator('#store-demo').click();await page.locator('[data-demo-answer="0"]').click();await page.locator('#demo-confirm').click();await expect(page.locator('.feedback')).toBeVisible();
- await page.locator('#demo-next').click();await page.locator('#demo-next').click();await expect(page.locator('#demo-next')).toHaveCount(0);expect(writes).toBe(0);expect(contentRequests).toBe(0);
+ for(let i=0;i<9;i++)await page.locator('#demo-next').click();await expect(page.locator('#demo-next')).toHaveCount(0);expect(writes).toBe(0);expect(contentRequests).toBe(0);
  await page.locator('#store-login').click();await page.locator('#store-auth-form [name=email]').fill(user.email);await page.locator('#store-auth-form [name=password]').fill('Senha fixture123');await page.locator('#store-auth-form [type=submit]').click();await expect(page.locator('#store-auth')).toHaveCount(0);
  await expect(page.locator('#store-status')).toContainText('Seu acesso completo ainda não está ativo');await expect(page.locator('#store-content')).toBeHidden();await expect(page.locator('#store-account-welcome')).toBeVisible();await expect(page.locator('#store-demo')).toBeHidden();expect(contentRequests).toBe(0);
  access=[{kind,environment:'production',status:'active',activated_at:new Date(Date.now()-1000).toISOString(),expires_at:new Date(Date.now()+86400000).toISOString()}];
