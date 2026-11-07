@@ -59,3 +59,12 @@ test('Supabase: effective access comes from the authenticated server RPC',async(
  await api.request('/payment-access');
  assert.deepEqual(client.calls.at(-1),['enem_access_status',undefined]);
 });
+
+test('Pages inlines the application module without replacing the security-compatible startup script',async()=>{
+ const {inlinePages}=await import('../scripts/inline-pages.mjs');
+ const html='<script src="./startup.js"></script><script type="module" crossorigin src="./assets/app.js"></script><link href="./assets/app.css" rel="stylesheet">';
+ const output=inlinePages(html,'window.applicationLoaded=true;','body{color:green}');
+ assert.ok(output.includes('<script src="./startup.js"></script>'));
+ assert.ok(output.includes('<script type="module">window.applicationLoaded=true;</script>'));
+ assert.ok(!output.includes('src="./assets/app.js"'));
+});

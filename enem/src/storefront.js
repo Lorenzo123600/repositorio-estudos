@@ -10,7 +10,7 @@ import summary from './demo-summary.json';
 const cloud=configuredSupabase();
 if(!cloud)throw Error('Commercial edition requires Supabase');
 let user=null,loading=false,started=false,mode='login';
-const account={paymentsAvailable:()=>true,isSignedIn:()=>!!user,paymentUser:()=>user?.id,paymentRequest:(...args)=>cloud.request(...args),open:()=>showAuth()};
+const account={paymentsAvailable:()=>true,isSignedIn:()=>!!user,paymentUser:()=>user?.id,paymentRequest:(...args)=>cloud.request(...args),open:()=>showAuth('login',{continueToPayment:true})};
 const root=document.querySelector('#app');
 root.innerHTML=`<main class="public-storefront welcome-page">
 <a class="skip-link" href="#store-content">Pular para o conteúdo</a>
@@ -43,34 +43,62 @@ const demo=()=>{renderDemo(root.querySelector('#store-content'),{questions,buy})
 root.querySelector('#store-demo').onclick=demo;
 root.querySelector('#welcome-demo-again').onclick=demo;
 
-function showAuth(){
+function showAuth(initialMode='login',{continueToPayment=false}={}){
+ mode=initialMode;
  document.querySelector('#store-auth')?.close();
- const dialog=document.createElement('dialog');dialog.id='store-auth';dialog.className='account-dialog';
+ const dialog=document.createElement('dialog');dialog.id='store-auth';dialog.className='account-dialog store-auth-dialog';
  dialog.setAttribute('aria-labelledby','store-auth-title');
- dialog.innerHTML=`<div class="section-heading"><h2 id="store-auth-title">Sua conta</h2><button class="text-btn" id="store-auth-close" aria-label="Fechar">✕</button></div><p id="store-auth-status" role="status"></p><div class="account-tabs"><button class="text-btn" data-auth="login">Entrar</button><button class="text-btn" data-auth="register">Criar conta</button><button class="text-btn" data-auth="recover">Recuperar senha</button></div><form id="store-auth-form"></form>`;
+ dialog.innerHTML=`<div class="section-heading"><h2 id="store-auth-title">Sua conta</h2><button class="text-btn" id="store-auth-close" aria-label="Fechar">✕</button></div><p id="store-auth-status" role="alert" tabindex="-1" hidden></p><div class="account-tabs" aria-label="Opções da conta"><button class="text-btn" data-auth="login">Entrar</button><button class="text-btn" data-auth="register">Criar conta</button><button class="text-btn" data-auth="recover">Recuperar senha</button></div><div id="store-auth-step" hidden></div><form id="store-auth-form"></form>`;
  document.body.append(dialog);dialog.querySelector('#store-auth-close').onclick=()=>dialog.close();
  dialog.addEventListener('close',()=>dialog.remove(),{once:true});
- const feedback=message=>dialog.querySelector('#store-auth-status').textContent=message;
+ let email='',name='',submitting=false;
+ const feedback=(message,{focus=true}={})=>{
+  const notice=dialog.querySelector('#store-auth-status');notice.textContent=message;notice.hidden=!message;
+  if(message&&focus){notice.focus();notice.scrollIntoView({block:'nearest'});}
+ };
+ const selectMode=next=>{mode=next;feedback('');draw();};
+ const nextStep=({recovery=false}={})=>{
+  feedback('');
+  dialog.querySelector('#store-auth-title').textContent=recovery?'Confira seu e-mail':'Confirme seu e-mail';
+  dialog.querySelector('.account-tabs').hidden=true;dialog.querySelector('form').hidden=true;
+  const step=dialog.querySelector('#store-auth-step');step.hidden=false;
+  step.innerHTML=`<section class="store-auth-next" aria-labelledby="store-auth-next-title"><span class="store-auth-step-label">${recovery?'RECUPERAÇÃO DE SENHA':'CADASTRO RECEBIDO · FALTA CONFIRMAR'}</span><h3 id="store-auth-next-title" tabindex="-1">${recovery?'Veja como recuperar sua senha':'Agora abra sua caixa de e-mail'}</h3><p>${recovery?'Se houver uma conta para':'Enviamos um link de confirmação para'} <strong class="store-auth-email">${esc(email)}</strong>${recovery?', você receberá um link para criar uma nova senha.':'.'}</p><ol><li>Procure o e-mail do bora pro enem.</li><li><strong>Confira também Spam ou Lixo eletrônico.</strong> No Gmail, se estiver em Spam, marque “Não é spam”.</li><li>${recovery?'Abra o link recebido para definir sua nova senha.':'Clique no link de confirmação. Depois volte aqui para entrar com sua senha.'}</li></ol><p class="store-auth-help">O envio pode levar alguns minutos. Evite repetir o cadastro enquanto espera.</p><button type="button" class="primary" id="store-auth-continue">${recovery?'Voltar para entrar':'Já confirmei meu e-mail — entrar'}</button><button type="button" class="text-btn" id="store-auth-edit-email">${recovery?'Usar outro e-mail':'Corrigir meu e-mail'}</button></section>`;
+  step.querySelector('#store-auth-continue').onclick=()=>{selectMode('login');dialog.querySelector('[name=password]')?.focus();};
+  step.querySelector('#store-auth-edit-email').onclick=()=>{selectMode(recovery?'recover':'register');dialog.querySelector('[name=email]')?.focus();};
+  step.querySelector('h3').focus();dialog.scrollTop=0;
+ };
  const draw=()=>{
-  const form=dialog.querySelector('form');
-  form.innerHTML=user&&mode!=='password'?`<p>Conta: ${esc(user.email)}</p><button type="button" id="store-logout" class="text-btn">Sair da conta</button>`:`${mode==='register'?'<label>Nome<input name="name" autocomplete="name" maxlength="80"></label>':''}${mode!=='password'?'<label>E-mail<input name="email" type="email" autocomplete="email" required></label>':''}${mode!=='recover'?`<label>${mode==='password'?'Nova senha':'Senha'}<input name="password" type="password" autocomplete="${mode==='login'?'current-password':'new-password'}" minlength="10" maxlength="128" required></label>`:''}<button class="primary" type="submit">${({login:'Entrar',register:'Criar conta',recover:'Enviar recuperação',password:'Salvar nova senha'})[mode]}</button>`;
+  dialog.querySelector('#store-auth-title').textContent=({login:'Entre na sua conta',register:'Crie sua conta',recover:'Recupere sua senha',password:'Defina sua nova senha'})[mode];
+  dialog.querySelector('.account-tabs').hidden=mode==='password';
+  dialog.querySelectorAll('[data-auth]').forEach(button=>{button.classList.toggle('selected',button.dataset.auth===mode);button.setAttribute('aria-pressed',String(button.dataset.auth===mode));});
+  dialog.querySelector('#store-auth-step').hidden=true;
+  const form=dialog.querySelector('form');form.hidden=false;
+  form.innerHTML=user&&mode!=='password'?`<p>Conta: ${esc(user.email)}</p><button type="button" id="store-logout" class="text-btn">Sair da conta</button>`:`${mode==='register'?`<label>Nome<input name="name" autocomplete="name" maxlength="80" value="${esc(name)}"></label>`:''}${mode!=='password'?`<label>E-mail<input name="email" type="email" autocomplete="email" required value="${esc(email)}"></label>`:''}${mode!=='recover'?`<label>${mode==='password'?'Nova senha':'Senha'}<input name="password" type="password" autocomplete="${mode==='login'?'current-password':'new-password'}" minlength="10" maxlength="128" required${mode==='register'?' aria-describedby="store-password-help"':''}></label>${mode==='register'?'<p class="store-auth-help" id="store-password-help">Use pelo menos 10 caracteres. Você vai confirmar seu e-mail antes de entrar.</p>':''}`:''}<button class="primary" type="submit">${({login:'Entrar',register:'Criar conta',recover:'Enviar recuperação',password:'Salvar nova senha'})[mode]}</button>`;
   form.querySelector('#store-logout')?.addEventListener('click',async()=>{
    try{await cloud.request('/logout');user=null;dialog.close();await refresh();status('Você saiu da conta.');}catch{feedback('Não foi possível sair. Tente novamente.');}
   });
   form.onsubmit=async event=>{
-   event.preventDefault();const button=form.querySelector('[type=submit]');if(!button)return;button.disabled=true;
+   event.preventDefault();const button=form.querySelector('[type=submit]');if(!button||submitting)return;
+   submitting=true;button.disabled=true;const submittedMode=mode;
+   dialog.querySelectorAll('[data-auth]').forEach(tab=>tab.disabled=true);
+   const originalText=button.textContent;button.textContent=({register:'Criando sua conta…',login:'Entrando…',recover:'Enviando…',password:'Salvando…'})[submittedMode];
+   feedback('');
    try{
-    const values=Object.fromEntries(new FormData(form));
-    const result=await cloud.request('/'+mode,{method:'POST',body:JSON.stringify({...values,name:values.name||''})});
-    if(result.requiresConfirmation){feedback('Confirme seu e-mail pelo link enviado. Depois entre na sua conta.');return;}
-    if(result.confirmationUnavailable){feedback('A confirmação de e-mail não está configurada. Entre em contato com o suporte.');return;}
-    if(mode==='recover'){feedback(result.message);return;}
+    const values=Object.fromEntries(new FormData(form));email=values.email?.trim()||email;name=values.name||name;
+    const result=await cloud.request('/'+submittedMode,{method:'POST',body:JSON.stringify({...values,name:values.name||''})});
+    if(!dialog.isConnected)return;
+    if(result.requiresConfirmation){nextStep();return;}
+    if(result.confirmationUnavailable){feedback('Não foi possível preparar a confirmação do e-mail. Entre em contato com o suporte.');return;}
+    if(submittedMode==='recover'){nextStep({recovery:true});return;}
     user=result.user||user;dialog.close();await refresh();
-   }catch(error){feedback(error.message||'Não foi possível acessar sua conta. Tente novamente.');}
-   finally{if(button.isConnected)button.disabled=false;}
+    if(continueToPayment&&user&&!started)buy();
+   }catch(error){if(dialog.isConnected)feedback(error.message||'Não foi possível acessar sua conta. Tente novamente.');}
+   finally{submitting=false;if(button.isConnected){button.disabled=false;button.textContent=originalText;}dialog.querySelectorAll('[data-auth]').forEach(tab=>tab.disabled=false);}
   };
  };
- dialog.querySelectorAll('[data-auth]').forEach(button=>button.onclick=()=>{mode=button.dataset.auth;feedback('');draw();});
+ dialog.querySelectorAll('[data-auth]').forEach(button=>button.onclick=()=>{
+  const values=Object.fromEntries(new FormData(dialog.querySelector('form')));email=values.email?.trim()||email;name=values.name||name;selectMode(button.dataset.auth);
+ });
  draw();dialog.showModal();
 }
 
@@ -101,7 +129,7 @@ async function refresh(){
 window.addEventListener('focus',refresh);window.addEventListener('payments-updated',refresh);
 const timer=setInterval(refresh,10000);
 refresh().then(()=>{
-if(!started&&cloud.isRecovering()){mode='password';showAuth();}
+if(!started&&cloud.isRecovering())showAuth('password');
 if(!started&&new URL(location.href).searchParams.get('payment_return')==='1'){
  const url=new URL(location.href);url.searchParams.delete('payment_return');history.replaceState(null,'',url);buy();
 }
